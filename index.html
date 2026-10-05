@@ -163,7 +163,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 
   function lire(k){ try { return JSON.parse(localStorage.getItem(k) || "{}") || {}; } catch(e) { return {}; } }
   function ecrire(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e) {} }
-  var K_NOTES = "qr-notes-v1", K_JOURS = "qr-jours-v1";
+  var K_NOTES = "qr-notes-v1", K_JOURS = "qr-jours-v1", K_SERIE = "qr-serie-encours-v1";
   var mem = lire(K_MEM), sig = lire(K_SIG), notes = lire(K_NOTES), jours = lire(K_JOURS);
 
   var app = document.getElementById("app"), prog = document.getElementById("prog");
@@ -205,7 +205,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     var sj = serieJours(), fait = jours.dernier === aujourdhui();
     h += '<div class="jours'+(fait ? " ok" : "")+'"><b>🔥 '+sj+' jour'+(sj > 1 ? "s" : "")+' d\'affilée</b><span>'+(fait ? "Série du jour faite. À demain." : (sj ? "Fais une série aujourd\'hui pour ne pas perdre ta flamme." : "Fais une série par jour : ta flamme grandit."))+(jours.record ? ' · record '+jours.record : '')+'</span></div>';
     h += '<div class="sync'+(nuage ? " on" : "")+'"><i></i>'+(nuage ? "Progrès suivis sur PC et iPhone" : "Progrès gardés sur cet appareil")+'</div>';
-    h += '<button class="all" data-all><span>Série du jour</span><small>'+Math.min(du, SERIE)+' cartes ›</small></button>';
+    var sg = serieGardee();
+    if (sg) h += '<button class="all" data-reprendre><span>Reprendre ma série</span><small>question '+((sg.fait || 0) + 1)+' / '+sg.total+' ›</small></button>';
+    h += '<button class="'+(sg ? "ghost" : "all")+'" data-all><span>'+(sg ? "Nouvelle série du jour" : "Série du jour")+'</span><small>'+Math.min(du, SERIE)+' cartes ›</small></button>';
     h += '<button class="ghost" data-ana><span>Mes analyses</span><small>forts · faibles · oublis ›</small></button>';
     h += '<div class="sec">Thèmes</div>';
     CFG.themes.forEach(function(t){
@@ -217,6 +219,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     app.innerHTML = h;
     lierNiveaux(accueil);
     app.querySelector("[data-all]").onclick = function(){ lancer(de(), "Série du jour", accueil, true); };
+    var rp = app.querySelector("[data-reprendre]"); if (rp) rp.onclick = reprendre;
     app.querySelector("[data-ana]").onclick = analyses;
     app.querySelectorAll("[data-t]").forEach(function(b){ b.onclick = function(){ theme(b.dataset.t); }; });
     app.querySelector("[data-exp]").onclick = exporter;
@@ -267,7 +270,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     neuves.sort(function(a,b){ return a.niveau - b.niveau; });   // les niveaux montent : N1, puis N2, puis N3
     if (melange){ melanger(dues); }
     var l = dues.concat(neuves).slice(0, SERIE);
-    s.file = l; s.total = l.length; s.fait = 0; neuf(); s.rates = {}; s.premier = {}; s.journal = []; s.titre = titre; s.retour = retour;
+    s.file = l; s.total = l.length; s.fait = 0; neuf(); s.rates = {}; s.premier = {}; s.journal = []; s.titre = titre; s.retour = retour; garderSerie();
     carte();
   }
 
@@ -431,6 +434,21 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     jours.dernier = auj; jours.record = Math.max(jours.record || 0, jours.n);
     ecrire(K_JOURS, jours); marquerNotes();
   }
+  var CARTE_ID = {}; CARTES.forEach(function(c){ CARTE_ID[c.id] = c; });
+  function garderSerie(){
+    if (!s.file.length){ try { localStorage.removeItem(K_SERIE); } catch(e){} return; }
+    ecrire(K_SERIE, {ids: s.file.map(function(c){ return c.id; }), fait: s.fait, total: s.total, titre: s.titre,
+      journal: s.journal.map(function(j){ return {id: j.c.id, note: j.note, ms: j.ms}; }), premier: s.premier, rates: s.rates});
+  }
+  function serieGardee(){ var g = lire(K_SERIE); return g && g.ids && g.ids.length ? g : null; }
+  function reprendre(){
+    var g = serieGardee(); if (!g) return;
+    s.file = g.ids.map(function(id){ return CARTE_ID[id]; }).filter(Boolean);
+    s.fait = g.fait || 0; s.total = g.total || s.file.length; s.titre = g.titre || "Ma série";
+    s.premier = g.premier || {}; s.rates = g.rates || {}; s.retour = accueil;
+    s.journal = (g.journal || []).filter(function(j){ return CARTE_ID[j.id]; }).map(function(j){ return {c: versionBrute(CARTE_ID[j.id]), note: j.note, ms: j.ms}; });
+    neuf(); carte();
+  }
   function neuf(){ clearInterval(chronoMinuteur); chronoCle = null; s.vue = false; s.tentative = 1; s.sel = null; s.mauvais = null; s.choisi = null; }
   function noter(note){
     var c = s.file.shift(), x = m(c), vu = version(c), n = prochain(x, note);
@@ -452,12 +470,13 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       s.fait++;
     }
     mem[c.id] = x; ecrire(K_MEM, mem); marquer(c.id);
-    neuf(); carte();
+    neuf(); garderSerie(); carte();
   }
 
   /* ---------- Résultats de fin de série ---------- */
   function resultats(){
     rafraichir = null; clearInterval(chronoMinuteur); compterJour();
+    try { localStorage.removeItem(K_SERIE); } catch(e){}
     prog.firstChild.style.width = "100%";
     var J = s.journal, n = [0,0,0,0];
     J.forEach(function(j){ n[j.note]++; });
