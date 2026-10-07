@@ -173,9 +173,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 <div class="prog" id="prog" hidden><i></i></div>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>window.OneSignalDeferred = window.OneSignalDeferred || []; OneSignalDeferred.push(async function(OneSignal){ await OneSignal.init({ appId: "601d4571-b213-41a3-80cc-f159841528f0" }); });</script>
-<script src="logo.js?v=202610072311"></script>
-<script src="questions.js?v=202610072311"></script>
-<script src="cartes.js?v=202610072311"></script>
+<script src="logo.js?v=202610072318"></script>
+<script src="questions.js?v=202610072318"></script>
+<script src="cartes.js?v=202610072318"></script>
 <script>
 (function(){
   var CFG = window.QR_CONFIG || {niveaux:{}, themes:[]};
@@ -269,11 +269,12 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
         + '<p>' + cN.length + ' nouvelle' + (cN.length > 1 ? 's' : '') + ' carte' + (cN.length > 1 ? 's' : '') + ' : « ' + esc(chN.join(" », « ")) + ' »</p>'
         + '<span class="go">Touche ici pour commencer ›</span></button>';
     }
-    if (notif && !notif.on){
-      if (notif.ok) h += '<button class="cloche" data-notif>🔔 Activer les notifications<small>pour être prévenu dès qu’il y a du nouveau</small></button>';
-      else if (/iPhone|iPad/.test(navigator.userAgent) && !(navigator.standalone || (window.matchMedia && matchMedia("(display-mode: standalone)").matches)))
-        h += '<div class="cloche info">🔔 Pour recevoir les notifications sur iPhone : touche Partager, puis « Sur l’écran d’accueil », et ouvre l’app depuis la nouvelle icône.</div>';
-    }
+    // Bouton des notifications (site public seulement : là où le SDK OneSignal est chargé).
+    var aSdk = !!window.OneSignalDeferred, horsIcone = !(navigator.standalone || (window.matchMedia && matchMedia("(display-mode: standalone)").matches));
+    if (aSdk && /iPhone|iPad/.test(navigator.userAgent) && horsIcone)
+      h += '<div class="cloche info">🔔 Pour recevoir les notifications : touche Partager, puis « Sur l’écran d’accueil », puis ouvre l’app depuis la nouvelle icône. Le bouton « Activer les notifications » sera ici.</div>';
+    else if (aSdk && !(notif && (notif.on || !notif.ok)))
+      h += '<button class="cloche" data-notif>🔔 Activer les notifications<small>pour être prévenu dès qu’il y a du nouveau</small></button>';
     h += '<div class="stats"><div class="stat hot"><b>'+du+'</b><span>à revoir</span></div><div class="stat ok"><b>'+acq+'</b><span>maîtrisées</span></div><div class="stat"><b>'+l.length+'</b><span>cartes</span></div></div>';
     h += niveaux();
     var sj = serieJours(), fait = jours.dernier === aujourdhui();
@@ -744,9 +745,17 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     });
   }
   function activerNotif(){
-    if (!notif || !notif.os) return;
-    notif.os.Notifications.requestPermission().then(function(){ notif.on = !!notif.os.User.PushSubscription.optedIn; if (notif.on) toast("🔔 Notifications activées."); accueil(); }).catch(function(){});
+    if (!window.OneSignalDeferred) return;
+    window.OneSignalDeferred.push(async function(OS){
+      try {
+        await OS.Notifications.requestPermission();
+        notif = {os: OS, ok: OS.Notifications.isPushSupported(), on: !!OS.User.PushSubscription.optedIn};
+        toast(notif.on ? "🔔 Notifications activées." : "Notifications pas encore activées.");
+        accueil();
+      } catch(e){ toast("Impossible d’activer les notifications ici."); }
+    });
   }
+
 
   /* ---------- Son « Nouveau » (demande de Trésor du 07/10/2026) ----------
      Quand une mise à jour apporte des nouveautés, le son joue à l'ouverture de l'app, puis toutes les 5 minutes
