@@ -173,9 +173,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 <div class="prog" id="prog" hidden><i></i></div>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>window.OneSignalDeferred = window.OneSignalDeferred || []; OneSignalDeferred.push(async function(OneSignal){ await OneSignal.init({ appId: "601d4571-b213-41a3-80cc-f159841528f0" }); });</script>
-<script src="logo.js?v=202610072257"></script>
-<script src="questions.js?v=202610072257"></script>
-<script src="cartes.js?v=202610072257"></script>
+<script src="logo.js?v=202610072311"></script>
+<script src="questions.js?v=202610072311"></script>
+<script src="cartes.js?v=202610072311"></script>
 <script>
 (function(){
   var CFG = window.QR_CONFIG || {niveaux:{}, themes:[]};
@@ -261,7 +261,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     prog.hidden = true; rafraichir = accueil;
     var l = de(), du = l.filter(aRevoir).length, acq = l.filter(maitrise).length;
     var h = LOGO.replace('class="logo"', 'class="logo grand"') + '<div class="kicker">Second cerveau · OBSIDIAN-KB</div><h1>Mes cartes</h1><p class="lead">Comme au code : une question, 3 réponses, tu valides. Séries de 40, réussi à 35.</p>';
-    var nvA = nouveautes(), tNouv = CFG.themes.filter(function(t){ return badge(nvA, "T|" + t.id); });
+    var nvA = nouveautes(), tNouv = CFG.themes.filter(function(t){ return !!nvA["T|" + t.id]; });
     if (tNouv.length && (lire(K_BAN).maj || "") !== MAJ){
       var cN = CARTES.filter(estNouv), chN = [];
       cN.forEach(function(x){ if (chN.indexOf(x.chapitre) < 0) chN.push(x.chapitre); });
@@ -287,7 +287,8 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     var nv = nouveautes();
     CFG.themes.forEach(function(t){
       var c = de(t.id), d = c.filter(aRevoir).length, a = c.filter(maitrise).length;
-      h += '<button class="row'+(c.length?"":" vide")+'" data-t="'+t.id+'"><span class="tag">'+esc(t.tag)+'</span><span class="tinfo"><b>'+esc(t.nom)+'</b><small>'+(c.length ? c.length+' cartes · '+a+' maîtrisées' : 'pas encore de cartes')+'</small><div class="mini"><i style="width:'+pct(a,c.length)+'%"></i></div></span>'+badge(nv, "T|"+t.id)+(d ? '<span class="due">'+d+'</span>' : '')+'</button>';
+      var bt = nv["T|"+t.id] ? NOUV : "";
+      h += '<button class="row'+(c.length?"":" vide")+(bt ? " cible" : "")+'" data-t="'+t.id+'"><span class="tag">'+esc(t.tag)+'</span><span class="tinfo"><b>'+esc(t.nom)+'</b><small>'+(c.length ? c.length+' cartes · '+a+' maîtrisées' : 'pas encore de cartes')+'</small><div class="mini"><i style="width:'+pct(a,c.length)+'%"></i></div></span>'+bt+(d ? '<span class="due">'+d+'</span>' : '')+'</button>';
     });
     h += '<div class="foot"><button data-exp>Sauvegarder mes progrès</button><label>Restaurer<input type="file" accept=".json,application/json" data-imp></label></div>';
     h += '<p class="note">Tes progrès restent sur ce téléphone. Sauvegarde-les de temps en temps.</p>';
@@ -319,8 +320,8 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
   function theme(id){
     prog.hidden = true; rafraichir = function(){ theme(id); };
     var t = THEME[id], c = de(id), nv = nouveautes();
-    if (badge(nv, "T|" + id)) sonVu();   // on a ouvert la nouveauté : le son s'arrête jusqu'à la prochaine mise à jour
-    marquerVu("T|" + id);   // le thème est ouvert : son badge part (les chapitres gardent le leur)
+    if (nv["T|" + id]) sonVu();   // on a ouvert la nouveauté : le son s'arrête jusqu'à la prochaine mise à jour
+    // Le thème garde son badge tant qu’un de ses chapitres nouveaux n’est pas ouvert : il guide jusqu’au chapitre (Trésor, 07/10/2026).
     var h = '<div class="top"><button class="x" data-x>‹ Accueil</button>'+LOGO+'<span class="count">'+esc(t.tag)+'</span></div><h2 class="titre">'+esc(t.nom)+'</h2><p class="lead">'+c.length+' cartes · '+c.filter(maitrise).length+' maîtrisées</p>';
     h += niveaux();
     if (!c.length){
@@ -780,7 +781,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
   function sonAttendu(){
     if ((lire(K_SON).maj || "") === MAJ) return false;
     var nv = nouveautes();
-    return Object.keys(nv).some(function(k){ return k.indexOf("T|") === 0 && badge(nv, k); });
+    return Object.keys(nv).some(function(k){ return k.indexOf("T|") === 0 && !!nv[k]; });
   }
   function arreterSon(){ clearInterval(sonMinuteur); sonMinuteur = null; if (son){ try { son.pause(); son.currentTime = 0; } catch(e){} } }
   // La nouveauté est ouverte : plus de rappel toutes les 5 min. Le son en cours finit ses 16 s (il accompagne la poussière d'or).
@@ -800,6 +801,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       if (p && p.catch) p.catch(function(){ attendreGeste(); });
     } catch(e){}
   }
+  function couperSon(){ if (son && !son.paused){ try { son.pause(); son.currentTime = 0; } catch(e){} } }
+  document.addEventListener("pointerdown", couperSon, true);
+  document.addEventListener("keydown", couperSon, true);
   function lancerSon(){ arreterSon(); if (!sonAttendu()) return; jouerSon(); sonMinuteur = setInterval(jouerSon, SON_MS); }
 
   accueil();
