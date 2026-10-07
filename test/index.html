@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#120b0a">
+<title>Mes Cartes TEST</title>
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-title" content="Cartes TEST">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Look unique, sombre, voulu (bordeaux et marron, demande de Trésor). Mise en page : une colonne, une carte au centre, comme l'app de Malik. */
+/* Design : cartes de Malik ([S029], captures APLI 1 à 6), en bordeaux et marron. Règles : Système/Prompts/App-QR-règles.md */
+:root{
+  --bg:#120b0a; --bg-glow:#2a1210; --card:#1b1210; --card-2:#221714; --line:#3a2721;
+  --text:#f4ebe6; --muted:#9c8578; --dim:#6d5a50;
+  --bordeaux:#7d1f2e; --bordeaux-hi:#a3293d; --caramel:#c58b5b; --caramel-soft:#2b1d16;
+  --vert:#7fae7a; --vert-soft:#1d2a1c;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --sans:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+body{background:radial-gradient(120% 60% at 50% -10%,var(--bg-glow) 0%,var(--bg) 60%) fixed,var(--bg);color:var(--text);font:16px/1.5 var(--sans);
+  padding:calc(env(safe-area-inset-top) + 20px) 16px calc(env(safe-area-inset-bottom) + 36px);max-width:680px;margin:0 auto}
+button{font:inherit;color:inherit;cursor:pointer}
+.kicker{font:500 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--caramel)}
+h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:8px 0 4px}
+.lead{color:var(--muted);font-size:14px;margin-bottom:20px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:18px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 10px}
+.stat b{display:block;font-size:22px;font-weight:700}
+.stat span{font:11px var(--mono);color:var(--muted)}
+.stat.hot b{color:var(--bordeaux-hi)} .stat.ok b{color:var(--vert)}
+.levels{display:flex;gap:6px;margin-bottom:14px;overflow-x:auto;scrollbar-width:none}
+.lvl{flex:none;border:1px solid var(--line);background:transparent;border-radius:999px;padding:7px 14px;font:500 12px var(--mono);color:var(--muted)}
+.lvl.on{background:var(--bordeaux);border-color:var(--bordeaux-hi);color:#fff}
+.all{display:flex;align-items:center;justify-content:space-between;width:100%;border:0;border-radius:16px;padding:16px 18px;margin-bottom:10px;
+  background:linear-gradient(135deg,var(--bordeaux-hi),var(--bordeaux) 55%,#4a1219);color:#fff;font-weight:600;font-size:16px;box-shadow:0 10px 30px -12px rgba(163,41,61,.7)}
+.all small{font:12px var(--mono);opacity:.85}
+.ghost{display:flex;align-items:center;justify-content:space-between;width:100%;border:1px solid var(--line);background:var(--card);border-radius:16px;padding:14px 18px;margin-bottom:18px;font-weight:600}
+.ghost small{font:12px var(--mono);color:var(--caramel)}
+.sec{font:500 11px var(--mono);letter-spacing:.14em;color:var(--dim);text-transform:uppercase;margin:18px 0 10px}
+.row{display:flex;align-items:center;gap:14px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin-bottom:8px;transition:border-color .15s,transform .15s}
+.row:active{transform:scale(.99)} .row:hover{border-color:var(--bordeaux)}
+.row.vide{opacity:.5}
+.tag{flex:none;width:62px;font:500 10px var(--mono);letter-spacing:.06em;color:var(--caramel);background:var(--caramel-soft);border-radius:8px;padding:6px 0;text-align:center}
+.tinfo{flex:1;min-width:0}
+.tinfo b{display:block;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tinfo small{font:11px var(--mono);color:var(--muted)}
+.mini{height:3px;background:var(--line);border-radius:2px;margin-top:8px;overflow:hidden}
+.mini i{display:block;height:100%;background:linear-gradient(90deg,var(--bordeaux),var(--caramel))}
+.due{flex:none;font:600 12px var(--mono);color:var(--bordeaux-hi)}
+/* Badge doré « Nouveau » (demande de Trésor du 07/10/2026) : sur un thème, un chapitre ou une carte ajoutés depuis sa 1re visite. Il part une fois ouvert. */
+.nouv{flex:none;display:inline-flex;align-items:center;gap:4px;font:700 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#2a1a05;background:linear-gradient(135deg,#fbe6a2,#e0b048 50%,#b07b1e);border-radius:999px;padding:5px 9px;box-shadow:0 0 14px -3px rgba(232,182,72,.75)}
+.nouv i{font-style:normal;font-size:11px}
+.meta .nouv{padding:3px 8px}
+/* Grande bannière « Nouveau » de l'accueil (Trésor, 07/10/2026) : au clic, elle part en poussière d'or et mène au nouveau chapitre. */
+.ban{position:relative;display:block;width:100%;text-align:left;border:0;border-radius:20px;padding:22px 20px 20px;margin:4px 0 22px;overflow:hidden;cursor:pointer;color:var(--text);
+  background:radial-gradient(120% 140% at 0% 0%,#4a3510 0%,#22170b 55%,#170f0a 100%);
+  box-shadow:0 0 0 1px rgba(232,182,72,.6) inset,0 20px 44px -18px rgba(232,182,72,.6);transition:transform .6s ease,opacity .6s ease}
+.ban::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,236,170,.2) 45%,transparent 60%);transform:translateX(-100%);animation:brille 3.2s ease-in-out infinite}
+@keyframes brille{to{transform:translateX(100%)}}
+.ban .k{display:block;font:700 11px/1 var(--mono);letter-spacing:.34em;color:#e8c066}
+.ban h2{font-size:52px;line-height:1;font-weight:900;letter-spacing:.04em;text-transform:uppercase;margin:12px 0 6px;background:linear-gradient(180deg,#fff6d2,#ecc05a 55%,#b07b1e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ban .ligne{display:flex;align-items:center;flex-wrap:wrap;gap:4px 16px;margin:12px 0 10px}
+.ban .ligne h2{margin:0}
+.ban .cri{display:block;font-size:22px;line-height:1.2;font-weight:800;color:#fff1cc;margin:0;text-shadow:0 0 18px rgba(232,182,72,.45)}
+.ban p{color:#e9d3a6;font-size:14px;font-weight:600;margin:0}
+.ban .go{display:inline-block;margin-top:16px;padding:10px 16px;border-radius:999px;background:linear-gradient(135deg,#fbe6a2,#e0b048 50%,#b07b1e);color:#2a1a05;font:700 12px/1 var(--mono);letter-spacing:.06em;box-shadow:0 6px 18px -6px rgba(232,182,72,.8)}
+.ban.part{opacity:0;transform:scale(.94)}
+.poudre{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:60}
+/* Bouton « Activer les notifications » (site public seulement, OneSignal, décision 40). */
+.cloche{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:100%;text-align:left;border:1px solid #b07b1e;background:linear-gradient(135deg,rgba(224,176,72,.16),rgba(176,123,30,.08));border-radius:16px;padding:14px 18px;margin:0 0 18px;font-weight:700;color:#fff1cc}
+.cloche small{font:12px var(--mono);font-weight:400;color:#d6b673}
+.cloche.info{font-weight:600;font-size:14px;line-height:1.45}
+.row.cible{border-color:#e0b048;box-shadow:0 0 0 1px #e0b048 inset;animation:halo 1.4s ease-in-out infinite}
+@keyframes halo{50%{box-shadow:0 0 0 1px #e0b048 inset,0 0 24px -2px rgba(232,182,72,.75)}}
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}
+.x{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:7px 12px;font:12px var(--mono);color:var(--muted)}
+.count{font:12px var(--mono);color:var(--muted)}
+h2.titre{font-size:22px;font-weight:700;margin-bottom:4px}
+.space{height:12vh}
+.meta{font:11px var(--mono);color:var(--dim);margin:0 0 8px 4px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.meta .t{color:var(--text);letter-spacing:.06em} .meta .k{color:var(--caramel)}
+.dotr{width:6px;height:6px;border-radius:50%;background:var(--bordeaux-hi);display:inline-block}
+.qcard{display:block;width:100%;text-align:left;background:linear-gradient(180deg,var(--card-2),var(--card));border:1px solid var(--line);border-radius:16px;padding:20px 18px;
+  box-shadow:0 20px 50px -25px rgba(0,0,0,.8);animation:in .25s ease}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.qcard h3{font-size:19px;line-height:1.4;font-weight:700;letter-spacing:-.01em}
+.extrait{margin-top:14px;padding:12px 14px;border-left:3px solid var(--bordeaux-hi);background:rgba(125,31,46,.12);border-radius:0 10px 10px 0;font-size:14px;font-style:italic;color:#e8d9d0;white-space:pre-wrap}
+.tap{display:block;margin-top:16px;font:12px var(--mono);color:var(--caramel)}
+.choix{display:grid;gap:8px;margin-top:14px}
+.choix button{text-align:left;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:12px 14px;font-size:15px}
+.choix button.bon{border-color:var(--vert);background:var(--vert-soft)}
+.choix button.faux{border-color:var(--bordeaux-hi);background:rgba(125,31,46,.25)}
+.choix button:disabled{cursor:default}
+.rep{margin-top:16px;padding-top:16px;border-top:1px solid var(--line);font-size:15px;line-height:1.6}
+.rep p+p{margin-top:4px} .w{color:var(--muted)}
+.box{margin-top:14px;border-radius:12px;padding:12px 14px;font-size:14px;line-height:1.55}
+.box b{display:block;font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}
+.box.expl{background:var(--caramel-soft);border:1px solid #4a3326} .box.expl b{color:var(--caramel)}
+.box.zyl{background:rgba(125,31,46,.14);border:1px solid #4d2228} .box.zyl b{color:#e07a8a}
+.ref{margin-top:12px;font:11px var(--mono);color:var(--dim)}
+.btns{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px;animation:in .25s ease}
+.btns.deux{grid-template-columns:repeat(2,1fr)} .btns.un{grid-template-columns:1fr}
+.btns button{border-radius:12px;padding:13px 6px;font-weight:600;font-size:14px;border:1px solid var(--line);background:var(--card)}
+.btns small{display:block;font:400 10px var(--mono);margin-top:3px;opacity:.8}
+.btns .b1{border-color:#5a2a30;color:#e9a3ad}
+.btns .b2{background:linear-gradient(135deg,var(--bordeaux-hi),var(--bordeaux));border-color:var(--bordeaux-hi);color:#fff}
+.btns .b3{border-color:var(--caramel);color:var(--caramel)}
+.signal{display:block;margin:16px auto 0;border:0;background:none;font:11px var(--mono);color:var(--dim)}
+.signal.on{color:var(--bordeaux-hi)}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--card-2);border:1px solid var(--bordeaux);color:var(--text);font-size:13px;padding:10px 14px;border-radius:12px;max-width:90vw;animation:in .2s ease;z-index:5}
+.prog{position:fixed;left:0;right:0;bottom:0;height:4px;background:rgba(255,255,255,.04)}
+.prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--bordeaux),var(--bordeaux-hi) 70%,var(--caramel));transition:width .3s}
+.fin{text-align:center;padding:40px 10px} .fin b{display:block;font-size:24px;margin-bottom:8px} .fin p{color:var(--muted)}
+.retour{margin-top:22px;border:0;border-radius:14px;padding:14px 22px;background:var(--bordeaux);color:#fff;font-weight:600}
+.empty{color:var(--muted);text-align:center;padding:30px 14px;background:var(--card);border:1px dashed var(--line);border-radius:16px}
+.ana{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin-bottom:8px}
+.ana .l{display:flex;justify-content:space-between;gap:10px;font-size:14px}
+.ana .l span:last-child{font:12px var(--mono);color:var(--muted);flex:none}
+.ana + .ana{margin-top:0}
+.verdict{font-size:15px;margin-bottom:6px}
+.verdict b{color:var(--caramel)}
+.foot{display:flex;gap:8px;margin-top:26px}
+.foot button,.foot label{flex:1;text-align:center;border:1px solid var(--line);background:transparent;border-radius:12px;padding:10px;font:12px var(--mono);color:var(--muted);cursor:pointer}
+.foot input{display:none}
+.res{cursor:pointer}
+.travail{font:11px var(--mono);color:var(--caramel);margin-bottom:10px}
+.extrait b{display:block;font:500 10px var(--mono);font-style:normal;letter-spacing:.12em;text-transform:uppercase;color:var(--caramel);margin-bottom:4px}
+.extrait{margin:0 0 14px}
+.essai{margin-top:10px;font-size:14px;color:#e9a3ad}
+.choix button{display:flex;gap:12px;align-items:flex-start}
+.lettre{flex:none;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font:600 12px var(--mono);background:var(--caramel-soft);color:var(--caramel)}
+.choix button.sel{border-color:var(--caramel);background:var(--caramel-soft)}
+.choix button.sel .lettre{background:var(--caramel);color:var(--bg)}
+.choix button.bon .lettre{background:var(--vert);color:var(--bg)}
+.choix button.faux .lettre{background:var(--bordeaux-hi);color:#fff}
+.valider{display:block;width:100%;margin-top:14px;border:0;border-radius:12px;padding:14px;font-weight:700;font-size:16px;background:linear-gradient(135deg,var(--bordeaux-hi),var(--bordeaux));color:#fff}
+.valider:disabled{opacity:.35;cursor:default}
+.verdict-ok{color:var(--vert);font-weight:700} .verdict-ko{color:#e9a3ad;font-weight:700}
+.notes{margin-top:14px;font-size:13px}
+.notes summary{cursor:pointer;font:12px var(--mono);color:var(--muted)}
+.notes textarea{width:100%;margin-top:8px;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px;font:14px var(--sans);resize:vertical}
+.logo{width:40px;height:40px;border-radius:50%;display:block;box-shadow:0 0 0 2px var(--bordeaux),0 0 0 4px var(--caramel-soft),0 8px 20px -8px rgba(197,139,91,.55)}
+.logo.grand{width:72px;height:72px;margin-bottom:14px;box-shadow:0 0 0 3px var(--bordeaux),0 0 0 6px var(--caramel-soft),0 14px 34px -10px rgba(197,139,91,.6)}
+.top .logo{flex:none}
+.chrono{position:relative;height:26px;margin-top:14px;border-radius:8px;background:var(--bg);border:1px solid var(--line);overflow:hidden}
+.chrono i{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,var(--bordeaux),var(--caramel));opacity:.35;transition:width .25s linear}
+.chrono span{position:relative;display:block;text-align:center;font:600 12px/26px var(--mono);color:var(--text)}
+.chrono.presse{border-color:var(--bordeaux-hi)} .chrono.presse span{color:#e9a3ad}
+.jours{display:flex;flex-direction:column;gap:2px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:14px}
+.jours b{font-size:16px} .jours span{font:11px var(--mono);color:var(--muted)}
+.jours.ok{border-color:var(--caramel)}
+.note{font:11px var(--mono);color:var(--dim);margin-top:10px;text-align:center}
+.sync{display:inline-flex;align-items:center;gap:6px;font:11px var(--mono);color:var(--muted);margin-bottom:16px}
+.sync i{width:7px;height:7px;border-radius:50%;background:var(--dim)}
+.sync.on i{background:var(--vert)}
+button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<div id="app"></div>
+<div class="prog" id="prog" hidden><i></i></div>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>window.OneSignalDeferred = window.OneSignalDeferred || []; OneSignalDeferred.push(async function(OneSignal){ await OneSignal.init({ appId: "601d4571-b213-41a3-80cc-f159841528f0" }); });</script>
+<script src="logo.js?v=202610072257"></script>
+<script src="questions.js?v=202610072257"></script>
+<script src="cartes.js?v=202610072257"></script>
+<script>
+(function(){
+  var CFG = window.QR_CONFIG || {niveaux:{}, themes:[]};
+  var CARTES = window.QR_CARTES || [];
+  var LOGO = window.QR_LOGO ? '<img class="logo" src="'+window.QR_LOGO+'" alt="">' : '';
+  var THEME = {}; CFG.themes.forEach(function(t){ THEME[t.id] = t; });
+  var MIN = 6e4, JOUR = 864e5;
+  var ECHELLE = [1, 3, 7, 15, 30, 60];       // jours entre deux passages, palier 0 à 5
+  var MAITRISE = 3;                          // palier 3 = 15 jours = « je maîtrise »
+  var SERIE = 40;                            // questions par série, comme l'examen du code
+  var REUSSI = 35 / 40;                      // réussi à 35 sur 40, comme au code
+  var K_MEM = "qr-cartes-v2", K_SIG = "qr-signal-v1";
+
+  function lire(k){ try { return JSON.parse(localStorage.getItem(k) || "{}") || {}; } catch(e) { return {}; } }
+  function ecrire(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e) {} }
+  var K_NOTES = "qr-notes-v1", K_JOURS = "qr-jours-v1", K_SERIE = "qr-serie-encours-v1";
+  var mem = lire(K_MEM), sig = lire(K_SIG), notes = lire(K_NOTES), jours = lire(K_JOURS);
+
+  /* ---------- Badge « Nouveau » ----------
+     Une carte est nouvelle si elle a été ajoutée (champ "ajout") après la 1re visite de cet appareil
+     et qu'elle n'a jamais été jouée. Un thème ou un chapitre porte le badge tant qu'il contient
+     une carte nouvelle plus récente que la dernière fois où on l'a ouvert. */
+  var K_VU = "qr-vu-v1", K_DEBUT = "qr-debut-v1", vu = lire(K_VU);
+  var debut = (function(){
+    try {
+      var d = localStorage.getItem(K_DEBUT); if (d) return d;
+      var t = Infinity; for (var k in mem) if (mem[k] && mem[k].dernier && mem[k].dernier < t) t = mem[k].dernier;
+      // Appareil neuf : la dernière mise à jour compte comme « Nouveau » (pour la voir et la tester une fois).
+      var der = CARTES.reduce(function(m, c){ return c.ajout && c.ajout > m ? c.ajout : m; }, "");
+      var veille = der ? aujourdhui(new Date(new Date(der + "T12:00:00").getTime() - JOUR)) : aujourdhui();
+      d = t < Infinity ? aujourdhui(new Date(t)) : veille;
+      localStorage.setItem(K_DEBUT, d); return d;
+    } catch(e) { return "9999-12-31"; }
+  })();
+  var NOUV = '<span class="nouv"><i>✦</i>Nouveau</span>';
+  function estNouv(c){ return !!c.ajout && c.ajout > debut && !mem[c.id]; }
+  function nouveautes(){
+    var o = {};
+    CARTES.forEach(function(x){
+      if (!estNouv(x)) return;
+      var kc = x.theme + "|" + x.chapitre, kt = "T|" + x.theme;
+      if (!o[kc] || x.ajout > o[kc]) o[kc] = x.ajout;
+      if (!vu[kc] || x.ajout > vu[kc]){ if (!o[kt] || x.ajout > o[kt]) o[kt] = x.ajout; }
+    });
+    return o;
+  }
+  function badge(o, k){ return o[k] && (!vu[k] || o[k] > vu[k]) ? NOUV : ""; }
+  function marquerVu(k){ vu[k] = aujourdhui(); ecrire(K_VU, vu); }
+
+  var app = document.getElementById("app"), prog = document.getElementById("prog");
+  var rafraichir = null;   // l'écran à redessiner quand les progrès arrivent d'un autre appareil
+  var s = { niveau: "tous", file: [], fait: 0, total: 0, vue: false, choix: null, rates: {}, titre: "", retour: null };
+
+  // Une scène qui contient déjà ses guillemets « » ne reçoit pas une 2e paire (07/10/2026).
+  function cite(x){ return /«/.test(String(x)) ? esc(x) : '« '+esc(x)+' »'; }
+  function esc(x){ return String(x == null ? "" : x).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function m(c){ return mem[c.id] || {p:-1, due:0, vus:0, ok:0, ko:0, oubli:0, top:-1}; }
+  function okNiv(c){ return s.niveau === "tous" || String(c.niveau) === s.niveau; }
+  function aRevoir(c){ var x = mem[c.id]; return !x || x.due <= Date.now(); }
+  function nouvelle(c){ return !mem[c.id]; }
+  function maitrise(c){ return m(c).p >= MAITRISE; }
+  function sait_pas(c){ var x = m(c); return x.vus > 0 && x.ok === 0; }
+  function oubliee(c){ var x = m(c); return x.oubli > 0 && x.p < MAITRISE; }
+  function duree(ms){ return ms < JOUR ? "dans " + Math.round(ms / MIN) + " min" : (ms < 2*JOUR ? "demain" : "dans " + Math.round(ms / JOUR) + " j"); }
+  /* Délais (Décisions.md n° 8) : je savais pas = 10 min, j'ai hésité = 15 min, je savais = 30 min.
+     Après 2 « je savais » de suite, la carte passe aux jours : 1, 3, 7, 15, 30, 60. */
+  function prochain(x, note){
+    var o = {p: x.p, serie: x.serie || 0};
+    if (note === 1){ o.p = -1; o.serie = 0; o.ms = 10*MIN; }
+    else if (note === 2){ o.p = x.p < 0 ? -1 : Math.max(0, x.p - 1); o.serie = 0; o.ms = 15*MIN; }
+    else if (x.p < 0){ o.serie++; if (o.serie >= 2){ o.p = 0; o.ms = ECHELLE[0]*JOUR; } else o.ms = 30*MIN; }
+    else { o.p = Math.min(ECHELLE.length - 1, x.p + 1); o.ms = ECHELLE[o.p]*JOUR; }
+    return o;
+  }
+  function niv(n){ return "N" + n + " · " + (CFG.niveaux[n] || ""); }
+  function toast(t){ var d = document.createElement("div"); d.className = "toast"; d.textContent = t; document.body.appendChild(d); setTimeout(function(){ d.remove(); }, 2600); }
+  function de(theme, chapitre){ return CARTES.filter(function(c){ return okNiv(c) && (!theme || c.theme === theme) && (!chapitre || c.chapitre === chapitre); }); }
+  function pct(a, b){ return b ? Math.round(a / b * 100) : 0; }
+
+  /* ---------- Accueil ---------- */
+  function accueil(){
+    clearInterval(chronoMinuteur); chronoCle = null;
+    prog.hidden = true; rafraichir = accueil;
+    var l = de(), du = l.filter(aRevoir).length, acq = l.filter(maitrise).length;
+    var h = LOGO.replace('class="logo"', 'class="logo grand"') + '<div class="kicker">Second cerveau · OBSIDIAN-KB</div><h1>Mes cartes</h1><p class="lead">Comme au code : une question, 3 réponses, tu valides. Séries de 40, réussi à 35.</p>';
+    var nvA = nouveautes(), tNouv = CFG.themes.filter(function(t){ return badge(nvA, "T|" + t.id); });
+    if (tNouv.length && (lire(K_BAN).maj || "") !== MAJ){
+      var cN = CARTES.filter(estNouv), chN = [];
+      cN.forEach(function(x){ if (chN.indexOf(x.chapitre) < 0) chN.push(x.chapitre); });
+      h += '<button class="ban" data-ban><span class="k">✦ Mise à jour ✦</span><span class="ligne"><h2>Nouveau</h2><span class="cri">On va tout arracher, les gars !</span></span>'
+        + '<p>' + cN.length + ' nouvelle' + (cN.length > 1 ? 's' : '') + ' carte' + (cN.length > 1 ? 's' : '') + ' : « ' + esc(chN.join(" », « ")) + ' »</p>'
+        + '<span class="go">Touche ici pour commencer ›</span></button>';
+    }
+    if (notif && !notif.on){
+      if (notif.ok) h += '<button class="cloche" data-notif>🔔 Activer les notifications<small>pour être prévenu dès qu’il y a du nouveau</small></button>';
+      else if (/iPhone|iPad/.test(navigator.userAgent) && !(navigator.standalone || (window.matchMedia && matchMedia("(display-mode: standalone)").matches)))
+        h += '<div class="cloche info">🔔 Pour recevoir les notifications sur iPhone : touche Partager, puis « Sur l’écran d’accueil », et ouvre l’app depuis la nouvelle icône.</div>';
+    }
+    h += '<div class="stats"><div class="stat hot"><b>'+du+'</b><span>à revoir</span></div><div class="stat ok"><b>'+acq+'</b><span>maîtrisées</span></div><div class="stat"><b>'+l.length+'</b><span>cartes</span></div></div>';
+    h += niveaux();
+    var sj = serieJours(), fait = jours.dernier === aujourdhui();
+    h += '<div class="jours'+(fait ? " ok" : "")+'"><b>🔥 '+sj+' jour'+(sj > 1 ? "s" : "")+' d\'affilée</b><span>'+(fait ? "Série du jour faite. À demain." : (sj ? "Fais une série aujourd\'hui pour ne pas perdre ta flamme." : "Fais une série par jour : ta flamme grandit."))+(jours.record ? ' · record '+jours.record : '')+'</span></div>';
+    h += '<div class="sync'+(nuage ? " on" : "")+'"><i></i>'+(nuage ? "Progrès suivis sur PC et iPhone" : "Progrès gardés sur cet appareil")+'</div>';
+    var sg = serieGardee();
+    if (sg) h += '<button class="all" data-reprendre><span>Reprendre ma série</span><small>question '+((sg.fait || 0) + 1)+' / '+sg.total+' ›</small></button>';
+    h += '<button class="'+(sg ? "ghost" : "all")+'" data-all><span>'+(sg ? "Nouvelle série du jour" : "Série du jour")+'</span><small>'+Math.min(du, SERIE)+' cartes ›</small></button>';
+    h += '<button class="ghost" data-ana><span>Mes analyses</span><small>forts · faibles · oublis ›</small></button>';
+    h += '<div class="sec">Thèmes</div>';
+    var nv = nouveautes();
+    CFG.themes.forEach(function(t){
+      var c = de(t.id), d = c.filter(aRevoir).length, a = c.filter(maitrise).length;
+      h += '<button class="row'+(c.length?"":" vide")+'" data-t="'+t.id+'"><span class="tag">'+esc(t.tag)+'</span><span class="tinfo"><b>'+esc(t.nom)+'</b><small>'+(c.length ? c.length+' cartes · '+a+' maîtrisées' : 'pas encore de cartes')+'</small><div class="mini"><i style="width:'+pct(a,c.length)+'%"></i></div></span>'+badge(nv, "T|"+t.id)+(d ? '<span class="due">'+d+'</span>' : '')+'</button>';
+    });
+    h += '<div class="foot"><button data-exp>Sauvegarder mes progrès</button><label>Restaurer<input type="file" accept=".json,application/json" data-imp></label></div>';
+    h += '<p class="note">Tes progrès restent sur ce téléphone. Sauvegarde-les de temps en temps.</p>';
+    app.innerHTML = h;
+    lierNiveaux(accueil);
+    app.querySelector("[data-all]").onclick = function(){ lancer(de(), "Série du jour", accueil, true); };
+    var rp = app.querySelector("[data-reprendre]"); if (rp) rp.onclick = reprendre;
+    var bnotif = app.querySelector("[data-notif]"); if (bnotif) bnotif.onclick = activerNotif;
+    var bn = app.querySelector("[data-ban]");
+    if (bn) bn.onclick = function(){
+      ecrire(K_BAN, {maj: MAJ, le: aujourdhui()});
+      sonUneFois(); poudreDor(bn); bn.classList.add("part");
+      setTimeout(function(){ theme(tNouv[0].id); toast("✦ Touche le chapitre qui brille."); }, 850);
+    };
+    app.querySelector("[data-ana]").onclick = analyses;
+    app.querySelectorAll("[data-t]").forEach(function(b){ b.onclick = function(){ theme(b.dataset.t); }; });
+    app.querySelector("[data-exp]").onclick = exporter;
+    app.querySelector("[data-imp]").onchange = importer;
+    window.scrollTo(0,0);
+  }
+  function niveaux(){
+    var h = '<div class="levels"><button class="lvl'+(s.niveau==="tous"?" on":"")+'" data-n="tous">Tous niveaux</button>';
+    Object.keys(CFG.niveaux).forEach(function(n){ h += '<button class="lvl'+(s.niveau===n?" on":"")+'" data-n="'+n+'">'+esc(niv(n))+'</button>'; });
+    return h + '</div>';
+  }
+  function lierNiveaux(f){ app.querySelectorAll("[data-n]").forEach(function(b){ b.onclick = function(){ s.niveau = b.dataset.n; f(); }; }); }
+
+  /* ---------- Thème : ses chapitres ---------- */
+  function theme(id){
+    prog.hidden = true; rafraichir = function(){ theme(id); };
+    var t = THEME[id], c = de(id), nv = nouveautes();
+    if (badge(nv, "T|" + id)) sonVu();   // on a ouvert la nouveauté : le son s'arrête jusqu'à la prochaine mise à jour
+    marquerVu("T|" + id);   // le thème est ouvert : son badge part (les chapitres gardent le leur)
+    var h = '<div class="top"><button class="x" data-x>‹ Accueil</button>'+LOGO+'<span class="count">'+esc(t.tag)+'</span></div><h2 class="titre">'+esc(t.nom)+'</h2><p class="lead">'+c.length+' cartes · '+c.filter(maitrise).length+' maîtrisées</p>';
+    h += niveaux();
+    if (!c.length){
+      h += '<div class="empty">Pas encore de cartes ici.<br>Elles viendront de « '+esc(t.dossier)+' ».</div>';
+    } else {
+      var d = c.filter(aRevoir).length;
+      h += '<button class="all" data-tout><span>Tout le thème</span><small>'+Math.min(d, SERIE)+' cartes ›</small></button>';
+      h += '<div class="sec">Chapitres</div>';
+      var chap = [];
+      c.forEach(function(x){ if (chap.indexOf(x.chapitre) < 0) chap.push(x.chapitre); });
+      chap.forEach(function(ch, i){
+        var cc = c.filter(function(x){ return x.chapitre === ch; }), dd = cc.filter(aRevoir).length, a = cc.filter(maitrise).length;
+        var bc = badge(nv, id+"|"+ch);
+        h += '<button class="row'+(bc ? " cible" : "")+'" data-c="'+i+'"><span class="tinfo"><b>'+esc(ch)+'</b><small>'+cc.length+' cartes · '+a+' maîtrisées</small><div class="mini"><i style="width:'+pct(a,cc.length)+'%"></i></div></span>'+badge(nv, id+"|"+ch)+(dd ? '<span class="due">'+dd+'</span>' : '')+'</button>';
+      });
+      app.innerHTML = h;
+      app.querySelector("[data-tout]").onclick = function(){ lancer(de(id), t.nom, function(){ theme(id); }, false); };
+      app.querySelectorAll("[data-c]").forEach(function(b){ b.onclick = function(){ var ch = chap[+b.dataset.c]; marquerVu(id + "|" + ch); lancer(de(id, ch), ch, function(){ theme(id); }, false); }; });
+    }
+    if (!c.length) app.innerHTML = h;
+    lierNiveaux(function(){ theme(id); });
+    app.querySelector("[data-x]").onclick = accueil;
+    window.scrollTo(0,0);
+  }
+
+  /* ---------- Série de cartes ---------- */
+  function melanger(l){ for (var i = l.length - 1; i > 0; i--){ var j = Math.floor(Math.random()*(i+1)); var x = l[i]; l[i] = l[j]; l[j] = x; } return l; }
+  function lancer(liste, titre, retour, melange, forcer){
+    var dues = forcer ? liste.slice() : liste.filter(function(c){ return aRevoir(c) && !nouvelle(c); });
+    var neuves = forcer ? [] : liste.filter(nouvelle);
+    dues.sort(function(a,b){ return m(a).due - m(b).due; });
+    neuves.sort(function(a,b){ return a.niveau - b.niveau; });   // les niveaux montent : N1, puis N2, puis N3
+    if (melange){ melanger(dues); }
+    var l = dues.concat(neuves).slice(0, SERIE);
+    s.file = l; s.total = l.length; s.fait = 0; neuf(); s.rates = {}; s.premier = {}; s.journal = []; s.titre = titre; s.retour = retour; garderSerie();
+    carte();
+  }
+
+  /* Variantes : la même idée posée autrement. Chaque passage montre une autre version. */
+  function versionBrute(c){
+    // Seules les variantes qui ont leurs propres choix sont posées : sinon les choix de la carte ne collent pas à la question.
+    var ok = (c.variantes || []).filter(function(v){ return (v.qcm && v.qcm.choix) || (v.choix && c.niveau === 1); });
+    var l = [null].concat(ok), v = l[m(c).vus % l.length];
+    if (!v) return c;
+    var o = {}; for (var k in c) o[k] = c[k];
+    o.q = v.q; o.extrait = v.extrait || "";   // une variante n'hérite jamais du texte de sa carte (hors sujet)
+    if (v.r) o.r = v.r; if (v.explication) o.explication = v.explication;   // autre angle de réponse, autre situation
+    o.qcm = v.qcm || (v.r ? null : c.qcm);
+    if (v.choix && c.niveau === 1){ o.type = "qcm"; o.choix = v.choix; o.bonne = v.bonne; }
+    else { o.type = v.type && v.type !== "qcm" ? v.type : (c.type === "qcm" ? "rappel" : c.type); delete o.choix; delete o.bonne; }
+    return o;
+  }
+  var version = versionBrute;
+  function propre(v){ return String(v || "").replace(/^💡\s*/, ""); }
+  function verdictDe(o){ return typeof o.r === "string" ? o.r : (o.r && o.r.verdict); }
+  function graine(t){ var h = 2166136261; for (var i = 0; i < t.length; i++){ h ^= t.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h; }
+  function suite(h){ return function(){ h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0; h = Math.imul(h ^ (h >>> 13), 3266489909) >>> 0; return h; }; }
+  /* La bonne réponse et au moins 4 mauvaises. Les mauvaises viennent de la carte (champ qcm) ;
+     en secours, de vraies réponses d'autres cartes du même chapitre (rien d'inventé). */
+  function reponses(c, o){
+    var bon, faux = [];
+    if (o.type === "qcm" && o.choix){ bon = o.choix[o.bonne]; faux = o.choix.filter(function(_, i){ return i !== o.bonne; }); }
+    else if (o.qcm && o.qcm.choix){ bon = o.qcm.choix[o.qcm.bonne]; faux = o.qcm.choix.filter(function(_, i){ return i !== o.qcm.bonne; }); }
+    else bon = propre(verdictDe(o));
+    var vus = {}; vus[bon] = 1; faux.forEach(function(f){ vus[f] = 1; });
+    var pool = CARTES.filter(function(x){ return x.id !== c.id && x.chapitre === c.chapitre; });
+    if (pool.length < 5) pool = CARTES.filter(function(x){ return x.id !== c.id && x.theme === c.theme; });
+    var r = suite(graine(c.id + "/" + m(c).vus));
+    // Les faux de secours seulement si la carte n'a aucun faux choix écrit à la main (ils ne sont pas vérifiés).
+    var besoin = faux.length ? 0 : 4;
+    for (var n = 0; n < pool.length * 2 && faux.length < besoin; n++){
+      var v = propre(verdictDe(pool[r() % pool.length]));
+      if (v && !vus[v]){ vus[v] = 1; faux.push(v); }
+    }
+    return {bon: bon, faux: faux};
+  }
+  var VIDES = {}; "pour dans avec plus elle elles sont tout tous toute mais cette sans leur leurs vous nous avant apres quand comme fait faire etre avoir deja encore tres bien that this with your have from what they them their just more about when which will would there been were very".split(" ").forEach(function(w){ VIDES[w] = 1; });
+  function mots(t){ return (String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").match(/[a-z0-9]{4,}|\d+/g) || []).filter(function(w){ return !VIDES[w]; }); }
+  function donneReponse(extrait, bon){
+    var e = {}; mots(extrait).forEach(function(w){ e[w] = 1; });
+    var m2 = mots(bon); if (!m2.length) return false;
+    return m2.filter(function(w){ return e[w]; }).length / m2.length >= 0.4;
+  }
+  function melanger3(liste, g){ var r = suite(graine(g)), l = liste.slice(); for (var j = l.length - 1; j > 0; j--){ var k = r() % (j + 1); var t = l[j]; l[j] = l[k]; l[k] = t; } return l; }
+  /* Tentative 1 : la bonne + 2 mauvaises. Tentative 2 : la bonne + 2 AUTRES mauvaises (jamais celle déjà choisie). */
+  function jeu(c, o){
+    var R = reponses(c, o), f = R.faux;
+    var l = s.tentative === 1 ? f.slice(0, 2) : f.slice(2).concat(f.slice(0, 2)).filter(function(x){ return x !== s.mauvais; }).slice(0, 2);
+    return {bon: R.bon, choix: melanger3([R.bon].concat(l), c.id + ":" + m(c).vus + ":" + s.tentative)};
+  }
+
+  /* Décisions.md n° 12 : comme au code de la route. La question, ce qu'on travaille (sans indice),
+     3 réponses A B C, tu sélectionnes puis tu valides. Juste : la correction et « Pour bien comprendre ».
+     Faux : 2e tentative avec 3 nouvelles réponses. Une case pour écrire, facultative. */
+  function carte(){
+    prog.hidden = false; rafraichir = null;
+    prog.firstChild.style.width = pct(s.fait, s.total) + "%";
+    var top = '<div class="top"><button class="x" data-x>‹ Retour</button>'+LOGO+'<span class="count">'+(s.file.length ? 'Question '+(s.fait+1)+' / '+s.total : '')+'</span></div>';
+    if (!s.file.length){
+      if (s.total) return resultats();
+      app.innerHTML = top + '<div class="empty">Rien à revoir ici pour l\'instant.<br>Reviens plus tard, ou choisis un autre thème.</div>';
+      app.querySelectorAll("[data-x]").forEach(function(b){ b.onclick = s.retour; });
+      return;
+    }
+    var base = s.file[0], c = versionBrute(base), t = THEME[c.theme] || {tag: c.theme}, r = c.r || {}, J = jeu(base, c);
+    var h = top + '<div class="meta"><span class="dotr"></span><span class="t">'+esc(t.tag)+'</span><span>· '+esc(c.chapitre)+'</span><span>· '+esc(niv(c.niveau))+'</span>'+(estNouv(base) ? NOUV : '')+'</div>';
+    h += '<div class="qcard">';
+    if (c.competence) h += '<div class="travail">Ce qu\'on travaille : '+esc(c.competence)+'</div>';
+    // La citation passe avant la question (« Situation ») si la question parle d'elle,
+    // ou si elle ne contient pas la réponse. Sinon elle donnerait la réponse : elle s'affiche après.
+    var situation = c.extrait && (!donneReponse(c.extrait, J.bon) || /\b(ce|cet|cette|ces)\s+(deux\s+|trois\s+)?(texte|extrait|passage|avis|témoignage|citation|hook|bandeau|accroche|phrase|puce|message|cliente|client|offre|offres|squelette|appel|cta|scène|réplique|dialogue|plan|pub|vidéo|titre)\b|ci-dessus|ci-dessous/i.test(c.q));
+    if (situation) h += '<div class="extrait"><b>Situation</b>'+cite(c.extrait)+'</div>';
+    h += '<h3>'+esc(c.q)+'</h3>';
+    if (s.tentative === 2 && !s.vue) h += '<p class="essai">Faux. 2e tentative : 3 nouvelles réponses.</p>';
+    h += '<div class="choix">';
+    J.choix.forEach(function(x, i){
+      var cl = "";
+      if (s.vue){ if (x === J.bon) cl = "bon"; else if (x === s.choisi) cl = "faux"; }
+      else if (s.sel === i) cl = "sel";
+      h += '<button class="'+cl+'" data-ch="'+i+'"'+(s.vue ? " disabled" : "")+'><span class="lettre">'+String.fromCharCode(65+i)+'</span><span>'+esc(x)+'</span></button>';
+    });
+    h += '</div>';
+    if (!s.vue) h += '<div class="chrono"><i id="chrono-barre"></i><span id="chrono-txt"></span></div>';
+    if (!s.vue) h += '<button class="valider" data-valider'+(s.sel === null ? " disabled" : "")+'>Valider</button>';
+    if (s.vue){
+      var trouve = s.choisi === J.bon;
+      h += '<div class="rep"><p class="verdict-'+(trouve ? "ok" : "ko")+'">'+(trouve ? (s.tentative === 1 ? "Bonne réponse." : "Bonne réponse à la 2e tentative.") : "Faux. La bonne réponse : "+esc(J.bon))+'</p>';
+      if (typeof r === "string") h += '<p>'+esc(r)+'</p>';
+      else {
+        if (r.verdict) h += '<p>'+esc(r.verdict)+'</p>';
+        if (r.pourquoi) h += '<p><span class="w">Pourquoi :</span> '+esc(r.pourquoi)+'</p>';
+        if (r.action) h += '<p>► '+esc(r.action)+'</p>';
+      }
+      h += '</div>';
+      if (c.explication) h += '<div class="box expl"><b>Pour bien comprendre</b>'+esc(c.explication)+'</div>';
+      if (c.extrait && !situation) h += '<div class="extrait"><b>Ce que dit la source</b>'+cite(c.extrait)+'</div>';
+      if (c.zylvea) h += '<div class="box zyl"><b>Pour Zylvea</b>'+esc(c.zylvea)+'</div>';
+      h += '<div class="ref">'+esc(c.source)+' · '+esc(c.ref)+(c.date_source && c.date_source !== "inconnue" ? ' · '+esc(c.date_source) : '')+'</div>';
+    }
+    h += '<details class="notes"'+(notes[base.id] ? " open" : "")+'><summary>✎ Écrire quelque chose (facultatif)</summary><textarea id="note-'+esc(base.id)+'" rows="3" placeholder="Ta réponse à toi, une question, une idée…">'+esc(notes[base.id] || "")+'</textarea></details>';
+    h += '</div>';
+    if (s.vue){
+      var x = m(base), dH = duree(prochain(x, 2).ms), dS = duree(prochain(x, 3).ms);
+      if (s.choisi !== J.bon || s.tentative === 2) h += '<div class="btns un"><button class="b1" data-r="1">Suivant<small>pas du premier coup : revient dans 10 min</small></button></div>';
+      else h += '<div class="btns deux"><button class="b2" data-r="2">J\'ai hésité<small>revient '+dH+'</small></button><button class="b3" data-r="3">Je savais<small>revient '+dS+'</small></button></div>';
+      h += '<button class="signal'+(sig[base.id] ? " on" : "")+'" data-sig>'+(sig[base.id] ? "⚑ carte signalée à Claude" : "⚐ cette carte est mauvaise ? signale-la")+'</button>';
+    }
+    app.innerHTML = h;
+    app.querySelector("[data-x]").onclick = s.retour;
+    app.querySelectorAll("[data-ch]").forEach(function(btn){ btn.onclick = function(){ if (!s.vue){ s.sel = +btn.dataset.ch; carte(); } }; });
+    var val = app.querySelector("[data-valider]");
+    if (val) val.onclick = function(){ valider(J); };
+    lancerChrono(base.id + ":" + s.tentative, J);
+    var ta = app.querySelector("textarea");
+    if (ta) ta.oninput = function(){ var v = ta.value.trim(); if (v) notes[base.id] = v; else delete notes[base.id]; ecrire(K_NOTES, notes); marquerNotes(); };
+    app.querySelectorAll("[data-r]").forEach(function(btn){ btn.onclick = function(){ noter(+btn.dataset.r); }; });
+    var g = app.querySelector("[data-sig]"); if (g) g.onclick = function(){ if (sig[base.id]) delete sig[base.id]; else sig[base.id] = new Date().toISOString().slice(0,10); ecrire(K_SIG, sig); envoyerSignal(); carte(); };
+  }
+  var CHRONO = 120, chronoCle = null, chronoFin = 0, chronoMinuteur = null;
+  function lancerChrono(cle, J){
+    clearInterval(chronoMinuteur);
+    if (s.vue) { chronoCle = null; return; }
+    if (cle !== chronoCle){ chronoCle = cle; chronoFin = Date.now() + CHRONO * 1000; }
+    function tic(){
+      var reste = Math.max(0, Math.ceil((chronoFin - Date.now()) / 1000));
+      var b = document.getElementById("chrono-barre"), t = document.getElementById("chrono-txt");
+      if (b) b.style.width = (reste / CHRONO * 100) + "%";
+      if (t) t.textContent = "⏱ " + Math.floor(reste / 60) + ":" + String(reste % 60).padStart(2, "0");   // 2 min (décision 38) : affiché 1:59
+      if (b && reste <= 10) b.parentNode.classList.add("presse");
+      if (reste === 0){
+        clearInterval(chronoMinuteur);
+        if (s.tentative === 1){ s.mauvais = null; s.tentative = 2; s.sel = null; toast("Temps écoulé : 2e tentative."); }
+        else { s.choisi = "(temps écoulé)"; s.vue = true; s.sel = null; }
+        carte();
+      }
+    }
+    tic(); chronoMinuteur = setInterval(tic, 250);
+  }
+  function valider(J){
+    if (s.sel === null) return;
+    var x = J.choix[s.sel];
+    if (x === J.bon || s.tentative === 2){ s.choisi = x; s.vue = true; }
+    else { s.mauvais = x; s.tentative = 2; }
+    s.sel = null; carte();
+  }
+
+  function aujourdhui(d){ d = d || new Date(); return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0"); }
+  function serieJours(){
+    if (!jours.dernier) return 0;
+    var hier = aujourdhui(new Date(Date.now() - 864e5));
+    return (jours.dernier === aujourdhui() || jours.dernier === hier) ? (jours.n || 0) : 0;
+  }
+  function compterJour(){
+    var auj = aujourdhui(); if (jours.dernier === auj) return;
+    jours.n = jours.dernier === aujourdhui(new Date(Date.now() - 864e5)) ? (jours.n || 0) + 1 : 1;
+    jours.dernier = auj; jours.record = Math.max(jours.record || 0, jours.n);
+    ecrire(K_JOURS, jours); marquerNotes();
+  }
+  var CARTE_ID = {}; CARTES.forEach(function(c){ CARTE_ID[c.id] = c; });
+  function garderSerie(){
+    if (!s.file.length){ try { localStorage.removeItem(K_SERIE); } catch(e){} return; }
+    ecrire(K_SERIE, {ids: s.file.map(function(c){ return c.id; }), fait: s.fait, total: s.total, titre: s.titre,
+      journal: s.journal.map(function(j){ return {id: j.c.id, note: j.note, ms: j.ms}; }), premier: s.premier, rates: s.rates});
+  }
+  function serieGardee(){ var g = lire(K_SERIE); return g && g.ids && g.ids.length ? g : null; }
+  function reprendre(){
+    var g = serieGardee(); if (!g) return;
+    s.file = g.ids.map(function(id){ return CARTE_ID[id]; }).filter(Boolean);
+    s.fait = g.fait || 0; s.total = g.total || s.file.length; s.titre = g.titre || "Ma série";
+    s.premier = g.premier || {}; s.rates = g.rates || {}; s.retour = accueil;
+    s.journal = (g.journal || []).filter(function(j){ return CARTE_ID[j.id]; }).map(function(j){ return {c: versionBrute(CARTE_ID[j.id]), note: j.note, ms: j.ms}; });
+    neuf(); carte();
+  }
+  function neuf(){ clearInterval(chronoMinuteur); chronoCle = null; s.vue = false; s.tentative = 1; s.sel = null; s.mauvais = null; s.choisi = null; }
+  function noter(note){
+    var c = s.file.shift(), x = m(c), vu = version(c), n = prochain(x, note);
+    if (!s.premier[c.id]){ s.premier[c.id] = note; s.journal.push({c: vu, note: note, ms: n.ms}); }
+    else s.journal.forEach(function(j){ if (j.c.id === c.id) j.ms = n.ms; });
+    x.vus++; x.dernier = Date.now(); x.derniere = note; x.p = n.p; x.serie = n.serie; x.due = Date.now() + n.ms;
+    if (note === 1){
+      x.ko++;
+      if (x.top >= MAITRISE) x.oubli++;          // elle était maîtrisée : c'est un oubli
+      s.rates[c.id] = (s.rates[c.id] || 0) + 1;
+      if (s.rates[c.id] >= 3){                   // 3 ratés : on la met de côté, elle revient plus loin
+        s.rates[c.id] = 0;
+        s.file.splice(Math.min(8, s.file.length), 0, c);
+        toast("3 ratés : on passe à d'autres cartes. Elle revient un peu plus tard.");
+      } else s.file.splice(Math.min(3, s.file.length), 0, c);
+    } else {
+      x.ok++;
+      x.top = Math.max(x.top, x.p);
+      s.fait++;
+    }
+    mem[c.id] = x; ecrire(K_MEM, mem); marquer(c.id);
+    neuf(); garderSerie(); carte();
+  }
+
+  /* ---------- Résultats de fin de série ---------- */
+  function resultats(){
+    rafraichir = null; clearInterval(chronoMinuteur); compterJour();
+    try { localStorage.removeItem(K_SERIE); } catch(e){}
+    prog.firstChild.style.width = "100%";
+    var J = s.journal, n = [0,0,0,0];
+    J.forEach(function(j){ n[j.note]++; });
+    var score = pct(n[3], J.length);
+    var reussi = J.length && n[3] / J.length >= REUSSI;
+    var mot = reussi ? "Réussi." : "Pas encore. Il faut 35 sur 40 (88 %), comme au code.";
+    var h = '<div class="top"><button class="x" data-x>‹ Retour</button>'+LOGO+'<span class="count">résultats</span></div>';
+    h += '<div class="kicker">'+esc(s.titre)+'</div><h1>'+n[3]+' / '+J.length+'</h1><p class="lead">'+mot+' '+score+' % de bonnes réponses du premier coup.</p>';
+    h += '<div class="stats"><div class="stat ok"><b>'+n[3]+'</b><span>du 1er coup</span></div><div class="stat"><b>'+n[2]+'</b><span>j\'ai hésité</span></div><div class="stat hot"><b>'+n[1]+'</b><span>ratées</span></div></div>';
+    var ch = {};
+    J.forEach(function(j){ var k = j.c.chapitre, o = ch[k] || (ch[k] = {nom:k, ok:0, n:0}); o.n++; if (j.note === 3) o.ok++; });
+    var lc = Object.keys(ch).map(function(k){ return ch[k]; }).sort(function(a,b){ return b.ok/b.n - a.ok/a.n; });
+    if (lc.length > 1) h += '<div class="sec">Par chapitre</div><div class="ana">'+lc.map(function(o){ return ligne(o, o.ok+'/'+o.n); }).join("")+'</div>';
+    var rat = J.filter(function(j){ return j.note < 3; });
+    if (rat.length) h += '<button class="all" data-refaire><span>Refaire les hésitées et ratées</span><small>'+rat.length+' ›</small></button>';
+    h += '<div class="sec">Carte par carte (tape pour revoir la réponse)</div>';
+    J.forEach(function(j, i){
+      var ic = j.note === 3 ? "✅" : j.note === 2 ? "🤔" : "❌", r = j.c.r || {};
+      h += '<div class="ana res" data-i="'+i+'"><div class="l"><span>'+ic+' '+esc(j.c.q)+'</span><span>'+duree(j.ms)+'</span></div><div class="det" hidden><p class="rep" style="margin-top:10px;padding-top:10px">'+esc(typeof r === "string" ? r : r.verdict)+'</p>'+(j.c.explication ? '<div class="box expl"><b>Pour bien comprendre</b>'+esc(j.c.explication)+'</div>' : '')+'</div></div>';
+    });
+    h += '<button class="retour" style="width:100%" data-x>Terminer</button>';
+    app.innerHTML = h;
+    app.querySelectorAll("[data-x]").forEach(function(b){ b.onclick = s.retour; });
+    app.querySelectorAll(".res").forEach(function(d){ d.onclick = function(){ var e = d.querySelector(".det"); e.hidden = !e.hidden; }; });
+    var rf = app.querySelector("[data-refaire]");
+    if (rf) rf.onclick = function(){ var ids = rat.map(function(j){ return j.c.id; }); lancer(CARTES.filter(function(c){ return ids.indexOf(c.id) > -1; }), s.titre, s.retour, true, true); };
+    window.scrollTo(0,0);
+  }
+
+  /* ---------- Analyses ---------- */
+  function groupe(cle){
+    var g = {};
+    CARTES.forEach(function(c){
+      var k = typeof cle === "function" ? cle(c) : c[cle]; if (!k) return;
+      var x = m(c), o = g[k] || (g[k] = {nom:k, n:0, vues:0, ok:0, ko:0, maitr:0});
+      o.n++; if (x.vus){ o.vues++; o.ok += x.ok; o.ko += x.ko; } if (maitrise(c)) o.maitr++;
+    });
+    return Object.keys(g).map(function(k){ var o = g[k]; o.taux = (o.ok + o.ko) ? o.ok / (o.ok + o.ko) : null; return o; });
+  }
+  function ligne(o, droite){ return '<div class="l"><span>'+esc(o.nom)+'</span><span>'+droite+'</span></div>'; }
+  function analyses(){
+    prog.hidden = true; rafraichir = analyses;
+    var vues = CARTES.filter(function(c){ return m(c).vus > 0; });
+    var sp = CARTES.filter(sait_pas), ou = CARTES.filter(oubliee), ma = CARTES.filter(maitrise);
+    var h = '<div class="top"><button class="x" data-x>‹ Accueil</button>'+LOGO+'<span class="count">analyses</span></div><h2 class="titre">Mes analyses</h2><p class="lead">'+vues.length+' cartes vues sur '+CARTES.length+'.</p>';
+    h += '<div class="stats"><div class="stat ok"><b>'+ma.length+'</b><span>je maîtrise</span></div><div class="stat hot"><b>'+sp.length+'</b><span>je sais pas</span></div><div class="stat"><b>'+ou.length+'</b><span>j\'ai oublié</span></div></div>';
+    if (sp.length) h += '<button class="all" data-sp><span>Réviser « je sais pas »</span><small>'+Math.min(sp.length,SERIE)+' ›</small></button>';
+    if (ou.length) h += '<button class="ghost" data-ou><span>Réviser « j\'ai oublié »</span><small>'+Math.min(ou.length,SERIE)+' ›</small></button>';
+
+    var th = groupe(function(c){ return (THEME[c.theme] || {}).nom; }).filter(function(o){ return o.taux !== null; }).sort(function(a,b){ return b.taux - a.taux; });
+    h += '<div class="sec">Par thème (taux de bonnes réponses)</div>';
+    if (!th.length) h += '<div class="empty">Fais quelques séries : tes analyses apparaîtront ici.</div>';
+    else {
+      h += '<div class="ana"><p class="verdict">Ton meilleur thème : <b>'+esc(th[0].nom)+'</b></p>'+(th.length > 1 ? '<p class="verdict">À travailler : <b>'+esc(th[th.length-1].nom)+'</b></p>' : '')+'</div>';
+      h += '<div class="ana">'+th.map(function(o){ return ligne(o, pct(o.ok, o.ok+o.ko)+' % · '+o.maitr+'/'+o.n+' maîtrisées'); }).join("")+'</div>';
+    }
+    ["competence", "chapitre"].forEach(function(k){
+      var g = groupe(k).filter(function(o){ return o.taux !== null && (o.ok + o.ko) >= 3; }).sort(function(a,b){ return b.taux - a.taux; });
+      if (!g.length) return;
+      var lab = k === "competence" ? "genre de choses" : "chapitre";
+      h += '<div class="sec">Par '+lab+' : où tu es fort</div><div class="ana">'+g.slice(0,3).map(function(o){ return ligne(o, pct(o.ok,o.ok+o.ko)+' %'); }).join("")+'</div>';
+      h += '<div class="sec">Par '+lab+' : où tu es faible</div><div class="ana">'+g.slice(-3).reverse().map(function(o){ return ligne(o, pct(o.ok,o.ok+o.ko)+' %'); }).join("")+'</div>';
+    });
+    var ns = Object.keys(sig).length;
+    h += '<div class="sec">Cartes signalées</div><div class="ana"><div class="l"><span>'+ns+' carte(s) à corriger par Claude</span><span>dimanche</span></div></div>';
+    h += '<p class="note">Pour que Claude les corrige : « Sauvegarder mes progrès » sur l\'accueil, puis donne-lui le fichier.</p>';
+    app.innerHTML = h;
+    app.querySelector("[data-x]").onclick = accueil;
+    var a = app.querySelector("[data-sp]"); if (a) a.onclick = function(){ lancer(melanger(sp.slice()), "Je sais pas", analyses, false, true); };
+    var b = app.querySelector("[data-ou]"); if (b) b.onclick = function(){ lancer(melanger(ou.slice()), "J'ai oublié", analyses, false, true); };
+    window.scrollTo(0,0);
+  }
+
+  /* ---------- Sauvegarde ---------- */
+  async function exporter(){
+    var data = JSON.stringify({app:"qr-cartes", date:new Date().toISOString(), progres:mem, signalees:sig, notes:notes, jours:jours}, null, 1);
+    var nom = "progres-cartes-" + new Date().toISOString().slice(0,10) + ".json";
+    var dl = null;
+    try { dl = window.claude && window.claude.use ? await window.claude.use("downloads") : null; } catch(e){ dl = null; }
+    if (dl){
+      try { await dl.save({filename: nom, data: data}); toast("Sauvegarde enregistrée."); } catch(e){ toast("Sauvegarde annulée."); }
+      return;
+    }
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([data], {type:"application/json"}));
+    a.download = nom;
+    document.body.appendChild(a); a.click(); a.remove();
+  }
+  function importer(e){
+    var f = e.target.files[0]; if (!f) return;
+    var rd = new FileReader();
+    rd.onload = function(){
+      try {
+        var d = JSON.parse(rd.result);
+        if (d.app !== "qr-cartes") throw 0;
+        mem = d.progres || {}; sig = d.signalees || {}; notes = d.notes || notes; ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); marquerNotes();
+        CFG.themes.forEach(function(t){ sale[t.id] = 1; }); sale.autres = 1; pousser(); envoyerSignal();
+        toast("Progrès restaurés."); accueil();
+      } catch(x){ toast("Ce fichier n'est pas une sauvegarde de l'app."); }
+    };
+    rd.readAsText(f);
+  }
+
+  /* ---------- Synchro PC + iPhone (capacité db du lien Claude) ----------
+     Chaque thème = un document privé : data/users/<toi>/progres-<thème>. Personne d'autre ne le lit.
+     Sans lien Claude (test local), tout reste dans le navigateur. */
+  var nuage = null, sale = {}, minuteur = null, enCours = false, THEME_DE = {};
+  CARTES.forEach(function(c){ THEME_DE[c.id] = c.theme; });
+  function themeDe(id){ return THEME_DE[id] || "autres"; }
+  function fusion(a, b){ var chg = false; for (var k in b){ if (!a[k] || (b[k].dernier || 0) > (a[k].dernier || 0)){ a[k] = b[k]; chg = true; } } return chg; }
+  function refDoc(t){ return nuage.db.doc("data/users/" + nuage.uid + "/progres-" + t); }
+  function marquer(id){ if (!nuage) return; sale[themeDe(id)] = 1; clearTimeout(minuteur); minuteur = setTimeout(pousser, 1500); }
+  async function pousser(){
+    if (!nuage || enCours) return;
+    enCours = true; clearTimeout(minuteur);
+    var ts = Object.keys(sale); sale = {};
+    for (var i = 0; i < ts.length; i++){
+      var t = ts[i], part = {};
+      for (var k in mem) if (themeDe(k) === t) part[k] = mem[k];
+      try { await refDoc(t).set({cartes: part, maj: Date.now()}); } catch(e){ sale[t] = 1; }
+    }
+    enCours = false;
+    if (Object.keys(sale).length) minuteur = setTimeout(pousser, 5000);
+  }
+  async function tirer(){
+    if (!nuage) return;
+    var ids = CFG.themes.map(function(t){ return t.id; }).concat(["autres"]), chg = false, vu = {};
+    var snaps = await Promise.all(ids.map(function(t){ return refDoc(t).get().catch(function(){ return null; }); }));
+    snaps.forEach(function(sn){
+      if (!sn || !sn.exists) return;
+      var cs = (sn.data() || {}).cartes || {};
+      for (var k in cs) vu[k] = cs[k].dernier || 0;
+      if (fusion(mem, cs)) chg = true;
+    });
+    try {
+      var sg = await nuage.db.doc("signalements/liste").get();
+      if (sg.exists){ var c2 = (sg.data() || {}).cartes || {}; for (var k1 in c2) if (!sig[k1]){ sig[k1] = c2[k1]; chg = true; } }
+    } catch(e){}
+    // ce qui n'existe que sur cet appareil part aussi dans le nuage
+    for (var k2 in mem) if (vu[k2] === undefined || (mem[k2].dernier || 0) > vu[k2]) sale[themeDe(k2)] = 1;
+    try { var dn = await nuage.db.doc("data/users/" + nuage.uid + "/notes").get(); if (dn.exists){ var nn = (dn.data() || {}).notes || {}; for (var kn in nn) if (!notes[kn]){ notes[kn] = nn[kn]; chg = true; }
+      var jj = (dn.data() || {}).jours; if (jj && jj.dernier && (!jours.dernier || jj.dernier > jours.dernier)){ jours = jj; ecrire(K_JOURS, jours); chg = true; } } } catch(e){}
+    if (chg){ ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); }
+    if (Object.keys(sale).length) pousser();
+    if (rafraichir) rafraichir();
+  }
+  var minNotes = null;
+  function marquerNotes(){ if (!nuage) return; clearTimeout(minNotes); minNotes = setTimeout(function(){ nuage.db.doc("data/users/" + nuage.uid + "/notes").set({notes: notes, jours: jours, maj: Date.now()}).catch(function(){}); }, 2000); }
+  function envoyerSignal(){ if (nuage) nuage.db.doc("signalements/liste").set({cartes: sig, maj: Date.now()}).catch(function(){}); }
+  async function brancher(){
+    if (!window.claude || !window.claude.use) return;
+    try {
+      var db = await window.claude.use("db"), user = await window.claude.use("user");
+      if (!db || !user) return;
+      var uid = await user.id(); if (!uid) return;
+      nuage = {db: db, uid: uid};
+      await tirer();
+      document.addEventListener("visibilitychange", function(){ if (document.hidden) pousser(); else tirer(); });
+    } catch(e){ nuage = null; }
+  }
+
+  document.addEventListener("keydown", function(e){
+    if (prog.hidden || !s.file.length) return;
+    var c = s.file[0];
+    if (e.target && e.target.tagName === "TEXTAREA") return;
+    if (!s.vue && ["1","2","3"].indexOf(e.key) > -1){ s.sel = +e.key - 1; carte(); return; }
+    if (!s.vue && e.key === "Enter"){ var v = app.querySelector("[data-valider]"); if (v && !v.disabled) v.click(); return; }
+    else if (s.vue){ var b = app.querySelector('[data-r="'+e.key+'"]'); if (b) b.click(); }
+  });
+  /* ---------- Notifications sur le téléphone (OneSignal, décision 40) ----------
+     Seulement sur le site public (construire.py y ajoute le SDK). Ailleurs, window.OneSignalDeferred n'existe pas : rien ne s'affiche.
+     Sur iPhone, Apple exige que l'app soit ajoutée à l'écran d'accueil (iOS 16.4+) et un toucher pour demander la permission. */
+  var notif = null;
+  if (window.OneSignalDeferred){
+    window.OneSignalDeferred.push(async function(OS){
+      try { notif = {os: OS, ok: OS.Notifications.isPushSupported(), on: !!OS.User.PushSubscription.optedIn}; } catch(e){ notif = null; return; }
+      if (rafraichir === accueil) accueil();
+      try { OS.User.PushSubscription.addEventListener("change", function(){ notif.on = !!OS.User.PushSubscription.optedIn; if (rafraichir === accueil) accueil(); }); } catch(e){}
+    });
+  }
+  function activerNotif(){
+    if (!notif || !notif.os) return;
+    notif.os.Notifications.requestPermission().then(function(){ notif.on = !!notif.os.User.PushSubscription.optedIn; if (notif.on) toast("🔔 Notifications activées."); accueil(); }).catch(function(){});
+  }
+
+  /* ---------- Son « Nouveau » (demande de Trésor du 07/10/2026) ----------
+     Quand une mise à jour apporte des nouveautés, le son joue à l'ouverture de l'app, puis toutes les 5 minutes
+     tant que l'app est ouverte, jusqu'à ce qu'on ouvre le thème marqué « Nouveau ». Ensuite il se tait jusqu'à
+     la mise à jour suivante (nouvelle date "ajout" dans les cartes). Le navigateur peut bloquer le 1er son
+     tant qu'on n'a pas touché l'écran : il joue alors au premier toucher. */
+  var K_SON = "qr-son-v1", K_BAN = "qr-banniere-v1", SON_MS = 5 * MIN, sonMinuteur = null, son = null;
+
+  /* Poussière d'or : des grains dorés s'envolent de l'élément puis retombent en s'éteignant (1 s environ). */
+  function poudreDor(el){
+    if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var r = el.getBoundingClientRect(), cv = document.createElement("canvas"), dpr = window.devicePixelRatio || 1;
+    cv.className = "poudre"; cv.width = innerWidth * dpr; cv.height = innerHeight * dpr; document.body.appendChild(cv);
+    var ctx = cv.getContext("2d"); ctx.scale(dpr, dpr);
+    var ors = ["#fff6d2", "#fbe6a2", "#ecc05a", "#e0b048", "#b07b1e", "#fffbe8"], g = [];
+    for (var i = 0; i < 170; i++) g.push({x: r.left + Math.random() * r.width, y: r.top + Math.random() * r.height,
+      vx: (Math.random() - .5) * 4.2, vy: -Math.random() * 3.6 - .4, t: 1.2 + Math.random() * 2.6,
+      c: ors[i % ors.length], v: 1, d: .010 + Math.random() * .014});
+    (function anime(){
+      ctx.clearRect(0, 0, innerWidth, innerHeight);
+      var vivants = 0;
+      g.forEach(function(p){
+        if (p.v <= 0) return; vivants++;
+        p.vy += .06; p.vx *= .985; p.x += p.vx; p.y += p.vy; p.v -= p.d;
+        ctx.globalAlpha = Math.max(p.v, 0); ctx.fillStyle = p.c; ctx.shadowColor = p.c; ctx.shadowBlur = 8;
+        ctx.beginPath(); ctx.arc(p.x, p.y, p.t, 0, 6.283); ctx.fill();
+      });
+      if (vivants) requestAnimationFrame(anime); else cv.remove();
+    })();
+  }
+  var MAJ = CARTES.reduce(function(m, c){ return c.ajout && c.ajout > m ? c.ajout : m; }, "");
+  function sonAttendu(){
+    if ((lire(K_SON).maj || "") === MAJ) return false;
+    var nv = nouveautes();
+    return Object.keys(nv).some(function(k){ return k.indexOf("T|") === 0 && badge(nv, k); });
+  }
+  function arreterSon(){ clearInterval(sonMinuteur); sonMinuteur = null; if (son){ try { son.pause(); son.currentTime = 0; } catch(e){} } }
+  // La nouveauté est ouverte : plus de rappel toutes les 5 min. Le son en cours finit ses 16 s (il accompagne la poussière d'or).
+  function sonVu(){ ecrire(K_SON, {maj: MAJ, le: aujourdhui()}); clearInterval(sonMinuteur); sonMinuteur = null; }
+  function sonUneFois(){ try { if (!son) son = new Audio("son/nouveau.mp3"); son.volume = 1; son.currentTime = 0; var p = son.play(); if (p && p.catch) p.catch(function(){}); } catch(e){} }
+  function attendreGeste(){
+    function un(){ document.removeEventListener("click", un, true); setTimeout(jouerSon, 50); }
+    document.addEventListener("click", un, true);
+  }
+  function jouerSon(){
+    if (!sonAttendu()){ arreterSon(); return; }
+    try {
+      if (!son) son = new Audio("son/nouveau.mp3");
+      son.volume = 1;   // volume au maximum de la page (le volume du téléphone, lui, reste à la personne)
+      son.currentTime = 0;
+      var p = son.play();
+      if (p && p.catch) p.catch(function(){ attendreGeste(); });
+    } catch(e){}
+  }
+  function lancerSon(){ arreterSon(); if (!sonAttendu()) return; jouerSon(); sonMinuteur = setInterval(jouerSon, SON_MS); }
+
+  accueil();
+  brancher();
+  lancerSon();
+})();
+</script>
+</body>
+</html>
