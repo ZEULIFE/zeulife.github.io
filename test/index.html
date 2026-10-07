@@ -79,6 +79,8 @@ h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:8px 0 4px}
 /* Bouton « Activer les notifications » (site public seulement, OneSignal, décision 40). */
 .cloche{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:100%;text-align:left;border:1px solid #b07b1e;background:linear-gradient(135deg,rgba(224,176,72,.16),rgba(176,123,30,.08));border-radius:16px;padding:14px 18px;margin:0 0 18px;font-weight:700;color:#fff1cc}
 .cloche small{font:12px var(--mono);font-weight:400;color:#d6b673}
+.cloche.ok{border-color:var(--vert);background:var(--vert-soft);color:#dff0dc}
+.cloche.ok small{color:var(--vert)}
 .cloche.info{font-weight:600;font-size:14px;line-height:1.45}
 .row.cible{border-color:#e0b048;box-shadow:0 0 0 1px #e0b048 inset;animation:halo 1.4s ease-in-out infinite}
 @keyframes halo{50%{box-shadow:0 0 0 1px #e0b048 inset,0 0 24px -2px rgba(232,182,72,.75)}}
@@ -173,9 +175,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 <div class="prog" id="prog" hidden><i></i></div>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>window.OneSignalDeferred = window.OneSignalDeferred || []; OneSignalDeferred.push(async function(OneSignal){ await OneSignal.init({ appId: "601d4571-b213-41a3-80cc-f159841528f0" }); });</script>
-<script src="logo.js?v=202610072318"></script>
-<script src="questions.js?v=202610072318"></script>
-<script src="cartes.js?v=202610072318"></script>
+<script src="logo.js?v=202610072319"></script>
+<script src="questions.js?v=202610072319"></script>
+<script src="cartes.js?v=202610072319"></script>
 <script>
 (function(){
   var CFG = window.QR_CONFIG || {niveaux:{}, themes:[]};
@@ -261,6 +263,15 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     prog.hidden = true; rafraichir = accueil;
     var l = de(), du = l.filter(aRevoir).length, acq = l.filter(maitrise).length;
     var h = LOGO.replace('class="logo"', 'class="logo grand"') + '<div class="kicker">Second cerveau · OBSIDIAN-KB</div><h1>Mes cartes</h1><p class="lead">Comme au code : une question, 3 réponses, tu valides. Séries de 40, réussi à 35.</p>';
+    // Bouton des notifications : toujours au même endroit, juste sous le titre, il ne disparaît jamais (Trésor, 07/10/2026).
+    // Site public seulement : là où le SDK OneSignal est chargé.
+    var aSdk = !!window.OneSignalDeferred, horsIcone = !(navigator.standalone || (window.matchMedia && matchMedia("(display-mode: standalone)").matches));
+    if (aSdk){
+      if (notif && notif.on) h += '<div class="cloche ok">🔔 Notifications activées ✓<small>tu seras prévenu à chaque nouveauté</small></div>';
+      else if (/iPhone|iPad/.test(navigator.userAgent) && horsIcone)
+        h += '<div class="cloche info">🔔 Pour recevoir les notifications : touche Partager, puis « Sur l’écran d’accueil », puis ouvre l’app depuis la nouvelle icône. Le bouton « Activer les notifications » sera ici.</div>';
+      else h += '<button class="cloche" data-notif>🔔 Activer les notifications<small>pour être prévenu dès qu’il y a du nouveau</small></button>';
+    }
     var nvA = nouveautes(), tNouv = CFG.themes.filter(function(t){ return !!nvA["T|" + t.id]; });
     if (tNouv.length && (lire(K_BAN).maj || "") !== MAJ){
       var cN = CARTES.filter(estNouv), chN = [];
@@ -269,12 +280,6 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
         + '<p>' + cN.length + ' nouvelle' + (cN.length > 1 ? 's' : '') + ' carte' + (cN.length > 1 ? 's' : '') + ' : « ' + esc(chN.join(" », « ")) + ' »</p>'
         + '<span class="go">Touche ici pour commencer ›</span></button>';
     }
-    // Bouton des notifications (site public seulement : là où le SDK OneSignal est chargé).
-    var aSdk = !!window.OneSignalDeferred, horsIcone = !(navigator.standalone || (window.matchMedia && matchMedia("(display-mode: standalone)").matches));
-    if (aSdk && /iPhone|iPad/.test(navigator.userAgent) && horsIcone)
-      h += '<div class="cloche info">🔔 Pour recevoir les notifications : touche Partager, puis « Sur l’écran d’accueil », puis ouvre l’app depuis la nouvelle icône. Le bouton « Activer les notifications » sera ici.</div>';
-    else if (aSdk && !(notif && (notif.on || !notif.ok)))
-      h += '<button class="cloche" data-notif>🔔 Activer les notifications<small>pour être prévenu dès qu’il y a du nouveau</small></button>';
     h += '<div class="stats"><div class="stat hot"><b>'+du+'</b><span>à revoir</span></div><div class="stat ok"><b>'+acq+'</b><span>maîtrisées</span></div><div class="stat"><b>'+l.length+'</b><span>cartes</span></div></div>';
     h += niveaux();
     var sj = serieJours(), fait = jours.dernier === aujourdhui();
