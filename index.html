@@ -57,6 +57,53 @@ h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:8px 0 4px}
 .mini{height:3px;background:var(--line);border-radius:2px;margin-top:8px;overflow:hidden}
 .mini i{display:block;height:100%;background:linear-gradient(90deg,var(--bordeaux),var(--caramel))}
 .due{flex:none;font:600 12px var(--mono);color:var(--bordeaux-hi)}
+/* Badge doré « Nouveau » (demande de Trésor du 07/10/2026) : sur un thème, un chapitre ou une carte ajoutés depuis sa 1re visite. Il part une fois ouvert. */
+.nouv{flex:none;display:inline-flex;align-items:center;gap:4px;font:700 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#2a1a05;background:linear-gradient(135deg,#fbe6a2,#e0b048 50%,#b07b1e);border-radius:999px;padding:5px 9px;box-shadow:0 0 14px -3px rgba(232,182,72,.75)}
+.nouv i{font-style:normal;font-size:11px}
+.meta .nouv{padding:3px 8px}
+/* Grande bannière « Nouveau » de l'accueil (Trésor, 07/10/2026) : au clic, elle part en poussière d'or et mène au nouveau chapitre. */
+.ban{position:relative;display:block;width:100%;text-align:left;border:0;border-radius:20px;padding:22px 20px 20px;margin:4px 0 22px;overflow:hidden;cursor:pointer;color:var(--text);
+  background:radial-gradient(120% 140% at 0% 0%,#4a3510 0%,#22170b 55%,#170f0a 100%);
+  box-shadow:0 0 0 1px rgba(232,182,72,.6) inset,0 20px 44px -18px rgba(232,182,72,.6);transition:transform .6s ease,opacity .6s ease}
+.ban::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,236,170,.2) 45%,transparent 60%);transform:translateX(-100%);animation:brille 3.2s ease-in-out infinite}
+@keyframes brille{to{transform:translateX(100%)}}
+.ban .k{display:block;font:700 11px/1 var(--mono);letter-spacing:.34em;color:#e8c066}
+.ban h2{font-size:52px;line-height:1;font-weight:900;letter-spacing:.04em;text-transform:uppercase;margin:12px 0 6px;background:linear-gradient(180deg,#fff6d2,#ecc05a 55%,#b07b1e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ban .ligne{display:flex;align-items:center;flex-wrap:wrap;gap:4px 16px;margin:12px 0 10px}
+.ban .ligne h2{margin:0}
+.ban .cri{display:block;font-size:22px;line-height:1.2;font-weight:800;color:#fff1cc;margin:0;text-shadow:0 0 18px rgba(232,182,72,.45)}
+.ban p{color:#e9d3a6;font-size:14px;font-weight:600;margin:0}
+.ban .go{display:inline-block;margin-top:16px;padding:10px 16px;border-radius:999px;background:linear-gradient(135deg,#fbe6a2,#e0b048 50%,#b07b1e);color:#2a1a05;font:700 12px/1 var(--mono);letter-spacing:.06em;box-shadow:0 6px 18px -6px rgba(232,182,72,.8)}
+.ban.part{opacity:0;transform:scale(.94)}
+.poudre{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:60}
+/* Bouton « Activer les notifications » (site public seulement, OneSignal, décision 40). */
+.cloche{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:100%;text-align:left;border:1px solid #b07b1e;background:linear-gradient(135deg,rgba(224,176,72,.16),rgba(176,123,30,.08));border-radius:16px;padding:14px 18px;margin:0 0 18px;font-weight:700;color:#fff1cc}
+.cloche small{font:12px var(--mono);font-weight:400;color:#d6b673}
+.cloche.ok{border-color:var(--vert);background:var(--vert-soft);color:#dff0dc}
+.cloche.ok small{color:var(--vert)}
+.cloche.info{font-weight:600;font-size:14px;line-height:1.45}
+/* Courbes d'évolution (Mes analyses). Une couleur par graphique, lignes 2 px, points de 8 px, grille discrète. */
+.courbe{margin:4px 0 14px} .courbe b{display:block;font:500 12px var(--mono);color:var(--muted);margin-bottom:4px}
+.courbe svg{display:block;width:100%;height:auto;overflow:visible}
+.courbe .grille{stroke:var(--line);stroke-width:1}
+.courbe .axe{font:10px var(--mono);fill:var(--dim)}
+.courbe .val{font:600 11px var(--mono);fill:var(--text)}
+.courbe .trait{fill:none;stroke:var(--caramel);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.courbe .point{fill:var(--caramel);stroke:var(--card);stroke-width:2}
+.courbe .zone{fill:transparent;cursor:pointer}
+.courbe .pt:hover .point{r:6}
+.chiffres summary{cursor:pointer;font:12px var(--mono);color:var(--muted)}
+.chiffres table{width:100%;margin-top:8px;border-collapse:collapse;font:12px var(--mono)}
+.chiffres th,.chiffres td{text-align:left;padding:4px 6px;border-bottom:1px solid var(--line)} .chiffres th{color:var(--muted);font-weight:500}
+/* Forces et faiblesses (Mes analyses) : une jauge par ligne, vert = force, bordeaux = faiblesse, toujours avec le % écrit. */
+.fb{padding:8px 0;border-bottom:1px solid var(--line)} .fb:last-child{border-bottom:0}
+.fb .l{display:flex;justify-content:space-between;gap:10px;font-size:14px} .fb .l span:last-child{font:600 12px var(--mono);flex:none}
+.jauge{height:6px;border-radius:3px;background:var(--line);margin-top:6px;overflow:hidden} .jauge i{display:block;height:100%;border-radius:3px}
+.fb.fort .jauge i{background:var(--vert)} .fb.fort .l span:last-child{color:var(--vert)}
+.fb.faible .jauge i{background:var(--bordeaux-hi)} .fb.faible .l span:last-child{color:#e9a3ad}
+.travail-btn{margin-top:8px;border:1px solid var(--bordeaux-hi);background:rgba(125,31,46,.18);color:#f4ebe6;border-radius:10px;padding:7px 12px;font:600 12px var(--mono)}
+.row.cible{border-color:#e0b048;box-shadow:0 0 0 1px #e0b048 inset;animation:halo 1.4s ease-in-out infinite}
+@keyframes halo{50%{box-shadow:0 0 0 1px #e0b048 inset,0 0 24px -2px rgba(232,182,72,.75)}}
 .top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}
 .x{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:7px 12px;font:12px var(--mono);color:var(--muted)}
 .count{font:12px var(--mono);color:var(--muted)}
@@ -145,9 +192,11 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 <body>
 <div id="app"></div>
 <div class="prog" id="prog" hidden><i></i></div>
-<script src="logo.js"></script>
-<script src="questions.js"></script>
-<script src="cartes.js"></script>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>window.OneSignalDeferred = window.OneSignalDeferred || []; OneSignalDeferred.push(async function(OneSignal){ await OneSignal.init({ appId: "601d4571-b213-41a3-80cc-f159841528f0" }); });</script>
+<script src="logo.js?v=202610072343"></script>
+<script src="questions.js?v=202610072343"></script>
+<script src="cartes.js?v=202610072343"></script>
 <script>
 (function(){
   var CFG = window.QR_CONFIG || {niveaux:{}, themes:[]};
@@ -163,13 +212,48 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 
   function lire(k){ try { return JSON.parse(localStorage.getItem(k) || "{}") || {}; } catch(e) { return {}; } }
   function ecrire(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e) {} }
-  var K_NOTES = "qr-notes-v1", K_JOURS = "qr-jours-v1", K_SERIE = "qr-serie-encours-v1";
+  var K_NOTES = "qr-notes-v1", K_JOURS = "qr-jours-v1", K_SERIE = "qr-serie-encours-v1", K_HIST = "qr-historique-v1";
   var mem = lire(K_MEM), sig = lire(K_SIG), notes = lire(K_NOTES), jours = lire(K_JOURS);
+  // Historique des séries (courbe d’évolution, Trésor 07/10/2026) : {d: date, s: % du 1er coup, n: questions, m: cartes maîtrisées}.
+  var hist = (function(){ try { var h = JSON.parse(localStorage.getItem("qr-historique-v1") || "[]"); return Array.isArray(h) ? h : []; } catch(e){ return []; } })();
+
+  /* ---------- Badge « Nouveau » ----------
+     Une carte est nouvelle si elle a été ajoutée (champ "ajout") après la 1re visite de cet appareil
+     et qu'elle n'a jamais été jouée. Un thème ou un chapitre porte le badge tant qu'il contient
+     une carte nouvelle plus récente que la dernière fois où on l'a ouvert. */
+  var K_VU = "qr-vu-v1", K_DEBUT = "qr-debut-v1", vu = lire(K_VU);
+  var debut = (function(){
+    try {
+      var d = localStorage.getItem(K_DEBUT); if (d) return d;
+      var t = Infinity; for (var k in mem) if (mem[k] && mem[k].dernier && mem[k].dernier < t) t = mem[k].dernier;
+      // Appareil neuf : la dernière mise à jour compte comme « Nouveau » (pour la voir et la tester une fois).
+      var der = CARTES.reduce(function(m, c){ return c.ajout && c.ajout > m ? c.ajout : m; }, "");
+      var veille = der ? aujourdhui(new Date(new Date(der + "T12:00:00").getTime() - JOUR)) : aujourdhui();
+      d = t < Infinity ? aujourdhui(new Date(t)) : veille;
+      localStorage.setItem(K_DEBUT, d); return d;
+    } catch(e) { return "9999-12-31"; }
+  })();
+  var NOUV = '<span class="nouv"><i>✦</i>Nouveau</span>';
+  function estNouv(c){ return !!c.ajout && c.ajout > debut && !mem[c.id]; }
+  function nouveautes(){
+    var o = {};
+    CARTES.forEach(function(x){
+      if (!estNouv(x)) return;
+      var kc = x.theme + "|" + x.chapitre, kt = "T|" + x.theme;
+      if (!o[kc] || x.ajout > o[kc]) o[kc] = x.ajout;
+      if (!vu[kc] || x.ajout > vu[kc]){ if (!o[kt] || x.ajout > o[kt]) o[kt] = x.ajout; }
+    });
+    return o;
+  }
+  function badge(o, k){ return o[k] && (!vu[k] || o[k] > vu[k]) ? NOUV : ""; }
+  function marquerVu(k){ vu[k] = aujourdhui(); ecrire(K_VU, vu); }
 
   var app = document.getElementById("app"), prog = document.getElementById("prog");
   var rafraichir = null;   // l'écran à redessiner quand les progrès arrivent d'un autre appareil
   var s = { niveau: "tous", file: [], fait: 0, total: 0, vue: false, choix: null, rates: {}, titre: "", retour: null };
 
+  // Une scène qui contient déjà ses guillemets « » ne reçoit pas une 2e paire (07/10/2026).
+  function cite(x){ return /«/.test(String(x)) ? esc(x) : '« '+esc(x)+' »'; }
   function esc(x){ return String(x == null ? "" : x).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
   function m(c){ return mem[c.id] || {p:-1, due:0, vus:0, ok:0, ko:0, oubli:0, top:-1}; }
   function okNiv(c){ return s.niveau === "tous" || String(c.niveau) === s.niveau; }
@@ -200,6 +284,23 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     prog.hidden = true; rafraichir = accueil;
     var l = de(), du = l.filter(aRevoir).length, acq = l.filter(maitrise).length;
     var h = LOGO.replace('class="logo"', 'class="logo grand"') + '<div class="kicker">Second cerveau · OBSIDIAN-KB</div><h1>Mes cartes</h1><p class="lead">Comme au code : une question, 3 réponses, tu valides. Séries de 40, réussi à 35.</p>';
+    // Bouton des notifications : toujours au même endroit, juste sous le titre, il ne disparaît jamais (Trésor, 07/10/2026).
+    // Site public seulement : là où le SDK OneSignal est chargé.
+    var aSdk = !!window.OneSignalDeferred, horsIcone = !(navigator.standalone || (window.matchMedia && matchMedia("(display-mode: standalone)").matches));
+    if (aSdk){
+      if (notif && notif.on) h += '<div class="cloche ok">🔔 Notifications activées ✓<small>tu seras prévenu à chaque nouveauté</small></div>';
+      else if (/iPhone|iPad/.test(navigator.userAgent) && horsIcone)
+        h += '<div class="cloche info">🔔 Pour recevoir les notifications : touche Partager, puis « Sur l’écran d’accueil », puis ouvre l’app depuis la nouvelle icône. Le bouton « Activer les notifications » sera ici.</div>';
+      else h += '<button class="cloche" data-notif>🔔 Activer les notifications<small>pour être prévenu dès qu’il y a du nouveau</small></button>';
+    }
+    var nvA = nouveautes(), tNouv = CFG.themes.filter(function(t){ return !!nvA["T|" + t.id]; });
+    if (tNouv.length && (lire(K_BAN).maj || "") !== MAJ){
+      var cN = CARTES.filter(estNouv), chN = [];
+      cN.forEach(function(x){ if (chN.indexOf(x.chapitre) < 0) chN.push(x.chapitre); });
+      h += '<button class="ban" data-ban><span class="k">✦ Mise à jour ✦</span><span class="ligne"><h2>Nouveau</h2><span class="cri">On va tout arracher, les gars !</span></span>'
+        + '<p>' + cN.length + ' nouvelle' + (cN.length > 1 ? 's' : '') + ' carte' + (cN.length > 1 ? 's' : '') + ' : « ' + esc(chN.join(" », « ")) + ' »</p>'
+        + '<span class="go">Touche ici pour commencer ›</span></button>';
+    }
     h += '<div class="stats"><div class="stat hot"><b>'+du+'</b><span>à revoir</span></div><div class="stat ok"><b>'+acq+'</b><span>maîtrisées</span></div><div class="stat"><b>'+l.length+'</b><span>cartes</span></div></div>';
     h += niveaux();
     var sj = serieJours(), fait = jours.dernier === aujourdhui();
@@ -210,9 +311,11 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     h += '<button class="'+(sg ? "ghost" : "all")+'" data-all><span>'+(sg ? "Nouvelle série du jour" : "Série du jour")+'</span><small>'+Math.min(du, SERIE)+' cartes ›</small></button>';
     h += '<button class="ghost" data-ana><span>Mes analyses</span><small>forts · faibles · oublis ›</small></button>';
     h += '<div class="sec">Thèmes</div>';
+    var nv = nouveautes();
     CFG.themes.forEach(function(t){
       var c = de(t.id), d = c.filter(aRevoir).length, a = c.filter(maitrise).length;
-      h += '<button class="row'+(c.length?"":" vide")+'" data-t="'+t.id+'"><span class="tag">'+esc(t.tag)+'</span><span class="tinfo"><b>'+esc(t.nom)+'</b><small>'+(c.length ? c.length+' cartes · '+a+' maîtrisées' : 'pas encore de cartes')+'</small><div class="mini"><i style="width:'+pct(a,c.length)+'%"></i></div></span>'+(d ? '<span class="due">'+d+'</span>' : '')+'</button>';
+      var bt = nv["T|"+t.id] ? NOUV : "";
+      h += '<button class="row'+(c.length?"":" vide")+(bt ? " cible" : "")+'" data-t="'+t.id+'"><span class="tag">'+esc(t.tag)+'</span><span class="tinfo"><b>'+esc(t.nom)+'</b><small>'+(c.length ? c.length+' cartes · '+a+' maîtrisées' : 'pas encore de cartes')+'</small><div class="mini"><i style="width:'+pct(a,c.length)+'%"></i></div></span>'+bt+(d ? '<span class="due">'+d+'</span>' : '')+'</button>';
     });
     h += '<div class="foot"><button data-exp>Sauvegarder mes progrès</button><label>Restaurer<input type="file" accept=".json,application/json" data-imp></label></div>';
     h += '<p class="note">Tes progrès restent sur ce téléphone. Sauvegarde-les de temps en temps.</p>';
@@ -220,6 +323,13 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     lierNiveaux(accueil);
     app.querySelector("[data-all]").onclick = function(){ lancer(de(), "Série du jour", accueil, true); };
     var rp = app.querySelector("[data-reprendre]"); if (rp) rp.onclick = reprendre;
+    var bnotif = app.querySelector("[data-notif]"); if (bnotif) bnotif.onclick = activerNotif;
+    var bn = app.querySelector("[data-ban]");
+    if (bn) bn.onclick = function(){
+      ecrire(K_BAN, {maj: MAJ, le: aujourdhui()});
+      sonUneFois(); poudreDor(bn); bn.classList.add("part");
+      setTimeout(function(){ theme(tNouv[0].id); toast("✦ Touche le chapitre qui brille."); }, 850);
+    };
     app.querySelector("[data-ana]").onclick = analyses;
     app.querySelectorAll("[data-t]").forEach(function(b){ b.onclick = function(){ theme(b.dataset.t); }; });
     app.querySelector("[data-exp]").onclick = exporter;
@@ -236,7 +346,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
   /* ---------- Thème : ses chapitres ---------- */
   function theme(id){
     prog.hidden = true; rafraichir = function(){ theme(id); };
-    var t = THEME[id], c = de(id);
+    var t = THEME[id], c = de(id), nv = nouveautes();
+    if (nv["T|" + id]) sonVu();   // on a ouvert la nouveauté : le son s'arrête jusqu'à la prochaine mise à jour
+    // Le thème garde son badge tant qu’un de ses chapitres nouveaux n’est pas ouvert : il guide jusqu’au chapitre (Trésor, 07/10/2026).
     var h = '<div class="top"><button class="x" data-x>‹ Accueil</button>'+LOGO+'<span class="count">'+esc(t.tag)+'</span></div><h2 class="titre">'+esc(t.nom)+'</h2><p class="lead">'+c.length+' cartes · '+c.filter(maitrise).length+' maîtrisées</p>';
     h += niveaux();
     if (!c.length){
@@ -249,11 +361,12 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       c.forEach(function(x){ if (chap.indexOf(x.chapitre) < 0) chap.push(x.chapitre); });
       chap.forEach(function(ch, i){
         var cc = c.filter(function(x){ return x.chapitre === ch; }), dd = cc.filter(aRevoir).length, a = cc.filter(maitrise).length;
-        h += '<button class="row" data-c="'+i+'"><span class="tinfo"><b>'+esc(ch)+'</b><small>'+cc.length+' cartes · '+a+' maîtrisées</small><div class="mini"><i style="width:'+pct(a,cc.length)+'%"></i></div></span>'+(dd ? '<span class="due">'+dd+'</span>' : '')+'</button>';
+        var bc = badge(nv, id+"|"+ch);
+        h += '<button class="row'+(bc ? " cible" : "")+'" data-c="'+i+'"><span class="tinfo"><b>'+esc(ch)+'</b><small>'+cc.length+' cartes · '+a+' maîtrisées</small><div class="mini"><i style="width:'+pct(a,cc.length)+'%"></i></div></span>'+badge(nv, id+"|"+ch)+(dd ? '<span class="due">'+dd+'</span>' : '')+'</button>';
       });
       app.innerHTML = h;
       app.querySelector("[data-tout]").onclick = function(){ lancer(de(id), t.nom, function(){ theme(id); }, false); };
-      app.querySelectorAll("[data-c]").forEach(function(b){ b.onclick = function(){ var ch = chap[+b.dataset.c]; lancer(de(id, ch), ch, function(){ theme(id); }, false); }; });
+      app.querySelectorAll("[data-c]").forEach(function(b){ b.onclick = function(){ var ch = chap[+b.dataset.c]; marquerVu(id + "|" + ch); lancer(de(id, ch), ch, function(){ theme(id); }, false); }; });
     }
     if (!c.length) app.innerHTML = h;
     lierNiveaux(function(){ theme(id); });
@@ -341,13 +454,13 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       return;
     }
     var base = s.file[0], c = versionBrute(base), t = THEME[c.theme] || {tag: c.theme}, r = c.r || {}, J = jeu(base, c);
-    var h = top + '<div class="meta"><span class="dotr"></span><span class="t">'+esc(t.tag)+'</span><span>· '+esc(c.chapitre)+'</span><span>· '+esc(niv(c.niveau))+'</span></div>';
+    var h = top + '<div class="meta"><span class="dotr"></span><span class="t">'+esc(t.tag)+'</span><span>· '+esc(c.chapitre)+'</span><span>· '+esc(niv(c.niveau))+'</span>'+(estNouv(base) ? NOUV : '')+'</div>';
     h += '<div class="qcard">';
     if (c.competence) h += '<div class="travail">Ce qu\'on travaille : '+esc(c.competence)+'</div>';
     // La citation passe avant la question (« Situation ») si la question parle d'elle,
     // ou si elle ne contient pas la réponse. Sinon elle donnerait la réponse : elle s'affiche après.
-    var situation = c.extrait && (!donneReponse(c.extrait, J.bon) || /\b(ce|cet|cette|ces)\s+(texte|extrait|passage|avis|témoignage|citation|hook|bandeau)|ci-dessus|ci-dessous/i.test(c.q));
-    if (situation) h += '<div class="extrait"><b>Situation</b>« '+esc(c.extrait)+' »</div>';
+    var situation = c.extrait && (!donneReponse(c.extrait, J.bon) || /\b(ce|cet|cette|ces)\s+(deux\s+|trois\s+)?(texte|extrait|passage|avis|témoignage|citation|hook|bandeau|accroche|phrase|puce|message|cliente|client|offre|offres|squelette|appel|cta|scène|réplique|dialogue|plan|pub|vidéo|titre)\b|ci-dessus|ci-dessous/i.test(c.q));
+    if (situation) h += '<div class="extrait"><b>Situation</b>'+cite(c.extrait)+'</div>';
     h += '<h3>'+esc(c.q)+'</h3>';
     if (s.tentative === 2 && !s.vue) h += '<p class="essai">Faux. 2e tentative : 3 nouvelles réponses.</p>';
     h += '<div class="choix">';
@@ -371,7 +484,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       }
       h += '</div>';
       if (c.explication) h += '<div class="box expl"><b>Pour bien comprendre</b>'+esc(c.explication)+'</div>';
-      if (c.extrait && !situation) h += '<div class="extrait"><b>Ce que dit la source</b>« '+esc(c.extrait)+' »</div>';
+      if (c.extrait && !situation) h += '<div class="extrait"><b>Ce que dit la source</b>'+cite(c.extrait)+'</div>';
       if (c.zylvea) h += '<div class="box zyl"><b>Pour Zylvea</b>'+esc(c.zylvea)+'</div>';
       h += '<div class="ref">'+esc(c.source)+' · '+esc(c.ref)+(c.date_source && c.date_source !== "inconnue" ? ' · '+esc(c.date_source) : '')+'</div>';
     }
@@ -394,7 +507,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     app.querySelectorAll("[data-r]").forEach(function(btn){ btn.onclick = function(){ noter(+btn.dataset.r); }; });
     var g = app.querySelector("[data-sig]"); if (g) g.onclick = function(){ if (sig[base.id]) delete sig[base.id]; else sig[base.id] = new Date().toISOString().slice(0,10); ecrire(K_SIG, sig); envoyerSignal(); carte(); };
   }
-  var CHRONO = 30, chronoCle = null, chronoFin = 0, chronoMinuteur = null;
+  var CHRONO = 120, chronoCle = null, chronoFin = 0, chronoMinuteur = null;
   function lancerChrono(cle, J){
     clearInterval(chronoMinuteur);
     if (s.vue) { chronoCle = null; return; }
@@ -403,7 +516,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       var reste = Math.max(0, Math.ceil((chronoFin - Date.now()) / 1000));
       var b = document.getElementById("chrono-barre"), t = document.getElementById("chrono-txt");
       if (b) b.style.width = (reste / CHRONO * 100) + "%";
-      if (t) t.textContent = "⏱ " + reste + " s";
+      if (t) t.textContent = "⏱ " + Math.floor(reste / 60) + ":" + String(reste % 60).padStart(2, "0");   // 2 min (décision 38) : affiché 1:59
       if (b && reste <= 10) b.parentNode.classList.add("presse");
       if (reste === 0){
         clearInterval(chronoMinuteur);
@@ -481,6 +594,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     var J = s.journal, n = [0,0,0,0];
     J.forEach(function(j){ n[j.note]++; });
     var score = pct(n[3], J.length);
+    if (J.length){ hist.push({t: Date.now(), d: aujourdhui(), s: score, n: J.length, m: CARTES.filter(maitrise).length}); ecrire(K_HIST, hist); marquerNotes(); }
     var reussi = J.length && n[3] / J.length >= REUSSI;
     var mot = reussi ? "Réussi." : "Pas encore. Il faut 35 sur 40 (88 %), comme au code.";
     var h = '<div class="top"><button class="x" data-x>‹ Retour</button>'+LOGO+'<span class="count">résultats</span></div>';
@@ -506,6 +620,55 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     window.scrollTo(0,0);
   }
 
+
+  /* ---------- Évolution semaine par semaine (Trésor, 07/10/2026) ----------
+     Deux petits graphiques séparés (jamais deux échelles sur un même graphique) :
+     le score du 1er coup (moyenne de la semaine) et les cartes maîtrisées (fin de semaine). */
+  function cleHist(r){ return r.t ? "t" + r.t : r.d + "|" + r.s + "|" + r.n + "|" + r.m; }
+  function fusionHist(a, b){
+    var vu = {}, l = [];
+    a.concat(b).forEach(function(r){ var k = cleHist(r); if (!vu[k]){ vu[k] = 1; l.push(r); } });
+    return l.sort(function(x, y){ return (x.d < y.d ? -1 : x.d > y.d ? 1 : (x.t || 0) - (y.t || 0)); });
+  }
+  function lundi(d){ var x = new Date(d + "T12:00:00"); var j = (x.getDay() + 6) % 7; x.setDate(x.getDate() - j); return aujourdhui(x); }
+  function semaines(){
+    var g = {}, ordre = [];
+    hist.forEach(function(r){ var k = lundi(r.d); if (!g[k]){ g[k] = {k: k, s: 0, c: 0, m: 0, n: 0}; ordre.push(k); } g[k].s += r.s; g[k].c++; g[k].m = r.m; g[k].n += r.n; });
+    ordre.sort();
+    return ordre.map(function(k){ var o = g[k]; return {k: k, s: Math.round(o.s / o.c), m: o.m, n: o.n, series: o.c}; });
+  }
+  function jjmm(k){ return k.slice(8, 10) + "/" + k.slice(5, 7); }
+  function courbe(pts, cle, titre, unite, max){
+    var W = 320, H = 130, g = 34, dr = 12, ht = 14, bas = 24, n = pts.length;
+    var x = function(i){ return n === 1 ? (g + W - dr) / 2 : g + i * (W - g - dr) / (n - 1); };
+    var y = function(v){ return ht + (1 - v / max) * (H - ht - bas); };
+    var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(titre) + '">';
+    [0, max / 2, max].forEach(function(v){
+      svg += '<line x1="' + g + '" x2="' + (W - dr) + '" y1="' + y(v) + '" y2="' + y(v) + '" class="grille"/>'
+           + '<text x="' + (g - 6) + '" y="' + (y(v) + 4) + '" text-anchor="end" class="axe">' + Math.round(v) + unite + '</text>';
+    });
+    if (n > 1) svg += '<polyline class="trait" points="' + pts.map(function(p, i){ return x(i) + "," + y(p[cle]); }).join(" ") + '"/>';
+    pts.forEach(function(p, i){
+      var bulle = "Semaine du " + jjmm(p.k) + " : " + p[cle] + unite + " (" + p.series + " série" + (p.series > 1 ? "s" : "") + ")";
+      svg += '<g class="pt"><circle cx="' + x(i) + '" cy="' + y(p[cle]) + '" r="12" class="zone"><title>' + esc(bulle) + '</title></circle>'
+           + '<circle cx="' + x(i) + '" cy="' + y(p[cle]) + '" r="4" class="point"/></g>';
+      if (i === 0 || i === n - 1 || n <= 6) svg += '<text x="' + x(i) + '" y="' + (H - 6) + '" text-anchor="middle" class="axe">' + jjmm(p.k) + '</text>';
+    });
+    var der = pts[n - 1];
+    svg += '<text x="' + Math.min(x(n - 1), W - dr) + '" y="' + (y(der[cle]) - 9) + '" text-anchor="end" class="val">' + der[cle] + unite + '</text>';
+    return '<div class="courbe"><b>' + esc(titre) + '</b>' + svg + '</div>';
+  }
+  function evolution(){
+    var h = '<div class="sec">Mon évolution, semaine par semaine</div>';
+    var p = semaines();
+    if (!p.length) return h + '<div class="empty">Termine une série : ta courbe commence ici.</div>';
+    var maxM = Math.max(10, Math.ceil(Math.max.apply(null, p.map(function(o){ return o.m; })) / 10) * 10);
+    h += '<div class="ana">' + courbe(p, "s", "Score du 1er coup (moyenne de la semaine)", " %", 100) + courbe(p, "m", "Cartes maîtrisées (fin de semaine)", "", maxM);
+    h += '<details class="chiffres"><summary>Voir les chiffres</summary><table><tr><th>Semaine du</th><th>Séries</th><th>Score</th><th>Maîtrisées</th></tr>'
+       + p.map(function(o){ return '<tr><td>' + jjmm(o.k) + '</td><td>' + o.series + '</td><td>' + o.s + ' %</td><td>' + o.m + '</td></tr>'; }).join("") + '</table></details></div>';
+    return h;
+  }
+
   /* ---------- Analyses ---------- */
   function groupe(cle){
     var g = {};
@@ -517,6 +680,13 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     return Object.keys(g).map(function(k){ var o = g[k]; o.taux = (o.ok + o.ko) ? o.ok / (o.ok + o.ko) : null; return o; });
   }
   function ligne(o, droite){ return '<div class="l"><span>'+esc(o.nom)+'</span><span>'+droite+'</span></div>'; }
+  var SEUIL_FORCE = 0.7;
+  function barre(o, sens, i){
+    var v = pct(o.ok, o.ok + o.ko);
+    return '<div class="fb ' + sens + '"><div class="l"><span>' + esc(o.nom) + '</span><span>' + v + ' %</span></div>'
+      + '<div class="jauge"><i style="width:' + v + '%"></i></div>'
+      + (sens === "faible" ? '<button class="travail-btn" data-fb="' + i + '">Travailler ce point ›</button>' : '') + '</div>';
+  }
   function analyses(){
     prog.hidden = true; rafraichir = analyses;
     var vues = CARTES.filter(function(c){ return m(c).vus > 0; });
@@ -527,19 +697,29 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     if (ou.length) h += '<button class="ghost" data-ou><span>Réviser « j\'ai oublié »</span><small>'+Math.min(ou.length,SERIE)+' ›</small></button>';
 
     var th = groupe(function(c){ return (THEME[c.theme] || {}).nom; }).filter(function(o){ return o.taux !== null; }).sort(function(a,b){ return b.taux - a.taux; });
+    h += evolution();
     h += '<div class="sec">Par thème (taux de bonnes réponses)</div>';
     if (!th.length) h += '<div class="empty">Fais quelques séries : tes analyses apparaîtront ici.</div>';
     else {
       h += '<div class="ana"><p class="verdict">Ton meilleur thème : <b>'+esc(th[0].nom)+'</b></p>'+(th.length > 1 ? '<p class="verdict">À travailler : <b>'+esc(th[th.length-1].nom)+'</b></p>' : '')+'</div>';
       h += '<div class="ana">'+th.map(function(o){ return ligne(o, pct(o.ok, o.ok+o.ko)+' % · '+o.maitr+'/'+o.n+' maîtrisées'); }).join("")+'</div>';
     }
-    ["competence", "chapitre"].forEach(function(k){
-      var g = groupe(k).filter(function(o){ return o.taux !== null && (o.ok + o.ko) >= 3; }).sort(function(a,b){ return b.taux - a.taux; });
+    // Forces et faiblesses (Trésor, 07/10/2026) : jamais le même groupe des deux côtés.
+    // Force = au moins 70 % de bonnes réponses ; faiblesse = moins de 70 %. Il faut au moins 3 réponses pour juger.
+    var aTravailler = [], montre = false;
+    [["chapitre", "chapitre"], ["competence", "genre de choses"]].forEach(function(kk){
+      var k = kk[0], lab = kk[1];
+      var g = groupe(k).filter(function(o){ return o.taux !== null && (o.ok + o.ko) >= 3; });
       if (!g.length) return;
-      var lab = k === "competence" ? "genre de choses" : "chapitre";
-      h += '<div class="sec">Par '+lab+' : où tu es fort</div><div class="ana">'+g.slice(0,3).map(function(o){ return ligne(o, pct(o.ok,o.ok+o.ko)+' %'); }).join("")+'</div>';
-      h += '<div class="sec">Par '+lab+' : où tu es faible</div><div class="ana">'+g.slice(-3).reverse().map(function(o){ return ligne(o, pct(o.ok,o.ok+o.ko)+' %'); }).join("")+'</div>';
+      montre = true;
+      var fo = g.filter(function(o){ return pct(o.ok, o.ok + o.ko) >= SEUIL_FORCE * 100; }).sort(function(x, y){ return y.taux - x.taux; }).slice(0, 3);
+      var fa = g.filter(function(o){ return pct(o.ok, o.ok + o.ko) < SEUIL_FORCE * 100; }).sort(function(x, y){ return x.taux - y.taux; }).slice(0, 3);
+      h += '<div class="sec">Mes forces · par ' + lab + '</div>';
+      h += fo.length ? '<div class="ana">' + fo.map(function(o){ return barre(o, "fort"); }).join("") + '</div>' : '<div class="empty">Pas encore de force à 70 % ou plus : continue, elle arrive.</div>';
+      h += '<div class="sec">Mes faiblesses · par ' + lab + '</div>';
+      h += fa.length ? '<div class="ana">' + fa.map(function(o){ aTravailler.push({k: k, nom: o.nom}); return barre(o, "faible", aTravailler.length - 1); }).join("") + '</div>' : '<div class="empty">Aucune faiblesse sous 70 %. Bravo.</div>';
     });
+    if (!montre) h += '<div class="empty">Réponds à au moins 3 questions d’un chapitre pour voir tes forces et tes faiblesses.</div>';
     var ns = Object.keys(sig).length;
     h += '<div class="sec">Cartes signalées</div><div class="ana"><div class="l"><span>'+ns+' carte(s) à corriger par Claude</span><span>dimanche</span></div></div>';
     h += '<p class="note">Pour que Claude les corrige : « Sauvegarder mes progrès » sur l\'accueil, puis donne-lui le fichier.</p>';
@@ -547,12 +727,16 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     app.querySelector("[data-x]").onclick = accueil;
     var a = app.querySelector("[data-sp]"); if (a) a.onclick = function(){ lancer(melanger(sp.slice()), "Je sais pas", analyses, false, true); };
     var b = app.querySelector("[data-ou]"); if (b) b.onclick = function(){ lancer(melanger(ou.slice()), "J'ai oublié", analyses, false, true); };
+    app.querySelectorAll("[data-fb]").forEach(function(btn){ btn.onclick = function(){
+      var t = aTravailler[+btn.dataset.fb]; if (!t) return;
+      lancer(melanger(CARTES.filter(function(c){ return c[t.k] === t.nom; })), t.nom, analyses, false, true);
+    }; });
     window.scrollTo(0,0);
   }
 
   /* ---------- Sauvegarde ---------- */
   async function exporter(){
-    var data = JSON.stringify({app:"qr-cartes", date:new Date().toISOString(), progres:mem, signalees:sig, notes:notes, jours:jours}, null, 1);
+    var data = JSON.stringify({app:"qr-cartes", date:new Date().toISOString(), progres:mem, signalees:sig, notes:notes, jours:jours, historique:hist}, null, 1);
     var nom = "progres-cartes-" + new Date().toISOString().slice(0,10) + ".json";
     var dl = null;
     try { dl = window.claude && window.claude.use ? await window.claude.use("downloads") : null; } catch(e){ dl = null; }
@@ -572,7 +756,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       try {
         var d = JSON.parse(rd.result);
         if (d.app !== "qr-cartes") throw 0;
-        mem = d.progres || {}; sig = d.signalees || {}; notes = d.notes || notes; ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); marquerNotes();
+        mem = d.progres || {}; sig = d.signalees || {}; notes = d.notes || notes; if (Array.isArray(d.historique)){ hist = fusionHist(hist, d.historique); ecrire(K_HIST, hist); } ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); marquerNotes();
         CFG.themes.forEach(function(t){ sale[t.id] = 1; }); sale.autres = 1; pousser(); envoyerSignal();
         toast("Progrès restaurés."); accueil();
       } catch(x){ toast("Ce fichier n'est pas une sauvegarde de l'app."); }
@@ -618,13 +802,14 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     // ce qui n'existe que sur cet appareil part aussi dans le nuage
     for (var k2 in mem) if (vu[k2] === undefined || (mem[k2].dernier || 0) > vu[k2]) sale[themeDe(k2)] = 1;
     try { var dn = await nuage.db.doc("data/users/" + nuage.uid + "/notes").get(); if (dn.exists){ var nn = (dn.data() || {}).notes || {}; for (var kn in nn) if (!notes[kn]){ notes[kn] = nn[kn]; chg = true; }
+      var hh = (dn.data() || {}).historique; if (Array.isArray(hh) && hh.length){ var f = fusionHist(hist, hh); if (f.length !== hist.length){ hist = f; ecrire(K_HIST, hist); chg = true; marquerNotes(); } }
       var jj = (dn.data() || {}).jours; if (jj && jj.dernier && (!jours.dernier || jj.dernier > jours.dernier)){ jours = jj; ecrire(K_JOURS, jours); chg = true; } } } catch(e){}
     if (chg){ ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); }
     if (Object.keys(sale).length) pousser();
     if (rafraichir) rafraichir();
   }
   var minNotes = null;
-  function marquerNotes(){ if (!nuage) return; clearTimeout(minNotes); minNotes = setTimeout(function(){ nuage.db.doc("data/users/" + nuage.uid + "/notes").set({notes: notes, jours: jours, maj: Date.now()}).catch(function(){}); }, 2000); }
+  function marquerNotes(){ if (!nuage) return; clearTimeout(minNotes); minNotes = setTimeout(function(){ nuage.db.doc("data/users/" + nuage.uid + "/notes").set({notes: notes, jours: jours, historique: hist, maj: Date.now()}).catch(function(){}); }, 2000); }
   function envoyerSignal(){ if (nuage) nuage.db.doc("signalements/liste").set({cartes: sig, maj: Date.now()}).catch(function(){}); }
   async function brancher(){
     if (!window.claude || !window.claude.use) return;
@@ -646,8 +831,90 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     if (!s.vue && e.key === "Enter"){ var v = app.querySelector("[data-valider]"); if (v && !v.disabled) v.click(); return; }
     else if (s.vue){ var b = app.querySelector('[data-r="'+e.key+'"]'); if (b) b.click(); }
   });
+  /* ---------- Notifications sur le téléphone (OneSignal, décision 40) ----------
+     Seulement sur le site public (construire.py y ajoute le SDK). Ailleurs, window.OneSignalDeferred n'existe pas : rien ne s'affiche.
+     Sur iPhone, Apple exige que l'app soit ajoutée à l'écran d'accueil (iOS 16.4+) et un toucher pour demander la permission. */
+  var notif = null;
+  if (window.OneSignalDeferred){
+    window.OneSignalDeferred.push(async function(OS){
+      try { notif = {os: OS, ok: OS.Notifications.isPushSupported(), on: !!OS.User.PushSubscription.optedIn}; } catch(e){ notif = null; return; }
+      if (rafraichir === accueil) accueil();
+      try { OS.User.PushSubscription.addEventListener("change", function(){ notif.on = !!OS.User.PushSubscription.optedIn; if (rafraichir === accueil) accueil(); }); } catch(e){}
+    });
+  }
+  function activerNotif(){
+    if (!notif || !notif.os){ toast("Un instant, la cloche se prépare. Touche à nouveau dans 2 secondes."); return; }
+    if (!notif.ok){ toast("Ce navigateur ne permet pas les notifications. Sur iPhone : ouvre l’app depuis son icône."); return; }
+    notif.os.Notifications.requestPermission().then(function(){
+      notif.on = !!notif.os.User.PushSubscription.optedIn;
+      toast(notif.on ? "🔔 Notifications activées." : "Notifications pas encore activées.");
+      accueil();
+    }).catch(function(){ toast("Impossible d’activer les notifications ici."); });
+  }
+
+
+
+  /* ---------- Son « Nouveau » (demande de Trésor du 07/10/2026) ----------
+     Quand une mise à jour apporte des nouveautés, le son joue à l'ouverture de l'app, puis toutes les 5 minutes
+     tant que l'app est ouverte, jusqu'à ce qu'on ouvre le thème marqué « Nouveau ». Ensuite il se tait jusqu'à
+     la mise à jour suivante (nouvelle date "ajout" dans les cartes). Le navigateur peut bloquer le 1er son
+     tant qu'on n'a pas touché l'écran : il joue alors au premier toucher. */
+  var K_SON = "qr-son-v1", K_BAN = "qr-banniere-v1", SON_MS = 5 * MIN, sonMinuteur = null, son = null;
+
+  /* Poussière d'or : des grains dorés s'envolent de l'élément puis retombent en s'éteignant (1 s environ). */
+  function poudreDor(el){
+    if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var r = el.getBoundingClientRect(), cv = document.createElement("canvas"), dpr = window.devicePixelRatio || 1;
+    cv.className = "poudre"; cv.width = innerWidth * dpr; cv.height = innerHeight * dpr; document.body.appendChild(cv);
+    var ctx = cv.getContext("2d"); ctx.scale(dpr, dpr);
+    var ors = ["#fff6d2", "#fbe6a2", "#ecc05a", "#e0b048", "#b07b1e", "#fffbe8"], g = [];
+    for (var i = 0; i < 170; i++) g.push({x: r.left + Math.random() * r.width, y: r.top + Math.random() * r.height,
+      vx: (Math.random() - .5) * 4.2, vy: -Math.random() * 3.6 - .4, t: 1.2 + Math.random() * 2.6,
+      c: ors[i % ors.length], v: 1, d: .010 + Math.random() * .014});
+    (function anime(){
+      ctx.clearRect(0, 0, innerWidth, innerHeight);
+      var vivants = 0;
+      g.forEach(function(p){
+        if (p.v <= 0) return; vivants++;
+        p.vy += .06; p.vx *= .985; p.x += p.vx; p.y += p.vy; p.v -= p.d;
+        ctx.globalAlpha = Math.max(p.v, 0); ctx.fillStyle = p.c; ctx.shadowColor = p.c; ctx.shadowBlur = 8;
+        ctx.beginPath(); ctx.arc(p.x, p.y, p.t, 0, 6.283); ctx.fill();
+      });
+      if (vivants) requestAnimationFrame(anime); else cv.remove();
+    })();
+  }
+  var MAJ = CARTES.reduce(function(m, c){ return c.ajout && c.ajout > m ? c.ajout : m; }, "");
+  function sonAttendu(){
+    if ((lire(K_SON).maj || "") === MAJ) return false;
+    var nv = nouveautes();
+    return Object.keys(nv).some(function(k){ return k.indexOf("T|") === 0 && !!nv[k]; });
+  }
+  function arreterSon(){ clearInterval(sonMinuteur); sonMinuteur = null; if (son){ try { son.pause(); son.currentTime = 0; } catch(e){} } }
+  // La nouveauté est ouverte : plus de rappel toutes les 5 min. Le son en cours finit ses 16 s (il accompagne la poussière d'or).
+  function sonVu(){ ecrire(K_SON, {maj: MAJ, le: aujourdhui()}); clearInterval(sonMinuteur); sonMinuteur = null; }
+  function sonUneFois(){ try { if (!son) son = new Audio("son/nouveau.mp3"); son.volume = 1; son.currentTime = 0; var p = son.play(); if (p && p.catch) p.catch(function(){}); } catch(e){} }
+  function attendreGeste(){
+    function un(){ document.removeEventListener("click", un, true); setTimeout(function(){ if (!(son && !son.paused)) jouerSon(); }, 50); }
+    document.addEventListener("click", un, true);
+  }
+  function jouerSon(){
+    if (!sonAttendu()){ arreterSon(); return; }
+    try {
+      if (!son) son = new Audio("son/nouveau.mp3");
+      son.volume = 1;   // volume au maximum de la page (le volume du téléphone, lui, reste à la personne)
+      son.currentTime = 0;
+      var p = son.play();
+      if (p && p.catch) p.catch(function(){ attendreGeste(); });
+    } catch(e){}
+  }
+  function couperSon(){ if (son && !son.paused){ try { son.pause(); son.currentTime = 0; } catch(e){} } }
+  document.addEventListener("pointerdown", couperSon, true);
+  document.addEventListener("keydown", couperSon, true);
+  function lancerSon(){ arreterSon(); if (!sonAttendu()) return; jouerSon(); sonMinuteur = setInterval(jouerSon, SON_MS); }
+
   accueil();
   brancher();
+  lancerSon();
 })();
 </script>
 </body>

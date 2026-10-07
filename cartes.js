@@ -1585,6 +1585,3547 @@ window.QR_CARTES = [
 }
 },
 {
+"id": "copy-deco-001",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Qui la pub vise (sub-avatar)",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans cet extrait, à quelle cliente la pub parle-t-elle en premier ?",
+"extrait": "Une cheffe en tablier : « Je suis cheffe pâtissière et je ne peux pas manger de sucre. » Puis : « Presque toute ma vie, j'ai vécu un conflit intérieur très fort : un amour profond pour la nourriture, surtout le chocolat, et un corps qui ne supportait pas le sucre. »",
+"choix": [
+"Celle qui aime le chocolat mais doit éviter le sucre",
+"Celle qui veut apprendre la pâtisserie chez elle",
+"Celle qui cherche un cadeau gourmand pour les fêtes",
+"Celle qui compare les prix des tablettes bio en rayon"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Celle qui aime le chocolat mais doit éviter le sucre.",
+"pourquoi": "La cheffe vit exactement ce conflit : elle aime, et son corps dit non. La spectatrice qui le vit aussi se reconnaît.",
+"action": "Pour trouver ton sub-avatar, écris son conflit en une phrase : « elle veut X, mais Y l'en empêche »."
+},
+"explication": "Un sub-avatar n'est pas « les femmes qui aiment le chocolat ». C'est une personne précise avec un désir ET un obstacle. Plus le conflit est précis, plus elle se dit « c'est moi ».",
+"variantes": [
+{
+"q": "Pourquoi une cheffe pâtissière qui ne peut pas manger de sucre accroche-t-elle mieux qu'une cheffe en bonne santé ?",
+"choix": [
+"Elle vit le même conflit que la cliente",
+"Elle connaît plus de recettes que les autres",
+"Elle travaille dans une plus grande cuisine",
+"Elle vend son chocolat moins cher que les autres"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle vit le même conflit que la cliente : aimer le chocolat et devoir éviter le sucre."
+}
+}
+],
+"source": "The Conscious Bar – pub Meta gagnante (traduction FR) ; skill-usa, livre 1 (Vincent)",
+"ref": "Fiche « GAGNANTE 05 - La cheffe pâtissière qui ne peut pas manger de sucre », blocs 1 et 2 ; skill-usa 00-ordre-de-la-maison, livre 1",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-002",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · La marche de départ (Hawkins)",
+"niveau": 1,
+"type": "qcm",
+"q": "Quand elle voit cet extrait, sur quelle marche de Hawkins la spectatrice se trouve-t-elle ?",
+"extrait": "Écrit à l'écran pendant 10 secondes : « J'ai arrêté le sucre et je mange du chocolat tous les jours. » À voix haute, une femme ouvre un colis : « Il est arrivé, il est arrivé, il est arrivé ! Je suis trop contente. »",
+"choix": [
+"Le Désir",
+"La Honte",
+"La Paix",
+"Le Courage"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le Désir : « je veux, et je n'ai pas ».",
+"pourquoi": "Le colis et l'excitation donnent envie d'avoir la même chose. Elle n'a pas encore ce chocolat sans sucre, elle le veut.",
+"action": "Avant d'écrire un hook, nomme la marche où ta cliente se trouve quand elle voit la pub."
+},
+"explication": "La grille de Hawkins dit où elle est quand la pub démarre, et où elle doit être quand la pub finit. Le Désir est une marche de départ : elle se dit « je veux, et je n'ai pas ».",
+"variantes": [
+{
+"q": "Quelle phrase dit une cliente qui est sur la marche du Désir (Hawkins) ?",
+"choix": [
+"« Je veux, et je n'ai pas »",
+"« J'ai fait l'effort pour rien »",
+"« Je n'ose pas le dire »",
+"« Peut-être que ça va marcher »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Je veux, et je n'ai pas »"
+}
+}
+],
+"source": "Hawkins – Map of Consciousness (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 01-hawkins, tableau « Départ, en bas » ; fiche « GAGNANTE 04 - J'ai arrêté le sucre et je mange du chocolat chaque jour », bloc 1",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-003",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · La marche d'arrivée (Hawkins)",
+"niveau": 1,
+"type": "qcm",
+"q": "Cet extrait est la fin de la pub. Sur quelles marches de Hawkins la spectatrice doit-elle être à la fin ?",
+"extrait": "« Je veux que tu le goûtes. Alors clique sur le lien en dessous pour avoir 20 % sur ta première commande aujourd'hui. »",
+"choix": [
+"Neutralité, Volonté ou Acceptation",
+"Joie, Amour ou Paix",
+"Peur, Désir ou Colère",
+"Honte, Culpabilité ou Apathie"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Neutralité, Volonté ou Acceptation, jamais plus haut.",
+"pourquoi": "Plus haut (Joie, Amour), c'est une promesse qu'elle ne croit pas. Plus bas, elle n'a pas l'élan de cliquer.",
+"action": "Relis ta dernière phrase avant le CTA : elle doit dire « peut-être que ça va marcher », pas « ta vie va changer »."
+},
+"explication": "Hawkins : monter jusqu'en Neutralité (« ah, d'accord »), Volonté (« peut-être que ça va marcher ») ou Acceptation (« ce n'est pas ma faute »). Joie ou Amour à la fin, c'est le scepticisme assuré.",
+"variantes": [
+{
+"q": "Pourquoi une pub ne doit-elle pas finir sur la Joie ou l'Amour (Hawkins) ?",
+"choix": [
+"C'est une promesse qu'elle ne croit pas",
+"Ces émotions coûtent plus cher sur Meta",
+"Elles font baisser la note de la marque",
+"Elles rendent la vidéo beaucoup trop longue"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 C'est une promesse qu'elle ne croit pas."
+}
+}
+],
+"source": "Hawkins – Map of Consciousness (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 01-hawkins, tableau « Arrivée, en haut » et « Les 3 règles », règle 2 ; fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », bloc 10",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-004",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Après un passage qui fait peur",
+"niveau": 2,
+"type": "scénario",
+"q": "Cet extrait arrive juste après des chiffres qui font peur sur le diabète. À quoi sert cette phrase à ce moment précis ?",
+"extrait": "« Près d'un Américain sur deux a du diabète ou du prédiabète… » Puis, juste après : « Mais ce n'est pas une question de honte. C'est une question de ce qui est possible. »",
+"qcm": {
+"choix": [
+"La faire remonter avant qu'elle fuie",
+"Ajouter une preuve scientifique de plus",
+"Annoncer le prix avant le bouton",
+"Raccourcir la vidéo de quelques secondes"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La faire remonter de la Peur vers l'Acceptation avant qu'elle fuie.",
+"pourquoi": "Laissée dans la peur ou la honte, elle part. La phrase « ce n'est pas une question de honte » la sort de là.",
+"action": "Après chaque passage qui fait peur, écris la phrase qui la remonte : « ce n'est pas ta faute »."
+},
+"explication": "Troisième règle de Hawkins : ne jamais la laisser dans la cave. Si le script la met en Culpabilité ou en Honte, la phrase qui l'en sort doit exister. Ici, elle arrive juste après les chiffres qui font peur.",
+"variantes": [
+{
+"q": "Une pub fait peur à la spectatrice avec un chiffre santé. Que doit faire la phrase juste après ce passage ?",
+"extrait": "« Près d'un Américain sur deux a du diabète ou du prédiabète. »",
+"qcm": {
+"choix": [
+"La remonter vers l'Acceptation",
+"Ajouter un deuxième chiffre qui fait peur",
+"Nommer tout de suite le prix du produit",
+"Changer de sujet pour parler du goût"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La remonter vers l'Acceptation."
+}
+}
+],
+"source": "Hawkins (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 01-hawkins, « Les 3 règles », règle 3 ; fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », blocs 6 et 7",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-005",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Le désir de départ du marché",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Les 8 pubs gagnantes de cette marque parlent toutes à des gens qui mangent déjà du chocolat. Que fait la marque, d'après cet extrait ?",
+"extrait": "« Tu aimes le chocolat ? — Oui. — Tu aimes le chocolat noir ? — Le chocolat noir, c'est mon préféré. »",
+"qcm": {
+"choix": [
+"Elle vend à une envie qui existe déjà",
+"Elle essaie de créer une envie de chocolat",
+"Elle vise les gens qui détestent le chocolat",
+"Elle parle d'abord du prix de la tablette"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle vend à une envie qui existe déjà : le chocolat.",
+"pourquoi": "Personne n'a à apprendre à aimer le chocolat. La marque prend cette envie et la dirige vers sa barre.",
+"action": "Avant d'écrire, vérifie que ton marché a déjà l'envie. Si tu dois la créer, change de marché."
+},
+"explication": "Schwartz : la pub ne crée pas le désir, elle le canalise. Le désir de masse existe déjà (manger du chocolat) ; la pub le dirige vers un produit. Ici, deux questions suffisent : « tu aimes le chocolat ? »",
+"variantes": [
+{
+"q": "Selon Schwartz, qu'est-ce qu'une pub fait avec le désir de ses clients ?",
+"qcm": {
+"choix": [
+"Elle canalise un désir qui existe déjà",
+"Elle crée un désir qui n'existait pas",
+"Elle remplace un désir par un besoin",
+"Elle efface le désir pour vendre moins cher"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle canalise un désir qui existe déjà."
+}
+}
+],
+"source": "Eugene Schwartz – Breakthrough Advertising ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 02-schwartz, « Les trois questions de Schwartz » (question 1, le désir de masse) ; fiche « GAGNANTE 08 - Le micro-trottoir à Miami », bloc 1",
+"date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-006",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Qui la pub vise (sub-avatar)",
+"niveau": 2,
+"type": "diagnostic",
+"q": "D'après ce qu'on voit dans cet extrait, qui cette pub vise-t-elle en premier ?",
+"extrait": "Un père dans sa cuisine, sa petite fille dans les bras qui croque une barre chocolatée : « On va fabriquer tes barres chocolatées préférées, exactement pareilles, à la maison. » Coupe : des enfants dans une forêt de cacaoyers, une enfant pulvérise une cabosse.",
+"qcm": {
+"choix": [
+"Les parents qui donnent des barres à leurs enfants",
+"Les pâtissiers qui veulent un nouveau moule",
+"Les sportifs qui comptent leurs protéines",
+"Les gens qui veulent arrêter le café le matin"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les parents qui donnent des barres chocolatées à leurs enfants.",
+"pourquoi": "La première image montre un père et sa fille qui mange une barre. Les enfants reviennent dès la scène suivante.",
+"action": "Regarde ta première image : qui s'y reconnaît en une seconde, avant même le son ?"
+},
+"explication": "Le sub-avatar ne se dit pas, il se montre. Ici, l'image fait le ciblage : un parent voit un parent. Les mots « tes barres préférées » font le reste.",
+"variantes": [
+{
+"q": "Une pub s'ouvre sur un père et sa fille qui mange une barre chocolatée. Que fait cette première image ?",
+"qcm": {
+"choix": [
+"Elle choisit la cliente avant le premier mot",
+"Elle montre le prix du produit en avance",
+"Elle explique le mécanisme du produit",
+"Elle donne la preuve que le produit marche"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle choisit la cliente avant le premier mot."
+}
+}
+],
+"source": "The Conscious Bar – pub Meta gagnante (créateur Itay Shechter)",
+"ref": "Fiche « GAGNANTE 07 - Fais ton chocolat industriel à la maison », blocs 1 et 2, et relevé technique (première image)",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-007",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Un hook qui fait mal",
+"niveau": 3,
+"type": "piège",
+"q": "Tu écris un hook qui commence par cet extrait. Quel risque prends-tu avec la spectatrice ?",
+"extrait": "« Tu as encore craqué sur une tablette entière à 23 h. Tu sais très bien que tu manges n'importe quoi. »",
+"qcm": {
+"choix": [
+"Elle a honte et fuit la pub",
+"Elle trouve le hook trop doux",
+"Elle croit que le produit est gratuit",
+"Elle confond la marque avec une autre"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle a honte et fuit la pub.",
+"pourquoi": "Ce hook la met en Culpabilité ou en Honte, les marches les plus basses. Sans phrase qui la remonte très vite, elle part.",
+"action": "Remplace « tu manges n'importe quoi » par un méchant extérieur : « le sucre est caché dans presque toutes les barres »."
+},
+"explication": "Hawkins : Culpabilité et Honte sont des marches très basses. Un bandeau qui y entre doit remonter très vite, sinon elle fuit. Zeigarnik le confirme : un hook qui humilie est oublié volontairement.",
+"variantes": [
+{
+"q": "Ton hook dit « tu manges n'importe quoi ». Par quoi le remplaces-tu ?",
+"qcm": {
+"choix": [
+"Un méchant extérieur, comme le sucre caché",
+"Une phrase encore plus dure pour la réveiller",
+"Le prix du produit dès la première seconde",
+"Une liste de 10 ingrédients à éviter"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un méchant extérieur, comme le sucre caché."
+}
+}
+],
+"source": "Hawkins (grille du skill-usa) ; effet Zeigarnik (fiche du skill-usa)",
+"ref": "skill-usa 01-hawkins, avertissement sous le tableau « Départ » ; skill-usa 06-zeigarnik [S010] condition 6 ; exemple de hook écrit pour l'exercice (pas une vraie pub)",
+"date_source": "1927 (Zeigarnik)",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-008",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Construire une série de 3 pubs",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Tu prépares 3 pubs sur l'angle « chocolat sans sucre ». Laquelle de ces séries de marches de départ respecte ta méthode ?",
+"qcm": {
+"choix": [
+"Désir, Colère, Peur : une marche par pub",
+"Désir, Désir, Colère : deux pubs sur la même marche",
+"Peur, Peur, Peur : la plus forte pour toutes",
+"Joie, Désir, Peur : on commence tout en haut"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Désir, Colère, Peur : une marche différente par pub.",
+"pourquoi": "Trois pubs sur un angle, c'est trois personnes différentes, pas trois formulations de la même.",
+"action": "Avant d'écrire une série, remplis le tableau Pub · Bandeau · Départ · Arrivée, et vérifie qu'aucune marche ne se répète."
+},
+"explication": "Ta méthode : N pubs sur un angle = N marches de départ différentes. Les gagnantes du chocolat partent aussi de marches différentes : le déballage joyeux (Désir), les grandes marques qui trichent (Colère), la cheffe qui ne peut pas manger de sucre (Chagrin).",
+"variantes": [
+{
+"q": "Combien de marches de départ différentes faut-il pour 3 pubs sur le même angle ?",
+"qcm": {
+"choix": [
+"Trois, une par pub",
+"Une seule pour toutes",
+"Deux, une pour deux pubs",
+"Aucune, on choisit après"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Trois, une par pub."
+}
+}
+],
+"source": "skill-usa – Stratégie Spencer, règles fixes ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "skill-usa SKILL.md, section 4, règle 1 ; fiches « GAGNANTE 04 », « GAGNANTE 02 » et « GAGNANTE 05 »",
+"date_source": "pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-009",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Le niveau de conscience au début",
+"niveau": 1,
+"type": "qcm",
+"q": "Cet extrait est la toute première phrase de la pub. À quel niveau de conscience parle-t-il ?",
+"extrait": "Une femme face caméra tient une cabosse de cacao contre sa joue : « Comment a-t-on transformé l'un des superaliments les plus puissants de la nature en bonbon ? »",
+"choix": [
+"Inconsciente",
+"La plus consciente",
+"Consciente du produit",
+"Consciente de la solution"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Inconsciente : elle ne sait pas que son chocolat pose problème.",
+"pourquoi": "La phrase ne nomme ni le produit, ni la solution, ni même le problème. Elle ouvre une question sur une histoire.",
+"action": "Si ta cliente ne sait pas qu'elle a un problème, commence par une histoire ou une question, jamais par ton produit."
+},
+"explication": "Schwartz : avec un marché inconscient, on n'entre pas par le désir ni par le produit, on entre par l'identification ou la curiosité. Cette pub est la n° 1 en impressions de la marque.",
+"variantes": [
+{
+"q": "Une pub s'ouvre sur « Quel est l'ingrédient n° 1 de la plupart des barres ? Indice : ce n'est pas le cacao. » À quel niveau de conscience parle ce passage ?",
+"choix": [
+"Inconsciente",
+"La plus consciente",
+"Consciente du produit",
+"Consciente de la solution"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Inconsciente."
+}
+}
+],
+"source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 02-schwartz, niveau « Le marché totalement inconscient » ; fiche « GAGNANTE 01 - Comment a-t-on fait d'un superaliment un bonbon », bloc 1",
+"date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-010",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Le niveau de conscience à la fin",
+"niveau": 1,
+"type": "qcm",
+"q": "Une spectatrice inconsciente regarde la pub jusqu'à cet extrait, à la fin. À quel niveau de conscience est-elle arrivée ?",
+"extrait": "Après 1 min 24 d'histoire (le cacao, le sucre caché, les dattes, le goût) : « Voici The Conscious Bar. Juste du cacao et des dattes, c'est tout. »",
+"choix": [
+"La plus consciente",
+"Inconsciente",
+"Consciente du problème",
+"Consciente de la solution"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La plus consciente : elle connaît le problème, la solution et le nom du produit.",
+"pourquoi": "Elle connaît maintenant le problème, la solution et le nom du produit : il ne lui manque que l'achat.",
+"action": "Dans une pub pour inconscients, vérifie que chaque bloc fait monter d'un niveau, jusqu'au nom du produit."
+},
+"explication": "Spencer, sur la version d'origine de ce script (même histoire, autre hook) : elle passe par tous les niveaux jusqu'à « la plus consciente », et c'est seulement là que la marque dit le nom du produit.",
+"variantes": [
+{
+"q": "Dans une pub pour inconscients, à quel moment le nom du produit doit-il arriver ?",
+"choix": [
+"Quand elle a traversé les autres niveaux",
+"Dans les 3 premières secondes de la vidéo",
+"Avant le problème, pour la rassurer vite",
+"Jamais, le nom doit rester caché jusqu'au bout"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 À la fin, quand elle a traversé tous les autres niveaux."
+}
+}
+],
+"source": "Spencer – Evolve, décorticage de la pub chocolat ; The Conscious Bar – pub Meta gagnante",
+"ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S021] ; fiche « GAGNANTE 01 », bloc 10",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-011",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"ajout": "2026-10-07",
+"competence": "Étape 2 · Le niveau de conscience au milieu de la vidéo",
+"niveau": 1,
+"type": "qcm",
+"q": "Nous sommes à la 45ᵉ seconde de la pub histoire. Après cet extrait, où en est la spectatrice ?",
+"extrait": "« …il est prouvé que le sucre en est en grande partie responsable, et il est caché dans presque toutes les barres de chocolat du rayon. »",
+"choix": [
+"Consciente du problème",
+"Inconsciente",
+"Consciente du produit",
+"La plus consciente"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Consciente du problème : elle sait maintenant que le sucre caché pose problème.",
+"pourquoi": "Au début, elle ne savait rien. À 45 secondes, elle connaît le problème, mais pas encore la solution ni le produit.",
+"action": "Repère dans ton script la phrase exacte où ta cliente découvre son problème. Elle doit arriver avant la solution."
+},
+"explication": "Une pub pour inconscientes fait monter la spectatrice d'un niveau à la fois. Ici, le méchant caché la rend consciente du problème. Les dattes la rendront consciente de la solution, et le nom du produit, consciente du produit.",
+"variantes": [
+{
+"q": "Dans la pub où la fondatrice raconte l'histoire du cacao, que sait la spectatrice juste après ce passage ?",
+"extrait": "« Et si on associait plutôt ce superaliment magique avec le sucrant le plus riche en nutriments de la nature, les dattes bio ? »",
+"choix": [
+"Consciente de la solution",
+"Inconsciente",
+"Consciente du produit",
+"La plus consciente"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Consciente de la solution : elle connaît maintenant les dattes, pas encore le produit."
+}
+}
+],
+"source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 02-schwartz, partie 1 (niveaux « il a un besoin » et « il connaît le désir ») ; fiche « GAGNANTE 03 - Le 1er ingrédient n'est pas le cacao (version Spencer) », blocs 7 et 8",
+"date_source": "1966 (Schwartz) ; pub active au 07/10/2026"
+},
+{
+"id": "copy-deco-012",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Lire le niveau de conscience d'une pub",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, le produit est nommé à la 7ᵉ seconde. À quel niveau de conscience parle cette pub ?",
+"extrait": "Écrit à l'écran : « J'ai arrêté le sucre et je mange du chocolat tous les jours. » Une créatrice ouvre un colis : « Je travaille avec une de mes marques préférées, The Conscious Bar : le meilleur chocolat que j'aie jamais goûté. »",
+"qcm": {
+"choix": [
+"Consciente de la solution",
+"Inconsciente",
+"Consciente du problème",
+"La plus consciente"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Consciente de la solution : elle cherche déjà à manger moins de sucre.",
+"pourquoi": "Le texte à l'écran parle à quelqu'un qui a déjà choisi d'arrêter le sucre. Elle n'a pas besoin d'une longue histoire, elle a besoin du bon produit.",
+"action": "Plus ta cliente est consciente, plus tôt tu peux nommer ton produit."
+},
+"explication": "Schwartz : plus le marché est conscient, moins tu as besoin d'en dire. La pub histoire (inconsciente) nomme le produit à 88 % de la vidéo ; ce déballage le nomme à 10 %.",
+"variantes": [
+{
+"q": "Pourquoi un déballage peut-il nommer le produit dès la 7ᵉ seconde, alors qu'une pub histoire attend la fin ?",
+"qcm": {
+"choix": [
+"Il parle à une cliente plus consciente",
+"Il a un budget publicitaire plus gros",
+"Il est filmé avec un meilleur téléphone",
+"Il dure plus longtemps que la pub histoire"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il parle à une cliente plus consciente."
+}
+}
+],
+"source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 02-schwartz, partie 1 (règle générale et niveau « il connaît le désir ») ; fiche « GAGNANTE 04 », blocs 1 et 2",
+"date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-013",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Le stade de sophistication",
+"niveau": 2,
+"type": "scénario",
+"q": "Le marché du chocolat « sain » a déjà entendu beaucoup de promesses. Que met cet extrait en avant à la place ?",
+"extrait": "« Alors on l'a reconstruit de zéro. On a pris des fèves de cacao bio et on les a associées à des dattes bio. Elles donnent une douceur caramélisée qui s'absorbe lentement. »",
+"qcm": {
+"choix": [
+"Un mécanisme : le comment",
+"Une promesse encore plus grosse",
+"Le prix le plus bas du marché",
+"Une célébrité connue de tous"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un mécanisme : comment le produit est fait, pas seulement ce qu'il promet.",
+"pourquoi": "Quand toutes les marques promettent la même chose, la promesse ne fait plus vendre. Le « comment » redevient neuf.",
+"action": "Si ton marché a tout entendu, mets ton mécanisme dans le hook et la promesse juste en dessous."
+},
+"explication": "Schwartz, stade 3 : le marché a entendu toutes les promesses. L'emphase passe de CE QUE fait le produit à COMMENT il fonctionne. Le désir, lui, ne meurt pas : il attend une nouvelle façon d'être satisfait.",
+"variantes": [
+{
+"q": "Une marque écrit seulement « 0 sucre ajouté », comme toutes les autres. Que lui manque-t-il pour un marché qui a tout entendu ?",
+"qcm": {
+"choix": [
+"Le comment : un mécanisme",
+"Une police plus grosse",
+"Un prix plus bas",
+"Plus de couleurs"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le comment : un mécanisme qui rend la vieille promesse neuve."
+}
+}
+],
+"source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 02-schwartz, partie 2, « Stade 3 — le stade du mécanisme » ; fiche « GAGNANTE 06 », bloc 8",
+"date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-014",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Entrer dans un marché épuisé",
+"niveau": 2,
+"type": "si-alors",
+"q": "Si ton marché ne croit plus ni les promesses ni les mécanismes, par quoi Schwartz dit-il d'entrer ?",
+"qcm": {
+"choix": [
+"Par l'identification : elle se reconnaît",
+"Par une promesse chiffrée plus forte",
+"Par une remise de 50 % dès le début",
+"Par la liste complète des ingrédients"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Par l'identification : la spectatrice se reconnaît dans la personne ou dans l'état décrit.",
+"pourquoi": "On ne la fait plus entrer par le désir, on la fait entrer parce qu'elle se dit « c'est moi ».",
+"action": "Écris un hook qui décrit un état vécu par ta cliente, sans promesse ni produit."
+},
+"explication": "Schwartz : le stade 5 de sophistication et le niveau inconscient posent le même problème et se règlent de la même façon, par une accroche (headline) d'identification. Son exemple : « Pourquoi les hommes craquent… » pour Postum.",
+"variantes": [
+{
+"q": "Cette pub décrit un état vécu, sans produit ni promesse. Que veut-elle que la spectatrice se dise ?",
+"extrait": "« Presque toute ma vie, j'ai vécu un conflit intérieur très fort : un amour profond pour la nourriture, surtout le chocolat, et un corps qui ne supportait pas le sucre. »",
+"qcm": {
+"choix": [
+"« C'est exactement moi »",
+"« Je veux ce prix-là »",
+"« Quelle belle cuisine »",
+"« Je connais la marque »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « C'est exactement moi »"
+}
+}
+],
+"source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 02-schwartz, « Stade 5 — le marché épuisé » et « Niveau 5 » ; fiche « GAGNANTE 05 », blocs 1 et 2",
+"date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-015",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Une remise dès la 1re seconde",
+"niveau": 3,
+"type": "piège",
+"q": "Une marque montre cet extrait à des gens qui ne savent pas que leur chocolat pose problème. Que se passe-t-il ?",
+"extrait": "Exemple écrit pour l'exercice, la toute première seconde d'une pub : « −20 % sur ce chocolat, aujourd'hui seulement ! »",
+"qcm": {
+"choix": [
+"Les gens ne se sentent pas concernés et défilent",
+"Elle vend plus, car la remise attire tout le monde",
+"Elle marche aussi bien qu'une histoire",
+"Elle rend les gens plus conscients du problème"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les gens ne se sentent pas concernés : ils continuent de défiler.",
+"pourquoi": "Une remise ne parle qu'à celle qui connaît déjà le produit. Pour une inconsciente, « −20 % sur un nom inconnu » ne veut rien dire.",
+"action": "Garde l'offre pour la fin, ou pour les gens qui connaissent déjà ta marque (retargeting)."
+},
+"explication": "Schwartz : chaque niveau de conscience est séparé des autres par un mur psychologique. D'un côté l'indifférence, de l'autre l'intérêt. Un hook au mauvais niveau échoue, même bien écrit.",
+"variantes": [
+{
+"q": "À qui une accroche « nom du produit + prix » parle-t-elle vraiment, selon Schwartz ?",
+"qcm": {
+"choix": [
+"À la cliente la plus consciente",
+"À la cliente inconsciente",
+"À la cliente consciente du problème",
+"À toutes les clientes de la même façon"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À la plus consciente : elle connaît déjà le produit."
+}
+}
+],
+"source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa)",
+"ref": "skill-usa 02-schwartz, « La phrase à retenir du chapitre 2 » et « Niveau 1 — le plus conscient » ; exemple d'accroche écrit pour l'exercice",
+"date_source": "1966",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-016",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Le trajet de la spectatrice",
+"niveau": 2,
+"type": "rappel",
+"q": "Une pub raconte l'histoire du cacao à des spectatrices inconscientes. Dans quel ordre passent-elles les niveaux de conscience ?",
+"qcm": {
+"choix": [
+"Inconsciente, problème, solution, produit",
+"Produit, solution, problème, inconsciente",
+"Problème, produit, inconsciente, solution",
+"Solution, inconsciente, produit, problème"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Inconsciente → consciente du problème (le sucre caché) → de la solution (les dattes) → du produit (son nom).",
+"pourquoi": "Chaque bloc la fait monter d'une marche de savoir. Le nom du produit n'arrive qu'à la fin.",
+"action": "Écris en marge de ton script, bloc par bloc, le niveau où elle se trouve. Il doit monter, jamais redescendre."
+},
+"explication": "Spencer montre que cette pub la fait passer par tous les niveaux jusqu'à « la plus consciente ». Ça marche mieux qu'une pub qui dit « voici notre chocolat sans sucre », parce qu'elle parle à beaucoup plus de monde.",
+"variantes": [
+{
+"q": "Pourquoi une pub qui fait passer par tous les niveaux touche-t-elle plus de monde que « voici notre chocolat sans sucre » ?",
+"qcm": {
+"choix": [
+"Elle touche aussi ceux qui ignorent le problème",
+"Elle coûte beaucoup moins cher à produire",
+"Elle est plus courte à regarder jusqu'au bout",
+"Elle évite de parler du goût du chocolat"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle touche aussi ceux qui ignorent le problème."
+}
+}
+],
+"source": "Spencer – Evolve, décorticage de la pub chocolat",
+"ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S021] ; Spencer Evolve vendre avec une histoire - INDEX [S022] [R065]",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-017",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"ajout": "2026-10-07",
+"competence": "Étape 3 · Les composantes d'une pub gagnante",
+"niveau": 1,
+"type": "qcm",
+"q": "La marque vend le même chocolat par 4 portes différentes. Comment s'appellent ces portes dans les 8 composantes ?",
+"extrait": "Porte 1 : l'histoire du cacao devenu bonbon. Porte 2 : un homme qui « fabrique » une barre industrielle. Porte 3 : une cheffe qui ne supporte pas le sucre. Porte 4 : une passante qui goûte dans la rue.",
+"choix": [
+"Des angles",
+"Des offres",
+"Des prix",
+"Des logos"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Des angles : des façons différentes d'entrer dans la tête de la cliente.",
+"pourquoi": "Le produit ne change pas. Ce qui change, c'est le chemin pour arriver jusqu'à lui.",
+"action": "Pour ton produit, écris 4 angles : une histoire, un méchant montré, une experte, une preuve dans la rue."
+},
+"explication": "L'angle est la 3ᵉ des 8 composantes, avec le désir, l'avatar, le mécanisme, l'autorité, le niveau de conscience, l'émotion et la différenciation. Un même produit peut gagner sur plusieurs angles en même temps.",
+"variantes": [
+{
+"q": "Un même produit, présenté par une histoire puis par une démonstration choc. Qu'est-ce qui change entre les deux pubs ?",
+"choix": [
+"L'angle d'entrée",
+"Le produit vendu",
+"Le prix affiché",
+"La marque elle-même"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'angle d'entrée : le produit reste le même, seul le chemin pour arriver à lui change."
+}
+}
+],
+"source": "Les 8 composantes d'une pub gagnante (formation, traduction FR du skill-usa) ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "skill-usa 03-8-composantes [S001] et [S004] ; fiches « GAGNANTE 03 », « GAGNANTE 07 », « GAGNANTE 05 » et « GAGNANTE 08 »",
+"date_source": "pubs actives au 07/10/2026"
+},
+{
+"id": "copy-deco-018",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Reconnaître une pièce de la pub",
+"niveau": 1,
+"type": "qcm",
+"q": "Quelle pièce de la pub cet extrait construit-il ?",
+"extrait": "« J'ai passé plus de 30 ans en cuisine. J'ai travaillé dans de grandes cuisines, avec des légendes de la pâtisserie, et j'ai goûté des centaines de chocolats, de Vienne à Paris jusqu'à Mexico. Je connais le chocolat. »",
+"choix": [
+"L'autorité",
+"Le mécanisme",
+"L'offre",
+"Le méchant"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'autorité : pourquoi on doit l'écouter elle.",
+"pourquoi": "Des années, des villes, des légendes : des preuves concrètes, pas un titre vide.",
+"action": "Prouve ton autorité par des détails qu'on peut vérifier (années, lieux, chiffres), jamais par un adjectif."
+},
+"explication": "L'autorité est une des 8 composantes. Elle marche mieux par des faits précis que par « je suis une experte ». « De Vienne à Paris jusqu'à Mexico » se voit et ne peut être dit que par elle.",
+"variantes": [
+{
+"q": "Une experte dit « 30 ans en cuisine, de Vienne à Paris jusqu'à Mexico ». Qu'est-ce qui rend ce passage crédible ?",
+"extrait": "« J'ai passé plus de 30 ans en cuisine. J'ai goûté des centaines de chocolats, de Vienne à Paris jusqu'à Mexico. »",
+"choix": [
+"Des détails précis qu'on peut vérifier",
+"Un adjectif fort comme « incroyable »",
+"Le prix du produit affiché à l'écran",
+"Une musique de fond très connue"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Des détails précis qu'on peut vérifier."
+}
+}
+],
+"source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-8-composantes [S001] et [S016] (autorité) ; fiche « GAGNANTE 05 », bloc 3",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-019",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Ce que la pub fait des autres solutions",
+"niveau": 1,
+"type": "qcm",
+"q": "Que fait cet extrait dans la pub ?",
+"extrait": "« Et pourtant, en plus de 30 ans, rien n'a jamais été à la hauteur. Certains étaient trop sucrés, d'autres trop granuleux. Beaucoup ne fondaient pas comme un chocolat devrait fondre. »",
+"choix": [
+"Il écarte les solutions déjà essayées",
+"Il donne le prix des autres chocolats",
+"Il présente le fondateur de la marque",
+"Il explique comment on cultive le cacao"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il écarte les solutions déjà essayées (les mauvais coupables).",
+"pourquoi": "La cliente a déjà tout essayé. Avant de lui montrer la bonne solution, la pub dit pourquoi les autres n'ont pas marché.",
+"action": "Liste ce que ta cliente a déjà essayé, et écris une phrase précise qui dit pourquoi chaque chose a échoué."
+},
+"explication": "Dans les 8 composantes, on écarte les mauvais coupables avant le bon, avec une phrase de transition. Ici, chaque défaut est précis : trop sucré, granuleux, ne fond pas.",
+"variantes": [
+{
+"q": "Pourquoi écarter les solutions que la cliente a déjà essayées avant de montrer la sienne ?",
+"choix": [
+"Pour qu'elle croie que celle-ci est différente",
+"Pour faire durer la vidéo plus longtemps",
+"Pour parler du prix des concurrents",
+"Pour éviter de montrer son propre produit"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Pour qu'elle croie que celle-ci est différente."
+}
+}
+],
+"source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-8-composantes [S022] [S023] (mauvais coupables) ; skill-usa SKILL.md, règle 17 ; fiche « GAGNANTE 05 », bloc 4",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-020",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Valence et intensité",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Comment évolue l'intensité de l'émotion dans cet extrait ?",
+"extrait": "Un homme « fabrique » une barre industrielle : d'abord des pesticides sur les cabosses, puis une montagne de sucre, puis du soja lavé à un solvant tiré du pétrole, en combinaison jaune et masque à gaz, puis de l'huile de ricin mélangée à de la soude.",
+"qcm": {
+"choix": [
+"Elle monte d'un cran à chaque étape",
+"Elle reste la même du début à la fin",
+"Elle baisse pour rassurer la spectatrice",
+"Elle monte puis disparaît d'un coup"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle monte d'un cran à chaque étape.",
+"pourquoi": "Pesticides, puis sucre, puis pétrole, puis soude : chaque étape est pire que la précédente. On reste pour voir jusqu'où ça va.",
+"action": "Classe tes arguments du plus faible au plus fort, et garde le plus choquant pour la fin de la partie problème."
+},
+"explication": "La valence dit si l'émotion est positive ou négative, l'intensité dit sa force. Les 8 composantes montrent l'escalade : monter l'intensité étape par étape garde l'attention.",
+"variantes": [
+{
+"q": "Dans une escalade, où places-tu l'argument le plus choquant de la partie problème ?",
+"qcm": {
+"choix": [
+"À la fin de la partie problème",
+"Tout au début, dans le hook",
+"Après le bouton d'achat",
+"Nulle part, c'est trop risqué"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À la fin de la partie problème."
+}
+}
+],
+"source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante (créateur Itay Shechter)",
+"ref": "skill-usa 03-8-composantes [S013] [S018] (valence, intensité, escalade) ; fiche « GAGNANTE 07 », blocs 2 à 7",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-021",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · L'ordre explication / produit",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, l'explication des dattes arrive avant le nom du produit. Pourquoi cet ordre ?",
+"extrait": "« On a pris des fèves de cacao bio et on les a associées à des dattes bio. Les dattes apportent des fibres […]. Elles donnent une douceur caramélisée qui s'absorbe lentement […]. » Puis seulement : « Voici The Conscious Bar. »",
+"qcm": {
+"choix": [
+"Pour qu'elle croie avant qu'on lui vende",
+"Pour cacher le nom le plus longtemps possible",
+"Pour que la vidéo dure plus d'une minute",
+"Pour parler du prix avant le produit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Pour qu'elle comprenne et croie avant qu'on lui vende.",
+"pourquoi": "Une affirmation sans explication fait douter. Une explication d'abord rend l'affirmation évidente.",
+"action": "Dans ton script, place le « comment ça marche » avant « voici notre produit »."
+},
+"explication": "Les 8 composantes appellent ça « Copywriting 101 : expliquer avant d'affirmer ». Ta méthode en fait une règle : le produit arrive tard, le mécanisme s'explique avant l'affirmation.",
+"variantes": [
+{
+"q": "Quelle règle de base ta méthode applique-t-elle entre le mécanisme et le nom du produit ?",
+"qcm": {
+"choix": [
+"Expliquer le mécanisme avant d'affirmer",
+"Nommer le produit avant tout le reste",
+"Donner le prix avant le mécanisme",
+"Ne jamais expliquer le mécanisme"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Expliquer le mécanisme avant d'affirmer."
+}
+}
+],
+"source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-8-composantes [S027] ; skill-usa SKILL.md, règle 18 ; fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », blocs 8 et 9",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-022",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Reconnaître une pièce de la pub",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans les 8 composantes, comment s'appelle ce que construit cet extrait ?",
+"extrait": "« Tu ne trouveras ça nulle part ailleurs en rayon. Et il y a une raison. Un chocolat comme ça coûte beaucoup plus cher à fabriquer et il est bien plus difficile à produire en masse. Du coup, la plupart des grandes marques n'y touchent pas. »",
+"qcm": {
+"choix": [
+"La différenciation",
+"L'autorité",
+"L'offre",
+"Le niveau de conscience"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La différenciation : pourquoi ce produit ne ressemble à aucun autre en rayon.",
+"pourquoi": "L'extrait explique pourquoi les autres marques ne font pas pareil. Le produit devient rare, et la rareté a une raison.",
+"action": "Écris la phrase qui finit par « … et c'est pour ça que personne d'autre ne le fait »."
+},
+"explication": "La différenciation (le positionnement) est la 8ᵉ composante. Elle est plus forte quand elle donne une raison logique (« ça coûte plus cher à faire ») qu'une simple affirmation (« nous sommes uniques »).",
+"variantes": [
+{
+"q": "Laquelle de ces phrases différencie le mieux un produit, parce qu'elle donne une raison ?",
+"qcm": {
+"choix": [
+"« Les grandes marques n'y touchent pas : trop cher »",
+"« Nous sommes uniques sur le marché du chocolat »",
+"« Le meilleur chocolat de tous les temps, promis »",
+"« Une marque vraiment pas comme toutes les autres »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Les grandes marques n'y touchent pas : trop cher »"
+}
+}
+],
+"source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-8-composantes [S001] et [S032] ; fiche « GAGNANTE 02 - Pourquoi on a créé notre propre chocolaterie », bloc 2",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-023",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"ajout": "2026-10-07",
+"competence": "Étape 3 · Ce que montre l'image",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Au lieu de dire « il y a trop de sucre », la pub montre ce plan. Quelle pièce construit-elle ainsi ?",
+"extrait": "Gros plan : des mains retournent une barre Hershey's ; la ligne du sucre sur l'étiquette est entourée en rouge.",
+"qcm": {
+"choix": [
+"La preuve visuelle du problème",
+"L'offre de la fin de la vidéo",
+"La présentation de la fondatrice",
+"La différence de prix en rayon"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La preuve visuelle du problème.",
+"pourquoi": "Une phrase peut être mise en doute. Une étiquette qu'on voit, et que la spectatrice peut vérifier chez elle, non.",
+"action": "Pour chaque problème que tu affirmes, cherche l'image qui le prouve : une étiquette, un avant-après, un geste."
+},
+"explication": "Dans les 8 composantes, la preuve visuelle du problème (le joint sale de la machine à laver) remplace un long discours. Ici, l'étiquette entourée en rouge fait le même travail.",
+"variantes": [
+{
+"q": "Pourquoi montrer l'étiquette entourée en rouge plutôt que dire « il y a trop de sucre » ?",
+"qcm": {
+"choix": [
+"On croit ce qu'on voit et qu'on peut vérifier",
+"Une image coûte moins cher qu'une phrase",
+"Le rouge est la couleur préférée de Meta",
+"Pour cacher le nom de la marque concurrente"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 On croit ce qu'on voit et qu'on peut vérifier soi-même."
+}
+}
+],
+"source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-8-composantes [S019] ; fiche « GAGNANTE 01 », bloc 7 et relevé technique",
+"date_source": "pub active au 07/10/2026"
+},
+{
+"id": "copy-deco-024",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Le train du pourquoi",
+"niveau": 3,
+"type": "scénario",
+"q": "« Je veux un chocolat sans sucre. » Tu appliques le train du pourquoi. Que cherches-tu à trouver ?",
+"qcm": {
+"choix": [
+"Le désir profond caché sous l'envie de surface",
+"Le prix maximum qu'elle accepte de payer",
+"Le nom des marques qu'elle achète déjà",
+"Le nombre de tablettes qu'elle mange par jour"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le désir profond caché sous l'envie de surface.",
+"pourquoi": "On demande « pourquoi ça compte ? » encore et encore, jusqu'à un désir fondamental (la santé, l'image de soi, le regard des autres).",
+"action": "Prends l'envie de ta cliente et demande « pourquoi ? » au moins 3 fois. Réponds avec ta recherche, pas avec ton avis."
+},
+"explication": "Dans les 8 composantes, le train du pourquoi part d'un désir de surface (« une machine à laver propre ») pour arriver au désir fondamental (« je ne veux pas que les autres pensent que je sens mauvais »).",
+"variantes": [
+{
+"q": "Avec quoi faut-il répondre à chaque « pourquoi ? » du train du pourquoi ?",
+"qcm": {
+"choix": [
+"Avec sa recherche sur le marché",
+"Avec son avis personnel du moment",
+"Avec la fiche technique du produit",
+"Avec les prix des concurrents"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Avec sa recherche sur le marché."
+}
+}
+],
+"source": "Les 8 composantes (formation, traduction FR du skill-usa)",
+"ref": "skill-usa 03-8-composantes [S005]",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-025",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Nommer le méchant",
+"niveau": 1,
+"type": "qcm",
+"q": "Qui est le méchant dans cet extrait ?",
+"extrait": "« Un Américain sur deux vit aujourd'hui avec une maladie chronique, il est prouvé que le sucre en est en grande partie responsable, et il est caché dans presque toutes les barres de chocolat du rayon. »",
+"choix": [
+"Le sucre caché dans les barres",
+"La cliente qui mange du chocolat",
+"Le cacao contenu dans les barres",
+"Les dattes utilisées par la marque"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le sucre caché dans les barres.",
+"pourquoi": "Le méchant est extérieur : ce n'est ni la cliente, ni le chocolat qu'elle aime, ni ce que la marque vend.",
+"action": "Nomme ton méchant en 3 mots. Si c'est ta cliente ou ton produit, recommence."
+},
+"explication": "Ta méthode : un seul méchant par pub, physique, extérieur, jamais le client, jamais ce qu'on vend. Le mot « caché » l'enfonce encore : on lui a caché le sucre.",
+"variantes": [
+{
+"q": "Lequel de ces méchants respecte la règle de ta méthode ?",
+"choix": [
+"Le sucre caché dans les barres du rayon",
+"La cliente qui craque le soir sur le canapé",
+"Le chocolat noir que la marque vend",
+"Le manque de volonté de la cliente"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le sucre caché dans les barres du rayon."
+}
+}
+],
+"source": "skill-usa – Stratégie Spencer, règles fixes ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa SKILL.md, règle 16 ; fiche « GAGNANTE 03 - Le 1er ingrédient n'est pas le cacao (version Spencer) », bloc 7",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-026",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Le poids d'un seul mot",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans cet extrait, que fait le mot « caché » dans la tête de la spectatrice ?",
+"extrait": "« …et le sucre est caché dans presque toutes les barres de chocolat du rayon. »",
+"choix": [
+"Il lui retire la faute",
+"Il lui fait peur pour sa santé",
+"Il raccourcit la phrase",
+"Il annonce le prix du produit"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il lui retire la faute : on le lui a caché.",
+"pourquoi": "Si le sucre est caché, elle n'a pas choisi de le manger. Elle passe de « c'est ma faute » à « on m'a trompée ».",
+"action": "Cherche le mot qui dit « ce n'est pas ta faute » dans ton script. S'il n'existe pas, ajoute-le."
+},
+"explication": "Spencer le souligne sur cette pub : le mot « caché » dit à la cliente que ce n'est pas sa faute. Sur la grille de Hawkins, elle passe de la Peur à l'Acceptation (« ce n'est pas ma faute »).",
+"variantes": [
+{
+"q": "Quel petit mot fait passer la cliente de « c'est ma faute » à « on m'a trompée » dans ce passage ?",
+"extrait": "« …et le sucre est caché dans presque toutes les barres de chocolat du rayon. »",
+"choix": [
+"« Caché »",
+"« Presque »",
+"« Barres »",
+"« Rayon »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Caché »"
+}
+}
+],
+"source": "Spencer – Evolve, décorticage de la pub chocolat ; Hawkins (grille du skill-usa)",
+"ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S016] ; skill-usa 01-hawkins, marche « Acceptation »",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-027",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Ce que la pub fait du chocolat",
+"niveau": 1,
+"type": "qcm",
+"q": "Que fait cet extrait avec le chocolat que la spectatrice aime ?",
+"extrait": "« Avec le temps, le chocolat est devenu un bonbon, et le superaliment à l'origine de tout a été enterré. Mais le cacao n'a jamais été le problème. Il est resté le même. Il s'est juste fait déborder. »",
+"choix": [
+"Il le défend : le problème est ailleurs",
+"Il l'attaque : le chocolat est mauvais",
+"Il le remplace par un autre aliment",
+"Il n'en parle plus jusqu'à la fin"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il le défend : le cacao est le héros, le sucre est le méchant.",
+"pourquoi": "La pub ne demande pas à la cliente de renoncer à ce qu'elle aime. Elle le sauve.",
+"action": "Si ta cliente aime quelque chose, ne l'attaque pas : trouve ce qu'on a ajouté par-dessus, et attaque ça."
+},
+"explication": "Séparer le héros (le cacao) du méchant (le sucre ajouté) évite le piège : attaquer ce qu'elle aime, ou ce qu'on vend. « Il s'est juste fait déborder » garde le chocolat du bon côté.",
+"variantes": [
+{
+"q": "Que protège la phrase « il s'est juste fait déborder » dans l'histoire ?",
+"choix": [
+"Le cacao, du bon côté de l'histoire",
+"Le sucre, présenté comme le héros",
+"La cliente, présentée comme coupable",
+"Le prix de la tablette en rayon"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le cacao : il reste du bon côté de l'histoire, le méchant c'est ce qu'on a ajouté."
+}
+}
+],
+"source": "The Conscious Bar – pub Meta gagnante ; skill-usa – Stratégie Spencer",
+"ref": "Fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », bloc 5 ; skill-usa SKILL.md, règle 16",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-028",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Le mécanisme de la solution",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, quel est le mécanisme de la solution ?",
+"extrait": "« Alors on s'est demandé : et si on associait plutôt ce superaliment magique avec le sucrant le plus riche en nutriments de la nature, les dattes bio ? »",
+"qcm": {
+"choix": [
+"Sucrer avec des dattes au lieu du sucre",
+"Ajouter plus de cacao dans chaque barre",
+"Vendre les barres moins cher en rayon",
+"Faire goûter les barres dans la rue"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Sucrer avec des dattes au lieu du sucre.",
+"pourquoi": "Le mécanisme du problème, c'est le sucre caché. Le mécanisme de la solution, c'est ce qui le remplace : les dattes.",
+"action": "Écris ta formule en une ligne : « le problème vient de X, la solution, c'est Y qui remplace X »."
+},
+"explication": "Au stade 3, 4 ou 5 de sophistication, ta méthode demande une formule : mécanisme du problème + mécanisme de la solution, qui passe le test simple, visuel, nouveau. Ici : le sucre caché, remplacé par les dattes.",
+"variantes": [
+{
+"q": "Selon ta méthode, comment s'écrit la formule d'un mécanisme quand le marché a déjà tout entendu ?",
+"qcm": {
+"choix": [
+"Mécanisme du problème + mécanisme de la solution",
+"Prix barré + remise du jour + bouton d'achat",
+"Nom du produit + slogan + logo de la marque",
+"Histoire du fondateur + photo + avis clients"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Mécanisme du problème (ici le sucre caché) + mécanisme de la solution (les dattes)."
+}
+}
+],
+"source": "skill-usa – Stratégie Spencer (livre 3 bis) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 00-ordre-de-la-maison, livre 3 bis ; fiche « GAGNANTE 03 », bloc 8",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-029",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Rendre le méchant crédible",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, qu'est-ce que « pour économiser » ajoute au méchant ?",
+"extrait": "« Maintenant, pour économiser, on fabrique du PGPR : huile de ricin, soude, quelques gouttes de polyglycérol. Comme ça, on met moins de beurre de cacao, qui coûte cher. »",
+"qcm": {
+"choix": [
+"Un mobile : on comprend pourquoi il triche",
+"Une preuve que le produit est moins cher",
+"Une excuse pour l'industrie du chocolat",
+"Une information sur la recette maison"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un mobile : on comprend pourquoi il triche.",
+"pourquoi": "Un méchant sans raison semble inventé. Un méchant qui triche pour l'argent devient crédible, et on lui en veut.",
+"action": "Pour chaque méchant de ton script, écris sa raison : « il fait ça parce que… »."
+},
+"explication": "La spectatrice monte en Colère (Hawkins) quand elle comprend qu'on la trompe pour de l'argent. Le méchant devient une industrie qui triche, jamais la cliente.",
+"variantes": [
+{
+"q": "Un méchant qui triche « pour économiser » paraît comment, comparé à un méchant sans raison ?",
+"qcm": {
+"choix": [
+"Plus crédible, on comprend son but",
+"Moins crédible, c'est trop précis",
+"Pareil, la raison ne change rien",
+"Plus drôle, donc moins sérieux"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Plus crédible, on comprend son but."
+}
+}
+],
+"source": "The Conscious Bar – pub Meta gagnante (créateur Itay Shechter) ; Hawkins (grille du skill-usa)",
+"ref": "Fiche « GAGNANTE 07 - Fais ton chocolat industriel à la maison », bloc 6 ; skill-usa 01-hawkins, marche « Colère »",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-030",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Le choix du méchant",
+"niveau": 2,
+"type": "scénario",
+"q": "Dans cet extrait, le méchant est « les grandes marques ». Qu'est-ce que ce choix apporte à la petite marque ?",
+"extrait": "« Un chocolat comme ça coûte beaucoup plus cher à fabriquer. […] La plupart des grandes marques n'y touchent pas. […] On a accepté de le faire de la manière difficile. »",
+"qcm": {
+"choix": [
+"Elle devient David face à Goliath",
+"Elle paraît plus grande que les autres",
+"Elle peut vendre plus cher sans raison",
+"Elle évite de parler de son produit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle devient David face à Goliath : la petite qui choisit la voie difficile.",
+"pourquoi": "Contre un ennemi riche et puissant, la petite marque gagne la sympathie, et son prix plus élevé a une raison.",
+"action": "Si tu es petit, choisis un méchant plus gros que toi et montre ce que tu fais de plus difficile que lui."
+},
+"explication": "Le méchant n'est pas la cliente ni le chocolat : ce sont des marques qui ne veulent pas payer plus cher. « La manière difficile » transforme un coût en preuve de sérieux.",
+"variantes": [
+{
+"q": "Que transforme la phrase « on a accepté de le faire de la manière difficile » dans ce passage ?",
+"extrait": "« Un chocolat comme ça coûte beaucoup plus cher à fabriquer. On a accepté de le faire de la manière difficile. »",
+"qcm": {
+"choix": [
+"Un coût en preuve de sérieux",
+"Un prix normal en promotion",
+"Un défaut du produit en blague",
+"Un concurrent en allié fidèle"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un coût en preuve de sérieux."
+}
+}
+],
+"source": "The Conscious Bar – pub Meta gagnante",
+"ref": "Fiche « GAGNANTE 02 - Pourquoi on a créé notre propre chocolaterie », blocs 2 et 5",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-031",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Les 3 voies du mécanisme (Spencer)",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Ton chocolat a le même cacao que les autres, mais tu es le seul à filmer d'où il vient. Quelle voie de Spencer suis-tu ?",
+"qcm": {
+"choix": [
+"Le mécanisme dont personne ne parle",
+"Le mécanisme vraiment nouveau",
+"Le mécanisme renommé avec un nom à soi",
+"Aucune, il n'y a pas de mécanisme"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le mécanisme dont personne ne parle (non dit).",
+"pourquoi": "Tous les chocolats noirs ont du cacao, mais personne ne le montre. Être le seul à le dire le rend neuf.",
+"action": "Liste ce que ton produit a de commun avec les autres et que personne ne dit. C'est peut-être ton mécanisme."
+},
+"explication": "Spencer donne 3 voies : quelque chose de vraiment nouveau, quelque chose que les autres ont aussi mais dont personne ne parle, ou un mécanisme ordinaire renommé. Son exemple de la 2ᵉ voie : les cigarettes « grillées », alors que toutes le sont.",
+"variantes": [
+{
+"q": "Selon Spencer, quand ton produit n'a rien d'unique, que peux-tu quand même mettre en avant ?",
+"qcm": {
+"choix": [
+"Ce que tous ont, mais que personne ne dit",
+"Un prix plus bas que tous les autres",
+"Une promesse plus grosse que les autres",
+"Le nom d'une célébrité qui l'utilise"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ce que tous les produits ont, mais dont personne ne parle : le mécanisme non dit."
+}
+}
+],
+"source": "Spencer – mécanisme unique (fiche du skill-usa)",
+"ref": "skill-usa 03-spencer-mecanisme, partie 0.7 (les trois voies) et [S016] (voie 2, le mécanisme non dit)",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-032",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Choisir son méchant",
+"niveau": 3,
+"type": "piège",
+"q": "Une marque de chocolat noir écrit : « Le chocolat te rend malade. » Quel risque prend-elle ?",
+"qcm": {
+"choix": [
+"La cliente doute : on attaque ce qu'on vend",
+"La pub devient trop courte pour Meta",
+"Le prix paraît soudain trop bas",
+"La cliente oublie le nom de la marque"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La cliente doute : la marque attaque ce qu'elle vend elle-même.",
+"pourquoi": "Si le méchant ressemble au produit, la cliente se demande pourquoi l'acheter. C'est le scepticisme assuré.",
+"action": "Vérifie ton méchant : s'il peut être confondu avec ton produit, déplace-le sur ce qu'on a ajouté (le sucre)."
+},
+"explication": "Ta méthode : jamais ce qu'on vend comme méchant. Les gagnantes l'évitent avec une phrase claire : « le cacao n'a jamais été le problème ».",
+"variantes": [
+{
+"q": "Quelle phrase sauve une marque de chocolat qui parle des méfaits du sucre ?",
+"qcm": {
+"choix": [
+"« Le cacao n'a jamais été le problème »",
+"« Le chocolat est dangereux pour toi »",
+"« Il faut arrêter le chocolat »",
+"« Tous les chocolats se valent »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Le cacao n'a jamais été le problème »"
+}
+}
+],
+"source": "skill-usa – Stratégie Spencer, règles fixes ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa SKILL.md, règle 16 ; fiche « GAGNANTE 06 », bloc 5",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-033",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · La fin de la vidéo",
+"niveau": 1,
+"type": "qcm",
+"q": "Quel est le rôle de cet extrait, à la fin de la vidéo ?",
+"extrait": "Dernières secondes, sans voix, écrit à l'écran : « 10 OFFERTES quand tu en achètes 10. Clique sur le lien en dessous. »",
+"choix": [
+"Donner une raison de cliquer maintenant",
+"Présenter le méchant de l'histoire",
+"Ouvrir une question sans réponse",
+"Prouver que le produit a bon goût"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Donner une raison de cliquer maintenant.",
+"pourquoi": "Toute la vidéo a donné envie. La phrase d'offre transforme l'envie en geste : cliquer tout de suite plutôt que « plus tard ».",
+"action": "Écris ta phrase d'offre avant ton script, en une ligne, pour que la pub et la page disent la même chose."
+},
+"explication": "Le livre de l'offre de ta méthode produit 3 choses : l'offre finale, la phrase d'offre du CTA (ce que la pub dit à la fin pour donner une raison de cliquer) et ce que la page doit afficher en haut.",
+"variantes": [
+{
+"q": "Quelles sont les 3 choses que produit l'étape de l'offre dans ta méthode ?",
+"choix": [
+"L'offre, la phrase du CTA, le haut de la page",
+"Le hook, le méchant, le mécanisme du produit",
+"Le prix, le logo, la musique de la vidéo",
+"L'avatar, l'angle et l'autorité de la marque"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'offre finale, la phrase d'offre du CTA, et ce que la page affiche en haut."
+}
+}
+],
+"source": "skill-usa – livre 3 ter (Hormozi, l'offre) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-hormozi-offre, « Ce que l'étape produit » ; fiche « GAGNANTE 01 - Comment a-t-on fait d'un superaliment un bonbon », bloc 11",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-034",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"ajout": "2026-10-07",
+"competence": "Étape 5 · L'équation de valeur, appliquée",
+"niveau": 1,
+"type": "qcm",
+"q": "Quelle pièce de l'équation de valeur d'Hormozi cet extrait fait-il baisser ?",
+"extrait": "La cheffe : « Maintenant, je n'ai plus à choisir entre ma santé et un vrai chocolat. »",
+"choix": [
+"L'effort et le sacrifice",
+"Le résultat rêvé",
+"Le prix de la tablette",
+"Le nombre de saveurs"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'effort et le sacrifice : elle n'a plus à renoncer au chocolat.",
+"pourquoi": "Avant, manger sainement voulait dire se priver. Ici, le sacrifice disparaît : elle garde son plaisir.",
+"action": "Écris ce que ta cliente croit devoir sacrifier, puis montre qu'avec ton produit elle n'a plus à le faire."
+},
+"explication": "Hormozi : la valeur monte quand le résultat rêvé et la probabilité d'y arriver montent, et quand le délai, l'effort et le sacrifice baissent. « Je n'ai plus à choisir » est un sacrifice qui tombe à zéro.",
+"variantes": [
+{
+"q": "« Plus de 16 000 avis 5 étoiles. » Quelle pièce de l'équation de valeur d'Hormozi ce passage fait-il monter ?",
+"choix": [
+"La probabilité d'y arriver",
+"Le délai avant le résultat",
+"L'effort à fournir",
+"Le sacrifice demandé"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La probabilité d'y arriver : 16 000 avis disent que ça marche."
+}
+}
+],
+"source": "Alex Hormozi – $100M Offers ; The Conscious Bar – pub Meta gagnante",
+"ref": "100M Offers How To Make Offers So Good People Feel Stupid Saying No (Alex Hormozi) - INDEX [S054] [R071] ; fiche « GAGNANTE 05 », bloc 8 ; « Textes des pubs - relevé du 07-10-2026 », [S001]",
+"date_source": "2021 (Hormozi) ; pubs actives au 07/10/2026"
+},
+{
+"id": "copy-deco-035",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · La force d'une offre (Hormozi)",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Hormozi, une seule chose bat « gratuit » dans une offre. Laquelle ?",
+"choix": [
+"Rapide",
+"Moins cher",
+"Plus gros",
+"Plus joli"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Rapide : les gens paient pour la vitesse.",
+"pourquoi": "Hormozi : « The only thing that beats \"free\" is \"fast.\" People will pay for speed. »",
+"action": "Dans ton offre, cherche ce qui peut être « offert » et ce qui peut être « plus rapide » : ce sont les deux leviers les plus forts."
+},
+"explication": "Hormozi classe les promesses d'offre : « gratuit » est très fort, mais la vitesse l'est encore plus. On paie pour obtenir le résultat plus tôt.",
+"variantes": [
+{
+"q": "Pour Hormozi, pourquoi « rapide » bat-il « gratuit » ?",
+"choix": [
+"Les gens paient pour la vitesse",
+"Rapide coûte moins cher à produire",
+"Gratuit est interdit en publicité",
+"Rapide se lit plus vite à l'écran"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Les gens paient pour la vitesse."
+}
+}
+],
+"source": "Alex Hormozi – $100M Offers ; The Conscious Bar – pub Meta gagnante",
+"ref": "100M Offers - INDEX [S062] [R374] ; Style/style-Hormozi, règle 6 ; fiche « GAGNANTE 01 », [S005]",
+"date_source": "2021 (Hormozi) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-036",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Une offre qui fait se sentir bête de dire non",
+"niveau": 2,
+"type": "scénario",
+"q": "Tu compares ces deux offres de la même marque. Laquelle est la plus difficile à refuser, au sens d'Hormozi ?",
+"extrait": "Offre d'août : « 20 % de réduction sur ta première commande. » Offre de septembre : « Achète 10 barres, reçois-en 10 gratuites. »",
+"qcm": {
+"choix": [
+"Celle de septembre : 10 offertes",
+"Celle d'août : −20 %",
+"Les deux se valent tout à fait",
+"Aucune des deux, il faut un prix plus bas"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Celle de septembre : 10 barres offertes.",
+"pourquoi": "« Gratuit » et un nombre d'objets concret pèsent plus lourd qu'un pourcentage. C'est l'offre de la pub n° 1.",
+"action": "Exprime ton offre en choses concrètes (« 10 offertes ») plutôt qu'en pourcentage."
+},
+"explication": "Hormozi : « Make people an offer so good they would feel stupid saying no. » (Fais une offre si bonne qu'on se sentirait bête de dire non.) La marque a changé le hook, l'offre et un chiffre de sa meilleure pub, et elle est devenue n° 1 de toutes ses pubs actives.",
+"variantes": [
+{
+"q": "Quelle formulation d'offre pèse le plus lourd dans la tête de la cliente ?",
+"qcm": {
+"choix": [
+"« 10 barres offertes pour 10 achetées »",
+"« 20 % sur ta première commande »",
+"« Une petite remise juste pour toi »",
+"« Des prix doux toute l'année »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « 10 barres offertes pour 10 achetées »"
+}
+}
+],
+"source": "Alex Hormozi – $100M Offers ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "100M Offers - INDEX [S015] [R019] ; fiches « GAGNANTE 01 » ([S001], [S002], bloc 11) et « GAGNANTE 03 » (bloc 11)",
+"date_source": "2021 (Hormozi) ; pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-037",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · L'urgence dans une offre",
+"niveau": 2,
+"type": "si-alors",
+"q": "Une créatrice dit cet extrait. Si la durée limitée n'existe pas vraiment, alors que dit ta méthode ?",
+"extrait": "« Ce lien te donne 20 % de réduction, et c'est pour une durée limitée, alors ne traîne pas. »",
+"qcm": {
+"choix": [
+"Interdit : une urgence inventée est un fait inventé",
+"Autorisé : toutes les marques le font depuis toujours",
+"Autorisé si la phrase reste courte et claire",
+"Autorisé si la promo dure moins d'une semaine"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Interdit : une rareté ou une urgence inventée est un fait inventé.",
+"pourquoi": "Ta méthode n'accepte la rareté et l'urgence que si elles sont vraies. Un faux délai, c'est un mensonge, et la cliente qui le découvre ne revient pas.",
+"action": "Avant d'écrire « durée limitée », note la vraie date de fin. Pas de date, pas d'urgence."
+},
+"explication": "Livre de l'offre (étape 7) : rareté et urgence seulement si elles sont vraies. Cialdini explique pourquoi elles marchent : « opportunities seem more valuable to us when their availability is limited » (ce qui est limité paraît plus précieux).",
+"variantes": [
+{
+"q": "Selon Cialdini, pourquoi la rareté fait-elle vendre ?",
+"qcm": {
+"choix": [
+"Ce qui est limité paraît plus précieux",
+"Ce qui est rare coûte moins cher",
+"Ce qui est rare est toujours meilleur",
+"Ce qui est limité se lit plus vite"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ce qui est limité paraît plus précieux."
+}
+}
+],
+"source": "skill-usa – livre 3 ter (Hormozi, l'offre) ; Robert Cialdini – Influence ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-hormozi-offre, étape 7 et règle 3 ; Influence The Psychology of Persuasion (Robert B. Cialdini) - INDEX [S227] [R1012] ; fiche « GAGNANTE 04 », bloc 7",
+"date_source": "1984 (Cialdini) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-038",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Le lien entre la pub et la page",
+"niveau": 2,
+"type": "scénario",
+"q": "La pub finit sur cet extrait. Que doit afficher la page d'arrivée, tout en haut ?",
+"extrait": "« 10 OFFERTES quand tu en achètes 10. Clique sur le lien en dessous. »",
+"qcm": {
+"choix": [
+"La même offre, avec les mêmes mots",
+"Une autre offre, pour la surprise",
+"Seulement l'histoire de la marque",
+"Seulement la liste des ingrédients"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La même offre, avec les mêmes mots : « 10 offertes quand tu en achètes 10 ».",
+"pourquoi": "Si la page dit autre chose que la pub, la cliente croit s'être trompée de porte, et elle repart.",
+"action": "Copie la phrase d'offre de ta pub et colle-la mot pour mot en haut de ta page."
+},
+"explication": "Règle du « message match » de ta méthode : la pub et la page d'arrivée disent la même offre avec les mêmes mots. L'étape 8 le vérifie phrase par phrase.",
+"variantes": [
+{
+"q": "Que se passe-t-il quand la page d'arrivée ne reprend pas l'offre de la pub ?",
+"qcm": {
+"choix": [
+"Elle croit s'être trompée et repart",
+"Elle achète plus pour comparer",
+"Elle partage la page à ses amies",
+"Elle ne remarque aucune différence"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle croit s'être trompée et repart."
+}
+}
+],
+"source": "skill-usa – livre 3 ter (Hormozi, l'offre) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-hormozi-offre, « Ce que l'étape produit » point 3 et règle 2 ; fiche « GAGNANTE 01 », bloc 11",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-039",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Construire la garantie",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Dans cet extrait, la femme de la marque pose une question précise à la passante. Selon ta méthode, à quoi une garantie doit-elle répondre ?",
+"extrait": "« Est-ce que ça a le goût d'un chocolat “santé”, ou plutôt d'un… ? — Non… Mais je sens les dattes, et j'adore ça. Sur une échelle de 1 à 10 ? — 10. »",
+"qcm": {
+"choix": [
+"À la peur principale de la cliente",
+"Au délai de livraison du colis",
+"Aux défauts des marques concurrentes",
+"Au nombre de saveurs proposées"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À la peur principale de la cliente : ici, « ce sera mauvais ».",
+"pourquoi": "Une garantie qui couvre une peur secondaire ne débloque rien. Celle qui couvre la peur n° 1 enlève le dernier frein.",
+"action": "Trouve la phrase de doute qui revient le plus dans tes avis clients : ta garantie doit y répondre."
+},
+"explication": "Livre de l'offre (étape 6) : une garantie nommée qui répond à la peur principale. Les gagnantes le font déjà dans la vidéo : elles posent l'objection du goût et y répondent.",
+"variantes": [
+{
+"q": "Où trouves-tu la peur principale de ta cliente, pour écrire ta garantie ?",
+"qcm": {
+"choix": [
+"Dans les doutes qui reviennent dans ses avis",
+"Dans les prix affichés par tes concurrents",
+"Dans la fiche technique de ton produit",
+"Dans les couleurs et la forme de ton logo"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Dans les doutes qui reviennent dans ses avis."
+}
+}
+],
+"source": "skill-usa – livre 3 ter (Hormozi, l'offre) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 03-hormozi-offre, étape 6 ; fiche « GAGNANTE 08 - Le micro-trottoir à Miami », bloc 4",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-040",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Le bon bonus",
+"niveau": 3,
+"type": "piège",
+"q": "Tu veux ajouter un porte-clés gratuit à ton offre de chocolat. Quel test ce bonus doit-il passer ?",
+"qcm": {
+"choix": [
+"Répondre à un vrai problème de la cliente",
+"Coûter le moins cher possible",
+"Être plus joli que celui des concurrents",
+"Porter le logo de la marque en grand"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Répondre à un vrai problème que la cliente rencontre.",
+"pourquoi": "Un bonus décoratif n'ajoute pas de valeur dans sa tête. Un bonus qui règle un obstacle, si.",
+"action": "Pour chaque bonus, écris le problème qu'il règle. Si tu n'en trouves pas, retire-le."
+},
+"explication": "Livre de l'offre (étape 5) : chaque bonus répond à un problème de la liste de l'étape 3, jamais un ajout décoratif.",
+"variantes": [
+{
+"q": "Selon ta méthode, que fais-tu d'un bonus qui ne règle aucun problème de la cliente ?",
+"qcm": {
+"choix": [
+"Tu le retires de l'offre",
+"Tu le mets en avant dans le hook",
+"Tu le gardes pour faire joli",
+"Tu augmentes son prix affiché"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu le retires de l'offre."
+}
+}
+],
+"source": "skill-usa – livre 3 ter (Hormozi, l'offre)",
+"ref": "skill-usa 03-hormozi-offre, étapes 3 et 5 ; exemple du porte-clés écrit pour l'exercice",
+"date_source": "2021 (Hormozi)",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-041",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · L'ordre des blocs (squelette chocolat)",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans la pub où la fondatrice raconte l'histoire du cacao, cet extrait vient de se terminer. Quel bloc arrive juste après ?",
+"extrait": "« Le cacao contient 10 fois plus d'antioxydants que les myrtilles. Il est parmi les plus riches en magnésium de tous les végétaux, et il augmente naturellement la sérotonine et la dopamine. »",
+"choix": [
+"Le « mais » : le sucre arrive",
+"Le nom du produit et le prix",
+"La dégustation en gros plan",
+"Le bouton « clique en dessous »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le « mais » : « Mais ensuite le sucre est arrivé, et tout a changé. »",
+"pourquoi": "On vient de rendre le cacao précieux. Le « mais » fait tomber le héros, et la tension monte.",
+"action": "Après avoir montré ce qui est beau, place ton « mais » : c'est là que ton histoire commence vraiment."
+},
+"explication": "Spencer appelle ça la technique du « mais » : on construit quelque chose de beau, puis « mais… » fait basculer l'histoire. Sans « mais », pas d'histoire, juste une liste d'arguments.",
+"variantes": [
+{
+"q": "Dans une histoire de pub, à quoi sert le mot « mais » juste après les belles qualités du héros ?",
+"choix": [
+"À faire basculer l'histoire vers le problème",
+"À annoncer tout de suite le prix",
+"À terminer la vidéo plus vite",
+"À remercier la cliente d'avoir regardé"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 À faire basculer l'histoire vers le problème."
+}
+}
+],
+"source": "Spencer – Evolve, décorticage de la pub chocolat ; The Conscious Bar – pub Meta gagnante",
+"ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S011] [S012] ; fiche « GAGNANTE 01 », blocs 4 et 5",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-042",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · Le bloc vers la 10ᵉ seconde",
+"niveau": 1,
+"type": "qcm",
+"q": "Cet extrait arrive vers la 10ᵉ seconde de la vidéo. Quel est son rôle ?",
+"extrait": "« Ce fruit était à l'origine un médicament, et c'est l'une des plantes les plus puissantes auxquelles les civilisations anciennes avaient accès. »",
+"choix": [
+"Relancer l'attention une deuxième fois",
+"Donner le prix du produit à l'avance",
+"Nommer le méchant de toute l'histoire",
+"Clore la vidéo avec le bouton d'achat"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Relancer l'attention une deuxième fois (un rehook).",
+"pourquoi": "Le hook l'a arrêtée quelques secondes. Vers 10 secondes, elle peut repartir : « un médicament ? » la retient de nouveau.",
+"action": "Vers la 10ᵉ seconde de ton script, place une phrase surprenante qui relance la curiosité."
+},
+"explication": "Spencer appelle ce bloc le rehook : une deuxième accroche après la première. Il s'appuie sur une autorité empruntée, les civilisations anciennes, pour rendre la surprise crédible.",
+"variantes": [
+{
+"q": "Qu'est-ce qu'un rehook dans une vidéo de pub ?",
+"choix": [
+"Une deuxième accroche qui relance l'attention",
+"Une deuxième offre plus forte à la fin",
+"Une deuxième vidéo avec le même script",
+"Un deuxième bouton d'achat à l'écran"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une deuxième accroche qui relance l'attention."
+}
+}
+],
+"source": "Spencer – Evolve, décorticage de la pub chocolat ; The Conscious Bar – pub Meta gagnante",
+"ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S007] [S008] ; fiche « GAGNANTE 03 », bloc 3",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-043",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · Le bloc avant la solution",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans cet extrait, la marque doute elle-même de son produit. Pourquoi ?",
+"extrait": "« Et si on associait ce superaliment aux dattes ? Est-ce que ce serait bon ? Est-ce que ça ressemblerait encore à du chocolat ? Ou est-ce que ce serait nul ? »",
+"choix": [
+"Pour créer du suspense avant la réponse",
+"Parce que le produit n'est pas encore prêt",
+"Pour faire baisser les attentes sur le prix",
+"Pour parler d'un produit concurrent"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Pour créer du suspense : on veut savoir si c'est bon.",
+"pourquoi": "La spectatrice se pose la même question. En la posant d'abord, la marque la garde jusqu'à la réponse, « riche, fondant, délicieux ».",
+"action": "Avant de révéler ton résultat, pose à voix haute le doute que ta cliente a dans la tête."
+},
+"explication": "Spencer appelle ce bloc le suspense narratif. Sugarman conseille la même chose pour les objections : « raise the objection yourself » (soulève toi-même l'objection), puis réponds-y.",
+"variantes": [
+{
+"q": "Que conseille Sugarman quand tu sens qu'une cliente va avoir une objection ?",
+"choix": [
+"La soulever toi-même, puis y répondre",
+"L'ignorer pour ne pas lui donner d'idées",
+"Baisser le prix pour qu'elle l'oublie",
+"Changer de sujet le plus vite possible"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La soulever toi-même, puis y répondre."
+}
+}
+],
+"source": "Spencer – Evolve, décorticage de la pub chocolat ; Joseph Sugarman – The Adweek Copywriting Handbook",
+"ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S018] ; The Adweek Copywriting Handbook (Joseph Sugarman) - INDEX [S114] [R708] ; fiche « GAGNANTE 03 », bloc 8",
+"date_source": "2007 (Sugarman) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-044",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · L'ordre des blocs (squelette chocolat)",
+"niveau": 2,
+"type": "rappel",
+"q": "Remets ces 4 blocs de la pub où la fondatrice raconte l'histoire du cacao dans le bon ordre.",
+"extrait": "A : « Est-ce que ce serait nul ? » · B : « Quel est l'ingrédient n° 1 des barres ? » · C : « Voici The Conscious Bar. » · D : « Le sucre est caché dans presque toutes les barres. »",
+"qcm": {
+"choix": [
+"B, D, A, C",
+"C, B, D, A",
+"D, B, C, A",
+"A, C, B, D"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 B, D, A, C : la question, le méchant caché, le suspense, puis le nom.",
+"pourquoi": "On ouvre une question, on révèle le problème, on crée le doute sur la solution, et le produit arrive en dernier.",
+"action": "Écris ton script en blocs sur des post-it, et vérifie que le nom du produit est le dernier."
+},
+"explication": "C'est le squelette « chocolat » de ta méthode (livre 4 vidéo) : hook question → origine → « mais » le sucre → l'ennemi caché → « donc » les dattes → suspense → goût → le nom → l'offre.",
+"variantes": [
+{
+"q": "Dans ce squelette, quel bloc arrive en dernier, juste avant l'offre ?",
+"extrait": "Les blocs, dans le désordre : le suspense sur le goût, le nom du produit, la question, le méchant caché.",
+"qcm": {
+"choix": [
+"Le nom du produit",
+"La question du début",
+"Le méchant caché",
+"Le suspense sur le goût"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le nom du produit."
+}
+}
+],
+"source": "skill-usa – livre 4 vidéo (le squelette chocolat) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 00-ordre-de-la-maison, livre 4 vidéo ; skill-usa exemples/modele-chocolat ; fiche « GAGNANTE 03 », [S004]",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-045",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · La dernière phrase avant le bouton",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Le hook de cette pub disait : « Le chocolat a pris le mauvais chemin. » Que fait cet extrait, juste avant le bouton ?",
+"extrait": "« Voici The Conscious Bar, et c'est ce que le chocolat aurait toujours dû être. Et maintenant, il l'est. »",
+"qcm": {
+"choix": [
+"Il referme le hook : le chemin est corrigé",
+"Il ouvre une nouvelle question pour la suite",
+"Il présente un nouveau méchant",
+"Il donne une preuve scientifique"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il referme le hook : le « mauvais chemin » est enfin corrigé.",
+"pourquoi": "Le début et la fin se répondent. La spectatrice sent que l'histoire est complète, elle peut passer à l'action.",
+"action": "Relis ton hook, puis écris la dernière phrase avant le CTA comme sa réponse."
+},
+"explication": "Ta méthode : la dernière phrase avant le CTA (l'appel à l'action) referme le hook mot pour mot. Ici, la marque le referme par le sens (« ce que le chocolat aurait toujours dû être »).",
+"variantes": [
+{
+"q": "Selon ta méthode, que doit faire la dernière phrase avant l'appel à l'action (CTA) ?",
+"qcm": {
+"choix": [
+"Refermer le hook (la phrase d'accroche)",
+"Ouvrir une nouvelle boucle pour la suite",
+"Annoncer un autre produit de la marque",
+"Répéter le prix trois fois de suite"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Refermer le hook (la phrase d'accroche)."
+}
+}
+],
+"source": "skill-usa – Stratégie Spencer, règles fixes ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa SKILL.md, règle 19 ; fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », blocs 1 et 9",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-046",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · Les petits mots de liaison",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, à quoi sert le petit mot « Alors » ?",
+"extrait": "« …et il est caché dans presque toutes les barres de chocolat du rayon. Alors on s'est demandé : et si on associait plutôt ce superaliment magique avec le sucrant le plus riche en nutriments de la nature, les dattes bio ? »",
+"qcm": {
+"choix": [
+"Faire le pont du problème à la solution",
+"Changer complètement de sujet en route",
+"Annoncer la fin de la vidéo au public",
+"Présenter une autre marque de chocolat"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Faire le pont entre le problème et la solution.",
+"pourquoi": "Sans « alors », la solution tombe du ciel. Avec, elle devient la suite logique du problème.",
+"action": "Entre ton problème et ta solution, place un mot de lien : « alors », « donc », « c'est pour ça que »."
+},
+"explication": "Spencer appelle ce moment le « donc » : il introduit le superaliment et les dattes comme une conséquence. La spectatrice suit une logique, pas une publicité.",
+"variantes": [
+{
+"q": "Que se passe-t-il quand la solution arrive sans mot de lien après le problème ?",
+"qcm": {
+"choix": [
+"Elle semble tomber du ciel",
+"Elle paraît plus scientifique",
+"Elle se retient plus facilement",
+"Elle coûte moins cher à filmer"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle semble tomber du ciel."
+}
+}
+],
+"source": "Spencer – Evolve, décorticage de la pub chocolat ; The Conscious Bar – pub Meta gagnante",
+"ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S017] ; fiche « GAGNANTE 03 », blocs 7 et 8",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-047",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · Trouver l'erreur d'ordre",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Une pub pour des gens qui ignorent leur problème suit cet ordre : offre, nom du produit, problème, histoire. Qu'est-ce qui cloche ?",
+"qcm": {
+"choix": [
+"L'ordre est à l'envers pour ce public",
+"Il manque une preuve chiffrée au début",
+"La vidéo devrait durer 3 minutes",
+"Le prix devrait être plus bas"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 L'ordre est à l'envers : pour ce public, l'histoire et le problème passent d'abord.",
+"pourquoi": "Elle ne sait pas qu'elle a un problème : l'offre et le nom ne lui disent rien. Elle défile avant d'arriver à l'histoire.",
+"action": "Pour un public inconscient : histoire, puis problème, puis solution, puis produit, puis offre."
+},
+"explication": "Les gagnantes de la marque qui racontent une histoire nomment le produit entre 68 et 90 % de la vidéo. Ta méthode le dit : le produit arrive tard, l'offre va dans le CTA.",
+"variantes": [
+{
+"q": "Pour une cliente déjà très consciente, qui connaît ton produit, que peux-tu mettre plus tôt dans la pub ?",
+"qcm": {
+"choix": [
+"Le nom du produit et l'offre",
+"Une longue histoire sur le cacao",
+"Le méchant caché du marché",
+"Une question sans réponse"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le nom du produit et l'offre : elle n'a plus besoin de l'histoire."
+}
+}
+],
+"source": "skill-usa – Stratégie Spencer ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "skill-usa SKILL.md, règle 18 ; skill-usa 03-hormozi-offre, règle 1 ; 00 Index - FICHIER FB CHOCOLAT, « Ce que les 8 disent ensemble », point 2",
+"date_source": "pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-048",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · Le ton de l'appel à l'action",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Pourquoi cet appel à l'action (CTA) ne sonne-t-il pas comme une vente ?",
+"extrait": "« Et on a vraiment, vraiment, vraiment envie que tu le goûtes, alors on te fait un cadeau. Clique en dessous pour avoir 20 % sur ta première commande. »",
+"qcm": {
+"choix": [
+"Il parle d'envie de partager et de cadeau",
+"Il ne donne aucune offre à la cliente",
+"Il est dit beaucoup plus vite que le reste",
+"Il cache le nom de la marque jusqu'au bout"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il parle d'envie de partager et de cadeau, pas d'achat.",
+"pourquoi": "« On a vraiment envie que tu goûtes » est la phrase d'une amie. L'offre devient un cadeau, pas une pression.",
+"action": "Réécris ton CTA comme si tu offrais quelque chose à une amie, pas comme si tu fermais une vente."
+},
+"explication": "Spencer analyse ce CTA comme naturel : il prolonge l'histoire au lieu de la casser. Cialdini explique le reste : « we should try to repay, in kind, what another person has provided us » (on veut rendre ce qu'on nous donne).",
+"variantes": [
+{
+"q": "Quel principe de Cialdini un CTA présenté comme un cadeau active-t-il ?",
+"qcm": {
+"choix": [
+"La réciprocité : on veut rendre",
+"La rareté : il en reste peu",
+"L'autorité : un expert parle",
+"La preuve sociale : tout le monde achète"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La réciprocité : on veut rendre."
+}
+}
+],
+"source": "Spencer – Evolve, décorticage de la pub chocolat ; Robert Cialdini – Influence ; The Conscious Bar – pub Meta gagnante",
+"ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S022] ; Influence (Robert B. Cialdini) - INDEX [S020] [R278] ; fiche « GAGNANTE 03 », bloc 11",
+"date_source": "1984 (Cialdini) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-049",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Les 3 questions de Harry Dry",
+"niveau": 1,
+"type": "qcm",
+"q": "Harry Dry pose 3 questions à chaque phrase. Lesquelles ?",
+"choix": [
+"La voir, la prouver, personne d'autre ne la dit",
+"La lire, la chanter, la répéter trois fois",
+"La traduire, la raccourcir, la mettre en couleur",
+"La vendre, la cacher, la changer de place"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Est-ce que je peux la visualiser ? La falsifier (prouver vraie ou fausse) ? Personne d'autre ne peut-il la dire ?",
+"pourquoi": "Trois non : la phrase est à jeter. Trois oui : elle tient.",
+"action": "Passe chaque phrase importante de ton script à ces 3 questions avant de l'enregistrer."
+},
+"explication": "Harry Dry : « Can I visualize it? Can I falsify it? Can nobody else say this? » Une phrase qu'on voit, qu'on peut vérifier et que seule ta marque peut dire est une phrase qui vend.",
+"variantes": [
+{
+"q": "Une phrase obtient 3 « non » aux questions de Harry Dry. Que fais-tu ?",
+"choix": [
+"Tu la jettes et tu la réécris",
+"Tu la gardes pour le hook",
+"Tu la répètes plus fort",
+"Tu la mets en sous-titre"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Tu la jettes et tu la réécris."
+}
+}
+],
+"source": "Harry Dry (fiche du skill-usa)",
+"ref": "skill-usa 05-harry-dry [E001] et partie 0.8",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-050",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Harry Dry, question 1",
+"niveau": 1,
+"type": "qcm",
+"q": "Ces phrases parlent du même problème. Laquelle peut-on voir dans sa tête ?",
+"choix": [
+"« Il lave le soja au solvant, en combinaison jaune »",
+"« Les additifs industriels sont mauvais pour toi »",
+"« L'industrie utilise des procédés douteux »",
+"« Ce produit contient des choses néfastes »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Il lave le soja au solvant, en combinaison jaune ».",
+"pourquoi": "On voit l'homme, la combinaison, le soja. Les trois autres sont des idées sans image.",
+"action": "Pour chaque idée abstraite de ton script, demande : quelle image la montre ?"
+},
+"explication": "Première question de Harry Dry : puis-je la visualiser ? La gagnante du créateur en combinaison jaune ne dit jamais « l'industrie est mauvaise » : elle le montre.",
+"variantes": [
+{
+"q": "Ces phrases parlent du même emballage. Laquelle peut-on voir dans sa tête ?",
+"choix": [
+"« Touche : ce papier n'est pas du plastique »",
+"« Un emballage écologique et responsable »",
+"« Un packaging pensé pour la planète »",
+"« Une démarche durable et engagée »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Touche : ce papier n'est pas du plastique » : on voit le geste et la matière."
+}
+}
+],
+"source": "Harry Dry (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante (créateur Itay Shechter)",
+"ref": "skill-usa 05-harry-dry [E001] ; fiche « GAGNANTE 07 - Fais ton chocolat industriel à la maison », blocs 4 et 5",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-051",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Le 1er remède de Feynman",
+"niveau": 1,
+"type": "qcm",
+"q": "Laquelle de ces phrases suit le premier remède de Feynman : le concret bat l'abstrait ?",
+"choix": [
+"« Certaines barres font plus de 50 % de sucre en poids »",
+"« Les barres contiennent beaucoup trop de sucre »",
+"« Le sucre est un vrai problème de société »",
+"« Les barres ne sont pas très équilibrées »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Certaines barres font plus de 50 % de sucre en poids ».",
+"pourquoi": "« Plus de la moitié de la barre » se comprend tout de suite. « Beaucoup trop » ne dit pas combien.",
+"action": "Remplace chaque « beaucoup », « trop », « très » de ton script par un chiffre ou une image."
+},
+"explication": "Feynman, remède 1 : « nous perdons un client sur cinq » fait redresser la tête, « notre taux d'attrition a augmenté » s'oublie. La gagnante dit « plus de 50 % de sucre en poids », pas « trop de sucre ».",
+"variantes": [
+{
+"q": "Par quoi Feynman conseille-t-il de remplacer un mot vague comme « beaucoup » ?",
+"choix": [
+"Par un chiffre ou une image précise",
+"Par un mot savant plus impressionnant",
+"Par un adjectif encore plus fort",
+"Par une phrase plus longue"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Par un chiffre ou une image précise."
+}
+}
+],
+"source": "Feynman – les 5 remèdes (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 05-feynman [S010] remède 1 ; fiche « GAGNANTE 03 », bloc 6",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-052",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Les phrases très courtes",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, à quoi sert la phrase très courte « Et il y a une raison » ?",
+"extrait": "« Tu ne trouveras ça nulle part ailleurs en rayon. Et il y a une raison. Un chocolat comme ça coûte beaucoup plus cher à fabriquer… »",
+"qcm": {
+"choix": [
+"Promettre une raison sans la donner encore",
+"Résumer toute la vidéo en une seule ligne",
+"Annoncer le prix de la tablette en avance",
+"Présenter la fondatrice de la marque"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Promettre une raison sans la donner encore : on reste pour l'entendre.",
+"pourquoi": "« Il y a une raison » sans la donner tout de suite : on reste pour la connaître.",
+"action": "À la fin d'un passage lent de ton script, ajoute une phrase courte qui promet la suite."
+},
+"explication": "Sugarman appelle ça les « seeds of curiosity » (graines de curiosité) : « At the end of a paragraph, I will often put a very short sentence that offers some reason for the reader to read the next paragraph. » C'est sa pente glissante : chaque phrase fait glisser vers la suivante.",
+"variantes": [
+{
+"q": "Où Sugarman place-t-il ses petites phrases qui donnent envie de lire la suite ?",
+"qcm": {
+"choix": [
+"À la fin d'un paragraphe",
+"Tout en haut de la page",
+"Dans le prix du produit",
+"Seulement dans la signature"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À la fin d'un paragraphe."
+}
+}
+],
+"source": "Joseph Sugarman – The Adweek Copywriting Handbook ; The Conscious Bar – pub Meta gagnante",
+"ref": "The Adweek Copywriting Handbook (Joseph Sugarman) - INDEX [S061] [R516] [R518] ; fiche « GAGNANTE 02 », bloc 2",
+"date_source": "2007 (Sugarman) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-053",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Une phrase qu'on peut vérifier",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Laquelle de ces phrases passe la 2ᵉ question de Harry Dry : peut-on prouver qu'elle est vraie ou fausse ?",
+"qcm": {
+"choix": [
+"« 11 g de fibres dans une tablette »",
+"« Le meilleur chocolat du monde »",
+"« Un goût qui change la vie »",
+"« Une expérience inoubliable »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « 11 g de fibres dans une tablette » : on peut le vérifier sur l'étiquette.",
+"pourquoi": "« Le meilleur du monde » ne se prouve pas, donc la cliente le met de côté. Un chiffre sur l'étiquette, elle peut le contrôler.",
+"action": "Remplace chaque superlatif de ton script par un fait qu'on peut vérifier."
+},
+"explication": "Harry Dry, question 2 : puis-je la falsifier ? Hopkins disait déjà : « Actual figures are not generally discounted. » (Les vrais chiffres ne sont en général pas mis en doute.)",
+"variantes": [
+{
+"q": "Selon Hopkins, comment les gens reçoivent-ils un chiffre précis dans une pub ?",
+"qcm": {
+"choix": [
+"Ils le croient en général",
+"Ils le divisent par deux",
+"Ils l'oublient tout de suite",
+"Ils le trouvent ennuyeux"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ils le croient en général."
+}
+}
+],
+"source": "Harry Dry (fiche du skill-usa) ; Claude Hopkins – Scientific Advertising ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 05-harry-dry [E001] ; Scientific Advertising (Claude C. Hopkins) - INDEX [S026] [R102] ; fiche « GAGNANTE 04 », bloc 3",
+"date_source": "1923 (Hopkins) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-054",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Le ton envers la cliente",
+"niveau": 2,
+"type": "scénario",
+"q": "Ton script explique tout trois fois, lentement, comme si la cliente ne comprenait rien. Que te dirait Ogilvy ?",
+"qcm": {
+"choix": [
+"« La cliente n'est pas une idiote, c'est ta femme »",
+"« Répète encore, elle finira par comprendre »",
+"« Ajoute des mots savants pour l'impressionner »",
+"« Parle plus fort, elle écoutera mieux »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « La cliente n'est pas une idiote, c'est ta femme. » (Ogilvy : « The consumer is not a moron, she is your wife. »)",
+"pourquoi": "Elle sent qu'on la prend de haut, et elle part. Les gagnantes lui parlent comme à une amie : « tu mérites mieux ».",
+"action": "Fais lire ton script à quelqu'un qui ressemble à ta cliente et demande « explique-moi ce que tu as compris »."
+},
+"explication": "Ogilvy rappelle le respect. Feynman donne l'outil (remède 4) : le test humain, avec « explique-moi ce que tu as compris », jamais « c'est clair ? ». Simple ne veut pas dire bête.",
+"variantes": [
+{
+"q": "Pour tester si ton script est clair, quelle question poses-tu à ta lectrice, selon Feynman ?",
+"qcm": {
+"choix": [
+"« Explique-moi ce que tu as compris »",
+"« Est-ce que c'est clair pour toi ? »",
+"« Tu as aimé la musique ? »",
+"« Tu achèterais à quel prix ? »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Explique-moi ce que tu as compris », jamais « c'est clair ? »."
+}
+}
+],
+"source": "David Ogilvy – Ogilvy on Advertising ; Feynman – les 5 remèdes (fiche du skill-usa)",
+"ref": "Ogilvy on Advertising (David Ogilvy) - INDEX [S126] [R882] ; skill-usa 05-feynman [S010] remède 4",
+"date_source": "1983 (Ogilvy)",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-055",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Réécrire une phrase morte",
+"niveau": 3,
+"type": "scénario",
+"q": "Réécris cette phrase pour qu'on la voie et qu'on puisse la vérifier. Quelle version choisis-tu ?",
+"extrait": "Phrase de départ : « Les barres du commerce contiennent beaucoup d'ingrédients douteux. »",
+"qcm": {
+"choix": [
+"« Retourne ta barre : le sucre est souvent en 1ᵉʳ »",
+"« Les barres sont pleines de choses vraiment douteuses »",
+"« Les barres industrielles ne sont pas de bonne qualité »",
+"« Il faut se méfier des barres que l'on achète »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Retourne ta barre : le sucre est souvent écrit en premier. »",
+"pourquoi": "On voit le geste (retourner la barre), on peut vérifier (lire l'étiquette), et c'est précis.",
+"action": "Transforme tes phrases vagues en un geste que la cliente peut faire elle-même."
+},
+"explication": "Harry Dry, méthode du zoom : rapprocher la caméra jusqu'au détail qu'on voit. Les gagnantes filment l'étiquette entourée en rouge au lieu de dire « ingrédients douteux ».",
+"variantes": [
+{
+"q": "Quelle version de cette phrase peut-on vérifier soi-même ?",
+"extrait": "Phrase de départ : « Ce chocolat contient très peu d'ingrédients. »",
+"qcm": {
+"choix": [
+"« Lis l'étiquette : cacao et dattes, c'est tout »",
+"« Ce chocolat est d'une grande simplicité »",
+"« Ce chocolat est fait avec très peu de choses »",
+"« Ce chocolat est pur comme jamais »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Lis l'étiquette : cacao et dattes, c'est tout »"
+}
+}
+],
+"source": "Harry Dry (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 05-harry-dry [E001] et partie 0.9 (méthode du zoom [E006]) ; fiche « GAGNANTE 03 », bloc 7 et relevé technique",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-056",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Les couleurs des sous-titres",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, à quoi servent les couleurs des mots écrits à l'écran ?",
+"extrait": "Sous-titres de la vidéo : « wrong » (mauvais) et « synthetic » (de synthèse) s'affichent en rouge. « superfood » (superaliment), « rebuilt » (reconstruit) et « today » (aujourd'hui) s'affichent en vert.",
+"qcm": {
+"choix": [
+"Montrer le méchant et le héros sans le son",
+"Rendre la vidéo plus jolie à regarder",
+"Mettre en valeur les mots les plus longs",
+"Suivre la charte de couleurs de la marque"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Montrer qui est le méchant (rouge) et qui est le héros (vert), même sans le son.",
+"pourquoi": "Beaucoup regardent sans le son. Les couleurs racontent l'histoire à leur place.",
+"action": "Dans tes sous-titres, choisis une couleur pour le méchant, une pour le héros, et garde-les toute la vidéo."
+},
+"explication": "Le texte incrusté reprend les mots-clés de la voix, et c'est lui qui est lu en son coupé. Dans les vidéos de la fondatrice, rouge = méchant, vert = héros.",
+"variantes": [
+{
+"q": "Pourquoi soigner les mots écrits à l'écran autant que la voix ?",
+"qcm": {
+"choix": [
+"Beaucoup regardent la vidéo sans le son",
+"Meta interdit les vidéos sans texte",
+"Le texte remplace le bouton d'achat",
+"La voix est toujours mal enregistrée"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Beaucoup regardent la vidéo sans le son."
+}
+}
+],
+"source": "The Conscious Bar – pubs Meta gagnantes (relevé technique)",
+"ref": "Fiches « GAGNANTE 06 » et « GAGNANTE 03 », relevé technique ; 00 Index - FICHIER FB CHOCOLAT, « Ce que les 8 disent ensemble », point 5",
+"date_source": "pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-057",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Reconnaître une boucle ouverte",
+"niveau": 1,
+"type": "qcm",
+"q": "Quelle technique d'ouverture de boucle utilise cet extrait ?",
+"extrait": "« Quel est l'ingrédient n° 1 de la plupart des barres de chocolat ? Je te donne un indice : ce n'est pas le cacao. » La réponse n'arrive que 30 secondes plus tard.",
+"choix": [
+"La question sans réponse",
+"La sérialisation",
+"Le pattern incomplet visible",
+"Les boucles imbriquées"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La question sans réponse : on la pose tôt, on retarde la réponse.",
+"pourquoi": "Le cerveau veut fermer la question. Tant que la réponse n'est pas là, il reste.",
+"action": "Pose une question précise au début de ton script, et ne donne la réponse qu'au milieu."
+},
+"explication": "La fiche Zeigarnik liste 6 techniques : teaser à trou, question sans réponse, résultat avant la méthode, boucles imbriquées, pattern incomplet visible, sérialisation. Ici : une question précise, réponse 30 secondes plus tard.",
+"variantes": [
+{
+"q": "Quelle technique consiste à poser une question précise tôt et à retarder la réponse ?",
+"choix": [
+"La question sans réponse",
+"La sérialisation",
+"Le résultat avant la méthode",
+"Le pattern incomplet visible"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La question sans réponse."
+}
+}
+],
+"source": "Effet Zeigarnik (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 06-zeigarnik [S004] ; fiche « GAGNANTE 03 », blocs 1 et 5",
+"date_source": "1927 (Zeigarnik) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-058",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Pourquoi une boucle retient",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Zeigarnik, combien de fois mieux retient-on une tâche interrompue qu'une tâche finie ?",
+"choix": [
+"Environ 2 fois mieux",
+"Exactement pareil",
+"10 fois mieux",
+"Moitié moins bien"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Environ 2 fois mieux (1,9 fois).",
+"pourquoi": "Une chose pas finie reste dans la tête. Une chose finie, le cerveau la range et l'oublie.",
+"action": "Ne finis pas tout de suite ce que tu commences dans ta pub : laisse une question en suspens."
+},
+"explication": "Résultat mesuré par Zeigarnik en 1927 : une tâche interrompue est retenue environ 2 fois mieux qu'une tâche terminée. C'est la base de toutes les boucles ouvertes d'une pub.",
+"variantes": [
+{
+"q": "Que fait le cerveau d'une chose terminée, d'après Zeigarnik ?",
+"choix": [
+"Il la range et la retient moins bien",
+"Il la retient deux fois mieux qu'avant",
+"Il la répète en boucle toute la journée",
+"Il la transforme en désir d'achat fort"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il la range : une chose finie est moins bien retenue."
+}
+}
+],
+"source": "Effet Zeigarnik (fiche du skill-usa)",
+"ref": "skill-usa 06-zeigarnik [S001]",
+"date_source": "1927",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-059",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Ce qui tue une boucle",
+"niveau": 1,
+"type": "qcm",
+"q": "Laquelle de ces ouvertures tue l'effet de boucle dès le départ ?",
+"choix": [
+"« Dans cette vidéo, je vais te montrer 3 choses »",
+"« Quel est l'ingrédient n° 1 des barres ? »",
+"« Le chocolat a pris le mauvais chemin »",
+"« Comment a-t-on fait du cacao un bonbon ? »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Dans cette vidéo, je vais te montrer 3 choses ».",
+"pourquoi": "Annoncer le programme à l'avance enlève le mystère. Zeigarnik a mesuré un effet nul quand les gens savent à l'avance ce qui vient.",
+"action": "Supprime tout sommaire au début de ton script. Ouvre plutôt une question."
+},
+"explication": "Condition 1 de Zeigarnik : ne pas annoncer le programme à l'avance. Sujets informés à l'avance : IR/CR = 0,97, soit aucun effet. Les 3 autres ouvertures sont de vraies gagnantes.",
+"variantes": [
+{
+"q": "Selon Zeigarnik, qu'arrive-t-il à la boucle quand on annonce tout le programme au début ?",
+"choix": [
+"Elle n'a plus aucun effet",
+"Elle devient deux fois plus forte",
+"Elle dure plus longtemps",
+"Elle se ferme toute seule à la fin"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle n'a plus aucun effet."
+}
+}
+],
+"source": "Effet Zeigarnik (fiche du skill-usa)",
+"ref": "skill-usa 06-zeigarnik [S010] condition 1",
+"date_source": "1927",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-060",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Reconnaître une technique de boucle",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Cette première phrase laisse un trou dans la tête de la spectatrice. Comment s'appelle cette technique de boucle ?",
+"extrait": "Première phrase de la vidéo : « Le chocolat a été bien inventé. Il a juste pris le mauvais chemin. »",
+"qcm": {
+"choix": [
+"Le teaser à trou",
+"La question sans réponse",
+"La sérialisation",
+"Le pattern incomplet visible"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le teaser à trou : on donne le début d'une idée, on garde la fin.",
+"pourquoi": "« Le mauvais chemin » est annoncé, mais on ne dit pas lequel. Ce n'est pas une question, c'est une affirmation avec un trou.",
+"action": "Écris une phrase qui annonce un fait étonnant sans dire le détail qui l'explique."
+},
+"explication": "Fiche Zeigarnik, technique 1 : donner le début d'une idée, retenir la fin. La différence avec la question sans réponse : ici, aucune question n'est posée, mais un trou est laissé.",
+"variantes": [
+{
+"q": "Quelle différence entre le teaser à trou et la question sans réponse ?",
+"qcm": {
+"choix": [
+"Le teaser affirme avec un trou, sans question",
+"Le teaser donne toute la réponse au début",
+"Le teaser ne marche que sur une page",
+"Il n'y a aucune différence entre les deux"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le teaser affirme avec un trou, sans question."
+}
+}
+],
+"source": "Effet Zeigarnik (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 06-zeigarnik [S003] et [S004] ; fiche « GAGNANTE 06 », bloc 1",
+"date_source": "1927 (Zeigarnik) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-061",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Les conditions de Zeigarnik",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Cette pub ouvre une question au début et y répond dans la même vidéo. Quelle condition de Zeigarnik respecte-t-elle ?",
+"extrait": "À 0:00 : « Quel est l'ingrédient n° 1 de la plupart des barres ? » À 0:30 : « Mais ensuite le sucre est arrivé, et tout a changé. Le chocolat n'était plus du chocolat. C'est devenu un bonbon. »",
+"qcm": {
+"choix": [
+"Fermer la boucle dans le même contenu",
+"Ne jamais répondre à la question posée",
+"Répondre dans une deuxième vidéo",
+"Répondre seulement sur le site"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Fermer la boucle dans le même contenu.",
+"pourquoi": "Une boucle laissée ouverte trop longtemps s'efface. Fermée dans la même vidéo, elle a fait son travail : la garder jusqu'à la réponse.",
+"action": "Pour chaque question ouverte dans ton script, note la seconde où elle se ferme. Aucune ne doit rester ouverte à la fin."
+},
+"explication": "Condition 5 de Zeigarnik : une distraction de 10 à 30 minutes efface l'effet, et le lendemain il ne reste que +14 %. Une boucle ouverte se ferme dans la même vidéo, la même page ou le même e-mail.",
+"variantes": [
+{
+"q": "Selon Zeigarnik, que reste-t-il de l'effet d'une boucle laissée ouverte jusqu'au lendemain ?",
+"qcm": {
+"choix": [
+"Presque rien : +14 % seulement",
+"Il double pendant la nuit",
+"Il reste exactement le même",
+"Il devient un souvenir fort"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Presque rien : +14 % seulement le lendemain."
+}
+}
+],
+"source": "Effet Zeigarnik (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 06-zeigarnik [S010] condition 5 ; fiche « GAGNANTE 03 », blocs 1 et 5",
+"date_source": "1927 (Zeigarnik) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-062",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Les conditions de Zeigarnik",
+"niveau": 2,
+"type": "si-alors",
+"q": "Si une spectatrice ne se sent pas concernée par le sujet, alors que devient ta boucle ouverte, selon Zeigarnik ?",
+"qcm": {
+"choix": [
+"Elle n'a presque aucun effet",
+"Elle devient deux fois plus forte",
+"Elle marche aussi bien qu'avant",
+"Elle se transforme en désir d'achat"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle n'a presque aucun effet.",
+"pourquoi": "On ne reste pas pour une question qui ne nous touche pas. Chez les gens très concernés, l'effet monte à +175 %.",
+"action": "Avant d'ouvrir une boucle, fais sentir à ta cliente que ça la concerne : une douleur, une scène de sa vie."
+},
+"explication": "Condition 4 de Zeigarnik : sujets non impliqués, IR/CR = 1,03 (effet nul) ; sujets très impliqués, +175 %. C'est pourquoi les gagnantes parlent d'abord du chocolat que la spectatrice mange déjà.",
+"variantes": [
+{
+"q": "Qu'est-ce qui multiplie l'effet d'une boucle ouverte chez la spectatrice ?",
+"qcm": {
+"choix": [
+"Se sentir très concernée par le sujet",
+"Regarder la vidéo sans le son",
+"Voir le prix dès la première seconde",
+"Avoir déjà oublié la question"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Se sentir très concernée : l'effet monte jusqu'à +175 %."
+}
+}
+],
+"source": "Effet Zeigarnik (fiche du skill-usa)",
+"ref": "skill-usa 06-zeigarnik [S010] condition 4",
+"date_source": "1927",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-063",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Combien de boucles en même temps",
+"niveau": 3,
+"type": "piège",
+"q": "Tu ouvres 5 questions dans les 20 premières secondes de ton script. Quel est le risque ?",
+"qcm": {
+"choix": [
+"Surcharge : elle se perd et décroche",
+"Aucun : plus il y en a, mieux c'est",
+"Elle oublie la 1re question, garde les autres",
+"Meta coupe la vidéo plus tôt"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Surcharge : elle se perd, se frustre et décroche.",
+"pourquoi": "Trop de questions ouvertes en même temps, et plus aucune ne tient. 2 ou 3 au maximum.",
+"action": "Compte tes boucles ouvertes à chaque instant du script : jamais plus de 3 en même temps."
+},
+"explication": "Fiche Zeigarnik, technique des boucles imbriquées : ouvrir une question, y répondre en partie en en ouvrant une autre, tout résoudre à la fin. Limite : 2 à 3 boucles maximum, au-delà c'est la surcharge.",
+"variantes": [
+{
+"q": "Combien de boucles imbriquées une pub peut-elle tenir au maximum, selon Zeigarnik ?",
+"qcm": {
+"choix": [
+"2 à 3",
+"1 seule",
+"5 à 6",
+"Autant qu'on veut"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 2 à 3 boucles au maximum."
+}
+}
+],
+"source": "Effet Zeigarnik (fiche du skill-usa)",
+"ref": "skill-usa 06-zeigarnik [S006]",
+"date_source": "1927",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-064",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Le bon moment pour ouvrir une boucle",
+"niveau": 3,
+"type": "scénario",
+"q": "Ton script commence par : « Je vais te révéler un secret à la fin. » Que dit Zeigarnik sur ce début ?",
+"qcm": {
+"choix": [
+"Accroche d'abord, puis ouvre la boucle",
+"C'est le début parfait, ne change rien",
+"Il faut révéler le secret tout de suite",
+"Il faut ajouter un deuxième secret"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Accroche d'abord (une douleur, une image), puis ouvre la boucle.",
+"pourquoi": "Une boucle ouverte trop tôt marche moins bien qu'une boucle ouverte un peu plus tard. Et « un secret » n'a pas de fin claire.",
+"action": "Commence par une image ou une douleur, puis ouvre une promesse précise : « le détail que X m'a montré »."
+},
+"explication": "Condition 2 de Zeigarnik : interruption tardive +90 %, précoce +65 %. Condition 3 : la promesse doit avoir une fin claire. Pas « le secret », mais « le détail que X m'a montré ». Les gagnantes ouvrent leur boucle dès la 1re phrase, mais cette phrase est déjà une image ou une surprise. « Un secret » n'est ni l'un ni l'autre.",
+"variantes": [
+{
+"q": "Pourquoi « je vais te révéler un secret » est-il une mauvaise promesse, selon Zeigarnik ?",
+"qcm": {
+"choix": [
+"Elle n'a pas de fin claire et précise",
+"Elle est trop précise et trop courte",
+"Elle donne la réponse trop vite",
+"Elle parle trop du produit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle n'a pas de fin claire et précise."
+}
+}
+],
+"source": "Effet Zeigarnik (fiche du skill-usa)",
+"ref": "skill-usa 06-zeigarnik [S010] conditions 2 et 3",
+"date_source": "1927",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-065",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"ajout": "2026-10-07",
+"competence": "Étape 9 · Les 3 péchés",
+"niveau": 1,
+"type": "qcm",
+"q": "Laquelle de ces premières phrases tombe dans le piège de l'ennui ?",
+"choix": [
+"« Découvrez notre nouveau chocolat noir bio »",
+"« Comment a-t-on fait d'un superaliment un bonbon ? »",
+"« Le chocolat a pris le mauvais chemin »",
+"« Je suis pâtissière et je ne mange pas de sucre »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Découvrez notre nouveau chocolat noir bio ».",
+"pourquoi": "Elle ressemble à mille autres pubs : aucune question, aucune surprise, aucune tension. Les trois autres sont de vraies ouvertures gagnantes.",
+"action": "Relis ta première phrase : si n'importe quelle marque pouvait l'écrire, elle est ennuyeuse. Réécris-la."
+},
+"explication": "Premier des 3 péchés : l'ennui. Le message ne doit jamais être plat, mou ou banal. Les gagnantes ouvrent toutes sur une question, un paradoxe ou un mystère.",
+"variantes": [
+{
+"q": "Comment rendre moins ennuyeuse la phrase « Découvrez notre nouveau chocolat noir » ?",
+"choix": [
+"En ouvrant sur une question ou un paradoxe",
+"En ajoutant le mot « nouveau » deux fois",
+"En mettant le prix tout au début",
+"En la disant beaucoup plus lentement"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 En ouvrant sur une question ou un paradoxe."
+}
+}
+],
+"source": "Les 3 péchés (règle du skill-usa) ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "skill-usa 07-3-peches, piège 1 ; fiches « GAGNANTE 01 », « GAGNANTE 06 » et « GAGNANTE 05 », bloc 1 ; exemple « Découvrez… » écrit pour l'exercice",
+"date_source": "pubs actives au 07/10/2026"
+},
+{
+"id": "copy-deco-066",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Les 3 péchés",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans cet extrait, la passante avoue un petit défaut. Quel piège cette phrase combat-elle ?",
+"extrait": "« Non, c'est trop bon. […] Mais je sens les dattes, et j'adore ça. Non, c'est encore meilleur. […] — Sur une échelle de 1 à 10 ? — 10. »",
+"choix": [
+"Le scepticisme",
+"L'ennui",
+"La confusion",
+"La peur du prix"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le scepticisme.",
+"pourquoi": "Un avis 100 % parfait sonne faux. « Je sens les dattes » est un vrai détail, avoué, qui rend le « 10 sur 10 » crédible.",
+"action": "Garde dans tes témoignages le petit défaut honnête : il rend tout le reste plus vrai."
+},
+"explication": "Contre le scepticisme, ta règle demande une preuve ou un avis. Un avis spontané d'une inconnue, avec un petit défaut, vaut plus qu'un argument de la marque. Sugarman le dit à sa façon : « Honesty is the most important trigger » (l'honnêteté est le déclencheur le plus important).",
+"variantes": [
+{
+"q": "Pourquoi un avis client qui avoue un petit défaut est-il plus cru qu'un avis parfait ?",
+"choix": [
+"Il sonne vrai, donc on croit le reste",
+"Il est beaucoup plus court à lire",
+"Il fait baisser le prix perçu du produit",
+"Il cache le nom de la marque au client"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il sonne vrai, donc on croit le reste."
+}
+}
+],
+"source": "Les 3 péchés (skill-usa) ; Joseph Sugarman (fiche Grands copywriters) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 07-3-peches, piège 3 ; Joe Sugarman - 4 fiches, citation « Honesty is the most important trigger » ; fiche « GAGNANTE 08 - Le micro-trottoir à Miami », bloc 4",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-067",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Les leviers de Cialdini",
+"niveau": 1,
+"type": "qcm",
+"q": "Quel levier de Cialdini cet extrait utilise-t-il ?",
+"extrait": "Texte d'une pub de la même marque : « Plus de 16 000 avis 5 étoiles, et la phrase qui revient le plus, c'est : “Je n'arrive pas à croire qu'il n'y a pas de sucre ajouté.” »",
+"choix": [
+"La preuve sociale",
+"La réciprocité",
+"La rareté",
+"L'engagement et la cohérence"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La preuve sociale : ce que pensent les autres.",
+"pourquoi": "16 000 personnes ont aimé : la spectatrice se dit que ça doit être bon. Et la phrase qui revient répond à son doute.",
+"action": "Ne donne pas seulement un nombre d'avis : cite la phrase qui revient le plus, avec les mots des clientes."
+},
+"explication": "Cialdini : « one means we use to determine what is correct is to find out what other people think is correct » (pour savoir ce qui est juste, on regarde ce que les autres en pensent).",
+"variantes": [
+{
+"q": "Selon Cialdini, comment décide-t-on souvent qu'un choix est le bon ?",
+"choix": [
+"En regardant ce que les autres en pensent",
+"En lisant la fiche technique en entier",
+"En comparant les prix un par un",
+"En suivant son premier réflexe"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 En regardant ce que les autres en pensent."
+}
+}
+],
+"source": "Robert Cialdini – Influence ; The Conscious Bar – texte d'une pub Meta active",
+"ref": "Influence (Robert B. Cialdini) - INDEX [S114] [R098] ; « Textes des pubs - relevé du 07-10-2026 », [S001]",
+"date_source": "1984 (Cialdini) ; pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-068",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Les leviers de Cialdini",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Cette pub est publiée depuis la page d'une créatrice, pas depuis celle de la marque. Quel levier de Cialdini ce choix active-t-il ?",
+"extrait": "En haut de la pub : « Halfway Balanced avec The Conscious Bar ». La créatrice, dans sa cuisine : « Je travaille avec une de mes marques préférées… Il faut absolument que tu goûtes. »",
+"qcm": {
+"choix": [
+"La sympathie : on dit oui à ceux qu'on aime",
+"L'autorité : on obéit aux experts",
+"La rareté : on veut ce qui manque",
+"La réciprocité : on rend ce qu'on reçoit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La sympathie : on dit plus facilement oui à quelqu'un qu'on connaît et qu'on aime.",
+"pourquoi": "La spectatrice suit peut-être déjà cette créatrice. Une recommandation d'une personne qu'elle apprécie passe mieux qu'une pub de marque.",
+"action": "Teste tes meilleures pubs publiées depuis la page d'une créatrice réelle qui aime vraiment ton produit."
+},
+"explication": "Cialdini : « we most prefer to say yes to the requests of someone we know and like ». 3 des 8 vidéos gagnantes de la marque sont publiées depuis la page d'une créatrice, d'un créateur ou d'une experte.",
+"variantes": [
+{
+"q": "Selon Cialdini, à qui dit-on le plus facilement oui ?",
+"qcm": {
+"choix": [
+"À quelqu'un qu'on connaît et qu'on aime",
+"À quelqu'un qui parle très vite et fort",
+"À quelqu'un qui baisse beaucoup son prix",
+"À quelqu'un qu'on ne connaît pas"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À quelqu'un qu'on connaît et qu'on aime."
+}
+}
+],
+"source": "Robert Cialdini – Influence ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "Influence (Robert B. Cialdini) - INDEX [S158] [R733] ; fiche « GAGNANTE 04 », [S001] et bloc 2 ; 00 Index - FICHIER FB CHOCOLAT",
+"date_source": "1984 (Cialdini) ; pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-069",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Les couches de Mark",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Quelle croyance cet extrait fait-il tomber chez la spectatrice ?",
+"extrait": "Écrit à l'écran pendant 10 secondes : « J'ai arrêté le sucre et je mange du chocolat tous les jours. »",
+"qcm": {
+"choix": [
+"Arrêter le sucre, c'est arrêter le chocolat",
+"Le chocolat noir coûte toujours trop cher",
+"Les créatrices ne mangent jamais de sucre",
+"Le chocolat noir est toujours amer"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Arrêter le sucre, c'est arrêter le chocolat. »",
+"pourquoi": "Elle croyait devoir choisir entre sa santé et son plaisir. La phrase montre qu'elle peut avoir les deux.",
+"action": "Trouve la croyance qui empêche ta cliente d'acheter, et écris une phrase qui la contredit avec un fait vécu."
+},
+"explication": "Mark, couche 3 (les croyances) : quelle croyance bloquait l'achat, et quelle phrase la perce ? Un paradoxe vécu (« j'ai arrêté le sucre ET je mange du chocolat ») perce une croyance plus vite qu'un argument.",
+"variantes": [
+{
+"q": "Dans les 5 couches de Mark, que demande-t-on à la couche des croyances ?",
+"qcm": {
+"choix": [
+"Quelle croyance bloquait l'achat, et quelle phrase la perce",
+"Quelle émotion arrive avant l'argument, et à quel moment",
+"Quelle personne elle devient, et comment elle le montre",
+"Quelle marche de départ elle occupe, et laquelle à la fin"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Quelle croyance bloquait l'achat, et quelle phrase la perce."
+}
+}
+],
+"source": "Mark – les 5 couches (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 07-mark-5-couches, couche 3 ; fiche « GAGNANTE 04 », [S002]",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-070",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Les couches de Mark",
+"niveau": 2,
+"type": "scénario",
+"q": "Ton script commence par 5 arguments chiffrés et garde l'histoire émouvante pour la fin. Que corriges-tu ?",
+"qcm": {
+"choix": [
+"Faire ressentir d'abord, argumenter ensuite",
+"Ajouter encore plus de chiffres au début",
+"Supprimer complètement l'histoire",
+"Mettre l'offre avant les chiffres"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 L'émotion d'abord, les arguments ensuite : ressentir, penser, agir.",
+"pourquoi": "On achète sur l'émotion et on se justifie avec la logique. Des chiffres sans émotion ne donnent envie de rien.",
+"action": "Déplace ta scène émouvante au début, et garde les chiffres pour justifier le choix juste avant l'offre."
+},
+"explication": "Mark, couche 2 : l'émotion arrive-t-elle avant l'argument ? Ressentir, penser, agir. Sugarman : « We buy on emotion and justify with logic. » (On achète sur l'émotion, on justifie avec la logique.)",
+"variantes": [
+{
+"q": "Dans cet extrait, qu'est-ce qui arrive avant les chiffres (7 g de sucre, 11 g de fibres) ?",
+"qcm": {
+"choix": [
+"Le dégoût, provoqué par la fausse recette",
+"Le prix de la barre en promotion du jour",
+"La liste complète des saveurs disponibles",
+"Les avis des clients les plus satisfaits"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le dégoût, provoqué par la fausse recette."
+},
+"extrait": "Un homme en combinaison jaune « fabrique » une barre industrielle : pesticides, montagne de sucre, solvant tiré du pétrole. Puis il montre le chocolat aux dattes : « 7 grammes de sucre dans toute la barre, 11 grammes de fibres. »"
+}
+],
+"source": "Mark – les 5 couches (grille du skill-usa) ; Joseph Sugarman – The Adweek Copywriting Handbook",
+"ref": "skill-usa 07-mark-5-couches, couche 2 ; The Adweek Copywriting Handbook (Joseph Sugarman) - INDEX [S068] [R060]",
+"date_source": "2007 (Sugarman)",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-071",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Les 3 péchés",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Une pub finit seulement sur « Clique ! », sans dire sur quoi ni pourquoi. Quel piège est-ce ?",
+"qcm": {
+"choix": [
+"La confusion : elle ne sait pas quoi faire",
+"L'ennui : la fin est trop longue",
+"Le scepticisme : elle ne croit pas le prix",
+"L'ennui : la fin manque d'énergie"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La confusion : elle ne sait pas ce qu'elle doit faire ensuite, ni pourquoi.",
+"pourquoi": "La spectatrice doit comprendre tout de suite ce qu'on vend, à qui, pour quel problème, quel bénéfice, et ce qu'elle doit faire ensuite.",
+"action": "Ton CTA doit dire le geste et la raison : « Clique sur le lien en dessous pour avoir 10 barres offertes »."
+},
+"explication": "Ta règle des 3 péchés liste ce que la cliente doit comprendre tout de suite, et la dernière ligne est « ce qu'il doit faire ensuite ». Les gagnantes disent presque toujours le geste et la raison, à voix haute ou à l'écran.",
+"variantes": [
+{
+"q": "Que doit dire un bon appel à l'action (CTA), en plus du geste à faire ?",
+"qcm": {
+"choix": [
+"La raison de le faire maintenant",
+"Le nom de tous les concurrents",
+"L'histoire complète de la marque",
+"La liste de tous les ingrédients"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La raison de le faire maintenant."
+}
+}
+],
+"source": "Les 3 péchés (règle du skill-usa) ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "skill-usa 07-3-peches, piège 2 ; fiches « GAGNANTE 01 » à « GAGNANTE 08 », derniers blocs (CTA)",
+"date_source": "pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-072",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Les couches de Mark",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Quelle couche de Mark cet extrait fait-il bouger chez la spectatrice ?",
+"extrait": "« C'est pour ça qu'on a créé The Conscious Bar. Pour les gens qui font vraiment attention à ce qu'ils mettent dans leur corps… Si c'est toi, viens voir. »",
+"qcm": {
+"choix": [
+"L'identité : la personne qu'elle choisit d'être",
+"Les pensées : ce qu'elle sait du cacao",
+"Les croyances : le chocolat fait grossir",
+"La marche : la peur pour sa santé"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 L'identité : « je suis quelqu'un qui fait attention à ce que je mange ».",
+"pourquoi": "La pub ne lui colle pas d'étiquette : elle décrit une tribu et la laisse choisir d'en faire partie (« si c'est toi »).",
+"action": "Décris la personne que ta cliente veut être, puis laisse-la se reconnaître avec un « si c'est toi »."
+},
+"explication": "Mark, couche 4 : le script lui montre-t-il la personne qu'elle devient, sans lui coller d'étiquette ? « Si c'est toi » laisse le choix, et c'est elle qui se range dans la tribu.",
+"variantes": [
+{
+"q": "Pourquoi « si c'est toi » vaut-il mieux que « tu es quelqu'un qui fait attention » ?",
+"qcm": {
+"choix": [
+"Elle choisit elle-même d'en faire partie",
+"C'est plus court à dire à voix haute",
+"Ça cache le nom de la marque",
+"Ça donne le prix plus vite"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle choisit elle-même d'en faire partie."
+}
+}
+],
+"source": "Mark – les 5 couches (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
+"ref": "skill-usa 07-mark-5-couches, couche 4 ; fiche « GAGNANTE 02 - Pourquoi on a créé notre propre chocolaterie », blocs 7 et 8",
+"date_source": "pub active au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-073",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Ce que la n°1 a gardé",
+"niveau": 1,
+"type": "qcm",
+"q": "La pub n° 1 de la marque reprend une ancienne gagnante. Qu'est-ce qu'elle a gardé tel quel ?",
+"extrait": "Ancienne gagnante : hook « Quel est l'ingrédient n° 1 des barres ? », offre −20 %. Nouvelle n° 1 : hook « Comment a-t-on fait du cacao un bonbon ? », offre « 10 offertes ». Le reste de la vidéo n'est pas montré ici.",
+"choix": [
+"Le corps de l'histoire, presque mot pour mot",
+"Le hook du tout début, gardé mot pour mot",
+"L'offre de la toute fin, gardée à l'identique",
+"Rien du tout, la pub a été entièrement réécrite"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le corps de l'histoire, presque mot pour mot.",
+"pourquoi": "Le moteur (cabosse, sucre caché, dattes, goût) marchait. La marque a seulement changé l'entrée et la sortie.",
+"action": "Quand une pub gagne, garde son corps et change ce qui l'entoure : le hook, l'offre, ou l'acteur et le lieu, une chose à la fois."
+},
+"explication": "On ne réécrit pas une gagnante : on change sa carrosserie, pas son moteur. Ici, le hook, l'offre et un chiffre ont changé, et la pub est devenue n° 1 de toutes les pubs actives de la marque.",
+"variantes": [
+{
+"q": "Une marque garde le corps de sa gagnante et change son hook et son offre. Que fait-elle ?",
+"choix": [
+"Elle change la carrosserie, pas le moteur",
+"Elle réécrit toute la pub de zéro",
+"Elle change de produit à vendre",
+"Elle copie un concurrent mot pour mot"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle change la carrosserie, pas le moteur."
+}
+}
+],
+"source": "The Conscious Bar – pubs Meta gagnantes (comparaison)",
+"ref": "Fiche « GAGNANTE 01 - Comment a-t-on fait d'un superaliment un bonbon », [S002] ; fiche « GAGNANTE 03 »",
+"date_source": "pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-074",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Rafraîchir une gagnante qui s'use",
+"niveau": 1,
+"type": "qcm",
+"q": "Quand on rafraîchit une pub gagnante qui s'use, que change-t-on en premier, selon ta méthode ?",
+"choix": [
+"L'acteur et le lieu",
+"Le script et l'angle",
+"Le produit et le prix",
+"La marque et le logo"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'acteur et le lieu (le visuel).",
+"pourquoi": "On garde le même script et le même angle, qui ont fait leurs preuves. On change ce qu'on voit.",
+"action": "Pour ta meilleure pub, refilme le même script avec une autre personne, dans un autre type de lieu."
+},
+"explication": "Méthode « rafraîchir » : « vous prenez une de vos meilleures ads, il faut rafraîchir, c'est l'acteur et l'endroit ». Le script et l'angle restent exactement pareils.",
+"variantes": [
+{
+"q": "Dans la méthode « rafraîchir », que garde-t-on exactement pareil ?",
+"choix": [
+"Le script et l'angle",
+"L'acteur et le lieu",
+"La lumière et la musique",
+"Le format et la durée"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le script et l'angle : ils ont fait leurs preuves."
+}
+}
+],
+"source": "Méthode « rafraîchir une gagnante » (fiche du skill-usa)",
+"ref": "skill-usa 09-rafraichir-base [S003] [S014]",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-075",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Lire un test de la marque",
+"niveau": 1,
+"type": "qcm",
+"q": "La marque met exactement le même texte sous 3 vidéos différentes. Qu'est-ce qu'elle teste ?",
+"extrait": "Le même texte sous 3 vidéos : « On a créé une barre de chocolat en laquelle tu peux enfin avoir confiance à 100 %… Faite avec 2 superaliments et rien d'autre. »",
+"choix": [
+"La vidéo, puisque le texte reste fixe",
+"Le texte, puisque la vidéo change",
+"Le prix, puisque l'offre est la même",
+"Rien, c'est un oubli de la marque"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La vidéo : le texte reste fixe, seule la vidéo change.",
+"pourquoi": "Si une seule chose change, on sait ce qui fait la différence. Si tout change, on ne sait plus rien.",
+"action": "Quand tu testes, change une seule chose à la fois : la vidéo, OU le texte, OU l'offre."
+},
+"explication": "C'est l'idée de ta méthode : une seule variable change à la fois. Ici, la variable, c'est la vidéo entière. Ogilvy : « The other day I saw one headline produce five times as many orders as another » (un titre a fait 5 fois plus de commandes qu'un autre), et on ne le sait qu'en testant.",
+"variantes": [
+{
+"q": "Pourquoi ne changer qu'une seule chose à la fois dans un test de pub ?",
+"choix": [
+"Pour savoir ce qui fait la différence",
+"Pour dépenser moins de budget",
+"Pour aller plus vite en montage",
+"Pour que Meta ne voie rien"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Pour savoir ce qui fait la différence."
+}
+}
+],
+"source": "skill-usa – règles fixes ; David Ogilvy – Ogilvy on Advertising ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "skill-usa SKILL.md, règle 14 ; Ogilvy on Advertising (David Ogilvy) - INDEX [S105] [R774] ; fiches « GAGNANTE 02 », « GAGNANTE 03 » et « GAGNANTE 06 », [S002]",
+"date_source": "1983 (Ogilvy) ; pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-076",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Pourquoi rafraîchir marche",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Tu refilmes ta meilleure pub avec une autre personne, dans un lieu d'un autre type, avec le même script. Comment Meta la voit-il ?",
+"qcm": {
+"choix": [
+"Comme une nouvelle pub",
+"Comme la même pub en double",
+"Comme une pub interdite",
+"Comme une pub sans texte"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Comme une nouvelle pub, alors que le script et l'angle sont les mêmes.",
+"pourquoi": "Meta juge d'abord ce qu'il voit. Un nouveau visage et un nouveau lieu suffisent à repartir de zéro, avec un script qui a fait ses preuves.",
+"action": "Garde une liste de tes 3 meilleurs scripts et refilme-les dès qu'ils s'usent."
+},
+"explication": "Méthode « rafraîchir » : « aux yeux de Meta, ça sera une nouvelle ads, mais le script, l'angle sera exactement pareil, et ça pourra devenir même une ads qui est encore plus puissante que votre première ads ».",
+"variantes": [
+{
+"q": "Selon la méthode « rafraîchir », que peut devenir une pub refilmée avec le même script ?",
+"qcm": {
+"choix": [
+"Une pub encore plus puissante que l'originale",
+"Un doublon bloqué tout de suite par Meta",
+"Une pub qui ne marche jamais aussi bien",
+"Une pub qu'on ne peut plus jamais tester"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Une pub encore plus puissante que l'originale."
+}
+}
+],
+"source": "Méthode « rafraîchir une gagnante » (fiche du skill-usa)",
+"ref": "skill-usa 09-rafraichir-base [S014]",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-077",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Lire une pub concurrente qui dure",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Une pub concurrente tourne depuis 66 jours et la marque l'a copiée 4 fois. Que peux-tu en conclure ?",
+"qcm": {
+"choix": [
+"Un signal fort, mais pas une preuve chiffrée",
+"Une preuve qu'elle est très rentable",
+"Rien du tout, la durée ne veut rien dire",
+"Qu'elle coûte plus cher que les autres"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un signal fort de performance, mais pas une preuve chiffrée.",
+"pourquoi": "Une marque ne garde pas longtemps une pub qui perd de l'argent, et ne la copie pas 4 fois. Mais tu n'as pas ses chiffres : ni ce que la pub rapporte, ni son coût par achat.",
+"action": "Étudie en priorité les pubs concurrentes anciennes et copiées, et écris « signal fort », jamais un chiffre inventé."
+},
+"explication": "C'est la règle utilisée pour choisir les 8 gagnantes du chocolat : top 10 des impressions, ou copiée 4 fois, active depuis plus de 45 jours et dans le top 100. Signal fort, jamais une rentabilité supposée.",
+"variantes": [
+{
+"q": "Que n'as-tu jamais le droit d'écrire sur une pub concurrente, même si elle dure depuis longtemps ?",
+"qcm": {
+"choix": [
+"Un budget ou une rentabilité inventés",
+"Le nombre de jours de sa diffusion",
+"Le nombre de copies que tu as vues",
+"Le texte écrit juste sous la pub"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un budget ou une rentabilité inventés : tu n'as pas les chiffres de la marque."
+}
+}
+],
+"source": "Méthode de sélection des gagnantes (relevé du 07/10/2026)",
+"ref": "00 Index - FICHIER FB CHOCOLAT, « Comment une vidéo est entrée ici »",
+"date_source": "07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-078",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Après un hook qui accroche",
+"niveau": 2,
+"type": "si-alors",
+"q": "Si ton hook accroche bien (beaucoup de gens restent après les premières secondes), quelle piste ta méthode te propose-t-elle d'explorer ensuite ?",
+"qcm": {
+"choix": [
+"Même angle, autre émotion de départ",
+"Autre produit, même hook mot pour mot",
+"Même pub, budget multiplié par 10",
+"Autre marque, même script"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Même angle, autre émotion de départ.",
+"pourquoi": "L'angle a prouvé qu'il accroche. On le garde, et on teste une autre émotion de départ pour toucher d'autres personnes.",
+"action": "Quand ton hook accroche bien, garde ton angle et réécris le début sur une autre marche de départ."
+},
+"explication": "Ta méthode : quand le hook accroche bien (beaucoup de gens restent après les premières secondes), demander « même angle, autre zone émotionnelle ? » (Spencer). C'est une des pistes de l'itération, qui doit aussi passer le test du doublon.",
+"variantes": [
+{
+"q": "Ton hook (ta phrase d'accroche) retient bien les gens. Que gardes-tu pour la pub suivante ?",
+"qcm": {
+"choix": [
+"L'angle, et tu changes l'émotion de départ",
+"Tout, à l'identique, sans rien changer",
+"Rien, tu repars d'une page blanche",
+"Seulement la musique de fond"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 L'angle, et tu changes l'émotion de départ."
+}
+}
+],
+"source": "skill-usa – Stratégie Spencer, ce qu'on demande à l'utilisateur",
+"ref": "skill-usa SKILL.md, section 5, point 7 (Spencer [S030] à [S032]) ; skill-usa 09-iterer-gagnant",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-079",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Ce qu'on prend à une pub d'un autre marché",
+"niveau": 3,
+"type": "piège",
+"q": "Une gagnante d'un autre marché dit : « 10 fois plus d'antioxydants que les myrtilles. » Que reprends-tu pour ta propre pub ?",
+"qcm": {
+"choix": [
+"Seulement la structure, jamais le chiffre",
+"Le chiffre, puisqu'il a fait vendre",
+"La phrase entière, mot pour mot",
+"Le chiffre, mais arrondi à la baisse"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Seulement la structure (comparer à un aliment connu), jamais le chiffre.",
+"pourquoi": "Le chiffre appartient à cette marque et il est peut-être faux : elle l'a elle-même baissé de 40 à 10 fois.",
+"action": "Reprends le squelette d'une gagnante, puis remplis chaque bloc avec les faits de ton propre produit. Un bloc sans fait chez toi : supprime-le."
+},
+"explication": "Remix d'une pub concurrente : on prend le squelette, le rythme, l'ordre des blocs, la tension. On ne prend jamais une affirmation, un chiffre, une preuve, un témoignage ou une promesse.",
+"variantes": [
+{
+"q": "Dans le remix d'une pub concurrente, que fais-tu d'un bloc qui n'a aucun équivalent chez toi ?",
+"qcm": {
+"choix": [
+"Tu le supprimes, sans l'inventer",
+"Tu inventes un fait qui ressemble",
+"Tu copies le fait du concurrent",
+"Tu le gardes vide à l'écran"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu le supprimes, sans l'inventer."
+}
+}
+],
+"source": "Le concurrent et le remix (fiche du skill-usa) ; The Conscious Bar – pubs Meta gagnantes",
+"ref": "skill-usa 03-concurrent, « Ce qu'on ne fait jamais » et « Le remix d'une pub concurrente » ; fiche « GAGNANTE 03 », [S007]",
+"date_source": "pubs actives au 07/10/2026",
+"ajout": "2026-10-07"
+},
+{
+"id": "copy-deco-080",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Le test du doublon",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Ta nouvelle pub garde la même cliente, le même angle, la même scène d'entrée, le même format et la même émotion que ta gagnante. Que fais-tu ?",
+"qcm": {
+"choix": [
+"Tu la rejettes avant de la lancer",
+"Tu la lances : elle a déjà gagné",
+"Tu la lances avec plus de budget",
+"Tu la lances en changeant la musique"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu la rejettes : c'est un doublon de ta gagnante.",
+"pourquoi": "Si les 5 points sont identiques, Meta la juge équivalente à la gagnante et n'en diffuse qu'une.",
+"action": "Avant de lancer une nouvelle pub, compare-la à ta gagnante sur les 5 points : au moins un doit changer."
+},
+"explication": "Test du doublon, 5 points : sub-avatar · angle · scène d'entrée ou moment de vie · format et style · zone émotionnelle. Deux vidéos face caméra tournées dans deux cuisines restent le même style.",
+"variantes": [
+{
+"q": "Deux vidéos UGC (filmées au téléphone) tournées dans deux cuisines différentes : comment le test du doublon compte-t-il leur style ?",
+"qcm": {
+"choix": [
+"Comme le même style",
+"Comme deux styles différents",
+"Comme un nouveau format",
+"Comme un lieu d'un autre type"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Comme le même style : une autre cuisine ne suffit pas."
+}
+}
+],
+"source": "skill-usa – itérer une gagnante (test du doublon)",
+"ref": "skill-usa 09-iterer-gagnant, « Étape D · Le test du doublon »",
+"date_source": "inconnue",
+"ajout": "2026-10-07"
+},
+{
 "id": "copy-desir-001",
 "theme": "copy",
 "chapitre": "Désir : les 5 couches de Mark",
@@ -14176,1458 +17717,6 @@ window.QR_CARTES = [
 "« A-t-elle déjà 10 000 visites ? »"
 ],
 "bonne": 0
-}
-},
-{
-"id": "ia-001",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Diagnostiquer une pub qui ne convertit pas",
-"niveau": 2,
-"type": "scénario",
-"q": "Ta pub retient bien, coûte peu, et ne fait pas vendre. Tu changes quoi ?",
-"r": {
-"verdict": "💡 L'offre et le mécanisme. Pas le hook (l'accroche du début).",
-"pourquoi": "Elle retient et coûte peu : le hook et le message marchent déjà. Ce qui bloque vient après.",
-"action": "Garde le hook. Change l'offre ou le mécanisme."
-},
-"explication": "Chaque chiffre te dit quelle pièce marche. Attention qui tient = hook bon. Coût bas = message bon. Pas de vente = la promesse ou le « comment ça marche » ne convainc pas. On ne répare pas la pièce qui marche.",
-"source": "Malik – quiz de sa web app",
-"ref": "Malik_bench_obsidian… [Q042] [R042] [R109] [S029]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Ta pub accroche et coûte peu, mais personne n'achète. Où est le problème ?"
-}
-],
-"qcm": {
-"choix": [
-"L'offre et le mécanisme",
-"Le hook et le montage",
-"Le budget et le ciblage",
-"Le hook et le ciblage"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-002",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Trouver de la preuve sociale",
-"niveau": 2,
-"type": "si-alors",
-"q": "Si tu manques d'avis clients pour ta pub, tu fais quoi ?",
-"r": {
-"verdict": "💡 Tu vas chercher un vrai commentaire. Jamais d'avis inventé.",
-"pourquoi": "Un vrai commentaire Facebook ne ment pas. C'est lui qui donne la preuve.",
-"action": "Capture un vrai commentaire Facebook. Malik ajoute : 10 % en carte cadeau contre un avis."
-},
-"explication": "La preuve sociale ne marche que si elle est vraie. Un faux avis se voit, et il tue la confiance. Malik dit lui-même qu'il n'est pas sûr de sa réponse au début, puis tranche : un vrai commentaire.",
-"source": "Malik – quiz de sa web app",
-"ref": "Malik_bench_obsidian… [Q043] [R043] [R110] [S029]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Ta pub a besoin de preuve sociale, mais tu n'as pas d'avis. Quelle preuve tu vas chercher ?"
-}
-],
-"qcm": {
-"choix": [
-"Écrire un faux avis réaliste",
-"Retirer la preuve sociale",
-"Faire inventer un avis à l'IA",
-"Chercher un vrai commentaire"
-],
-"bonne": 3
-}
-},
-{
-"id": "ia-003",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Connaître le rôle du Head of Common Sense",
-"niveau": 1,
-"type": "qcm",
-"q": "Quel est le rôle du « Head of Common Sense » (chef du bon sens) dans l'équipe d'agents IA de Malik ?",
-"extrait": "they contradict each other, which gives you exceptional output quality.",
-"choix": [
-"Trouver le chemin le plus rapide vers l'argent",
-"Écrire les pubs et les pages de vente",
-"Relire les sorties et repérer ce qui cloche",
-"Dire si Meta va bannir la pub"
-],
-"bonne": 2,
-"r": {
-"verdict": "💡 Relire toutes les sorties et repérer ce qui cloche, même un détail.",
-"pourquoi": "Son exemple : « pourquoi l'écran est de ce côté dans ta créa ? ».",
-"action": "Demande une relecture « bon sens » avant de valider une créa ou une page."
-},
-"explication": "Malik en a mis deux, qui se parlent et se contredisent. Selon lui, ce désaccord donne une qualité de sortie exceptionnelle. Le bon sens est un vrai problème pour l'IA.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I004] [R066] [S004]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Pourquoi Malik met-il deux « Heads of Common Sense » (chefs du bon sens) au lieu d'un ?",
-"type": "rappel",
-"r": {
-"verdict": "💡 Parce qu'en se contredisant, ils améliorent la sortie.",
-"pourquoi": "Ils regardent toutes les sorties et se répondent.",
-"action": "Fais critiquer un livrable important par deux points de vue."
-},
-"qcm": {
-"choix": [
-"En se partageant, ils vont deux fois plus vite",
-"En se contredisant, ils améliorent la sortie",
-"En se relayant, ils économisent des tokens",
-"En se spécialisant, l'un écrit, l'autre code"
-],
-"bonne": 1
-}
-}
-]
-},
-{
-"id": "ia-004",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Savoir quand lancer la team d'agents",
-"niveau": 1,
-"type": "rappel",
-"q": "Quand Malik lance-t-il toute son équipe d'agents IA (sa « team ») ?",
-"extrait": "it’s not for every input, guys. Otherwise, in one morning, I’m out of tokens.",
-"r": {
-"verdict": "💡 Seulement pour les sorties importantes et complexes, comme un funnel.",
-"pourquoi": "Sinon, il brûle ses tokens (son quota d'usage) en une matinée.",
-"action": "Garde la team pour les gros livrables : offre, page, funnel."
-},
-"explication": "Il tape juste le mot « team » et tous les agents travaillent ensemble, comme autour d'une table. L'avocat du diable conteste, les autres équilibrent.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I005] [R067] [S004] ; [I024] [R086] [S016]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Quel mot Malik tape-t-il pour lancer tous ses agents IA d'un coup ?",
-"extrait": "I tell it to use the team, or I just type the word",
-"r": {
-"verdict": "💡 « team ».",
-"pourquoi": "Tous les agents se mettent alors sur la tâche.",
-"action": "Réserve-le aux tâches complexes."
-},
-"qcm": {
-"choix": [
-"« go »",
-"« agents »",
-"« start »",
-"« team »"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Seulement pour les sorties complexes",
-"Pour chaque message, même simple",
-"Jamais : un seul agent lui suffit",
-"Seulement le dimanche, pour l'audit"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-005",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Connaître le rôle du Devil's Advocate",
-"niveau": 1,
-"type": "qcm",
-"q": "Quel est le rôle du Devil's Advocate (l'avocat du diable) ?",
-"extrait": "the Devil's Advocate , he tears apart your plans and finds the fatal blind spot.",
-"choix": [
-"Valider tout ce que tu proposes, sans débat",
-"Écrire le code de tes outils à ta place",
-"Démonter tes plans, trouver l'angle mort",
-"Gérer le budget de tes pubs chaque jour"
-],
-"bonne": 2,
-"r": {
-"verdict": "💡 Démonter tes plans et trouver l'angle mort fatal.",
-"pourquoi": "Sa question : « dans cette situation, qu'est-ce que je n'ai pas vu ? ».",
-"action": "Avant une grosse décision, demande-lui ce qui peut tout faire rater."
-},
-"explication": "Il a empêché Malik de coder un SaaS (un logiciel en ligne) inutile : « ce n'est pas ton objectif ». Malik aime être contredit, parce qu'on oublie ce qu'on a dit quand on a la tête dans le travail.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I019] [R081] [S014] ; [I042] [R104] [S028]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Pourquoi l'avocat du diable a-t-il empêché Malik de coder son SaaS (logiciel en ligne) ?",
-"type": "rappel",
-"r": {
-"verdict": "💡 Parce que ce n'était pas son objectif.",
-"pourquoi": "Il lui rappelle ce qu'il a dit vouloir.",
-"action": "Demande-lui : est-ce que ça sert mon objectif ?"
-},
-"qcm": {
-"choix": [
-"Le code était trop cher",
-"Ce n'était pas son objectif",
-"Claude ne savait pas coder",
-"Le projet était déjà fait"
-],
-"bonne": 1
-}
-}
-]
-},
-{
-"id": "ia-006",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Comprendre l'intérêt de deux copy chiefs",
-"niveau": 1,
-"type": "rappel",
-"q": "Pourquoi Malik utilise-t-il deux copy chiefs (chefs rédacteurs) au lieu d'un ?",
-"extrait": "I now use two copy chiefs, because when you have two agents contradicting each other, the output is better.",
-"r": {
-"verdict": "💡 Deux agents qui se contredisent donnent une meilleure sortie.",
-"pourquoi": "Le copy chief A propose ; le B demande : « tu ne crois pas que ceci est mieux ? ».",
-"action": "Sur un texte important, demande deux versions qui se critiquent."
-},
-"explication": "Ses copy chiefs puisent dans ses formations transcrites mot pour mot dans Obsidian. Le désaccord force à justifier chaque choix.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I022] [R084] [S016]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Où les agents rédacteurs (copy chiefs) de Malik vont-ils chercher leurs idées ?",
-"extrait": "In fact, the CMO goes and fetches all the copywriting concepts and finds patterns.",
-"r": {
-"verdict": "💡 Dans ses formations transcrites, rangées dans Obsidian.",
-"pourquoi": "Le CMO y cherche les concepts de copywriting et les patterns.",
-"action": "Ton coffre joue ce rôle pour toi."
-},
-"qcm": {
-"choix": [
-"Dans des forums Reddit, pris au hasard",
-"Dans les pubs des concurrents, seulement",
-"Dans leur imagination, sans aucune source",
-"Dans ses formations, rangées dans Obsidian"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Leur désaccord améliore la sortie",
-"Ils écrivent deux fois plus vite",
-"Ils coûtent moins de tokens à deux",
-"Ils écrivent dans deux langues"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-007",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Connaître le rôle du Money Maker",
-"niveau": 1,
-"type": "rappel",
-"q": "Quel est le rôle du « Money Maker » dans l'équipe d'agents IA de Malik ?",
-"extrait": "Uh, find the fastest path to cash.",
-"r": {
-"verdict": "💡 Trouver le chemin le plus rapide vers l'argent : « take the money ».",
-"pourquoi": "On se perd à optimiser des choses qui n'existent pas ou à créer des fonctions inutiles.",
-"action": "Avant une tâche, demande : est-ce que ça rapproche d'une vente ?"
-},
-"explication": "Pour Malik, c'est le principe qui ressort de tout ce qu'il a appris en business. Son exemple : le service client par email, ce n'est pas du « money making ».",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I021] [R083] [S015]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Pourquoi le service client par email n'est-il pas « money making » (ce qui rapporte) pour Malik ?",
-"r": {
-"verdict": "💡 Parce qu'il ne rapproche pas d'une vente.",
-"pourquoi": "Le Money Maker cherche le chemin le plus rapide vers l'argent.",
-"action": "Passe tes tâches au filtre : ça rapporte ?"
-},
-"qcm": {
-"choix": [
-"Il fâche les clientes s'il tarde",
-"Il ne rapproche pas d'une vente",
-"Il coûte trop de tokens à l'IA",
-"Il remplace mal un vrai humain"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"Relire les sorties pour le bon sens",
-"Démonter les plans, trouver l'angle mort",
-"Trouver le plus court chemin vers l'argent",
-"Dire si une pub sera bannie ou non"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-008",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Connaître la technique du livre « speedrun »",
-"niveau": 1,
-"type": "rappel",
-"q": "Quelle technique Malik utilise-t-il pour apprendre un sujet vite ?",
-"extrait": "Next, write a book on a subject because actually, reading is boring, you know?",
-"r": {
-"verdict": "💡 Faire écrire par Claude un livre qui résume tous les livres du sujet, dans le style Hormozi.",
-"pourquoi": "Lire est ennuyeux. Un seul livre agréable remplace la pile.",
-"action": "Pour un sujet clé de ton coffre, demande ce livre « speedrun »."
-},
-"explication": "La consigne : prendre tous les livres d'un sujet, apprendre le style d'Hormozi, et écrire un livre lisible en deux soirées, avec plaisir. Malik ajoute : la règle 80/20, c'est un seul prompt à Claude.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I006] [R068] [S005]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Pourquoi Malik préfère-t-il un livre généré à la lecture de toute la pile ?",
-"r": {
-"verdict": "💡 Lire est ennuyeux ; un seul livre agréable, en deux soirées, va plus vite.",
-"pourquoi": "Il veut « speedrun » l'apprentissage.",
-"action": "Demande une sortie courte et agréable à lire."
-},
-"qcm": {
-"choix": [
-"Les livres originaux sont trop chers à acheter",
-"Les auteurs se répètent ; un seul suffit toujours",
-"Claude lit à sa place et il ne lit plus rien",
-"Lire est ennuyeux ; un livre agréable va plus vite"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Faire écrire un livre qui résume tous les autres",
-"Lire chaque livre en entier, page par page",
-"Regarder les vidéos de l'auteur en accéléré",
-"Prendre des notes à la main sur chaque livre"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-009",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Construire un corpus de livres",
-"niveau": 2,
-"type": "rappel",
-"q": "Comment Malik construit-il la pile de livres (le corpus) d'un sujet ?",
-"extrait": "So it makes me a list of 7 to 10 books.",
-"r": {
-"verdict": "💡 Claude cherche les livres les plus marquants (Goodreads, Reddit) : une liste de 7 à 10 livres, plus des vidéos YouTube.",
-"pourquoi": "Il ne se creuse pas la tête : l'IA choisit, puis lit tout mot à mot.",
-"action": "Exige une preuve de lecture complète : Malik a un agent qui compte les mots."
-},
-"explication": "Un agent vérifie que tout a été lu en comptant les mots. Malik dit télécharger les PDF sur Z-Library « comme un bon pirate » : c'est son choix, pas une consigne du coffre.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I029] [R091] [S020]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Comment Malik vérifie-t-il que Claude a vraiment lu tous les livres ?",
-"r": {
-"verdict": "💡 Un agent compte les mots.",
-"pourquoi": "C'est une preuve de lecture complète.",
-"action": "Exige toujours une preuve, pas une promesse."
-},
-"qcm": {
-"choix": [
-"Il relit lui-même chaque page",
-"Un agent compte les mots",
-"Il pose un quiz à Claude",
-"Il fait confiance sans vérifier"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"Malik choisit lui-même 50 livres, au hasard",
-"Un seul livre : le plus récent du sujet",
-"Claude choisit 7 à 10 livres, plus des vidéos",
-"Des articles de presse, sans aucun livre"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-010",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Préciser le format de sortie",
-"niveau": 1,
-"type": "qcm",
-"q": "Quel format Malik demande-t-il pour son livre résumé ?",
-"extrait": "I want two nights of reading. Basically, two evenings of reading. I think it's about 160 pages.",
-"choix": [
-"Deux soirées, environ 160 pages",
-"Une soirée, environ 20 pages",
-"Une semaine, environ 500 pages",
-"Une vidéo d'environ 10 minutes"
-],
-"bonne": 0,
-"r": {
-"verdict": "💡 Deux soirées de lecture, environ 160 pages.",
-"pourquoi": "Il précise la sortie exacte : à la fin, c'est comme avoir lu tous les livres.",
-"action": "Quand tu demandes un livrable, donne sa taille et son usage."
-},
-"explication": "Selon lui, Claude a répondu que c'était si agréable à lire que chaque ligne est une punchline (une phrase qui frappe). Sa phrase : « I specify exactly the output I want ».",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I031] [R093] [S020]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Pourquoi Malik précise-t-il « deux soirées de lecture » quand il commande son livre résumé ?",
-"type": "rappel",
-"r": {
-"verdict": "💡 Pour cadrer exactement la sortie voulue.",
-"pourquoi": "Il dit préciser exactement l'output qu'il veut.",
-"action": "Donne toujours la taille et l'usage du livrable."
-},
-"qcm": {
-"choix": [
-"Pour que Claude écrive plus long",
-"Pour économiser des tokens",
-"Pour pouvoir revendre le livre",
-"Pour cadrer la sortie voulue"
-],
-"bonne": 3
-}
-}
-]
-},
-{
-"id": "ia-011",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Connaître la règle de la base Obsidian",
-"niveau": 1,
-"type": "qcm",
-"q": "Quelle règle Malik donne-t-il à Claude pour sa base Obsidian ?",
-"extrait": "you tell it to reason only on that, and if you don't have it, you tell me you don't have it.",
-"choix": [
-"Compléter avec Internet si une info manque",
-"Tout résumer en une page, sans les détails",
-"Raisonner dessus seul, dire si l'info manque",
-"Répondre vite, sans jamais citer de source"
-],
-"bonne": 2,
-"r": {
-"verdict": "💡 Raisonner seulement sur la base, et dire quand l'info n'y est pas.",
-"pourquoi": "Pas d'invention : si ce n'est pas dans le coffre, l'IA le dit.",
-"action": "Si une réponse n'a pas de source du coffre, demande d'où elle vient."
-},
-"explication": "C'est la règle 5.1 de ton CLAUDE.md : « Réponds uniquement depuis le coffre. Si l'info n'y est pas, dis-moi que tu ne l'as pas. »",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I009] [R071] [S007] ; CLAUDE.md § 5.1",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "L'info demandée n'est pas dans ta base Obsidian. Que doit faire l'IA, selon Malik ?",
-"type": "qcm",
-"choix": [
-"Inventer une réponse probable",
-"Dire qu'elle ne l'a pas",
-"Chercher sur un vieux forum",
-"Ne rien répondre du tout"
-],
-"bonne": 1,
-"r": {
-"verdict": "💡 Dire qu'elle ne l'a pas.",
-"pourquoi": "Raisonner seulement sur la base, sinon le dire.",
-"action": "Si une réponse n'a pas de source, demande-la."
-}
-}
-]
-},
-{
-"id": "ia-012",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Parler à ses formations",
-"niveau": 2,
-"type": "rappel",
-"q": "Que veut dire « parler à ses cours », selon Malik ?",
-"extrait": "You see, you're actually talking to your courses.",
-"r": {
-"verdict": "💡 Tu ne relis plus tes formations : tu leur poses des questions, et l'IA répond avec la source.",
-"pourquoi": "Au lieu d'un vieux forum, elle te dit : « voilà ce que tel formateur a dit ».",
-"action": "Pose une question précise à ton coffre et exige le fichier source."
-},
-"explication": "Malik fait transcrire ses formations, écran par écran, dans Obsidian. Ensuite, chaque question sur un projet reçoit une réponse tirée de ces fichiers, ou « je ne l'ai pas ».",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I036] [R098] [S023] ; [I035] [R097] [S023]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Quand tu « parles à tes cours », que te donne l'IA au lieu d'une réponse de forum ?",
-"r": {
-"verdict": "💡 Ce que tel formateur a dit, avec la source.",
-"pourquoi": "Elle répond depuis tes formations.",
-"action": "Exige le nom de la source."
-},
-"qcm": {
-"choix": [
-"Une réponse moyenne trouvée sur Internet",
-"Une réponse inventée quand l'info manque",
-"Une vidéo YouTube choisie au hasard",
-"Ce que tel formateur a dit, avec la source"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Poser tes questions à tes formations",
-"Relire chaque formation en entier",
-"Écouter tes cours en accéléré",
-"Écrire tes propres cours de zéro"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-013",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Faire poser des questions à l'IA",
-"niveau": 1,
-"type": "rappel",
-"q": "Pourquoi demander à l'IA de te poser des questions ?",
-"extrait": "It’s clear in your head, but it isn’t for your AI.",
-"r": {
-"verdict": "💡 Parce que c'est clair dans ta tête, pas dans celle de l'IA.",
-"pourquoi": "Elle te demande « A ou B ? », tu choisis, et la sortie est meilleure.",
-"action": "Sur une tâche complexe, finis ton message par « pose-moi des questions »."
-},
-"explication": "Malik compare l'IA à un assistant à distance : il faut le briefer. Si tu ne sais pas quoi répondre, dis tout, mais ultra-concis. Tu peux aussi demander des QCM.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I011] [R073] [S008] ; [I018] [R080] [S014]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "À quoi Malik compare-t-il l'IA quand il faut lui expliquer une tâche ?",
-"r": {
-"verdict": "💡 À un assistant à distance (un VA) qu'il faut briefer.",
-"pourquoi": "Ce qui est clair pour toi ne l'est pas pour lui.",
-"action": "Laisse-le te poser des questions."
-},
-"qcm": {
-"choix": [
-"À un patron qui donne les ordres",
-"À un assistant qu'il faut briefer",
-"À un moteur de recherche rapide",
-"À un stagiaire qu'on ne guide pas"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"Pour qu'elle travaille plus lentement",
-"Pour économiser tes tokens du jour",
-"C'est clair pour toi, pas pour elle",
-"Pour qu'elle ne fasse rien seule"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-014",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Comprendre l'audit hebdomadaire des croyances",
-"niveau": 2,
-"type": "rappel",
-"q": "Que se passe-t-il pendant le bilan hebdomadaire (audit) de ce que Claude croit de toi ?",
-"extrait": "And actually, every week, every Sunday, it opens the window on its own because it's a big boy.",
-"r": {
-"verdict": "💡 Chaque dimanche, Claude te montre ce qu'il croit de toi ; tu dis vrai ou faux ; tu tapes « go » ; il corrige ses fichiers.",
-"pourquoi": "Plus tu lui parles, plus il crée de fichiers mémoire. Certains deviennent faux.",
-"action": "Quand l'audit arrive, corrige chaque croyance fausse avant de taper go."
-},
-"explication": "L'idée vient d'un podcast : quelqu'un relisait ses fichiers Claude chaque semaine. Malik l'a automatisé. Ton master prompt demande la même chose : une page web locale chaque semaine.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I012] [R074] [S010] ; [I016] [R078] [S012] ; Système/Prompts/Master-prompt-Malik.md",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "À la fin du bilan hebdomadaire de ses croyances, que tapes-tu pour que Claude mette à jour ses fichiers ?",
-"r": {
-"verdict": "💡 « go ».",
-"pourquoi": "Ensuite, il met à jour tous ses fichiers mémoire.",
-"action": "Ne tape go qu'après avoir tout vérifié."
-},
-"qcm": {
-"choix": [
-"« ok »",
-"« fin »",
-"« oui »",
-"« go »"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Il montre ses croyances, tu valides",
-"Il efface toute sa mémoire de toi",
-"Il envoie un rapport de tes ventes",
-"Il relance toutes tes pubs actives"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-015",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Repérer une croyance périmée",
-"niveau": 2,
-"type": "diagnostic",
-"q": "Au premier bilan de ce que Claude croit de lui, que découvre Malik ?",
-"extrait": "Because just once in a chat, you told him something in context and he kept it in his memory.",
-"r": {
-"verdict": "💡 Que Claude croit des choses fausses ou périmées sur lui.",
-"pourquoi": "Une phrase dite une fois, dans un contexte, est devenue une croyance permanente.",
-"action": "Ne laisse pas une info passagère devenir une règle : corrige-la à l'audit."
-},
-"explication": "Exemples de Malik : un projet arrêté depuis six mois, un objectif qui n'est pas le sien. Il prévient : la première fois, tu vas trouver Claude complètement à côté.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I014] [R076] [S010]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Pourquoi une phrase dite une seule fois peut-elle fausser la mémoire de Claude ?",
-"r": {
-"verdict": "💡 Parce qu'il l'a gardée comme une vérité durable.",
-"pourquoi": "Dite dans un contexte, elle devient une croyance.",
-"action": "Corrige-la à l'audit hebdomadaire."
-},
-"qcm": {
-"choix": [
-"Il l'a oubliée aussitôt dite",
-"Il l'a gardée comme une vérité",
-"Il l'a envoyée à un autre chat",
-"Il l'a corrigée tout seul"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"Une mémoire parfaite sur sa vie",
-"Aucune mémoire de leurs échanges",
-"Des croyances fausses ou périmées",
-"Des fichiers perdus ou effacés"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-016",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Fixer une règle pour de bon",
-"niveau": 2,
-"type": "si-alors",
-"q": "Si tu répètes « sois concis » et que l'IA ne l'est toujours pas, tu fais quoi ?",
-"extrait": "Well, you put it in your Claude MD so it's in its core. And there, you don't fix it chat by chat, you fix your Claude.",
-"r": {
-"verdict": "💡 Tu l'écris dans le fichier CLAUDE.md, pas dans le chat.",
-"pourquoi": "Le chat oublie. Le CLAUDE.md est relu à chaque session.",
-"action": "Une règle importante = une ligne dans CLAUDE.md."
-},
-"explication": "C'est déjà la règle 1.1 de ton CLAUDE.md : une règle importante se corrige là, pas chat par chat. Malik : tu ne répares pas chat par chat, tu répares ton Claude.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I050] [R112] [S030] ; [I015] [R077] [S011] ; CLAUDE.md § 1.1",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Que faut-il faire retenir « pour toujours » à Claude, d'après Malik ?",
-"extrait": "and keep that in your memory forever.",
-"r": {
-"verdict": "💡 Tes préférences, comme écrire dans le style d'Hormozi, en une ligne ou trois.",
-"pourquoi": "Pour ce chat, les précédents et les futurs.",
-"action": "Une préférence importante = une ligne dans CLAUDE.md."
-},
-"qcm": {
-"choix": [
-"Tes mots de passe et tes clés d'accès",
-"Chaque phrase de chaque conversation",
-"Rien : il préfère tout oublier",
-"Tes préférences, comme le style Hormozi"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"L'écrire dans CLAUDE.md",
-"Le répéter dans le chat",
-"Ouvrir un nouveau chat",
-"Changer de modèle d'IA"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-017",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Traiter la cause racine",
-"niveau": 3,
-"type": "scénario",
-"q": "Ton ordi rame. L'IA propose de vider la RAM (mémoire vive). Que veut Malik à la place ?",
-"extrait": "if my computer is lagging, I don't want you to clear the RAM. I don't care about that.",
-"r": {
-"verdict": "💡 Trouver la vraie cause : par exemple un processus du navigateur qui prend 80 % de la charge.",
-"pourquoi": "Vider la RAM soigne le symptôme. Le problème revient.",
-"action": "Dis à l'IA : « trouve d'où vient le problème, corrige-le pour toujours »."
-},
-"explication": "Malik adore cette phrase : avec elle, l'IA creuse jusqu'à la cause racine au lieu de traiter le symptôme. C'est la règle 1.2 de ton CLAUDE.md.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I054] [R116] [S030] ; [I025] [R087] [S017] ; CLAUDE.md § 1.2",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Quelle phrase Malik adore-t-il dire à Claude quand un problème revient ?",
-"r": {
-"verdict": "💡 « Trouve d'où vient le problème, corrige-le pour toujours. »",
-"pourquoi": "Avec elle, l'IA creuse jusqu'à la cause racine.",
-"action": "Utilise-la dès qu'un bug revient."
-},
-"qcm": {
-"choix": [
-"« Trouve un contournement, rapidement »",
-"« Trouve la cause, corrige pour toujours »",
-"« Redémarre tout, puis réessaie »",
-"« Vide la mémoire, puis continue »"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"Vider la RAM chaque matin, par sécurité",
-"Redémarrer l'ordinateur et oublier",
-"Trouver la vraie cause du ralentissement",
-"Acheter un ordinateur plus puissant"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-018",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Exiger une instruction vérifiée",
-"niveau": 2,
-"type": "si-alors",
-"q": "Avant de te dire « clique ici », que doit faire l'IA selon Malik ?",
-"extrait": "Uh, before telling me to click here, verify that the button exists.",
-"r": {
-"verdict": "💡 Vérifier que le bouton existe : documentation officielle, ou aller voir elle-même.",
-"pourquoi": "Les outils changent avec les mises à jour. L'IA envoie parfois vers des menus disparus.",
-"action": "Si l'IA te guide dans Meta Ads, demande-lui sa source."
-},
-"explication": "Son exemple : sur Facebook Ads, l'IA dit d'aller dans les réglages ; il n'y a pas de réglages ; elle s'excuse d'une mise à jour. C'est la règle 3.4 de ton CLAUDE.md.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I052] [R114] [S030] ; CLAUDE.md § 3.4",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Que s'est-il passé quand l'IA a envoyé Malik dans des réglages de Facebook Ads (l'outil de pub de Facebook) ?",
-"r": {
-"verdict": "💡 Les réglages n'existaient pas ; l'IA s'est excusée d'une mise à jour.",
-"pourquoi": "Elle n'avait pas vérifié.",
-"action": "Demande la source avant de cliquer."
-},
-"qcm": {
-"choix": [
-"Les réglages ont marché direct",
-"Facebook a bloqué son compte",
-"L'IA a refusé de répondre",
-"Les réglages n'existaient pas"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Vérifier que le bouton existe",
-"Deviner où se trouve le bouton",
-"Te dire de le chercher seul",
-"Cliquer sans te prévenir"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-019",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Appliquer le filtre des 7 jours",
-"niveau": 3,
-"type": "scénario",
-"q": "Tu veux passer ta soirée à créer un outil pour ton coffre. Quelle question de Malik poses-tu d'abord ?",
-"extrait": "Does this response launch an ad or sign a deal within 7 days?",
-"r": {
-"verdict": "💡 « Est-ce que ça lance une pub ou signe une vente dans les 7 jours ? »",
-"pourquoi": "Sinon, tu construis le moteur au lieu de conduire la voiture.",
-"action": "Si c'est non, l'IA doit te le dire (filtre des 7 jours, CLAUDE.md 6.1)."
-},
-"explication": "Malik l'appelle la porte « Home or Job ». Ses questions derrière : tu as affronté le marché ? Tu as mis ton offre devant des gens ? Ton CLAUDE.md l'a élargi : tester l'offre ou couper une pub perdante compte aussi.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I049] [R111] [S030] ; CLAUDE.md § 6.1",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Quelles questions de Malik montrent qu'un projet n'a pas encore fait d'argent ?",
-"r": {
-"verdict": "💡 As-tu affronté le marché ? As-tu mis ton offre devant des gens ? As-tu distribué ?",
-"pourquoi": "Une fonction ajoutée ne prouve rien.",
-"action": "Passe chaque tâche au filtre des 7 jours."
-},
-"qcm": {
-"choix": [
-"Codé proprement ? Ajouté des fonctions ?",
-"Affronté le marché ? Montré l'offre ?",
-"Choisi un logo ? Trouvé un nom ?",
-"Branché le VPS ? Lancé les agents ?"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"« Est-ce que l'outil sera joli à voir ? »",
-"« Combien de fonctions puis-je ajouter ? »",
-"« Ça lance une pub ou une vente en 7 jours ? »",
-"« Est-ce que je peux le coder tout seul ? »"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-020",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Exiger une preuve avant « c'est fait »",
-"niveau": 3,
-"type": "scénario",
-"q": "L'IA tourne 15 minutes, dit « c'est fait », et il n'y a rien. Que met Malik en place ?",
-"extrait": "It runs for 15 minutes, and then, well, there's actually nothing.",
-"r": {
-"verdict": "💡 Des garde-fous : une preuve avant de dire « c'est fait ».",
-"pourquoi": "Sans preuve, l'IA peut annoncer un travail qui n'existe pas.",
-"action": "Exige le chemin du fichier, un chiffre sourcé ou le résultat d'un test."
-},
-"explication": "Malik parle de garde-fous et de preuve, capture d'écran comprise. Ton CLAUDE.md va plus loin : règle 1.3 (preuve vérifiable en 10 secondes) et 1.4 (vérificateur GO / NO-GO). Et le Kaizen : la même erreur ne doit pas revenir 13 fois.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I043] [R105] [S028] ; [I045] [R107] [S029] ; CLAUDE.md § 1.3-1.4",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "L'IA te dit « fini » sur un fichier. Que lui demandes-tu avant d'y croire ?",
-"r": {
-"verdict": "💡 Une preuve : chemin du fichier, test ou capture.",
-"pourquoi": "Sans preuve, « c'est fait » ne vaut rien.",
-"action": "Applique les règles 1.3 et 1.4 de ton CLAUDE.md."
-},
-"qcm": {
-"choix": [
-"Une promesse écrite et signée",
-"Un deuxième « c'est fait » confirmé",
-"Rien : le mot « fini » suffit",
-"Une preuve : fichier, test ou capture"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Une preuve exigée avant « c'est fait »",
-"Plus de temps laissé à l'IA pour finir",
-"Un second chat lancé pour tout refaire",
-"Une confiance totale, sans vérification"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-021",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Comprendre le Kaizen appliqué à l'IA",
-"niveau": 1,
-"type": "rappel",
-"q": "Qu'est-ce que le Kaizen, pour Malik ?",
-"extrait": "It’s actually constant iteration and optimization.",
-"r": {
-"verdict": "💡 L'amélioration continue : chaque erreur sert à ne plus la refaire.",
-"pourquoi": "Chaque input est une info sur toi. L'IA apprend de ses erreurs.",
-"action": "Quand l'IA se trompe, fais-lui noter la leçon pour toujours."
-},
-"explication": "Son exemple : l'IA dit « prêt » alors que non. Elle ne doit pas le faire 13 fois. Certains le font toute leur vie ; elle, après 3 fois, a arrêté.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I045] [R107] [S029]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "L'IA dit « prêt » à tort pour la 3e fois. Que doit-il se passer ensuite, selon Malik ?",
-"r": {
-"verdict": "💡 Elle apprend et ne le refait plus.",
-"pourquoi": "C'est le Kaizen : on ne refait pas la même erreur 13 fois.",
-"action": "Fais-lui noter la leçon."
-},
-"qcm": {
-"choix": [
-"Elle le refait encore dix fois",
-"Elle apprend et ne le refait plus",
-"Malik change aussitôt d'IA",
-"Malik efface toute sa mémoire"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"Tout refaire de zéro chaque semaine",
-"Travailler plus d'heures chaque jour",
-"Ne jamais refaire la même erreur",
-"Changer d'outil à chaque erreur"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-022",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Comprendre l'orchestration des modèles",
-"niveau": 2,
-"type": "rappel",
-"q": "Qu'est-ce que l'orchestration des modèles, selon Malik ?",
-"extrait": "you do the reasoning with Flash, but you do all the tasks with Sonnet or Opus. And actually, that saves your tokens",
-"r": {
-"verdict": "💡 Répartir le travail entre plusieurs modèles d'IA pour économiser les tokens (le quota d'usage).",
-"pourquoi": "Un modèle mal choisi pour une tâche brûle des tokens pour rien.",
-"action": "Retiens l'idée plus que les noms : le bon modèle pour la bonne tâche."
-},
-"explication": "Le transcript est automatique et flou ici : raisonner avec « Flash », exécuter avec Sonnet ou Opus. L'anglais prévaut, mais le coffre ne dit pas quel réglage exact il utilise.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I008] [R070] [S006]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Selon Malik, que se passe-t-il si un modèle d'IA mal choisi fait une tâche simple, comme récupérer des données ?",
-"r": {
-"verdict": "💡 Il brûle des tokens pour rien.",
-"pourquoi": "Un modèle adapté fait aussi bien, pour moins cher.",
-"action": "Le bon modèle pour la bonne tâche."
-},
-"qcm": {
-"choix": [
-"Il fait mieux et pour moins cher",
-"Il refuse de faire la tâche",
-"Il efface les données récoltées",
-"Il brûle des tokens pour rien"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Un modèle adapté à chaque tâche",
-"Lancer 52 agents sur chaque tâche",
-"Un seul modèle pour toutes les tâches",
-"Faire tourner l'IA toute la nuit"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-023",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Connaître la simulation d'acheteurs",
-"niveau": 2,
-"type": "rappel",
-"q": "Qu'est-ce que la simulation d'acheteurs dont parle Malik ?",
-"extrait": "it's kind of like pre-testing your offer without spending on ads, you see.",
-"r": {
-"verdict": "💡 Des acheteurs simulés visitent ta boutique et lui donnent une note sur 100.",
-"pourquoi": "Tu pré-testes ton offre sans dépenser en pub.",
-"action": "Vois-le comme un pré-test, jamais comme une vraie vente."
-},
-"explication": "Malik l'a vu sur GitHub ; le nom est mal transcrit (« Buer BS »). Profils simulés : l'acheteur impulsif, celui qui scrolle. Le coffre ne donne pas le nom exact de l'outil.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I056] [R118] [S032]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Quel score donne la simulation d'acheteurs ?",
-"r": {
-"verdict": "💡 Une note sur 100.",
-"pourquoi": "Elle simule des profils d'acheteurs.",
-"action": "Un pré-test, pas une vente."
-},
-"qcm": {
-"choix": [
-"Une note sur 5",
-"Une note sur 100",
-"Un nombre de ventes",
-"Un ROAS estimé"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"De vrais clients payés pour acheter",
-"Une vraie pub lancée en test sur Meta",
-"Des acheteurs simulés notent ta boutique",
-"Un sondage envoyé à tes clientes"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-024",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Faire auditer sa page de vente",
-"niveau": 2,
-"type": "rappel",
-"q": "À quoi sert la relecture de ta page de vente par l'IA, chez Malik ?",
-"extrait": "LP audit, my sales page pass. Yeah, yeah, that one's important.",
-"r": {
-"verdict": "💡 L'IA se met à la place d'un visiteur pressé et relit ta page : clarté, conditions, ce qui cloche.",
-"pourquoi": "Toi, tu connais ta page. Le visiteur, non.",
-"action": "Fais passer ta page à l'audit avant d'y envoyer du trafic."
-},
-"explication": "Malik joue le visiteur qui « éteint son cerveau » : je vois la page, qu'est-ce qui se passe ? Souvent, c'est le Head of Common Sense qui fait ce passage.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I057] [R119] [S032]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Pendant la relecture de ta page de vente, quel conseil célèbre l'IA applique-t-elle à ta place ?",
-"r": {
-"verdict": "💡 « Mets-toi à leur place » : l'IA joue le visiteur.",
-"pourquoi": "Toi, tu connais trop ta page.",
-"action": "Fais relire ta page par l'IA dans la peau d'un visiteur pressé."
-},
-"qcm": {
-"choix": [
-"« Prends l'argent »",
-"« Copie ce qui marche »",
-"« Paie pour gagner »",
-"« Mets-toi à leur place »"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"L'IA joue un visiteur et relit ta page",
-"L'IA écrit une nouvelle page à ta place",
-"L'IA calcule le ROAS de ta page",
-"L'IA envoie des pubs vers ta page"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-025",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Comprendre l'intérêt des alertes",
-"niveau": 3,
-"type": "diagnostic",
-"q": "Pourquoi les alertes sur Telegram (une messagerie) rendent-elles Malik plus calme, pas plus stressé ?",
-"extrait": "It's that I no longer have that urge to check the computer every 2 hours to see if it crashed.",
-"r": {
-"verdict": "💡 L'alerte arrive dès que ça casse : il n'a plus besoin de vérifier toutes les 2 heures.",
-"pourquoi": "Vérifier sans cesse et tomber sur une panne fait monter le stress. Être prévenu tout de suite, non.",
-"action": "Pour plus tard : un filet de sécurité qui te prévient (stats en baisse, pixel déconnecté)."
-},
-"explication": "Son exemple : « the stats dropped by 40% », le pixel s'est déconnecté. Malik passe par son VPS. Dans ton coffre, le VPS vient à l'ÉTAPE 14 (CLAUDE.md 0.a) : pas avant.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I058] [R120] [S033] ; CLAUDE.md § 0.a",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Que se passe-t-il chez Malik quand les stats baissent de 40 % ?",
-"r": {
-"verdict": "💡 Il reçoit une alerte Telegram et va réparer, au calme.",
-"pourquoi": "Être prévenu tout de suite évite de vérifier sans cesse.",
-"action": "Un filet de sécurité vaut mieux qu'une surveillance à la main."
-},
-"qcm": {
-"choix": [
-"Rien : il le découvre le lendemain",
-"Une alerte arrive, il répare au calme",
-"Son équipe l'appelle en pleine nuit",
-"Il voit la baisse en vérifiant à la main"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"Il vérifie toutes les 2 heures",
-"Il ne reçoit jamais d'alerte",
-"Il est prévenu tout de suite",
-"Son équipe surveille à sa place"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-026",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Payer plutôt que bricoler",
-"niveau": 2,
-"type": "rappel",
-"q": "Que dit Malik sur le fait de tout reconstruire soi-même ?",
-"extrait": "Don't try to reverse engineer everything, guys. Really, just pay to win at some point; enough is enough, stop being a cheapskate.",
-"r": {
-"verdict": "💡 Ne pas tout refaire soi-même : à un moment, payer pour gagner.",
-"pourquoi": "Malik : arrête d'être radin, « pay to win ».",
-"action": "Avant de construire un outil, demande : existe-t-il tout fait, et à quel prix ?"
-},
-"explication": "C'est la règle 6.5 de ton CLAUDE.md (« payer plutôt que bricoler ») : l'IA te dit ce qui existe et le prix, et tu décides. Sa formule : « stop being a cheapskate » (arrête d'être radin).",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I020] [R082] [S014] ; CLAUDE.md § 6.5",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Tu veux recoder un outil qui existe déjà. Que dirait Malik ?",
-"r": {
-"verdict": "💡 « Pay to win » : paie l'outil, ne reconstruis pas tout.",
-"pourquoi": "Arrête d'être radin.",
-"action": "Demande d'abord : existe-t-il tout fait, à quel prix ?"
-},
-"qcm": {
-"choix": [
-"« Recode-le » : économise",
-"« Attends » : il sera gratuit",
-"« Demande » : un ami le code",
-"« Pay to win » : paie l'outil"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Payer l'outil plutôt que tout refaire",
-"Tout refaire soi-même, pour apprendre",
-"N'utiliser que des outils gratuits",
-"Copier le code des concurrents"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-027",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Savoir juger une sortie de l'IA",
-"niveau": 3,
-"type": "diagnostic",
-"q": "Pourquoi l'IA ne te dispense-t-elle pas d'apprendre le copywriting ?",
-"extrait": "Once again, if you have no copywriting skills, you can't know what good copy is, you see.",
-"r": {
-"verdict": "💡 Sans compétence, tu ne sais pas reconnaître un bon copy. Tu ne peux pas juger ce que l'IA sort.",
-"pourquoi": "L'IA produit ; c'est toi qui choisis. Choisir demande de comprendre les mécanismes.",
-"action": "Utilise ces cartes pour apprendre les mécanismes, pas seulement pour copier."
-},
-"explication": "Malik dit aussi que lire est « l'avantage injuste » : un auteur met 20 à 40 ans dans un livre, tu en prends l'essentiel en 7 heures. Et l'intuition du marketeur vient de la lecture et des échanges avec des gens brillants.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I027] [R089] [S018] ; [I026] [R088] [S018] ; [I028] [R090] [S019]",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Pourquoi lire est-il « l'avantage injuste », selon Malik ?",
-"r": {
-"verdict": "💡 Un auteur met des décennies dans un livre ; tu en prends l'essentiel en quelques heures.",
-"pourquoi": "Sans ces mécanismes, tu ne peux pas juger l'IA.",
-"action": "Lis d'abord, puis utilise l'IA."
-},
-"qcm": {
-"choix": [
-"Des livres gratuits pour tout le monde",
-"Des décennies d'un auteur en quelques heures",
-"Un savoir que plus personne d'autre ne lit",
-"Un moyen de remplacer l'IA pour de bon"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"L'IA écrit toujours un copy parfait",
-"Le copywriting ne sert plus à rien",
-"Sans compétence, tu ne peux pas juger",
-"L'IA refuse d'écrire du copy"
-],
-"bonne": 2
-}
-},
-{
-"id": "ia-028",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Connaître le second cerveau en cartes",
-"niveau": 1,
-"type": "rappel",
-"q": "Qu'est-ce que le « second cerveau » de Malik ?",
-"extrait": "Basically, it takes all my training materials and creates a card system where you have questions and answers",
-"r": {
-"verdict": "💡 Une web app de cartes questions-réponses tirées de toutes ses formations.",
-"pourquoi": "Il la consulte sur ordi et sur téléphone : soit il sait, soit il révise.",
-"action": "C'est le modèle de l'app que tu utilises en ce moment."
-},
-"explication": "Ton app suit ce principe, avec en plus les règles des pros de la mémorisation (Wozniak, Matuschak, Anki), notées dans App-QR-règles.md. Il l'a construite lui-même : elle tourne sur son ordinateur et son téléphone.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I046] [R108] [S029] ; Système/Prompts/App-QR-règles.md",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Comment fonctionne une carte du second cerveau de Malik ?",
-"r": {
-"verdict": "💡 Une question, une réponse : soit il sait, soit il révise.",
-"pourquoi": "Les cartes sortent de toutes ses formations.",
-"action": "C'est le principe de l'app que tu utilises."
-},
-"qcm": {
-"choix": [
-"Il lit un résumé de cinquante pages",
-"Il regarde une vidéo pour chaque carte",
-"L'IA répond à sa place, il écoute",
-"Il répond, puis vérifie ou révise"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Une app de cartes questions-réponses",
-"Un carnet papier de notes de cours",
-"Un dossier de vidéos de formation",
-"Un tableur de ventes et de KPI"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-029",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Comprendre l'intérêt d'un VPS",
-"niveau": 1,
-"type": "qcm",
-"q": "Pourquoi Malik branche-t-il un VPS (un serveur loué en ligne) ?",
-"extrait": "It's so the data is on the cloud and it can run.",
-"choix": [
-"Pour avoir un écran plus grand",
-"Pour écrire les prompts plus vite",
-"Pour que les données tournent en continu",
-"Pour remplacer Obsidian sur son ordinateur"
-],
-"bonne": 2,
-"r": {
-"verdict": "💡 Pour que les données soient dans le cloud et que tout tourne en continu.",
-"pourquoi": "Ton ordi s'éteint ; le serveur, non.",
-"action": "Chez toi, ce n'est pas pour maintenant : ÉTAPE 14."
-},
-"explication": "Malik s'en sert aussi pour ses alertes Telegram et le contexte partagé entre chats. Ton CLAUDE.md (0.a) : le VPS vient à l'ÉTAPE 14 ; d'ici là, le partage passe par les fichiers du coffre.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I037] [R099] [S025] ; CLAUDE.md § 0.a",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Dans ton coffre, à quelle étape vient le VPS (serveur loué en ligne) ?",
-"type": "qcm",
-"choix": [
-"L'ÉTAPE 4",
-"L'ÉTAPE 14",
-"L'ÉTAPE 8",
-"Jamais"
-],
-"bonne": 1,
-"r": {
-"verdict": "💡 L'ÉTAPE 14.",
-"pourquoi": "D'ici là, le partage entre chats passe par les fichiers du coffre.",
-"action": "Ne lance pas de VPS avant."
-}
-}
-]
-},
-{
-"id": "ia-030",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Relier Obsidian à Claude",
-"niveau": 3,
-"type": "piège",
-"q": "Pour relier Obsidian à Claude, que disent Malik et ton CLAUDE.md sur le MCP (connecteur externe) ?",
-"extrait": "now you’ve got Obsidian where you build an MCP",
-"r": {
-"verdict": "💡 Malik parle d'un MCP ; ton CLAUDE.md dit : pas de MCP, Claude Code lit le dossier directement.",
-"pourquoi": "Un coffre Obsidian est un simple dossier sur ton ordinateur.",
-"action": "Applique ta règle (CLAUDE.md 0.b) : elle prime pour ton coffre."
-},
-"explication": "Malik nuance lui-même : « I don't think you even need MCP or an API ». Ton CLAUDE.md s'appuie sur la doc d'Obsidian : « A vault is a folder on your local file system ». Le MCP sert aux outils externes, bases de données et API.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I010] [R072] [S007] ; [I035] [R097] [S023] ; CLAUDE.md § 0.b",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Selon ton CLAUDE.md, à quoi sert un MCP (connecteur externe), si ce n'est pas à Obsidian ?",
-"r": {
-"verdict": "💡 Aux outils externes, bases de données et API.",
-"pourquoi": "Obsidian est un dossier : Claude Code le lit directement.",
-"action": "Pour ton coffre : pas de MCP."
-},
-"qcm": {
-"choix": [
-"À lire le coffre Obsidian",
-"À faire tourner le VPS",
-"À écrire les cartes de l'app",
-"Aux outils externes et aux API"
-],
-"bonne": 3
-}
-}
-],
-"qcm": {
-"choix": [
-"Malik : un MCP ; ton CLAUDE.md : aucun",
-"Malik : aucun MCP ; ton CLAUDE.md : un",
-"Les deux : un MCP est obligatoire",
-"Les deux : il faut passer par Notion"
-],
-"bonne": 0
-}
-},
-{
-"id": "ia-031",
-"theme": "ia",
-"chapitre": "Travailler avec l'IA (Malik)",
-"competence": "Savoir quand l'IA doit demander",
-"niveau": 3,
-"type": "piège",
-"q": "Malik dit à l'IA d'agir sans demander la permission. Que dit ton CLAUDE.md ?",
-"extrait": "Never ask me to do what you can do yourself.",
-"r": {
-"verdict": "💡 Agir sans demander, oui, sauf pour les actions à risque : supprimer, dépenser, publier, envoyer…",
-"pourquoi": "Malik va jusqu'à « prends mon ordi, mets Windows dessus ». Toi, tu as fixé des limites (règles A6).",
-"action": "Sur Meta Ads et tout compte qui engage de l'argent : l'IA te montre, tu cliques toi-même."
-},
-"explication": "Source 1 : Malik [S030] [R113]. Source 2 : ton CLAUDE.md § 0.d et 3.6. Les deux disent : ne me fais pas faire ce que tu peux faire. En cas de conflit, ton CLAUDE.md l'emporte sur le master prompt de Malik.",
-"source": "Malik, vidéo « Comment j'utilise Claude » (transcript)",
-"ref": "Malik_bench_obsidian_-_Claude_code_-_structure_-_prompt_-agent_.md [I051] [R113] [S030] ; CLAUDE.md § 0.d et § 3.6",
-"date_source": "inconnue",
-"ajout": "2026-10-05",
-"variantes": [
-{
-"q": "Sur Meta Ads (les pubs Facebook et Instagram), qui clique sur les boutons qui engagent de l'argent ?",
-"r": {
-"verdict": "💡 Toi. L'IA te montre quoi faire.",
-"pourquoi": "C'est une exception de ton CLAUDE.md (0.d) au « fais tout toi-même » de Malik.",
-"action": "Garde cette règle pour tout compte qui dépense."
-},
-"qcm": {
-"choix": [
-"L'IA, toute seule",
-"Toi, guidé par l'IA",
-"Malik, à ta place",
-"Un assistant payé"
-],
-"bonne": 1
-}
-}
-],
-"qcm": {
-"choix": [
-"Demander avant chaque action, sans exception",
-"Tout faire, même dépenser, sans demander",
-"Agir sans demander, sauf actions à risque",
-"Ne rien faire sans sa présence"
-],
-"bonne": 2
 }
 },
 {

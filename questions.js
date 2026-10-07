@@ -11,6 +11,7 @@ window.QR_CONFIG = {
     { id: "cro",    tag: "CRO",     nom: "E-commerce et CRO",             dossier: "Savoir/E-commerce et CRO" },
     { id: "livres", tag: "LIVRES",  nom: "Grands copywriters (livres)",   dossier: "Savoir/Livres" },
     { id: "lex",    tag: "LEXIQUE", nom: "Lexiques",                      dossier: "Savoir/Lexiques" },
-    { id: "ia",     tag: "IA",      nom: "Méthode IA",                    dossier: "Savoir/Méthode IA" }
+    // Thème « Méthode IA » retiré de l'app le 07/10/2026 (ordre de Trésor, décision 39). Ses cartes restent dans cartes/ia*.json.
+    // { id: "ia",     tag: "IA",      nom: "Méthode IA",                    dossier: "Savoir/Méthode IA" }
   ]
 };
