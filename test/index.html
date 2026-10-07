@@ -82,6 +82,26 @@ h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:8px 0 4px}
 .cloche.ok{border-color:var(--vert);background:var(--vert-soft);color:#dff0dc}
 .cloche.ok small{color:var(--vert)}
 .cloche.info{font-weight:600;font-size:14px;line-height:1.45}
+/* Courbes d'évolution (Mes analyses). Une couleur par graphique, lignes 2 px, points de 8 px, grille discrète. */
+.courbe{margin:4px 0 14px} .courbe b{display:block;font:500 12px var(--mono);color:var(--muted);margin-bottom:4px}
+.courbe svg{display:block;width:100%;height:auto;overflow:visible}
+.courbe .grille{stroke:var(--line);stroke-width:1}
+.courbe .axe{font:10px var(--mono);fill:var(--dim)}
+.courbe .val{font:600 11px var(--mono);fill:var(--text)}
+.courbe .trait{fill:none;stroke:var(--caramel);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.courbe .point{fill:var(--caramel);stroke:var(--card);stroke-width:2}
+.courbe .zone{fill:transparent;cursor:pointer}
+.courbe .pt:hover .point{r:6}
+.chiffres summary{cursor:pointer;font:12px var(--mono);color:var(--muted)}
+.chiffres table{width:100%;margin-top:8px;border-collapse:collapse;font:12px var(--mono)}
+.chiffres th,.chiffres td{text-align:left;padding:4px 6px;border-bottom:1px solid var(--line)} .chiffres th{color:var(--muted);font-weight:500}
+/* Forces et faiblesses (Mes analyses) : une jauge par ligne, vert = force, bordeaux = faiblesse, toujours avec le % écrit. */
+.fb{padding:8px 0;border-bottom:1px solid var(--line)} .fb:last-child{border-bottom:0}
+.fb .l{display:flex;justify-content:space-between;gap:10px;font-size:14px} .fb .l span:last-child{font:600 12px var(--mono);flex:none}
+.jauge{height:6px;border-radius:3px;background:var(--line);margin-top:6px;overflow:hidden} .jauge i{display:block;height:100%;border-radius:3px}
+.fb.fort .jauge i{background:var(--vert)} .fb.fort .l span:last-child{color:var(--vert)}
+.fb.faible .jauge i{background:var(--bordeaux-hi)} .fb.faible .l span:last-child{color:#e9a3ad}
+.travail-btn{margin-top:8px;border:1px solid var(--bordeaux-hi);background:rgba(125,31,46,.18);color:#f4ebe6;border-radius:10px;padding:7px 12px;font:600 12px var(--mono)}
 .row.cible{border-color:#e0b048;box-shadow:0 0 0 1px #e0b048 inset;animation:halo 1.4s ease-in-out infinite}
 @keyframes halo{50%{box-shadow:0 0 0 1px #e0b048 inset,0 0 24px -2px rgba(232,182,72,.75)}}
 .top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}
@@ -175,9 +195,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 <div class="prog" id="prog" hidden><i></i></div>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>window.OneSignalDeferred = window.OneSignalDeferred || []; OneSignalDeferred.push(async function(OneSignal){ await OneSignal.init({ appId: "601d4571-b213-41a3-80cc-f159841528f0" }); });</script>
-<script src="logo.js?v=202610072319"></script>
-<script src="questions.js?v=202610072319"></script>
-<script src="cartes.js?v=202610072319"></script>
+<script src="logo.js?v=202610072333"></script>
+<script src="questions.js?v=202610072333"></script>
+<script src="cartes.js?v=202610072333"></script>
 <script>
 (function(){
   var CFG = window.QR_CONFIG || {niveaux:{}, themes:[]};
@@ -193,8 +213,10 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 
   function lire(k){ try { return JSON.parse(localStorage.getItem(k) || "{}") || {}; } catch(e) { return {}; } }
   function ecrire(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e) {} }
-  var K_NOTES = "qr-notes-v1", K_JOURS = "qr-jours-v1", K_SERIE = "qr-serie-encours-v1";
+  var K_NOTES = "qr-notes-v1", K_JOURS = "qr-jours-v1", K_SERIE = "qr-serie-encours-v1", K_HIST = "qr-historique-v1";
   var mem = lire(K_MEM), sig = lire(K_SIG), notes = lire(K_NOTES), jours = lire(K_JOURS);
+  // Historique des séries (courbe d’évolution, Trésor 07/10/2026) : {d: date, s: % du 1er coup, n: questions, m: cartes maîtrisées}.
+  var hist = (function(){ try { var h = JSON.parse(localStorage.getItem("qr-historique-v1") || "[]"); return Array.isArray(h) ? h : []; } catch(e){ return []; } })();
 
   /* ---------- Badge « Nouveau » ----------
      Une carte est nouvelle si elle a été ajoutée (champ "ajout") après la 1re visite de cet appareil
@@ -573,6 +595,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     var J = s.journal, n = [0,0,0,0];
     J.forEach(function(j){ n[j.note]++; });
     var score = pct(n[3], J.length);
+    if (J.length){ hist.push({t: Date.now(), d: aujourdhui(), s: score, n: J.length, m: CARTES.filter(maitrise).length}); ecrire(K_HIST, hist); marquerNotes(); }
     var reussi = J.length && n[3] / J.length >= REUSSI;
     var mot = reussi ? "Réussi." : "Pas encore. Il faut 35 sur 40 (88 %), comme au code.";
     var h = '<div class="top"><button class="x" data-x>‹ Retour</button>'+LOGO+'<span class="count">résultats</span></div>';
@@ -598,6 +621,55 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     window.scrollTo(0,0);
   }
 
+
+  /* ---------- Évolution semaine par semaine (Trésor, 07/10/2026) ----------
+     Deux petits graphiques séparés (jamais deux échelles sur un même graphique) :
+     le score du 1er coup (moyenne de la semaine) et les cartes maîtrisées (fin de semaine). */
+  function cleHist(r){ return r.t ? "t" + r.t : r.d + "|" + r.s + "|" + r.n + "|" + r.m; }
+  function fusionHist(a, b){
+    var vu = {}, l = [];
+    a.concat(b).forEach(function(r){ var k = cleHist(r); if (!vu[k]){ vu[k] = 1; l.push(r); } });
+    return l.sort(function(x, y){ return (x.d < y.d ? -1 : x.d > y.d ? 1 : (x.t || 0) - (y.t || 0)); });
+  }
+  function lundi(d){ var x = new Date(d + "T12:00:00"); var j = (x.getDay() + 6) % 7; x.setDate(x.getDate() - j); return aujourdhui(x); }
+  function semaines(){
+    var g = {}, ordre = [];
+    hist.forEach(function(r){ var k = lundi(r.d); if (!g[k]){ g[k] = {k: k, s: 0, c: 0, m: 0, n: 0}; ordre.push(k); } g[k].s += r.s; g[k].c++; g[k].m = r.m; g[k].n += r.n; });
+    ordre.sort();
+    return ordre.map(function(k){ var o = g[k]; return {k: k, s: Math.round(o.s / o.c), m: o.m, n: o.n, series: o.c}; });
+  }
+  function jjmm(k){ return k.slice(8, 10) + "/" + k.slice(5, 7); }
+  function courbe(pts, cle, titre, unite, max){
+    var W = 320, H = 130, g = 34, dr = 12, ht = 14, bas = 24, n = pts.length;
+    var x = function(i){ return n === 1 ? (g + W - dr) / 2 : g + i * (W - g - dr) / (n - 1); };
+    var y = function(v){ return ht + (1 - v / max) * (H - ht - bas); };
+    var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(titre) + '">';
+    [0, max / 2, max].forEach(function(v){
+      svg += '<line x1="' + g + '" x2="' + (W - dr) + '" y1="' + y(v) + '" y2="' + y(v) + '" class="grille"/>'
+           + '<text x="' + (g - 6) + '" y="' + (y(v) + 4) + '" text-anchor="end" class="axe">' + Math.round(v) + unite + '</text>';
+    });
+    if (n > 1) svg += '<polyline class="trait" points="' + pts.map(function(p, i){ return x(i) + "," + y(p[cle]); }).join(" ") + '"/>';
+    pts.forEach(function(p, i){
+      var bulle = "Semaine du " + jjmm(p.k) + " : " + p[cle] + unite + " (" + p.series + " série" + (p.series > 1 ? "s" : "") + ")";
+      svg += '<g class="pt"><circle cx="' + x(i) + '" cy="' + y(p[cle]) + '" r="12" class="zone"><title>' + esc(bulle) + '</title></circle>'
+           + '<circle cx="' + x(i) + '" cy="' + y(p[cle]) + '" r="4" class="point"/></g>';
+      if (i === 0 || i === n - 1 || n <= 6) svg += '<text x="' + x(i) + '" y="' + (H - 6) + '" text-anchor="middle" class="axe">' + jjmm(p.k) + '</text>';
+    });
+    var der = pts[n - 1];
+    svg += '<text x="' + Math.min(x(n - 1), W - dr) + '" y="' + (y(der[cle]) - 9) + '" text-anchor="end" class="val">' + der[cle] + unite + '</text>';
+    return '<div class="courbe"><b>' + esc(titre) + '</b>' + svg + '</div>';
+  }
+  function evolution(){
+    var h = '<div class="sec">Mon évolution, semaine par semaine</div>';
+    var p = semaines();
+    if (!p.length) return h + '<div class="empty">Termine une série : ta courbe commence ici.</div>';
+    var maxM = Math.max(10, Math.ceil(Math.max.apply(null, p.map(function(o){ return o.m; })) / 10) * 10);
+    h += '<div class="ana">' + courbe(p, "s", "Score du 1er coup (moyenne de la semaine)", " %", 100) + courbe(p, "m", "Cartes maîtrisées (fin de semaine)", "", maxM);
+    h += '<details class="chiffres"><summary>Voir les chiffres</summary><table><tr><th>Semaine du</th><th>Séries</th><th>Score</th><th>Maîtrisées</th></tr>'
+       + p.map(function(o){ return '<tr><td>' + jjmm(o.k) + '</td><td>' + o.series + '</td><td>' + o.s + ' %</td><td>' + o.m + '</td></tr>'; }).join("") + '</table></details></div>';
+    return h;
+  }
+
   /* ---------- Analyses ---------- */
   function groupe(cle){
     var g = {};
@@ -609,6 +681,13 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     return Object.keys(g).map(function(k){ var o = g[k]; o.taux = (o.ok + o.ko) ? o.ok / (o.ok + o.ko) : null; return o; });
   }
   function ligne(o, droite){ return '<div class="l"><span>'+esc(o.nom)+'</span><span>'+droite+'</span></div>'; }
+  var SEUIL_FORCE = 0.7;
+  function barre(o, sens, i){
+    var v = pct(o.ok, o.ok + o.ko);
+    return '<div class="fb ' + sens + '"><div class="l"><span>' + esc(o.nom) + '</span><span>' + v + ' %</span></div>'
+      + '<div class="jauge"><i style="width:' + v + '%"></i></div>'
+      + (sens === "faible" ? '<button class="travail-btn" data-fb="' + i + '">Travailler ce point ›</button>' : '') + '</div>';
+  }
   function analyses(){
     prog.hidden = true; rafraichir = analyses;
     var vues = CARTES.filter(function(c){ return m(c).vus > 0; });
@@ -619,19 +698,29 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     if (ou.length) h += '<button class="ghost" data-ou><span>Réviser « j\'ai oublié »</span><small>'+Math.min(ou.length,SERIE)+' ›</small></button>';
 
     var th = groupe(function(c){ return (THEME[c.theme] || {}).nom; }).filter(function(o){ return o.taux !== null; }).sort(function(a,b){ return b.taux - a.taux; });
+    h += evolution();
     h += '<div class="sec">Par thème (taux de bonnes réponses)</div>';
     if (!th.length) h += '<div class="empty">Fais quelques séries : tes analyses apparaîtront ici.</div>';
     else {
       h += '<div class="ana"><p class="verdict">Ton meilleur thème : <b>'+esc(th[0].nom)+'</b></p>'+(th.length > 1 ? '<p class="verdict">À travailler : <b>'+esc(th[th.length-1].nom)+'</b></p>' : '')+'</div>';
       h += '<div class="ana">'+th.map(function(o){ return ligne(o, pct(o.ok, o.ok+o.ko)+' % · '+o.maitr+'/'+o.n+' maîtrisées'); }).join("")+'</div>';
     }
-    ["competence", "chapitre"].forEach(function(k){
-      var g = groupe(k).filter(function(o){ return o.taux !== null && (o.ok + o.ko) >= 3; }).sort(function(a,b){ return b.taux - a.taux; });
+    // Forces et faiblesses (Trésor, 07/10/2026) : jamais le même groupe des deux côtés.
+    // Force = au moins 70 % de bonnes réponses ; faiblesse = moins de 70 %. Il faut au moins 3 réponses pour juger.
+    var aTravailler = [], montre = false;
+    [["chapitre", "chapitre"], ["competence", "genre de choses"]].forEach(function(kk){
+      var k = kk[0], lab = kk[1];
+      var g = groupe(k).filter(function(o){ return o.taux !== null && (o.ok + o.ko) >= 3; });
       if (!g.length) return;
-      var lab = k === "competence" ? "genre de choses" : "chapitre";
-      h += '<div class="sec">Par '+lab+' : où tu es fort</div><div class="ana">'+g.slice(0,3).map(function(o){ return ligne(o, pct(o.ok,o.ok+o.ko)+' %'); }).join("")+'</div>';
-      h += '<div class="sec">Par '+lab+' : où tu es faible</div><div class="ana">'+g.slice(-3).reverse().map(function(o){ return ligne(o, pct(o.ok,o.ok+o.ko)+' %'); }).join("")+'</div>';
+      montre = true;
+      var fo = g.filter(function(o){ return pct(o.ok, o.ok + o.ko) >= SEUIL_FORCE * 100; }).sort(function(x, y){ return y.taux - x.taux; }).slice(0, 3);
+      var fa = g.filter(function(o){ return pct(o.ok, o.ok + o.ko) < SEUIL_FORCE * 100; }).sort(function(x, y){ return x.taux - y.taux; }).slice(0, 3);
+      h += '<div class="sec">Mes forces · par ' + lab + '</div>';
+      h += fo.length ? '<div class="ana">' + fo.map(function(o){ return barre(o, "fort"); }).join("") + '</div>' : '<div class="empty">Pas encore de force à 70 % ou plus : continue, elle arrive.</div>';
+      h += '<div class="sec">Mes faiblesses · par ' + lab + '</div>';
+      h += fa.length ? '<div class="ana">' + fa.map(function(o){ aTravailler.push({k: k, nom: o.nom}); return barre(o, "faible", aTravailler.length - 1); }).join("") + '</div>' : '<div class="empty">Aucune faiblesse sous 70 %. Bravo.</div>';
     });
+    if (!montre) h += '<div class="empty">Réponds à au moins 3 questions d’un chapitre pour voir tes forces et tes faiblesses.</div>';
     var ns = Object.keys(sig).length;
     h += '<div class="sec">Cartes signalées</div><div class="ana"><div class="l"><span>'+ns+' carte(s) à corriger par Claude</span><span>dimanche</span></div></div>';
     h += '<p class="note">Pour que Claude les corrige : « Sauvegarder mes progrès » sur l\'accueil, puis donne-lui le fichier.</p>';
@@ -639,12 +728,16 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     app.querySelector("[data-x]").onclick = accueil;
     var a = app.querySelector("[data-sp]"); if (a) a.onclick = function(){ lancer(melanger(sp.slice()), "Je sais pas", analyses, false, true); };
     var b = app.querySelector("[data-ou]"); if (b) b.onclick = function(){ lancer(melanger(ou.slice()), "J'ai oublié", analyses, false, true); };
+    app.querySelectorAll("[data-fb]").forEach(function(btn){ btn.onclick = function(){
+      var t = aTravailler[+btn.dataset.fb]; if (!t) return;
+      lancer(melanger(CARTES.filter(function(c){ return c[t.k] === t.nom; })), t.nom, analyses, false, true);
+    }; });
     window.scrollTo(0,0);
   }
 
   /* ---------- Sauvegarde ---------- */
   async function exporter(){
-    var data = JSON.stringify({app:"qr-cartes", date:new Date().toISOString(), progres:mem, signalees:sig, notes:notes, jours:jours}, null, 1);
+    var data = JSON.stringify({app:"qr-cartes", date:new Date().toISOString(), progres:mem, signalees:sig, notes:notes, jours:jours, historique:hist}, null, 1);
     var nom = "progres-cartes-" + new Date().toISOString().slice(0,10) + ".json";
     var dl = null;
     try { dl = window.claude && window.claude.use ? await window.claude.use("downloads") : null; } catch(e){ dl = null; }
@@ -664,7 +757,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       try {
         var d = JSON.parse(rd.result);
         if (d.app !== "qr-cartes") throw 0;
-        mem = d.progres || {}; sig = d.signalees || {}; notes = d.notes || notes; ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); marquerNotes();
+        mem = d.progres || {}; sig = d.signalees || {}; notes = d.notes || notes; if (Array.isArray(d.historique)){ hist = fusionHist(hist, d.historique); ecrire(K_HIST, hist); } ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); marquerNotes();
         CFG.themes.forEach(function(t){ sale[t.id] = 1; }); sale.autres = 1; pousser(); envoyerSignal();
         toast("Progrès restaurés."); accueil();
       } catch(x){ toast("Ce fichier n'est pas une sauvegarde de l'app."); }
@@ -710,13 +803,14 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     // ce qui n'existe que sur cet appareil part aussi dans le nuage
     for (var k2 in mem) if (vu[k2] === undefined || (mem[k2].dernier || 0) > vu[k2]) sale[themeDe(k2)] = 1;
     try { var dn = await nuage.db.doc("data/users/" + nuage.uid + "/notes").get(); if (dn.exists){ var nn = (dn.data() || {}).notes || {}; for (var kn in nn) if (!notes[kn]){ notes[kn] = nn[kn]; chg = true; }
+      var hh = (dn.data() || {}).historique; if (Array.isArray(hh) && hh.length){ var f = fusionHist(hist, hh); if (f.length !== hist.length){ hist = f; ecrire(K_HIST, hist); chg = true; marquerNotes(); } }
       var jj = (dn.data() || {}).jours; if (jj && jj.dernier && (!jours.dernier || jj.dernier > jours.dernier)){ jours = jj; ecrire(K_JOURS, jours); chg = true; } } } catch(e){}
     if (chg){ ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); }
     if (Object.keys(sale).length) pousser();
     if (rafraichir) rafraichir();
   }
   var minNotes = null;
-  function marquerNotes(){ if (!nuage) return; clearTimeout(minNotes); minNotes = setTimeout(function(){ nuage.db.doc("data/users/" + nuage.uid + "/notes").set({notes: notes, jours: jours, maj: Date.now()}).catch(function(){}); }, 2000); }
+  function marquerNotes(){ if (!nuage) return; clearTimeout(minNotes); minNotes = setTimeout(function(){ nuage.db.doc("data/users/" + nuage.uid + "/notes").set({notes: notes, jours: jours, historique: hist, maj: Date.now()}).catch(function(){}); }, 2000); }
   function envoyerSignal(){ if (nuage) nuage.db.doc("signalements/liste").set({cartes: sig, maj: Date.now()}).catch(function(){}); }
   async function brancher(){
     if (!window.claude || !window.claude.use) return;
@@ -750,16 +844,15 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     });
   }
   function activerNotif(){
-    if (!window.OneSignalDeferred) return;
-    window.OneSignalDeferred.push(async function(OS){
-      try {
-        await OS.Notifications.requestPermission();
-        notif = {os: OS, ok: OS.Notifications.isPushSupported(), on: !!OS.User.PushSubscription.optedIn};
-        toast(notif.on ? "🔔 Notifications activées." : "Notifications pas encore activées.");
-        accueil();
-      } catch(e){ toast("Impossible d’activer les notifications ici."); }
-    });
+    if (!notif || !notif.os){ toast("Un instant, la cloche se prépare. Touche à nouveau dans 2 secondes."); return; }
+    if (!notif.ok){ toast("Ce navigateur ne permet pas les notifications. Sur iPhone : ouvre l’app depuis son icône."); return; }
+    notif.os.Notifications.requestPermission().then(function(){
+      notif.on = !!notif.os.User.PushSubscription.optedIn;
+      toast(notif.on ? "🔔 Notifications activées." : "Notifications pas encore activées.");
+      accueil();
+    }).catch(function(){ toast("Impossible d’activer les notifications ici."); });
   }
+
 
 
   /* ---------- Son « Nouveau » (demande de Trésor du 07/10/2026) ----------
@@ -802,7 +895,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
   function sonVu(){ ecrire(K_SON, {maj: MAJ, le: aujourdhui()}); clearInterval(sonMinuteur); sonMinuteur = null; }
   function sonUneFois(){ try { if (!son) son = new Audio("son/nouveau.mp3"); son.volume = 1; son.currentTime = 0; var p = son.play(); if (p && p.catch) p.catch(function(){}); } catch(e){} }
   function attendreGeste(){
-    function un(){ document.removeEventListener("click", un, true); setTimeout(jouerSon, 50); }
+    function un(){ document.removeEventListener("click", un, true); setTimeout(function(){ if (!(son && !son.paused)) jouerSon(); }, 50); }
     document.addEventListener("click", un, true);
   }
   function jouerSon(){
