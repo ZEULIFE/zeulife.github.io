@@ -69,9 +69,14 @@ h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:8px 0 4px}
 @keyframes brille{to{transform:translateX(100%)}}
 .ban .k{display:block;font:700 11px/1 var(--mono);letter-spacing:.34em;color:#e8c066}
 .ban h2{font-size:52px;line-height:1;font-weight:900;letter-spacing:.04em;text-transform:uppercase;margin:12px 0 6px;background:linear-gradient(180deg,#fff6d2,#ecc05a 55%,#b07b1e);-webkit-background-clip:text;background-clip:text;color:transparent}
-.ban .ligne{display:flex;align-items:center;flex-wrap:wrap;gap:4px 16px;margin:12px 0 10px}
+.ban .ligne{display:flex;align-items:flex-end;flex-wrap:wrap;gap:30px 16px;margin:12px 0 10px}   /* place au-dessus de « lune » pour les flèches */
 .ban .ligne h2{margin:0}
 .ban .cri{display:block;font-size:22px;line-height:1.2;font-weight:800;color:#fff1cc;margin:0;text-shadow:0 0 18px rgba(232,182,72,.45)}
+.ban .e-lune{position:relative;display:inline-block}
+.ban .fleches{position:absolute;left:78%;bottom:50%;width:34px;height:50px;overflow:visible;pointer-events:none;filter:drop-shadow(0 0 6px rgba(255,214,120,.8))}
+.ban .fleches .f{animation:vers-le-ciel 2.4s cubic-bezier(.3,.7,.4,1) infinite;opacity:0}
+.ban .fleches .f2{animation-delay:.25s} .ban .fleches .f3{animation-delay:.5s}
+@keyframes vers-le-ciel{0%{opacity:0;translate:-4px 8px}20%{opacity:1}70%{opacity:1}100%{opacity:0;translate:10px -14px}}
 .ban p{color:#e9d3a6;font-size:14px;font-weight:600;margin:0}
 .ban .go{display:inline-block;margin-top:16px;padding:10px 16px;border-radius:999px;background:linear-gradient(135deg,#fbe6a2,#e0b048 50%,#b07b1e);color:#2a1a05;font:700 12px/1 var(--mono);letter-spacing:.06em;box-shadow:0 6px 18px -6px rgba(232,182,72,.8)}
 .ban.part{opacity:0;transform:scale(.94)}
@@ -186,6 +191,155 @@ h2.titre{font-size:22px;font-weight:700;margin-bottom:4px}
 .sync i{width:7px;height:7px;border-radius:50%;background:var(--dim)}
 .sync.on i{background:var(--vert)}
 button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline-offset:2px}
+/* ---------- Le jeu (Trésor, 12/10/2026) : rangs, combo, objectif, trophées, coffre. Or, bordeaux, caramel. ---------- */
+.qcard{position:relative}
+.num{position:absolute;top:10px;right:12px;font:500 10px/1 var(--mono);letter-spacing:.06em;color:var(--dim);background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:999px;padding:4px 8px}
+.qcard .travail{padding-right:70px}
+.num-l{font:500 10px var(--mono);color:var(--dim)}
+.nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;margin:-4px 0 12px}
+.fl{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:9px 12px;font:600 12px var(--mono);color:var(--muted);justify-self:start;transition:transform .12s,border-color .15s}
+.fl:active{transform:scale(.97)} .fl:disabled{opacity:.3;cursor:default}
+.fl.or{justify-self:end;color:#2a1a05;border-color:#b07b1e;background:linear-gradient(135deg,#fbe6a2,#e0b048 55%,#b07b1e);box-shadow:0 6px 16px -8px rgba(232,182,72,.8)}
+.revue-t{font:11px var(--mono);color:var(--caramel)}
+.qcard.revue{border-color:#4a3326}
+.combo{justify-self:center;font:800 13px/1 var(--mono);letter-spacing:.04em;color:#fff1cc;padding:7px 11px;border-radius:999px;background:linear-gradient(135deg,#7d1f2e,#a3293d);box-shadow:0 0 0 1px rgba(232,182,72,.5) inset;animation:pouls 1.1s ease-in-out infinite}
+.combo.chaud{background:linear-gradient(135deg,#b07b1e,#e0b048);color:#2a1a05;box-shadow:0 0 18px -2px rgba(232,182,72,.8)}
+.combo.feu{background:linear-gradient(135deg,#fff2c2,#e0b048 45%,#b07b1e);color:#2a1a05;box-shadow:0 0 26px 0 rgba(255,214,120,.9);animation:pouls .6s ease-in-out infinite}
+@keyframes pouls{50%{transform:scale(1.08)}}
+.gain{position:fixed;left:50%;top:38%;transform:translateX(-50%);font:900 30px/1 var(--sans);color:#ffe7a3;text-shadow:0 0 18px rgba(232,182,72,.9),0 2px 0 #7a4e0c;pointer-events:none;z-index:70;animation:monte 1.25s ease-out forwards}
+@keyframes monte{0%{opacity:0;transform:translate(-50%,10px) scale(.7)}15%{opacity:1;transform:translate(-50%,0) scale(1.1)}100%{opacity:0;transform:translate(-50%,-70px) scale(1)}}
+.rang{display:flex;align-items:center;gap:14px;width:100%;text-align:left;border:0;border-radius:20px;padding:14px 16px;margin:0 0 10px;color:var(--text);
+  background:radial-gradient(120% 140% at 0% 0%,#3a2a12 0%,#1f150d 55%,#160e0a 100%);box-shadow:0 0 0 1px rgba(232,182,72,.45) inset,0 14px 34px -18px rgba(232,182,72,.55)}
+.rang-d{flex:none;width:76px;height:76px;border-radius:18px;background:radial-gradient(circle at 50% 40%,rgba(232,182,72,.18),transparent 70%);display:grid;place-items:center}
+.rang-d .d{width:72px;height:72px}
+.rang-t{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.rang-t small{font:11px var(--mono);color:#cfa86a;letter-spacing:.04em}
+.rang-t b{font-size:22px;font-weight:800;letter-spacing:-.01em;text-shadow:0 0 18px rgba(232,182,72,.25)}
+.rang-barre{height:7px;border-radius:4px;background:rgba(255,255,255,.07);overflow:hidden;margin:3px 0 1px}
+.rang-barre i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#b07b1e,#e0b048,#fff2c2);box-shadow:0 0 10px rgba(232,182,72,.7)}
+.juge{background:linear-gradient(180deg,rgba(125,31,46,.16),rgba(125,31,46,.06));border:1px solid #4d2228;border-radius:16px;padding:12px 14px;margin:0 0 16px;font-size:14px;line-height:1.5}
+.juge b{display:block;font:600 10px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:#e9a3ad;margin-bottom:4px}
+.juge p+p{margin-top:4px}
+.fin-juge{margin-top:4px} .fin-juge .gros{font-size:22px;font-weight:800;color:#fff1cc}
+.fin-juge .pts{font:600 12px var(--mono);color:#e0b048}
+.jours{flex-direction:row;align-items:center;gap:12px}
+.jours-t{display:flex;flex-direction:column;gap:2px}
+.anneau{position:relative;flex:none;width:54px;height:54px;display:grid;place-items:center}
+.anneau svg{position:absolute;inset:0;transform:rotate(-90deg)}
+.anneau .fond{fill:none;stroke:var(--line);stroke-width:5}
+.anneau .trait{fill:none;stroke:#e0b048;stroke-width:5;stroke-linecap:round;transition:stroke-dashoffset .6s ease;filter:drop-shadow(0 0 4px rgba(232,182,72,.6))}
+.anneau b{position:relative;font:800 14px/1 var(--mono);color:#ffe7a3}
+.anneau.plein{animation:pouls 1.6s ease-in-out infinite}
+.cherche{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 12px;margin:0 0 6px}
+.cherche span{flex:1;font:12px var(--mono);color:var(--muted)}
+.cherche input{width:84px;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font:600 14px var(--mono);text-align:center}
+.cherche input:focus{outline:none;border-color:#e0b048}
+.cherche button{border:1px solid #b07b1e;background:transparent;color:#e0b048;border-radius:10px;padding:8px 12px;font:600 12px var(--mono)}
+.coffre-btn{display:flex;align-items:center;gap:12px;width:100%;margin-top:12px;border:0;border-radius:16px;padding:12px 14px;text-align:left;color:#fff1cc;
+  background:radial-gradient(120% 140% at 0% 0%,#4a3510,#22170b 60%);box-shadow:0 0 0 1px rgba(232,182,72,.7) inset,0 0 26px -4px rgba(232,182,72,.6);animation:halo 1.4s ease-in-out infinite}
+.coffre-btn b{display:block;font-size:16px} .coffre-btn small{font:11px var(--mono);color:#e0b048}
+.coffre-ico .d{width:48px;height:48px;animation:secoue 1.2s ease-in-out infinite}
+@keyframes secoue{0%,70%,100%{transform:rotate(0)}75%{transform:rotate(-8deg)}85%{transform:rotate(8deg)}92%{transform:rotate(-4deg)}}
+.rangs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.rg{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 4px}
+.rg .d{width:54px;height:54px} .rg b{font-size:12px;line-height:1.2} .rg small{font:10px var(--mono);color:var(--muted)}
+.rg.ici{border-color:#e0b048;box-shadow:0 0 0 1px #e0b048 inset,0 0 18px -6px rgba(232,182,72,.8)}
+.rg.verrou{opacity:.38;filter:grayscale(.8)} .rg.verrou .d *{animation-play-state:paused}
+.trophees{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.tr{display:flex;flex-direction:column;gap:2px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+.tr b{font-size:14px} .tr small{font:11px var(--mono);color:var(--muted)} .tr-i{font-size:22px;filter:grayscale(1);opacity:.5}
+.tr.ok{border-color:#b07b1e;background:linear-gradient(180deg,rgba(224,176,72,.12),var(--card))} .tr.ok .tr-i{filter:none;opacity:1} .tr.ok b{color:#ffe7a3}
+.fete{position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:20px;background:radial-gradient(circle at 50% 40%,rgba(74,53,16,.92),rgba(10,6,5,.94));animation:in .3s ease;transition:opacity .25s}
+.fete.part{opacity:0}
+.fete-box{width:min(360px,100%);text-align:center;border-radius:24px;padding:26px 20px 20px;background:linear-gradient(180deg,#2a1d10,#160e0a);box-shadow:0 0 0 1px rgba(232,182,72,.6) inset,0 30px 70px -20px rgba(232,182,72,.55);animation:pop .5s cubic-bezier(.2,1.4,.4,1)}
+@keyframes pop{0%{transform:scale(.6);opacity:0}100%{transform:scale(1);opacity:1}}
+.fete-d .d{width:150px;height:150px;filter:drop-shadow(0 0 22px rgba(232,182,72,.55))}
+.fete-i{font-size:64px;line-height:1;filter:drop-shadow(0 0 18px rgba(232,182,72,.8))}
+.fete small{display:block;margin-top:8px;font:700 11px var(--mono);letter-spacing:.3em;text-transform:uppercase;color:#e8c066}
+.fete h2{font-size:30px;line-height:1.1;font-weight:900;margin:8px 0 6px;background:linear-gradient(180deg,#fff6d2,#ecc05a 60%,#b07b1e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.fete p{color:#e9d3a6;font-size:15px}
+.fete-ok{margin-top:18px;border:0;border-radius:999px;padding:12px 26px;font:800 14px var(--sans);color:#2a1a05;background:linear-gradient(135deg,#fbe6a2,#e0b048 50%,#b07b1e);box-shadow:0 8px 20px -8px rgba(232,182,72,.9)}
+/* « Toutes les questions » : 2 modes (Trésor, 12/10/2026) */
+.sec.jouer{color:#e8c066;font-weight:700;margin-top:6px}
+.modes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
+.mode{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;border:0;border-radius:18px;padding:14px 14px 12px;color:var(--text);overflow:hidden}
+.mode b{font-size:17px;font-weight:800} .mode small{font:11px var(--mono);color:var(--muted)} .mode em{font:600 11px var(--mono);font-style:normal;margin-top:6px}
+.mode-i{font-size:22px;line-height:1;height:34px;display:grid;place-items:center}
+.mode.classique{background:linear-gradient(160deg,var(--bordeaux-hi),var(--bordeaux) 60%,#3d0f16);box-shadow:0 10px 26px -14px rgba(163,41,61,.8)}
+.mode.classique small{color:#f0c9cf} .mode.classique em{color:#fff}
+/* Classique : le même reflet de lumière qui balaie la carte que Flash (Trésor, 12/10/2026), en bordeaux, et le chrono qui tourne. */
+.mode.classique{box-shadow:0 0 0 1px rgba(255,180,190,.35) inset,0 10px 30px -12px rgba(163,41,61,.85)}
+.mode.classique::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,215,222,.22) 45%,transparent 60%);transform:translateX(-100%);animation:brille 2.6s ease-in-out infinite;animation-delay:1.3s}
+.mode.classique .mode-i{animation:tic-tac 2s ease-in-out infinite}
+@keyframes tic-tac{0%,100%{transform:rotate(0)}25%{transform:rotate(-12deg)}75%{transform:rotate(12deg)}}
+.mode.flash{background:radial-gradient(120% 140% at 0% 0%,#4a3510,#22170b 60%,#160e0a);box-shadow:0 0 0 1px rgba(232,182,72,.7) inset,0 10px 30px -12px rgba(232,182,72,.7)}
+.mode.flash b{background:linear-gradient(180deg,#fff6d2,#ecc05a 60%,#b07b1e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mode.flash small{color:#d6b673} .mode.flash em{color:#e0b048}
+.mode.flash::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,236,170,.18) 45%,transparent 60%);transform:translateX(-100%);animation:brille 2.6s ease-in-out infinite}
+.eclair-anime svg{width:34px;height:34px;filter:drop-shadow(0 0 8px rgba(255,214,120,.9));animation:battement 1.1s ease-in-out infinite}
+@keyframes battement{0%,100%{transform:scale(1)}14%{transform:scale(1.28)}28%{transform:scale(.98)}42%{transform:scale(1.2)}70%{transform:scale(1)}}
+.record{font:800 14px var(--mono);color:#ffe7a3;text-shadow:0 0 12px rgba(232,182,72,.8)}
+/* Mode Flash : la pression monte (lumière qui change, écran qui bat). */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:4;opacity:0;transition:opacity .4s}
+body.mode-flash::before{opacity:1;box-shadow:inset 0 0 90px -20px rgba(232,182,72,.45)}
+body.mode-flash .qcard{border-color:#6b4a16;box-shadow:0 0 0 1px rgba(232,182,72,.25) inset,0 20px 50px -25px rgba(0,0,0,.8)}
+body.stress::before{box-shadow:inset 0 0 120px -10px rgba(214,60,60,.55);animation:alerte 1s ease-in-out infinite}
+body.panique::before{box-shadow:inset 0 0 160px 0 rgba(230,40,40,.7);animation:alerte .6s ease-in-out infinite}
+body.panique .qcard{animation:tremble .45s ease-in-out infinite}
+body.stress .chrono span{color:#ffb3b3}
+@keyframes alerte{50%{opacity:.35}}
+@keyframes tremble{0%,100%{transform:translateX(0)}25%{transform:translateX(-1.5px)}75%{transform:translateX(1.5px)}}
+.chaos{display:none;position:relative;margin:12px auto -4px;width:max-content;font:900 22px/1 var(--sans);letter-spacing:.32em;padding:6px 10px 6px 16px;border-radius:10px;color:#ffd9d9;background:linear-gradient(135deg,rgba(163,41,61,.85),rgba(74,18,25,.85));box-shadow:0 0 0 1px rgba(232,182,72,.6) inset,0 0 26px rgba(230,60,60,.7);text-shadow:0 0 12px rgba(255,80,80,.9)}
+body.stress .chaos{display:block;animation:chaos-bouge 1.3s steps(1) infinite}   /* bouge, sans clignoter (Trésor, 12/10/2026) */
+body.panique .chaos{animation:chaos-bouge 1s steps(1) infinite}   /* plus vite à 5 s, toujours sans clignoter */
+@keyframes chaos-bouge{0%{transform:translate(0,0) rotate(0)}20%{transform:translate(-26px,-3px) rotate(-3deg)}40%{transform:translate(22px,2px) rotate(2deg)}60%{transform:translate(-12px,4px) rotate(-1deg)}80%{transform:translate(30px,-2px) rotate(3deg)}}
+.bilan{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin-bottom:8px}
+.bl-l{font:13px var(--mono);color:var(--muted)} .bl-l b{color:var(--text)}
+.bl-t{margin:14px 0 2px;font:600 11px var(--mono);letter-spacing:.12em;text-transform:uppercase} .bl-t.ok{color:var(--vert)} .bl-t.ko{color:#e9a3ad}
+.bl-pas{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-weight:700;color:#ffe7a3}
+.rejouer{display:grid;gap:8px;margin-bottom:8px}
+.rj{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;border:1px solid var(--line);background:var(--card);border-radius:16px;padding:14px 16px;color:var(--text)}
+.rj b{font-size:16px} .rj small{font:11px var(--mono);color:var(--muted)}
+.rj.or{border:0;color:#2a1a05;background:linear-gradient(135deg,#fbe6a2,#e0b048 55%,#b07b1e);box-shadow:0 10px 24px -12px rgba(232,182,72,.9)} .rj.or small{color:#4a3206}
+/* Les dessins animés des rangs */
+.d{display:block;overflow:visible}
+.d-nul .tete{transform-origin:60px 62px;animation:honte 2.6s ease-in-out infinite}
+@keyframes honte{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(5deg) translateY(1px)}}
+.d-nul .goutte{animation:goutte 2.6s ease-in infinite}
+@keyframes goutte{0%,30%{transform:translateY(0);opacity:0}40%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+.d-gi .gi{transform-origin:60px 108px;animation:souffle 3s ease-in-out infinite}
+@keyframes souffle{50%{transform:scale(1.02,1.015)}}
+.d-gi .b1{transform-origin:59px 74px;animation:vent 1.8s ease-in-out infinite}
+.d-gi .b2{transform-origin:61px 74px;animation:vent 1.8s ease-in-out infinite reverse}
+@keyframes vent{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(7deg)}}
+.d .etoiles{animation:scintille 1.6s ease-in-out infinite}
+@keyframes scintille{0%,100%{opacity:.2;transform:scale(.9)}50%{opacity:1;transform:scale(1.05)}}
+.d-moyen .corps{transform-origin:56px 80px;animation:leve 2.8s ease-in-out infinite}
+@keyframes leve{0%,15%{transform:translateY(0) rotate(0)}55%,70%{transform:translateY(-12px) rotate(-6deg)}100%{transform:translateY(0) rotate(0)}}
+.d-moyen .fleche-haut{animation:fleche 2.8s ease-in-out infinite}
+@keyframes fleche{0%,100%{transform:translateY(4px);opacity:.4}55%{transform:translateY(-4px);opacity:1}}
+.d-champ .coupe{transform-origin:60px 106px;animation:saute 2.2s ease-in-out infinite}
+@keyframes saute{0%,60%,100%{transform:translateY(0)}75%{transform:translateY(-8px) rotate(-3deg)}88%{transform:translateY(0) rotate(2deg)}}
+.d-champ .reflet{animation:reflet 2.2s ease-in-out infinite}
+@keyframes reflet{0%{transform:translateX(-10px) skewX(-18deg);opacity:0}40%{opacity:.5}80%,100%{transform:translateX(50px) skewX(-18deg);opacity:0}}
+.d-maitre .flotte{animation:flotte 3s ease-in-out infinite}
+@keyframes flotte{50%{transform:translateY(-7px)}}
+.d-maitre .aura{transform-origin:60px 60px;animation:aura 3s ease-in-out infinite}
+.d-maitre .a2{animation-delay:-1.5s}
+@keyframes aura{0%{transform:scale(.85);opacity:0}50%{opacity:.9}100%{transform:scale(1.12);opacity:0}}
+.d-expert .cerveau{transform-origin:60px 60px;animation:pense 1.8s ease-in-out infinite}
+@keyframes pense{50%{transform:scale(1.04);filter:drop-shadow(0 0 8px rgba(255,200,210,.7))}}
+.d-expert .eclair{animation:neurone 1.8s ease-in-out infinite}
+.d-expert .e2{animation-delay:-.6s} .d-expert .e3{animation-delay:-1.2s}
+@keyframes neurone{0%,100%{opacity:0;transform:scale(.4)}40%{opacity:1;transform:scale(1.4)}}
+.d-boss .bras{transform-origin:22px 98px;animation:muscle 1.6s ease-in-out infinite}
+@keyframes muscle{0%,100%{transform:rotate(0) scale(1)}45%{transform:rotate(-4deg) scale(1.05)}}
+.d-boss .veine{animation:veine 1.6s ease-in-out infinite}
+@keyframes veine{45%{stroke-width:3;stroke:#7a4e0c}}
+.d-coffre .couvercle{transform-origin:20px 58px;transition:transform .5s}
+.d-coffre.ouvert .couvercle{animation:ouvre 1s cubic-bezier(.2,1.4,.4,1) .2s forwards}
+@keyframes ouvre{to{transform:rotate(-28deg) translateY(-6px)}}
+@media (max-width:380px){.rangs{grid-template-columns:repeat(2,1fr)}.rang-t b{font-size:19px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -194,9 +348,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 <div class="prog" id="prog" hidden><i></i></div>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>window.OneSignalDeferred = window.OneSignalDeferred || []; OneSignalDeferred.push(async function(OneSignal){ await OneSignal.init({ appId: "601d4571-b213-41a3-80cc-f159841528f0" }); });</script>
-<script src="logo.js?v=202610072343"></script>
-<script src="questions.js?v=202610072343"></script>
-<script src="cartes.js?v=202610072343"></script>
+<script src="logo.js?v=202610120156"></script>
+<script src="questions.js?v=202610120156"></script>
+<script src="cartes.js?v=202610120156"></script>
 <script>
 (function(){
   var CFG = window.QR_CONFIG || {niveaux:{}, themes:[]};
@@ -273,14 +427,15 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     else { o.p = Math.min(ECHELLE.length - 1, x.p + 1); o.ms = ECHELLE[o.p]*JOUR; }
     return o;
   }
-  function niv(n){ return "N" + n + " · " + (CFG.niveaux[n] || ""); }
+  // Difficulté en étoiles (Trésor, 12/10/2026) : jamais le même mot que les rangs du joueur.
+  function niv(n){ return ["", "★", "★★", "★★★"][n] + " " + (CFG.niveaux[n] || ""); }
   function toast(t){ var d = document.createElement("div"); d.className = "toast"; d.textContent = t; document.body.appendChild(d); setTimeout(function(){ d.remove(); }, 2600); }
   function de(theme, chapitre){ return CARTES.filter(function(c){ return okNiv(c) && (!theme || c.theme === theme) && (!chapitre || c.chapitre === chapitre); }); }
   function pct(a, b){ return b ? Math.round(a / b * 100) : 0; }
 
   /* ---------- Accueil ---------- */
   function accueil(){
-    clearInterval(chronoMinuteur); chronoCle = null;
+    clearInterval(chronoMinuteur); chronoCle = null; document.body.classList.remove("stress", "panique", "mode-flash");
     prog.hidden = true; rafraichir = accueil;
     var l = de(), du = l.filter(aRevoir).length, acq = l.filter(maitrise).length;
     var h = LOGO.replace('class="logo"', 'class="logo grand"') + '<div class="kicker">Second cerveau · OBSIDIAN-KB</div><h1>Mes cartes</h1><p class="lead">Comme au code : une question, 3 réponses, tu valides. Séries de 40, réussi à 35.</p>';
@@ -297,19 +452,25 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     if (tNouv.length && (lire(K_BAN).maj || "") !== MAJ){
       var cN = CARTES.filter(estNouv), chN = [];
       cN.forEach(function(x){ if (chN.indexOf(x.chapitre) < 0) chN.push(x.chapitre); });
-      h += '<button class="ban" data-ban><span class="k">✦ Mise à jour ✦</span><span class="ligne"><h2>Nouveau</h2><span class="cri">On va tout arracher, les gars !</span></span>'
+      h += '<button class="ban" data-ban><span class="k">✦ Mise à jour ✦</span><span class="ligne"><h2>Nouveau</h2><span class="cri">Décroche la lun<span class="e-lune">e<svg class="fleches" viewBox="0 0 44 64" aria-hidden="true"><defs><linearGradient id="gFle" gradientUnits="userSpaceOnUse" x1="0" y1="62" x2="0" y2="6"><stop offset="0" stop-color="#b07b1e"/><stop offset=".6" stop-color="#ecc05a"/><stop offset="1" stop-color="#fff6d2"/></linearGradient></defs><g class="f f1" transform="rotate(8 4 62)"><path d="M4 62 V20" stroke="url(#gFle)" stroke-width="2.6" stroke-linecap="round"/><path d="M-1.5 27 L4 17 L9.5 27" fill="none" stroke="#ffe7a3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g><g class="f f2" transform="rotate(28 4 62)"><path d="M4 62 V10" stroke="url(#gFle)" stroke-width="2.8" stroke-linecap="round"/><path d="M-2 17 L4 6 L10 17" fill="none" stroke="#fff6d2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></g><g class="f f3" transform="rotate(48 4 62)"><path d="M4 62 V20" stroke="url(#gFle)" stroke-width="2.6" stroke-linecap="round"/><path d="M-1.5 27 L4 17 L9.5 27" fill="none" stroke="#ffe7a3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g></svg></span></span></span>'
         + '<p>' + cN.length + ' nouvelle' + (cN.length > 1 ? 's' : '') + ' carte' + (cN.length > 1 ? 's' : '') + ' : « ' + esc(chN.join(" », « ")) + ' »</p>'
         + '<span class="go">Touche ici pour commencer ›</span></button>';
     }
-    h += '<div class="stats"><div class="stat hot"><b>'+du+'</b><span>à revoir</span></div><div class="stat ok"><b>'+acq+'</b><span>maîtrisées</span></div><div class="stat"><b>'+l.length+'</b><span>cartes</span></div></div>';
-    h += niveaux();
-    var sj = serieJours(), fait = jours.dernier === aujourdhui();
-    h += '<div class="jours'+(fait ? " ok" : "")+'"><b>🔥 '+sj+' jour'+(sj > 1 ? "s" : "")+' d\'affilée</b><span>'+(fait ? "Série du jour faite. À demain." : (sj ? "Fais une série aujourd\'hui pour ne pas perdre ta flamme." : "Fais une série par jour : ta flamme grandit."))+(jours.record ? ' · record '+jours.record : '')+'</span></div>';
-    h += '<div class="sync'+(nuage ? " on" : "")+'"><i></i>'+(nuage ? "Progrès suivis sur PC et iPhone" : "Progrès gardés sur cet appareil")+'</div>';
     var sg = serieGardee();
     if (sg) h += '<button class="all" data-reprendre><span>Reprendre ma série</span><small>question '+((sg.fait || 0) + 1)+' / '+sg.total+' ›</small></button>';
-    h += '<button class="'+(sg ? "ghost" : "all")+'" data-all><span>'+(sg ? "Nouvelle série du jour" : "Série du jour")+'</span><small>'+Math.min(du, SERIE)+' cartes ›</small></button>';
+    // « Jouer » en haut de l'accueil (Trésor, 12/10/2026 : « je ne le vois pas ») : toutes les questions, au hasard, en 2 modes notés à part.
+    h += '<div class="sec jouer">▶ Jouer · toutes les questions, au hasard</div><div class="modes">'
+      + '<button class="mode classique" data-all><span class="mode-i">⏱</span><b>Classique</b><small>2 min par question · 2 chances</small><em>'+Math.min(l.length, SERIE)+' au hasard parmi '+l.length.toLocaleString("fr-FR")+' ›</em></button>'
+      + '<button class="mode flash" data-flash><span class="mode-i eclair-anime"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="gFl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff6d2"/><stop offset=".5" stop-color="#ecc05a"/><stop offset="1" stop-color="#b07b1e"/></linearGradient></defs><path d="M23 3 L8 22 H18 L15 37 L32 15 H21 Z" fill="url(#gFl)" stroke="#7a4e0c" stroke-width="1.2" stroke-linejoin="round"/></svg></span><b>Flash 30 s</b><small>1 chance · toutes les 5, 20 s</small><em>'+Math.min(l.length, SERIE)+' au hasard parmi '+l.length.toLocaleString("fr-FR")+(G.recordFlash ? ' · record '+G.recordFlash+' %' : '')+' ›</em></button></div>';
+    h += carteRang() + jugement();
+    h += '<div class="stats"><div class="stat hot"><b>'+du+'</b><span>à revoir</span></div><div class="stat ok"><b>'+acq+'</b><span>maîtrisées</span></div><div class="stat"><b>'+l.length+'</b><span>cartes</span></div></div>';
+    h += niveaux();
+    var sj = serieJours(), fait = jours.dernier === aujourdhui(), nObj = G.obj.d === aujourdhui() ? G.obj.n : 0;
+    h += '<div class="jours'+(fait ? " ok" : "")+'">'+anneau()+'<span class="jours-t"><b>🔥 '+sj+' jour'+(sj > 1 ? "s" : "")+' d\'affilée</b><span>'+(nObj >= OBJ ? "Objectif du jour atteint. Tout le reste, c’est du bonus." : "Objectif du jour : "+Math.min(nObj, OBJ)+" / "+OBJ+" questions.")+(jours.record ? ' · record '+jours.record+' j' : '')+'</span></span></div>';
+    h += '<div class="sync'+(nuage ? " on" : "")+'"><i></i>'+(nuage ? "Progrès suivis sur PC et iPhone" : "Progrès gardés sur cet appareil")+'</div>';
     h += '<button class="ghost" data-ana><span>Mes analyses</span><small>forts · faibles · oublis ›</small></button>';
+    h += '<button class="ghost" data-tro><span>Mes trophées et mes rangs</span><small>'+TROPHEES.filter(function(t){ return G.trophees[t.id]; }).length+' / '+TROPHEES.length+' ›</small></button>';
+    h += '<form class="cherche" data-cherche><span>Retrouver une question</span><input inputmode="numeric" placeholder="N°" aria-label="Numéro de la question"><button>Ouvrir</button></form>';
     h += '<div class="sec">Thèmes</div>';
     var nv = nouveautes();
     CFG.themes.forEach(function(t){
@@ -321,7 +482,8 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     h += '<p class="note">Tes progrès restent sur ce téléphone. Sauvegarde-les de temps en temps.</p>';
     app.innerHTML = h;
     lierNiveaux(accueil);
-    app.querySelector("[data-all]").onclick = function(){ lancer(de(), "Série du jour", accueil, true); };
+    app.querySelector("[data-all]").onclick = function(){ lancer(de(), "Toutes les questions · Classique", accueil, true); };
+    app.querySelector("[data-flash]").onclick = function(){ lancer(de(), "Toutes les questions · Flash 30 s", accueil, true, false, "flash"); };
     var rp = app.querySelector("[data-reprendre]"); if (rp) rp.onclick = reprendre;
     var bnotif = app.querySelector("[data-notif]"); if (bnotif) bnotif.onclick = activerNotif;
     var bn = app.querySelector("[data-ban]");
@@ -331,6 +493,9 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       setTimeout(function(){ theme(tNouv[0].id); toast("✦ Touche le chapitre qui brille."); }, 850);
     };
     app.querySelector("[data-ana]").onclick = analyses;
+    app.querySelector("[data-tro]").onclick = trophees;
+    app.querySelector("[data-rangs]").onclick = trophees;
+    var fc = app.querySelector("[data-cherche]"); fc.onsubmit = function(e){ e.preventDefault(); chercherNum(fc.querySelector("input").value); };
     app.querySelectorAll("[data-t]").forEach(function(b){ b.onclick = function(){ theme(b.dataset.t); }; });
     app.querySelector("[data-exp]").onclick = exporter;
     app.querySelector("[data-imp]").onchange = importer;
@@ -376,14 +541,19 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 
   /* ---------- Série de cartes ---------- */
   function melanger(l){ for (var i = l.length - 1; i > 0; i--){ var j = Math.floor(Math.random()*(i+1)); var x = l[i]; l[i] = l[j]; l[j] = x; } return l; }
-  function lancer(liste, titre, retour, melange, forcer){
+  function lancer(liste, titre, retour, melange, forcer, mode, exclure){
+    s.mode = mode || "classique";
+    s.source = forcer ? null : liste; s.dejaTirees = {};   // la réserve de la série (pour « Nouvelle série ») ; relancer() remet ensuite la réserve et les déjà tirées
+    // « Nouvelle série de 40 » (Trésor, 12/10/2026) : jamais les questions des séries précédentes, tant qu'il en reste.
+    if (exclure){ var reste = liste.filter(function(c){ return !exclure[c.id]; }); if (reste.length >= 10) liste = reste; }
     var dues = forcer ? liste.slice() : liste.filter(function(c){ return aRevoir(c) && !nouvelle(c); });
     var neuves = forcer ? [] : liste.filter(nouvelle);
-    dues.sort(function(a,b){ return m(a).due - m(b).due; });
-    neuves.sort(function(a,b){ return a.niveau - b.niveau; });   // les niveaux montent : N1, puis N2, puis N3
-    if (melange){ melanger(dues); }
-    var l = dues.concat(neuves).slice(0, SERIE);
+    // Hasard total (Trésor, 12/10/2026, décision 52) : jamais le même ordre, tous niveaux mélangés.
+    // Les cartes à revoir passent d'abord (les ratées reviennent plus souvent), puis tout est mélangé.
+    melanger(dues); melanger(neuves);
+    var l = melanger(dues.concat(neuves).slice(0, SERIE));
     s.file = l; s.total = l.length; s.fait = 0; neuf(); s.rates = {}; s.premier = {}; s.journal = []; s.titre = titre; s.retour = retour; garderSerie();
+    s.revue = null; s.xpDebut = G.xp; G.combo = 0;
     carte();
   }
 
@@ -444,18 +614,25 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
      3 réponses A B C, tu sélectionnes puis tu valides. Juste : la correction et « Pour bien comprendre ».
      Faux : 2e tentative avec 3 nouvelles réponses. Une case pour écrire, facultative. */
   function carte(){
-    prog.hidden = false; rafraichir = null;
+    prog.hidden = false; rafraichir = null; // Flash : le chaos seulement pendant la question et le minuteur ; une fois la réponse donnée, écran net pour bien lire (Trésor, 12/10/2026).
+    document.body.classList.toggle("mode-flash", s.mode === "flash" && !!s.file.length && !s.vue && (s.revue === null || s.revue === undefined));
+    if (s.vue || (s.revue !== null && s.revue !== undefined)) document.body.classList.remove("stress", "panique");
     prog.firstChild.style.width = pct(s.fait, s.total) + "%";
     var top = '<div class="top"><button class="x" data-x>‹ Retour</button>'+LOGO+'<span class="count">'+(s.file.length ? 'Question '+(s.fait+1)+' / '+s.total : '')+'</span></div>';
     if (!s.file.length){
       if (s.total) return resultats();
       app.innerHTML = top + '<div class="empty">Rien à revoir ici pour l\'instant.<br>Reviens plus tard, ou choisis un autre thème.</div>';
-      app.querySelectorAll("[data-x]").forEach(function(b){ b.onclick = s.retour; });
+      app.querySelectorAll("[data-x]").forEach(function(b){ b.onclick = quitterSerie; });
       return;
     }
+    if (s.revue !== null && s.revue !== undefined) return revoir(top);
     var base = s.file[0], c = versionBrute(base), t = THEME[c.theme] || {tag: c.theme}, r = c.r || {}, J = jeu(base, c);
-    var h = top + '<div class="meta"><span class="dotr"></span><span class="t">'+esc(t.tag)+'</span><span>· '+esc(c.chapitre)+'</span><span>· '+esc(niv(c.niveau))+'</span>'+(estNouv(base) ? NOUV : '')+'</div>';
-    h += '<div class="qcard">';
+    // Flèches (Trésor, 12/10/2026) : ‹ revoir la question d'avant ; › « Je la connais » (avant de répondre) ou « Suivante » (après).
+    var h = top + '<div class="nav"><button class="fl" data-prev'+(s.journal.length ? '' : ' disabled')+'>‹ Précédente</button>'
+      + (G.combo >= 2 ? '<span class="combo'+(G.combo >= 10 ? ' feu' : G.combo >= 5 ? ' chaud' : '')+'">x'+G.combo+' combo</span>' : '<span></span>')
+      + '<button class="fl or" data-next>'+(s.vue ? 'Suivante ›' : s.tentative === 2 ? 'Passer ›' : 'Je la connais ›')+'</button></div>';
+    h += '<div class="meta"><span class="dotr"></span><span class="t">'+esc(t.tag)+'</span><span>· '+esc(c.chapitre)+'</span><span>· '+esc(niv(c.niveau))+'</span>'+(estNouv(base) ? NOUV : '')+'</div>';
+    h += '<div class="qcard">' + (base.num ? '<span class="num">N°'+base.num+'</span>' : '');
     if (c.competence) h += '<div class="travail">Ce qu\'on travaille : '+esc(c.competence)+'</div>';
     // La citation passe avant la question (« Situation ») si la question parle d'elle,
     // ou si elle ne contient pas la réponse. Sinon elle donnerait la réponse : elle s'affiche après.
@@ -471,6 +648,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       h += '<button class="'+cl+'" data-ch="'+i+'"'+(s.vue ? " disabled" : "")+'><span class="lettre">'+String.fromCharCode(65+i)+'</span><span>'+esc(x)+'</span></button>';
     });
     h += '</div>';
+    if (!s.vue && s.mode === "flash") h += '<div class="chaos" aria-hidden="true">CHAOS</div>';   // s'allume à 12 s de la fin et bouge pour déconcentrer (sans clignoter) (Trésor, 12/10/2026)
     if (!s.vue) h += '<div class="chrono"><i id="chrono-barre"></i><span id="chrono-txt"></span></div>';
     if (!s.vue) h += '<button class="valider" data-valider'+(s.sel === null ? " disabled" : "")+'>Valider</button>';
     if (s.vue){
@@ -494,10 +672,18 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       var x = m(base), dH = duree(prochain(x, 2).ms), dS = duree(prochain(x, 3).ms);
       if (s.choisi !== J.bon || s.tentative === 2) h += '<div class="btns un"><button class="b1" data-r="1">Suivant<small>pas du premier coup : revient dans 10 min</small></button></div>';
       else h += '<div class="btns deux"><button class="b2" data-r="2">J\'ai hésité<small>revient '+dH+'</small></button><button class="b3" data-r="3">Je savais<small>revient '+dS+'</small></button></div>';
+      if (G.coffrePret) h += '<button class="coffre-btn" data-coffre><span class="coffre-ico">'+DESSIN_COFFRE+'</span><span><b>Coffre trouvé !</b><small>Touche pour l\'ouvrir</small></span></button>';
       h += '<button class="signal'+(sig[base.id] ? " on" : "")+'" data-sig>'+(sig[base.id] ? "⚑ carte signalée à Claude" : "⚐ cette carte est mauvaise ? signale-la")+'</button>';
     }
     app.innerHTML = h;
-    app.querySelector("[data-x]").onclick = s.retour;
+    app.querySelector("[data-x]").onclick = quitterSerie;
+    var bp =app.querySelector("[data-prev]"); if (bp) bp.onclick = function(){ if (s.journal.length){ clearInterval(chronoMinuteur); s.revue = s.journal.length - 1; carte(); } };
+    var bx = app.querySelector("[data-next]"); if (bx) bx.onclick = function(){
+      if (!s.vue && s.tentative === 2){ noter(1); return; }   // déjà ratée une fois : « Passer » compte comme pas du premier coup (jamais « Je savais »)
+      if (!s.vue){ G.connue = true; noter(3); return; }   // « Je la connais » : compte comme « Je savais », elle revient dans quelques jours
+      noter(s.choisi !== J.bon || s.tentative === 2 ? 1 : 3);
+    };
+    var bc = app.querySelector("[data-coffre]"); if (bc) bc.onclick = ouvrirCoffre;
     app.querySelectorAll("[data-ch]").forEach(function(btn){ btn.onclick = function(){ if (!s.vue){ s.sel = +btn.dataset.ch; carte(); } }; });
     var val = app.querySelector("[data-valider]");
     if (val) val.onclick = function(){ valider(J); };
@@ -507,21 +693,32 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     app.querySelectorAll("[data-r]").forEach(function(btn){ btn.onclick = function(){ noter(+btn.dataset.r); }; });
     var g = app.querySelector("[data-sig]"); if (g) g.onclick = function(){ if (sig[base.id]) delete sig[base.id]; else sig[base.id] = new Date().toISOString().slice(0,10); ecrire(K_SIG, sig); envoyerSignal(); carte(); };
   }
-  var CHRONO = 120, chronoCle = null, chronoFin = 0, chronoMinuteur = null;
+  // Quitter une série (‹ Retour) : le minuteur s'arrête et l'écran redevient net, quel que soit l'écran de retour (thème, analyses, accueil).
+  function quitterSerie(){ clearInterval(chronoMinuteur); chronoCle = null; document.body.classList.remove("stress", "panique", "mode-flash"); s.retour(); }
+  var CHRONO = 120, chronoCle = null, chronoFin = 0, chronoMinuteur = null, chronoDuree = 120, dernierTic = -1;
+  // Classique : 2 min par question (décision 38). Flash (Trésor, 12/10/2026) : 30 s, et toutes les 5 questions, 20 s.
+  function dureeQuestion(){ return s.mode === "flash" ? (((s.journal || []).length + 1) % 5 === 0 ? 20 : 30) : CHRONO; }
   function lancerChrono(cle, J){
     clearInterval(chronoMinuteur);
-    if (s.vue) { chronoCle = null; return; }
-    if (cle !== chronoCle){ chronoCle = cle; chronoFin = Date.now() + CHRONO * 1000; }
+    if (s.vue) { chronoCle = null; document.body.classList.remove("stress", "panique"); return; }
+    if (cle !== chronoCle){ chronoCle = cle; chronoDuree = dureeQuestion(); chronoFin = Date.now() + chronoDuree * 1000; dernierTic = -1; }
     function tic(){
       var reste = Math.max(0, Math.ceil((chronoFin - Date.now()) / 1000));
       var b = document.getElementById("chrono-barre"), t = document.getElementById("chrono-txt");
-      if (b) b.style.width = (reste / CHRONO * 100) + "%";
+      if (b) b.style.width = (reste / chronoDuree * 100) + "%";
       if (t) t.textContent = "⏱ " + Math.floor(reste / 60) + ":" + String(reste % 60).padStart(2, "0");   // 2 min (décision 38) : affiché 1:59
-      if (b && reste <= 10) b.parentNode.classList.add("presse");
+      if (b && reste <= (s.mode === "flash" ? 7 : 10)) b.parentNode.classList.add("presse");
+      if (s.mode === "flash"){
+        // La pression monte : la lumière change, l'écran bat plus vite, un tic sonne sur les 5 dernières secondes.
+        document.body.classList.toggle("stress", reste <= 12);
+        document.body.classList.toggle("panique", reste <= 5);
+        if (reste <= 5 && reste > 0 && reste !== dernierTic){ dernierTic = reste; bip([reste <= 2 ? 1320 : 990], .05); }
+      }
       if (reste === 0){
         clearInterval(chronoMinuteur);
-        if (s.tentative === 1){ s.mauvais = null; s.tentative = 2; s.sel = null; toast("Temps écoulé : 2e tentative."); }
-        else { s.choisi = "(temps écoulé)"; s.vue = true; s.sel = null; }
+        document.body.classList.remove("stress", "panique");
+        if (s.tentative === 1 && s.mode !== "flash"){ s.mauvais = null; s.tentative = 2; s.sel = null; toast("Temps écoulé : 2e tentative."); }
+        else { s.choisi = "(temps écoulé)"; s.vue = true; s.sel = null; s.tropTard = true; }
         carte();
       }
     }
@@ -530,7 +727,8 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
   function valider(J){
     if (s.sel === null) return;
     var x = J.choix[s.sel];
-    if (x === J.bon || s.tentative === 2){ s.choisi = x; s.vue = true; }
+    s.reste = Math.max(0, Math.ceil((chronoFin - Date.now()) / 1000));   // pour le bonus de vitesse du mode Flash
+    if (x === J.bon || s.tentative === 2 || s.mode === "flash"){ s.choisi = x; s.vue = true; }   // Flash : une seule chance
     else { s.mauvais = x; s.tentative = 2; }
     s.sel = null; carte();
   }
@@ -550,23 +748,28 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
   var CARTE_ID = {}; CARTES.forEach(function(c){ CARTE_ID[c.id] = c; });
   function garderSerie(){
     if (!s.file.length){ try { localStorage.removeItem(K_SERIE); } catch(e){} return; }
-    ecrire(K_SERIE, {ids: s.file.map(function(c){ return c.id; }), fait: s.fait, total: s.total, titre: s.titre,
-      journal: s.journal.map(function(j){ return {id: j.c.id, note: j.note, ms: j.ms}; }), premier: s.premier, rates: s.rates});
+    ecrire(K_SERIE, {ids: s.file.map(function(c){ return c.id; }), fait: s.fait, total: s.total, titre: s.titre, mode: s.mode,
+      journal: s.journal.map(function(j){ return {id: j.c.id, note: j.note, ms: j.ms, connue: !!j.connue}; }), premier: s.premier, rates: s.rates});
   }
   function serieGardee(){ var g = lire(K_SERIE); return g && g.ids && g.ids.length ? g : null; }
   function reprendre(){
     var g = serieGardee(); if (!g) return;
     s.file = g.ids.map(function(id){ return CARTE_ID[id]; }).filter(Boolean);
     s.fait = g.fait || 0; s.total = g.total || s.file.length; s.titre = g.titre || "Ma série";
-    s.premier = g.premier || {}; s.rates = g.rates || {}; s.retour = accueil;
-    s.journal = (g.journal || []).filter(function(j){ return CARTE_ID[j.id]; }).map(function(j){ return {c: versionBrute(CARTE_ID[j.id]), note: j.note, ms: j.ms}; });
+    s.premier = g.premier || {}; s.rates = g.rates || {}; s.retour = accueil; s.mode = g.mode || "classique"; s.revue = null; s.xpDebut = G.xp; s.source = null; s.dejaTirees = {};
+    s.journal = (g.journal || []).filter(function(j){ return CARTE_ID[j.id]; }).map(function(j){ return {c: versionBrute(CARTE_ID[j.id]), note: j.note, ms: j.ms, connue: !!j.connue}; });
     neuf(); carte();
   }
   function neuf(){ clearInterval(chronoMinuteur); chronoCle = null; s.vue = false; s.tentative = 1; s.sel = null; s.mauvais = null; s.choisi = null; }
   function noter(note){
     var c = s.file.shift(), x = m(c), vu = version(c), n = prochain(x, note);
-    if (!s.premier[c.id]){ s.premier[c.id] = note; s.journal.push({c: vu, note: note, ms: n.ms}); }
+    if (!s.premier[c.id]){
+      s.premier[c.id] = note;
+      s.journal.push({c: vu, note: note, ms: n.ms, bon: reponses(c, vu).bon, connue: !!G.connue});
+      gagner(note, s.tentative === 2 && s.choisi === reponses(c, vu).bon, !!G.connue);   // points, combo, objectif, trophées, coffre
+    }
     else s.journal.forEach(function(j){ if (j.c.id === c.id) j.ms = n.ms; });
+    G.connue = false;
     x.vus++; x.dernier = Date.now(); x.derniere = note; x.p = n.p; x.serie = n.serie; x.due = Date.now() + n.ms;
     if (note === 1){
       x.ko++;
@@ -586,6 +789,245 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     neuf(); garderSerie(); carte();
   }
 
+  /* ---------- Le jeu (Trésor, 12/10/2026, décision 52) ----------
+     Points, rangs avec un dessin animé, combo doré, objectif du jour, trophées, coffre surprise, jugement de chaque session.
+     Tout est gardé sur l'appareil (qr-jeu-v1) et, sur le lien privé, synchronisé PC + iPhone avec les notes. */
+  var K_JEU = "qr-jeu-v1", OBJ = 20;
+  var G = (function(){ var g = lire(K_JEU); return {
+    xp: g.xp || 0, bonnes: g.bonnes || 0, total: g.total || 0, combo: 0, comboMax: g.comboMax || 0,
+    obj: g.obj || {d: "", n: 0, fait: false}, objAtteints: g.objAtteints || 0, trophees: g.trophees || {},
+    coffres: g.coffres || 0, avantCoffre: g.avantCoffre || (8 + Math.floor(Math.random() * 5)), coffrePret: !!g.coffrePret,
+    double: g.double || 0, sansFaute: g.sansFaute || 0, recordFlash: g.recordFlash || 0, connue: false, maj: g.maj || 0 }; })();
+  function sauverJeu(){
+    G.maj = Date.now(); ecrireJeu(); marquerNotes();
+  }
+  function ecrireJeu(){
+    ecrire(K_JEU, {xp: G.xp, bonnes: G.bonnes, total: G.total, comboMax: G.comboMax, obj: G.obj, objAtteints: G.objAtteints,
+      trophees: G.trophees, coffres: G.coffres, avantCoffre: G.avantCoffre, coffrePret: G.coffrePret, double: G.double, sansFaute: G.sansFaute, recordFlash: G.recordFlash, maj: G.maj});
+  }
+  function jeuExport(){ return lire(K_JEU); }
+  function jeuFusion(d){   // l'appareil qui a le plus de points gagne ; les compteurs et les records ne reculent jamais
+    if (!d || !(d.xp > G.xp)) return false;
+    ["xp","bonnes","total","comboMax","objAtteints","coffres","sansFaute","recordFlash"].forEach(function(k){ if (typeof d[k] === "number") G[k] = Math.max(G[k] || 0, d[k]); });
+    ["avantCoffre","coffrePret","double"].forEach(function(k){ if (d[k] !== undefined) G[k] = d[k]; });
+    if (d.obj && d.obj.d && (d.obj.d > (G.obj.d || "") || (d.obj.d === G.obj.d && (d.obj.n || 0) > G.obj.n))) G.obj = d.obj;
+    var t = d.trophees || {}; for (var k in t) if (!G.trophees[k]) G.trophees[k] = t[k];
+    G.maj = d.maj || G.maj; ecrireJeu(); return true;
+  }
+
+  /* Les dessins animés des rangs (SVG + CSS). Couleurs : bordeaux, caramel et or de l'app. */
+  var GI = function(ceinture, bord, eclat){ return '<svg viewBox="0 0 120 120" class="d d-gi" aria-hidden="true">'
+    + '<path class="gi" d="M30 30 L52 22 L60 40 L68 22 L90 30 L101 68 L85 73 L83 108 L37 108 L35 73 L19 68 Z" fill="#f4efe8" stroke="#cdbfb1" stroke-width="2" stroke-linejoin="round"/>'
+    + '<path d="M52 22 L60 62 L68 22" fill="none" stroke="#cdbfb1" stroke-width="3" stroke-linejoin="round"/>'
+    + '<path d="M60 62 L60 108" stroke="#e3d9cd" stroke-width="2"/>'
+    + '<rect x="35" y="64" width="50" height="9" rx="2" fill="'+ceinture+'" stroke="'+bord+'" stroke-width="1.5"/>'
+    + '<g class="bout b1"><path d="M57 72 L50 96 L57 98 L62 74 Z" fill="'+ceinture+'" stroke="'+bord+'" stroke-width="1.5"/></g>'
+    + '<g class="bout b2"><path d="M63 72 L70 96 L63 98 L58 74 Z" fill="'+ceinture+'" stroke="'+bord+'" stroke-width="1.5"/></g>'
+    + '<rect x="54" y="62" width="12" height="13" rx="2.5" fill="'+ceinture+'" stroke="'+bord+'" stroke-width="1.5"/>'
+    + (eclat ? '<g class="etoiles"><path d="M98 18 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z" fill="#f5d77a"/><path d="M18 40 l1.5 4 4 1.5 -4 1.5 -1.5 4 -1.5 -4 -4 -1.5 4 -1.5z" fill="#f5d77a"/></g>' : '')
+    + '</svg>'; };
+  var DESSINS = {
+    nul: '<svg viewBox="0 0 120 120" class="d d-nul" aria-hidden="true">'
+      + '<path d="M36 110 Q38 72 60 68 Q82 72 84 110 Z" fill="#4a3530"/>'
+      + '<g class="tete"><circle cx="60" cy="44" r="17" fill="#c4b1a5"/>'
+      + '<path d="M80 92 Q94 74 76 50" stroke="#4a3530" stroke-width="10" fill="none" stroke-linecap="round"/>'
+      + '<ellipse cx="70" cy="46" rx="11" ry="8" fill="#d4c1b5" transform="rotate(-20 70 46)"/>'
+      + '<path d="M62 42 l10 -4 M63 47 l11 -3 M64 52 l10 -2" stroke="#b39f93" stroke-width="1.6" stroke-linecap="round"/></g>'
+      + '<path class="goutte" d="M42 30 q-4 6 0 9 q4 -3 0 -9z" fill="#8cc4e0"/></svg>',
+    blanche: GI("#fbfaf7", "#bdb3a8", false),
+    moyen: '<svg viewBox="0 0 120 120" class="d d-moyen" aria-hidden="true">'
+      + '<rect x="30" y="80" width="44" height="7" rx="3" fill="#6b4a3a"/><rect x="34" y="87" width="5" height="22" fill="#6b4a3a"/><rect x="65" y="87" width="5" height="22" fill="#6b4a3a"/>'
+      + '<g class="corps"><circle cx="58" cy="30" r="12" fill="#d9b48c"/>'
+      + '<path d="M50 44 Q58 40 66 44 L70 76 L46 78 Z" fill="#c58b5b"/>'
+      + '<path d="M48 76 L82 78 L86 108" stroke="#7d1f2e" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'
+      + '<path d="M66 50 Q78 60 84 72" stroke="#c58b5b" stroke-width="7" fill="none" stroke-linecap="round"/></g>'
+      + '<path class="fleche-haut" d="M98 70 l0 -26 m-7 8 l7 -8 7 8" stroke="#e0b048" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    noire: GI("#17110f", "#e0b048", true),
+    champion: '<svg viewBox="0 0 120 120" class="d d-champ" aria-hidden="true"><defs><linearGradient id="gOr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2c2"/><stop offset=".45" stop-color="#e8bb52"/><stop offset="1" stop-color="#9c6a14"/></linearGradient></defs>'
+      + '<g class="coupe"><path d="M38 20 H82 V44 Q82 70 60 72 Q38 70 38 44 Z" fill="url(#gOr)"/>'
+      + '<path d="M38 26 Q20 26 22 42 Q24 56 40 56" stroke="url(#gOr)" stroke-width="5" fill="none"/><path d="M82 26 Q100 26 98 42 Q96 56 80 56" stroke="url(#gOr)" stroke-width="5" fill="none"/>'
+      + '<rect x="54" y="72" width="12" height="14" fill="url(#gOr)"/><rect x="40" y="86" width="40" height="10" rx="2" fill="url(#gOr)"/><rect x="34" y="96" width="52" height="10" rx="3" fill="#7d1f2e"/>'
+      + '<path d="M60 32 l3.5 7 7.5 1 -5.5 5 1.5 7.5 -7 -3.8 -7 3.8 1.5 -7.5 -5.5 -5 7.5 -1z" fill="#fff6d6"/>'
+      + '<rect class="reflet" x="40" y="18" width="10" height="60" fill="#fff" opacity=".35" transform="skewX(-18)"/></g></svg>',
+    maitre: '<svg viewBox="0 0 120 120" class="d d-maitre" aria-hidden="true">'
+      + '<circle class="aura a1" cx="60" cy="60" r="34" fill="none" stroke="#e0b048" stroke-width="1.5"/><circle class="aura a2" cx="60" cy="60" r="44" fill="none" stroke="#c58b5b" stroke-width="1"/>'
+      + '<g class="flotte"><circle cx="60" cy="38" r="11" fill="#d9b48c"/><path d="M49 34 Q60 28 71 34" stroke="#7d1f2e" stroke-width="3" fill="none"/>'
+      + '<path d="M46 52 Q60 46 74 52 L76 74 L44 74 Z" fill="#7d1f2e"/>'
+      + '<path d="M30 82 Q60 66 90 82 Q60 92 30 82 Z" fill="#a3293d"/>'
+      + '<path d="M46 58 Q40 72 56 76 M74 58 Q80 72 64 76" stroke="#d9b48c" stroke-width="5" fill="none" stroke-linecap="round"/>'
+      + '<circle cx="60" cy="76" r="3.5" fill="#f5d77a"/></g></svg>',
+    expert: '<svg viewBox="0 0 120 120" class="d d-expert" aria-hidden="true"><defs><radialGradient id="gCer" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#f6c1cb"/><stop offset="1" stop-color="#b8566a"/></radialGradient></defs>'
+      + '<g class="cerveau"><path d="M58 26 C44 18 26 26 26 42 C16 48 18 64 26 70 C24 84 38 94 50 90 C54 96 58 96 58 96 Z" fill="url(#gCer)" stroke="#7d1f2e" stroke-width="2"/>'
+      + '<path d="M62 26 C76 18 94 26 94 42 C104 48 102 64 94 70 C96 84 82 94 70 90 C66 96 62 96 62 96 Z" fill="url(#gCer)" stroke="#7d1f2e" stroke-width="2"/>'
+      + '<path d="M36 40 Q46 36 50 46 M30 58 Q42 52 50 62 M38 78 Q46 70 54 78 M84 40 Q74 36 70 46 M90 58 Q78 52 70 62 M82 78 Q74 70 66 78" stroke="#8e2e44" stroke-width="2.2" fill="none" stroke-linecap="round"/></g>'
+      + '<circle class="eclair e1" cx="40" cy="44" r="3" fill="#ffe08a"/><circle class="eclair e2" cx="80" cy="60" r="3" fill="#ffe08a"/><circle class="eclair e3" cx="52" cy="80" r="3" fill="#ffe08a"/></svg>',
+    boss: '<svg viewBox="0 0 120 120" class="d d-boss" aria-hidden="true"><defs><linearGradient id="gBras" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b8"/><stop offset=".4" stop-color="#e6b445"/><stop offset="1" stop-color="#8a5a10"/></linearGradient></defs>'
+      + '<g class="bras"><path d="M12 74 C20 54 42 44 60 56 C66 60 70 56 72 46 L70 34 C68 24 76 16 87 18 C98 20 102 30 97 41 C95 47 92 51 90 57 L92 84 C92 97 80 101 66 99 L14 98 Z" fill="url(#gBras)" stroke="#7a4e0c" stroke-width="2" stroke-linejoin="round"/>'
+      + '<path d="M78 24 C84 22 90 24 92 30 M76 31 C83 29 90 31 93 36" stroke="#7a4e0c" stroke-width="1.6" fill="none" stroke-linecap="round"/>'
+      + '<path class="veine" d="M24 76 C34 68 44 72 52 64 C56 60 60 63 62 60" stroke="#9a6514" stroke-width="2" fill="none" stroke-linecap="round"/>'
+      + '<path class="veine" d="M84 46 C82 56 86 64 83 76 M83 62 C80 66 76 68 74 74" stroke="#9a6514" stroke-width="1.8" fill="none" stroke-linecap="round"/>'
+      + '<path d="M30 60 C40 52 52 52 58 58" stroke="#fff6d6" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round"/></g>'
+      + '<g class="etoiles"><path d="M104 14 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z" fill="#fff2c2"/><path d="M14 30 l1.5 4 4 1.5 -4 1.5 -1.5 4 -1.5 -4 -4 -1.5 4 -1.5z" fill="#fff2c2"/></g></svg>'
+  };
+  var DESSIN_COFFRE = '<svg viewBox="0 0 120 120" class="d d-coffre" aria-hidden="true"><defs><linearGradient id="gCof" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a3293d"/><stop offset="1" stop-color="#4a1219"/></linearGradient></defs>'
+    + '<rect x="20" y="56" width="80" height="44" rx="6" fill="url(#gCof)" stroke="#e0b048" stroke-width="3"/>'
+    + '<g class="couvercle"><path d="M20 58 Q20 30 60 30 Q100 30 100 58 Z" fill="url(#gCof)" stroke="#e0b048" stroke-width="3"/><path d="M56 30 V58 M64 30 V58" stroke="#e0b048" stroke-width="3"/></g>'
+    + '<path d="M56 56 V100 M64 56 V100" stroke="#e0b048" stroke-width="3"/><rect x="52" y="62" width="16" height="14" rx="3" fill="#f5d77a"/><circle cx="60" cy="69" r="2.5" fill="#4a1219"/></svg>';
+  // Rangs (Trésor, 12/10/2026) : ses mots, ses dessins. Paliers en points : 10 points par bonne réponse du premier coup.
+  var RANGS = [
+    {id: "nul", nom: "Nul", xp: 0, c: "#9c8578", phrase: "Tout le monde commence ici. Les meilleurs aussi."},
+    {id: "blanche", nom: "Ceinture blanche", xp: 50, c: "#f4efe8", phrase: "Tu es entré dans le dojo. Maintenant, on travaille."},
+    {id: "moyen", nom: "Moyen", xp: 300, c: "#c58b5b", phrase: "Tu te lèves. La plupart s’arrêtent ici : pas toi."},
+    {id: "noire", nom: "Ceinture noire", xp: 1000, c: "#e0b048", phrase: "Les bases sont à toi. Maintenant, on affûte."},
+    {id: "champion", nom: "Champion", xp: 2500, c: "#ecc05a", phrase: "Tu gagnes plus souvent que tu perds. Garde la couronne."},
+    {id: "maitre", nom: "Maître", xp: 5000, c: "#e8c066", phrase: "Tu ne récites plus : tu comprends. Rare."},
+    {id: "expert", nom: "Expert", xp: 9000, c: "#f6c1cb", phrase: "Ton cerveau voit ce que les autres ratent."},
+    {id: "boss", nom: "Boss", xp: 15000, c: "#fff0b8", phrase: "Plus rien ne te résiste. Maintenant, tu montres l’exemple."}
+  ];
+  function rangDe(xp){ var i = 0; RANGS.forEach(function(r, k){ if (xp >= r.xp) i = k; }); return i; }
+  function carteRang(){
+    var i = rangDe(G.xp), r = RANGS[i], n = RANGS[i + 1];
+    var p = n ? pct(G.xp - r.xp, n.xp - r.xp) : 100;
+    return '<button class="rang" data-rangs><span class="rang-d">'+DESSINS[r.id]+'</span><span class="rang-t"><small>Ton rang</small><b style="color:'+r.c+'">'+esc(r.nom)+'</b>'
+      + '<span class="rang-barre"><i style="width:'+p+'%"></i></span><small>'+G.xp+' points'+(n ? ' · encore '+(n.xp - G.xp)+' pour « '+esc(n.nom)+' »' : ' · rang maximum')+'</small></span></button>';
+  }
+  function anneau(){
+    var n = G.obj.d === aujourdhui() ? G.obj.n : 0, p = Math.min(1, n / OBJ), C = 2 * Math.PI * 22;
+    return '<span class="anneau'+(p >= 1 ? ' plein' : '')+'"><svg viewBox="0 0 54 54"><circle cx="27" cy="27" r="22" class="fond"/><circle cx="27" cy="27" r="22" class="trait" stroke-dasharray="'+C.toFixed(1)+'" stroke-dashoffset="'+(C * (1 - p)).toFixed(1)+'"/></svg><b>'+Math.min(n, OBJ)+'</b></span>';
+  }
+  /* Jugement de la session (Trésor, 12/10/2026) : chaque ouverture de l'app dit où il en est, franchement, et ce qu'il fait maintenant. */
+  function jugement(){
+    var i = rangDe(G.xp), r = RANGS[i], n = RANGS[i + 1], l = [];
+    var sj = serieJours(), hier = aujourdhui(new Date(Date.now() - JOUR));
+    if (!G.total) l.push("Rang « Nul » : normal, tu n’as pas encore joué. 50 points (5 bonnes réponses du premier coup) et tu passes Ceinture blanche.");
+    else l.push("Rang « " + r.nom + " ». " + r.phrase + (n ? " Encore " + (n.xp - G.xp) + " points pour « " + n.nom + " »." : ""));
+    if (sj >= 2) l.push("🔥 " + sj + " jours d’affilée. Ne casse pas la chaîne.");
+    else if (jours.dernier && jours.dernier < hier) l.push("Tu as manqué un jour. Les meilleurs reviennent le lendemain : une série, et la flamme repart.");
+    var der = hist[hist.length - 1];
+    if (der){
+      if (der.s >= 88) l.push("Dernière série : " + der.s + " %. Niveau examen. Refais pareil.");
+      else if (der.s >= 60) l.push("Dernière série : " + der.s + " %. Bien, mais pas encore 35 sur 40. Aujourd’hui, tu passes la barre.");
+      else l.push("Dernière série : " + der.s + " %. Moyen. Aujourd’hui, tu rattrapes.");
+    }
+    var fa = groupe("chapitre").filter(function(o){ return o.taux !== null && (o.ok + o.ko) >= 3 && o.taux < .7; }).sort(function(a, b){ return a.taux - b.taux; })[0];
+    if (fa) l.push("Ton point faible : « " + fa.nom + " ». Attaque-le.");
+    return '<div class="juge"><b>Ton jugement du jour</b>' + l.slice(0, 3).map(function(x){ return '<p>' + esc(x) + '</p>'; }).join("") + '</div>';
+  }
+  /* Trophées : à débloquer, gardés pour toujours. */
+  var TROPHEES = [
+    {id: "premier", nom: "Premier pas", d: "1re bonne réponse", t: function(){ return G.bonnes >= 1; }},
+    {id: "combo5", nom: "En feu", d: "5 bonnes réponses de suite", t: function(){ return G.comboMax >= 5; }},
+    {id: "combo10", nom: "Inarrêtable", d: "10 bonnes réponses de suite", t: function(){ return G.comboMax >= 10; }},
+    {id: "combo25", nom: "Machine", d: "25 bonnes réponses de suite", t: function(){ return G.comboMax >= 25; }},
+    {id: "q100", nom: "Centurion", d: "100 questions jouées", t: function(){ return G.total >= 100; }},
+    {id: "q500", nom: "Marathonien", d: "500 questions jouées", t: function(){ return G.total >= 500; }},
+    {id: "q1000", nom: "Légende du coffre", d: "1 000 questions jouées", t: function(){ return G.total >= 1000; }},
+    {id: "flamme7", nom: "Flamme de 7 jours", d: "7 jours d’affilée", t: function(){ return (jours.record || 0) >= 7; }},
+    {id: "flamme30", nom: "Flamme de 30 jours", d: "30 jours d’affilée", t: function(){ return (jours.record || 0) >= 30; }},
+    {id: "obj7", nom: "Discipline", d: "Objectif du jour tenu 7 fois", t: function(){ return G.objAtteints >= 7; }},
+    {id: "coffre10", nom: "Chasseur de coffres", d: "10 coffres ouverts", t: function(){ return G.coffres >= 10; }},
+    {id: "sansfaute", nom: "Sans faute", d: "Une série d’au moins 10 questions, toutes du premier coup", t: function(){ return G.sansFaute >= 1; }},
+    {id: "noire", nom: "Ceinture noire", d: "Atteindre le rang Ceinture noire", t: function(){ return rangDe(G.xp) >= 3; }},
+    {id: "boss", nom: "Boss", d: "Atteindre le rang Boss", t: function(){ return rangDe(G.xp) >= 7; }}
+  ];
+  function verifierTrophees(){
+    TROPHEES.forEach(function(tr){ if (!G.trophees[tr.id] && tr.t()){ G.trophees[tr.id] = aujourdhui(); if (tr.id !== "noire" && tr.id !== "boss") fete({type: "trophee", titre: tr.nom, texte: tr.d}); } });   // le trophée d'un rang arrive avec la fête du rang, pas en double
+  }
+  function trophees(){
+    prog.hidden = true; rafraichir = trophees;
+    var n = TROPHEES.filter(function(t){ return G.trophees[t.id]; }).length;
+    var h = '<div class="top"><button class="x" data-x>‹ Accueil</button>'+LOGO+'<span class="count">trophées</span></div><h2 class="titre">Mes trophées</h2><p class="lead">'+n+' sur '+TROPHEES.length+' débloqués · '+G.coffres+' coffres ouverts · meilleur combo x'+G.comboMax+'</p>';
+    h += '<div class="sec">Les rangs</div><div class="rangs">' + RANGS.map(function(r, i){ var ok = G.xp >= r.xp; return '<div class="rg'+(ok ? '' : ' verrou')+(i === rangDe(G.xp) ? ' ici' : '')+'"><span>'+DESSINS[r.id]+'</span><b>'+esc(r.nom)+'</b><small>'+r.xp+' pts</small></div>'; }).join("") + '</div>';
+    h += '<div class="sec">Les trophées</div><div class="trophees">' + TROPHEES.map(function(t){ var ok = G.trophees[t.id];
+      return '<div class="tr'+(ok ? ' ok' : '')+'"><span class="tr-i">'+(ok ? '🏆' : '🔒')+'</span><b>'+esc(t.nom)+'</b><small>'+esc(t.d)+(ok ? ' · le '+ok.split("-").reverse().join("/") : '')+'</small></div>'; }).join("") + '</div>';
+    app.innerHTML = h; app.querySelector("[data-x]").onclick = accueil; window.scrollTo(0, 0);
+  }
+  /* Sons courts (synthétisés, aucun fichier) : combo, rang, coffre. Volume doux. */
+  var ctxSon = null;
+  function bip(notes, duree){
+    try {
+      ctxSon = ctxSon || new (window.AudioContext || window.webkitAudioContext)();
+      var t0 = ctxSon.currentTime;
+      notes.forEach(function(f, i){
+        var o = ctxSon.createOscillator(), g = ctxSon.createGain(), t = t0 + i * (duree || .09);
+        o.type = "triangle"; o.frequency.value = f; g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(.16, t + .015); g.gain.exponentialRampToValueAtTime(.001, t + .35);
+        o.connect(g); g.connect(ctxSon.destination); o.start(t); o.stop(t + .4);
+      });
+    } catch(e){}
+  }
+  function gainVolant(txt){ var d = document.createElement("div"); d.className = "gain"; d.textContent = txt; document.body.appendChild(d); setTimeout(function(){ d.remove(); }, 1300); }
+  /* Fêtes (montée de rang, objectif, trophée, coffre) : une à la fois, plein écran, poussière d'or. */
+  var fetes = [], fEnCours = false;
+  function fete(f){ fetes.push(f); if (!fEnCours) suiteFete(); }
+  function suiteFete(){
+    var f = fetes.shift(); if (!f){ fEnCours = false; return; }
+    fEnCours = true;
+    var o = document.createElement("div"); o.className = "fete fete-" + f.type;
+    o.innerHTML = '<div class="fete-box">' + (f.dessin ? '<div class="fete-d">' + f.dessin + '</div>' : '<div class="fete-i">' + (f.type === "trophee" ? "🏆" : "✦") + '</div>')
+      + '<small>' + esc(f.sur || (f.type === "trophee" ? "Trophée débloqué" : f.type === "obj" ? "Objectif du jour" : "Bravo")) + '</small><h2>' + esc(f.titre) + '</h2><p>' + esc(f.texte || "") + '</p><button class="fete-ok">Continuer</button></div>';
+    document.body.appendChild(o);
+    // Montée de rang : le son « Riser Sabre 1 » choisi par Trésor (12/10/2026) ; les autres fêtes : un carillon court.
+    if (f.type === "rang"){ try { var sr = new Audio("son/rang.mp3"); sr.volume = 1; var pr = sr.play(); if (pr && pr.catch) pr.catch(function(){ bip([523, 659, 784, 1047, 1319], .11); }); } catch(e){ bip([523, 659, 784, 1047, 1319], .11); } }
+    else bip([784, 988, 1175], .08);
+    setTimeout(function(){ poudreDor(o.querySelector(".fete-box")); }, 120);
+    function fermer(){ o.classList.add("part"); setTimeout(function(){ o.remove(); suiteFete(); }, 250); }
+    o.querySelector(".fete-ok").onclick = fermer;
+  }
+  /* Une réponse jouée : points, combo, objectif du jour, coffre, rang, trophées. */
+  function gagner(note, trouve2e, connue){
+    var avant = rangDe(G.xp), pts = connue ? 5 : note === 3 ? 10 : note === 2 ? 7 : (trouve2e ? 3 : 0);
+    if (!connue){ if (note >= 2) G.combo++; else G.combo = 0; }   // « Je la connais » ne fait ni monter ni casser le combo
+    G.comboMax = Math.max(G.comboMax, G.combo);
+    if (note >= 2 && !connue) pts += G.combo >= 10 ? 5 : G.combo >= 5 ? 3 : G.combo >= 3 ? 2 : 0;
+    if (s.mode === "flash" && note >= 2 && !connue) pts += Math.min(10, Math.round((s.reste || 0) / 3));   // Flash : plus tu réponds vite, plus tu gagnes
+    if (G.double > 0 && pts){ pts *= 2; G.double--; }
+    G.xp += pts; G.total++; if (note >= 2) G.bonnes++;
+    if (pts) gainVolant("+" + pts + (G.combo >= 3 ? "  x" + G.combo : ""));
+    if (G.combo === 3 || G.combo === 5 || G.combo === 10 || G.combo === 25){ bip([880, 1175], .07); toast("✦ Combo x" + G.combo + " ! Continue."); }
+    var auj = aujourdhui(); if (G.obj.d !== auj) G.obj = {d: auj, n: 0, fait: false};
+    G.obj.n++;
+    if (G.obj.n >= OBJ && !G.obj.fait){ G.obj.fait = true; G.objAtteints++; fete({type: "obj", titre: OBJ + " questions aujourd’hui", texte: "Objectif du jour atteint. C’est comme ça qu’on devient Boss : un jour après l’autre."}); }
+    if (note >= 2 && !G.coffrePret){ G.avantCoffre--; if (G.avantCoffre <= 0) G.coffrePret = true; }
+    var apres = rangDe(G.xp);
+    if (apres > avant) fete({type: "rang", sur: "Nouveau rang", titre: RANGS[apres].nom, texte: RANGS[apres].phrase, dessin: DESSINS[RANGS[apres].id]});
+    verifierTrophees(); sauverJeu();
+  }
+  function ouvrirCoffre(){
+    if (!G.coffrePret) return;
+    var r = Math.random(), gain, txt;
+    if (r < .5){ gain = 20; txt = "+20 points"; }
+    else if (r < .75){ gain = 50; txt = "+50 points"; }
+    else if (r < .9){ gain = 0; G.double += 5; txt = "Points doublés sur tes 5 prochaines bonnes réponses"; }
+    else { gain = 100; txt = "JACKPOT : +100 points"; }
+    var avant = rangDe(G.xp); G.xp += gain; G.coffres++; G.coffrePret = false; G.avantCoffre = 8 + Math.floor(Math.random() * 5);
+    fete({type: "coffre", sur: "Coffre ouvert", titre: txt, texte: "Encore quelques bonnes réponses, et un autre coffre apparaît.", dessin: DESSIN_COFFRE.replace('class="d d-coffre"', 'class="d d-coffre ouvert"')});
+    var apres = rangDe(G.xp);
+    if (apres > avant) fete({type: "rang", sur: "Nouveau rang", titre: RANGS[apres].nom, texte: RANGS[apres].phrase, dessin: DESSINS[RANGS[apres].id]});
+    verifierTrophees(); sauverJeu(); carte();
+  }
+  /* « ‹ Précédente » : revoir une question déjà jouée de la série, avec sa bonne réponse. */
+  function revoir(top){
+    var i = s.revue, j = s.journal[i]; if (!j){ s.revue = null; return carte(); }
+    var c = j.c, r = c.r || {}, bon = j.bon || (c.qcm && c.qcm.choix ? c.qcm.choix[c.qcm.bonne] : (c.choix ? c.choix[c.bonne] : propre(verdictDe(c))));
+    var h = top + '<div class="nav"><button class="fl" data-rprev'+(i > 0 ? '' : ' disabled')+'>‹ Précédente</button><span class="revue-t">Revoir · '+(i + 1)+' / '+s.journal.length+'</span><button class="fl or" data-rback>Ma question ›</button></div>';
+    h += '<div class="qcard revue">' + (c.num ? '<span class="num">N°'+c.num+'</span>' : '') + '<div class="travail">'+(j.connue ? 'Passée : « Je la connais »' : j.note === 3 ? '✅ Trouvée du premier coup' : j.note === 2 ? '🤔 Trouvée en hésitant' : '❌ Pas du premier coup')+'</div><h3>'+esc(c.q)+'</h3>';
+    h += '<div class="choix"><button class="bon" disabled><span class="lettre">✓</span><span>'+esc(bon)+'</span></button></div>';
+    h += '<div class="rep">' + (typeof r === "string" ? '<p>'+esc(r)+'</p>' : (r.verdict ? '<p>'+esc(r.verdict)+'</p>' : '') + (r.pourquoi ? '<p><span class="w">Pourquoi :</span> '+esc(r.pourquoi)+'</p>' : '')) + '</div>';
+    if (c.explication) h += '<div class="box expl"><b>Pour bien comprendre</b>'+esc(c.explication)+'</div>';
+    h += '<div class="ref">'+esc(c.source)+' · '+esc(c.ref)+'</div></div>';
+    app.innerHTML = h;
+    app.querySelector("[data-x]").onclick = function(){ s.revue = null; quitterSerie(); };
+    var p = app.querySelector("[data-rprev]"); if (p) p.onclick = function(){ if (s.revue > 0){ s.revue--; carte(); } };
+    app.querySelector("[data-rback]").onclick = function(){ s.revue = null; carte(); };
+    window.scrollTo(0, 0);
+  }
+  /* Retrouver une question par son numéro (« N°412 »). */
+  function chercherNum(v){
+    var n = parseInt(String(v).replace(/\D/g, ""), 10), c = CARTES.filter(function(x){ return x.num === n; })[0];
+    if (!c){ toast("Pas de question N°" + (n || "?") + "."); return; }
+    lancer([c], "N°" + n, accueil, false, true);
+  }
+
   /* ---------- Résultats de fin de série ---------- */
   function resultats(){
     rafraichir = null; clearInterval(chronoMinuteur); compterJour();
@@ -593,30 +1035,64 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     prog.firstChild.style.width = "100%";
     var J = s.journal, n = [0,0,0,0];
     J.forEach(function(j){ n[j.note]++; });
+    var Jr = J.filter(function(j){ return !j.connue; }), nr = Jr.filter(function(j){ return j.note === 3; }).length;   // les cartes « Je la connais » ne comptent ni pour le record ni pour le sans-faute
     var score = pct(n[3], J.length);
-    if (J.length){ hist.push({t: Date.now(), d: aujourdhui(), s: score, n: J.length, m: CARTES.filter(maitrise).length}); ecrire(K_HIST, hist); marquerNotes(); }
+    if (J.length){ hist.push({t: Date.now(), d: aujourdhui(), s: score, n: J.length, m: CARTES.filter(maitrise).length, mode: s.mode, titre: s.titre}); ecrire(K_HIST, hist); marquerNotes(); }
+    var scoreJoue = pct(nr, Jr.length), recordBattu = s.mode === "flash" && Jr.length >= 10 && scoreJoue > (G.recordFlash || 0);
+    if (recordBattu){ G.recordFlash = scoreJoue; sauverJeu(); }
+    document.body.classList.remove("stress", "panique", "mode-flash");
     var reussi = J.length && n[3] / J.length >= REUSSI;
     var mot = reussi ? "Réussi." : "Pas encore. Il faut 35 sur 40 (88 %), comme au code.";
     var h = '<div class="top"><button class="x" data-x>‹ Retour</button>'+LOGO+'<span class="count">résultats</span></div>';
     h += '<div class="kicker">'+esc(s.titre)+'</div><h1>'+n[3]+' / '+J.length+'</h1><p class="lead">'+mot+' '+score+' % de bonnes réponses du premier coup.</p>';
     h += '<div class="stats"><div class="stat ok"><b>'+n[3]+'</b><span>du 1er coup</span></div><div class="stat"><b>'+n[2]+'</b><span>j\'ai hésité</span></div><div class="stat hot"><b>'+n[1]+'</b><span>ratées</span></div></div>';
+    // Le jugement de la série (Trésor, 12/10/2026) : franc, avec ses mots, et ce qu'il fait ensuite.
+    var gagne = G.xp - (typeof s.xpDebut === "number" ? s.xpDebut : G.xp), jg = J.length < 10 ? [score >= 80 ? "Bien joué." : "Pas encore.", "Petite série : fais une série de 40 pour un vrai jugement."] : score === 100 ? ["Boss.", "Sans faute. Rien à dire, à part : recommence demain."]
+      : score >= 88 ? ["Niveau examen.", "35 sur 40 ou mieux : tu tiens ta place."]
+      : score >= 70 ? ["Solide.", "Encore quelques-unes du premier coup, et tu passes la barre des 35."]
+      : score >= 50 ? ["Moyen.", "Tu sais, mais tu hésites. Refais les ratées tout de suite : c'est là que tu montes."]
+      : ["Nul, cette fois.", "Ce n'est pas grave : c'est comme ça qu'on apprend. Refais les ratées, puis une série demain."];
+    h += '<div class="juge fin-juge"><b>Ton jugement</b><p class="gros">'+esc(jg[0])+'</p><p>'+esc(jg[1])+'</p><p class="pts">+'+gagne+' points · rang « '+esc(RANGS[rangDe(G.xp)].nom)+' »'+(G.comboMax ? ' · meilleur combo x'+G.comboMax : '')+'</p>'+(recordBattu ? '<p class="record">⚡ Nouveau record Flash : '+scoreJoue+' %</p>' : (s.mode === "flash" && G.recordFlash ? '<p class="pts">Record Flash : '+G.recordFlash+' %</p>' : ''))+'</div>';
+    if (Jr.length >= 10 && nr === Jr.length && Jr.length === J.length){ G.sansFaute++; verifierTrophees(); sauverJeu(); }
+    // Le bilan (Trésor, 12/10/2026) : où tu es bon, où tu dois progresser, et ton prochain pas.
     var ch = {};
-    J.forEach(function(j){ var k = j.c.chapitre, o = ch[k] || (ch[k] = {nom:k, ok:0, n:0}); o.n++; if (j.note === 3) o.ok++; });
-    var lc = Object.keys(ch).map(function(k){ return ch[k]; }).sort(function(a,b){ return b.ok/b.n - a.ok/a.n; });
-    if (lc.length > 1) h += '<div class="sec">Par chapitre</div><div class="ana">'+lc.map(function(o){ return ligne(o, o.ok+'/'+o.n); }).join("")+'</div>';
+    J.forEach(function(j){ var k = j.c.theme + "|" + j.c.chapitre, o = ch[k] || (ch[k] = {nom: j.c.chapitre, theme: j.c.theme, ok: 0, n: 0}); o.n++; if (j.note === 3) o.ok++; });
+    var lc = Object.keys(ch).map(function(k){ return ch[k]; });
+    var forts = lc.filter(function(o){ return o.n >= 2 && o.ok / o.n >= .8; }).sort(function(a, b){ return b.ok / b.n - a.ok / a.n || b.n - a.n; });
+    var faibles = lc.filter(function(o){ return o.ok / o.n < .6; }).sort(function(a, b){ return a.ok / a.n - b.ok / b.n || b.n - a.n; });
+    h += '<div class="sec">Ton bilan</div><div class="bilan">';
+    h += '<p class="bl-l"><b>'+n[1]+'</b> erreur'+(n[1] > 1 ? 's' : '')+' · <b>'+n[2]+'</b> hésitation'+(n[2] > 1 ? 's' : '')+' · <b>'+n[3]+'</b> du premier coup</p>';
+    if (forts.length) h += '<p class="bl-t ok">Là où tu es bon</p>' + forts.slice(0, 3).map(function(o){ return barre({nom: o.nom, ok: o.ok, ko: o.n - o.ok}, "fort"); }).join("");
+    if (faibles.length) h += '<p class="bl-t ko">Là où tu dois progresser</p>' + faibles.slice(0, 3).map(function(o, i){ return barre({nom: o.nom, ok: o.ok, ko: o.n - o.ok}, "faible", "b" + i); }).join("");
+    var pas = faibles[0] ? "Ton prochain pas : « " + faibles[0].nom + " ». C'est là que tu gagnes le plus de points, le plus vite."
+      : score >= 88 ? (s.mode === "flash" ? "Ton prochain pas : bats ton record Flash." : "Ton prochain pas : passe en Flash 30 s pour tester ta vitesse.")
+      : "Ton prochain pas : refais cette série dans un autre ordre, jusqu'à 35 sur 40.";
+    h += '<p class="bl-pas">'+esc(pas)+'</p></div>';
+    // Rejouer (Trésor, 12/10/2026) : la même série dans un autre ordre, tes erreurs + des nouvelles, ou 40 nouvelles.
     var rat = J.filter(function(j){ return j.note < 3; });
-    if (rat.length) h += '<button class="all" data-refaire><span>Refaire les hésitées et ratées</span><small>'+rat.length+' ›</small></button>';
+    h += '<div class="sec">Et maintenant ?</div><div class="rejouer">'
+      + '<button class="rj" data-meme><b>Refaire la même série</b><small>les mêmes '+J.length+', dans un ordre mélangé</small></button>'
+      + (rat.length ? '<button class="rj" data-mix><b>Mes erreurs + des nouvelles</b><small>'+rat.length+' à revoir, le reste au hasard</small></button>' : '')
+      + '<button class="rj or" data-autre><b>Nouvelle série de 40</b><small>que des questions pas encore tirées</small></button></div>';
     h += '<div class="sec">Carte par carte (tape pour revoir la réponse)</div>';
     J.forEach(function(j, i){
       var ic = j.note === 3 ? "✅" : j.note === 2 ? "🤔" : "❌", r = j.c.r || {};
-      h += '<div class="ana res" data-i="'+i+'"><div class="l"><span>'+ic+' '+esc(j.c.q)+'</span><span>'+duree(j.ms)+'</span></div><div class="det" hidden><p class="rep" style="margin-top:10px;padding-top:10px">'+esc(typeof r === "string" ? r : r.verdict)+'</p>'+(j.c.explication ? '<div class="box expl"><b>Pour bien comprendre</b>'+esc(j.c.explication)+'</div>' : '')+'</div></div>';
+      h += '<div class="ana res" data-i="'+i+'"><div class="l"><span>'+ic+' '+(j.c.num ? '<span class="num-l">N°'+j.c.num+'</span> ' : '')+esc(j.c.q)+'</span><span>'+duree(j.ms)+'</span></div><div class="det" hidden><p class="rep" style="margin-top:10px;padding-top:10px">'+esc(typeof r === "string" ? r : r.verdict)+'</p>'+(j.c.explication ? '<div class="box expl"><b>Pour bien comprendre</b>'+esc(j.c.explication)+'</div>' : '')+'</div></div>';
     });
     h += '<button class="retour" style="width:100%" data-x>Terminer</button>';
     app.innerHTML = h;
     app.querySelectorAll("[data-x]").forEach(function(b){ b.onclick = s.retour; });
     app.querySelectorAll(".res").forEach(function(d){ d.onclick = function(){ var e = d.querySelector(".det"); e.hidden = !e.hidden; }; });
-    var rf = app.querySelector("[data-refaire]");
-    if (rf) rf.onclick = function(){ var ids = rat.map(function(j){ return j.c.id; }); lancer(CARTES.filter(function(c){ return ids.indexOf(c.id) > -1; }), s.titre, s.retour, true, true); };
+    var src = s.source || de(), titre = s.titre, retour = s.retour, mode = s.mode, ids = J.map(function(j){ return j.c.id; });
+    var deja = s.dejaTirees || {}; ids.forEach(function(id){ deja[id] = 1; });
+    function relancer(liste, forcer, exclure){ lancer(liste, titre, retour, true, forcer, mode, exclure); s.source = src; s.dejaTirees = deja; }
+    app.querySelector("[data-meme]").onclick = function(){ relancer(CARTES.filter(function(c){ return ids.indexOf(c.id) > -1; }), true); };
+    var mx = app.querySelector("[data-mix]"); if (mx) mx.onclick = function(){
+      var ri = rat.map(function(j){ return j.c.id; }), plus = melanger(src.filter(function(c){ return ids.indexOf(c.id) < 0 && !deja[c.id]; })).slice(0, SERIE - ri.length);
+      relancer(CARTES.filter(function(c){ return ri.indexOf(c.id) > -1; }).concat(plus), true);
+    };
+    app.querySelector("[data-autre]").onclick = function(){ relancer(src, false, deja); };
+    app.querySelectorAll("[data-fb]").forEach(function(btn){ btn.onclick = function(){ var o = faibles[+btn.dataset.fb.slice(1)]; if (o) lancer(de(o.theme, o.nom), o.nom, s.retour, true); }; });
     window.scrollTo(0,0);
   }
 
@@ -736,7 +1212,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
 
   /* ---------- Sauvegarde ---------- */
   async function exporter(){
-    var data = JSON.stringify({app:"qr-cartes", date:new Date().toISOString(), progres:mem, signalees:sig, notes:notes, jours:jours, historique:hist}, null, 1);
+    var data = JSON.stringify({app:"qr-cartes", date:new Date().toISOString(), progres:mem, signalees:sig, notes:notes, jours:jours, historique:hist, jeu:jeuExport()}, null, 1);
     var nom = "progres-cartes-" + new Date().toISOString().slice(0,10) + ".json";
     var dl = null;
     try { dl = window.claude && window.claude.use ? await window.claude.use("downloads") : null; } catch(e){ dl = null; }
@@ -756,7 +1232,7 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
       try {
         var d = JSON.parse(rd.result);
         if (d.app !== "qr-cartes") throw 0;
-        mem = d.progres || {}; sig = d.signalees || {}; notes = d.notes || notes; if (Array.isArray(d.historique)){ hist = fusionHist(hist, d.historique); ecrire(K_HIST, hist); } ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); marquerNotes();
+        mem = d.progres || {}; sig = d.signalees || {}; notes = d.notes || notes; if (Array.isArray(d.historique)){ hist = fusionHist(hist, d.historique); ecrire(K_HIST, hist); } jeuFusion(d.jeu); ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); marquerNotes();
         CFG.themes.forEach(function(t){ sale[t.id] = 1; }); sale.autres = 1; pousser(); envoyerSignal();
         toast("Progrès restaurés."); accueil();
       } catch(x){ toast("Ce fichier n'est pas une sauvegarde de l'app."); }
@@ -803,13 +1279,14 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
     for (var k2 in mem) if (vu[k2] === undefined || (mem[k2].dernier || 0) > vu[k2]) sale[themeDe(k2)] = 1;
     try { var dn = await nuage.db.doc("data/users/" + nuage.uid + "/notes").get(); if (dn.exists){ var nn = (dn.data() || {}).notes || {}; for (var kn in nn) if (!notes[kn]){ notes[kn] = nn[kn]; chg = true; }
       var hh = (dn.data() || {}).historique; if (Array.isArray(hh) && hh.length){ var f = fusionHist(hist, hh); if (f.length !== hist.length){ hist = f; ecrire(K_HIST, hist); chg = true; marquerNotes(); } }
+      var jr = (dn.data() || {}).jeu; if (jeuFusion(jr)) chg = true; else if (G.xp > ((jr && jr.xp) || 0)) marquerNotes();   // cet appareil est en avance : il envoie son jeu
       var jj = (dn.data() || {}).jours; if (jj && jj.dernier && (!jours.dernier || jj.dernier > jours.dernier)){ jours = jj; ecrire(K_JOURS, jours); chg = true; } } } catch(e){}
     if (chg){ ecrire(K_MEM, mem); ecrire(K_SIG, sig); ecrire(K_NOTES, notes); }
     if (Object.keys(sale).length) pousser();
     if (rafraichir) rafraichir();
   }
   var minNotes = null;
-  function marquerNotes(){ if (!nuage) return; clearTimeout(minNotes); minNotes = setTimeout(function(){ nuage.db.doc("data/users/" + nuage.uid + "/notes").set({notes: notes, jours: jours, historique: hist, maj: Date.now()}).catch(function(){}); }, 2000); }
+  function marquerNotes(){ if (!nuage) return; clearTimeout(minNotes); minNotes = setTimeout(function(){ nuage.db.doc("data/users/" + nuage.uid + "/notes").set({notes: notes, jours: jours, historique: hist, jeu: jeuExport(), maj: Date.now()}).catch(function(){}); }, 2000); }
   function envoyerSignal(){ if (nuage) nuage.db.doc("signalements/liste").set({cartes: sig, maj: Date.now()}).catch(function(){}); }
   async function brancher(){
     if (!window.claude || !window.claude.use) return;
@@ -826,7 +1303,11 @@ button:focus-visible,label:focus-within{outline:2px solid var(--caramel);outline
   document.addEventListener("keydown", function(e){
     if (prog.hidden || !s.file.length) return;
     var c = s.file[0];
-    if (e.target && e.target.tagName === "TEXTAREA") return;
+    if (e.target && (e.target.tagName === "TEXTAREA" || e.target.tagName === "INPUT")) return;
+    if (document.querySelector(".fete")) return;
+    if (e.key === "ArrowLeft"){ var p = app.querySelector("[data-prev]") || app.querySelector("[data-rprev]"); if (p && !p.disabled) p.click(); return; }
+    if (e.key === "ArrowRight"){ var q = app.querySelector("[data-next]") || app.querySelector("[data-rback]"); if (q) q.click(); return; }
+    if (s.revue !== null && s.revue !== undefined) return;
     if (!s.vue && ["1","2","3"].indexOf(e.key) > -1){ s.sel = +e.key - 1; carte(); return; }
     if (!s.vue && e.key === "Enter"){ var v = app.querySelector("[data-valider]"); if (v && !v.disabled) v.click(); return; }
     else if (s.vue){ var b = app.querySelector('[data-r="'+e.key+'"]'); if (b) b.click(); }

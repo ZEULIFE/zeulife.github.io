@@ -2,7 +2,7 @@
 // Les cartes sont dans cartes.js, fabriqué par construire.py à partir de cartes/*.json.
 // Règles : Système/Prompts/App-QR-règles.md
 window.QR_CONFIG = {
-  niveaux: { 1: "Bases", 2: "Pratique", 3: "Expert" },
+  niveaux: { 1: "Bases", 2: "Pratique", 3: "Avancé" },   // « Avancé » et non « Expert » : Expert est un rang du joueur (12/10/2026)
   themes: [
     { id: "copy",   tag: "COPY",    nom: "Copywriting et persuasion",     dossier: "Savoir/Copywriting et persuasion" },
     { id: "crea",   tag: "CRÉAS",   nom: "Créatives et itérations",       dossier: "Savoir/Créatives et itérations" },

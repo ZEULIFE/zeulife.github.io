@@ -41,7 +41,8 @@ window.QR_CARTES = [
 "q": "Écris de mémoire la question de Schwartz qui mesure ce que ton client sait déjà de ta solution.",
 "type": "rappel"
 }
-]
+],
+"num": 1
 },
 {
 "id": "copy-aw-002",
@@ -77,7 +78,8 @@ window.QR_CARTES = [
 "Le conscient du produit : il le connaît, sans le vouloir"
 ],
 "bonne": 1
-}
+},
+"num": 2
 },
 {
 "id": "copy-aw-003",
@@ -121,7 +123,8 @@ window.QR_CARTES = [
 "action": "Relance-le avec le produit et l'offre, pas avec une explication du problème."
 }
 }
-]
+],
+"num": 3
 },
 {
 "id": "copy-aw-004",
@@ -158,7 +161,8 @@ window.QR_CARTES = [
 "Comprendre qu'il a un problème, qu'il ignore encore aujourd'hui"
 ],
 "bonne": 2
-}
+},
+"num": 4
 },
 {
 "id": "copy-aw-005",
@@ -202,7 +206,8 @@ window.QR_CARTES = [
 "action": "Parle-lui d'abord de la catégorie qu'il connaît, puis amène ton produit."
 }
 }
-]
+],
+"num": 5
 },
 {
 "id": "copy-aw-006",
@@ -236,7 +241,8 @@ window.QR_CARTES = [
 "Il reconnaît son besoin, mais ne le relie pas à ton produit"
 ],
 "bonne": 3
-}
+},
+"num": 6
 },
 {
 "id": "copy-aw-007",
@@ -275,7 +281,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 7
 },
 {
 "id": "copy-aw-008",
@@ -308,7 +315,8 @@ window.QR_CARTES = [
 "Plus chère, car il faut le convaincre longtemps"
 ],
 "bonne": 1
-}
+},
+"num": 8
 },
 {
 "id": "copy-aw-009",
@@ -341,7 +349,8 @@ window.QR_CARTES = [
 "Le nombre de produits concurrents vus avant le tien"
 ],
 "bonne": 2
-}
+},
+"num": 9
 },
 {
 "id": "copy-aw-010",
@@ -380,7 +389,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 10
 },
 {
 "id": "copy-aw-011",
@@ -413,7 +423,8 @@ window.QR_CARTES = [
 "Par une offre et une raison d'acheter vite"
 ],
 "bonne": 3
-}
+},
+"num": 11
 },
 {
 "id": "copy-aw-012",
@@ -446,7 +457,8 @@ window.QR_CARTES = [
 "Par la catégorie de solution qu'il connaît"
 ],
 "bonne": 0
-}
+},
+"num": 12
 },
 {
 "id": "copy-aw-013",
@@ -485,7 +497,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 13
 },
 {
 "id": "copy-aw-014",
@@ -518,7 +531,8 @@ window.QR_CARTES = [
 "Comparer tes ventes à celles du mois dernier"
 ],
 "bonne": 1
-}
+},
+"num": 14
 },
 {
 "id": "copy-aw-015",
@@ -557,7 +571,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 15
 },
 {
 "id": "copy-aw-016",
@@ -590,7 +605,8 @@ window.QR_CARTES = [
 "Répéter la même promesse, mot pour mot, plus souvent"
 ],
 "bonne": 2
-}
+},
+"num": 16
 },
 {
 "id": "copy-aw-017",
@@ -637,7 +653,8 @@ window.QR_CARTES = [
 "Un nouveau mécanisme pour tenir la vieille promesse"
 ],
 "bonne": 3
-}
+},
+"num": 17
 },
 {
 "id": "copy-aw-018",
@@ -676,7 +693,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 18
 },
 {
 "id": "copy-aw-019",
@@ -727,7 +745,8 @@ window.QR_CARTES = [
 "Vers le prix et une remise immédiate"
 ],
 "bonne": 1
-}
+},
+"num": 19
 },
 {
 "id": "copy-aw-020",
@@ -760,7 +779,8 @@ window.QR_CARTES = [
 "L'explorateur : il a vu quelques offres, il faut te démarquer"
 ],
 "bonne": 2
-}
+},
+"num": 20
 },
 {
 "id": "copy-aw-021",
@@ -793,7 +813,8 @@ window.QR_CARTES = [
 "Annoncer le prix pour filtrer"
 ],
 "bonne": 0
-}
+},
+"num": 21
 },
 {
 "id": "copy-aw-027",
@@ -827,7 +848,8 @@ window.QR_CARTES = [
 "Le client conscient de la solution"
 ],
 "bonne": 2
-}
+},
+"num": 27
 },
 {
 "id": "copy-aw-028",
@@ -860,7 +882,8 @@ window.QR_CARTES = [
 "Le marché a changé de niveau de conscience"
 ],
 "bonne": 3
-}
+},
+"num": 28
 },
 {
 "id": "copy-aw-029",
@@ -893,7 +916,8 @@ window.QR_CARTES = [
 "Rien : un inconscient a besoin de toute l'info d'un coup"
 ],
 "bonne": 1
-}
+},
+"num": 29
 },
 {
 "id": "copy-aw-030",
@@ -941,7 +965,8 @@ window.QR_CARTES = [
 "Solution, identification, produit, problème ou désir"
 ],
 "bonne": 2
-}
+},
+"num": 30
 },
 {
 "id": "copy-aw-032",
@@ -974,7 +999,8 @@ window.QR_CARTES = [
 "Décrire un état, éveiller le désir, amener le produit"
 ],
 "bonne": 0
-}
+},
+"num": 32
 },
 {
 "id": "copy-aw-033",
@@ -1007,7 +1033,8 @@ window.QR_CARTES = [
 "Le nom du produit, puis son prix"
 ],
 "bonne": 2
-}
+},
+"num": 33
 },
 {
 "id": "copy-aw-036",
@@ -1040,7 +1067,8 @@ window.QR_CARTES = [
 "Les conscients de la solution, qui comparent"
 ],
 "bonne": 2
-}
+},
+"num": 36
 },
 {
 "id": "copy-aw-037",
@@ -1073,7 +1101,8 @@ window.QR_CARTES = [
 "Un marché qui connaît le désir ou le problème"
 ],
 "bonne": 3
-}
+},
+"num": 37
 },
 {
 "id": "copy-aw-038",
@@ -1106,7 +1135,8 @@ window.QR_CARTES = [
 "Awareness : le prix. Sophistication : le format vidéo"
 ],
 "bonne": 1
-}
+},
+"num": 38
 },
 {
 "id": "copy-aw-039",
@@ -1139,7 +1169,8 @@ window.QR_CARTES = [
 "Le produit, puis promesse, différenciateurs, mécanisme, preuves"
 ],
 "bonne": 3
-}
+},
+"num": 39
 },
 {
 "id": "copy-aw-040",
@@ -1187,7 +1218,8 @@ window.QR_CARTES = [
 "Pour garder une seule audience bien ciblée par campagne"
 ],
 "bonne": 0
-}
+},
+"num": 40
 },
 {
 "id": "copy-aw-044",
@@ -1235,7 +1267,8 @@ window.QR_CARTES = [
 "Les deux : niveau 3 et stade 2"
 ],
 "bonne": 3
-}
+},
+"num": 44
 },
 {
 "id": "copy-aw-045",
@@ -1268,7 +1301,8 @@ window.QR_CARTES = [
 "Schwartz : problème. Tiana : problème. Analyste : problème"
 ],
 "bonne": 2
-}
+},
+"num": 45
 },
 {
 "id": "copy-aw-046",
@@ -1302,7 +1336,8 @@ window.QR_CARTES = [
 "Les inconscients, surtout les débutants optimistes"
 ],
 "bonne": 0
-}
+},
+"num": 46
 },
 {
 "id": "copy-aw-047",
@@ -1336,7 +1371,8 @@ window.QR_CARTES = [
 "Des conscients du produit, qui doutent : lever l'objection"
 ],
 "bonne": 3
-}
+},
+"num": 47
 },
 {
 "id": "copy-aw-048",
@@ -1369,7 +1405,8 @@ window.QR_CARTES = [
 "Une headline trop sérieuse, qui manque d'humour"
 ],
 "bonne": 2
-}
+},
+"num": 48
 },
 {
 "id": "copy-aw-049",
@@ -1402,7 +1439,8 @@ window.QR_CARTES = [
 "Quand ta promesse est chiffrée et poussée à l'extrême"
 ],
 "bonne": 1
-}
+},
+"num": 49
 },
 {
 "id": "copy-aw-050",
@@ -1435,7 +1473,8 @@ window.QR_CARTES = [
 "Un nouveau mécanisme crédible, ou passer à l'identification"
 ],
 "bonne": 3
-}
+},
+"num": 50
 },
 {
 "id": "copy-aw-051",
@@ -1483,7 +1522,8 @@ window.QR_CARTES = [
 "Concurrents qui copient ta promesse en la poussant plus loin"
 ],
 "bonne": 1
-}
+},
+"num": 51
 },
 {
 "id": "copy-aw-052",
@@ -1516,7 +1556,8 @@ window.QR_CARTES = [
 "Elle ne commence pas par un code promo"
 ],
 "bonne": 2
-}
+},
+"num": 52
 },
 {
 "id": "copy-aw-053",
@@ -1549,7 +1590,8 @@ window.QR_CARTES = [
 "Elle évite de parler du moindre problème"
 ],
 "bonne": 1
-}
+},
+"num": 53
 },
 {
 "id": "copy-aw-054",
@@ -1582,7 +1624,8 @@ window.QR_CARTES = [
 "Schwartz : l'identité prime. Tiana : tout garder, plus l'espoir"
 ],
 "bonne": 3
-}
+},
+"num": 54
 },
 {
 "id": "copy-deco-001",
@@ -1624,7 +1667,8 @@ window.QR_CARTES = [
 "source": "The Conscious Bar – pub Meta gagnante (traduction FR) ; skill-usa, livre 1 (Vincent)",
 "ref": "Fiche « GAGNANTE 05 - La cheffe pâtissière qui ne peut pas manger de sucre », blocs 1 et 2 ; skill-usa 00-ordre-de-la-maison, livre 1",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 797
 },
 {
 "id": "copy-deco-002",
@@ -1666,7 +1710,8 @@ window.QR_CARTES = [
 "source": "Hawkins – Map of Consciousness (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 01-hawkins, tableau « Départ, en bas » ; fiche « GAGNANTE 04 - J'ai arrêté le sucre et je mange du chocolat chaque jour », bloc 1",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 798
 },
 {
 "id": "copy-deco-003",
@@ -1708,7 +1753,8 @@ window.QR_CARTES = [
 "source": "Hawkins – Map of Consciousness (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 01-hawkins, tableau « Arrivée, en haut » et « Les 3 règles », règle 2 ; fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », bloc 10",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 799
 },
 {
 "id": "copy-deco-004",
@@ -1755,7 +1801,8 @@ window.QR_CARTES = [
 "source": "Hawkins (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 01-hawkins, « Les 3 règles », règle 3 ; fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », blocs 6 et 7",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 800
 },
 {
 "id": "copy-deco-005",
@@ -1801,7 +1848,8 @@ window.QR_CARTES = [
 "source": "Eugene Schwartz – Breakthrough Advertising ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 02-schwartz, « Les trois questions de Schwartz » (question 1, le désir de masse) ; fiche « GAGNANTE 08 - Le micro-trottoir à Miami », bloc 1",
 "date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 801
 },
 {
 "id": "copy-deco-006",
@@ -1847,7 +1895,8 @@ window.QR_CARTES = [
 "source": "The Conscious Bar – pub Meta gagnante (créateur Itay Shechter)",
 "ref": "Fiche « GAGNANTE 07 - Fais ton chocolat industriel à la maison », blocs 1 et 2, et relevé technique (première image)",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 802
 },
 {
 "id": "copy-deco-007",
@@ -1893,7 +1942,8 @@ window.QR_CARTES = [
 "source": "Hawkins (grille du skill-usa) ; effet Zeigarnik (fiche du skill-usa)",
 "ref": "skill-usa 01-hawkins, avertissement sous le tableau « Départ » ; skill-usa 06-zeigarnik [S010] condition 6 ; exemple de hook écrit pour l'exercice (pas une vraie pub)",
 "date_source": "1927 (Zeigarnik)",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 803
 },
 {
 "id": "copy-deco-008",
@@ -1938,7 +1988,8 @@ window.QR_CARTES = [
 "source": "skill-usa – Stratégie Spencer, règles fixes ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "skill-usa SKILL.md, section 4, règle 1 ; fiches « GAGNANTE 04 », « GAGNANTE 02 » et « GAGNANTE 05 »",
 "date_source": "pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 804
 },
 {
 "id": "copy-deco-009",
@@ -1980,7 +2031,8 @@ window.QR_CARTES = [
 "source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 02-schwartz, niveau « Le marché totalement inconscient » ; fiche « GAGNANTE 01 - Comment a-t-on fait d'un superaliment un bonbon », bloc 1",
 "date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 805
 },
 {
 "id": "copy-deco-010",
@@ -2022,7 +2074,8 @@ window.QR_CARTES = [
 "source": "Spencer – Evolve, décorticage de la pub chocolat ; The Conscious Bar – pub Meta gagnante",
 "ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S021] ; fiche « GAGNANTE 01 », bloc 10",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 806
 },
 {
 "id": "copy-deco-011",
@@ -2065,7 +2118,8 @@ window.QR_CARTES = [
 ],
 "source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 02-schwartz, partie 1 (niveaux « il a un besoin » et « il connaît le désir ») ; fiche « GAGNANTE 03 - Le 1er ingrédient n'est pas le cacao (version Spencer) », blocs 7 et 8",
-"date_source": "1966 (Schwartz) ; pub active au 07/10/2026"
+"date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
+"num": 807
 },
 {
 "id": "copy-deco-012",
@@ -2111,7 +2165,8 @@ window.QR_CARTES = [
 "source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 02-schwartz, partie 1 (règle générale et niveau « il connaît le désir ») ; fiche « GAGNANTE 04 », blocs 1 et 2",
 "date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 808
 },
 {
 "id": "copy-deco-013",
@@ -2157,7 +2212,8 @@ window.QR_CARTES = [
 "source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 02-schwartz, partie 2, « Stade 3 — le stade du mécanisme » ; fiche « GAGNANTE 06 », bloc 8",
 "date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 809
 },
 {
 "id": "copy-deco-014",
@@ -2203,7 +2259,8 @@ window.QR_CARTES = [
 "source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 02-schwartz, « Stade 5 — le marché épuisé » et « Niveau 5 » ; fiche « GAGNANTE 05 », blocs 1 et 2",
 "date_source": "1966 (Schwartz) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 810
 },
 {
 "id": "copy-deco-015",
@@ -2249,7 +2306,8 @@ window.QR_CARTES = [
 "source": "Eugene Schwartz – Breakthrough Advertising (synthèse du skill-usa)",
 "ref": "skill-usa 02-schwartz, « La phrase à retenir du chapitre 2 » et « Niveau 1 — le plus conscient » ; exemple d'accroche écrit pour l'exercice",
 "date_source": "1966",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 811
 },
 {
 "id": "copy-deco-016",
@@ -2294,7 +2352,8 @@ window.QR_CARTES = [
 "source": "Spencer – Evolve, décorticage de la pub chocolat",
 "ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S021] ; Spencer Evolve vendre avec une histoire - INDEX [S022] [R065]",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 812
 },
 {
 "id": "copy-deco-017",
@@ -2336,7 +2395,8 @@ window.QR_CARTES = [
 ],
 "source": "Les 8 composantes d'une pub gagnante (formation, traduction FR du skill-usa) ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "skill-usa 03-8-composantes [S001] et [S004] ; fiches « GAGNANTE 03 », « GAGNANTE 07 », « GAGNANTE 05 » et « GAGNANTE 08 »",
-"date_source": "pubs actives au 07/10/2026"
+"date_source": "pubs actives au 07/10/2026",
+"num": 813
 },
 {
 "id": "copy-deco-018",
@@ -2379,7 +2439,8 @@ window.QR_CARTES = [
 "source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-8-composantes [S001] et [S016] (autorité) ; fiche « GAGNANTE 05 », bloc 3",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 814
 },
 {
 "id": "copy-deco-019",
@@ -2421,7 +2482,8 @@ window.QR_CARTES = [
 "source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-8-composantes [S022] [S023] (mauvais coupables) ; skill-usa SKILL.md, règle 17 ; fiche « GAGNANTE 05 », bloc 4",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 815
 },
 {
 "id": "copy-deco-020",
@@ -2467,7 +2529,8 @@ window.QR_CARTES = [
 "source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante (créateur Itay Shechter)",
 "ref": "skill-usa 03-8-composantes [S013] [S018] (valence, intensité, escalade) ; fiche « GAGNANTE 07 », blocs 2 à 7",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 816
 },
 {
 "id": "copy-deco-021",
@@ -2513,7 +2576,8 @@ window.QR_CARTES = [
 "source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-8-composantes [S027] ; skill-usa SKILL.md, règle 18 ; fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », blocs 8 et 9",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 817
 },
 {
 "id": "copy-deco-022",
@@ -2559,7 +2623,8 @@ window.QR_CARTES = [
 "source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-8-composantes [S001] et [S032] ; fiche « GAGNANTE 02 - Pourquoi on a créé notre propre chocolaterie », bloc 2",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 818
 },
 {
 "id": "copy-deco-023",
@@ -2605,7 +2670,8 @@ window.QR_CARTES = [
 ],
 "source": "Les 8 composantes (skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-8-composantes [S019] ; fiche « GAGNANTE 01 », bloc 7 et relevé technique",
-"date_source": "pub active au 07/10/2026"
+"date_source": "pub active au 07/10/2026",
+"num": 819
 },
 {
 "id": "copy-deco-024",
@@ -2650,7 +2716,8 @@ window.QR_CARTES = [
 "source": "Les 8 composantes (formation, traduction FR du skill-usa)",
 "ref": "skill-usa 03-8-composantes [S005]",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 820
 },
 {
 "id": "copy-deco-025",
@@ -2692,7 +2759,8 @@ window.QR_CARTES = [
 "source": "skill-usa – Stratégie Spencer, règles fixes ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa SKILL.md, règle 16 ; fiche « GAGNANTE 03 - Le 1er ingrédient n'est pas le cacao (version Spencer) », bloc 7",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 821
 },
 {
 "id": "copy-deco-026",
@@ -2735,7 +2803,8 @@ window.QR_CARTES = [
 "source": "Spencer – Evolve, décorticage de la pub chocolat ; Hawkins (grille du skill-usa)",
 "ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S016] ; skill-usa 01-hawkins, marche « Acceptation »",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 822
 },
 {
 "id": "copy-deco-027",
@@ -2777,7 +2846,8 @@ window.QR_CARTES = [
 "source": "The Conscious Bar – pub Meta gagnante ; skill-usa – Stratégie Spencer",
 "ref": "Fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », bloc 5 ; skill-usa SKILL.md, règle 16",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 823
 },
 {
 "id": "copy-deco-028",
@@ -2823,7 +2893,8 @@ window.QR_CARTES = [
 "source": "skill-usa – Stratégie Spencer (livre 3 bis) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 00-ordre-de-la-maison, livre 3 bis ; fiche « GAGNANTE 03 », bloc 8",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 824
 },
 {
 "id": "copy-deco-029",
@@ -2869,7 +2940,8 @@ window.QR_CARTES = [
 "source": "The Conscious Bar – pub Meta gagnante (créateur Itay Shechter) ; Hawkins (grille du skill-usa)",
 "ref": "Fiche « GAGNANTE 07 - Fais ton chocolat industriel à la maison », bloc 6 ; skill-usa 01-hawkins, marche « Colère »",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 825
 },
 {
 "id": "copy-deco-030",
@@ -2916,7 +2988,8 @@ window.QR_CARTES = [
 "source": "The Conscious Bar – pub Meta gagnante",
 "ref": "Fiche « GAGNANTE 02 - Pourquoi on a créé notre propre chocolaterie », blocs 2 et 5",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 826
 },
 {
 "id": "copy-deco-031",
@@ -2961,7 +3034,8 @@ window.QR_CARTES = [
 "source": "Spencer – mécanisme unique (fiche du skill-usa)",
 "ref": "skill-usa 03-spencer-mecanisme, partie 0.7 (les trois voies) et [S016] (voie 2, le mécanisme non dit)",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 827
 },
 {
 "id": "copy-deco-032",
@@ -3006,7 +3080,8 @@ window.QR_CARTES = [
 "source": "skill-usa – Stratégie Spencer, règles fixes ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa SKILL.md, règle 16 ; fiche « GAGNANTE 06 », bloc 5",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 828
 },
 {
 "id": "copy-deco-033",
@@ -3048,7 +3123,8 @@ window.QR_CARTES = [
 "source": "skill-usa – livre 3 ter (Hormozi, l'offre) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-hormozi-offre, « Ce que l'étape produit » ; fiche « GAGNANTE 01 - Comment a-t-on fait d'un superaliment un bonbon », bloc 11",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 829
 },
 {
 "id": "copy-deco-034",
@@ -3090,7 +3166,8 @@ window.QR_CARTES = [
 ],
 "source": "Alex Hormozi – $100M Offers ; The Conscious Bar – pub Meta gagnante",
 "ref": "100M Offers How To Make Offers So Good People Feel Stupid Saying No (Alex Hormozi) - INDEX [S054] [R071] ; fiche « GAGNANTE 05 », bloc 8 ; « Textes des pubs - relevé du 07-10-2026 », [S001]",
-"date_source": "2021 (Hormozi) ; pubs actives au 07/10/2026"
+"date_source": "2021 (Hormozi) ; pubs actives au 07/10/2026",
+"num": 830
 },
 {
 "id": "copy-deco-035",
@@ -3131,7 +3208,8 @@ window.QR_CARTES = [
 "source": "Alex Hormozi – $100M Offers ; The Conscious Bar – pub Meta gagnante",
 "ref": "100M Offers - INDEX [S062] [R374] ; Style/style-Hormozi, règle 6 ; fiche « GAGNANTE 01 », [S005]",
 "date_source": "2021 (Hormozi) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 831
 },
 {
 "id": "copy-deco-036",
@@ -3177,7 +3255,8 @@ window.QR_CARTES = [
 "source": "Alex Hormozi – $100M Offers ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "100M Offers - INDEX [S015] [R019] ; fiches « GAGNANTE 01 » ([S001], [S002], bloc 11) et « GAGNANTE 03 » (bloc 11)",
 "date_source": "2021 (Hormozi) ; pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 832
 },
 {
 "id": "copy-deco-037",
@@ -3223,7 +3302,8 @@ window.QR_CARTES = [
 "source": "skill-usa – livre 3 ter (Hormozi, l'offre) ; Robert Cialdini – Influence ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-hormozi-offre, étape 7 et règle 3 ; Influence The Psychology of Persuasion (Robert B. Cialdini) - INDEX [S227] [R1012] ; fiche « GAGNANTE 04 », bloc 7",
 "date_source": "1984 (Cialdini) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 833
 },
 {
 "id": "copy-deco-038",
@@ -3269,7 +3349,8 @@ window.QR_CARTES = [
 "source": "skill-usa – livre 3 ter (Hormozi, l'offre) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-hormozi-offre, « Ce que l'étape produit » point 3 et règle 2 ; fiche « GAGNANTE 01 », bloc 11",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 834
 },
 {
 "id": "copy-deco-039",
@@ -3315,7 +3396,8 @@ window.QR_CARTES = [
 "source": "skill-usa – livre 3 ter (Hormozi, l'offre) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 03-hormozi-offre, étape 6 ; fiche « GAGNANTE 08 - Le micro-trottoir à Miami », bloc 4",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 835
 },
 {
 "id": "copy-deco-040",
@@ -3360,7 +3442,8 @@ window.QR_CARTES = [
 "source": "skill-usa – livre 3 ter (Hormozi, l'offre)",
 "ref": "skill-usa 03-hormozi-offre, étapes 3 et 5 ; exemple du porte-clés écrit pour l'exercice",
 "date_source": "2021 (Hormozi)",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 836
 },
 {
 "id": "copy-deco-041",
@@ -3402,7 +3485,8 @@ window.QR_CARTES = [
 "source": "Spencer – Evolve, décorticage de la pub chocolat ; The Conscious Bar – pub Meta gagnante",
 "ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S011] [S012] ; fiche « GAGNANTE 01 », blocs 4 et 5",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 837
 },
 {
 "id": "copy-deco-042",
@@ -3444,7 +3528,8 @@ window.QR_CARTES = [
 "source": "Spencer – Evolve, décorticage de la pub chocolat ; The Conscious Bar – pub Meta gagnante",
 "ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S007] [S008] ; fiche « GAGNANTE 03 », bloc 3",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 838
 },
 {
 "id": "copy-deco-043",
@@ -3486,7 +3571,8 @@ window.QR_CARTES = [
 "source": "Spencer – Evolve, décorticage de la pub chocolat ; Joseph Sugarman – The Adweek Copywriting Handbook",
 "ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S018] ; The Adweek Copywriting Handbook (Joseph Sugarman) - INDEX [S114] [R708] ; fiche « GAGNANTE 03 », bloc 8",
 "date_source": "2007 (Sugarman) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 839
 },
 {
 "id": "copy-deco-044",
@@ -3533,7 +3619,8 @@ window.QR_CARTES = [
 "source": "skill-usa – livre 4 vidéo (le squelette chocolat) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 00-ordre-de-la-maison, livre 4 vidéo ; skill-usa exemples/modele-chocolat ; fiche « GAGNANTE 03 », [S004]",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 840
 },
 {
 "id": "copy-deco-045",
@@ -3579,7 +3666,8 @@ window.QR_CARTES = [
 "source": "skill-usa – Stratégie Spencer, règles fixes ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa SKILL.md, règle 19 ; fiche « GAGNANTE 06 - Le chocolat a pris le mauvais chemin », blocs 1 et 9",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 841
 },
 {
 "id": "copy-deco-046",
@@ -3625,7 +3713,8 @@ window.QR_CARTES = [
 "source": "Spencer – Evolve, décorticage de la pub chocolat ; The Conscious Bar – pub Meta gagnante",
 "ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S017] ; fiche « GAGNANTE 03 », blocs 7 et 8",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 842
 },
 {
 "id": "copy-deco-047",
@@ -3670,7 +3759,8 @@ window.QR_CARTES = [
 "source": "skill-usa – Stratégie Spencer ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "skill-usa SKILL.md, règle 18 ; skill-usa 03-hormozi-offre, règle 1 ; 00 Index - FICHIER FB CHOCOLAT, « Ce que les 8 disent ensemble », point 2",
 "date_source": "pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 843
 },
 {
 "id": "copy-deco-048",
@@ -3716,7 +3806,8 @@ window.QR_CARTES = [
 "source": "Spencer – Evolve, décorticage de la pub chocolat ; Robert Cialdini – Influence ; The Conscious Bar – pub Meta gagnante",
 "ref": "decorticage-pub-barre-chocolatee-consciente-structure-fr - INDEX [S022] ; Influence (Robert B. Cialdini) - INDEX [S020] [R278] ; fiche « GAGNANTE 03 », bloc 11",
 "date_source": "1984 (Cialdini) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 844
 },
 {
 "id": "copy-deco-049",
@@ -3757,7 +3848,8 @@ window.QR_CARTES = [
 "source": "Harry Dry (fiche du skill-usa)",
 "ref": "skill-usa 05-harry-dry [E001] et partie 0.8",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 845
 },
 {
 "id": "copy-deco-050",
@@ -3798,7 +3890,8 @@ window.QR_CARTES = [
 "source": "Harry Dry (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante (créateur Itay Shechter)",
 "ref": "skill-usa 05-harry-dry [E001] ; fiche « GAGNANTE 07 - Fais ton chocolat industriel à la maison », blocs 4 et 5",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 846
 },
 {
 "id": "copy-deco-051",
@@ -3839,7 +3932,8 @@ window.QR_CARTES = [
 "source": "Feynman – les 5 remèdes (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 05-feynman [S010] remède 1 ; fiche « GAGNANTE 03 », bloc 6",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 847
 },
 {
 "id": "copy-deco-052",
@@ -3885,7 +3979,8 @@ window.QR_CARTES = [
 "source": "Joseph Sugarman – The Adweek Copywriting Handbook ; The Conscious Bar – pub Meta gagnante",
 "ref": "The Adweek Copywriting Handbook (Joseph Sugarman) - INDEX [S061] [R516] [R518] ; fiche « GAGNANTE 02 », bloc 2",
 "date_source": "2007 (Sugarman) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 848
 },
 {
 "id": "copy-deco-053",
@@ -3930,7 +4025,8 @@ window.QR_CARTES = [
 "source": "Harry Dry (fiche du skill-usa) ; Claude Hopkins – Scientific Advertising ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 05-harry-dry [E001] ; Scientific Advertising (Claude C. Hopkins) - INDEX [S026] [R102] ; fiche « GAGNANTE 04 », bloc 3",
 "date_source": "1923 (Hopkins) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 849
 },
 {
 "id": "copy-deco-054",
@@ -3975,7 +4071,8 @@ window.QR_CARTES = [
 "source": "David Ogilvy – Ogilvy on Advertising ; Feynman – les 5 remèdes (fiche du skill-usa)",
 "ref": "Ogilvy on Advertising (David Ogilvy) - INDEX [S126] [R882] ; skill-usa 05-feynman [S010] remède 4",
 "date_source": "1983 (Ogilvy)",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 850
 },
 {
 "id": "copy-deco-055",
@@ -4022,7 +4119,8 @@ window.QR_CARTES = [
 "source": "Harry Dry (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 05-harry-dry [E001] et partie 0.9 (méthode du zoom [E006]) ; fiche « GAGNANTE 03 », bloc 7 et relevé technique",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 851
 },
 {
 "id": "copy-deco-056",
@@ -4068,7 +4166,8 @@ window.QR_CARTES = [
 "source": "The Conscious Bar – pubs Meta gagnantes (relevé technique)",
 "ref": "Fiches « GAGNANTE 06 » et « GAGNANTE 03 », relevé technique ; 00 Index - FICHIER FB CHOCOLAT, « Ce que les 8 disent ensemble », point 5",
 "date_source": "pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 852
 },
 {
 "id": "copy-deco-057",
@@ -4110,7 +4209,8 @@ window.QR_CARTES = [
 "source": "Effet Zeigarnik (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 06-zeigarnik [S004] ; fiche « GAGNANTE 03 », blocs 1 et 5",
 "date_source": "1927 (Zeigarnik) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 853
 },
 {
 "id": "copy-deco-058",
@@ -4151,7 +4251,8 @@ window.QR_CARTES = [
 "source": "Effet Zeigarnik (fiche du skill-usa)",
 "ref": "skill-usa 06-zeigarnik [S001]",
 "date_source": "1927",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 854
 },
 {
 "id": "copy-deco-059",
@@ -4192,7 +4293,8 @@ window.QR_CARTES = [
 "source": "Effet Zeigarnik (fiche du skill-usa)",
 "ref": "skill-usa 06-zeigarnik [S010] condition 1",
 "date_source": "1927",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 855
 },
 {
 "id": "copy-deco-060",
@@ -4238,7 +4340,8 @@ window.QR_CARTES = [
 "source": "Effet Zeigarnik (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 06-zeigarnik [S003] et [S004] ; fiche « GAGNANTE 06 », bloc 1",
 "date_source": "1927 (Zeigarnik) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 856
 },
 {
 "id": "copy-deco-061",
@@ -4284,7 +4387,8 @@ window.QR_CARTES = [
 "source": "Effet Zeigarnik (fiche du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 06-zeigarnik [S010] condition 5 ; fiche « GAGNANTE 03 », blocs 1 et 5",
 "date_source": "1927 (Zeigarnik) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 857
 },
 {
 "id": "copy-deco-062",
@@ -4329,7 +4433,8 @@ window.QR_CARTES = [
 "source": "Effet Zeigarnik (fiche du skill-usa)",
 "ref": "skill-usa 06-zeigarnik [S010] condition 4",
 "date_source": "1927",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 858
 },
 {
 "id": "copy-deco-063",
@@ -4374,7 +4479,8 @@ window.QR_CARTES = [
 "source": "Effet Zeigarnik (fiche du skill-usa)",
 "ref": "skill-usa 06-zeigarnik [S006]",
 "date_source": "1927",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 859
 },
 {
 "id": "copy-deco-064",
@@ -4419,7 +4525,8 @@ window.QR_CARTES = [
 "source": "Effet Zeigarnik (fiche du skill-usa)",
 "ref": "skill-usa 06-zeigarnik [S010] conditions 2 et 3",
 "date_source": "1927",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 860
 },
 {
 "id": "copy-deco-065",
@@ -4460,7 +4567,8 @@ window.QR_CARTES = [
 ],
 "source": "Les 3 péchés (règle du skill-usa) ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "skill-usa 07-3-peches, piège 1 ; fiches « GAGNANTE 01 », « GAGNANTE 06 » et « GAGNANTE 05 », bloc 1 ; exemple « Découvrez… » écrit pour l'exercice",
-"date_source": "pubs actives au 07/10/2026"
+"date_source": "pubs actives au 07/10/2026",
+"num": 861
 },
 {
 "id": "copy-deco-066",
@@ -4502,7 +4610,8 @@ window.QR_CARTES = [
 "source": "Les 3 péchés (skill-usa) ; Joseph Sugarman (fiche Grands copywriters) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 07-3-peches, piège 3 ; Joe Sugarman - 4 fiches, citation « Honesty is the most important trigger » ; fiche « GAGNANTE 08 - Le micro-trottoir à Miami », bloc 4",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 862
 },
 {
 "id": "copy-deco-067",
@@ -4544,7 +4653,8 @@ window.QR_CARTES = [
 "source": "Robert Cialdini – Influence ; The Conscious Bar – texte d'une pub Meta active",
 "ref": "Influence (Robert B. Cialdini) - INDEX [S114] [R098] ; « Textes des pubs - relevé du 07-10-2026 », [S001]",
 "date_source": "1984 (Cialdini) ; pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 863
 },
 {
 "id": "copy-deco-068",
@@ -4590,7 +4700,8 @@ window.QR_CARTES = [
 "source": "Robert Cialdini – Influence ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "Influence (Robert B. Cialdini) - INDEX [S158] [R733] ; fiche « GAGNANTE 04 », [S001] et bloc 2 ; 00 Index - FICHIER FB CHOCOLAT",
 "date_source": "1984 (Cialdini) ; pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 864
 },
 {
 "id": "copy-deco-069",
@@ -4636,7 +4747,8 @@ window.QR_CARTES = [
 "source": "Mark – les 5 couches (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 07-mark-5-couches, couche 3 ; fiche « GAGNANTE 04 », [S002]",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 865
 },
 {
 "id": "copy-deco-070",
@@ -4682,7 +4794,8 @@ window.QR_CARTES = [
 "source": "Mark – les 5 couches (grille du skill-usa) ; Joseph Sugarman – The Adweek Copywriting Handbook",
 "ref": "skill-usa 07-mark-5-couches, couche 2 ; The Adweek Copywriting Handbook (Joseph Sugarman) - INDEX [S068] [R060]",
 "date_source": "2007 (Sugarman)",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 866
 },
 {
 "id": "copy-deco-071",
@@ -4727,7 +4840,8 @@ window.QR_CARTES = [
 "source": "Les 3 péchés (règle du skill-usa) ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "skill-usa 07-3-peches, piège 2 ; fiches « GAGNANTE 01 » à « GAGNANTE 08 », derniers blocs (CTA)",
 "date_source": "pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 867
 },
 {
 "id": "copy-deco-072",
@@ -4773,7 +4887,8 @@ window.QR_CARTES = [
 "source": "Mark – les 5 couches (grille du skill-usa) ; The Conscious Bar – pub Meta gagnante",
 "ref": "skill-usa 07-mark-5-couches, couche 4 ; fiche « GAGNANTE 02 - Pourquoi on a créé notre propre chocolaterie », blocs 7 et 8",
 "date_source": "pub active au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 868
 },
 {
 "id": "copy-deco-073",
@@ -4815,7 +4930,8 @@ window.QR_CARTES = [
 "source": "The Conscious Bar – pubs Meta gagnantes (comparaison)",
 "ref": "Fiche « GAGNANTE 01 - Comment a-t-on fait d'un superaliment un bonbon », [S002] ; fiche « GAGNANTE 03 »",
 "date_source": "pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 869
 },
 {
 "id": "copy-deco-074",
@@ -4856,7 +4972,8 @@ window.QR_CARTES = [
 "source": "Méthode « rafraîchir une gagnante » (fiche du skill-usa)",
 "ref": "skill-usa 09-rafraichir-base [S003] [S014]",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 870
 },
 {
 "id": "copy-deco-075",
@@ -4898,7 +5015,8 @@ window.QR_CARTES = [
 "source": "skill-usa – règles fixes ; David Ogilvy – Ogilvy on Advertising ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "skill-usa SKILL.md, règle 14 ; Ogilvy on Advertising (David Ogilvy) - INDEX [S105] [R774] ; fiches « GAGNANTE 02 », « GAGNANTE 03 » et « GAGNANTE 06 », [S002]",
 "date_source": "1983 (Ogilvy) ; pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 871
 },
 {
 "id": "copy-deco-076",
@@ -4943,7 +5061,8 @@ window.QR_CARTES = [
 "source": "Méthode « rafraîchir une gagnante » (fiche du skill-usa)",
 "ref": "skill-usa 09-rafraichir-base [S014]",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 872
 },
 {
 "id": "copy-deco-077",
@@ -4988,7 +5107,8 @@ window.QR_CARTES = [
 "source": "Méthode de sélection des gagnantes (relevé du 07/10/2026)",
 "ref": "00 Index - FICHIER FB CHOCOLAT, « Comment une vidéo est entrée ici »",
 "date_source": "07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 873
 },
 {
 "id": "copy-deco-078",
@@ -5033,7 +5153,8 @@ window.QR_CARTES = [
 "source": "skill-usa – Stratégie Spencer, ce qu'on demande à l'utilisateur",
 "ref": "skill-usa SKILL.md, section 5, point 7 (Spencer [S030] à [S032]) ; skill-usa 09-iterer-gagnant",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 874
 },
 {
 "id": "copy-deco-079",
@@ -5078,7 +5199,8 @@ window.QR_CARTES = [
 "source": "Le concurrent et le remix (fiche du skill-usa) ; The Conscious Bar – pubs Meta gagnantes",
 "ref": "skill-usa 03-concurrent, « Ce qu'on ne fait jamais » et « Le remix d'une pub concurrente » ; fiche « GAGNANTE 03 », [S007]",
 "date_source": "pubs actives au 07/10/2026",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 875
 },
 {
 "id": "copy-deco-080",
@@ -5123,7 +5245,2158 @@ window.QR_CARTES = [
 "source": "skill-usa – itérer une gagnante (test du doublon)",
 "ref": "skill-usa 09-iterer-gagnant, « Étape D · Le test du doublon »",
 "date_source": "inconnue",
-"ajout": "2026-10-07"
+"ajout": "2026-10-07",
+"num": 876
+},
+{
+"id": "copy-deco-s-001",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Une promesse d'offre très forte",
+"niveau": 1,
+"type": "qcm",
+"q": "Une pub de compléments dit « Ce deal est insensé », montre ce qu'on reçoit et « 150 $ de valeur », mais pas le prix. Quel risque Spencer y voit-il ?",
+"choix": [
+"Le client voit un prix élevé sur le site et part",
+"Meta bloque les pubs qui n'affichent aucun prix",
+"Le client croit que le produit est en rupture",
+"La marque doit rembourser l'écart de valeur"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le client clique, découvre un prix élevé sur le site, et se dit « c'est beaucoup d'argent ».",
+"pourquoi": "Ne pas dire le prix pousse à cliquer pour voir l'offre. Si l'offre est vraiment folle et la page au point, ça convertit très bien. Sinon, le prix fait fuir : Spencer prend l'exemple de 300 $.",
+"action": "Si tu caches le prix dans la pub, vérifie que la page montre tout de suite une offre qui tient la promesse."
+},
+"explication": "Spencer : une promesse aussi grosse que « ce deal est insensé », il faut l'assumer. Elle arrête le défilement (scroll) et rend curieux. Mais une pub qui promet gros et une page qui déçoit, c'est un clic perdu.",
+"variantes": [
+{
+"q": "Selon Spencer, que fait d'abord la phrase « Ce deal est insensé » dans une pub Black Friday ?",
+"choix": [
+"Elle arrête le défilement et rend curieux",
+"Elle annonce clairement le prix final",
+"Elle rassure les clients déjà fidèles",
+"Elle prouve que le produit marche"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle arrête le défilement (scroll) et rend curieux : on veut savoir quel est ce deal."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S052] [R164] [R165]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 900
+},
+{
+"id": "copy-deco-s-002",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Le pack (bundle) au Black Friday",
+"niveau": 1,
+"type": "qcm",
+"q": "Au Black Friday, beaucoup de nouveaux clients achètent des cadeaux et ne connaissent pas ta marque. Selon Spencer, quelle pub ajoutes-tu à tes pubs d'un seul produit ?",
+"choix": [
+"Une pub qui montre ton plus gros pack (bundle)",
+"Une pub qui raconte l'histoire du fondateur",
+"Une pub qui compare ton prix à celui des autres",
+"Une pub qui montre ton produit le moins cher"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une pub de pack (bundle) : ces clients se demandent « qu'avez-vous de mieux ? ».",
+"pourquoi": "Montrer que ton meilleur produit est un gros pack fait exploser le panier moyen. Et les nouveaux clients veulent se sentir en sécurité, surtout quand ils achètent un cadeau.",
+"action": "Pour le Black Friday, fais au moins une pub qui montre le pack, souvent avec la plus grosse remise."
+},
+"explication": "Quand tu montres le pack dans la pub, tu dis à celui qui clique d'aller le prendre. Spencer aime le texte de la marque Loop : « La vie est meilleure quand on prend le pack. » Les deux premières lignes du texte, que tout le monde voit, poussent déjà vers le pack.",
+"variantes": [
+{
+"q": "Selon Spencer, pourquoi montrer un gros pack plaît-il aux nouveaux clients du Black Friday ?",
+"choix": [
+"Ils veulent se sentir en sécurité en offrant",
+"Ils veulent payer en plusieurs fois sans frais",
+"Ils veulent tester un seul produit d'abord",
+"Ils veulent recevoir leur colis plus vite"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Ils veulent se sentir en sécurité, surtout quand ils achètent un cadeau."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S053] [R166] [R167] ; [S055] [R172]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 901
+},
+{
+"id": "copy-deco-s-003",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Dire vraiment quelque chose",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Spencer, quelle question te poses-tu en relisant tes pubs, avant tout le reste ?",
+"choix": [
+"« Qu'est-ce que je communique vraiment ? »",
+"« Est-ce que mon texte est assez long ? »",
+"« Est-ce que j'ai cité assez de chiffres ? »",
+"« Est-ce que mon logo se voit assez ? »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Qu'est-ce que je communique vraiment ? »",
+"pourquoi": "Pour Spencer, la plupart des pubs ne communiquent rien : elles se vantent, promettent, disent des choses pour dire des choses. Il cite Harry Dry : « rien, bien dit, reste rien ».",
+"action": "Relis ta meilleure pub et écris en une phrase ce qu'elle fait comprendre sans le dire."
+},
+"explication": "Souvent, une pub ne dit rien parce que la marque n'a pas de place à elle sur le marché, pas de client précis dont elle règle le problème, rien qu'elle défend ou combat. Spencer : c'est en partie pour ça que ces marques n'arrivent pas à grandir.",
+"variantes": [
+{
+"q": "Spencer cite Harry Dry au sujet des pubs qui parlent pour ne rien dire. Quelle est cette phrase ?",
+"choix": [
+"« Rien, bien dit, reste rien »",
+"« Moins de mots, plus de ventes »",
+"« Le client lit tout, ou rien »",
+"« Une image vaut mille mots »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Rien, bien dit, reste rien » (« nothing said well is still nothing »)."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 1 [S007] [R049] ; [S008] [R050] [R051]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 902
+},
+{
+"id": "copy-deco-s-004",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Lire une pub qui perd",
+"niveau": 1,
+"type": "qcm",
+"q": "Tu analyses une pub vidéo qui perd. Selon Spencer, sur quoi passes-tu le plus de temps ?",
+"choix": [
+"Les 10 à 15 premières secondes",
+"L'appel à l'action de la fin",
+"Le prix et l'offre annoncés",
+"La musique et les sous-titres"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Les 10 à 15 premières secondes : le hook et le pont.",
+"pourquoi": "Le pont, ce sont les 5 à 10 secondes qui suivent les 2 à 3 premières. La plupart du temps, une vidéo perd parce que le hook et le pont sont ratés.",
+"action": "Sur une perdante, concentre-toi sur les 15 premières secondes. Tu ne la regardes en entier que si elle gagne."
+},
+"explication": "Regarder 1 min 30 d'une pub dont les 10 premières secondes sont ratées, c'est du temps perdu. Si on corrige le début, la vidéo a peut-être une chance. Spencer ne décortique une pub du début à la fin que quand elle gagne.",
+"variantes": [
+{
+"q": "Selon Spencer, quand regarde-t-on une pub vidéo en entier, du début à la fin ?",
+"choix": [
+"Seulement quand elle gagne",
+"Seulement quand elle perd",
+"Seulement si elle est courte",
+"Seulement la 1re semaine"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Seulement quand elle gagne. Sur une perdante, on regarde le hook et le pont."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 2 [S018] [R071] [R072] [R073]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 903
+},
+{
+"id": "copy-deco-s-005",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Trouver un sub-avatar dans les commentaires",
+"niveau": 1,
+"type": "qcm",
+"q": "Cet avis est écrit sous une pub de tampon qui marque les affaires des enfants. Qu'y voit Spencer ?",
+"extrait": "Commentaire de Linda : « J'en ai commandé un il y a quelques années. Comme ma mère vit en maison médicalisée, je tamponne ses vêtements, ses chaussettes et ses serviettes. »",
+"choix": [
+"Un tout nouvel avatar à viser dans une pub",
+"Une cliente qui utilise mal le produit",
+"Un avis à cacher, car hors de la cible",
+"Une preuve que le prix est trop élevé"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Un tout nouvel avatar (client type) : la personne âgée en maison de retraite.",
+"pourquoi": "Spencer imagine la vieille dame dire : « Ma fille m'a acheté ça, et c'est la meilleure chose que j'aie pu avoir en maison de retraite. » Même produit, autre personne, nouvelle pub.",
+"action": "Lis les commentaires de tes pubs qui marchent : note chaque personne qui n'est pas ta cible de départ."
+},
+"explication": "Une pub qui récolte beaucoup de commentaires est une mine d'or (environ 1 700 sous celle-ci). Les gens y racontent des usages que la marque n'a jamais montrés. Spencer : « D'où ça vient ? De nos commentaires. »",
+"variantes": [
+{
+"q": "Cet avis apparaît sous une pub de tampon pour enfants qui ne parle jamais de lave-vaisselle. Qu'en fait Spencer ?",
+"extrait": "Commentaire de Jordan : « Ils sont super. Ils tiennent même au lave-vaisselle. »",
+"choix": [
+"Un nouvel angle de pub à tester",
+"Une erreur à corriger dans la fiche du produit",
+"Une plainte à transmettre au service client",
+"Un avis à ignorer, car il sort du sujet"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Un angle à tester : ça tient même au lave-vaisselle et aux cycles très chauds."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 3 [S032] [R014] [R102]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 904
+},
+{
+"id": "copy-deco-s-006",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Annoncer une petite remise",
+"niveau": 1,
+"type": "qcm",
+"q": "Tu ne peux offrir que -20 % pour le Black Friday. Quels mots Spencer conseille-t-il d'ajouter juste après la remise ?",
+"choix": [
+"« sur tout »",
+"« jusqu'à »",
+"« exceptionnel »",
+"« dès maintenant »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Sur tout » : -20 % sur tout.",
+"pourquoi": "Les grandes marques écrivent « jusqu'à -70 % », et ce que tu veux n'est souvent pas à -70 %. « Sur tout » enlève ce doute : ce sur quoi tu cliques est au moins à -20 %.",
+"action": "Petite remise ? Écris « -20 % sur tout », même si tu n'as qu'un seul produit."
+},
+"explication": "« Jusqu'à » rapporte le clic, mais les gens y sont habitués. « Sur tout » est une remise plus petite mais garantie. Selon Spencer, tu communiques plus de valeur sans tromper personne.",
+"variantes": [
+{
+"q": "Une grande marque écrit « jusqu'à » en tout petit et « -70 % » en très gros. Selon Spencer, que gagne-t-elle ?",
+"choix": [
+"Le clic, même si l'article voulu n'est pas à -70 %",
+"La confiance des clients qui comparent les prix",
+"Moins de retours après la période des fêtes",
+"Le droit d'afficher la remise plus longtemps"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le clic : la personne vient sur le site, même si l'article qu'elle veut n'est pas à -70 %."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S054] [R025] [R168] [R169]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 905
+},
+{
+"id": "copy-deco-s-007",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Une gagnante pendant le Black Friday",
+"niveau": 1,
+"type": "qcm",
+"q": "Pendant le Black Friday, la marque Gruns garde son titre gagnant et n'ajoute qu'un tout petit autocollant « Black Friday ». Pourquoi, selon Spencer ?",
+"choix": [
+"Le titre accroche déjà : on le laisse travailler",
+"Meta refuse les grosses bannières de promo",
+"La promo est trop petite pour être annoncée",
+"Les clients n'aiment pas le mot Black Friday"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le titre accroche déjà : on le laisse faire le travail, sans distraire.",
+"pourquoi": "Quand la personne s'arrête et regarde, elle voit « Black Friday, -52 % ». La pub ne crie pas « promo » comme toutes les autres : elle continue de vendre son point fort.",
+"action": "Pendant une promo, ne cache pas un titre qui gagne sous une grosse bannière : glisse l'offre en petit."
+},
+"explication": "Pendant le Black Friday, tout le fil crie « promo ». Une pub qui ne le crie pas se remarque. Spencer y voit une leçon de diversité des créatives.",
+"variantes": [
+{
+"q": "Pendant le Black Friday, une pub Gruns affiche en gros « Perdez du poids, pas votre métabolisme ». Où la promo est-elle annoncée ?",
+"choix": [
+"Sur un tout petit autocollant",
+"Sur une grande bannière en haut",
+"Dans la voix off de la vidéo",
+"Seulement sur la page du site"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Sur un tout petit autocollant « Black Friday sale »."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S057] [R176] [R177]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 906
+},
+{
+"id": "copy-deco-s-008",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Faire croire sans promettre",
+"niveau": 1,
+"type": "qcm",
+"q": "Une marque de soin de la peau demande : « Pourquoi notre produit a-t-il été en rupture de stock 12 fois ? » Que fait-elle comprendre sans le dire ?",
+"choix": [
+"Que beaucoup de gens l'achètent, donc qu'il marche",
+"Que son usine est trop petite pour la demande",
+"Qu'il faut commander tout de suite avant la hausse",
+"Que ses prix vont bientôt baisser pour tout le monde"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Que beaucoup de gens l'achètent, donc qu'il doit marcher.",
+"pourquoi": "En soin de la peau, les gens sont très sceptiques : tant de marques disent que leur produit marche, et la plupart non. 12 ruptures, c'est une preuve indirecte.",
+"action": "Si tu as une vraie rareté (ruptures, liste d'attente), montre-la. Jamais de rupture inventée."
+},
+"explication": "Spencer : « Je ne vous dis pas de mentir sur le nombre de ruptures de votre produit. Ne faites pas ça. » La vraie rareté fait naître la croyance que le produit est bon, sans promesse que la cliente pourrait contester.",
+"variantes": [
+{
+"q": "Selon Spencer, dans quel genre de marché une phrase comme « en rupture 12 fois » pèse-t-elle le plus ?",
+"choix": [
+"Un marché très sceptique, comme le soin de la peau",
+"Un marché tout neuf, que personne ne connaît encore",
+"Un marché de luxe, où le prix compte peu",
+"Un marché de cadeaux, au moment des fêtes"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Un marché très sceptique, comme le soin de la peau : là, ça a beaucoup de poids."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S058] [R027] [R178] [R179]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 907
+},
+{
+"id": "copy-deco-s-009",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · L'autorité dans un petit détail",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Le grand-père de cet extrait répare des machines à laver depuis 30 ans. Que construit ce passage, selon Spencer ?",
+"extrait": "« Il est entré dans la buanderie, a ouvert la porte, s'est penché et a reniflé une fois. »",
+"qcm": {
+"choix": [
+"Son autorité : un as trouve la panne tout de suite",
+"La peur : l'odeur est plus grave que prévu",
+"L'humour : la scène fait sourire la spectatrice",
+"Le rythme : la phrase courte relance la vidéo"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Son autorité : c'est un tel as qu'il lui suffit de renifler une fois.",
+"pourquoi": "Il ne cherche pas la panne pendant des heures. Ce petit bout de copy fait sentir qu'on peut lui faire confiance.",
+"action": "Montre le savoir de ton autorité par un geste précis et court, pas seulement par son titre."
+},
+"explication": "Spencer : ces petits bouts de copy agissent même sans qu'on en ait conscience, « c'est ce qui se passe dans votre cerveau ». La pub a d'abord dit « 30 ans de métier ». Puis un seul reniflement le prouve.",
+"variantes": [
+{
+"q": "Dans une pub de tablette pour lave-linge, ce passage arrive quand la narratrice n'y croit plus. Que fait-il, selon Spencer ?",
+"extrait": "« Il a passé plus de 30 ans à réparer des machines à laver. Si quelqu'un pouvait savoir ce qui se passait, c'était lui. »",
+"qcm": {
+"choix": [
+"Il renforce l'autorité du grand-père et redonne espoir",
+"Il annonce le prix de la tablette et l'offre du jour",
+"Il montre la colère de la narratrice contre sa machine",
+"Il compare la tablette à la lessive de la concurrence"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il renforce l'autorité du grand-père : on a de nouveau de l'espoir."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S046]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 908
+},
+{
+"id": "copy-deco-s-010",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Conscient du problème ou de la solution",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Selon Spencer, beaucoup de pubs qui semblent parler à des gens « conscients du problème » parlent en fait à des gens conscients de la solution. Pourquoi ?",
+"qcm": {
+"choix": [
+"Ils ont déjà cherché sur Google, Amazon ou ChatGPT",
+"Ils ont déjà vu la même pub plusieurs fois",
+"Ils connaissent déjà le nom de la marque",
+"Ils ont déjà lu les avis sur la page produit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Face à un vrai problème, ils ont déjà cherché une solution : Google, Amazon ou ChatGPT.",
+"pourquoi": "Quand Breakthrough Advertising a été écrit, dans les années 60, rien de tout ça n'existait. Aujourd'hui, on demande à ChatGPT, il répond « fais un cycle chaud au vinaigre », et on le fait.",
+"action": "Avant de classer ta pub « consciente du problème », liste les solutions que ta cliente a déjà essayées."
+},
+"explication": "Pour Spencer, une vraie pub « consciente du problème » fait réaliser qu'un problème vaut la peine d'être réglé. Si ta pub cite les solutions déjà essayées, elle parle à des gens conscients de la solution.",
+"variantes": [
+{
+"q": "Une pub de tablette pour lave-linge cite le vinaigre, la javel et les rinçages en plus, déjà essayés. À quel niveau de conscience parle-t-elle, selon Spencer ?",
+"qcm": {
+"choix": [
+"Consciente de la solution",
+"Consciente du problème",
+"Inconsciente",
+"Consciente du produit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Consciente de la solution : on cite toutes les solutions déjà essayées."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S045] [R021] [R137] [R138] [R139]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 909
+},
+{
+"id": "copy-deco-s-011",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Rester dans le problème",
+"niveau": 2,
+"type": "scénario",
+"q": "Une pub de tampon pour enfants va droit à la solution : « toutes mes affaires reviennent à la maison ». Tu veux une version pour des parents conscients du problème. Que changes-tu, selon Spencer ?",
+"qcm": {
+"choix": [
+"Rester plus longtemps dans le problème",
+"Citer le prix dès que le problème est posé",
+"Montrer le produit qui règle le problème",
+"Nommer la marque juste après le problème"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Rester plus longtemps dans le problème.",
+"pourquoi": "Spencer donne l'exemple : « C'est le quatrième blouson que je perds, ma maman commence à être un peu fâchée contre moi, et mon papa en a marre de dépenser de l'argent pour me racheter des choses. » On fait réaliser que c'est de l'argent gaspillé.",
+"action": "Pour une version « consciente du problème », écris 2 ou 3 phrases de la vie du problème avant de parler du produit."
+},
+"explication": "Conscient de la solution : on cite les solutions et on va droit au but. Conscient du problème : on reste dans la douleur assez longtemps pour qu'elle compte. Même produit, même angle, autre entrée.",
+"variantes": [
+{
+"q": "Selon Spencer, qu'est-ce qui montre qu'une pub parle à des gens conscients de la solution, et non du problème ?",
+"qcm": {
+"choix": [
+"Elle ne reste pas dans le problème",
+"Elle donne le prix juste après le problème",
+"Elle fait témoigner un client sur le problème",
+"Elle répète le problème en fin de vidéo"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle ne reste pas dans le problème : elle va droit à la solution."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 3 [S025] [R084]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 910
+},
+{
+"id": "copy-deco-s-012",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Montrer pour lever une objection",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Spencer décrit ce passage d'une pub de tampon pour enfants. Quelle question de la cliente règle-t-il ?",
+"extrait": "« Ils tamponnent la boîte à goûter, en plastique. Puis la gourde, en plastique ou en métal. Puis le sac à dos. »",
+"qcm": {
+"choix": [
+"« Est-ce que ça va marcher sur ça ? »",
+"« Combien de temps dure la livraison ? »",
+"« Est-ce sans danger pour mon enfant ? »",
+"« Combien d'encre faut-il racheter ? »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Est-ce que ça va marcher sur ça ? » Regarde : ça marche, là, sous tes yeux.",
+"pourquoi": "Chaque objet montré (boîte, gourde, sac) répond au doute avant qu'il naisse. Spencer note aussi le plan où l'on frotte le tampon sans qu'il parte : il résiste au lavage.",
+"action": "Liste les doutes de ta cliente, puis prévois un plan court qui répond à chacun."
+},
+"explication": "La marque ne promet rien : elle montre. Spencer : « Ça marche là, sous vos yeux. » Ensuite vient l'étalage de tous les objets tamponnés au nom de l'enfant.",
+"variantes": [
+{
+"q": "Dans une pub de tampon pour enfants, on frotte la marque qu'on vient de faire et elle ne part pas. Que montre ce plan, selon Spencer ?",
+"qcm": {
+"choix": [
+"Qu'il résiste à l'eau et au nettoyage",
+"Qu'il sèche en moins d'une seconde",
+"Qu'il marche aussi sur la peau",
+"Qu'il se recharge sans outil"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Qu'il résiste à l'eau et au nettoyage (waterproof)."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 3 [S027] [R090] [R012] ; [S026]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 911
+},
+{
+"id": "copy-deco-s-013",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Changer de désir profond",
+"niveau": 2,
+"type": "scénario",
+"q": "Spencer garde le hook d'une pub de tablette pour lave-linge et écrit cette nouvelle suite. Vers quel désir profond cette version bascule-t-elle ?",
+"extrait": "« Tout le monde te connaît comme la personne qui sent un peu mauvais. Même tes plus beaux vêtements ont cette odeur… tout le monde vous connaît comme la famille qui sent le chien mouillé. »",
+"qcm": {
+"choix": [
+"Le statut",
+"La santé",
+"Le confort",
+"Le contrôle"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le statut : ce que les autres pensent de toi.",
+"pourquoi": "La pub d'origine parlait de santé : l'odeur, le linge qui « mijote dans la moisissure ». Ici, la même odeur devient une étiquette sociale : la famille qui sent le chien mouillé.",
+"action": "Garde le hook de ta gagnante et réécris la suite pour un autre désir profond."
+},
+"explication": "Spencer cite le document Evolve : 6 désirs profonds permanents, dont la santé, le statut et le contrôle. Le même désir de surface (« une machine qui ne sent pas ») peut se relier à plusieurs d'entre eux. Chaque lien donne une nouvelle pub.",
+"variantes": [
+{
+"q": "Cette phrase vient d'une pub de tablette pour lave-linge. À quel désir profond se relie-t-elle, selon Spencer ?",
+"extrait": "« Tu ne laves pas tes vêtements. Tu les fais mijoter dans la moisissure. »",
+"qcm": {
+"choix": [
+"La santé",
+"Le statut",
+"L'appartenance",
+"Le confort"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La santé : tout ce que dit cette pub (l'odeur, la moisissure) touche à la santé."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S050] [R158] ; [S043]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 912
+},
+{
+"id": "copy-deco-s-014",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 4 · Nommer un concurrent",
+"niveau": 2,
+"type": "si-alors",
+"q": "Cet extrait cite une marque concurrente par son nom. Selon Spencer, quand peux-tu viser tes concurrents de cette façon ?",
+"extrait": "« J'ai même acheté de l'Affresh chez Target et je l'ai passé une fois par mois comme le disait la boîte. Rien n'a marché. »",
+"qcm": {
+"choix": [
+"Quand ton mécanisme est supérieur au leur",
+"Quand ta marque est plus ancienne que la leur",
+"Quand ton prix est plus bas que le leur",
+"Quand ils te citent déjà dans leurs pubs"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Quand ton mécanisme est supérieur : là, tu peux aller plus loin contre eux.",
+"pourquoi": "Spencer : « Ça dépend. Je le recommande parfois, parfois non. » Ici, la tablette aux enzymes fait ce que l'autre produit ne fait pas.",
+"action": "Avant de nommer un concurrent, écris en une phrase ce que ton mécanisme fait et que le sien ne fait pas."
+},
+"explication": "Citer une marque précise a un autre effet : la narratrice paraît quelqu'un qui a vraiment tout essayé. Elle devient elle-même une autorité. Et la spectatrice comprend qu'elle n'a pas besoin d'essayer ce produit-là.",
+"variantes": [
+{
+"q": "Une narratrice de pub dit avoir acheté « de l'Affresh chez Target ». Selon Spencer, quel effet a ce nom précis ?",
+"qcm": {
+"choix": [
+"Elle paraît quelqu'un qui a vraiment tout essayé",
+"Elle paraît payée par la marque concurrente",
+"Elle paraît moins sûre de ce qu'elle raconte",
+"Elle paraît vendre deux produits à la fois"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle paraît quelqu'un qui a vraiment essayé de régler le problème : c'est si précis qu'on y croit."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S044] [R020] [R136]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 913
+},
+{
+"id": "copy-deco-s-015",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Une raison logique pour le pack",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cette pub de bouchons d'oreille vendus par 4, à quoi sert la liste « concentration, concerts, sorties », selon Spencer ?",
+"extrait": "« Voici un pack offert par nous. » Puis les bouchons : « celui-ci pour la concentration, celui-ci pour les concerts, celui-ci pour les sorties. »",
+"qcm": {
+"choix": [
+"Répondre à « pourquoi j'en aurais besoin de 4 ? »",
+"Montrer que la marque est connue des musiciens",
+"Prouver que les bouchons sont très confortables",
+"Expliquer comment nettoyer chaque bouchon"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Donner une raison logique d'en vouloir 4.",
+"pourquoi": "Sans elle, on se dit : « Pourquoi j'aurais besoin de quatre bouchons ? » Avec un usage pour chacun, le pack devient logique.",
+"action": "Pour chaque produit de ton pack, écris à quel moment de la vie de ta cliente il sert."
+},
+"explication": "Un pack se vend mal s'il ressemble à « plus de la même chose ». Spencer : « maintenant, on comprend pourquoi j'en aurais besoin de quatre ». La pub crée la demande pour le pack entier, pas pour un seul bouchon.",
+"variantes": [
+{
+"q": "Une pub dit « voici un pack offert par nous ». Pourquoi Spencer aime-t-il cette tournure ?",
+"qcm": {
+"choix": [
+"Elle sonne comme le « c'est pour nous » du restaurant",
+"Elle cache le vrai prix du pack jusqu'à la page",
+"Elle fait croire que le stock est presque épuisé",
+"Elle évite d'écrire le mot « promo » dans la pub"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle sonne comme le « c'est pour nous » du restaurant : le gratuit devient de l'hospitalité."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S055] [R026] [R170] [R171]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 914
+},
+{
+"id": "copy-deco-s-016",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Couper un passage pour en faire un hook",
+"niveau": 3,
+"type": "scénario",
+"q": "Ce passage arrive au milieu d'une pub gagnante de 6 minutes. Que ferait Spencer s'il était dans l'équipe de la marque ?",
+"extrait": "« Toutes les tablettes pour machine que vous pouvez acheter chez Target ou Walmart reposent sur la même chose, l'oxygène actif… Mais il n'a jamais été conçu pour décomposer les poils d'animaux ni la couche grasse. C'est un problème de protéines et de graisse. »",
+"qcm": {
+"choix": [
+"Le couper et tester une pub qui commence là",
+"Le supprimer, car il ralentit l'histoire",
+"Le déplacer tout à la fin, avant le bouton",
+"Le garder tel quel, sans jamais y toucher"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le couper et tester une nouvelle pub qui commence là.",
+"pourquoi": "Ce passage crée un nouveau problème : les solutions habituelles ne traitent que 2 des 4 causes. Spencer : ce serait une excellente pub pour inconscients, plus dans l'action.",
+"action": "Dans tes gagnantes, cherche le passage du milieu qui pourrait servir de hook, et teste-le en ouverture."
+},
+"explication": "Spencer : c'est une raison de plus de toujours analyser les pubs. Une gagnante cache souvent d'autres pubs dans son milieu. On les extrait et on les teste comme variantes.",
+"variantes": [
+{
+"q": "Selon Spencer, pour quel public ce passage d'une pub de tablette pour lave-linge ferait-il un bon début de pub ?",
+"extrait": "« Toutes les tablettes pour machine que vous pouvez acheter chez Target ou Walmart reposent sur la même chose, l'oxygène actif. »",
+"qcm": {
+"choix": [
+"Un public inconscient du problème",
+"Un public déjà client de la marque",
+"Un public conscient du produit",
+"Un public qui compare les prix"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un public inconscient : on lui apprend que ses solutions habituelles ne traitent pas tout."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S047] [R148]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 915
+},
+{
+"id": "copy-deco-s-017",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Même angle, autre exécution",
+"niveau": 3,
+"type": "scénario",
+"q": "Une pub de tampon pour enfants gagne avec l'angle « mon enfant ne perd plus ses affaires ». Quelle nouvelle exécution du même angle Spencer propose-t-il ?",
+"qcm": {
+"choix": [
+"« Voici comment je récupère toujours mes affaires aux objets trouvés »",
+"« Voici pourquoi ma maman a acheté dix tampons pour toute la rentrée »",
+"« Voici comment ma maîtresse sait qui a oublié sa gourde en classe »",
+"« Voici pourquoi tous mes copains veulent le même tampon que moi »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les objets trouvés : « Voici comment je récupère toujours mes affaires aux objets trouvés. »",
+"pourquoi": "Même angle, mais plus concret : perdre ses affaires, ce n'est pas très visuel ; tout le monde peut se représenter les objets trouvés.",
+"action": "Garde ton angle gagnant et cherche le lieu ou l'objet que tout le monde voit dans sa tête."
+},
+"explication": "Spencer a cherché où finissent la plupart des affaires perdues à l'école : aux objets trouvés. Il ne change pas l'angle, il change l'image. C'est itérer sur un angle qui marche.",
+"variantes": [
+{
+"q": "Spencer change « je ne perds plus mes affaires » en « mes affaires ne finissent jamais aux objets trouvés ». Qu'a-t-il changé ?",
+"qcm": {
+"choix": [
+"L'image : la même idée, plus facile à voir",
+"L'angle : une autre raison d'acheter",
+"L'avatar : un autre client à viser",
+"L'offre : une autre façon de payer"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 L'image : même angle, en plus concret et plus visuel."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 3 [S031] [R101]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 916
+},
+{
+"id": "copy-deco-s-018",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Bannière ou petit autocollant",
+"niveau": 3,
+"type": "si-alors",
+"q": "Spencer conseille une grosse bannière Black Friday sur ta meilleure pub, mais il félicite Gruns pour son tout petit autocollant. Si ta pub tourne aussi dans ta campagne evergreen (celle qui tourne toute l'année), que fais-tu ?",
+"qcm": {
+"choix": [
+"Un petit autocollant : la grosse bannière vit en promo",
+"Une grosse bannière, dans les deux campagnes à la fois",
+"Aucune mention du Black Friday, nulle part dans la pub",
+"Une nouvelle pub, faite seulement pour l'evergreen"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un petit autocollant : la grosse bannière, c'est pour la version lancée dans la campagne promo.",
+"pourquoi": "Spencer répond lui-même à la contradiction : la pub à bannière se lance dans la campagne promo, pas dans l'evergreen. Dans l'evergreen, glisse au plus un petit autocollant : sur le site, les gens verront de toute façon la promo.",
+"action": "Pour le Black Friday, lance ta meilleure pub avec bannière dans la campagne promo, et laisse l'originale vivre dans l'evergreen."
+},
+"explication": "Les deux conseils ne se battent pas : tout dépend de la campagne. La bannière annonce l'offre dans la campagne promo. L'autocollant garde le titre gagnant intact là où la pub tourne toute l'année. Et la plupart des gens savent qu'il y a une promo pendant le Black Friday.",
+"variantes": [
+{
+"q": "Pendant le Black Friday, ta meilleure pub tourne dans ta campagne evergreen (celle qui tourne toute l'année) avec un simple petit autocollant. Selon Spencer, pourquoi ça suffit ?",
+"qcm": {
+"choix": [
+"Sur ton site, les gens verront la promo",
+"Meta coupe les bannières dans l'evergreen",
+"Les clients evergreen fuient les promos",
+"Une bannière coûte trop cher à créer"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ceux qui cliquent verront sur ton site qu'il y a une promo Black Friday. Et la plupart des gens savent qu'il y en a une."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S059] [R181] ; [S057] [R176]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 917
+},
+{
+"id": "copy-deco-s-019",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Changer la valence d'un hook",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Spencer réécrit ce hook. Qu'est-ce qui change entre les deux versions ?",
+"extrait": "Hook d'origine : « Mon grand-père réparait des machines à laver pour gagner sa vie. Voici ce qu'il m'a dit de faire pour l'odeur. » Version de Spencer : « …et je n'arrive pas à croire qu'il suffisait de ça pour la réparer. »",
+"qcm": {
+"choix": [
+"La valence monte : sa version est plus positive",
+"L'angle change : on parle de prix, plus d'odeur",
+"L'autorité change : le grand-père devient voisin",
+"La conscience monte : on cite enfin la marque"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La valence (le signe de l'émotion) monte : on passe d'agacé à plus positif.",
+"pourquoi": "Spencer classe la pub d'origine en valence basse, intensité basse : agacée, frustrée. Sa version vise la valence haute, intensité haute, avec le même grand-père et la même machine.",
+"action": "Classe ta gagnante sur la carte valence et intensité, puis écris le même hook dans une autre case de la carte."
+},
+"explication": "La valence, c'est le signe de l'émotion (positive ou négative) ; l'intensité, sa force. Spencer s'appuie sur Sarah Leger et donne un prompt pour Claude : « Analyse la pub suivante pour son sentiment et place-la dans l'un des quatre quadrants de la carte valence et intensité. »",
+"variantes": [
+{
+"q": "Où Spencer place-t-il cette phrase sur la carte valence (signe de l'émotion) et intensité (sa force) ?",
+"extrait": "« Je ne savais pas qu'il y avait de la moisissure sur mes vêtements, je respire de la moisissure tous les jours, et ça peut causer de graves problèmes de santé. »",
+"qcm": {
+"choix": [
+"Intensité haute : elle fait peur",
+"Intensité basse : elle agace",
+"Valence haute : elle rassure",
+"Valence haute : elle fait rire"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Intensité haute : elle fait peur, alors que la pub d'origine agace seulement."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S045] [R140] [R141]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 918
+},
+{
+"id": "copy-deco-s-020",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Ne pas sacraliser sa gagnante",
+"niveau": 3,
+"type": "piège",
+"q": "Ta pub gagnante dépense 2 000 $ par jour. Tu décides que toutes tes nouvelles pubs lui ressembleront. Quel piège Spencer voit-il ?",
+"qcm": {
+"choix": [
+"Tu restes bloqué à ton niveau de dépense actuel",
+"Ton audience finit par bloquer ta page",
+"Ta gagnante s'use deux fois plus vite",
+"Tes coûts de tournage montent chaque mois"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu restes bloqué là où tu es : tes propres pubs te gardent à ton niveau de dépense.",
+"pourquoi": "Spencer : si tu traites ta gagnante comme le Saint Graal, tu te tires une balle dans le pied. Il faut regarder d'autres pubs gagnantes pour en tirer les frameworks (les schémas qui marchent).",
+"action": "Chaque semaine, décortique une gagnante d'une autre marque, même d'une autre catégorie : note ce qui est dit et comment."
+},
+"explication": "Spencer tire d'une pub de barre chocolatée des leçons pour une marque de compléments, de mode, d'animaux ou de soin. Le but : voir les fondamentaux, pas seulement ce qui est dit, mais comment c'est dit. Comparer ta pub à une pub qui dépense plus fait voir les différences.",
+"variantes": [
+{
+"q": "Spencer analyse une pub de barre chocolatée. Pour quelles marques en tire-t-il des leçons ?",
+"qcm": {
+"choix": [
+"Aussi pour des compléments ou de la mode",
+"Seulement pour d'autres marques de chocolat",
+"Seulement pour des marques de même taille",
+"Seulement pour des produits alimentaires"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Aussi pour des compléments, de la mode, des animaux ou du soin de la peau."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 2 [S020] [R075] [R076]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 919
+},
+{
+"id": "copy-deco-s-021",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Faire des pubs sans contenu",
+"niveau": 1,
+"type": "qcm",
+"q": "Un débutant dit à Spencer : « Je n'ai aucun contenu pour faire des pubs Black Friday. » Que lui répond Spencer ?",
+"choix": [
+"Un iPhone, des post-it, un feutre et ton produit suffisent",
+"Il faut d'abord payer des créateurs pour filmer des vidéos",
+"Il vaut mieux attendre d'avoir des avis clients filmés",
+"Il faut d'abord montrer ton visage dans une vidéo"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Un iPhone, un paquet de post-it, un feutre et ton produit suffisent.",
+"pourquoi": "Affiche ton site, pose ton produit devant ton ordinateur, écris ton message sur un post-it, prends la photo. Pas besoin de montrer ton visage ni de faire une danse TikTok.",
+"action": "Teste plusieurs pubs post-it : l'offre, la rareté, l'urgence, ton point fort, « pourquoi personne ne parle de ce produit »."
+},
+"explication": "Spencer : « si vous avez votre produit, vous pouvez faire des pubs ». Une pub de ce genre a très bien marché pour la marque Norse Organic. Sans contenu, il testerait des tonnes de messages différents sur le post-it, dans la limite du raisonnable.",
+"variantes": [
+{
+"q": "Selon Spencer, qu'écris-tu sur le post-it d'une pub Black Friday faite maison ?",
+"choix": [
+"L'offre, la rareté ou ton point fort",
+"Seulement le nom et le logo de la marque",
+"Seulement le prix barré et le nouveau prix",
+"Seulement la citation d'un client connu"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'offre, la rareté, l'urgence ou ton point fort : il testerait toutes sortes de messages."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S058] [R028] [R180]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 920
+},
+{
+"id": "copy-deco-s-022",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Les pubs evergreen pendant la promo",
+"niveau": 1,
+"type": "qcm",
+"q": "Le Black Friday arrive. Que fait Spencer de sa campagne evergreen (les pubs qui tournent toute l'année) ?",
+"choix": [
+"Il la laisse tourner, sans jamais la couper",
+"Il la coupe pour donner tout le budget à la promo",
+"Il la met en pause jusqu'à la fin de décembre",
+"Il y remplace toutes les pubs par des pubs promo"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il la laisse tourner : « ne coupez jamais, jamais, jamais, jamais vos pubs evergreen ».",
+"pourquoi": "Les pubs evergreen marchent bien pendant le Black Friday. Elles dépassent même parfois les pubs faites exprès pour la promo.",
+"action": "Garde ton evergreen allumée et lance toutes tes créatives Black Friday dans une nouvelle campagne promo, à part."
+},
+"explication": "Evergreen veut dire « toujours vert » : ces pubs restent actives pour toujours. Spencer ajoute une deuxième campagne, la campagne promo, pour les créatives du Black Friday. Les deux tournent en même temps.",
+"variantes": [
+{
+"q": "Selon Spencer, où lances-tu tes créatives Black Friday ?",
+"choix": [
+"Dans une nouvelle campagne promo, à part",
+"Dans ta campagne evergreen, à la place des autres",
+"Dans ta campagne de test, avec un petit budget",
+"Dans une campagne par produit, une par pub"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Dans une nouvelle campagne promo, à part de l'evergreen."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S056] [R174] [R175]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 921
+},
+{
+"id": "copy-deco-s-023",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · La bannière sur la meilleure pub",
+"niveau": 1,
+"type": "qcm",
+"q": "Spencer parle d'une vidéo « légendaire » pour le Black Friday. De quoi s'agit-il ?",
+"choix": [
+"Ta meilleure pub, avec une bannière Black Friday",
+"Une nouvelle vidéo, avec une bannière de fête",
+"Ta pub la moins chère, avec une bannière prix",
+"Une vidéo du fondateur, avec une bannière promo"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Ta meilleure pub, avec des bannières « Black Friday, Cyber Monday » posées dessus.",
+"pourquoi": "Ça marche parce que c'est déjà ta meilleure pub. La bannière annonce juste l'offre.",
+"action": "Prends ta pub qui gagne, ajoute une bannière avec l'offre, et lance-la dans ta campagne promo."
+},
+"explication": "Spencer en plaisante, mais c'est l'un des deux types de vidéos qui marchent très bien pour son agence. Une super pub, plus une bannière : quand quelqu'un la voit, elle va sûrement bien marcher.",
+"variantes": [
+{
+"q": "Pourquoi une pub gagnante avec une bannière Black Friday marche-t-elle bien, selon Spencer ?",
+"choix": [
+"Parce que c'est déjà ta meilleure pub",
+"Parce que Meta pousse les pubs à bannière",
+"Parce que les bannières coûtent moins cher",
+"Parce que la bannière cache les défauts"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Parce que c'est déjà ta meilleure pub : on ajoute seulement l'offre."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S059] [R181]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 922
+},
+{
+"id": "copy-deco-s-024",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Rallumer les gagnantes de l'an dernier",
+"niveau": 1,
+"type": "qcm",
+"q": "Une petite marque dépensait environ 1 000 $ par jour. En novembre, l'agence de Spencer la fait passer à environ 4 000 $ par jour. Comment ?",
+"choix": [
+"En rallumant une pub du Black Friday précédent",
+"En doublant le budget chaque jour pendant 1 semaine",
+"En lançant 50 nouvelles pubs en une seule fois",
+"En baissant tous ses prix de 70 % sur le site"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 En rallumant une ancienne pub qui avait bien marché au Black Friday précédent.",
+"pourquoi": "Ce qui a bien marché au dernier Black Friday a de bonnes chances de bien marcher au suivant. Spencer l'a vu encore et encore.",
+"action": "Cherche dans ton compte les pubs saisonnières qui ont gagné l'an dernier (novembre, décembre) et rallume-les."
+},
+"explication": "Spencer rallume les originales, avec tout leur engagement (j'aime, commentaires, partages). Si l'offre change, il relance les mêmes pubs avec de nouvelles bannières et regarde ce que ça donne.",
+"variantes": [
+{
+"q": "Selon Spencer, quelles pubs rallumes-tu avant le Black Friday ?",
+"choix": [
+"Tes pubs saisonnières qui ont gagné l'an dernier",
+"Tes pubs qui ont perdu, pour leur redonner une chance",
+"Tes toutes premières pubs, faites au lancement",
+"Les pubs de tes concurrents, copiées à l'identique"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Tes pubs saisonnières qui ont très bien marché l'an dernier."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S059] [R182] [R183]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 923
+},
+{
+"id": "copy-deco-s-025",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Image ou vidéo pour une promo",
+"niveau": 1,
+"type": "qcm",
+"q": "Pour les pubs de promo du Black Friday, quel format écrase souvent les autres chez Spencer ?",
+"choix": [
+"Les images (statiques)",
+"Les longues vidéos (VSL)",
+"Les vidéos de créateurs",
+"Les vidéos du fondateur"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Les images (statiques) : elles écrasent souvent les vidéos pour les pubs de promo.",
+"pourquoi": "Spencer le dit pour son agence, pendant le BFCM (Black Friday, Cyber Monday), et pour les pubs de promo précisément.",
+"action": "Pour ta promo, prépare surtout des images, et teste quand même quelques vidéos."
+},
+"explication": "Spencer ajoute qu'il vaut toujours la peine de tester des vidéos. Il en montre d'ailleurs qui marchent, comme la bannière posée sur la meilleure pub.",
+"variantes": [
+{
+"q": "Selon Spencer, pour quel genre de pub les images battent-elles souvent les vidéos pendant le Black Friday ?",
+"choix": [
+"Les pubs de promo",
+"Les pubs de marque",
+"Les pubs evergreen",
+"Les pubs de recrutement"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Les pubs de promo (sale ads)."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S056] [R173]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 924
+},
+{
+"id": "copy-deco-s-026",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · La pub texte du fondateur",
+"niveau": 1,
+"type": "qcm",
+"q": "Pendant le Black Friday, la marque Hike Footwear passe une pub image : un texte écrit par son fondateur. Pourquoi Spencer l'aime-t-il ?",
+"choix": [
+"Elle arrête le défilement : elle tranche dans le fil",
+"Elle coûte moins cher qu'une vidéo de créateur",
+"Elle montre tous les produits de la marque",
+"Elle cite le prix de chaque paire de chaussures"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle arrête le défilement : au milieu des pubs « grosse promo », elle se démarque.",
+"pourquoi": "Tout le monde fait tourner des pubs « la promo se termine ce soir ». Un texte du fondateur perce ce bruit.",
+"action": "Si ta marque est grosse ou très liée à son fondateur, teste une pub texte signée par lui."
+},
+"explication": "Spencer la recommande surtout aux marques d'environ 500 000 $ par mois et plus, ou très tournées vers leur fondateur. Elle sert aussi à annoncer, le week-end du Black Friday, une offre un peu meilleure que celle lancée en avance.",
+"variantes": [
+{
+"q": "Selon Spencer, à quelles marques la pub texte du fondateur convient-elle le mieux ?",
+"choix": [
+"Aux grosses marques ou très liées au fondateur",
+"Aux toutes petites marques qui démarrent",
+"Aux marques qui n'ont qu'un seul produit",
+"Aux marques qui vendent seulement en boutique"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Aux grosses marques (environ 500 000 $ par mois et plus) ou très tournées vers leur fondateur."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S051] [R162] [R163]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 925
+},
+{
+"id": "copy-deco-s-027",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Apprendre en comparant",
+"niveau": 1,
+"type": "qcm",
+"q": "Tu as du mal à faire des pubs gagnantes. Selon Spencer, quel exercice t'apprend le plus vite ?",
+"choix": [
+"Comparer la perdante et la gagnante d'une grande marque",
+"Regarder en boucle tes propres pubs qui ont gagné",
+"Lire tous les commentaires sous tes pubs perdantes",
+"Recopier mot pour mot la pub d'un concurrent"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Comparer une pub perdante et une pub gagnante d'une grande marque, côte à côte.",
+"pourquoi": "Spencer : c'est la meilleure façon de voir le jour et la nuit. Si tu regardes assez de gagnantes, tu remarques beaucoup de schémas.",
+"action": "Mets une perdante et une gagnante côte à côte (dans Canva ou Figma) et note chaque différence."
+},
+"explication": "S'il y a une compétence à maîtriser sur Meta, dit Spencer, c'est comprendre pourquoi tes pubs perdantes perdent et en faire des gagnantes. Pour voir les différences, il faut savoir quoi chercher : l'écart de curiosité, l'autorité, le positionnement, les objections.",
+"variantes": [
+{
+"q": "Selon Spencer, quelle est LA compétence à maîtriser pour grandir sur Meta (scaler) ?",
+"choix": [
+"Comprendre pourquoi tes perdantes perdent",
+"Trouver chaque semaine un nouveau produit",
+"Régler parfaitement le ciblage des pubs",
+"Baisser ton coût par clic chaque mois"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Comprendre pourquoi tes pubs perdantes perdent, et apprendre à en faire des gagnantes."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 2 [S011] [R055] [R056] ; [S019] [R074] ; [S020]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 926
+},
+{
+"id": "copy-deco-s-028",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Le bon moment pour la cliente",
+"niveau": 1,
+"type": "qcm",
+"q": "Spencer a acheté la barre chocolatée vue dans une pub. Dans quel état était-il quand il l'a vue ?",
+"choix": [
+"Il voulait manger moins de sucre, sans rien chercher",
+"Il cherchait déjà une barre sans sucre sur Google",
+"Il connaissait déjà la marque et son fondateur",
+"Il ne mangeait jamais de chocolat ni de dessert"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Conscient du problème : il voulait manger moins de sucre, sans chercher de barre.",
+"pourquoi": "Il prenait soin de sa santé intestinale et essayait d'arrêter le sucre. Mais ce n'était pas une priorité : il ne cherchait pas de chocolat sans sucre. La pub l'a touché au moment parfait.",
+"action": "Écris ce que ta cliente vit déjà sans chercher ton produit, et parle-lui de ça."
+},
+"explication": "Spencer retient une leçon : connaître tes clients compte, mais la façon dont tu racontes l'histoire compte encore plus. C'est l'exécution de la vidéo qui l'a fait acheter.",
+"variantes": [
+{
+"q": "Spencer a commandé 10 barres chocolatées au lieu d'une ou deux. Qu'y avait-il sur le site ?",
+"choix": [
+"Une offre groupée qui poussait à en prendre 10",
+"Un compte à rebours avant la fin de la promotion",
+"La livraison gratuite dès la deuxième barre achetée",
+"Un cadeau surprise offert dès la première commande"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une offre groupée (bundle) qui poussait à en acheter 10."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 4 [S041] [R123] [R124] [R125]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 927
+},
+{
+"id": "copy-deco-s-029",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Pubs basiques ou pubs nouvelles",
+"niveau": 1,
+"type": "qcm",
+"q": "Spencer montre d'abord des pubs Black Friday « nouvelles et cool », puis des pubs basiques. Lesquelles marchent sûrement le mieux, selon lui ?",
+"choix": [
+"Les pubs basiques, montrées à la fin",
+"Les pubs nouvelles, montrées au début",
+"Celles qui ont le plus d'effets de montage",
+"Celles qui sont tournées par des stars"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Les pubs basiques : elles vont sûrement mieux performer.",
+"pourquoi": "Beaucoup cherchent la façon la plus nouvelle et la plus folle d'atteindre 10 000 $ par jour. Spencer leur montre ces pubs-là d'abord, mais il prévient : bien souvent, les basiques gagnent.",
+"action": "Avant de courir après le format à la mode, fais tourner les formats simples qui ont déjà marché."
+},
+"explication": "Spencer garde les pubs basiques pour la fin justement parce que beaucoup ne veulent voir que le nouveau. Le nouveau excite ; le basique vend souvent mieux.",
+"variantes": [
+{
+"q": "Selon Spencer, que cherchent beaucoup de gens pour atteindre 10 000 $ par jour ?",
+"choix": [
+"La pub la plus nouvelle et la plus folle",
+"La pub la plus simple et la plus claire",
+"La pub la plus longue et la plus détaillée",
+"La pub la moins chère à produire"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La façon la plus nouvelle et la plus folle, alors que les pubs basiques marchent souvent mieux."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S051] [R161]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 928
+},
+{
+"id": "copy-deco-s-030",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Parler à son sub-avatar",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cette pub pour lave-linge, que fait la phrase sur les propriétaires d'animaux, selon Spencer ?",
+"extrait": "« Il a dit que chaque machine qu'il avait démontée ressemblait à ça à l'intérieur après un ou deux ans. Et les propriétaires d'animaux étaient toujours les pires, parce que les poils se fixent aux résidus de lessive. »",
+"qcm": {
+"choix": [
+"Elle dit à son client type : chez toi, c'est encore pire",
+"Elle écarte les clients qui n'ont pas d'animal",
+"Elle annonce une offre spéciale pour les animaux",
+"Elle excuse la narratrice d'avoir accusé son chien"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle dit au sub-avatar (le client type visé), les propriétaires d'animaux : « chez toi, c'est encore pire ».",
+"pourquoi": "Spencer : très subtilement, tout propriétaire d'animal se dit « oh là là, c'est encore pire pour moi, c'est vraiment grave ». Et c'est justement l'avatar de la pub.",
+"action": "Glisse dans ta pub une phrase qui dit à ton client type que son cas est le plus touché."
+},
+"explication": "Le sub-avatar de cette pub : les propriétaires d'animaux dont la machine sent mauvais. On le voit dès « j'ai accusé le chien » et « la maison sent le poil mouillé ». La phrase de l'autorité le confirme et monte l'urgence pour eux.",
+"variantes": [
+{
+"q": "Selon Spencer, quel sub-avatar (client type précis) vise une pub de tablette pour lave-linge racontée par la petite-fille d'un réparateur ?",
+"qcm": {
+"choix": [
+"Les propriétaires d'animaux à la machine qui sent",
+"Les familles nombreuses qui lavent tous les jours",
+"Les gens qui viennent d'acheter une machine neuve",
+"Les réparateurs de machines à laver à domicile"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les propriétaires d'animaux dont la machine à laver sent mauvais."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S046] ; [S044] [R133]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 929
+},
+{
+"id": "copy-deco-s-031",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Les gestes du client dans la copy",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Selon Spencer, que se dit la spectatrice qui a fait ces mêmes gestes, en entendant cet extrait ?",
+"extrait": "« D'abord, j'ai accusé la lessive, j'ai changé deux fois de marque, puis j'ai accusé le chien… J'ai essayé des rinçages en plus. J'ai essayé de l'eau chaude avec du vinaigre. J'ai essayé d'essuyer le joint en caoutchouc à l'eau de Javel. »",
+"qcm": {
+"choix": [
+"« Elle sait ce que j'ai fait, elle doit savoir la solution »",
+"« Elle se plaint trop, je vais passer à autre chose »",
+"« Elle n'a pas lu la notice, c'est de sa faute »",
+"« Elle exagère, aucune machine ne sent comme ça »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Cette personne sait tout ce que j'ai fait : elle doit vraiment connaître la solution. »",
+"pourquoi": "Chaque geste précis vient de la recherche sur les vrais clients. Celle qui l'a vécu se reconnaît, et la narratrice devient presque une autorité : elle a tout essayé.",
+"action": "Liste 3 à 5 gestes que ton client a déjà faits pour régler son problème (tirés de ta recherche) et mets-les dans ta copy."
+},
+"explication": "Spencer appelle ça les comportements de l'avatar : ce qu'il fait pour essayer de régler le problème. La marque a fait des recherches pour savoir ce que ses clients font vraiment. Et celle qui n'a pas tout essayé apprend que ces solutions n'ont pas marché.",
+"variantes": [
+{
+"q": "Selon Spencer, d'où viennent les gestes précis (vinaigre, javel, rinçages) cités par une narratrice de pub pour lave-linge ?",
+"qcm": {
+"choix": [
+"De recherches sur ce que font vraiment les clients",
+"De l'imagination du rédacteur, pour faire vrai",
+"Des conseils écrits sur la boîte du produit",
+"Des questions posées au service après-vente"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 De recherches pour comprendre ce que les clients font vraiment."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S044] [R135] [R019]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 930
+},
+{
+"id": "copy-deco-s-032",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · Le tournant de l'histoire",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Que se passe-t-il dans cet extrait avec les mots « Puis un samedi », selon Spencer ?",
+"extrait": "« J'en étais arrivée à redouter de faire la lessive, parce que je savais que ça ne ressortirait pas avec une bonne odeur, quoi que je fasse. Puis un samedi, j'ai demandé à mon grand-père de passer. »",
+"qcm": {
+"choix": [
+"Le ton change : après le fond, l'espoir revient",
+"Le problème grossit : la narratrice perd patience",
+"La pub donne enfin le nom du produit à acheter",
+"L'offre arrive : il ne reste qu'un week-end"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le ton change : on a touché le fond, et l'espoir revient.",
+"pourquoi": "Spencer remarque que la voix off soupire juste avant, comme si elle regrettait. Puis « un samedi » : le ton bascule, et il se dit « attends, il y a de l'espoir ».",
+"action": "Dans ton histoire, marque le point le plus bas, puis place un mot de bascule (« puis un samedi ») juste avant l'arrivée de la solution."
+},
+"explication": "Le fond (« je redoutais de faire la lessive ») rend le tournant plus fort. Juste après, le grand-père arrive pour sauver la situation. Spencer : ce sont ces changements, ces hauts et ces bas, qui tiennent le spectateur.",
+"variantes": [
+{
+"q": "Une narratrice de pub dit qu'elle redoutait de faire la lessive. Selon Spencer, où en est l'histoire à ce moment ?",
+"qcm": {
+"choix": [
+"Au fond : juste avant le tournant",
+"Au début : c'est encore le hook",
+"À la fin : juste avant le bouton",
+"Au milieu : pendant le mécanisme"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Au fond : juste avant le changement de ton."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S046] [R142]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 931
+},
+{
+"id": "copy-deco-s-033",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Une phrase qui monte l'intensité",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Selon Spencer, que fait cette phrase chez une spectatrice déjà consciente du problème ?",
+"extrait": "Le grand-père, après avoir reniflé la machine : « Tu ne laves pas tes vêtements. Tu les fais mijoter dans la moisissure. »",
+"qcm": {
+"choix": [
+"Elle monte l'intensité et l'urgence d'agir",
+"Elle la rassure : son linge n'est pas abîmé",
+"Elle la fait rire pour détendre la pub",
+"Elle lui explique comment marche la tablette"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle monte l'intensité et l'urgence : on se sent sale à l'intérieur.",
+"pourquoi": "Celle qui se disait « je ne sais pas si c'est si important à régler » ressent plus d'urgence. Et ça vient de l'autorité : le grand-père, l'as des machines à laver.",
+"action": "Remplace ta phrase de problème par une image qui dégoûte ou qui choque, dite par ton autorité."
+},
+"explication": "Spencer : copy super visuelle. L'image du mijotage fait sentir à quel point c'est dégoûtant. C'est exactement ce que fait une grande copy : on la voit, et on la ressent.",
+"variantes": [
+{
+"q": "Selon Spencer, d'où vient la force de « Tu les fais mijoter dans la moisissure » dans une pub pour lave-linge ?",
+"qcm": {
+"choix": [
+"D'une image qu'on voit, dite par l'autorité",
+"D'un chiffre précis qu'on peut vérifier",
+"D'une question qui laisse un mystère",
+"D'une promesse de résultat rapide"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 D'une image très visuelle, dite par l'autorité (le grand-père)."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S046] [R144]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 932
+},
+{
+"id": "copy-deco-s-034",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 8 · Ne pas nommer le produit tout de suite",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, la pub ne donne pas le nom de la tablette. Pourquoi, selon Spencer ?",
+"extrait": "« Puis, au lieu de me dire de frotter la machine, il a fouillé dans son sac et en a sorti une petite tablette bleue. Il l'a mise dans le tambour et a lancé le cycle à l'eau chaude. »",
+"qcm": {
+"choix": [
+"Pour ouvrir une boucle : on veut savoir ce que c'est",
+"Pour éviter que Meta refuse la pub à cause d'une marque",
+"Pour laisser la place à plusieurs marques de tablettes",
+"Pour garder le nom du produit pour la page du site"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Pour ouvrir une nouvelle boucle : « c'est quoi, cette tablette bleue ? Il faut que je sache. »",
+"pourquoi": "Une petite tablette bleue, prise au hasard, sans marque : la spectatrice devient curieuse et reste pour la suite.",
+"action": "Quand ton produit entre en scène, décris-le d'abord par ce qu'on voit (sa couleur, sa forme), et garde son nom pour plus tard."
+},
+"explication": "Spencer : « une autre boucle ouverte ». La pub vient d'expliquer pourquoi l'odeur revenait toujours. Pour garder la spectatrice, elle ouvre aussitôt une nouvelle question.",
+"variantes": [
+{
+"q": "Selon Spencer, quelle question se pose la spectatrice quand le grand-père sort « une petite tablette bleue » sans dire sa marque ?",
+"qcm": {
+"choix": [
+"« C'est quoi, cette tablette ? »",
+"« Combien coûte cette tablette ? »",
+"« Où acheter cette tablette ? »",
+"« Qui fabrique cette machine ? »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « C'est quoi, cette tablette bleue ? Il faut que je sache. »"
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S047] [R150]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 933
+},
+{
+"id": "copy-deco-s-035",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Une analogie pour un mot savant",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Cet extrait parle d'enzymes, un sujet savant. Quel outil utilise-t-il pour rester simple, selon Spencer ?",
+"extrait": "« La troisième enzyme, la lipase, enlève la couche grasse des squames et du sébum. C'est de cette graisse que se nourrissent les bactéries pour produire l'odeur de moisi. Une fois la graisse partie, les bactéries perdent leur nourriture et l'odeur ne revient plus. »",
+"qcm": {
+"choix": [
+"Une analogie : la graisse nourrit les bactéries",
+"Un chiffre : la part de bactéries détruites",
+"Une autorité : un médecin qui valide la formule",
+"Une comparaison avec une marque concurrente"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Une analogie : la graisse, c'est la nourriture des bactéries. Plus de nourriture, plus d'odeur.",
+"pourquoi": "Spencer : ils deviennent un peu pointus avec des termes techniques, mais ils le rendent assez simple et facile à comprendre.",
+"action": "Pour chaque mot savant de ta pub, trouve une image de la vie courante qui dit ce qu'il fait."
+},
+"explication": "Le mot « lipase » ne dit rien à personne. « Les bactéries perdent leur nourriture » se comprend tout de suite. Spencer : on comprend le mécanisme de façon concrète, et comment tout marche ensemble.",
+"variantes": [
+{
+"q": "Selon Spencer, comment une pub garde-t-elle un mot savant (comme « protéase ») sans perdre la spectatrice ?",
+"qcm": {
+"choix": [
+"En disant tout de suite ce qu'il fait, simplement",
+"En l'écrivant en gros à l'écran, sans l'expliquer",
+"En le remplaçant par le nom de la marque",
+"En le répétant trois fois dans la vidéo"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 En disant tout de suite ce qu'il fait : ce grand mot décompose les poils, qui partent enfin à l'eau."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S048] [R153]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 934
+},
+{
+"id": "copy-deco-s-036",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Décrire le résultat rêvé",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Spencer compare cet extrait à « ma machine sent meilleur que jamais ». Pourquoi cet extrait est-il plus fort ?",
+"extrait": "« J'ai ouvert la porte le lendemain matin. Rien. Aucune odeur. Ni lavande, ni brise marine, rien. Juste le tambour propre. »",
+"qcm": {
+"choix": [
+"On le voit et on le sent : il est précis",
+"Il est plus court, donc plus facile à lire",
+"Il cite deux parfums que les clients aiment",
+"Il promet un résultat garanti à vie"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 On le voit et on le sent : « rien, aucune odeur » est précis, « meilleur que jamais » ne dit rien.",
+"pourquoi": "Spencer : ça sent quoi, « meilleur que jamais » ? Ici, ça ne sent pas l'adoucissant : ça ne sent rien. On parle du résultat rêvé de façon visuelle.",
+"action": "Remplace « meilleur », « plus », « incroyable » dans ta pub par ce qu'on voit, sent ou touche quand le problème est réglé."
+},
+"explication": "C'est le résultat rêvé (dream outcome) : la valence devient plus positive, on se dit « c'est possible ». La pub montre même des gens qui sentent leur machine et disent « ça ne sent rien, je n'en reviens pas ».",
+"variantes": [
+{
+"q": "Dans une pub pour lave-linge, la phrase « Ni lavande, ni brise marine, rien » décrit quelle partie, selon Spencer ?",
+"qcm": {
+"choix": [
+"Le résultat rêvé",
+"Le mécanisme",
+"Le hook",
+"L'appel à l'action"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le résultat rêvé (dream outcome)."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S049] [R154]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 935
+},
+{
+"id": "copy-deco-s-037",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 7 · Laisser la cliente faire la promesse",
+"niveau": 3,
+"type": "scénario",
+"q": "Spencer adore cette phrase. Que fait-elle faire à la spectatrice, au lieu d'une promesse de la marque ?",
+"extrait": "« J'ai mis la couverture de mon chien dans la lessive suivante, je l'ai sortie et j'y ai collé mon visage. »",
+"qcm": {
+"choix": [
+"Elle fait elle-même la promesse : la machine est propre",
+"Elle doute : personne ne ferait jamais une chose pareille",
+"Elle rit : la scène casse le sérieux de toute la pub",
+"Elle s'inquiète pour la santé du chien de la narratrice"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle fait la promesse elle-même : « la machine doit être incroyablement propre ».",
+"pourquoi": "La plupart des gens ne colleraient jamais leur visage dans la couverture de leur chien. La pub ne dit pas « ça marche mieux que tout » : elle donne un exemple clair, qu'on visualise.",
+"action": "Au lieu d'écrire que ton produit marche, écris un geste que personne ne ferait si ça ne marchait pas."
+},
+"explication": "Spencer : à ce moment de la pub, on vend le résultat rêvé. Un exemple précis bat une affirmation : la spectatrice tire la conclusion seule. La promesse vient d'elle, pas de la marque.",
+"variantes": [
+{
+"q": "Selon Spencer, que vend une pub pour lave-linge au moment où la narratrice colle son visage dans la couverture de son chien ?",
+"qcm": {
+"choix": [
+"Le résultat rêvé, rendu visible",
+"Le prix, rendu plus léger",
+"Le mécanisme, rendu plus simple",
+"L'urgence, rendue plus forte"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le résultat rêvé, qu'on peut visualiser."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S049] [R156]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 936
+},
+{
+"id": "copy-deco-s-038",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 6 · Aller droit au but",
+"niveau": 2,
+"type": "si-alors",
+"q": "Si ton marché connaît très bien ce genre de produit et qu'on comprend le tien en le voyant marcher, que conseille Spencer pour le début de ta pub ?",
+"qcm": {
+"choix": [
+"Aller droit au but : on le voit marcher en 2 secondes",
+"Raconter d'abord toute l'histoire de la marque",
+"Poser d'abord une longue question sur le problème",
+"Commencer par plusieurs avis de clients connus"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Aller droit au but : montrer le produit qui marche dès les premières secondes.",
+"pourquoi": "Spencer : dans les marchés très conscients du produit, arrête de tourner autour du pot. Dans la pub du tampon pour enfants, 2 secondes suffisent pour comprendre ce que fait le produit.",
+"action": "Coupe ton intro. Mets le produit en action dans les 2 premières secondes et relie-le à un désir fort."
+},
+"explication": "Beaucoup des meilleures pubs vont droit à l'angle dès le début. Les pubs pour inconscients, elles, le font rarement : il faut dérouler une histoire. Tous les produits n'ont pas ce luxe, mais si le tien l'a, arrête de compliquer.",
+"variantes": [
+{
+"q": "Selon Spencer, quel genre de pub ne va souvent pas droit à l'angle dès le début ?",
+"qcm": {
+"choix": [
+"Les pubs pour un public inconscient",
+"Les pubs pour un public très conscient",
+"Les pubs pour un produit qu'on comprend vite",
+"Les pubs pour une offre de Black Friday"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les pubs pour un public inconscient : elles doivent dérouler une histoire."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 3 [S029] [R093] [R094] ; [S025] [R011]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 937
+},
+{
+"id": "copy-deco-s-039",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Lancer la promo plus tôt",
+"niveau": 3,
+"type": "scénario",
+"q": "Ton Black Friday tombe dans un mois. Pourquoi l'agence de Spencer lance-t-elle ses promos plus tôt cette année ?",
+"qcm": {
+"choix": [
+"Pour tester ses créatives et itérer avant le grand week-end",
+"Pour vider ses stocks avant l'arrivée des concurrents",
+"Pour payer moins cher la pub avant la hausse des prix",
+"Pour garder le grand week-end sans aucune pub active"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Pour tester le plus de créatives Black Friday possible, voir lesquelles marchent, et faire des variantes avant le week-end.",
+"pourquoi": "Spencer : ce week-end sert à une seule chose, gagner énormément d'argent et scaler (monter fort le budget). Il faut y arriver complètement prêt.",
+"action": "Lance tes pubs promo quelques semaines avant le Black Friday, garde les gagnantes et décline-les avant le grand week-end."
+},
+"explication": "Il vise la diversité : pubs bannière, pubs texte, pubs post-it, nouvelles vidéos UGC, images ou GIF transformés en vidéos. Les retours de ces tests lui permettent d'en faire plus, de faire des variantes et des itérations.",
+"variantes": [
+{
+"q": "Selon Spencer, que cherche-t-on à avoir dans son compte publicitaire pendant le Black Friday ?",
+"qcm": {
+"choix": [
+"De la diversité : beaucoup de pubs et d'angles différents",
+"Une seule pub très forte, avec tout le budget dessus",
+"Les mêmes pubs que l'an dernier, sans rien changer",
+"Seulement des vidéos du fondateur de la marque"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 De la diversité créative : plein de pubs différentes, avec plein d'angles différents."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S060] [R184] ; [S057] [R177]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 938
+},
+{
+"id": "copy-deco-s-040",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Pourquoi les gens n'achètent pas",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Spencer, quelle est très souvent la seule raison pour laquelle les gens n'achètent pas ?",
+"choix": [
+"Il leur manque de l'information",
+"Le produit est trop cher pour eux",
+"La pub est trop longue à regarder",
+"Ils n'aiment pas acheter en ligne"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il leur manque de l'information.",
+"pourquoi": "Spencer : les marketeurs les plus brillants savent que la plupart des gens manquent juste d'information. C'est pour ça que certains VSL (longues vidéos de vente) sont si efficaces.",
+"action": "Liste ce que ta cliente ne sait pas encore et qui la ferait acheter, et mets-le dans ta pub."
+},
+"explication": "La pub pour lave-linge fait passer la tablette de « une tablette comme les autres » à quelque chose de complètement différent, grâce à tout le contexte donné. Si quelqu'un qui a ce problème regarde 5 minutes de pub, Spencer est à peu près convaincu qu'il achète.",
+"variantes": [
+{
+"q": "Selon Spencer, pourquoi certaines longues vidéos de vente (VSL) scalent-elles si fort ?",
+"choix": [
+"Elles donnent l'information qui manque",
+"Elles coûtent moins cher à produire",
+"Elles passent plus souvent dans le fil",
+"Elles cachent le prix jusqu'à la fin"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elles donnent l'information qui manque : c'est souvent la seule raison pour laquelle on n'achète pas."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S049] [R155]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 939
+},
+{
+"id": "copy-deco-s-041",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 2 · Ne pas se perdre dans les étiquettes",
+"niveau": 1,
+"type": "qcm",
+"q": "Ton associé et toi, vous vous disputez : ta pub est-elle « consciente du problème » ou « consciente de la solution » ? Que dit Spencer ?",
+"choix": [
+"Tes clients s'en fichent : ils veulent régler un problème",
+"Il faut trancher avant de lancer la moindre pub vidéo",
+"Il faut demander à Meta de classer la pub",
+"Il faut tester les deux étiquettes en même temps"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Tes clients s'en fichent : ils ont juste un problème qu'ils veulent régler.",
+"pourquoi": "Spencer : tant que tu sais ce qu'est la conscience du marché, ne te perds pas dans les allers-retours « c'est conscient du produit ? conscient du problème ? ».",
+"action": "Choisis le niveau qui te semble le plus juste, écris-le, et passe à la suite."
+},
+"explication": "Spencer classe lui-même la pub pour lave-linge en « consciente de la solution », tout en sachant que d'autres diraient « inconsciente » ou « consciente du problème ». Les niveaux servent à construire la pub, pas à gagner un débat (déduction).",
+"variantes": [
+{
+"q": "Spencer classe une pub pour lave-linge en « consciente de la solution ». Que dit-il de ceux qui la classeraient autrement ?",
+"choix": [
+"Peu importe : ne te perds pas dans ce débat",
+"Ils ont tort : la pub est clairement à ce niveau",
+"Ils ont raison : il faut changer sa pub",
+"Ils doivent refaire tout le décorticage"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Peu importe : il ne veut pas que tu te perdes dans ce débat, tes clients s'en fichent."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S045] [R139]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 940
+},
+{
+"id": "copy-deco-s-042",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Croire en son produit",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Spencer, qu'est-ce qui rend une créatrice plus authentique quand elle parle de son produit à l'écran ?",
+"choix": [
+"Avoir un produit auquel elle croit vraiment",
+"Lire son texte sur un prompteur caché",
+"Porter les couleurs de sa marque",
+"Parler très vite pour garder l'énergie"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Avoir un super produit, auquel elle croit vraiment.",
+"pourquoi": "Dans la pub chocolat, on sent que la fondatrice croit au produit : on lui fait confiance. Spencer : quand tu as vraiment un super produit, c'est fou à quel point tu parais plus authentique et heureux d'en parler.",
+"action": "Fais parler à l'écran quelqu'un qui croit vraiment au produit, et montre-le en train de s'en servir (elle croque dans la barre)."
+},
+"explication": "Elle dit « riche, fondant, incroyablement délicieux » : des mots qu'on voit et qu'on goûte. Et elle croque dans la barre. Spencer cite des fondateurs passionnés rencontrés à Miami : c'est ce qu'on veut ressentir, être fier de ce qu'on propose.",
+"variantes": [
+{
+"q": "Dans une pub chocolat, la fondatrice dit « riche, fondant, incroyablement délicieux ». Que relève Spencer dans ces mots ?",
+"choix": [
+"Ce sont des mots visuels, qu'on ressent",
+"Ce sont des mots techniques, qui rassurent",
+"Ce sont des mots de prix, qui font acheter",
+"Ce sont des mots vagues, à couper au montage"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Ce sont des mots visuels : on voit et on ressent le chocolat."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 4 [S039] [R117] [R118]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 941
+},
+{
+"id": "copy-deco-s-043",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 9 · Faire partie de quelque chose",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Selon Spencer, que fait ressentir la phrase « l'avenir du chocolat » dans cet extrait ?",
+"extrait": "« C'était le chocolat le plus délicieux qu'on ait jamais mangé. On croit vraiment que c'est l'avenir du chocolat. »",
+"qcm": {
+"choix": [
+"Un sentiment de communauté : « je suis en avance »",
+"Une peur : le chocolat actuel va disparaître",
+"Une urgence : l'offre se termine bientôt",
+"Un doute : le goût va peut-être changer"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un sentiment de communauté et d'avance : « je participe à cette barre de chocolat qui change ce que sont les barres de chocolat ».",
+"pourquoi": "Même si ce ne sont que des barres de chocolat, elle dit que c'est l'avenir. La spectatrice se sent en avance : c'est bon, et en plus c'est meilleur pour elle.",
+"action": "Écris une phrase qui fait de ta cliente une pionnière : elle n'achète pas seulement un produit, elle rejoint un changement."
+},
+"explication": "Spencer : elle crée vraiment un sentiment de communauté. Juste après, la pub nomme enfin la marque : la spectatrice est passée par tous les niveaux de conscience jusqu'au plus conscient.",
+"variantes": [
+{
+"q": "Une fondatrice dit que sa barre est « l'avenir du chocolat ». Selon Spencer, quelle impression a la spectatrice ?",
+"qcm": {
+"choix": [
+"Participer à un changement, en avance sur les autres",
+"Payer plus cher pour une barre comme les autres",
+"Tester un produit qui n'est pas encore prêt",
+"Rejoindre un régime strict sans aucun sucre"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Participer à un changement : elle se sent en avance."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 4 [S040] [R119] [R120]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 942
+},
+{
+"id": "copy-deco-s-044",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Un enfant plutôt qu'un chien",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Une pub de tampon pour enfants est racontée par la voix d'un enfant. Pourquoi Spencer préfère-t-il ce choix aux pubs où un chien parle, comme on en voit chez certaines marques ?",
+"qcm": {
+"choix": [
+"Les enfants parlent vraiment, et les chiens parleurs sont usés",
+"Les chiens coûtent plus cher à filmer que les enfants",
+"Meta refuse les animaux qui parlent dans les pubs",
+"Les parents n'aiment pas les pubs avec des animaux"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les enfants parlent vraiment : ça a du sens. Les chiens qui parlent ont été un peu usés par les marques pour animaux.",
+"pourquoi": "Un chien qui parle crée une juxtaposition (deux choses qui ne vont pas ensemble), mais trop de marques l'ont fait. Un enfant qui parle, c'est naturel : on ne lève pas tout de suite ses défenses.",
+"action": "Avant de choisir qui parle dans ta pub, vérifie que ce choix est crédible et pas déjà usé dans ta catégorie."
+},
+"explication": "Spencer est presque sûr que c'est une voix off d'enfant faite par IA, et ça marche quand même. La plus grosse objection sur Facebook, c'est « on cherche à me vendre quelque chose ». Un enfant, qu'est-ce qu'il va bien pouvoir te vendre ?",
+"variantes": [
+{
+"q": "Selon Spencer, quelle est l'une des plus grosses objections des gens qui voient des pubs sur Facebook ?",
+"qcm": {
+"choix": [
+"« On cherche à me vendre quelque chose »",
+"« La livraison va prendre trop de temps »",
+"« Le produit est sûrement fabriqué loin »",
+"« Le site n'a pas l'air très sécurisé »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « On cherche à me vendre quelque chose » : la marque essaie de me vendre un truc."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 3 [S024] [R080] [R083] [R010]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 943
+},
+{
+"id": "copy-deco-s-045",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 3 · Une image qui colle au texte",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Deux pubs image vendent le même produit avec l'angle du cortisol. La perdante montre un homme musclé devant son miroir. La gagnante écrit sa phrase sur le ventre d'un homme. Que reproche Spencer à l'image de la perdante ?",
+"qcm": {
+"choix": [
+"Elle n'est pas congruente : l'image ne colle pas au texte",
+"Elle est trop sombre pour bien se voir dans le fil",
+"Elle montre un visage, ce que Meta pousse moins",
+"Elle a trop de texte pour une simple pub image"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle n'est pas congruente : l'image ne colle pas au message, c'est confus.",
+"pourquoi": "Spencer : on voit ce gars musclé, mais le visuel n'a pas de sens avec le titre. Dans la gagnante, le texte est écrit dans le ventre : tout de suite, on se demande « pourquoi il y a du texte sur son ventre ? ».",
+"action": "Vérifie que ton image montre exactement ce que dit ton titre, et place ton texte là où il sert l'idée."
+},
+"explication": "Même l'emplacement des mots compte : dans le ventre, et pas posé comme sur une pub classique avec un titre. La perdante ressemble à une pub basique ; la gagnante est différente dès le premier regard.",
+"variantes": [
+{
+"q": "Selon Spencer, pourquoi écrire la phrase directement sur le ventre de l'homme rend-il une pub image plus forte ?",
+"qcm": {
+"choix": [
+"Elle est tout de suite différente à l'œil",
+"Elle cache le visage du mannequin",
+"Elle laisse plus de place au prix",
+"Elle évite d'avoir besoin d'un titre"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle est tout de suite visuellement différente : on se demande pourquoi il y a du texte sur son ventre."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 2 [S012] [R009] ; [S013] ; [S014] [R065]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 944
+},
+{
+"id": "copy-deco-s-046",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 10 · Changer le niveau de conscience d'une gagnante",
+"niveau": 3,
+"type": "scénario",
+"q": "Ta pub de tablette pour lave-linge parle à des gens conscients de la solution. Tu veux une version pour des gens conscients du produit. Comment Spencer la commencerait-il ?",
+"qcm": {
+"choix": [
+"Par les tablettes : « Ces tablettes n'ont pas ces deux choses »",
+"Par un grand-père qui répare des machines depuis 30 ans",
+"Par « Saviez-vous que votre machine cache un secret ? »",
+"Par un long passage sur la moisissure et la santé"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Directement au niveau de la tablette : « Ces tablettes n'ont pas ces deux choses. »",
+"pourquoi": "Spencer : on peut prendre exactement la même pub et aller plus vers le conscient du produit, en commençant par les tablettes. Ou construire le pont autrement pour la rendre plus consciente du problème.",
+"action": "Garde l'angle, l'avatar, le mécanisme et l'autorité de ta gagnante, et réécris seulement le début pour un autre niveau de conscience."
+},
+"explication": "Désir, niveau de conscience, valence et intensité : chacun peut changer en gardant à peu près le même angle, le même avatar, le même mécanisme et la même autorité. Vers le conscient du problème, on monte souvent l'intensité, pour faire réaliser que le problème vaut la peine d'être réglé.",
+"variantes": [
+{
+"q": "Selon Spencer, quand tu déplaces une pub vers le « conscient du problème », que fais-tu souvent avec l'intensité ?",
+"qcm": {
+"choix": [
+"Tu la montes",
+"Tu la baisses",
+"Tu la gardes",
+"Tu l'enlèves"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu la montes : tu fais réaliser que c'est un problème à régler."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S050]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 945
+},
+{
+"id": "copy-deco-s-047",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 1 · Le why train sans recherche",
+"niveau": 3,
+"type": "piège",
+"q": "Tu fais le « why train » (te demander « pourquoi ? » encore et encore) sur le désir de ta cliente, de tête, sans aucune recherche. Quel piège Spencer signale-t-il ?",
+"qcm": {
+"choix": [
+"Tu réponds avec tes biais, pas avec ses raisons",
+"Tu t'arrêtes trop tôt, au premier pourquoi",
+"Tu trouves trop de désirs pour une seule pub",
+"Tu oublies de nommer le produit dans le hook"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu réponds avec tes biais, pas avec les vraies raisons de ta cliente.",
+"pourquoi": "Spencer l'avoue : il a répondu avec ses biais, car il n'a pas fait de recherche sur les machines à laver. Idéalement, les réponses viennent des sites étudiés, des clients interrogés, de ta connaissance du produit et du marché.",
+"action": "Avant ton why train, relis tes avis clients et tes entretiens, et prends tes réponses dans leurs mots."
+},
+"explication": "Le why train part du désir de surface (« une machine qui ne sent pas ») et descend : des vêtements qui sentent bon, ne pas se sentir sale, ce que pensent les autres. On arrive aux désirs profonds, comme la santé ou le statut. Sans recherche, tu risques de descendre dans la mauvaise direction (déduction).",
+"variantes": [
+{
+"q": "Selon Spencer, d'où doivent venir idéalement les réponses de ton why train ?",
+"qcm": {
+"choix": [
+"De ta recherche : sites, clients, marché",
+"De ce que toi tu ressens face au produit",
+"Des pubs de tes concurrents qui marchent",
+"Des tendances du moment sur TikTok"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 De ta recherche : les sites étudiés, les clients interrogés, ton produit et ton marché."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 5 [S043] [R131] [R018]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 946
+},
+{
+"id": "copy-deco-s-048",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Étape 5 · Une vraie rupture devient une offre",
+"niveau": 3,
+"type": "si-alors",
+"q": "Si ton produit est vraiment en rupture à cause de la demande, quelle pub de Norse Organic Spencer cite-t-il en exemple ?",
+"qcm": {
+"choix": [
+"Une précommande : -25 % pour réserver ton stock maintenant",
+"Une pub d'excuses, sans offre, pour calmer les clients",
+"Une pub qui parle d'un autre produit en attendant",
+"Une pause totale des pubs jusqu'au retour du stock"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Une pub de précommande : « -25 % pour sécuriser votre stock maintenant. Expédition sous 2 à 3 semaines. »",
+"pourquoi": "Le texte dit : « En raison d'une demande extrême, le rituel anti-acné et anti-rougeurs est en rupture. Pour cela, nous offrons une réduction unique. » Spencer note une rareté « 100 sur 10 » : poussée au maximum.",
+"action": "Si tu es vraiment en rupture, transforme-la en précommande avec une petite remise et un délai d'envoi clair."
+},
+"explication": "La rareté n'a de force que si elle est vraie : Spencer redit de ne jamais mentir sur les ruptures. Ici, la rupture devient une raison d'acheter tout de suite, avec la date d'envoi annoncée.",
+"variantes": [
+{
+"q": "Selon Spencer, à combien la pub de précommande de Norse Organic pousse-t-elle la rareté ?",
+"qcm": {
+"choix": [
+"100 sur 10 : au maximum",
+"5 sur 10 : à moitié",
+"2 sur 10 : à peine",
+"0 sur 10 : pas du tout"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 100 sur 10 : ils poussent la rareté au maximum."
+}
+}
+],
+"source": "Spencer (Evolve) – décorticage de 6 pubs en vidéo (2 h)",
+"ref": "SPENCER EVOLVE DECORTIQUER 6 VIDEO 2H.md, vidéo 6 [S058] [R179]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 947
 },
 {
 "id": "copy-desir-001",
@@ -5165,7 +7438,8 @@ window.QR_CARTES = [
 {
 "q": "Complète la règle de Mark : « Plus tu parles ___ à ton client, plus tu gagnes d'argent. »"
 }
-]
+],
+"num": 55
 },
 {
 "id": "copy-desir-002",
@@ -5201,7 +7475,8 @@ window.QR_CARTES = [
 "Croyances, émotions, pensées conscientes, identité, niveau de conscience"
 ],
 "bonne": 0
-}
+},
+"num": 56
 },
 {
 "id": "copy-desir-003",
@@ -5240,7 +7515,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 57
 },
 {
 "id": "copy-desir-004",
@@ -5276,7 +7552,8 @@ window.QR_CARTES = [
 "Rejoins la conversation déjà dans la tête du client"
 ],
 "bonne": 3
-}
+},
+"num": 58
 },
 {
 "id": "copy-desir-005",
@@ -5324,7 +7601,8 @@ window.QR_CARTES = [
 {
 "q": "Selon Mark, pourquoi parler seulement aux pensées conscientes du client ne suffit pas ? Donne le chiffre."
 }
-]
+],
+"num": 59
 },
 {
 "id": "copy-desir-006",
@@ -5375,7 +7653,8 @@ window.QR_CARTES = [
 "On achète sur la preuve, pas sur la promesse"
 ],
 "bonne": 1
-}
+},
+"num": 60
 },
 {
 "id": "copy-desir-007",
@@ -5426,7 +7705,8 @@ window.QR_CARTES = [
 "On achète sur l'émotion, puis on justifie avec la logique"
 ],
 "bonne": 3
-}
+},
+"num": 61
 },
 {
 "id": "copy-desir-008",
@@ -5465,7 +7745,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 62
 },
 {
 "id": "copy-desir-009",
@@ -5501,7 +7782,8 @@ window.QR_CARTES = [
 "Du système de croyances"
 ],
 "bonne": 3
-}
+},
+"num": 63
 },
 {
 "id": "copy-desir-010",
@@ -5552,7 +7834,8 @@ window.QR_CARTES = [
 "Garder ses croyances intactes, ou les ignorer complètement"
 ],
 "bonne": 2
-}
+},
+"num": 64
 },
 {
 "id": "copy-desir-011",
@@ -5594,7 +7877,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 65
 },
 {
 "id": "copy-desir-012",
@@ -5630,7 +7914,8 @@ window.QR_CARTES = [
 "Demander au client son identité pour cibler"
 ],
 "bonne": 0
-}
+},
+"num": 66
 },
 {
 "id": "copy-desir-013",
@@ -5686,7 +7971,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 67
 },
 {
 "id": "copy-desir-014",
@@ -5737,7 +8023,8 @@ window.QR_CARTES = [
 "Ses émotions face à la pub"
 ],
 "bonne": 0
-}
+},
+"num": 68
 },
 {
 "id": "copy-desir-015",
@@ -5779,7 +8066,8 @@ window.QR_CARTES = [
 {
 "q": "Pour passer de l'inaction à l'action, quelle ligne un client doit-il franchir sur l'échelle de Hawkins citée par Mark ?"
 }
-]
+],
+"num": 69
 },
 {
 "id": "copy-desir-016",
@@ -5829,7 +8117,8 @@ window.QR_CARTES = [
 "Le plus grand écart d'émotion que vit le client"
 ],
 "bonne": 3
-}
+},
+"num": 70
 },
 {
 "id": "copy-desir-017",
@@ -5879,7 +8168,8 @@ window.QR_CARTES = [
 "On le force, en convainquant produit en main"
 ],
 "bonne": 1
-}
+},
+"num": 71
 },
 {
 "id": "copy-desir-018",
@@ -5936,7 +8226,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 72
 },
 {
 "id": "copy-desir-019",
@@ -5970,7 +8261,8 @@ window.QR_CARTES = [
 {
 "q": "Vincent décrit 5 étages : manger, un toit, l'amour, le respect, le dernier étage. Quels noms leur donne Maslow ?"
 }
-]
+],
+"num": 73
 },
 {
 "id": "copy-desir-020",
@@ -6006,7 +8298,8 @@ window.QR_CARTES = [
 "Une envie intense, la demande brute qui précède le produit"
 ],
 "bonne": 3
-}
+},
+"num": 74
 },
 {
 "id": "copy-desir-021",
@@ -6056,7 +8349,8 @@ window.QR_CARTES = [
 "Intensité + concurrence"
 ],
 "bonne": 2
-}
+},
+"num": 75
 },
 {
 "id": "copy-desir-022",
@@ -6106,7 +8400,8 @@ window.QR_CARTES = [
 "Permanent : saisonnier. Éphémère : toute l'année"
 ],
 "bonne": 0
-}
+},
+"num": 76
 },
 {
 "id": "copy-desir-023",
@@ -6143,7 +8438,8 @@ window.QR_CARTES = [
 "Accroche humoristique, puis prix et garantie"
 ],
 "bonne": 2
-}
+},
+"num": 77
 },
 {
 "id": "copy-desir-024",
@@ -6179,7 +8475,8 @@ window.QR_CARTES = [
 "Sans effet : seul le format de la pub compte"
 ],
 "bonne": 1
-}
+},
+"num": 78
 },
 {
 "id": "copy-desir-028",
@@ -6229,7 +8526,8 @@ window.QR_CARTES = [
 "Baisser le prix pour compenser sa méfiance"
 ],
 "bonne": 2
-}
+},
+"num": 82
 },
 {
 "id": "copy-desir-029",
@@ -6265,7 +8563,8 @@ window.QR_CARTES = [
 "Changer ses émotions, l'identité suivra"
 ],
 "bonne": 1
-}
+},
+"num": 83
 },
 {
 "id": "copy-desir-030",
@@ -6329,7 +8628,8 @@ window.QR_CARTES = [
 "Émotions → identité → croyances → actions"
 ],
 "bonne": 0
-}
+},
+"num": 84
 },
 {
 "id": "copy-desir-031",
@@ -6379,7 +8679,8 @@ window.QR_CARTES = [
 "Fierté : flatter ses bons choix de maître"
 ],
 "bonne": 1
-}
+},
+"num": 85
 },
 {
 "id": "copy-desir-032",
@@ -6429,7 +8730,8 @@ window.QR_CARTES = [
 "Culpabilité, peur, chagrin, apathie"
 ],
 "bonne": 3
-}
+},
+"num": 86
 },
 {
 "id": "copy-desir-033",
@@ -6479,7 +8781,8 @@ window.QR_CARTES = [
 "Courage, puis honte, puis CTA au plus bas"
 ],
 "bonne": 1
-}
+},
+"num": 87
 },
 {
 "id": "copy-desir-034",
@@ -6545,7 +8848,8 @@ window.QR_CARTES = [
 ],
 "bonne": 3
 },
-"extrait": "the hook of the ad is vet solution to itching changed my dog's personality and I feel like I don't even know them anymore"
+"extrait": "the hook of the ad is vet solution to itching changed my dog's personality and I feel like I don't even know them anymore",
+"num": 88
 },
 {
 "id": "copy-desir-035",
@@ -6609,7 +8913,8 @@ window.QR_CARTES = [
 "« Avec ce t-shirt, paie moins cher »"
 ],
 "bonne": 1
-}
+},
+"num": 89
 },
 {
 "id": "copy-desir-036",
@@ -6673,7 +8978,8 @@ window.QR_CARTES = [
 "Le prix et la garantie, puis les avis clients"
 ],
 "bonne": 2
-}
+},
+"num": 90
 },
 {
 "id": "copy-desir-037",
@@ -6723,7 +9029,8 @@ window.QR_CARTES = [
 "Les 3 étoiles : « enfin un produit qui… »"
 ],
 "bonne": 3
-}
+},
+"num": 91
 },
 {
 "id": "copy-desir-038",
@@ -6773,7 +9080,8 @@ window.QR_CARTES = [
 "1 seul désir à la fois, en vidéo longue"
 ],
 "bonne": 1
-}
+},
+"num": 92
 },
 {
 "id": "copy-desir-039",
@@ -6823,7 +9131,8 @@ window.QR_CARTES = [
 "Même problème, états opposés : un message par état"
 ],
 "bonne": 3
-}
+},
+"num": 93
 },
 {
 "id": "copy-desir-040",
@@ -6873,7 +9182,8 @@ window.QR_CARTES = [
 "Aux caractéristiques du produit"
 ],
 "bonne": 1
-}
+},
+"num": 94
 },
 {
 "id": "copy-desir-042",
@@ -6937,7 +9247,8 @@ window.QR_CARTES = [
 "Il vise toujours l'accomplissement de soi"
 ],
 "bonne": 2
-}
+},
+"num": 96
 },
 {
 "id": "copy-desir-043",
@@ -6970,7 +9281,8 @@ window.QR_CARTES = [
 "L'intensité"
 ],
 "bonne": 3
-}
+},
+"num": 97
 },
 {
 "id": "copy-desir-044",
@@ -7020,7 +9332,8 @@ window.QR_CARTES = [
 "Que la page de vente charge assez vite"
 ],
 "bonne": 2
-}
+},
+"num": 98
 },
 {
 "id": "copy-desir-045",
@@ -7056,7 +9369,8 @@ window.QR_CARTES = [
 "Augmente le budget : Meta manque de données"
 ],
 "bonne": 0
-}
+},
+"num": 99
 },
 {
 "id": "copy-desir-046",
@@ -7092,7 +9406,8 @@ window.QR_CARTES = [
 "La croyance n'a pas bougé : les faits sont rejetés"
 ],
 "bonne": 3
-}
+},
+"num": 100
 },
 {
 "id": "copy-desir-047",
@@ -7125,7 +9440,8 @@ window.QR_CARTES = [
 "Une planche de surf : la pub elle-même"
 ],
 "bonne": 2
-}
+},
+"num": 101
 },
 {
 "id": "copy-desir-048",
@@ -7175,7 +9491,8 @@ window.QR_CARTES = [
 "Il faut monter encore plus haut avant l'achat"
 ],
 "bonne": 1
-}
+},
+"num": 102
 },
 {
 "id": "copy-desir-049",
@@ -7225,7 +9542,8 @@ window.QR_CARTES = [
 "Une seule couche échoue : utilise-les toutes"
 ],
 "bonne": 3
-}
+},
+"num": 103
 },
 {
 "id": "copy-desir-050",
@@ -7258,7 +9576,8 @@ window.QR_CARTES = [
 "C'est la couche des émotions qui n'est pas prouvée"
 ],
 "bonne": 1
-}
+},
+"num": 104
 },
 {
 "id": "copy-desir-052",
@@ -7308,7 +9627,8 @@ window.QR_CARTES = [
 "Mark redescend avant l'achat ; Vincent finit vers l'espoir"
 ],
 "bonne": 3
-}
+},
+"num": 106
 },
 {
 "id": "copy-desir-053",
@@ -7358,7 +9678,8 @@ window.QR_CARTES = [
 "Attends un an de tests avant de le lancer"
 ],
 "bonne": 1
-}
+},
+"num": 107
 },
 {
 "id": "copy-desir-054",
@@ -7408,7 +9729,8 @@ window.QR_CARTES = [
 "Trop large : isole un grand désir, sans ultra-niche"
 ],
 "bonne": 3
-}
+},
+"num": 108
 },
 {
 "id": "copy-desir-055",
@@ -7458,7 +9780,8 @@ window.QR_CARTES = [
 "Ta page de vente est trop lente"
 ],
 "bonne": 2
-}
+},
+"num": 109
 },
 {
 "id": "copy-desir-056",
@@ -7508,7 +9831,8 @@ window.QR_CARTES = [
 "Elle ne compte en réalité que 3 étages, pas 5"
 ],
 "bonne": 0
-}
+},
+"num": 110
 },
 {
 "id": "copy-desir-057",
@@ -7541,7 +9865,8 @@ window.QR_CARTES = [
 "Vincent : amour. Maslow : estime de soi"
 ],
 "bonne": 2
-}
+},
+"num": 111
 },
 {
 "id": "copy-desir-058",
@@ -7574,7 +9899,8 @@ window.QR_CARTES = [
 "Tout en haut, avec la paix"
 ],
 "bonne": 1
-}
+},
+"num": 112
 },
 {
 "id": "copy-desir-059",
@@ -7624,7 +9950,3372 @@ window.QR_CARTES = [
 "Trop de recherche : lance sans chercher"
 ],
 "bonne": 0
+},
+"num": 113
+},
+{
+"id": "copy-fp-001",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Déclencheur ou fondamental",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, un hook Instagram, le titre d'une page ou une relance en message privé, c'est quoi ?",
+"choix": [
+"Une vérité qui ne change jamais avec le temps",
+"Une astuce qui pousse à une petite action précise",
+"Une preuve que le produit donne bien un résultat",
+"Une promesse que l'offre fait à son client"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Un déclencheur : une astuce qui pousse à une petite action précise.",
+"pourquoi": "Badis appelle déclencheurs « les techniques, les astuces qu'on utilise pour provoquer une action précise chez quelqu'un ». Ce sont des micro-actions.",
+"action": "Devant chaque morceau de ta pub, demande-toi : quelle petite action ce morceau doit-il provoquer ?"
+},
+"explication": "Badis sépare deux choses. Le déclencheur, c'est l'outil : un hook, un titre, une question de vente. Le fondamental, c'est la vérité qui fait marcher l'outil. Les déclencheurs marchent à court terme, mais ils s'usent.",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi un déclencheur (hook, titre, relance) ne marche-t-il pas toujours sur le long terme ?",
+"choix": [
+"Il coûte de plus en plus cher à produire",
+"Il dépend du contexte et des modes du marché",
+"Il est trop difficile à bien appliquer",
+"Il finit interdit par les plateformes"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Il dépend du contexte et des tendances du marché.",
+"pourquoi": "Badis : les déclencheurs sont « certes efficaces à court terme mais (…) ne fonctionnent pas toujours sur le long terme », « car justement ils dépendent du contexte ou des tendances du marché »."
 }
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S006] [R040] ; [S011] [R041]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 948
+},
+{
+"id": "copy-fp-002",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "L'effet « oh encore un »",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, d'où vient l'effet « oh encore un » qu'un prospect (client potentiel) ressent devant une pub ?",
+"choix": [
+"La pub promet un résultat bien trop gros",
+"La pub ne vise pas la bonne personne",
+"Les pubs du marché se copient entre elles",
+"La pub montre le produit beaucoup trop tôt"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Les pubs du marché se copient entre elles.",
+"pourquoi": "Badis : « cet effet oh encore un, il est provoqué parce que tout le monde se copie ». Dès qu'un contenu marche, le réflexe est de le copier sans comprendre pourquoi.",
+"action": "Avant de reprendre l'idée d'un concurrent, demande-toi : combien de pubs de mon marché font déjà la même chose ?"
+},
+"explication": "Quand tout le monde copie le même titre, le même montage, la même façon de parler, le prospect a l'impression de voir toujours la même pub. Il se dit « oh encore un » et il passe. C'est là, dit Badis, qu'on a du mal à attirer des clients.",
+"variantes": [
+{
+"q": "Selon Badis, que se passe-t-il quand ton prospect (client potentiel) voit trop de messages qui se ressemblent ?",
+"choix": [
+"Il s'y habitue et n'y réagit même plus",
+"Il les retient et finit par acheter",
+"Il fait plus confiance à la marque",
+"Il clique pour comparer les offres"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il s'y habitue et n'y réagit même plus.",
+"pourquoi": "Badis : « il s'y habitue littéralement et du coup en fait, il n'y réagit même plus », quand il voit trop de messages similaires."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S007] [R045] [R046] ; [S006] [R044] ; [S020] [R084]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 949
+},
+{
+"id": "copy-fp-003",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Le cerveau qui voit la pub en premier",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, quelle partie du cerveau réagit en premier à une pub, avant que la personne réfléchisse à l'offre ?",
+"choix": [
+"Le néocortex (la logique, la raison)",
+"Le cerveau limbique (les émotions)",
+"La mémoire (les souvenirs d'achat)",
+"Le cerveau reptilien (la survie)"
+],
+"bonne": 3,
+"r": {
+"verdict": "💡 Le cerveau reptilien, celui de la survie et des instincts.",
+"pourquoi": "Badis : c'est le cerveau reptilien « qui reçoit et traite les informations en premier lieu », en une fraction de seconde. C'est lui qui fait scroller ou non.",
+"action": "Juge ton hook sur la première seconde : est-ce qu'il arrête le pouce avant toute réflexion ?"
+},
+"explication": "Badis décrit trois cerveaux : le néocortex pour la logique, le limbique pour les émotions, le reptilien pour la survie. Le reptilien décide bien avant que le prospect pense à ton offre. Si le message ne passe pas ce premier filtre, la logique ne sera jamais consultée.",
+"variantes": [
+{
+"q": "Selon Badis, devant une pub, quelles questions le cerveau reptilien se pose-t-il en une fraction de seconde ?",
+"choix": [
+"Est-ce cher, utile, livré assez vite ?",
+"Est-ce vrai, prouvé, garanti ?",
+"Est-ce pertinent, nouveau, dangereux ?",
+"Qui parle, d'où, depuis quand ?"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Est-ce pertinent ? Est-ce nouveau ? Est-ce dangereux ? (et : est-ce intéressant ?)",
+"pourquoi": "Ce sont les questions que Badis prête au cerveau reptilien, avant tout raisonnement sur l'offre."
+}
+},
+{
+"q": "Badis prend un homme de la préhistoire lâché une semaine en ville. Il ne voit plus les voitures. Qu'est-ce qui réveille à nouveau son attention ?",
+"choix": [
+"Une voiture plus grosse que les autres",
+"Une voiture qui klaxonne près de lui",
+"Une voiture d'une couleur vive",
+"Une voiture garée devant sa porte"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Une voiture qui klaxonne : c'est la première fois qu'il entend ce bruit.",
+"pourquoi": "Le cerveau reptilien est fait pour repérer les nouveautés et ce qui sort de l'ordinaire. Le déjà-vu, il l'ignore."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S021] ; [S022] [R089] [R090] ; [S023] [R093] [R094] [R095]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 950
+},
+{
+"id": "copy-fp-004",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "La fatigue publicitaire",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, qu'est-ce que la fatigue publicitaire ?",
+"choix": [
+"L'équipe n'a plus aucune idée pour ses pubs",
+"Le budget s'épuise bien avant la fin du mois",
+"Le marché ne répond plus à un message trop vu",
+"Le client se lasse d'une marque déjà achetée"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Le marché ne répond plus à un message qu'il a vu trop de fois.",
+"pourquoi": "Badis : « c'est lorsqu'un message il a été exposé trop de fois au marché et que le marché ne répond plus à ce message ». Même les déclencheurs très forts au départ s'usent.",
+"action": "Quand une pub qui marchait faiblit, ne cherche pas l'astuce à la mode : crée un nouveau déclencheur sur un fondamental."
+},
+"explication": "Pour Badis, c'est systématique, dans tous les marchés : un message répété finit par ne plus rien déclencher. La seule réponse, c'est de se renouveler en créant ses propres déclencheurs. Et pour les créer, il faut connaître les vérités fondamentales.",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi les jeux concours sur Instagram (« gagne une voiture si tu t'abonnes ») ne marchent plus comme avant ?",
+"choix": [
+"Instagram les a interdits en publicité",
+"Les cadeaux offerts sont devenus trop petits",
+"Les gens les ont vus et revus partout",
+"Les abonnés gagnés partent tout de suite"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Les gens les ont vus et revus : ce n'est plus nouveau.",
+"pourquoi": "Badis : « les gens, ils ne font plus concours parce que c'est du vu et du revu ». Les copieurs avaient moins de résultats, peu importe la taille des cadeaux."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S024] [R096] [R017] [R018] ; [S025] [R099]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 951
+},
+{
+"id": "copy-fp-005",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "La vérité de base du marketing",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, quelle est la vérité fondamentale du marketing ?",
+"choix": [
+"Les gens achètent ce qui est le moins cher du rayon",
+"Les gens achètent ce que leurs amis achètent",
+"Les gens achètent ce qu'ils voient le plus souvent",
+"Les gens achètent des solutions à leurs problèmes"
+],
+"bonne": 3,
+"r": {
+"verdict": "💡 Les gens achètent des solutions aux problèmes qu'ils ont.",
+"pourquoi": "Badis : « en marketing, la vérité fondamentale, c'est que les gens achètent des solutions au problèmes qu'ils ont ». Sans problème, pas d'achat.",
+"action": "Avant d'écrire, nomme en une phrase le problème que ta cliente veut régler."
+},
+"explication": "Badis part toujours de ce qui est vrai à la base, puis il construit dessus. En marketing, la base est simple : pas de problème, pas d'achat. Tout le reste (hook, page, script) vient après.",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi dois-tu te placer « comme un médecin » face à un prospect (client potentiel) ?",
+"choix": [
+"Un médecin inspire plus confiance qu'un vendeur",
+"Sans problème à soigner, il n'achètera jamais",
+"Un expert diplômé se paie toujours plus cher",
+"Un diagnostic permet de vendre plus d'articles"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Sans problème à soigner, il n'achètera jamais.",
+"pourquoi": "Badis : si tu arrives en appel et que la personne n'a pas de problème, tu ne peux pas l'aider : elle ne signera jamais."
+}
+}
+],
+"source": "Badis – formation Learn First Principles (module vidéo et document « Learn First Principles »)",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S029] [R112] [R113] ; First Principles 02 Badis méthode Pourquoi analyse client - INDEX.md [S001]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 952
+},
+{
+"id": "copy-fp-006",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "La simplicité, un fondamental",
+"niveau": 2,
+"type": "scénario",
+"q": "Tu écris à des prospects (clients potentiels) par email. Selon Badis, lequel de ces objets repose sur un vrai fondamental ?",
+"r": {
+"verdict": "💡 « Question rapide » : deux mots, simple à lire.",
+"pourquoi": "Badis : le cerveau humain réagit mieux à la simplicité qu'aux choses complexes qui lui demandent plus d'énergie. « J'aurais besoin de ton avis… » est long et compliqué : il ne repose sur aucune vérité.",
+"action": "Relis ton objet ou ton hook : s'il demande un effort pour être compris, coupe."
+},
+"explication": "Pour Badis, la simplicité marche partout : miniatures, titres, relances, questions de vente. Ce qu'on veut, c'est « être compris par un enfant de 8 ans ». Il précise que « Question rapide » marchait surtout quand le marché n'était pas encore saturé.",
+"qcm": {
+"choix": [
+"« J'aurais besoin de ton avis sur un point »",
+"« Question rapide »",
+"« Découvrez notre méthode révolutionnaire »",
+"« Avez-vous imaginé l'impact sur votre vie ? »"
+],
+"bonne": 1
+},
+"variantes": [
+{
+"q": "Tu écris le titre de ta page de vente. Selon Badis, lequel convertit le mieux ?",
+"qcm": {
+"choix": [
+"« Notre approche complète pour réussir X »",
+"« Je suis le meilleur pour vous mener à X »",
+"« La solution ultime pour résoudre X »",
+"« La méthode révolutionnaire pour vaincre X »"
+],
+"bonne": 2
+},
+"r": {
+"verdict": "💡 « La solution ultime pour résoudre X ».",
+"pourquoi": "Badis dit qu'il convertira « 100 fois mieux » qu'un titre plein de mots compliqués (« méthode révolutionnaire… obstacles complexes… manière optimale »)."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S013] [R052] [R053] [R054] [R055] ; [S014] [R057]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 953
+},
+{
+"id": "copy-fp-007",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Une micro-étape, une seule fonction",
+"niveau": 2,
+"type": "scénario",
+"q": "Tu écris le hook (accroche des premières secondes) d'une vidéo. Selon Badis, à quoi vois-tu qu'il a fait son seul travail ?",
+"r": {
+"verdict": "💡 Les gens continuent à regarder la vidéo. C'est tout.",
+"pourquoi": "Badis : « le hook il a qu'une fonction, c'est d'amener la personne à continuer à regarder la vidéo, c'est tout ».",
+"action": "Ne demande pas à ton hook de vendre : demande-lui seulement de garder la personne."
+},
+"explication": "Badis découpe le chemin de l'inconnu jusqu'au client en micro-étapes : être accroché, regarder la vidéo, lire la description, cliquer sur le profil, écrire… Chaque étape est un déclencheur avec une seule fonction : faire passer à l'étape suivante.",
+"qcm": {
+"choix": [
+"Les gens cliquent sur le lien d'achat",
+"Les gens continuent à regarder la vidéo",
+"Les gens comprennent toute l'offre",
+"Les gens laissent un commentaire"
+],
+"bonne": 1
+},
+"variantes": [
+{
+"q": "Selon Badis, une question posée pendant un appel de vente n'a qu'une seule fonction. Laquelle ?",
+"qcm": {
+"choix": [
+"Présenter les bénéfices de l'offre",
+"Rassurer le prospect sur le prix",
+"Raconter le parcours du vendeur",
+"Creuser la douleur du prospect"
+],
+"bonne": 3
+},
+"r": {
+"verdict": "💡 Creuser la douleur, et faire comprendre que seul, il n'y arrivera pas.",
+"pourquoi": "Badis : la question dans le script de vente « a qu'une fonction, c'est creuser la douleur, faire comprendre que seul il va pas y arriver »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S015] [R059] [R060] ; [S011] [R043]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 954
+},
+{
+"id": "copy-fp-008",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Pourquoi une copie échoue",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Un concurrent cartonne avec une pub. Tu la reprends mot pour mot, et chez toi elle ne marche pas. Selon Badis, quelle est la cause ?",
+"r": {
+"verdict": "💡 Tu as copié sans savoir pourquoi elle marchait chez lui.",
+"pourquoi": "Badis : copier un concurrent sans savoir pourquoi sa pub a fonctionné, « là vous irez droit dans le mur ». Ça peut marcher à court terme, jamais à long terme.",
+"action": "Devant une pub qui marche, écris d'abord la vérité qu'elle utilise (preuve sociale, rareté, émotion…), puis crée ta version."
+},
+"explication": "Le script n'est que la partie visible. Ce qui fait vendre, c'est la vérité derrière : la preuve sociale, la rareté, des résultats clients réels. Sans cette vérité chez toi, les mêmes mots ne produisent rien.",
+"qcm": {
+"choix": [
+"Ton budget est trop petit pour la tester",
+"Tu ne sais pas pourquoi elle marchait",
+"Ta cible a moins d'argent que la sienne",
+"Ton montage est moins soigné que le sien"
+],
+"bonne": 1
+},
+"variantes": [
+{
+"q": "Selon Badis, pourquoi les gens qui copient ses pubs n'ont pas ses résultats ?",
+"qcm": {
+"choix": [
+"Son script de pub est plus fort que le leur",
+"Il dépense plus d'argent en pub qu'eux",
+"Il a de vrais résultats clients à montrer",
+"Il publie ses pubs plus souvent qu'eux"
+],
+"bonne": 2
+},
+"r": {
+"verdict": "💡 Il a de vrais résultats clients à montrer.",
+"pourquoi": "Badis : « les personnes, ils pensent que c'est mon script qui est magique. Mais non » : il apporte des résultats à ses clients, et il montre ces retours en pub (preuve sociale)."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S010] [R049] ; [S008] [R005] [R047]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 955
+},
+{
+"id": "copy-fp-009",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Même script, forme nouvelle",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Un concurrent suivi par Badis garde le script d'une VSL (vidéo de vente), mais le présente comme une lettre. Selon Badis, pourquoi ça marche ?",
+"r": {
+"verdict": "💡 La forme n'a jamais été vue : le cerveau reptilien y prête attention.",
+"pourquoi": "Badis : ses concurrents ont presque tous le même tunnel (un titre et une vidéo). Lui « paraît directement comme nouveau, unique supérieur parce qu'en fait c'est jamais vu ». Le fond ne change pas, seule la forme est nouvelle.",
+"action": "Regarde la forme que tout ton marché utilise, et cherche une forme qu'il n'a pas encore vue."
+},
+"explication": "La nouveauté est un fondamental : le cerveau reptilien remarque ce qui sort de l'ordinaire. Pas besoin de réinventer le message. Changer la forme suffit parfois à repasser le premier filtre.",
+"qcm": {
+"choix": [
+"La lettre donne plus de détails sur l'offre",
+"La lettre se lit plus vite qu'une vidéo",
+"La lettre coûte moins cher à produire",
+"La forme est nouvelle et attire l'attention"
+],
+"bonne": 3
+},
+"variantes": [
+{
+"q": "Un tunnel (parcours de vente) dit : « pour les agences et coachs à plus de 25 K par mois » (25 000 par mois). Selon Badis, pourquoi ce chiffre attire plus ?",
+"qcm": {
+"choix": [
+"Il touche ceux au-dessus de 25 K, et ceux en dessous",
+"Il fait fuir les petits clients, qui coûtent cher",
+"Il prouve que le vendeur gagne lui-même 25 K",
+"Il crée une urgence avec un chiffre précis"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il touche ceux qui gagnent plus de 25 K, et aussi ceux qui gagnent moins.",
+"pourquoi": "Badis : sans le chiffre, ceux au-dessus de 25 K se seraient dit « c'est peut-être pour les débutants ». Et ceux en dessous réservent quand même un appel."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S031] [R024] [R105] ; [S023] [R095]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 956
+},
+{
+"id": "copy-fp-010",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Se renouveler sans réinventer la roue",
+"niveau": 3,
+"type": "piège",
+"q": "Tes pubs s'usent : le marché ne réagit plus. Selon Badis, que crées-tu ?",
+"r": {
+"verdict": "💡 Un nouveau déclencheur, posé sur les mêmes principes de base.",
+"pourquoi": "Badis : « ce qu'on veut nous, c'est créer des nouveaux déclencheurs mais qui se basent toujours sur les mêmes principes fondamentaux ». Les principes ne s'usent pas ; seuls les déclencheurs s'usent.",
+"action": "Garde la vérité (preuve sociale, réciprocité, nouveauté…) et demande-toi : qu'est-ce qui peut être nouveau dans la forme ?"
+},
+"explication": "Le piège : croire que le principe est usé. Pour Badis, les fondamentaux touchent des éléments intemporels de la psychologie humaine : ils ne s'usent pas. Ce qui s'use, c'est la forme vue partout. Donc on ne réinvente pas la roue : on change la forme, on garde la vérité.",
+"qcm": {
+"choix": [
+"Un nouveau principe, car l'ancien est usé",
+"Un nouveau déclencheur sur le même principe",
+"La même pub, avec une offre plus grosse",
+"La pub qui marche chez le concurrent"
+],
+"bonne": 1
+},
+"variantes": [
+{
+"q": "Devant une pub qui cartonne, selon Badis, quelle question te fait vraiment progresser ?",
+"qcm": {
+"choix": [
+"Quel script exact puis-je reprendre ?",
+"Combien a-t-elle coûté en budget ?",
+"Quel outil a servi pour le montage ?",
+"Quelle vérité de base la fait marcher ?"
+],
+"bonne": 3
+},
+"r": {
+"verdict": "💡 Quelle vérité de base la fait marcher ?",
+"pourquoi": "Badis : « pourquoi ce hook fonctionne ? (…) C'est quoi la vérité fondamentale qu'il y a derrière ? » Puis : « je vois qu'il met de la curiosité, je vois qu'il met de la rareté »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S026] [R101] [R102] ; [S024] [R097] ; [S010] [R048] ; [S027] [R077]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 957
+},
+{
+"id": "copy-fp-011",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "La méthode des « pourquoi ? »",
+"niveau": 3,
+"type": "si-alors",
+"q": "Tu appliques à ton marché la méthode des « pourquoi ? » de Badis. Quand t'arrêtes-tu ?",
+"r": {
+"verdict": "💡 Quand tu ne peux plus répondre à « pourquoi ? ».",
+"pourquoi": "Badis : « vous posez constamment la question pourquoi jusqu'à que vous ne puissiez plus vous la poser ». Car « on ne peut pas décomposer une vérité fondamentale ».",
+"action": "Prends un problème de ta cliente et pose « pourquoi ? » jusqu'à ce qu'il n'y ait plus de réponse."
+},
+"explication": "La méthode tient en 3 étapes : choisir le sujet, écrire ce qui est vrai à la base, puis demander « pourquoi ? » jusqu'au bout. Son exemple compte 5 « pourquoi », mais la règle n'est pas un nombre : c'est d'aller jusqu'à ce qu'on ne puisse plus répondre. En marketing, sa chaîne finit sur la survie et la reproduction.",
+"qcm": {
+"choix": [
+"Après cinq « pourquoi », comme le veut la méthode",
+"Quand tu ne peux plus répondre à « pourquoi ? »",
+"Quand tu as trouvé le problème de la cliente",
+"Quand tu as trouvé un angle pour ta pub"
+],
+"bonne": 1
+},
+"variantes": [
+{
+"q": "Dans la chaîne des « pourquoi » de Badis, juste après « les gens achètent des solutions à leurs problèmes », quelle réponse vient ?",
+"qcm": {
+"choix": [
+"Résoudre un problème améliore leur situation",
+"Ils cherchent à survivre et à se reproduire",
+"Ils veulent montrer leur statut aux autres",
+"Ils ont peur de rater une bonne affaire"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Résoudre un problème améliore leur situation actuelle.",
+"pourquoi": "C'est le 1er « parce que ». Puis : éviter la douleur et chercher le plaisir ; puis la survie et la reproduction, tout au bout de la chaîne."
+}
+}
+],
+"source": "Badis – formation Learn First Principles (module vidéo et document « Learn First Principles »)",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S029] [R109] [R110] [R111] [R019] [R020] [R021] ; First Principles 02 Badis méthode Pourquoi analyse client - INDEX.md [S001] [S002]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 958
+},
+{
+"id": "copy-fp-012",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Certitude, preuves et produit",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Selon Badis, les gens achètent la certitude d'avoir le résultat. Comment fais-tu monter cette certitude, à la racine ?",
+"r": {
+"verdict": "💡 Avec un meilleur produit, qui donne plus de témoignages clients.",
+"pourquoi": "Badis : « Comment j'augmente cette certitude ? Et ben, en ayant plus de témoignages clients. Comment j'ai plus de témoignages clients ? En ayant un bon produit. »",
+"action": "Avant de retoucher ta page, compte tes vrais résultats clients : c'est eux qui font la certitude."
+},
+"explication": "Badis remonte la chaîne : la vente tient sur la certitude, la certitude sur les témoignages, les témoignages sur le produit. Sa page convertit parce qu'elle ne montre que des résultats clients. Pour lui, un produit d'exception est le principe de base du business : tout le reste devient facile après.",
+"qcm": {
+"choix": [
+"Plus de garanties écrites sur ta page de vente",
+"Un script de vente plus fort et plus persuasif",
+"Plus de pubs, pour être vu bien plus souvent",
+"Un meilleur produit, donc plus de témoignages"
+],
+"bonne": 3
+},
+"variantes": [
+{
+"q": "Selon Badis, qu'achètent vraiment les gens quand ils paient ?",
+"qcm": {
+"choix": [
+"Le produit le moins cher du marché",
+"La certitude d'avoir le résultat",
+"L'histoire de la personne qui vend",
+"Le plaisir d'avoir un objet neuf"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 La certitude qu'ils vont avoir le résultat.",
+"pourquoi": "Badis : « les gens, ils achètent la certitude qu'ils vont avoir le résultat ». D'où ses pages remplies de résultats clients."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S019] [R014] [R015] [R078] ; [S033] [R080] [R081]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 959
+},
+{
+"id": "copy-fp-013",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, quelle partie du cerveau s'occupe de la logique et du raisonnement ?",
+"choix": [
+"Le cerveau limbique",
+"Le néocortex",
+"Le cerveau reptilien",
+"Le cerveau droit"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Le néocortex : la partie du haut, la plus récente.",
+"pourquoi": "Badis : le néocortex est « la zone de toutes nos pensées rationnelles et logiques ». C'est « la partie intelligente du cerveau ».",
+"action": "Garde la logique (preuves, détails de l'offre) pour après le hook : ce n'est pas elle qui arrête le pouce."
+},
+"explication": "Badis découpe le cerveau en 3 étages. En haut, le néocortex : la logique. Au milieu, le limbique : les émotions. En bas, le reptilien : la survie. Le néocortex est le plus récent des trois.",
+"variantes": [
+{
+"q": "Selon Badis, en ce moment, pour comprendre les mots de cette question, quelle partie de ton cerveau travaille ?",
+"choix": [
+"Le néocortex",
+"Le cerveau reptilien",
+"Le cerveau limbique",
+"Le cerveau gauche"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le néocortex.",
+"pourquoi": "Badis à ses élèves : pour comprendre ce qu'il dit, pour comprendre ses mots, ils ont activé leur néocortex."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S021]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 960
+},
+{
+"id": "copy-fp-014",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, la colère, la joie et la tristesse passent par quelle partie du cerveau ?",
+"choix": [
+"Le néocortex",
+"Le cerveau reptilien",
+"Le cerveau limbique",
+"Le cerveau droit"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Le cerveau limbique, au milieu.",
+"pourquoi": "Badis : le cerveau limbique « est responsable de toutes nos réactions émotionnelles. (…) C'est là qu'on ressent la colère, la joie, la tristesse ».",
+"action": "Dans ta pub, demande-toi quelle émotion précise tu fais ressentir : c'est le limbique que tu touches."
+},
+"explication": "Le limbique est l'étage du milieu, entre la logique (néocortex) et la survie (reptilien). Badis précise qu'il n'y a « pas de partie bête » : chacune a son rôle.",
+"variantes": [
+{
+"q": "Selon Badis, de quoi le cerveau limbique est-il responsable ?",
+"choix": [
+"De nos pensées rationnelles",
+"De notre survie, nos instincts",
+"De nos réactions émotionnelles",
+"De notre mémoire des mots"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 De toutes nos réactions émotionnelles.",
+"pourquoi": "C'est par là que passent nos émotions, dit Badis."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S021] [R087]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 961
+},
+{
+"id": "copy-fp-015",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, de quoi le cerveau reptilien est-il responsable ?",
+"choix": [
+"De la logique et des calculs",
+"De la survie et des instincts",
+"Des émotions et des souvenirs",
+"Du langage et des mots"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 De notre survie et de nos instincts.",
+"pourquoi": "Badis : il « est responsable de notre survie et de nos instincts ». Il a évolué sur des millions d'années et il est le même depuis la préhistoire.",
+"action": "Avant de juger ta pub sur sa logique, juge-la comme un homme préhistorique : est-ce que ça mérite un regard ?"
+},
+"explication": "Le reptilien est l'étage le plus ancien. Il filtre tous les nouveaux messages que reçoit le cerveau, car il est programmé pour la survie et la reproduction. C'est la partie qui intéresse le plus Badis pour la pub.",
+"variantes": [
+{
+"q": "Selon Badis, que filtre le cerveau reptilien, parce qu'il est programmé pour la survie ?",
+"choix": [
+"Les souvenirs que l'on veut garder",
+"Les nouveaux messages qui arrivent",
+"Les mots que l'on est en train de lire",
+"Les émotions que l'on ressent"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Tous les nouveaux messages que le cerveau reçoit, de l'environnement ou du monde extérieur.",
+"pourquoi": "Badis : « le cerveau reptilien il filtre tous les nouveaux messages que votre cerveau il reçoit (…) parce qu'en fait il a été programmé à la survie et à la reproduction »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S021] [R088]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 962
+},
+{
+"id": "copy-fp-016",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, en combien de temps le cerveau reptilien traite-t-il une pub qu'il voit ?",
+"choix": [
+"Environ 3 secondes",
+"Une fraction de seconde",
+"Environ 10 secondes",
+"Le temps de lire le titre"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Une fraction de seconde.",
+"pourquoi": "Badis : il « prend les décisions en une fraction de seconde », bien avant que le prospect ait le temps de réfléchir à l'offre.",
+"action": "Teste ton hook en un clin d'œil : coupe le son, regarde la première image une seule seconde. Est-ce qu'elle arrête ?"
+},
+"explication": "Badis donne un ordre de grandeur oral (« 0,001 » seconde) pour dire : c'est presque instantané. La décision de scroller est prise avant toute réflexion.",
+"variantes": [
+{
+"q": "Selon Badis, tu vois un lion dans la nature. Que se passe-t-il avant même que tu réfléchisses ?",
+"choix": [
+"Tu regardes s'il t'a vu",
+"Tu as déjà commencé à courir",
+"Tu cherches où te cacher",
+"Tu appelles les autres à l'aide"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Tu as déjà commencé à courir.",
+"pourquoi": "Badis : le reptilien s'active, et avant même d'avoir traité l'information, tu as déjà commencé à courir."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S021] ; [S022]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 963
+},
+{
+"id": "copy-fp-017",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 2,
+"type": "scénario",
+"q": "Tu marches dans la rue et tu entends un bruit. Selon Badis, quel est le rôle du néocortex (la partie logique du cerveau) à ce moment-là ?",
+"qcm": {
+"choix": [
+"Il capte le bruit avant tout le reste",
+"Il décide ensuite si c'est un danger",
+"Il te fait ressentir de la peur",
+"Il te fait courir sans réfléchir"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Il décide ensuite si c'est un danger, après le reptilien.",
+"pourquoi": "Badis : c'est le reptilien qui capte l'information en premier, puis elle « est transmise au néocortex qui décide si c'est un danger ou pas ».",
+"action": "Construis ta pub dans cet ordre : d'abord passer le filtre (nouveau, pertinent), ensuite seulement expliquer."
+},
+"explication": "Deux étages, deux rôles. Le reptilien capte vite, parce que la survie ne peut pas attendre. Le néocortex arrive après, pour juger et réfléchir. Une pub qui ne passe pas le premier filtre n'arrive jamais à la réflexion.",
+"variantes": [
+{
+"q": "Selon Badis, à quels déclencheurs (pubs, contenus, messages) le cerveau reptilien de tes prospects réagit-il en premier ?",
+"qcm": {
+"choix": [
+"Aux pubs payées, pas au contenu gratuit",
+"Aux tiens comme à ceux de tes concurrents",
+"Aux tiens, s'il connaît déjà ta marque",
+"Aux pubs vidéo, pas aux textes écrits"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 À tout : pubs, contenus, messages privés, les tiens comme ceux de tes concurrents.",
+"pourquoi": "Badis : « c'est le cerveau reptilien qui réagit au déclencheurs, donc les messages publicitaires et à toutes les autres stimulations provenant de votre communication, de celle de vos concurrents »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S022]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 964
+},
+{
+"id": "copy-fp-018",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 2,
+"type": "scénario",
+"q": "Toutes les pubs de ton marché se ressemblent. Selon Badis, quel genre de hook le cerveau reptilien remarquera-t-il ?",
+"qcm": {
+"choix": [
+"Un hook repris de la pub qui cartonne",
+"Un hook que ton marché n'a jamais vu",
+"Un hook plus long et plus détaillé",
+"Un hook sur la formule à la mode"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Un hook que ton marché n'a jamais vu.",
+"pourquoi": "Badis : « un déclencheur pertinent par rapport au cerveau reptilien de vos prospects, c'est un déclencheur qui est nouveau ».",
+"action": "Avant de valider un hook, cherche s'il existe déjà chez tes concurrents. S'il est partout, change-le."
+},
+"explication": "Le reptilien est fait pour repérer ce qui sort de l'ordinaire. Ce qui ressemble à tout le reste, il le classe sans importance. La nouveauté est donc le premier passeport de ta pub.",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi le cerveau reptilien prête-t-il attention à ce qui est nouveau ?",
+"qcm": {
+"choix": [
+"Ça lui demande moins d'énergie",
+"Ça peut compter pour sa survie",
+"Ça lui rappelle un bon souvenir",
+"Ça vient d'une source connue"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Parce que ça peut compter pour sa survie (ou sa reproduction).",
+"pourquoi": "Badis : quand quelque chose est nouveau dans la nature, le reptilien « y prête attention parce qu'il se dit que c'est important pourquoi pas pour sa survie »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S022] [R091] ; [S023] [R095]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 965
+},
+{
+"id": "copy-fp-019",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Tu te promènes en forêt et tu ne regardes aucun arbre. Selon Badis, pourquoi ?",
+"qcm": {
+"choix": [
+"Les arbres ont tous la même couleur verte",
+"Ton cerveau garde son énergie pour l'imprévu",
+"Tu penses déjà à autre chose de plus précis",
+"Tu n'as jamais appris le nom de ces arbres"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Ton cerveau garde son énergie pour ce qui sort de l'ordinaire.",
+"pourquoi": "Badis : c'est normal, « vous devez allouer votre énergie mentale à quelque chose d'autre ». Un bruit qui surprend ou quelque chose qui bouge au loin, là le reptilien réagit.",
+"action": "Regarde ta pub comme un arbre de plus dans la forêt : qu'est-ce qui, chez elle, ferait bouger quelque chose au loin ?"
+},
+"explication": "Le déjà-vu devient le décor. Le reptilien ne traite pas ce qu'il connaît comme urgent. Une pub qui ressemble aux autres, c'est un arbre de plus : on passe sans la voir.",
+"variantes": [
+{
+"q": "Selon Badis, comment le cerveau reptilien traite-t-il un message qu'il reconnaît, déjà vu ?",
+"qcm": {
+"choix": [
+"Comme une preuve que la marque est sérieuse",
+"Comme un rappel utile pour passer à l'achat",
+"Comme sans importance, voire ennuyeux",
+"Comme un danger qu'il faut surveiller"
+],
+"bonne": 2
+},
+"r": {
+"verdict": "💡 Comme non urgent, sans importance, voire ennuyeux.",
+"pourquoi": "Badis : quand le reptilien « reconnaît un message déjà vu », il le traite « comme non urgente, comme sans importance ou bien même ennuyante »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S023]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 966
+},
+{
+"id": "copy-fp-020",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "La simplicité, un fondamental",
+"niveau": 2,
+"type": "rappel",
+"q": "Selon Badis, pourquoi le cerveau humain réagit-il mieux à un message simple ?",
+"qcm": {
+"choix": [
+"Il paraît plus sérieux et plus pro",
+"Il lui demande moins d'énergie",
+"Il se lit mieux sur un téléphone",
+"Il ressemble à ce qu'il connaît"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Parce qu'il lui demande moins d'énergie et moins de réflexion.",
+"pourquoi": "Badis : le cerveau réagit mieux à la simplicité qu'aux éléments complexes « qui lui demandent plus d'énergie ».",
+"action": "Relis tes questions et ton texte : chaque mot qui fait réfléchir pour rien, coupe-le."
+},
+"explication": "Badis dit que c'est « une grosse erreur » de vouloir paraître intelligent avec des mots compliqués. Le cerveau économise son énergie : ce qui est simple passe, ce qui est compliqué fatigue.",
+"variantes": [
+{
+"q": "Pendant un appel de vente, tu veux toucher l'émotion du prospect. Selon Badis, quelle question poses-tu ?",
+"qcm": {
+"choix": [
+"« Avez-vous mesuré l'impact global de X sur votre vie ? »",
+"« Comment tu te sens aujourd'hui vis-à-vis de X ? »",
+"« Quels obstacles complexes vous séparent de X ? »",
+"« Avez-vous imaginé une transformation profonde ? »"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 « Comment tu te sens aujourd'hui vis-à-vis de X ? » C'est tout.",
+"pourquoi": "Badis : « comment tu te sens aujourd'hui vis-à-vis de X ? C'est tout. » La question complexe (« l'impact émotionnel… une transformation profonde ») demande un effort pour être comprise."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S013] [R052] ; [S014] [R056] [R057]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 967
+},
+{
+"id": "copy-fp-021",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 3,
+"type": "piège",
+"q": "Ta pub qui marchait faiblit. Tu la montres encore plus souvent pour qu'elle « rentre dans la tête ». Selon Badis, que se passe-t-il ?",
+"qcm": {
+"choix": [
+"Le prospect la retient et finit par acheter",
+"Le néocortex la comprend mieux et décide",
+"Le reptilien s'y habitue et l'ignore plus",
+"Le limbique s'attache peu à peu à la marque"
+],
+"bonne": 2
+},
+"r": {
+"verdict": "💡 Le reptilien s'y habitue encore plus, et l'ignore.",
+"pourquoi": "Badis : si un déclencheur est répété énormément de fois, le reptilien « va s'y habituer ». Au début il le trouve intrigant, puis « à force de répétition » il s'adapte.",
+"action": "Quand une pub s'use, ne la montre pas plus : change sa forme en gardant la même vérité."
+},
+"explication": "Le piège : croire que répéter fait vendre. Pour Badis, c'est l'inverse : la répétition endort le reptilien. C'est le même mécanisme que l'effet « oh encore un » : déjà vu, donc ignoré.",
+"variantes": [
+{
+"q": "Selon Badis, un homme de la préhistoire voit une voiture pour la première fois. Que fait-il ?",
+"qcm": {
+"choix": [
+"Il continue sa route sans la voir",
+"Il a peur et il y prête attention",
+"Il s'approche pour la toucher",
+"Il fait demi-tour sans un regard"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Il a peur, et il y prête attention.",
+"pourquoi": "Badis : « il va avoir peur. C'est normal, il a jamais vu ça ». Une semaine en ville plus tard, il ne regarde plus les voitures."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S023] [R093] ; [S007] ; [S024]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 968
+},
+{
+"id": "copy-fp-022",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Selon Badis, pourquoi un bon marketing s'adresse-t-il aux émotions ?",
+"qcm": {
+"choix": [
+"Les émotions se partagent plus vite en ligne",
+"L'humain est programmé pour survivre et se reproduire",
+"Le néocortex décide de l'achat au bout du compte",
+"Les émotions font baisser le prix des clics"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Parce que l'humain est programmé pour survivre et se reproduire.",
+"pourquoi": "Badis : « un bon marketing, il va s'adresser aux émotions, il va s'adresser au principe fondamental du fait que l'humain, il est programmé pour survivre et se reproduire ».",
+"action": "Pour chaque pub, demande-toi : quelle douleur elle aide à éviter, quel plaisir elle aide à trouver."
+},
+"explication": "Au bout de la chaîne des « pourquoi », Badis retrouve toujours la même racine : éviter la douleur, chercher le plaisir, donc survivre et se reproduire. C'est la psychologie évolutionniste (comment l'évolution a façonné nos réactions).",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi l'humain est-il réceptif aux histoires (storytelling) ?",
+"qcm": {
+"choix": [
+"Les histoires se retiennent mieux que les chiffres",
+"On se racontait autour du feu les dangers évités",
+"Les enfants apprennent tous à lire avec des contes",
+"Les histoires font rire et détendent le cerveau"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 À la préhistoire, on se racontait autour du feu comment on avait évité le danger.",
+"pourquoi": "Badis : ils « se réunissaient autour du feu » et racontaient « comment ils avaient esquivé le lion à travers une histoire ». L'histoire aidait à survivre."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S029] [R114] ; [S009] [R009] ; [S021]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 969
+},
+{
+"id": "copy-fp-023",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les 3 cerveaux",
+"niveau": 3,
+"type": "scénario",
+"q": "Une pub passe dans ton fil. En une seconde, tu as déjà scrollé. Selon Badis, quel cerveau a décidé, et sur quel critère ?",
+"qcm": {
+"choix": [
+"Le néocortex, sur le prix de l'offre",
+"Le reptilien, sur la pertinence du message",
+"Le limbique, sur la beauté de l'image",
+"Le néocortex, sur la clarté du texte"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Le reptilien, sur la pertinence du message.",
+"pourquoi": "Badis : bien avant que l'information arrive au néocortex, « ce qui fait que votre prospect va scroller ou pas, c'est la pertinence justement du message ».",
+"action": "Juge ta pub sur une question : pour ta cliente, est-ce pertinent et nouveau dès la première seconde ?"
+},
+"explication": "Le prix, les arguments, la clarté : tout ça, c'est le néocortex, et il arrive trop tard. La décision de rester ou de partir est déjà prise. Pour Badis, c'est une vérité qui ne changera pas : on peut s'en servir pour créer des déclencheurs pertinents.",
+"variantes": [
+{
+"q": "Selon Badis, avant même que ton prospect réfléchisse à ton offre, qu'est-ce qui décide s'il scrolle ou pas ?",
+"qcm": {
+"choix": [
+"Le prix affiché dans la pub",
+"La pertinence du message",
+"La qualité de l'image",
+"La longueur du texte"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 La pertinence du message pour lui.",
+"pourquoi": "C'est le reptilien qui tranche, en une fraction de seconde, sur la pertinence du message."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S022]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 970
+},
+{
+"id": "copy-fp-024",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, qu'est-ce qu'un principe premier (first principle) ?",
+"choix": [
+"Une technique qui marche bien en ce moment",
+"Une vérité de base qui ne peut pas changer",
+"Une règle que chaque marché invente",
+"Une habitude commune aux meilleurs"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Une vérité fondamentale : elle ne change pas et ne peut pas être contredite.",
+"pourquoi": "Badis : « un principe premier, c'est une vérité fondamentale. Donc quelque chose qui est immuable, quelque chose qui ne peut pas changer ».",
+"action": "Devant une « règle » de pub, demande-toi : était-elle vraie il y a 100 ans, le sera-t-elle dans 100 ans ?"
+},
+"explication": "Pour Badis, c'est une partie d'idée qu'on ne peut plus découper, et qu'on sait vraie. Elle était vraie hier et le restera. Un déclencheur, lui, marche un temps puis s'use.",
+"variantes": [
+{
+"q": "Badis donne un exemple de vérité fondamentale tiré de la vie courante. Lequel ?",
+"choix": [
+"Un client content revient toujours",
+"Un portable lancé en l'air retombe",
+"Une pub vue 3 fois est retenue",
+"Un prix rond se vend toujours mieux"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Un portable lancé en l'air retombe (et risque de se casser).",
+"pourquoi": "Badis : « je jette mon portable en l'air, je sais qu'il va retomber ». C'est vrai à chaque fois, sans exception."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S002] [R029] [R030] [R031]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 971
+},
+{
+"id": "copy-fp-025",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, dans l'image d'une maison qu'on construit, à quoi correspondent les principes premiers ?",
+"choix": [
+"Aux matériaux de qualité",
+"Au toit qui protège tout",
+"Aux fondations et au sol",
+"Aux murs vus de dehors"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Aux fondations, et même à la qualité du sol dessous.",
+"pourquoi": "Badis : « Les principes premiers, ce sont les fondations ». Et il va plus loin : ce qui tient les fondations, « c'est la qualité du sol ».",
+"action": "Avant de soigner les « matériaux » (montage, hook), vérifie le sol : la vérité sur laquelle ta pub repose."
+},
+"explication": "Mauvaises fondations + bons matériaux = pas de maison. Pour Badis, c'est pareil en business : de bons scripts posés sur rien ne tiennent pas.",
+"variantes": [
+{
+"q": "Selon Badis, une bonne graine plantée dans un mauvais sol, que donne-t-elle ?",
+"choix": [
+"Un arbre plus petit",
+"Un arbre plus lent",
+"Pas d'arbre du tout",
+"Un arbre fragile"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Pas d'arbre du tout.",
+"pourquoi": "Badis : avec un mauvais sol, « il y a pas d'arbre qui pousse », même avec la même graine. Le sol, c'est le principe premier."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S003] [R001] [R002] [R032] [R033]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 972
+},
+{
+"id": "copy-fp-026",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, lequel de ces éléments est un fondamental, et pas un déclencheur ?",
+"choix": [
+"Une miniature YouTube qui fait cliquer",
+"Un message de relance sur Instagram",
+"Le titre d'une page où l'on laisse son email",
+"La preuve sociale (ce que font les autres)"
+],
+"bonne": 3,
+"r": {
+"verdict": "💡 La preuve sociale.",
+"pourquoi": "Badis : la preuve sociale « c'est une vérité fondamentale. Ça bouge pas ». La miniature, la relance et le titre sont des déclencheurs : des outils posés dessus.",
+"action": "Pour chaque outil de ta pub, écris à côté la vérité qu'il utilise (preuve sociale, rareté, émotion…)."
+},
+"explication": "Truc pour les distinguer : un déclencheur est un objet précis (un titre, un message, une image). Un fondamental est une vérité sur l'humain qui marche partout. Le même fondamental peut porter des centaines de déclencheurs.",
+"variantes": [
+{
+"q": "Selon Badis, lequel de ces éléments est un déclencheur, et pas un fondamental ?",
+"choix": [
+"L'appel à l'action à la fin d'une vidéo",
+"Le besoin humain de simplicité",
+"La peur de rater une place (rareté)",
+"La confiance née des avis (preuve sociale)"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'appel à l'action (la phrase qui dit quoi faire) à la fin d'une vidéo.",
+"pourquoi": "Badis : pour qu'il soit efficace, « vous mettez un peu de rareté, vous mettez un peu d'urgence, vous mettez un bénéfice. C'est ça les principes fondamentaux ». L'appel à l'action est l'outil ; la rareté ou la simplicité sont des vérités."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S011] [R041] [R042] ; [S016] ; [S013] ; [S015] [R061]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 973
+},
+{
+"id": "copy-fp-027",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, combien existe-t-il de vérités fondamentales derrière tous les déclencheurs ?",
+"choix": [
+"Une infinité",
+"Un nombre limité",
+"Une seule par marché",
+"Une de plus chaque année"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Un nombre limité : « il y a pas une infinité de vérité fondamentales ».",
+"pourquoi": "Badis : tous les déclencheurs sont différents, mais ils reposent sur quelques vérités. C'est pour ça que penser en principe premier est si puissant.",
+"action": "Fais ta liste courte : les quelques vérités que tu retrouves dans toutes les pubs qui marchent."
+},
+"explication": "Des centaines de hooks, de titres, de messages… mais toujours les mêmes quelques vérités dessous : storytelling, rareté, preuve sociale, autorité, émotion. Qui connaît ces vérités peut fabriquer tous les déclencheurs.",
+"variantes": [
+{
+"q": "Selon Badis, le storytelling, la rareté, la preuve sociale, l'autorité et l'émotion, ce sont quoi ?",
+"choix": [
+"Des déclencheurs à la mode",
+"Des vérités de la psychologie",
+"Des formats de pub vidéo",
+"Des étapes du tunnel de vente"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Des principes fondamentaux de la psychologie humaine.",
+"pourquoi": "Badis : chaque micro-étape est un déclencheur « créés à partir de plusieurs principes fondamentaux de la psychologie humaine », dont ceux-là."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S015] [R064] ; [S016] [R065]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 974
+},
+{
+"id": "copy-fp-028",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 2,
+"type": "scénario",
+"q": "Sur ton profil Instagram, tu écris « plus de 1000 personnes accompagnées ». Selon Badis, quel fondamental utilises-tu ?",
+"qcm": {
+"choix": [
+"La rareté des places",
+"L'urgence d'agir vite",
+"La preuve sociale",
+"La simplicité du texte"
+],
+"bonne": 2
+},
+"r": {
+"verdict": "💡 La preuve sociale.",
+"pourquoi": "Badis cite cet exemple mot pour mot : « plus de 1000 personnes accompagnées ». Puis : « vous avez aidé telle ou telle personne qui était dans la même cas que lui. Ça c'est de la preuve sociale ».",
+"action": "Repère sur ta page chaque phrase qui dit « d'autres l'ont fait avant toi » : c'est ta preuve sociale."
+},
+"explication": "La phrase sur le profil est le déclencheur. La vérité dessous : les humains suivent ce que font les autres. Le même fondamental peut aller dans un message, un appel ou une pub.",
+"variantes": [
+{
+"q": "Ton lien de réservation dit : « voir s'il reste des créneaux ». Selon Badis, quel fondamental utilise-t-il ?",
+"qcm": {
+"choix": [
+"La preuve sociale",
+"La rareté",
+"L'autorité",
+"La simplicité"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 La rareté.",
+"pourquoi": "Badis : la description comporte de la rareté, « par exemple voir s'il reste des créneaux », car la rareté fait partie des vérités qui font passer les humains à l'action."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S016] [R066] ; [S015]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 975
+},
+{
+"id": "copy-fp-029",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 2,
+"type": "si-alors",
+"q": "Badis part d'une vérité : l'humain est réceptif aux histoires. Tu veux attirer des clients avec du contenu. Que fais-tu ?",
+"qcm": {
+"choix": [
+"Tu copies le reel d'un concurrent qui raconte",
+"Tu crées des reels qui racontent une histoire",
+"Tu expliques pourquoi les histoires marchent",
+"Tu écris un long texte sur ton parcours"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Tu crées tes propres reels qui racontent une histoire.",
+"pourquoi": "Badis : « à partir de ce principe fondamental là, du fait que on sait que le storytelling est puissant, on peut créer des réels qui fonctionnent ».",
+"action": "Pars de la vérité (les gens écoutent les histoires), puis invente ta forme à toi."
+},
+"explication": "Voilà comment un fondamental produit un déclencheur : besoin (attirer des clients) → il faut capter l'attention → vérité (l'humain écoute les histoires) → déclencheur (un reel qui raconte). Copier le reel d'un autre saute la vérité.",
+"variantes": [
+{
+"q": "Selon Badis, avant de lancer son jeu concours « gagne une voiture », quelle question Yomi Denzel s'est-il posée ?",
+"qcm": {
+"choix": [
+"Quel cadeau coûte le moins cher à offrir ?",
+"Qu'est-ce qui n'a jamais été vu en France ?",
+"Quel concours marche déjà aux États-Unis ?",
+"Quelle marque peut payer le cadeau ?"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 « Qu'est-ce qui n'a jamais été vu encore en France ? »",
+"pourquoi": "Badis : il a pensé en principe fondamental (faire parler de lui avec quelque chose « du jamais vu »). Faire gagner une voiture est sorti de là."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S009] [R008] ; [S025]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 976
+},
+{
+"id": "copy-fp-030",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Ta vidéo finit par un appel à l'action (la phrase qui dit quoi faire), mais personne ne le suit. Selon Badis, que mets-tu dedans ?",
+"qcm": {
+"choix": [
+"Ton histoire, ton prix et ta garantie",
+"Un peu de rareté, d'urgence, un bénéfice",
+"Tes diplômes, tes chiffres, tes avis",
+"Une blague, une question, un défi"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Un peu de rareté, un peu d'urgence, un bénéfice.",
+"pourquoi": "Badis : « pour que le call to action soit efficace dans la vidéo, bah vous mettez un peu de rareté, vous mettez un peu d'urgence, vous mettez un bénéfice. C'est ça les principes fondamentaux ».",
+"action": "Relis ton appel à l'action : coche rareté, urgence, bénéfice. Il manque une case ? Ajoute-la."
+},
+"explication": "L'appel à l'action est un déclencheur. Il marche quand il repose sur des vérités : on agit quand c'est rare, quand c'est pressé, quand on y gagne. Et d'abord, quand on nous dit quoi faire.",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi faut-il dire clairement aux gens quoi faire (cliquer, écrire, réserver) ?",
+"qcm": {
+"choix": [
+"Ça montre que tu es une autorité",
+"Si on ne leur dit pas, ils ne le font pas",
+"Ça fait monter leur confiance en toi",
+"Ça évite les questions en message privé"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Si on ne leur dit pas quoi faire, ils ne le font pas.",
+"pourquoi": "Badis le classe comme une vérité fondamentale : « si on dit pas aux gens quoi faire, ils ne le font pas »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S015] [R061] [R063]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 977
+},
+{
+"id": "copy-fp-031",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 3,
+"type": "piège",
+"q": "L'objet d'email « Question rapide » a très bien marché, puis tout le monde l'a utilisé. Selon Badis, qu'est-ce qui reste vrai ?",
+"qcm": {
+"choix": [
+"L'objet lui-même, qui a fait ses preuves",
+"La simplicité, la vérité qui l'a fait naître",
+"Rien : le principe s'est usé avec lui",
+"La rareté, car cet objet était rare"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 La simplicité : la vérité qui a fait naître cet objet.",
+"pourquoi": "Badis : l'objet marchait à une époque où « le marché n'était pas saturé ». C'est un déclencheur, il s'use. Le principe fondamental derrière, la simplicité, lui ne bouge pas.",
+"action": "Quand un objet, un hook ou un titre s'use, garde sa vérité et fabrique une nouvelle forme."
+},
+"explication": "Le piège : jeter le principe avec l'outil usé. Le déclencheur meurt, la vérité reste. Tu peux créer un nouvel objet tout aussi simple, que le marché n'a pas encore vu.",
+"variantes": [
+{
+"q": "Selon Badis, un déclencheur qui ne marche pas repose sur quoi ?",
+"qcm": {
+"choix": [
+"Sur un fondamental trop ancien",
+"Sur un mauvais fondamental, ou aucun",
+"Sur un fondamental trop connu",
+"Sur trop de fondamentaux à la fois"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Sur un mauvais fondamental, voire sur aucun.",
+"pourquoi": "Badis : les déclencheurs qui marchent reposent « tous » sur de bons fondamentaux ; ceux qui ne marchent pas reposent sur de mauvais, « voir même aucun »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S013] [R053] ; [S012] [R050]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 978
+},
+{
+"id": "copy-fp-032",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "C'est quoi un first principle",
+"niveau": 3,
+"type": "si-alors",
+"q": "Selon Badis, si deux personnes reçoivent exactement les mêmes scripts, qu'est-ce qui fera réussir l'une et pas l'autre ?",
+"qcm": {
+"choix": [
+"Le budget pour diffuser les scripts",
+"La compréhension des principes derrière",
+"La vitesse à laquelle elle les applique",
+"Le nombre de scripts qu'elle teste"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Sa compréhension des principes qui sont derrière les scripts.",
+"pourquoi": "Badis : « les informations c'est les mêmes pour tout le monde ». Ce qui fait la différence, « c'est sa compréhension de ces scripts », et elle dépend « uniquement des principes premiers qu'il y a derrière ».",
+"action": "Pour chaque script ou modèle que tu reçois, écris pourquoi chaque phrase est là avant de t'en servir."
+},
+"explication": "Le même poisson pour tout le monde, mais pas le même résultat. Celui qui sait pourquoi tel mot est placé à tel endroit sait l'adapter. L'autre récite.",
+"variantes": [
+{
+"q": "Selon Badis, quel est le but premier de comprendre les principes premiers ?",
+"qcm": {
+"choix": [
+"Copier plus vite les bonnes méthodes",
+"Créer tes propres outils et méthodes",
+"Retenir plus de scripts par cœur",
+"Juger les formations du marché"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Créer tes propres outils et méthodes.",
+"pourquoi": "Badis : « c'est avant tout de créer vos propres outils et méthodes », pour être autonome."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S005] [R004] ; [S004] [R037]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 979
+},
+{
+"id": "copy-fp-033",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Définition et images",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, à quoi sert un principe premier dans une idée ?",
+"choix": [
+"C'est la pièce de base pour bâtir des idées",
+"C'est la conclusion qu'on tire à la fin",
+"C'est l'exemple qui rend l'idée concrète",
+"C'est la règle que l'on peut changer"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 C'est la pièce de base, qu'on ne peut plus couper, pour bâtir des idées plus complexes.",
+"pourquoi": "Badis : un principe premier, c'est un pilier qui soutient une idée, une partie qu'on ne peut pas diviser et qu'on sait vraie. On s'en sert pour construire des pensées plus complexes.",
+"action": "Pour une idée de pub, cherche la brique du dessous : la vérité sans laquelle l'idée tombe."
+},
+"explication": "Pense à un mur de Lego : le principe premier est la brique du bas. Tout le reste s'empile dessus. Si elle est fausse, tout le mur penche.",
+"variantes": [
+{
+"q": "Selon Badis, qu'est-ce qui reste vrai quelles que soient l'époque et l'état du marché ?",
+"choix": [
+"Les scripts de vente",
+"Les templates de pub",
+"Les vérités de base",
+"Les process à copier"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Les vérités de base (les principes premiers).",
+"pourquoi": "Badis : « ces vérités elles restent vraies tandis que les outils, les scripts de vente, les templates (…) peuvent perdre justement en efficacité à travers le temps »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S002] ; [S004] [R038]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 980
+},
+{
+"id": "copy-fp-034",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Donner du poisson, apprendre à pêcher",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, dans son accompagnement, que fait-il avant de donner le « poisson » (ses scripts tout prêts) ?",
+"choix": [
+"Il vend un module en plus, à part",
+"Il explique comment et pourquoi ça marche",
+"Il fait passer un test de niveau d'entrée",
+"Il demande de copier un concurrent connu"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Il explique comment et pourquoi les choses fonctionnent : il « apprend à pêcher ».",
+"pourquoi": "Badis : avant de donner le poisson, il montre comment pêcher. À chaque début de module, il explique comment et pourquoi les choses fonctionnent, pour rendre ses élèves autonomes.",
+"action": "Quand tu reçois un modèle, ne t'en sers pas avant d'avoir écrit pourquoi il marche."
+},
+"explication": "Le poisson nourrit aujourd'hui. Savoir pêcher nourrit toute la vie. Badis donne les deux, mais la pêche passe en premier.",
+"variantes": [
+{
+"q": "Selon Badis, que veut dire « apprendre à pêcher » ?",
+"choix": [
+"Recevoir des scripts tout prêts",
+"Comprendre les principes de base",
+"Copier ce qui marche ailleurs",
+"Tester beaucoup de pubs à la fois"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Comprendre les principes de base, pour créer ses propres outils.",
+"pourquoi": "Badis : « vous apprendre à pêcher, c'est un principe fondamental »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S036] ; [S005] [R039]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 981
+},
+{
+"id": "copy-fp-035",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Donner du poisson, apprendre à pêcher",
+"niveau": 2,
+"type": "scénario",
+"q": "On te donne un script de vente tout prêt, qui a fait ses preuves. Selon Badis, quelle est la meilleure façon de t'en servir ?",
+"qcm": {
+"choix": [
+"Le recopier mot pour mot, sans y toucher",
+"Le copier en comprenant pourquoi il marche",
+"Le jeter et écrire le tien à partir de zéro",
+"Le tester d'abord sur un ami proche"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Le copier en l'améliorant, et surtout en comprenant pourquoi il marche.",
+"pourquoi": "Badis : copier, c'est bien, ça fait gagner du temps. Mais copier en améliorant et surtout en comprenant pourquoi ça marche, « c'est encore mieux et c'est la clé ».",
+"action": "Pour chaque phrase du script, écris en marge : pourquoi elle est là, à ce moment-là."
+},
+"explication": "Badis veut qu'on sache « pourquoi tel mot est placé à tel endroit dans le script de vente ». Celui qui comprend peut adapter le script à sa niche, à sa façon de parler. Celui qui récite reste bloqué quand le script s'use.",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi les outils que tu crées toi-même seront sûrement plus efficaces que ceux qu'on te donne ?",
+"qcm": {
+"choix": [
+"Ils sont plus longs et plus détaillés",
+"Ils sont adaptés à toi et suivent le marché",
+"Ils sont testés sur bien plus de clients",
+"Ils coûtent moins cher à fabriquer"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Ils sont adaptés à toi, et ils évoluent avec le marché.",
+"pourquoi": "Badis : vos propres outils et méthodes « seront sûrement plus efficaces car ils seront adaptés à vous, car ils seront sûrement évolutifs par rapport au marché »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S036] ; [S004] ; [S005] [R004]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 982
+},
+{
+"id": "copy-fp-036",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Créer ses propres déclencheurs",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, quand il prépare une pub, quelles questions se pose-t-il à chaque fois ?",
+"choix": [
+"Combien dépenser, et sur quelle cible viser ?",
+"Comment innover, et quelle vérité fera cliquer ?",
+"Qui copier, et quel format faut-il reprendre ?",
+"Quel prix, et quelle promo faut-il afficher ?"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Comment innover ? Et quelle vérité fondamentale fera cliquer ?",
+"pourquoi": "Badis : dans ses pubs, il pense « systématiquement à comment je peux innover », et à la vérité qui fait cliquer : « c'est l'urgence, c'est la rareté, c'est la preuve sociale, c'est les résultats clients ».",
+"action": "Avant ta prochaine pub, écris ces deux réponses en haut de la page."
+},
+"explication": "Deux questions, deux rôles. La nouveauté fait passer le premier filtre. La vérité (preuve sociale, rareté…) fait agir. Sans l'une, la pub est ignorée ; sans l'autre, elle est vue mais rien ne se passe (déduction).",
+"variantes": [
+{
+"q": "Selon Badis, une fois que tu as compris comment penser en principe premier, que se passe-t-il ?",
+"choix": [
+"Tu peux arrêter de lire des livres",
+"Tu ne peux plus revenir en arrière",
+"Tu n'as plus besoin de tester",
+"Tu peux copier sans aucun risque"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Il n'y a plus de retour en arrière : tu veux tout voir en principe premier.",
+"pourquoi": "Badis : « Une fois que vous comprenez comment (…) penser en principe premier, en fait, il y a pas de retour en arrière »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S008] [R047] ; [S010]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 983
+},
+{
+"id": "copy-fp-037",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Simple comme pour un enfant de 8 ans",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, par qui ton message doit-il pouvoir être compris ?",
+"choix": [
+"Par un expert de ton marché",
+"Par un enfant de 8 ans",
+"Par un client déjà convaincu",
+"Par un adulte bien attentif"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Par un enfant de 8 ans.",
+"pourquoi": "Badis : « Ce qu'on veut, c'est être compris par un enfant de 8 ans. »",
+"action": "Lis ta pub à voix haute : si un enfant bloque sur un mot, remplace-le."
+},
+"explication": "La simplicité est un fondamental pour Badis : le cerveau dépense moins d'énergie, le message passe. Il ajoute que les meilleurs auteurs font exprès d'écrire avec des mots simples.",
+"variantes": [
+{
+"q": "Selon Badis, quelle grosse erreur font ceux qui veulent paraître intelligents ?",
+"choix": [
+"Parler trop vite et beaucoup trop fort",
+"Utiliser des mots et phrases complexes",
+"Donner trop de chiffres d'un seul coup",
+"Raconter trop d'histoires personnelles"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Utiliser des mots compliqués et des phrases compliquées.",
+"pourquoi": "Badis : c'est « une grosse erreur » de penser être intelligent en utilisant des mots complexes."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S014] [R057] ; [S038]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 984
+},
+{
+"id": "copy-fp-038",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "De l'inconnu au client",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, comment un inconnu qui te découvre sur Instagram devient-il ton client ?",
+"choix": [
+"D'un seul coup, grâce à un hook très fort",
+"Par une suite de micro-étapes, une à une",
+"Grâce au même message répété souvent",
+"Grâce à une offre envoyée dès le début"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Par une suite de micro-étapes : chacune est un déclencheur.",
+"pourquoi": "Badis : il faut décomposer en « micro micro étape chacune des actions » entre l'inconnu qui te découvre et le moment où il devient client.",
+"action": "Écris toutes les petites actions entre « elle voit ta pub » et « elle paie ». Chacune doit être travaillée."
+},
+"explication": "Être accroché, regarder, lire la description, cliquer sur le profil, écrire, répondre, réserver… Badis dit que sa liste n'est même pas complète. Chaque étape a une seule fonction : faire passer à la suivante.",
+"variantes": [
+{
+"q": "Selon Badis, combien de temps ton reel doit-il au moins garder l'attention ?",
+"choix": [
+"La première seconde",
+"Les 5 premières secondes",
+"Les 15 premières secondes",
+"Toute la vidéo, sans faute"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Au moins les 5 premières secondes.",
+"pourquoi": "Badis : le reel « doit être suffisamment pertinent pour capter son attention, du moins pendant les 5 premières secondes »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S015] [R059] [R012]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 985
+},
+{
+"id": "copy-fp-039",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "De l'inconnu au client",
+"niveau": 2,
+"type": "scénario",
+"q": "Sur Instagram, une inconnue vient de regarder ta vidéo jusqu'au bout. Selon Badis, quelle est sa prochaine micro-étape ?",
+"qcm": {
+"choix": [
+"Réserver un appel avec toi",
+"Lire la description",
+"Cliquer sur un lien d'achat",
+"Envoyer un message privé"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Lire la description.",
+"pourquoi": "Badis : une fois la vidéo vue, elle doit lire la description, parce que la vidéo lui a plu ou parce que la vidéo l'y invite (un appel à l'action).",
+"action": "À la fin de ta vidéo, dis clairement où aller ensuite."
+},
+"explication": "Dans l'exemple de Badis, l'ordre est : accrochée par le hook, elle regarde la vidéo, lit la description, clique sur le profil, clique sur contacter, envoie un message. Chaque étape prépare la suivante.",
+"variantes": [
+{
+"q": "Selon Badis, après avoir lu ta description, que fait la personne ?",
+"qcm": {
+"choix": [
+"Elle réserve un appel",
+"Elle clique sur ton profil",
+"Elle remplit ses coordonnées",
+"Elle partage ta vidéo"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Elle clique sur ton profil.",
+"pourquoi": "Badis : « elle clique sur votre profil, elle clique sur contacter, elle envoie en DM »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S015] [R062]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 986
+},
+{
+"id": "copy-fp-040",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "De l'inconnu au client",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Tu hésites entre deux hooks. Selon Badis, à quoi sais-tu qu'un hook sera performant ?",
+"qcm": {
+"choix": [
+"Il a déjà bien marché chez un concurrent",
+"Il repose sur une vérité, comme l'émotion",
+"Il dure moins de trois secondes en tout",
+"Il annonce le prix dès la première image"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Il repose sur une vérité fondamentale, par exemple les émotions.",
+"pourquoi": "Badis : un hook est performant « parce qu'il se base sur une vérité fondamentale. La vérité fondamentale du fait que les humains par exemple réagissent bien aux émotions ».",
+"action": "Pour chaque hook, nomme sa vérité : émotion, histoire, ou les deux. Pas de vérité, pas de hook."
+},
+"explication": "Le hook est un déclencheur. Ce n'est pas sa forme qui le rend bon, c'est la vérité dessous. Badis : pour un bon hook, tape dans les émotions ou fais du storytelling, « et pourquoi pas les deux ».",
+"variantes": [
+{
+"q": "Selon Badis, pour faire un bon hook, sur quoi peux-tu t'appuyer ?",
+"qcm": {
+"choix": [
+"Les émotions et le storytelling",
+"Le prix et la promo du jour même",
+"Le logo et les couleurs de marque",
+"La durée et le format de la vidéo"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les émotions, le storytelling, ou les deux.",
+"pourquoi": "Badis : pour faire un bon hook, « il faut taper dans les émotions » ou « faire du storytelling »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S015] [R013]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 987
+},
+{
+"id": "copy-fp-041",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "De l'inconnu au client",
+"niveau": 2,
+"type": "si-alors",
+"q": "Sur ton profil, tu veux convaincre que tu es la bonne personne pour aider. Selon Badis, quel fondamental utilises-tu ?",
+"qcm": {
+"choix": [
+"La rareté des places",
+"L'autorité",
+"La preuve sociale",
+"L'urgence d'agir"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 L'autorité.",
+"pourquoi": "Badis : l'autorité sert « pour convaincre justement que vous étiez la bonne personne pour l'aider », qu'on te voie comme une figure d'autorité.",
+"action": "Relis ton profil ou ta page : qu'est-ce qui montre que tu sais de quoi tu parles ?"
+},
+"explication": "Badis range plusieurs vérités derrière le parcours : storytelling, rareté, preuve sociale, autorité, émotion, cohérence. Chacune a son rôle. L'autorité répond à « pourquoi toi ? ».",
+"variantes": [
+{
+"q": "Selon Badis, à quoi servent les questions de tes messages, formulaires et appels (le principe de cohérence) ?",
+"qcm": {
+"choix": [
+"À remplir le temps de l'appel de vente",
+"À faire dire ses douleurs et ses désirs",
+"À montrer que tu connais bien le sujet",
+"À trier les prospects selon leur budget"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 À faire dire au prospect ses douleurs, ses désirs, ses incertitudes.",
+"pourquoi": "Badis : « De la cohérence en forçant à vous dévoiler ses douleurs, ses désirs, ses incertitudes grâce à vos questions »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S016] [R068]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 988
+},
+{
+"id": "copy-fp-042",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "De l'inconnu au client",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Chacun de tes déclencheurs marche seul, mais l'inconnu ne va jamais jusqu'au bout. Selon Badis, que faut-il pour qu'ils marchent à la suite ?",
+"qcm": {
+"choix": [
+"Qu'ils aient tous le même ton de voix",
+"Qu'ils soient reliés par les mêmes vérités",
+"Qu'ils reprennent tous la même phrase",
+"Qu'ils soient tous publiés le même jour"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Qu'ils soient reliés entre eux par les vérités qui les portent.",
+"pourquoi": "Badis : pour qu'ils fonctionnent les uns à la suite des autres, ils doivent être « corrélés grâce aux vérités fondamentales qui les soutendent ».",
+"action": "Regarde ton parcours en entier : la promesse et la vérité de la pub se retrouvent-elles sur la page et jusqu'au paiement ?"
+},
+"explication": "Une chaîne casse à son maillon le plus faible. Badis : une suite de déclencheurs fait passer n'importe quel inconnu en client, mais seulement si elle repose sur des vérités solides.",
+"variantes": [
+{
+"q": "Selon Badis, à quelle condition une suite de déclencheurs fait-elle passer n'importe quel inconnu en client ?",
+"qcm": {
+"choix": [
+"S'ils sont tous copiés sur un leader",
+"S'ils reposent sur des vérités solides",
+"S'ils sont tous testés en même temps",
+"S'ils sont tous écrits par un expert"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 S'ils reposent sur des vérités fondamentales solides.",
+"pourquoi": "Badis : cela marche « uniquement s'il repose sur des vérités fondamentales solides »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S015] ; [S016]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 989
+},
+{
+"id": "copy-fp-043",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Chercheurs de déclencheurs ou de fondamentaux",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, que cherchent les « chercheurs de déclencheurs » ?",
+"choix": [
+"La vérité derrière chaque pub",
+"Le script ou l'astuce à la mode",
+"Les livres des pères fondateurs",
+"Les chiffres de leurs concurrents"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Le script, l'astuce ou le process à la mode, à copier-coller.",
+"pourquoi": "Badis : « ils veulent justement la copie la plus récente, le script ou le process à la mode ». La solution clé en main, le petit mot magique.",
+"action": "Quand tu cherches « le bon script », arrête-toi et cherche plutôt pourquoi un script marche."
+},
+"explication": "Badis oppose deux familles d'entrepreneurs. Les chercheurs de déclencheurs veulent des choses faciles à copier. Ça peut marcher à court terme, mais leurs outils cessent de marcher au bout d'un moment.",
+"variantes": [
+{
+"q": "Selon Badis, que cherchent les « chercheurs de fondamentaux » ?",
+"choix": [
+"Le hook qui marche bien ce mois-ci",
+"Pourquoi un déclencheur fonctionne",
+"Le tunnel du concurrent le plus gros",
+"Le template le plus téléchargé"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Pourquoi et comment un déclencheur fonctionne.",
+"pourquoi": "Badis : ils veulent « découvrir pourquoi pourquoi ça marche, qu'est-ce qui fait qu'un déclencheur fonctionne »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S018] [R072] ; [S027] [R074]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 990
+},
+{
+"id": "copy-fp-044",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Chercheurs de déclencheurs ou de fondamentaux",
+"niveau": 2,
+"type": "si-alors",
+"q": "Tu décides de devenir chercheur de fondamentaux. Selon Badis, quel prix paies-tu au début ?",
+"qcm": {
+"choix": [
+"Tu perds tes clients actuels",
+"C'est long, pénible, il faut lire",
+"Tu dois payer des formations chères",
+"Tu dois arrêter de faire de la pub"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 C'est long, c'est pénible, ça demande de la patience et des recherches.",
+"pourquoi": "Badis : « c'est long, c'est chiant, ça demande de la patience, ça demande de faire des recherches approfondies ». Et il faut passer par la lecture.",
+"action": "Bloque un moment fixe de lecture chaque jour : c'est le prix d'entrée."
+},
+"explication": "Le court terme coûte, le long terme paie. Badis : à long terme, les chercheurs de fondamentaux peuvent créer n'importe quel déclencheur. C'est leur avantage sur les autres.",
+"variantes": [
+{
+"q": "Selon Badis, quel avantage ont, à long terme, les chercheurs de fondamentaux ?",
+"qcm": {
+"choix": [
+"Ils copient plus vite que tous les autres",
+"Ils peuvent créer n'importe quel déclencheur",
+"Ils paient leurs pubs bien moins cher",
+"Ils n'ont plus besoin de rien tester"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Ils peuvent créer n'importe quel déclencheur.",
+"pourquoi": "Badis : « à long terme les chercheurs de fondamentaux, ils sont en mesure de créer n'importe quel déclencheur et c'est ça l'avantage compétitif »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S027] [R075] [R076]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 991
+},
+{
+"id": "copy-fp-045",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Chercheurs de déclencheurs ou de fondamentaux",
+"niveau": 3,
+"type": "piège",
+"q": "On te vend « le script magique qui t'apporte 20 clients en 3 mois ». Selon Badis, que vaut-il ?",
+"qcm": {
+"choix": [
+"Il marche tant qu'il est assez récent",
+"Il marche si tu le suis à la lettre près",
+"Il peut marcher un temps, puis il s'use",
+"Il marche, mais seulement dans ta niche"
+],
+"bonne": 2
+},
+"r": {
+"verdict": "💡 Le script magique n'existe pas : au mieux il marche un temps, puis il s'use.",
+"pourquoi": "Badis : penser que le script magique existe, « c'est du bullshit, vous allez droit dans le mur ». Il admet qu'à court terme ça peut marcher, mais les déclencheurs ne fonctionnent plus au bout d'une certaine période.",
+"action": "Devant toute promesse de « mot magique », demande : sur quelle vérité repose-t-il, et combien de gens l'utilisent déjà ?"
+},
+"explication": "Le piège : croire que le résultat vient des mots. Pour Badis, il vient de la vérité dessous. Et plus le script circule, plus le marché le voit, plus il s'use.",
+"variantes": [
+{
+"q": "Selon Badis, en vente, qu'est-ce qu'une vérité fondamentale ?",
+"qcm": {
+"choix": [
+"Le meilleur script testé du marché",
+"Comprendre pourquoi les gens réagissent",
+"La phrase qui fait le plus vendre",
+"La règle donnée par un expert reconnu"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Comprendre la psychologie humaine : pourquoi les gens réagissent de telle manière à tel déclencheur.",
+"pourquoi": "Badis : « Une vérité fondamentale, c'est comprendre la psychologie humaine »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S018] [R073]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 992
+},
+{
+"id": "copy-fp-046",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Un marché qui a tout vu",
+"niveau": 2,
+"type": "scénario",
+"q": "Tout ton marché envoie la même phrase d'approche en message privé. Selon Badis, que devient cette phrase ?",
+"qcm": {
+"choix": [
+"Elle marche de mieux en mieux",
+"Elle marche de moins en moins",
+"Elle devient une norme rassurante",
+"Elle passe mieux auprès des pros"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Elle marche de moins en moins.",
+"pourquoi": "Badis : « plus une phrase de setting est répétée en message privé, et ben moins le message a de sens de fonctionner auprès de vos prospects ». Le setting, c'est la prise de contact par message.",
+"action": "Si ta phrase d'approche ressemble à celle de tout le monde, réécris-la à partir d'une vérité, pas d'un modèle."
+},
+"explication": "Ce n'est pas que la pub : un titre, un message privé, une phrase d'appel s'usent pareil. Plus le marché les voit, moins il y réagit.",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi les gens font-ils de moins en moins confiance aux messages qu'ils reçoivent ?",
+"qcm": {
+"choix": [
+"Ils ont moins d'argent qu'avant la crise",
+"Ils ont déjà presque tout vu et entendu",
+"Ils passent moins de temps sur leur écran",
+"Ils lisent beaucoup plus d'avis négatifs"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Parce qu'ils ont déjà quasiment tout vu et tout entendu.",
+"pourquoi": "Badis : le marché est de plus en plus sophistiqué (il a vu beaucoup de promesses), « parce qu'ils ont déjà quasiment tout vu et tout entendu »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S020] [R016] [R085]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 993
+},
+{
+"id": "copy-fp-047",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Un marché qui a tout vu",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Selon Badis, pourquoi garder un œil sur les tunnels (parcours de vente) des gros acteurs américains ?",
+"qcm": {
+"choix": [
+"Leurs pubs coûtent moins cher",
+"Leur marché, surexposé, a de l'avance",
+"Leurs clients ont plus d'argent",
+"Leurs lois sur la pub sont plus souples"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Leur marché est surexposé aux déclencheurs : ils ont de l'avance pour en créer de nouveaux.",
+"pourquoi": "Badis : « Ils ont énormément d'avance parce que justement le marché, il est surexposé à des déclencheurs ». Ils doivent sans cesse s'adapter.",
+"action": "Regarde ce qui marche dans un marché plus saturé que le tien : c'est un aperçu de ce qui t'attend."
+},
+"explication": "Un marché qui a tout vu oblige à innover. Badis regarde ce qui marche « à l'instant T », comprend pourquoi, et l'applique chez lui si c'est pertinent, en gardant les mêmes vérités.",
+"variantes": [
+{
+"q": "Selon Badis, à quoi lui sert de surveiller sans cesse ce qui marche sur le marché ?",
+"qcm": {
+"choix": [
+"À copier les pubs des autres plus vite",
+"À reconnaître les schémas du moment",
+"À baisser ses propres prix à temps",
+"À trouver de nouveaux partenaires"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 À s'entraîner à reconnaître les schémas et les déclencheurs efficaces du moment.",
+"pourquoi": "Badis : tout ça a un seul but, s'entraîner à reconnaître les schémas et les déclencheurs efficaces à l'instant T, pour améliorer ce qui peut l'être chez lui."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S033] [R108]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 994
+},
+{
+"id": "copy-fp-048",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Un marché qui a tout vu",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Après le jeu concours « gagne une Mercedes » de Yomi Denzel, d'autres ont offert des cadeaux plus gros. Selon Badis, pourquoi ont-ils eu moins de résultats ?",
+"qcm": {
+"choix": [
+"Leurs cadeaux n'étaient pas assez beaux",
+"Il était le premier, eux arrivaient après",
+"Leurs comptes avaient moins d'abonnés",
+"Instagram avait changé ses règles"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Il était le premier : eux arrivaient sur un marché qui avait déjà vu ça.",
+"pourquoi": "Badis : les gens se sont dit « tu es le deuxième à faire ça », et ce, peu importe la taille des cadeaux. Ce qui avait de la valeur, c'est qu'il a été le premier.",
+"action": "Avant de reprendre une idée qui cartonne, demande-toi : mon marché l'a-t-il déjà vue ?"
+},
+"explication": "La nouveauté ne se rachète pas avec un plus gros cadeau. Une fois le marché « lavé » par un déclencheur, le refaire en plus grand ne réveille plus personne.",
+"variantes": [
+{
+"q": "Selon Badis, les vidéos « la méthode exacte pour faire 20 000 € par mois en 30 jours », c'est quoi ?",
+"qcm": {
+"choix": [
+"Des principes à appliquer tels quels",
+"Des déclencheurs qui ne tiennent pas",
+"Des études de cas sûres et chiffrées",
+"Des preuves sociales à suivre de près"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Des méthodes, des techniques, des astuces : des déclencheurs qui ne marchent pas à long terme.",
+"pourquoi": "Badis : « tout ça ce sont des méthodes, ce sont des techniques, ce sont des astuces, c'est des déclencheurs ». Il n'y a « pas de secret magique »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S025] [R098] [R099]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 995
+},
+{
+"id": "copy-fp-049",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Analyser sans copier",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, pourquoi clique-t-il sur toutes les pubs qu'il voit, même celles pour dresser un chien ?",
+"choix": [
+"Pour gonfler ses propres statistiques",
+"Pour étudier des tunnels qui sont rentables",
+"Pour copier leurs visuels ensuite",
+"Pour signaler les pubs mensongères"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Parce que si quelqu'un paie de la pub, son tunnel est sans doute rentable.",
+"pourquoi": "Badis : « je pars du principe que si quelqu'un dépense de l'argent en pub, c'est que son tunnel est rentable ». Il veut voir ce qui marche, et pourquoi.",
+"action": "Quand une pub te suit depuis des semaines, clique et note ce que tu vois : titre, page, offre, vérité dessous."
+},
+"explication": "Badis range ces tunnels dans un dossier qu'il appelle Funnel Ads. Le but n'est pas de copier : c'est d'avoir une vue d'ensemble de ce qui se fait, et de ce qui peut être amélioré.",
+"variantes": [
+{
+"q": "Selon Badis, à quoi sert son dossier de tunnels concurrents (Funnel Ads) ?",
+"choix": [
+"À stocker des pubs à copier plus tard",
+"À voir ce qui se fait et ce qui s'améliore",
+"À suivre les prix de ses concurrents",
+"À noter les erreurs faites par les autres"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 À avoir une vision globale de ce qui se fait et de ce qui peut être amélioré.",
+"pourquoi": "Badis : « ça me permet d'avoir une vision globale de ce qui se fait et de ce qui peut être amélioré »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S030] [R103] [R104]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 996
+},
+{
+"id": "copy-fp-050",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Analyser sans copier",
+"niveau": 2,
+"type": "scénario",
+"q": "Selon Badis, presque tous les tunnels américains mettent « coach, consultant, agence » en haut de page. Pourquoi ?",
+"qcm": {
+"choix": [
+"Pour paraître plus sérieux et plus pro",
+"Pour appeler et filtrer leur marché",
+"Pour mieux sortir dans les recherches",
+"Pour justifier un prix bien plus élevé"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Pour appeler leur marché et filtrer : la bonne personne se reconnaît tout de suite.",
+"pourquoi": "Badis : ils appellent leur marché en haut de page, et lui fait pareil, « parce qu'en fait, ça permet de filtrer ». Au lieu de copier bêtement, il faut comprendre pourquoi ils le font.",
+"action": "Mets en haut de ta page les mots qui font dire à ta cliente : « c'est pour moi »."
+},
+"explication": "C'est l'exemple type de Badis : il voit un même détail partout, il ne le copie pas, il cherche la raison. Ici, la raison est de filtrer les bonnes personnes dès le titre.",
+"variantes": [
+{
+"q": "Devant un reel à plusieurs millions de vues, selon Badis, que cherches-tu d'abord à comprendre ?",
+"qcm": {
+"choix": [
+"Quelle caméra a servi",
+"Quel a été le hook",
+"Combien il a coûté",
+"Quelle heure de publication"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Quel a été le hook (puis la description, le profil, le rythme de publication).",
+"pourquoi": "Badis : « J'analyse chaque réel à plusieurs millions de vues pour comprendre quel a été le hook »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S030] ; [S032] [R106]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 997
+},
+{
+"id": "copy-fp-051",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Analyser sans copier",
+"niveau": 3,
+"type": "piège",
+"q": "Tu trouves un tunnel américain qui fait plus de 800 000 € par mois. Selon Badis, que fais-tu ?",
+"qcm": {
+"choix": [
+"Tu le traduis et tu le lances tel quel",
+"Tu comprends pourquoi il marche, puis tu adaptes",
+"Tu le copies, en changeant juste le logo et les couleurs",
+"Tu l'ignores, car son marché est trop loin du tien"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Tu comprends pourquoi il marche, et tu l'appliques chez toi seulement si c'est pertinent.",
+"pourquoi": "Badis : il ne cherche pas à copier ou à reprendre le tunnel. Il cherche à comprendre pourquoi ça marche, pour créer ses propres titres sur le marché français, car le marché US et le marché français sont très différents.",
+"action": "Pour un modèle étranger, écris : sa vérité, sa forme, et ce qui change chez ta cliente."
+},
+"explication": "Le piège : penser qu'un gros chiffre se copie. Pour Badis, copier « ça fait pas sens » quand on ne comprend pas pourquoi ça marche. Il ne réinvente pas la roue : il en fait une plus adaptée à lui.",
+"variantes": [
+{
+"q": "Selon Badis, pourquoi copier un concurrent n'a-t-il pas de sens, au-delà de la propriété intellectuelle ?",
+"qcm": {
+"choix": [
+"Ses clients finiront par voir la copie",
+"Tu ne sais pas pourquoi ça marche chez lui",
+"Son tunnel coûte bien trop cher à refaire",
+"Ta niche est trop petite pour son modèle"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Parce que tu ne comprends pas pourquoi ça fonctionne pour lui.",
+"pourquoi": "Badis : « ça fait pas sens de copier quelqu'un sachant qu'on comprend pas pourquoi ça ça fonctionne pour lui »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S031] ; [S032] [R107] ; [S033]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 998
+},
+{
+"id": "copy-fp-052",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Le produit d'abord",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, qu'est-ce que ton « assurance antipauvreté » ?",
+"choix": [
+"Une épargne qui couvre six mois de dépenses",
+"Ta capacité à apprendre les principes du business",
+"Un deuxième produit à vendre en cas de coup dur",
+"Un réseau de clients fidèles qui rachètent"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Ta capacité à apprendre et comprendre les principes premiers des disciplines du business.",
+"pourquoi": "Badis : « votre assurance antipauvreté, c'est votre capacité à apprendre et à comprendre les principes premiers des disciplines importantes lié au business ».",
+"action": "Choisis une discipline par mois (vente, marketing, comptabilité…) et cherche ses principes de base."
+},
+"explication": "Il cite la comptabilité, le marketing, la vente, les finances, l'économie, la fiscalité. Puis la psychologie et le management. Qui comprend leurs bases sait créer ses propres déclencheurs, quel que soit le marché.",
+"variantes": [
+{
+"q": "Selon Badis, quelle discipline du business est trop sous-cotée par beaucoup d'entrepreneurs ?",
+"choix": [
+"Le marketing",
+"La fiscalité",
+"La vente",
+"Le design"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 La fiscalité.",
+"pourquoi": "Badis : « Fiscalité très important. C'est trop sous côté pour beaucoup d'entrepreneur. »"
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S034] [R116] [R117]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 999
+},
+{
+"id": "copy-fp-053",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Le produit d'abord",
+"niveau": 2,
+"type": "si-alors",
+"q": "Selon Badis, qu'ont en commun Airbnb, Amazon et Apple ?",
+"qcm": {
+"choix": [
+"Elles dépensent le plus en publicité",
+"Elles se concentrent sur le produit",
+"Elles vendent moins cher que les autres",
+"Elles copient très vite les autres"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Elles se concentrent sur le produit (« product centric »).",
+"pourquoi": "Badis : grâce aux principes de l'économie, il a compris que c'était une question de produit, et que ces géantes ne se concentrent que sur le produit. Résultat : des résultats au-delà de la normale.",
+"action": "Avant de chercher une nouvelle pub, demande-toi ce qui rendrait ton produit meilleur."
+},
+"explication": "Se concentrer sur le produit crée ce que Warren Buffett appelle un moat (une douve autour d'un château) : un avantage que les concurrents ne peuvent pas franchir.",
+"variantes": [
+{
+"q": "Selon Badis, citant Warren Buffett, qu'est-ce qu'un moat (une « douve ») ?",
+"qcm": {
+"choix": [
+"Un budget pub plus gros que tous les autres",
+"Un avantage sur les concurrents par le produit",
+"Un prix plus bas que tout le reste du marché",
+"Une marque déposée dans tous les pays du monde"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Un avantage concurrentiel, grâce à la qualité du produit.",
+"pourquoi": "Badis : « c'est en fait le fait de justement avoir un avantage concurrentiel par sur la qualité de votre produit »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S034] [R082] [R026] ; [S042] [R083]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1000
+},
+{
+"id": "copy-fp-054",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Le produit d'abord",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Selon Badis, à quelle condition quelqu'un te donne-t-il son argent ?",
+"qcm": {
+"choix": [
+"S'il pense recevoir plus qu'il ne paie",
+"Si ton prix est le plus bas du marché",
+"S'il te fait confiance depuis longtemps",
+"Si ton offre expire très bientôt"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 S'il a l'impression de recevoir plus de valeur que ce qu'il va dépenser.",
+"pourquoi": "Badis : « Les gens donnent de l'argent si ils ont l'impression d'avoir plus de valeur que ce qu'ils vont dépenser. » C'est pour lui la base de tout business.",
+"action": "Mets côte à côte ton prix et ce que ta cliente reçoit vraiment : la balance doit pencher nettement de son côté."
+},
+"explication": "Ce n'est pas le prix seul qui décide, c'est l'écart entre ce qu'on paie et ce qu'on reçoit. D'où l'obsession de Badis pour le produit : un meilleur produit fait monter la valeur perçue.",
+"variantes": [
+{
+"q": "Selon Badis, comment rends-tu ton produit meilleur ?",
+"qcm": {
+"choix": [
+"Tu en baisses le prix un peu chaque mois",
+"Tu souffres pour tes clients, à leur place",
+"Tu ajoutes un bonus offert à chaque vente",
+"Tu copies le meilleur concurrent du marché"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 En souffrant pour tes clients, pour qu'ils aient moins à souffrir.",
+"pourquoi": "Badis : plus tu souffres pour tes clients, moins ils auront à souffrir, et plus ton produit sera bon."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S019] [R079] ; [S036]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1001
+},
+{
+"id": "copy-fp-055",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Apprendre les principes",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, que dois-tu connaître de chaque discipline importante du business ?",
+"choix": [
+"Tous ses détails, même techniques",
+"Seulement ses principes de base",
+"Ses outils et logiciels récents",
+"Ses chiffres clés du moment"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Seulement ses principes fondamentaux.",
+"pourquoi": "Badis : pas besoin de tout savoir de chaque discipline importante du business, « il suffit juste de connaître leurs principes fondamentaux ».",
+"action": "Pour chaque discipline, vise les 5 idées de base, pas les 500 détails."
+},
+"explication": "La réussite d'un entrepreneur, dit Badis, est dans sa compréhension des principes premiers des domaines liés à son activité. À partir de là, il crée de meilleurs déclencheurs, donc de meilleurs résultats.",
+"variantes": [
+{
+"q": "Selon Badis, pour apprendre les bases de la vente et de l'économie, que ferait-il en premier ?",
+"choix": [
+"Suivre une chaîne YouTube",
+"Acheter deux livres de base",
+"Copier un vendeur connu",
+"S'inscrire à une école"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Acheter deux livres : Tout sur l'économie, et Influence et manipulation de Cialdini.",
+"pourquoi": "Badis : pour la vente et l'économie, il achèterait ces deux livres, puis créerait ses propres déclencheurs à partir d'eux."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S028] [R118]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1002
+},
+{
+"id": "copy-fp-056",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Apprendre les principes",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Badis, pourquoi apprendre les principes dans les livres plutôt que sur YouTube ?",
+"choix": [
+"Un livre coûte moins cher qu'une formation",
+"Un livre donne accès au cerveau de l'auteur",
+"Un livre est plus à jour qu'une vidéo",
+"Un livre se lit plus vite qu'on ne pense"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Parce que le livre, c'est l'accès direct au cerveau de l'auteur.",
+"pourquoi": "Badis : « Parce que les livres, c'est l'accès direct au cerveau de l'auteur. » Une vidéo reprend souvent l'information d'un livre, avec ses propres mots : elle n'est plus pure.",
+"action": "Quand une vidéo te plaît, cherche le livre d'où elle vient, et lis-le."
+},
+"explication": "Badis compare : un légume, c'est pur ; un burger, c'est 30 ingrédients. Plus une information passe de main en main, plus elle s'éloigne de la vérité. « Lire des livres, c'est comme si vous mangez une tomate. »",
+"variantes": [
+{
+"q": "Selon Badis, plus une information est modifiée, que devient-elle ?",
+"choix": [
+"Plus simple et beaucoup plus claire",
+"Moins authentique et moins pure",
+"Plus utile pour le quotidien",
+"Plus facile à retenir par cœur"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Moins authentique et moins pure.",
+"pourquoi": "Badis : « plus une chose elle est modifiée, moins elle est authentique et pure »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S037] [R124] [R125] ; [S042]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1003
+},
+{
+"id": "copy-fp-057",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Apprendre les principes",
+"niveau": 2,
+"type": "si-alors",
+"q": "Tu veux comprendre les principes premiers d'un domaine. Selon Badis, quel est ton premier geste ?",
+"qcm": {
+"choix": [
+"Chercher son père fondateur et le lire",
+"Suivre trois formations sur le sujet",
+"Copier le leader actuel du marché",
+"Lire les avis sur les forums"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Chercher le père fondateur du domaine, puis lire tout ce qu'il a écrit.",
+"pourquoi": "Badis : pour découvrir un principe premier, il faut chercher le père fondateur de la discipline. Puis lire « tous les ouvrages qu'il a fait au possible ».",
+"action": "Pour le copywriting, commence par le pionnier, avant les formateurs d'aujourd'hui."
+},
+"explication": "Le père fondateur, c'est celui qui a mis le sujet en lumière, la personne la plus reconnue ou celle qui a le plus écrit dessus. Souvent, c'est la même.",
+"variantes": [
+{
+"q": "Tu veux apprendre les bases d'un domaine. Selon Badis, que demandes-tu d'abord à ChatGPT ?",
+"qcm": {
+"choix": [
+"De t'écrire un script de vente",
+"Qui est le père fondateur, et ses livres",
+"De résumer un livre en 3 lignes",
+"Quelles astuces marchent en ce moment"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Qui est le père fondateur du domaine, et en bonus ses ouvrages.",
+"pourquoi": "Badis : « je cherche à apprendre les principes premiers derrière x domaine et je voulais savoir qui en était le perfondateur », plus ses ouvrages en bonus."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S039] [R028] [R119] [R120]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1004
+},
+{
+"id": "copy-fp-058",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Apprendre les principes",
+"niveau": 2,
+"type": "rappel",
+"q": "Selon Badis, qui est le pionnier du copywriting, celui à lire pour en avoir les bases ?",
+"qcm": {
+"choix": [
+"Eugene Schwartz",
+"Claude Hopkins",
+"Seth Godin",
+"Robert Cialdini"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Claude Hopkins, avec La publicité scientifique (Scientific Advertising).",
+"pourquoi": "Badis : Claude Hopkins, « c'est vrai que c'est le pionnier du copywriting ». Son livre donne toutes les bases, et il coûte 8 dollars.",
+"action": "Lis Scientific Advertising avant les livres plus récents."
+},
+"explication": "Badis l'a trouvé avec sa méthode : demander à ChatGPT le père fondateur du copywriting, puis lire ses ouvrages. Le copywriting est pour lui une branche du marketing et de la psychologie humaine.",
+"variantes": [
+{
+"q": "Selon Badis, qui est le père fondateur du marketing ?",
+"qcm": {
+"choix": [
+"Seth Godin",
+"Philip Kotler",
+"Claude Hopkins",
+"Robert Cialdini"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Philip Kotler (Principles of Marketing).",
+"pourquoi": "Badis : « le père fondateur du marketing c'est Philippe Cotler » (Kotler). Il s'étonnait que Seth Godin ne soit pas cité."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S039] [R133] [R134] ; [S040]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1005
+},
+{
+"id": "copy-fp-059",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Apprendre les principes",
+"niveau": 3,
+"type": "si-alors",
+"q": "Tu veux comprendre pourquoi tes clientes réagissent comme elles le font (psychologie humaine et comportementale). Selon Badis, qui étudies-tu ?",
+"qcm": {
+"choix": [
+"Charles Darwin",
+"Robert Cialdini",
+"Adam Smith",
+"Philip Kotler"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Robert Cialdini.",
+"pourquoi": "Badis : il étudierait « Adam Smith, Robert Saldini [Cialdini] pour la psychologie humaine et comportementale et Charles Darwin pour la psychologie évolutionniste ».",
+"action": "Associe chaque question à son auteur : économie → Smith, comportement → Cialdini, évolution → Darwin."
+},
+"explication": "Le piège est Darwin : lui explique l'évolution de l'espèce (pourquoi nous sommes câblés pour survivre). Cialdini explique les biais qui font réagir au quotidien. Les deux se complètent.",
+"variantes": [
+{
+"q": "Tu veux les principes de base de l'économie. Selon Badis, qui étudies-tu ?",
+"qcm": {
+"choix": [
+"Thomas Piketty",
+"Adam Smith",
+"Warren Buffett",
+"Charles Darwin"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Adam Smith (La richesse des nations).",
+"pourquoi": "Badis : pour l'économie, il étudierait Adam Smith, « un des pères fondateurs de l'économie »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S039] [R121] ; [S042] [R139]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1006
+},
+{
+"id": "copy-fp-060",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les livres de Badis",
+"niveau": 2,
+"type": "rappel",
+"q": "Selon Badis, de quoi parle vraiment La vache pourpre de Seth Godin, son livre préféré ?",
+"qcm": {
+"choix": [
+"De la façon d'écrire un bon titre",
+"Du produit et du bouche-à-oreille",
+"Des couleurs à mettre dans une pub",
+"Des prix à fixer pour se démarquer"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Du produit et du bouche-à-oreille.",
+"pourquoi": "Badis : « C'est un livre plus sur le produit et sur le bouche à oreille », car pour lui le meilleur marketing est le bouche-à-oreille.",
+"action": "Demande-toi : qu'est-ce qui, dans ton produit, ferait parler une cliente à son amie ?"
+},
+"explication": "Beaucoup s'arrêtent au titre (une vache violette dans un champ de vaches normales), dit Badis, et ne comprennent pas le livre. Le vrai message : un produit remarquable fait parler de lui.",
+"variantes": [
+{
+"q": "Selon Badis, quelle différence entre Influence et manipulation et Pré-suasion, de Cialdini ?",
+"qcm": {
+"choix": [
+"Le premier est pour les vendeurs, l'autre pour tous",
+"Le premier protège l'acheteur, l'autre aide le vendeur",
+"Le premier parle d'argent, l'autre d'amour",
+"Le premier est récent, l'autre est ancien"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Influence aide le consommateur à se protéger ; Pré-suasion est écrit pour les vendeurs.",
+"pourquoi": "Badis : Pré-suasion, « c'est un livre adressé au vendeurs pour les vendeurs »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S040] [R129] [R130] [R131]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1007
+},
+{
+"id": "copy-fp-061",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les livres de Badis",
+"niveau": 2,
+"type": "rappel",
+"q": "Dans la méthode SPIN du livre Spin Selling, selon Badis, que veut dire le « I » (implication) ?",
+"qcm": {
+"choix": [
+"Impliquer le client dans la décision",
+"Ce que le problème entraînera s'il dure",
+"L'investissement que le client fera",
+"L'intérêt du client pour l'offre"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Ce que son problème entraînera d'autre s'il reste pareil pendant 1, 2 ou 3 mois.",
+"pourquoi": "Badis : « son problème s'il reste le même pendant un mois, 2 mois, 3 mois, ça entraînera quoi d'autre comme problème ? » C'est l'étape qui aggrave le problème.",
+"action": "Dans ta pub ou ta page, ajoute une phrase sur ce qui arrive si rien ne change."
+},
+"explication": "SPIN, c'est 4 phases avant de présenter l'offre : Situation, Problème, Implication, Besoin (Need). Badis dit que Neil Rackham l'a tirée de l'analyse de 15 000 centres d'appel (chiffre oral, non vérifié).",
+"variantes": [
+{
+"q": "Selon Badis, quelle phrase retenir du livre The Secret of Selling Anything de Harry Brown ?",
+"qcm": {
+"choix": [
+"Vendre aux gens ce dont ils ont besoin",
+"Découvrir ce qu'ils veulent et les aider à l'avoir",
+"Toujours parler moins que le client en face",
+"Ne jamais baisser son prix, même pour conclure"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Découvrir ce que les gens veulent, et les aider à l'obtenir.",
+"pourquoi": "Badis : il ne faut pas donner aux gens ce dont ils ont besoin, mais ce qu'ils veulent."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S041] [R136] [R137] [R138]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1008
+},
+{
+"id": "copy-fp-062",
+"theme": "copy",
+"chapitre": "First Principles (Badis)",
+"competence": "Les livres de Badis",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Ton marché a vu toutes les promesses, plus rien ne le fait réagir. Selon Badis, quel livre t'aide à écrire des messages qui passent quand même ?",
+"qcm": {
+"choix": [
+"La vache pourpre, de Seth Godin",
+"Breakthrough Advertising, de Schwartz",
+"Comment se faire des amis, de Carnegie",
+"La richesse des nations, d'Adam Smith"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Breakthrough Advertising, d'Eugene Schwartz.",
+"pourquoi": "Badis : Schwartz « développe les principes premiers derrière ça qui permettent en fait de créer des messages marketing qui justement surpassent cette sophistication de marché ».",
+"action": "Avant d'écrire pour un marché saturé, situe d'abord son niveau de conscience et de sophistication."
+},
+"explication": "Badis le relie à la fatigue publicitaire : un déclencheur trop vu ne fait plus réagir. Schwartz explique les niveaux de conscience des prospects (de « inconscient » à « connaît la solution ») et comment parler à chacun.",
+"variantes": [
+{
+"q": "Selon Badis, que permet de comprendre Breakthrough Advertising de Schwartz ?",
+"qcm": {
+"choix": [
+"Comment fixer un prix juste pour son offre",
+"Les niveaux de sophistication du marché",
+"Comment monter une vidéo qui accroche",
+"Les lois qui encadrent la publicité"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Les niveaux de sophistication du marché, et les niveaux de conscience des prospects.",
+"pourquoi": "Badis : ce livre permet « de juste comprendre les niveaux de sophistication du marché »."
+}
+}
+],
+"source": "Badis – formation Learn First Principles",
+"ref": "First Principles 01 Badis déclencheurs contre fondamentaux - INDEX.md [S040] [R135]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1009
+},
+{
+"id": "copy-gc-001",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Ouvrir sur le lecteur",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans la lettre Macdonald de Gary Halbert, que contient la toute première phrase, juste après « Cher M. Macdonald » ?",
+"choix": [
+"Une question sur son nom de famille",
+"Le prix du rapport en dollars",
+"La présentation de l'auteure",
+"Une promesse de cadeau gratuit"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une question sur son propre nom : il a été enregistré avec des armoiries il y a plus de sept siècles.",
+"pourquoi": "La lettre ouvre sur « Saviez-vous que votre nom de famille a été enregistré avec des armoiries… ? ». (déduction) Le lecteur lit d'abord quelque chose sur lui, pas sur le vendeur.",
+"action": "Écris ta première phrase sur ton lecteur : une question sur lui, pas une phrase sur toi."
+},
+"explication": "Les armoiries, c'est le blason d'une famille, noté dans les vieilles archives. La lettre ne parle ni du prix ni de l'auteure en premier. (déduction) Elle part de ce qui intéresse le plus le lecteur : son nom à lui.",
+"variantes": [
+{
+"q": "La lettre Macdonald de Gary Halbert commence par une question. Sur quoi porte-t-elle ?",
+"choix": [
+"Les armoiries de son nom de famille",
+"Ses ancêtres partis vers l'Amérique",
+"Le métier de son arrière-grand-père",
+"Les cadeaux qu'il offre à ses proches"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Ses armoiries : son nom a été enregistré avec des armoiries il y a plus de sept siècles."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphe 1",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1010
+},
+{
+"id": "copy-gc-002",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Une histoire qui explique l'offre",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon la lettre Macdonald de Gary Halbert, pourquoi le couple qui écrit a-t-il des rapports en trop à envoyer ?",
+"choix": [
+"Leurs amis ont adoré, ils en ont imprimé plus",
+"L'imprimerie leur en a livré beaucoup trop",
+"Une famille Macdonald a annulé sa commande",
+"Ils lancent leur société de généalogie"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le rapport fait pour des amis du même nom a tant plu qu'ils en ont imprimé quelques exemplaires de plus.",
+"pourquoi": "La lettre : ils ont fait des recherches « pour des amis à nous qui portent le même nom de famille que vous ». Les copies en plus servent à « partager ces informations » avec d'autres gens du même nom.",
+"action": "(déduction) Raconte d'où vient ton offre avant d'en donner le prix."
+},
+"explication": "La lettre ne se présente pas comme une vente. Elle raconte : un couple, des amis du même nom, un artiste, un rapport, des copies en trop. (déduction) L'offre arrive comme un partage, pas comme une pub.",
+"variantes": [
+{
+"q": "Dans la lettre Macdonald de Gary Halbert, pour qui le couple a-t-il fait ses recherches au départ ?",
+"choix": [
+"Des amis qui portent le même nom",
+"Un client qui les a payés pour ça",
+"Un musée d'histoire de l'Écosse",
+"Leur propre famille, les Halbert"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Pour des amis à eux qui portent le même nom de famille que le lecteur."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphes 2 et 4",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1011
+},
+{
+"id": "copy-gc-003",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Décrire le produit pour qu'on le voie",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans la lettre Macdonald de Gary Halbert, que contient la moitié du bas du rapport vendu ?",
+"choix": [
+"L'histoire du nom : sens, origine, devise",
+"Les armoiries dessinées par un artiste",
+"L'arbre généalogique du lecteur",
+"Un bon pour commander d'autres copies"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'histoire du nom : ce qu'il veut dire, son origine, la devise de la famille, sa place dans l'histoire, des gens célèbres qui le portent.",
+"pourquoi": "Le haut du rapport montre les armoiries dessinées par un artiste. Le bas raconte le nom. Pas d'arbre généalogique : la lettre le dit clairement.",
+"action": "(déduction) Décris ton produit morceau par morceau, comme si le lecteur l'avait sous les yeux."
+},
+"explication": "La lettre décrit le rapport partie par partie : le haut, le bas, puis le papier « semblable au parchemin, adapté à l'encadrement ». (déduction) Le lecteur voit l'objet avant de l'avoir.",
+"variantes": [
+{
+"q": "Selon la lettre Macdonald de Gary Halbert, sur quel papier le rapport est-il imprimé ?",
+"choix": [
+"Un papier semblable au parchemin",
+"Un papier photo brillant et épais",
+"Un papier recyclé de couleur crème",
+"Un papier cartonné prêt à plier"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Un papier semblable au parchemin (vieux papier d'archives), adapté à l'encadrement."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphe 3",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1012
+},
+{
+"id": "copy-gc-004",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Donner une raison au prix",
+"niveau": 2,
+"type": "scénario",
+"q": "Dans la lettre Macdonald de Gary Halbert, quelle raison le couple donne-t-il pour le prix qu'il demande ?",
+"qcm": {
+"choix": [
+"Couvrir l'impression et l'envoi des copies",
+"Fêter l'anniversaire de leur société",
+"Écouler le stock avant la fin du mois",
+"Remercier les premiers clients fidèles"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Juste de quoi couvrir les frais d'impression et d'envoi des exemplaires en plus.",
+"pourquoi": "La lettre : « Tout ce que nous demandons est une somme suffisante pour couvrir les frais supplémentaires liés à l'impression et à l'envoi ». (déduction) Le prix paraît petit et honnête.",
+"action": "Donne toujours une raison à ton prix, en une phrase simple."
+},
+"explication": "La raison du prix tient en une ligne : couvrir les frais. (déduction, lien avec une autre source) Halbert dit la même chose dans The Boron Letters : une bonne affaire a besoin d'une raison pour être crue.",
+"variantes": [
+{
+"q": "Un lecteur trouve 2 $ bien peu pour un rapport aussi beau. Quelle phrase de la lettre Macdonald de Gary Halbert lui répond ?",
+"qcm": {
+"choix": [
+"« Une somme suffisante pour couvrir les frais »",
+"« Un prix réservé aux familles du même nom »",
+"« Une offre spéciale pour notre lancement »",
+"« Un tarif réduit pour nos lecteurs fidèles »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Une somme suffisante pour couvrir les frais » d'impression et d'envoi."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphe 6 et P.-S. ; lien : livres.json, carte livres-017 (The Boron Letters)",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1013
+},
+{
+"id": "copy-gc-005",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Une urgence qui vient de l'histoire",
+"niveau": 2,
+"type": "scénario",
+"q": "Un lecteur de la lettre Macdonald de Gary Halbert se dit : « je commanderai plus tard ». Quelle raison la lettre lui donne-t-elle de ne pas attendre ?",
+"qcm": {
+"choix": [
+"Le stock de rapports est assez limité",
+"Le prix augmente le mois prochain",
+"L'offre s'arrête dimanche soir",
+"Un cadeau va aux 100 premiers"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le stock est « assez limité » : « faites-le-nous savoir immédiatement ».",
+"pourquoi": "Le couple n'a fait imprimer que « quelques exemplaires supplémentaires ». (déduction) La rareté découle de l'histoire : elle n'est pas collée de force.",
+"action": "Si tu dis « vite », donne une raison qui sort de ton histoire."
+},
+"explication": "Pas de date limite, pas de compte à rebours. Une seule phrase : le stock est limité, parce qu'il n'y a que quelques copies en plus. (déduction) Une urgence crédible vient de la situation elle-même.",
+"variantes": [
+{
+"q": "Selon la lettre Macdonald de Gary Halbert, combien d'exemplaires en plus le couple a-t-il fait imprimer ?",
+"qcm": {
+"choix": [
+"Quelques-uns seulement",
+"Plusieurs milliers",
+"Exactement une centaine",
+"Un par famille Macdonald"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Quelques exemplaires supplémentaires » : d'où le stock « assez limité »."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphes 4 et 6",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1014
+},
+{
+"id": "copy-gc-006",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Dire franchement la limite du produit",
+"niveau": 3,
+"type": "piège",
+"q": "Que précise la lettre Macdonald de Gary Halbert pour ne pas tromper le lecteur sur le rapport ?",
+"qcm": {
+"choix": [
+"Il ne retrace l'arbre généalogique de personne",
+"Les armoiries ne sont pas garanties exactes",
+"L'envoi peut prendre plusieurs mois",
+"Le prix n'inclut pas les frais d'envoi"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le couple n'a retracé l'arbre généalogique personnel de personne : il a cherché sur les premiers Macdonald.",
+"pourquoi": "La lettre : « nous n'avons retracé l'arbre généalogique personnel de personne, mais […] nous avons effectué des recherches sur plusieurs siècles ». Les autres choix sont faux : armoiries « exactement telles qu'elles sont décrites », envoi « rapidement », prix qui couvre l'envoi.",
+"action": "(déduction) Dis clairement ce que ton produit ne fait pas, avant que le client le découvre."
+},
+"explication": "Le piège : croire que le rapport parle de SA famille. La lettre le dit noir sur blanc : c'est l'histoire du nom, pas celle de ses ancêtres. (déduction) Cette limite dite franchement rend le reste plus crédible.",
+"variantes": [
+{
+"q": "Un lecteur de la lettre Macdonald de Gary Halbert croit recevoir l'histoire de ses propres ancêtres. Que reçoit-il en vrai ?",
+"qcm": {
+"choix": [
+"L'histoire du nom et ses plus anciennes armoiries",
+"L'arbre de sa famille sur sept générations",
+"Les actes de naissance de ses grands-parents",
+"La liste des Macdonald vivant près de chez lui"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 L'histoire du nom Macdonald et ses plus anciennes armoiries connues, pas l'histoire de sa famille."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphes 3 et 5",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1015
+},
+{
+"id": "copy-gc-007",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Faire commander plusieurs exemplaires",
+"niveau": 3,
+"type": "diagnostic",
+"q": "La lettre Macdonald de Gary Halbert dit que les rapports encadrés font « d'excellents cadeaux pour les proches ». Quel point du P.-S. (la note sous la signature) va dans le même sens ?",
+"qcm": {
+"choix": [
+"Chaque rapport en plus coûte un dollar",
+"Un seul rapport coûte deux dollars",
+"Les chèques vont au nom de Nancy",
+"Le rapport se commande par téléphone"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 (déduction) Les rapports en plus à 1 $ : l'idée cadeau pousse à en commander plusieurs d'un coup.",
+"pourquoi": "P.-S. : un seul rapport, 2 $ ; les rapports en plus « commandés en même temps et envoyés à la même adresse coûtent un dollar chacun ». (déduction) Le lecteur pense à ses proches, et chaque copie en plus coûte moitié prix.",
+"action": "(déduction) Si ton produit s'offre, baisse le prix des exemplaires en plus pour faire monter la commande."
+},
+"explication": "La lettre montre deux usages (décoration murale, cadeau), puis le P.-S. donne un prix plus bas pour les copies en plus. (déduction) Les deux ensemble font passer d'un rapport à plusieurs. Exemple : 3 rapports pour la même adresse = 2 $ + 1 $ + 1 $ = 4 $.",
+"variantes": [
+{
+"q": "Selon le P.-S. (la note sous la signature) de la lettre Macdonald de Gary Halbert, combien coûtent 3 rapports commandés ensemble pour la même adresse ?",
+"qcm": {
+"choix": [
+"4 $",
+"6 $",
+"3 $",
+"5 $"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 4 $ : 2 $ pour le premier, puis 1 $ pour chacun des deux autres."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphe 5 et P.-S.",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1016
+},
+{
+"id": "copy-gc-008",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Rendre la commande simple",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon la lettre Macdonald de Gary Halbert, que doit faire le lecteur pour commander ses rapports ?",
+"choix": [
+"Vérifier son nom et son adresse, puis payer",
+"Appeler le numéro de téléphone du haut",
+"Remplir le bon de commande joint",
+"Payer par carte sur un site internet"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Vérifier que son nom et son adresse sont justes, puis envoyer l'argent, en espèces ou par chèque.",
+"pourquoi": "La lettre : « Vérifiez simplement que nous avons votre nom et votre adresse corrects et envoyez le montant correspondant ». En retour : envoi « rapidement par retour du courrier ».",
+"action": "(déduction) Ramène ta commande à deux gestes, et dis ce qui se passe juste après."
+},
+"explication": "La commande tient en une phrase : vérifier, payer, recevoir. Le mot « simplement » est dans la lettre. (déduction) Moins il y a d'étapes, moins le lecteur a de raisons de remettre à plus tard.",
+"variantes": [
+{
+"q": "Selon la lettre Macdonald de Gary Halbert, comment le lecteur peut-il payer ses rapports ?",
+"choix": [
+"En espèces ou par chèque",
+"Par carte bancaire seulement",
+"Par virement à la réception",
+"À crédit, en trois fois"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 En espèces ou par chèque, à l'ordre de Nancy L. Halbert."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphe 6 et P.-S.",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1017
+},
+{
+"id": "copy-gc-009",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Où placer le prix",
+"niveau": 2,
+"type": "scénario",
+"q": "Dans la lettre Macdonald de Gary Halbert, où le lecteur trouve-t-il le prix des rapports ?",
+"qcm": {
+"choix": [
+"Dans la note après la signature",
+"Dans la toute première phrase",
+"Juste après la description du rapport",
+"Dans un bon de commande séparé"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Dans le P.-S. : le corps de la lettre dit seulement « (Voir ci-dessous.) ».",
+"pourquoi": "Le corps parle du nom, du rapport et des frais. Le prix exact (2 $, puis 1 $ par rapport en plus) n'arrive qu'après « Cordialement » et la signature.",
+"action": "(déduction) Fais d'abord voir l'objet et sa raison d'être ; le prix vient après."
+},
+"explication": "La lettre ne cache pas le prix : elle l'annonce (« Voir ci-dessous ») et le pose à la fin. (déduction) Quand le lecteur arrive au chiffre, il sait déjà ce qu'il reçoit et pourquoi c'est si peu cher.",
+"variantes": [
+{
+"q": "Dans la lettre Macdonald de Gary Halbert, que dit le corps du texte à la place du prix ?",
+"qcm": {
+"choix": [
+"« Voir ci-dessous »",
+"« Prix sur demande »",
+"« Prix de lancement »",
+"« Tarif selon la quantité »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « (Voir ci-dessous.) » : le prix est dans le P.-S., après la signature."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphe 6 et P.-S.",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1018
+},
+{
+"id": "copy-gc-010",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Qui parle dans la lettre",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans la lettre Macdonald de Gary Halbert, qui écrit la lettre ?",
+"choix": [
+"Nancy L. Halbert, au nom du couple",
+"Gary Halbert, au nom de sa société",
+"Un artiste qui a dessiné les armoiries",
+"Un ami de la famille Macdonald"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Nancy L. Halbert : une femme qui parle de « mon mari et moi », et à qui on libelle les chèques.",
+"pourquoi": "La lettre est classée chez Gary Halbert, mais c'est Nancy L. Halbert qui écrit : « Mon mari et moi », puis « Veuillez libeller les chèques à mon nom, Nancy L. Halbert ». Elle ne nomme aucune société.",
+"action": "(déduction) Écris ta lettre comme une personne qui parle à une personne, pas comme une marque."
+},
+"explication": "Le lecteur reçoit le courrier d'un couple qui a fait des recherches pour des amis. (déduction) Une lettre de particulier se lit comme une lettre, pas comme une pub.",
+"variantes": [
+{
+"q": "Selon la lettre Macdonald de Gary Halbert, à quel nom le lecteur doit-il libeller son chèque ?",
+"choix": [
+"Nancy L. Halbert",
+"Gary Halbert",
+"Société Macdonald",
+"Archives héraldiques"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Nancy L. Halbert : « Veuillez libeller les chèques à mon nom »."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphe 2, signature et P.-S.",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1019
+},
+{
+"id": "copy-gc-011",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Montrer à quoi sert le produit",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon la lettre Macdonald de Gary Halbert, à quoi peut servir le rapport une fois encadré ?",
+"choix": [
+"Décoration murale ou cadeau pour les proches",
+"Preuve officielle pour un acte notarié",
+"Pièce de musée prêtée à une exposition",
+"Document pour retrouver ses ancêtres"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une décoration murale originale, ou un excellent cadeau pour les proches.",
+"pourquoi": "La lettre : « Encadrés, ces rapports constituent des décorations murales originales et font d'excellents cadeaux pour les proches ».",
+"action": "(déduction) Dis à ton lecteur ce qu'il fera de ton produit une fois chez lui."
+},
+"explication": "Le rapport n'est pas qu'une feuille d'histoire : la lettre lui donne une place (le mur) et une occasion (le cadeau). (déduction) Le lecteur s'imagine déjà l'accrocher ou l'offrir.",
+"variantes": [
+{
+"q": "Un lecteur de la lettre Macdonald de Gary Halbert se demande ce qu'il fera d'une simple feuille d'histoire. Que lui propose la lettre ?",
+"choix": [
+"L'encadrer pour le mur ou l'offrir",
+"La ranger dans un album de famille",
+"La lire à voix haute aux enfants",
+"La garder pour un arbre généalogique"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'encadrer : une décoration murale originale, ou un cadeau pour les proches."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphe 5",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1020
+},
+{
+"id": "copy-gc-012",
+"theme": "copy",
+"chapitre": "Grands copywriters",
+"competence": "Halbert · Prouver que c'est authentique",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Un lecteur de la lettre Macdonald de Gary Halbert doute que les armoiries soient les vraies. Quel détail de la lettre lui répond ?",
+"qcm": {
+"choix": [
+"Un artiste les a refaites d'après les vieux documents",
+"Un expert du nom les a signées à la main",
+"Un musée écossais les a certifiées conformes",
+"La famille Macdonald les a validées par écrit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un artiste a recréé les armoiries « exactement telles qu'elles sont décrites dans les anciens documents ».",
+"pourquoi": "La lettre ajoute : le rapport est « documenté, authentique », tiré de recherches « sur plusieurs siècles ».",
+"action": "(déduction) Pour chaque promesse de sérieux, dis d'où elle vient : qui a fait le travail, et à partir de quoi."
+},
+"explication": "La lettre ne dit pas juste « authentique ». Elle dit comment : les anciennes archives héraldiques (registres des blasons), un artiste, des documents anciens. (déduction) Un « comment » concret se croit plus qu'un adjectif.",
+"variantes": [
+{
+"q": "Selon la lettre Macdonald de Gary Halbert, quels deux mots décrivent le sérieux du rapport ?",
+"qcm": {
+"choix": [
+"« Documenté, authentique »",
+"« Officiel et certifié »",
+"« Signé et numéroté »",
+"« Garanti et approuvé »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Documenté, authentique », imprimé sur un papier semblable au parchemin."
+}
+}
+],
+"source": "Gary Halbert – lettre Macdonald (traduction française)",
+"ref": "Gary Halbert - Lettre Macdonald traduction française.pdf, page 1, paragraphes 1, 2, 3 et 5",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1021
 },
 {
 "id": "copy-leviers-001",
@@ -7666,7 +13357,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 114
 },
 {
 "id": "copy-leviers-002",
@@ -7702,7 +13394,8 @@ window.QR_CARTES = [
 "Meta s'appuie surtout sur le texte de ta landing page"
 ],
 "bonne": 1
-}
+},
+"num": 115
 },
 {
 "id": "copy-leviers-003",
@@ -7752,7 +13445,8 @@ window.QR_CARTES = [
 {
 "q": "Ton accroche (hook) n'a ni émotion, ni curiosité, ni enjeu. Selon Matteo, que faut-il y mettre ?"
 }
-]
+],
+"num": 116
 },
 {
 "id": "copy-leviers-004",
@@ -7803,7 +13497,8 @@ window.QR_CARTES = [
 "Mood = l'émotion dominante. Intensité = la durée de la vidéo"
 ],
 "bonne": 2
-}
+},
+"num": 117
 },
 {
 "id": "copy-leviers-005",
@@ -7854,7 +13549,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 118
 },
 {
 "id": "copy-leviers-006",
@@ -7890,7 +13586,8 @@ window.QR_CARTES = [
 "Le titre de la page après le clic"
 ],
 "bonne": 1
-}
+},
+"num": 119
 },
 {
 "id": "copy-leviers-007",
@@ -7948,7 +13645,8 @@ window.QR_CARTES = [
 "action": "Casse la généralisation (reassign) : montre pourquoi ta solution n'est pas de la même famille."
 }
 }
-]
+],
+"num": 120
 },
 {
 "id": "copy-leviers-008",
@@ -7985,7 +13683,8 @@ window.QR_CARTES = [
 "Une raison derrière une affirmation ouvre une boucle de curiosité"
 ],
 "bonne": 2
-}
+},
+"num": 121
 },
 {
 "id": "copy-leviers-009",
@@ -8035,7 +13734,8 @@ window.QR_CARTES = [
 "q": "Selon Matteo, quelle couche ratent les pubs qui disent « Tu galères avec X ? Notre produit règle ça » ?",
 "type": "rappel"
 }
-]
+],
+"num": 122
 },
 {
 "id": "copy-leviers-010",
@@ -8071,7 +13771,8 @@ window.QR_CARTES = [
 "« Un humain réel parlerait-il comme ça à un autre humain ? »"
 ],
 "bonne": 3
-}
+},
+"num": 123
 },
 {
 "id": "copy-leviers-011",
@@ -8127,7 +13828,8 @@ window.QR_CARTES = [
 "action": "Liste les erreurs qui abîment le résultat voulu par ta cible (ex. du brainstorming : soleil, cigarette, alcool pour la peau)."
 }
 }
-]
+],
+"num": 124
 },
 {
 "id": "copy-leviers-012",
@@ -8163,7 +13865,8 @@ window.QR_CARTES = [
 "Environ 15 mots, 20 au maximum"
 ],
 "bonne": 1
-}
+},
+"num": 125
 },
 {
 "id": "copy-leviers-013",
@@ -8199,7 +13902,8 @@ window.QR_CARTES = [
 "q": "Selon Malick, où trouver le contenu d'une bonne FAQ (foire aux questions) ?",
 "type": "rappel"
 }
-]
+],
+"num": 126
 },
 {
 "id": "copy-leviers-014",
@@ -8237,7 +13941,8 @@ window.QR_CARTES = [
 "Une pub sans texte qui ne montre que le produit"
 ],
 "bonne": 1
-}
+},
+"num": 127
 },
 {
 "id": "copy-leviers-015",
@@ -8273,7 +13978,8 @@ window.QR_CARTES = [
 "La feature parle du prix, le bénéfice parle de la livraison"
 ],
 "bonne": 2
-}
+},
+"num": 128
 },
 {
 "id": "copy-leviers-016",
@@ -8325,7 +14031,8 @@ window.QR_CARTES = [
 "Négatif + haut : les inquiets"
 ],
 "bonne": 3
-}
+},
+"num": 129
 },
 {
 "id": "copy-leviers-017",
@@ -8364,7 +14071,8 @@ window.QR_CARTES = [
 "La promesse claire et folle"
 ],
 "bonne": 2
-}
+},
+"num": 130
 },
 {
 "id": "copy-leviers-018",
@@ -8416,7 +14124,8 @@ window.QR_CARTES = [
 "Annoncer une info neuve"
 ],
 "bonne": 1
-}
+},
+"num": 131
 },
 {
 "id": "copy-leviers-019",
@@ -8453,7 +14162,8 @@ window.QR_CARTES = [
 "Introduire le mécanisme"
 ],
 "bonne": 2
-}
+},
+"num": 132
 },
 {
 "id": "copy-leviers-020",
@@ -8491,7 +14201,8 @@ window.QR_CARTES = [
 "Montrer ce que ça coûte"
 ],
 "bonne": 3
-}
+},
+"num": 133
 },
 {
 "id": "copy-leviers-021",
@@ -8529,7 +14240,8 @@ window.QR_CARTES = [
 "Écrire en faits plutôt qu'en opinions"
 ],
 "bonne": 1
-}
+},
+"num": 134
 },
 {
 "id": "copy-leviers-022",
@@ -8596,7 +14308,8 @@ window.QR_CARTES = [
 "« Le meilleur soin capillaire du marché. »"
 ],
 "bonne": 0
-}
+},
+"num": 135
 },
 {
 "id": "copy-leviers-023",
@@ -8634,7 +14347,8 @@ window.QR_CARTES = [
 "Le Self social : comment on me voit"
 ],
 "bonne": 3
-}
+},
+"num": 136
 },
 {
 "id": "copy-leviers-024",
@@ -8686,7 +14400,8 @@ window.QR_CARTES = [
 "Lead de peur"
 ],
 "bonne": 2
-}
+},
+"num": 137
 },
 {
 "id": "copy-leviers-025",
@@ -8723,7 +14438,8 @@ window.QR_CARTES = [
 "Elle montre le produit trop tard, après la 10e seconde"
 ],
 "bonne": 0
-}
+},
+"num": 138
 },
 {
 "id": "copy-leviers-026",
@@ -8761,7 +14477,8 @@ window.QR_CARTES = [
 "Conclure : fermer la boucle ouverte par le hook"
 ],
 "bonne": 1
-}
+},
+"num": 139
 },
 {
 "id": "copy-leviers-028",
@@ -8798,7 +14515,8 @@ window.QR_CARTES = [
 "Elle ne promet rien : beer belly connu, puis un problème pire"
 ],
 "bonne": 3
-}
+},
+"num": 141
 },
 {
 "id": "copy-leviers-029",
@@ -8834,7 +14552,8 @@ window.QR_CARTES = [
 "Aucun effet : Meta ne juge que l'image, jamais l'émotion"
 ],
 "bonne": 0
-}
+},
+"num": 142
 },
 {
 "id": "copy-leviers-030",
@@ -8870,7 +14589,8 @@ window.QR_CARTES = [
 "Garder la même émotion et changer les visuels des 8 winners"
 ],
 "bonne": 2
-}
+},
+"num": 143
 },
 {
 "id": "copy-leviers-031",
@@ -8922,7 +14642,8 @@ window.QR_CARTES = [
 "À créer de l'urgence avant l'offre finale"
 ],
 "bonne": 1
-}
+},
+"num": 144
 },
 {
 "id": "copy-leviers-032",
@@ -8958,7 +14679,8 @@ window.QR_CARTES = [
 "Matteo : le produit. Spencer : le hook raté au début"
 ],
 "bonne": 1
-}
+},
+"num": 145
 },
 {
 "id": "copy-leviers-033",
@@ -8994,7 +14716,8 @@ window.QR_CARTES = [
 "Malick : seuls les longs advertorials marchent. Loïc : la vidéo"
 ],
 "bonne": 2
-}
+},
+"num": 146
 },
 {
 "id": "copy-leviers-034",
@@ -9030,7 +14753,8 @@ window.QR_CARTES = [
 "« Jusqu'à 33 dollars d'économie par mois. »"
 ],
 "bonne": 2
-}
+},
+"num": 147
 },
 {
 "id": "copy-leviers-036",
@@ -9066,7 +14790,8 @@ window.QR_CARTES = [
 "q": "Abigail ne peut pas promettre la richesse. Que propose-t-elle de promettre à la place ?",
 "type": "rappel"
 }
-]
+],
+"num": 149
 },
 {
 "id": "copy-leviers-037",
@@ -9102,7 +14827,8 @@ window.QR_CARTES = [
 "« Ai-je bien mis le prix et la promo tout en haut ? »"
 ],
 "bonne": 2
-}
+},
+"num": 150
 },
 {
 "id": "copy-leviers-038",
@@ -9139,7 +14865,8 @@ window.QR_CARTES = [
 "q": "Avec l'accroche « l'ingrédient n° 1 des barres chocolatées », quelle position la marque prend-elle face au client, selon Spencer ?",
 "type": "rappel"
 }
-]
+],
+"num": 151
 },
 {
 "id": "copy-leviers-039",
@@ -9175,7 +14902,8 @@ window.QR_CARTES = [
 "Parce que le prix doit arriver avant la 5e seconde"
 ],
 "bonne": 1
-}
+},
+"num": 152
 },
 {
 "id": "copy-leviers-040",
@@ -9211,7 +14939,8 @@ window.QR_CARTES = [
 "q": "Dans la pub chocolat, pourquoi le « but » (« mais ») arrive-t-il au bon moment, selon Spencer ?",
 "type": "rappel"
 }
-]
+],
+"num": 153
 },
 {
 "id": "copy-leviers-041",
@@ -9247,7 +14976,8 @@ window.QR_CARTES = [
 "Pour retirer la faute au client : c'est le sucre, pas lui"
 ],
 "bonne": 3
-}
+},
+"num": 154
 },
 {
 "id": "copy-leviers-042",
@@ -9283,7 +15013,8 @@ window.QR_CARTES = [
 "q": "Selon Niko, quelle est « la pire chose à faire » quand on crée une pub ?",
 "type": "rappel"
 }
-]
+],
+"num": 155
 },
 {
 "id": "copy-leviers-043",
@@ -9319,7 +15050,8 @@ window.QR_CARTES = [
 "Angle = le désir principal. Sous-désir = un autre mot pour angle"
 ],
 "bonne": 0
-}
+},
+"num": 156
 },
 {
 "id": "copy-leviers-044",
@@ -9355,7 +15087,8 @@ window.QR_CARTES = [
 "q": "Selon Spencer, dans quel cas l'âge et le lieu (la démographie) comptent-ils quand même ?",
 "type": "rappel"
 }
-]
+],
+"num": 157
 },
 {
 "id": "copy-leviers-045",
@@ -9391,7 +15124,8 @@ window.QR_CARTES = [
 "Écrire une pub pour chacun des profils trouvés sur Reddit"
 ],
 "bonne": 2
-}
+},
+"num": 158
 },
 {
 "id": "copy-leviers-048",
@@ -9427,7 +15161,8 @@ window.QR_CARTES = [
 "Choisir l'âge et le lieu de l'avatar"
 ],
 "bonne": 2
-}
+},
+"num": 161
 },
 {
 "id": "copy-leviers-049",
@@ -9477,7 +15212,8 @@ window.QR_CARTES = [
 "Des protéines issues de vraie nourriture"
 ],
 "bonne": 1
-}
+},
+"num": 162
 },
 {
 "id": "copy-leviers-050",
@@ -9513,7 +15249,8 @@ window.QR_CARTES = [
 "Sur leurs centres d'intérêt Meta et likes"
 ],
 "bonne": 1
-}
+},
+"num": 163
 },
 {
 "id": "copy-leviers-051",
@@ -9565,7 +15302,8 @@ window.QR_CARTES = [
 "Valence basse (négative), intensité forte"
 ],
 "bonne": 1
-}
+},
+"num": 164
 },
 {
 "id": "copy-leviers-052",
@@ -9615,7 +15353,8 @@ window.QR_CARTES = [
 "L'avis du fondateur sur le goût, raconté avec émotion"
 ],
 "bonne": 2
-}
+},
+"num": 165
 },
 {
 "id": "copy-leviers-053",
@@ -9651,7 +15390,8 @@ window.QR_CARTES = [
 "Les livres de développement personnel de sa cible"
 ],
 "bonne": 1
-}
+},
+"num": 166
 },
 {
 "id": "copy-leviers-054",
@@ -9687,7 +15427,8 @@ window.QR_CARTES = [
 "Elle la donne à l'IA pour la réécrire"
 ],
 "bonne": 1
-}
+},
+"num": 167
 },
 {
 "id": "copy-leviers-055",
@@ -9723,7 +15464,8 @@ window.QR_CARTES = [
 "Pour créer une offre limitée liée à une tradition"
 ],
 "bonne": 0
-}
+},
+"num": 168
 },
 {
 "id": "copy-leviers-056",
@@ -9759,7 +15501,8 @@ window.QR_CARTES = [
 "Il en fait le hook d'une nouvelle pub"
 ],
 "bonne": 3
-}
+},
+"num": 169
 },
 {
 "id": "copy-leviers-057",
@@ -9795,7 +15538,8 @@ window.QR_CARTES = [
 "« Recommanderais-tu la marque à un ami proche ? »"
 ],
 "bonne": 1
-}
+},
+"num": 170
 },
 {
 "id": "copy-leviers-058",
@@ -9831,7 +15575,8 @@ window.QR_CARTES = [
 "Il répète l'argument plus fort"
 ],
 "bonne": 2
-}
+},
+"num": 171
 },
 {
 "id": "copy-leviers-059",
@@ -9867,7 +15612,8 @@ window.QR_CARTES = [
 "Elle montre le produit dès la toute première seconde"
 ],
 "bonne": 1
-}
+},
+"num": 172
 },
 {
 "id": "copy-leviers-060",
@@ -9903,7 +15649,8 @@ window.QR_CARTES = [
 "Le format vidéo ne convient pas aux pubs minceur"
 ],
 "bonne": 1
-}
+},
+"num": 173
 },
 {
 "id": "copy-leviers-061",
@@ -9939,7 +15686,8 @@ window.QR_CARTES = [
 "Mauvaise idée : il faut au moins 4 bénéfices listés"
 ],
 "bonne": 2
-}
+},
+"num": 174
 },
 {
 "id": "copy-leviers-062",
@@ -9975,7 +15723,8 @@ window.QR_CARTES = [
 "Matteo : ça baisse le CPM. Loïc : ça bloque la diffusion"
 ],
 "bonne": 2
-}
+},
+"num": 175
 },
 {
 "id": "copy-leviers-063",
@@ -10011,7 +15760,8 @@ window.QR_CARTES = [
 "Loïc : à transformer en hooks. Niko : à ignorer"
 ],
 "bonne": 0
-}
+},
+"num": 176
 },
 {
 "id": "copy-leviers-065",
@@ -10047,7 +15797,8 @@ window.QR_CARTES = [
 "Meta les teste à part : données plus rapides"
 ],
 "bonne": 0
-}
+},
+"num": 178
 },
 {
 "id": "copy-leviers-066",
@@ -10083,7 +15834,8 @@ window.QR_CARTES = [
 "Non : n'en parle pas du tout dans la pub"
 ],
 "bonne": 2
-}
+},
+"num": 179
 },
 {
 "id": "copy-meca-001",
@@ -10130,7 +15882,8 @@ window.QR_CARTES = [
 "source": "Copy First (vidéo rangée sous le nom « tiana ») – Mécanisme",
 "ref": "Savoir/Copywriting et persuasion/03-tiana-copyfirst-mecanisme sans demarage.md [S002] [R020] [R001]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 180
 },
 {
 "id": "copy-meca-002",
@@ -10179,7 +15932,8 @@ window.QR_CARTES = [
 "L'avatar visé et l'angle choisi pour la pub"
 ],
 "bonne": 1
-}
+},
+"num": 181
 },
 {
 "id": "copy-meca-003",
@@ -10227,7 +15981,8 @@ window.QR_CARTES = [
 "source": "Copy First (vidéo rangée sous le nom « tiana ») – Mécanisme",
 "ref": "Savoir/Copywriting et persuasion/03-tiana-copyfirst-mecanisme sans demarage.md [S004] [R023] ; [S006] [R026]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 182
 },
 {
 "id": "copy-meca-004",
@@ -10276,7 +16031,8 @@ window.QR_CARTES = [
 "La preuve que le produit fonctionne"
 ],
 "bonne": 2
-}
+},
+"num": 183
 },
 {
 "id": "copy-meca-005",
@@ -10323,7 +16079,8 @@ window.QR_CARTES = [
 "source": "Copy First (vidéo rangée sous le nom « tiana ») – Mécanisme",
 "ref": "Savoir/Copywriting et persuasion/03-tiana-copyfirst-mecanisme sans demarage.md [S008] [R028] [R029] [R030] [R031] ; [S020] [R052]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 184
 },
 {
 "id": "copy-meca-006",
@@ -10359,7 +16116,8 @@ window.QR_CARTES = [
 "Compris par un élève de CM2 en 2 secondes"
 ],
 "bonne": 3
-}
+},
+"num": 185
 },
 {
 "id": "copy-meca-007",
@@ -10395,7 +16153,8 @@ window.QR_CARTES = [
 "Le démarrage très anticipé des soldes de fin d'année"
 ],
 "bonne": 1
-}
+},
+"num": 186
 },
 {
 "id": "copy-meca-008",
@@ -10431,7 +16190,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Mécanisme unique, 10 M$ en 90 jours",
 "ref": "Savoir/Copywriting et persuasion/MECANISME UNIQUE spencer pub 90day 10 millions - INDEX.md [S015] [R247]",
 "date_source": "janvier 2026 (la vidéo cite le 11 janvier 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 187
 },
 {
 "id": "copy-meca-009",
@@ -10467,7 +16227,8 @@ window.QR_CARTES = [
 "Problème, solution, preuve"
 ],
 "bonne": 2
-}
+},
+"num": 188
 },
 {
 "id": "copy-meca-010",
@@ -10515,7 +16276,8 @@ window.QR_CARTES = [
 "Le mécanisme amélioré"
 ],
 "bonne": 2
-}
+},
+"num": 189
 },
 {
 "id": "copy-meca-011",
@@ -10561,7 +16323,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Mécanisme unique, 10 M$ en 90 jours",
 "ref": "Savoir/Copywriting et persuasion/MECANISME UNIQUE spencer pub 90day 10 millions - INDEX.md [S017] [R252] [R253] [R254] [R255]",
 "date_source": "janvier 2026 (la vidéo cite le 11 janvier 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 190
 },
 {
 "id": "copy-meca-012",
@@ -10607,7 +16370,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Mécanisme unique, 10 M$ en 90 jours",
 "ref": "Savoir/Copywriting et persuasion/MECANISME UNIQUE spencer pub 90day 10 millions - INDEX.md [S019] [R262] [R264] [R265] [R268]",
 "date_source": "janvier 2026 (la vidéo cite le 11 janvier 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 191
 },
 {
 "id": "copy-meca-013",
@@ -10653,7 +16417,8 @@ window.QR_CARTES = [
 "source": "Formation Evolve (auteur non nommé dans le fichier) – Les 8 composantes d'une pub gagnante",
 "ref": "Savoir/Copywriting et persuasion/8-composantes-pub-gagnante-structure-fr 2 - INDEX.md [S003] [R001] [R189]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 192
 },
 {
 "id": "copy-meca-014",
@@ -10689,7 +16454,8 @@ window.QR_CARTES = [
 "Le positionnement"
 ],
 "bonne": 1
-}
+},
+"num": 193
 },
 {
 "id": "copy-meca-015",
@@ -10737,7 +16503,8 @@ window.QR_CARTES = [
 "L'avatar visé"
 ],
 "bonne": 1
-}
+},
+"num": 194
 },
 {
 "id": "copy-meca-016",
@@ -10786,7 +16553,8 @@ window.QR_CARTES = [
 "source": "Formation Evolve (auteur non nommé dans le fichier) – Les 8 composantes d'une pub gagnante",
 "ref": "Savoir/Copywriting et persuasion/8-composantes-pub-gagnante-structure-fr 2 - INDEX.md [S005] [R202] [R203] [R204] [R205]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 195
 },
 {
 "id": "copy-meca-017",
@@ -10822,7 +16590,8 @@ window.QR_CARTES = [
 "Émotion, conscience et angle"
 ],
 "bonne": 3
-}
+},
+"num": 196
 },
 {
 "id": "copy-meca-018",
@@ -10858,7 +16627,8 @@ window.QR_CARTES = [
 "Celui qui arrive dès la première seconde"
 ],
 "bonne": 1
-}
+},
+"num": 197
 },
 {
 "id": "copy-meca-019",
@@ -10905,7 +16675,8 @@ window.QR_CARTES = [
 "source": "Trésor – Règle des 3 pièges",
 "ref": "Savoir/Copywriting et persuasion/3 péché à ne jamais faire.md, l. 7 à 38 (fichier sans [Sxxx])",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 198
 },
 {
 "id": "copy-meca-020",
@@ -10941,7 +16712,8 @@ window.QR_CARTES = [
 "Le manque d'urgence"
 ],
 "bonne": 2
-}
+},
+"num": 199
 },
 {
 "id": "copy-meca-021",
@@ -10977,7 +16749,8 @@ window.QR_CARTES = [
 "L'offre groupée"
 ],
 "bonne": 0
-}
+},
+"num": 200
 },
 {
 "id": "copy-meca-022",
@@ -11013,7 +16786,8 @@ window.QR_CARTES = [
 "La fondatrice de la marque"
 ],
 "bonne": 1
-}
+},
+"num": 201
 },
 {
 "id": "copy-meca-023",
@@ -11062,7 +16836,8 @@ window.QR_CARTES = [
 "Changer de produit : rien n'y est unique"
 ],
 "bonne": 2
-}
+},
+"num": 202
 },
 {
 "id": "copy-meca-024",
@@ -11098,7 +16873,8 @@ window.QR_CARTES = [
 "Donner un nom neuf au mécanisme"
 ],
 "bonne": 3
-}
+},
+"num": 203
 },
 {
 "id": "copy-meca-025",
@@ -11134,7 +16910,8 @@ window.QR_CARTES = [
 "Nouveau ? sinon renommer ? sinon non dit"
 ],
 "bonne": 1
-}
+},
+"num": 204
 },
 {
 "id": "copy-meca-026",
@@ -11170,7 +16947,8 @@ window.QR_CARTES = [
 "Avatar, désir, angle, puis mécanisme"
 ],
 "bonne": 2
-}
+},
+"num": 205
 },
 {
 "id": "copy-meca-027",
@@ -11219,7 +16997,8 @@ window.QR_CARTES = [
 "Avis, photos, site web, réseaux sociaux"
 ],
 "bonne": 1
-}
+},
+"num": 206
 },
 {
 "id": "copy-meca-028",
@@ -11255,7 +17034,8 @@ window.QR_CARTES = [
 "Un mécanisme renommé avec un nom neuf"
 ],
 "bonne": 1
-}
+},
+"num": 207
 },
 {
 "id": "copy-meca-029",
@@ -11291,7 +17071,8 @@ window.QR_CARTES = [
 "Des témoignages, sans mécanisme"
 ],
 "bonne": 0
-}
+},
+"num": 208
 },
 {
 "id": "copy-meca-030",
@@ -11327,7 +17108,8 @@ window.QR_CARTES = [
 "Elle cherche ce dont les clients parlent"
 ],
 "bonne": 3
-}
+},
+"num": 209
 },
 {
 "id": "copy-meca-031",
@@ -11379,7 +17161,8 @@ window.QR_CARTES = [
 "Un dentifrice trop faible"
 ],
 "bonne": 1
-}
+},
+"num": 210
 },
 {
 "id": "copy-meca-032",
@@ -11429,7 +17212,8 @@ window.QR_CARTES = [
 "Un manque de protéine de collagène"
 ],
 "bonne": 2
-}
+},
+"num": 211
 },
 {
 "id": "copy-meca-033",
@@ -11466,7 +17250,8 @@ window.QR_CARTES = [
 "La javel oxygénée"
 ],
 "bonne": 0
-}
+},
+"num": 212
 },
 {
 "id": "copy-meca-034",
@@ -11517,7 +17302,8 @@ window.QR_CARTES = [
 "Les fibres creuses d'alpaga"
 ],
 "bonne": 3
-}
+},
+"num": 213
 },
 {
 "id": "copy-meca-035",
@@ -11553,7 +17339,8 @@ window.QR_CARTES = [
 "Qu'il faut surtout augmenter le budget"
 ],
 "bonne": 1
-}
+},
+"num": 214
 },
 {
 "id": "copy-meca-036",
@@ -11589,7 +17376,8 @@ window.QR_CARTES = [
 "Une cliente, avec un avis vérifié"
 ],
 "bonne": 0
-}
+},
+"num": 215
 },
 {
 "id": "copy-meca-037",
@@ -11638,7 +17426,8 @@ window.QR_CARTES = [
 "Elle lit des avis de clients satisfaits"
 ],
 "bonne": 1
-}
+},
+"num": 216
 },
 {
 "id": "copy-meca-038",
@@ -11674,7 +17463,8 @@ window.QR_CARTES = [
 "Expliquer d'abord, affirmer ensuite"
 ],
 "bonne": 3
-}
+},
+"num": 217
 },
 {
 "id": "copy-meca-039",
@@ -11723,7 +17513,8 @@ window.QR_CARTES = [
 "Le cacao, trop transformé"
 ],
 "bonne": 2
-}
+},
+"num": 218
 },
 {
 "id": "copy-meca-040",
@@ -11771,7 +17562,8 @@ window.QR_CARTES = [
 "Le positionnement, c'est le prix"
 ],
 "bonne": 0
-}
+},
+"num": 219
 },
 {
 "id": "copy-meca-041",
@@ -11808,7 +17600,8 @@ window.QR_CARTES = [
 "Colère, pour garder le spectateur en alerte"
 ],
 "bonne": 2
-}
+},
+"num": 220
 },
 {
 "id": "copy-meca-042",
@@ -11857,7 +17650,8 @@ window.QR_CARTES = [
 "Vrai : sauf pour les pubs statiques"
 ],
 "bonne": 0
-}
+},
+"num": 221
 },
 {
 "id": "copy-meca-043",
@@ -11893,7 +17687,8 @@ window.QR_CARTES = [
 "Les deux : inutile pour une cible sceptique"
 ],
 "bonne": 2
-}
+},
+"num": 222
 },
 {
 "id": "copy-meca-044",
@@ -11929,7 +17724,8 @@ window.QR_CARTES = [
 "Plus scientifique, car on y croit beaucoup plus"
 ],
 "bonne": 1
-}
+},
+"num": 223
 },
 {
 "id": "copy-meca-045",
@@ -11978,7 +17774,8 @@ window.QR_CARTES = [
 "Clair, et juste assez nouveau"
 ],
 "bonne": 3
-}
+},
+"num": 224
 },
 {
 "id": "copy-meca-046",
@@ -12028,7 +17825,8 @@ window.QR_CARTES = [
 "L'angle"
 ],
 "bonne": 2
-}
+},
+"num": 225
 },
 {
 "id": "copy-meca-047",
@@ -12064,7 +17862,8 @@ window.QR_CARTES = [
 "Tu la laisses tourner plus longtemps"
 ],
 "bonne": 1
-}
+},
+"num": 226
 },
 {
 "id": "copy-meca-048",
@@ -12100,7 +17899,8 @@ window.QR_CARTES = [
 "6 partout : les désirs fondamentaux"
 ],
 "bonne": 1
-}
+},
+"num": 227
 },
 {
 "id": "copy-meca-049",
@@ -12151,7 +17951,8 @@ window.QR_CARTES = [
 "Pour faire durer la pub plus longtemps"
 ],
 "bonne": 0
-}
+},
+"num": 228
 },
 {
 "id": "copy-meca-050",
@@ -12200,7 +18001,8 @@ window.QR_CARTES = [
 "Vrai : il suffit de répéter l'accroche"
 ],
 "bonne": 2
-}
+},
+"num": 229
 },
 {
 "id": "copy-meca-051",
@@ -12236,7 +18038,8 @@ window.QR_CARTES = [
 "Le bouton"
 ],
 "bonne": 0
-}
+},
+"num": 230
 },
 {
 "id": "copy-meca-055",
@@ -12272,7 +18075,8 @@ window.QR_CARTES = [
 "Scepticisme : répète plus fort"
 ],
 "bonne": 2
-}
+},
+"num": 234
 },
 {
 "id": "copy-meca-056",
@@ -12308,7 +18112,4596 @@ window.QR_CARTES = [
 "Le ressenti est faux : change l'émotion"
 ],
 "bonne": 3
+},
+"num": 235
+},
+{
+"id": "copy-soph-001",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, à quelle échelle mesures-tu la sophistication (la méfiance du client) quand tu fais de la pub payante ?",
+"choix": [
+"Persona par persona, une poche d'audience à la fois",
+"Sur le marché entier, comme le faisait Schwartz",
+"Pays par pays, selon la langue de tes pubs",
+"Produit par produit, selon son prix de vente"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Persona par persona (un persona = un profil de client précis).",
+"pourquoi": "En pub payante, tout ton marché n'entre pas dans la même case. Il y a des poches de clients, chacune avec sa propre méfiance.",
+"action": "Pour chaque persona que tu vises, note son stade de sophistication avant d'écrire la pub."
+},
+"explication": "Schwartz a créé les stades pour juger un marché entier. Tiana dit que ça reste valable, surtout pour chercher et lancer un produit. Mais en pub payante, elle mesure la méfiance de chaque persona, pour viser chaque poche de l'audience avec précision.",
+"variantes": [
+{
+"q": "Selon Tiana, dans quel cas la sophistication mesurée sur tout le marché (façon Schwartz) reste-t-elle très utile ?",
+"choix": [
+"Quand tu cherches et développes un produit à lancer",
+"Quand tu choisis le bouton d'appel à l'action",
+"Quand tu fixes ton budget de pub de la journée",
+"Quand tu réponds aux commentaires de tes clients"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Quand tu cherches et développes un produit à lancer."
 }
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S003] [I004] [R013] [I005] [R014] [I006] [R015] [R016] [I007] [R017] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S003] [I005] [R009]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1022
+},
+{
+"id": "copy-soph-002",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, à partir de quand ton client a-t-il déjà des concurrents en tête (stade 2, l'explorateur) ?",
+"choix": [
+"Dès qu'il a vu une pub concurrente, même il y a 2 semaines",
+"Dès qu'il a acheté un produit concurrent qui l'a déçu",
+"Dès qu'il a lu les étiquettes de plusieurs marques",
+"Dès qu'il a perdu tout espoir de régler son problème"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Dès qu'il a vu passer une pub concurrente, même en scrollant il y a deux semaines.",
+"pourquoi": "Tiana : il a un peu cherché sur Google, vu des pubs qui promettent pareil, ou une tante a essayé un produit. Il reste ouvert, mais des objections naissent dans sa tête.",
+"action": "Si ta cible a pu voir une seule pub d'un concurrent, agrandis ta promesse : plus vite, mieux, ou sans ce qu'elle redoute."
+},
+"explication": "L'explorateur n'a encore jamais été déçu. Il a juste vu d'autres options, et ta pub doit battre ces options. Tiana : garde la grande promesse, mais agrandis-la avec des amplificateurs (plus vite, plus gros) et des différenciateurs (« sans X »).",
+"variantes": [
+{
+"q": "Selon Tiana, qu'est-ce qui sépare l'explorateur (stade 2) du sceptique (stade 4) ?",
+"choix": [
+"L'explorateur n'a encore jamais été déçu",
+"L'explorateur ne connaît aucune autre solution",
+"L'explorateur veut voir des études avant tout",
+"L'explorateur ne croit plus que c'est possible"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'explorateur n'a encore jamais été déçu : il n'a pas « été brûlé » par d'autres produits."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S008] [I016] [R027] [I017] [R028] [Q003] [R003] [I018] [R029] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S009] [I016] [R020] [I017] [R021]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1023
+},
+{
+"id": "copy-soph-003",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "« J'ai perdu 13 livres (environ 6 kg) en six semaines sans perdre de muscle. » Selon Tiana, quel morceau est le différenciateur (ce qui te sépare des autres) ?",
+"choix": [
+"« sans perdre de muscle »",
+"« en six semaines »",
+"« j'ai perdu 13 livres »",
+"La phrase entière"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Sans perdre de muscle » : c'est le différenciateur.",
+"pourquoi": "La promesse : perdre 13 livres. L'amplificateur (ce qui grossit la promesse) : en six semaines. Le différenciateur : sans le défaut que le client redoute.",
+"action": "Écris ta promesse, ajoute un « plus vite », puis un « sans [la peur de ton client] »."
+},
+"explication": "Tiana : cette phrase simple est très forte pour la femme qui veut maigrir vite, mais qui a entendu que les régimes extrêmes font fondre le muscle. La pub lui dit : tu auras le résultat voulu, plus vite, et sans le défaut dont tu te méfies.",
+"variantes": [
+{
+"q": "« Jusqu'à 2 pouces (5 cm) de ventre gonflé en moins en 1 heure. » Selon Tiana, quel morceau est l'amplificateur (ce qui grossit la promesse) ?",
+"choix": [
+"« en 1 heure » : la vitesse",
+"« 2 pouces » : la taille",
+"« ventre gonflé » : le problème",
+"« jusqu'à » : la prudence"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « En 1 heure » : la vitesse. « 2 pouces de ventre gonflé en moins », c'est la promesse."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre)",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S009] [I020] [R031] [I021] [R032] [I022] [R033] [I023] [R034] [I024] [R035]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1024
+},
+{
+"id": "copy-soph-004",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, à quoi doit ressembler un mécanisme unique (le « comment ça marche ») pour le chercheur du stade 3 ?",
+"choix": [
+"Une explication claire et logique, simple à en être bête",
+"Une explication scientifique complète, avec les études",
+"Un nom de technologie nouveau que personne ne connaît",
+"Un schéma détaillé de chaque ingrédient de la formule"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une explication claire et logique, « simple à en être bête » (stupid simple).",
+"pourquoi": "Le chercheur lit les étiquettes et compare. Une raison logique de croire que ça va marcher suffit à le rapprocher de l'achat.",
+"action": "Écris ton mécanisme en deux phrases courtes : ce qui se passe, puis ce que fait ton produit."
+},
+"explication": "Exemple de Tiana, la créatine Tone : la créatine ne va pas que dans tes muscles, elle va aussi dans ton cerveau, stockée comme carburant de secours. Exemple en statique : « Le stress chronique brûle tes réserves de nutriments. Les abats de bœuf les remplissent. » Pas besoin d'être complexe.",
+"variantes": [
+{
+"q": "Selon Tiana, quel format exprime le plus facilement un mécanisme unique (le « comment ça marche ») ?",
+"choix": [
+"La vidéo, même si le statique peut aussi le faire",
+"Le statique, car on lit le mécanisme à son rythme",
+"Le carrousel, car il découpe le mécanisme en étapes",
+"Le texte seul, car l'image distrait du mécanisme"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La vidéo, en règle générale. Mais un statique peut aussi le faire."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre)",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S010] [I030] [R041] [I031] [R042] ; [S011] [I033] [R044] [I035] [R046] [R047] ; [S012] [I036] [R048] [I037] [R049] [R050] [I038] [R051]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1025
+},
+{
+"id": "copy-soph-005",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, quel est le plus grand moteur d'achat du client sceptique (stade 4 de sophistication) ?",
+"choix": [
+"Réduire son risque d'être déçu",
+"Obtenir le résultat plus vite qu'ailleurs",
+"Comprendre enfin comment le produit marche",
+"Payer moins cher que chez les concurrents"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La réduction du risque (risk reduction).",
+"pourquoi": "Il a vu trop de pubs, il a parfois essayé et échoué. Sa confiance est très basse : il ne supporte pas une nouvelle déception.",
+"action": "Ouvre ta pub par la preuve : avis, crédibilité, conseil d'expert."
+},
+"explication": "Tiana : la copy (le texte de la pub) doit commencer par la preuve sociale, la crédibilité et le conseil d'expert, pour ramollir la carapace qu'il s'est construite. Tous ces éléments ont un seul but : monter la confiance et baisser le scepticisme.",
+"variantes": [
+{
+"q": "Selon Tiana, par quoi commence la copy (le texte) d'une pub pour un client sceptique (stade 4) ?",
+"choix": [
+"Par la preuve : avis, crédibilité, expert",
+"Par une grande promesse simple et directe",
+"Par le mécanisme, puis par le désir",
+"Par sa croyance : « ce n'est pas ta faute »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Par la preuve : preuve sociale, crédibilité, conseil d'expert."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S013] [I039] [R052] [I040] [R053] [I041] [R054] [I042] [R055] ; [S014] [I047] [R060] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S012] [I030] [R035] [I032] [R037] [I033] [R038]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1026
+},
+{
+"id": "copy-soph-006",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Trouver le stade de sophistication de son marché",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Nick Tero, toutes les pubs de ton marché font une simple promesse (stade 1). À quel stade écris-tu la tienne ?",
+"choix": [
+"Au stade 2 : un stade d'avance",
+"Au stade 1 : comme le marché",
+"Au stade 5 : le plus loin possible",
+"Au stade 3 : deux stades d'avance"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Au stade 2 : toujours un stade d'avance sur le marché.",
+"pourquoi": "Nick : la sophistication, c'est battre les autres. Si tout le monde est au stade 1, écrire au stade 1 te noie dans la masse.",
+"action": "Note le stade des pubs qui tournent dans ton marché, puis écris au stade juste au-dessus."
+},
+"explication": "Nick Tero : si tout le monde est au stade 1, tu passes au stade 2 ; si tout le monde est au stade 2, au stade 3. Le stade du marché te dit quoi faire ensuite. Seule exception : si personne ne fait encore ta promesse, tu es au stade 1 et la promesse de base suffit.",
+"variantes": [
+{
+"q": "Selon Nick Tero, dans quel seul cas peux-tu écrire juste ta promesse de base (stade 1) ?",
+"choix": [
+"Quand personne ne fait encore cette promesse en pub",
+"Quand ton produit est moins cher que les autres",
+"Quand tu as plus de 1 000 avis cinq étoiles",
+"Quand ta pub vise des clients qui te connaissent"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Quand personne ne fait encore cette promesse en pub : tu es seul, la promesse de base suffit."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S016] [I044] [R062] [I045] [R063] ; [S017] [I046] [R064]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1027
+},
+{
+"id": "copy-soph-007",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Trouver le stade de sophistication de son marché",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Nick Tero, pourquoi changer seulement le format de ta pub (vidéo, statique…) ne suffit pas à te démarquer ?",
+"choix": [
+"Tu dis toujours la même chose que les autres",
+"Meta montre surtout les vidéos de plus de 30 s",
+"Ton client regarde le prix, jamais le format",
+"Les formats coûtent tous le même prix à faire"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Tu dis toujours la même chose que les autres : c'est le message qu'il faut changer.",
+"pourquoi": "Nick : il existe plein de types de créas (pubs), mais à la fin tu répètes le même message. La sophistication sert à changer le message pour garder un stade d'avance.",
+"action": "Avant de changer de format, change ce que ta pub promet ou explique."
+},
+"explication": "Nick montre des boîtes bleues qui disent toutes la même chose : impossible d'en choisir une. Celle qui dit autre chose saute aux yeux. Tes pubs ressemblent à ces boîtes bleues quand tu copies tout le monde.",
+"variantes": [
+{
+"q": "Nick Tero montre des boîtes bleues qui disent toutes pareil, sauf une. Que veut-il prouver ?",
+"choix": [
+"Une pub qui dit autre chose sort du lot",
+"Une pub de couleur vive attire le regard",
+"Une pub doit copier ce qui marche déjà",
+"Une pub doit avoir le moins de texte possible"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une pub qui dit autre chose sort du lot : on la choisit tout de suite."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S002] [Q001] [R001] [I003] [R011] [R012] ; [S003] [Q002] [R002] [I004] [R013] [I005] [R014]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1028
+},
+{
+"id": "copy-soph-008",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Nick Tero, quelles sont les deux façons principales d'exagérer une promesse (stade 2) ?",
+"choix": [
+"La taille ou la vitesse du résultat",
+"Le prix ou la garantie de l'offre",
+"La preuve ou l'avis d'un expert",
+"Le mécanisme ou l'identité du client"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La taille ou la vitesse : un résultat plus gros, ou plus rapide.",
+"pourquoi": "Exagérer, c'est rendre ta promesse plus grosse que celle des autres. La promesse ne change pas, elle grandit.",
+"action": "Prends la promesse de ton marché et ajoute un chiffre plus gros ou un délai plus court."
+},
+"explication": "Exemple de Nick : tout le monde dit « comment faire grandir tes pubs Facebook ». Lui dit « … jusqu'à 10 000 $ par jour » (la taille) ou « … du jour au lendemain » (la vitesse). Même promesse, en plus gros.",
+"variantes": [
+{
+"q": "Tout le monde promet « comment faire grandir tes pubs Facebook ». Nick Tero écrit « … du jour au lendemain ». Quel levier ajoute-t-il ?",
+"choix": [
+"La vitesse du résultat",
+"La taille du résultat",
+"Un nouveau mécanisme",
+"Une sous-niche précise"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La vitesse : c'est une exagération de stade 2."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S004] [I006] [R015] [I007] [R016] [I008] [R017] [I014] [R023] [R024]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1029
+},
+{
+"id": "copy-soph-009",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Choisir le début de pub selon le niveau d'awareness",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, dans quel cas vaut-il la peine de viser des clients inconscients (ils ignorent même leur problème) ?",
+"choix": [
+"Pour toucher un groupe tout nouveau et élargir ta clientèle",
+"Pour relancer ceux qui ont laissé leur panier sans payer",
+"Pour vendre vite un stock avant la fin du mois",
+"Pour convaincre ceux qui comparent déjà les marques"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Quand tu veux exprès toucher un groupe tout nouveau, pour élargir ta clientèle.",
+"pourquoi": "Tiana : ta stratégie ne doit pas se concentrer sur eux. Un produit qui a de l'avenir règle un problème répandu, qu'un très grand nombre de gens connaît déjà bien.",
+"action": "Garde la plupart de tes pubs pour les gens qui connaissent leur problème. Réserve les pubs « inconscient » à la conquête de nouveaux clients."
+},
+"explication": "Erreur fréquente selon Tiana : « inconscient » ne veut pas dire « qui ne connaît pas ton produit ». C'est encore moins : il n'a même pas conscience de son besoin, ou refuse d'admettre son problème. Il faut d'abord le convaincre qu'il a un problème, puis nommer ton produit.",
+"variantes": [
+{
+"q": "Selon Tiana, quelle confusion fait-on souvent sur le client « inconscient » (unaware) ?",
+"choix": [
+"Le croire inconscient de ton produit, pas de son problème",
+"Le croire sceptique, alors qu'il est très optimiste",
+"Le croire pressé, alors qu'il attend une promo",
+"Le croire perdu, alors qu'il compare les marques"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 On le croit inconscient de ton produit. En vrai, il n'a même pas conscience de son problème."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de conscience »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 03 Tiana 5 stades de conscience - INDEX.md [S005] [I010] [R015] [I011] [R016] [R017] [I012] [R018] [I013] [R019]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1030
+},
+{
+"id": "copy-soph-010",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "Nick Tero lance son agence. Toutes disent « on fait grandir tes pubs Facebook ». Lui écrit « on t'aide à faire un ROAS x3 » (3 € de ventes pour 1 € de pub). Quelle stratégie applique-t-il ?",
+"qcm": {
+"choix": [
+"Stade 2 : une promesse plus grosse que les autres",
+"Stade 3 : un nouveau mécanisme pour la même promesse",
+"Stade 4 : le même mécanisme, rendu moins cher",
+"Stade 5 : une offre pour une sous-niche précise"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 2 : une promesse plus grosse que celle des autres.",
+"pourquoi": "Nick : tout le monde promettait la même chose, et beaucoup de clients avaient déjà été déçus par des agences. Il lui fallait une promesse plus grande pour se distinguer.",
+"action": "Liste les promesses de tes concurrents. Si elles sont toutes pareilles, chiffre la tienne plus haut."
+},
+"explication": "Le marché de Nick était au stade 1 : la même promesse de base partout. Il a pris un stade d'avance en chiffrant le résultat. C'est l'exagération par la taille.",
+"variantes": [
+{
+"q": "Promesse de ton marché : « perdre du poids ». Selon Nick Tero, laquelle de ces accroches est une exagération de stade 2 ?",
+"qcm": {
+"choix": [
+"« Perdre 30 livres en 30 jours »",
+"« Perdre du poids avec un nouveau shot »",
+"« Perdre du poids après 60 ans »",
+"« Perdre du poids, tout simplement »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Perdre 30 livres en 30 jours » : la même promesse, en plus gros et plus vite.",
+"pourquoi": "Nick donne cet exemple pour le stade 2. Un nouveau produit (comme des shots minceur) joue le stade 3, un âge précis le stade 5.",
+"action": "Pour exagérer, garde la promesse du marché et ajoute un chiffre ou un délai."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S017] [I048] [R066] ; [S010] [I019] [R033] ; [S011] [I023] [R038] ; [S014] [I036] [R051]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1031
+},
+{
+"id": "copy-soph-011",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "Le marché des vêtements de sport est plein. Une marque lance « des tenues de sport non toxiques ». Selon Nick Tero, quel stade de sophistication joue-t-elle ?",
+"qcm": {
+"choix": [
+"Stade 4 : un produit connu, rendu meilleur",
+"Stade 3 : une toute nouvelle façon d'obtenir le résultat",
+"Stade 2 : la même promesse, en plus gros",
+"Stade 5 : une offre pour une sous-niche"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 4 : un mécanisme qui existe déjà, rendu meilleur (ici, une autre matière).",
+"pourquoi": "Nick : il y a déjà plein de tenues de sport. Celle-ci est juste non toxique, faite d'une autre matière.",
+"action": "Cherche ce que ton produit fait mieux que ceux qui existent : moins cher, autre matière, une fonction en plus."
+},
+"explication": "Nick : au stade 4, on prend un mécanisme qui existe déjà et on l'améliore : plus d'avantages, plus solide, plus rapide, moins cher. Ses autres exemples : un médicament minceur « à partir de 0 $ » (le prix), des leggings qui sculptent les fesses (une fonction en plus).",
+"variantes": [
+{
+"q": "Les leggings de sport sont partout. Une marque vend des leggings « sans coutures », car beaucoup de femmes n'aiment pas les coutures. Selon Nick Tero, quel stade est-ce ?",
+"qcm": {
+"choix": [
+"Stade 4 : un produit connu, rendu meilleur",
+"Stade 2 : une promesse « sans X », en plus gros",
+"Stade 3 : une toute nouvelle façon d'y arriver",
+"Stade 5 : une offre pour une sous-niche"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 4 : des leggings qui existent déjà, rendus meilleurs (on enlève les coutures).",
+"pourquoi": "Nick range cet exemple au stade 4 : le produit est connu, la marque l'améliore.",
+"action": "Avant d'écrire, demande-toi : mon produit est-il nouveau, ou est-il un produit connu en mieux ?"
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S013] [I030] [R045] [I031] [R046] [I032] [R047] [I033] [R048] [I034] [R049]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1032
+},
+{
+"id": "copy-soph-012",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "« Un nouveau traitement laser viral fait disparaître l'acné en 30 minutes. » Selon Nick Tero, quel stade de sophistication est-ce ?",
+"qcm": {
+"choix": [
+"Stade 3 : un nouveau mécanisme, puis le désir",
+"Stade 2 : une promesse exagérée par la vitesse",
+"Stade 1 : la promesse de base, sans plus",
+"Stade 4 : un mécanisme connu, rendu moins cher"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 3 : le nouveau mécanisme (le traitement laser) vient d'abord, le désir (plus d'acné) ensuite.",
+"pourquoi": "Nick : au stade 3, les gens ont toujours le même désir, mais ils ont échoué avec d'autres façons d'y arriver. On leur offre une nouvelle façon.",
+"action": "Dans ton hook (accroche), mets d'abord le « comment » nouveau, puis le résultat que veut ton client."
+},
+"explication": "Nick découpe lui-même cette accroche : « nouveau traitement laser » (le mécanisme), « fait disparaître l'acné » (ce que les gens veulent). Les « 30 minutes » sont là, mais Nick range cette pub au stade 3 : ce qui la porte, c'est la nouvelle façon d'y arriver.",
+"variantes": [
+{
+"q": "Une pub cite tous les produits qu'un fils a déjà essayés contre l'acné, puis celui qui a marché en 7 jours. Selon Nick Tero, quel stade est-ce ?",
+"qcm": {
+"choix": [
+"Stade 2 : une promesse exagérée par la vitesse",
+"Stade 3 : une nouvelle façon d'obtenir le résultat",
+"Stade 1 : la promesse de base, sans plus",
+"Stade 5 : une offre pour une sous-niche"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Stade 3 : la pub nomme les mécanismes déjà essayés, puis le nouveau qui marche.",
+"pourquoi": "Nick range cet exemple dans le stade 3 : le client a échoué avec d'autres solutions, il cherche encore.",
+"action": "Si ton client a déjà tout essayé, cite ce qu'il a essayé avant de montrer ta nouvelle façon."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S011] [I022] [R037] [I024] [R039] [I027] [R042] ; [S005] [I009] [R018] [I010] [R019] [I011] [R020]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1033
+},
+{
+"id": "copy-soph-013",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Trouver le stade de sophistication de son marché",
+"niveau": 2,
+"type": "si-alors",
+"q": "Tu as tapé ta promesse de base dans la bibliothèque publicitaire de Meta (l'outil qui montre les pubs en cours). Selon Nick Tero, quel filtre mets-tu pour repérer les pubs gagnantes ?",
+"qcm": {
+"choix": [
+"Exclure les 30 à 90 derniers jours, pour voir les plus anciennes",
+"Garder seulement les 7 derniers jours, pour voir les plus récentes",
+"Trier par nombre de likes, pour voir les plus aimées",
+"Filtrer par pays, pour voir celles de ta région"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Exclure les 30 à 90 derniers jours : il reste les pubs qui tournent depuis longtemps.",
+"pourquoi": "Nick appelle ces pubs anciennes « des pubs gagnantes solides ». Une pub qui tourne depuis des mois rapporte, sinon la marque l'aurait coupée (déduction).",
+"action": "Note les promesses de ces pubs anciennes, trouve leur stade, puis écris un stade au-dessus."
+},
+"explication": "Exemple de Nick : « stops cravings » (coupe les fringales) donne plus de 200 pubs. En excluant les 30 derniers jours, il en reste 14. En remontant plus loin, il en reste 3 : ce sont les gagnantes. Leurs promesses montrent le stade qui marche dans ce marché.",
+"variantes": [
+{
+"q": "Selon Nick Tero, quelle est la toute première étape pour trouver le stade de sophistication de ton marché ?",
+"qcm": {
+"choix": [
+"Écrire ta promesse de base, en quelques mots",
+"Demander à tes clients ce qu'ils ont essayé",
+"Tester 5 hooks et garder celui qui vend le plus",
+"Compter tes concurrents sur Google Shopping"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Écrire ta promesse de base : maigrir, faire grandir tes pubs Facebook, perdre les poignées d'amour…",
+"pourquoi": "C'est cette promesse que tu tapes ensuite dans la bibliothèque publicitaire.",
+"action": "Écris ta promesse de base en 3 à 5 mots avant d'ouvrir la bibliothèque."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S015] [Q008] [R008] [I041] [R057] [I042] [R058] [I043] [R059] [R060] [R061] ; [S016] [I044] [R062]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1034
+},
+{
+"id": "copy-soph-014",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 2,
+"type": "scénario",
+"q": "Ta cliente a tout essayé et dit : « je suis sûrement trop vieille, mon cas est trop grave ». Selon Tiana, que doit faire ta pub ?",
+"qcm": {
+"choix": [
+"Casser sa croyance : « ce n'est pas ta faute »",
+"Montrer plus de preuves : avis, études, experts",
+"Expliquer en détail le mécanisme du produit",
+"Faire une promesse plus grosse et plus rapide"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Casser sa croyance : « ce n'est pas ta faute, il te manquait juste X ».",
+"pourquoi": "Tiana : au stade 5 (la désespérée), elle se croit le problème, sinon un produit aurait marché. Ni promesse, ni mécanisme, ni preuve ne suffisent : il faut parler de son identité.",
+"action": "Cherche pourquoi elle croit ne plus pouvoir s'en sortir, puis dis-lui exactement le contraire."
+},
+"explication": "Exemple de Tiana : une femme raconte comment elle a perdu du poids même après ses enfants, alors qu'elle croyait ça impossible. Elle dit : « ce n'est pas ta faute, tu n'es pas seule, tu n'as rien qui cloche ». La pub fait passer la cliente de « je n'y arrive pas car j'ai un défaut » à « il me manquait juste X ».",
+"variantes": [
+{
+"q": "Selon Tiana, comment trouves-tu quoi dire à un client désespéré (stade 5), qui a tout essayé ?",
+"qcm": {
+"choix": [
+"Chercher pourquoi il croit ne plus y arriver, et dire l'inverse",
+"Lister tout ce qu'il a essayé, et dire que tu es meilleur",
+"Trouver l'expert le plus connu, et le mettre en avant",
+"Trouver la plus grosse promesse du marché, et la doubler"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Chercher pourquoi il croit ne plus pouvoir régler son problème, puis lui dire exactement le contraire.",
+"pourquoi": "Tiana : il faut creuser la recherche. La réponse est dans sa croyance, pas dans ton produit.",
+"action": "Dans tes avis clients, relève les phrases « je suis trop… » : ta pub dira l'inverse."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S015] [I048] [R061] [I049] [R062] [I050] [R063] [I051] [R064] [I052] [R065] [R066] [I053] [R067] [I055] [R069] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S014] [I042] [R047] [I047] [R052]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1035
+},
+{
+"id": "copy-soph-015",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 2,
+"type": "si-alors",
+"q": "Selon Tiana, l'avant/après est une preuve « très puissante » pour un client sceptique. Quelle preuve est encore meilleure ?",
+"qcm": {
+"choix": [
+"La démonstration du produit en action",
+"Le témoignage écrit d'un vrai client",
+"Le nombre de clients qui l'utilisent",
+"L'étude scientifique montrée à l'écran"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La démonstration : le produit qui marche sous ses yeux.",
+"pourquoi": "Tiana : montre-moi le produit en train de marcher, devant moi. C'est une preuve qu'on ne peut pas nier : ça va marcher pour moi.",
+"action": "Pour un sceptique, filme ton produit en action avant d'ajouter des avis."
+},
+"explication": "La boîte à outils de Tiana pour le stade 4 : UGC (vidéos de vrais clients), témoignages, nombre de clients (effet de troupeau), avant/après, démonstrations, experts, études, célébrités. Tous ont le même but : monter la confiance et baisser le scepticisme.",
+"variantes": [
+{
+"q": "Une pub contre le ventre gonflé met en avant des mannequins Victoria's Secret des années 2000. Selon Tiana, pourquoi ?",
+"qcm": {
+"choix": [
+"Pour ce public, elles sont expertes pour ne pas gonfler",
+"Elles sont très connues, donc la pub coûte moins cher",
+"Elles sont belles, donc la pub arrête le scroll plus vite",
+"Elles ont créé la marque et veulent la défendre"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Pour ce public, elles sont des expertes pour ne pas avoir le ventre gonflé.",
+"pourquoi": "Tiana : un expert peut être beaucoup de choses. Il suffit qu'il soit crédible aux yeux de ton public.",
+"action": "Demande-toi : qui ton client voit-il comme un expert de son problème ?"
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre)",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S014] [I043] [R056] [I044] [R057] [I045] [R058] [I046] [R059] [I047] [R060]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1036
+},
+{
+"id": "copy-soph-016",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Choisir le début de pub selon le niveau d'awareness",
+"niveau": 2,
+"type": "scénario",
+"q": "Une pub vise un client conscient de la solution. Son hook : « le tee-shirt n°1 pour les gars qui font de la muscu ». Selon Tiana, pourquoi ne cite-t-il pas le nom de la marque ?",
+"qcm": {
+"choix": [
+"Il n'a jamais entendu ce nom : il ne lui dit rien",
+"Un nom de marque est interdit dans un hook Meta",
+"Le nom ferait penser à une pub, il zapperait",
+"Le nom prend trop de place en 3 secondes"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ce client n'a jamais entendu parler du produit : son nom ne veut rien dire pour lui.",
+"pourquoi": "Ce qui a du sens pour lui, c'est la solution générale : un tee-shirt qui tombe mieux.",
+"action": "Pour ce client, ouvre sur la solution qu'il cherche, puis présente ton produit comme le n°1 de cette catégorie."
+},
+"explication": "Tiana : ce client sait que la solution existe. Il compare encore les concurrents, mais il n'a pas découvert le tien. Une fois son attention prise, la pub donne toutes les raisons précises pour lesquelles ce tee-shirt est le meilleur pour lui.",
+"variantes": [
+{
+"q": "Selon Tiana, après avoir nommé la solution, comment présentes-tu ton produit à un client conscient de la solution ?",
+"qcm": {
+"choix": [
+"Comme le n°1 de cette catégorie, avec ses raisons",
+"Comme une toute nouvelle catégorie de produit",
+"Comme le moins cher de tous les concurrents",
+"Comme le produit préféré des célébrités"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Comme le n°1 de cette catégorie, puis toutes les raisons précises pour lesquelles il est le meilleur.",
+"pourquoi": "Il compare déjà les options : tu l'aides à choisir la tienne.",
+"action": "Après ta première phrase sur la solution, liste 2 ou 3 raisons qui font de ton produit le meilleur."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de conscience »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 03 Tiana 5 stades de conscience - INDEX.md [S008] [I022] [R028] [I023] [R029] [I024] [R030] [I025] [R031] [I026] [R032]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1037
+},
+{
+"id": "copy-soph-017",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Choisir le début de pub selon le niveau d'awareness",
+"niveau": 2,
+"type": "diagnostic",
+"q": "True Classic (tee-shirts qui donnent l'air plus en forme) vise un père qui porte depuis 20 ans les tee-shirts offerts avec sa bière. Selon Tiana, comment la pub le réveille-t-elle ?",
+"qcm": {
+"choix": [
+"Par la honte : sa fille pourrait avoir honte de lui",
+"Par le prix : un tee-shirt à 60 $ qui dure longtemps",
+"Par la preuve : des milliers d'avis cinq étoiles",
+"Par le mécanisme : une coupe qui suit le corps"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Par un désir profond (se sentir sûr de lui) et par la honte : sa fille pourrait avoir honte de son allure.",
+"pourquoi": "Il est inconscient : il ignore son problème, ou l'évite pour ne pas se sentir à la traîne. La pub doit d'abord lui faire sentir qu'il a un problème.",
+"action": "Pour un client inconscient, ouvre sur une émotion forte qu'il vit déjà, pas sur ton produit."
+},
+"explication": "Tiana demande : comment convaincre ce gars d'acheter un tee-shirt à 60 $ ? Réponse : d'abord le convaincre qu'il a un problème. La pub prend du recul, touche un désir large (se sentir sûr de soi), puis dit : achète ce tee-shirt, tu seras un père en forme et ta fille t'aimera.",
+"variantes": [
+{
+"q": "Selon Tiana, dans quel ordre avance une pub pour un client inconscient (il ignore son problème) ?",
+"qcm": {
+"choix": [
+"D'abord lui montrer son problème, puis nommer ton produit",
+"D'abord nommer ton produit, puis expliquer son problème",
+"D'abord donner une réduction, puis parler du problème",
+"D'abord citer un expert, puis présenter ton produit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 D'abord le convaincre qu'il a un problème, puis nommer ton produit comme la solution.",
+"pourquoi": "Tant qu'il ne voit pas son problème, ton produit ne l'intéresse pas.",
+"action": "Relis ta pub « inconscient » : le produit ne doit pas arriver avant le problème."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de conscience »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 03 Tiana 5 stades de conscience - INDEX.md [S006] [Q004] [R004] [I014] [R020] [I015] [R021] [I016] [R022] [I017] [R023] [I018] [R024] ; [S005] [I013] [R019]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1038
+},
+{
+"id": "copy-soph-018",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 2,
+"type": "si-alors",
+"q": "Ton persona est au stade 3 (le chercheur : il lit les étiquettes et compare). Quels formats de pub Tiana te conseille-t-elle ?",
+"qcm": {
+"choix": [
+"Statiques comparatifs et vidéos en liste de raisons",
+"Démonstrations et statiques avant/après",
+"Grande promesse et accroche problème-solution simple",
+"Pub du fondateur et vidéo UGC brute"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les statiques comparatifs et les vidéos en liste de raisons (listicle).",
+"pourquoi": "Tiana : le chercheur veut faire ce qu'il fait déjà, chercher. Ces formats montrent le « comment » et l'aident à comparer.",
+"action": "Pour un chercheur, fais un statique qui compare ton produit aux autres, ou une vidéo qui liste ses raisons d'être meilleur."
+},
+"explication": "Exemple de Tiana : une pub de parfum liste les raisons pour lesquelles il est meilleur. Il tient toute la journée car il n'est pas dilué comme les sprays du centre commercial : il utilise des huiles naturelles. Le mécanisme rapproche le chercheur de la décision d'achat.",
+"variantes": [
+{
+"q": "Ton persona est au stade 4 (le sceptique, déjà déçu). Quels formats de pub Tiana te conseille-t-elle ?",
+"qcm": {
+"choix": [
+"Démonstrations, avant/après et vidéos d'expert",
+"Statiques comparatifs et vidéos en liste de raisons",
+"Grande promesse et accroche problème-solution",
+"Angle à contre-courant et « ce n'est pas ta faute »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Démonstration, statique avant/après, vidéo d'expert, UGC brut (vidéo de client sans montage), témoignages, pub du fondateur.",
+"pourquoi": "La pub du fondateur crée de la confiance et de la transparence. Dans la vidéo, Tiana dit « stade 2 » à ce moment, mais toute la partie parle du stade 4 : le coffre note ce lapsus.",
+"action": "Pour un sceptique, commence par une démonstration ou un vrai client, pas par une promesse."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de sophistication, stratégies et formats » ; carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S011] [I026] [R031] [I028] [R033] [I029] [R034] ; [S013] [I039] [R044] ; Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 5, point 4)",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1039
+},
+{
+"id": "copy-soph-019",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comparer Tiana et Nick Tero sur la sophistication",
+"niveau": 3,
+"type": "piège",
+"q": "Une pub promet un résultat « plus vite, avec moins d'effort ». À quel stade de sophistication la placent les deux vidéos de Tiana et celle de Nick Tero ?",
+"qcm": {
+"choix": [
+"Tiana : stade 1 ou 2 selon la vidéo ; Nick : stade 2",
+"Tiana : stade 2 dans les deux ; Nick : stade 2",
+"Tiana : stade 1 dans les deux ; Nick : stade 2",
+"Tiana : stade 1 ou 2 selon la vidéo ; Nick : stade 3"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ça dépend de la source : stade 1 dans la vidéo de Tiana sur les formats, stade 2 dans son autre vidéo et chez Nick Tero.",
+"pourquoi": "Tiana (formats) : au stade 1, des pubs simples centrées sur la vitesse ou le peu d'effort. Tiana (personas) : au stade 2, promettre « plus vite, mieux, ou avec moins d'effort ». Nick : au stade 2, exagérer par la taille ou la vitesse.",
+"action": "Quand tu classes une pub de ce type, cite ta source. Regarde aussi le marché : si les concurrents promettent déjà la même chose, ton « plus vite » sert à les dépasser (déduction, sur la règle du stade d'avance de Nick)."
+},
+"explication": "Deux sources sur trois mettent « plus vite, moins d'effort » au stade 2. La carte de synthèse du coffre garde ce désaccord tel quel, sans le corriger. Retiens les deux lectures.",
+"variantes": [
+{
+"q": "Selon la vidéo de Tiana sur les formats, quels leviers mettent en avant les pubs simples du stade 1 (le débutant) ?",
+"qcm": {
+"choix": [
+"La vitesse ou le peu d'effort",
+"Les preuves et les experts",
+"Le mécanisme et les étiquettes",
+"L'identité et les croyances"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La vitesse ou le peu d'effort. Attention : son autre vidéo et Nick Tero rangent la vitesse au stade 2.",
+"pourquoi": "La carte de synthèse du coffre note ce désaccord sans le trancher.",
+"action": "Si tu cites ce levier, précise toujours de quelle source il vient."
+}
+},
+{
+"q": "Tiana, dans sa vidéo sur les formats, cite « 8 livres en moins en 8 semaines ». Comme exemple de quel stade ?",
+"qcm": {
+"choix": [
+"Stade 1 : le débutant",
+"Stade 2 : l'explorateur",
+"Stade 3 : le chercheur",
+"Stade 4 : le sceptique"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 1, dans cette vidéo. Nick Tero, lui, range une promesse chiffrée plus grosse (« perdre 30 livres en 30 jours ») au stade 2.",
+"pourquoi": "Autres exemples de stade 1 dans la même vidéo : « Perds 1 kilo par jour à 52 ans », « Soulage la constipation en 14 jours ou remboursé ».",
+"action": "Quand une pub est chiffrée, cite la source qui la classe : la carte de synthèse du coffre garde cet écart."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de sophistication, stratégies et formats » ; Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook » ; carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S006] [I012] [R016] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S009] [I020] [R031] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S004] [I008] [R017] ; Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 5, point 3) ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S006] [I013] [R017] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S010] [I019] [R033]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1040
+},
+{
+"id": "copy-soph-020",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comparer Tiana et Nick Tero sur la sophistication",
+"niveau": 3,
+"type": "piège",
+"q": "Ton marché ne croit plus aucune promesse (stade 5). Que te disent de faire Nick Tero et Tiana ?",
+"qcm": {
+"choix": [
+"Nick : viser une sous-niche. Tiana : casser la croyance du client",
+"Les deux : viser une sous-niche précise, comme les seniors",
+"Les deux : casser la croyance « c'est ma faute » du client",
+"Nick : montrer plus de preuves. Tiana : un nouveau mécanisme"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Nick : choisir une sous-niche (une identité précise). Tiana : casser la croyance du client, « ce n'est pas ta faute ».",
+"pourquoi": "Nick regarde le marché : « programme minceur pour les seniors », « leggings pour femmes enceintes ». Tiana regarde la tête du client : il se croit le problème.",
+"action": "Garde les deux pistes en tête et cite ta source. Si tu ne sais pas laquelle marche, teste les deux (déduction, sur le conseil de Nick : tester quand on ne sait pas)."
+},
+"explication": "Les deux sources parlent d'identité, mais pas de la même. Nick vise un groupe (une sous-niche). Tiana vise ce que le client pense de lui-même. La carte de synthèse du coffre garde les deux, sans trancher : ce sont deux formes d'identification.",
+"variantes": [
+{
+"q": "Selon Nick Tero, quelle accroche est une pub de stade 5 sur le marché de la perte de poids ?",
+"qcm": {
+"choix": [
+"« Programme minceur seniors »",
+"« Perdez 30 livres en 30 jours »",
+"« Les nouveaux shots minceur »",
+"« Médicament minceur dès 0 $ »"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Programme minceur pour les seniors » : une sous-niche (un groupe précis).",
+"pourquoi": "Chez Nick : 30 livres en 30 jours = stade 2, nouveaux shots = stade 3, médicament à 0 $ = stade 4.",
+"action": "Pour une pub de stade 5, choisis un groupe précis et parle-lui à lui seul."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook » ; Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats » ; carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S006] [I013] [R022] ; [S014] [I035] [R050] [I036] [R051] [I037] [R052] ; [S020] [I057] [R075] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S015] [I051] [R064] [I053] [R067] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S014] [I043] [R048] ; Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 5, point 2)",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1041
+},
+{
+"id": "copy-soph-021",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comparer Tiana et Nick Tero sur la sophistication",
+"niveau": 3,
+"type": "piège",
+"q": "Tous tes concurrents ont déjà un mécanisme (stade 4). Sur quoi Nick Tero et Tiana mettent-ils l'accent ?",
+"qcm": {
+"choix": [
+"Nick : un mécanisme meilleur. Tiana : beaucoup de preuves",
+"Nick : beaucoup de preuves. Tiana : un mécanisme meilleur",
+"Les deux : une sous-niche, avec une page faite pour elle",
+"Les deux : une promesse plus grosse et plus rapide"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Nick : un mécanisme meilleur (moins cher, autre matière, une fonction en plus). Tiana : beaucoup de preuves, en tête de pub.",
+"pourquoi": "Nick regarde les concurrents : il faut faire mieux qu'eux. Tiana regarde le client : il a été déçu, il veut réduire son risque.",
+"action": "Au stade 4, mets les deux dans ta pub : ce qui rend ton mécanisme meilleur, et la preuve qu'il marche."
+},
+"explication": "Tiana ne jette pas le mécanisme : dans sa vidéo sur les formats, elle dit de l'agrandir ET de montrer beaucoup de preuves. Le livre de Schwartz dit « élaborer le mécanisme ». La carte de synthèse du coffre garde les deux : mécanisme meilleur ET preuves.",
+"variantes": [
+{
+"q": "Selon Tiana (vidéo sur les formats), que fais-tu du mécanisme pour un persona sceptique (stade 4) ?",
+"qcm": {
+"choix": [
+"Tu l'agrandis, et tu montres beaucoup de preuves",
+"Tu le retires, pour ne garder que des preuves",
+"Tu le gardes tel quel, et tu baisses le prix",
+"Tu le remplaces par une sous-niche précise"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu l'agrandis, et tu montres beaucoup de preuves qu'il va marcher.",
+"pourquoi": "Tiana : la pub doit montrer le mécanisme, l'agrandir, et prouver qu'il marche.",
+"action": "Vérifie ta pub de stade 4 : un mécanisme amélioré ET au moins une preuve forte."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook » ; Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats » ; carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S005] [I012] [R021] ; [S013] [I030] [R045] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S013] [I040] [R053] [I042] [R055] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S012] [I031] [R036] [I033] [R038] ; Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 5, point 1)",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1042
+},
+{
+"id": "copy-soph-022",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Trouver le stade de sophistication de son marché",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Tu vends des leggings. Le marché a plein de mécanismes, tu n'as rien de nouveau, et tes leggings ne font pas mieux que les autres. Selon Nick Tero, que fais-tu ?",
+"qcm": {
+"choix": [
+"Choisir une sous-niche et lui faire sa pub et sa page",
+"Exagérer la promesse : plus gros, plus vite que les autres",
+"Inventer un mécanisme nouveau pour sortir du lot",
+"Montrer plus d'avis clients que les concurrents"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu passes au stade 5 : tu choisis une sous-niche et tu lui parles à elle seule.",
+"pourquoi": "Nick : pas de nouveau mécanisme, alors on montre ce qui rend le sien meilleur. Pas de mécanisme meilleur non plus, alors on choisit une sous-niche.",
+"action": "Choisis un groupe précis (ses exemples : les joueuses de pickleball, les membres actives d'une sororité, un club d'étudiantes) et fais pub ET page pour lui."
+},
+"explication": "L'arbre de décision de Nick : stade 1 si personne ne fait ta promesse ; sinon une promesse plus grosse ; sinon un nouveau mécanisme ; sinon un mécanisme meilleur ; sinon une sous-niche. Autre exemple de Nick : des femmes qui veulent juste se trouver jolies dans le miroir en leggings, sans faire de sport.",
+"variantes": [
+{
+"q": "Ta pub de stade 5 vise les femmes enceintes. Elle renvoie vers ta page produit générale. Selon Nick Tero, quel est le problème ?",
+"qcm": {
+"choix": [
+"La page doit être faite pour cette seule sous-niche",
+"La page doit montrer plus d'avis clients que la pub",
+"La page doit baisser le prix pour cette sous-niche",
+"Aucun : une page générale suffit si la pub est bonne"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Au stade 5, les créas, le texte et tout le site doivent être faits pour cette sous-niche. Une page produit générale ne marchera pas.",
+"pourquoi": "Nick : « tu ne peux pas ouvrir un stade 5 avec une page produit générale ».",
+"action": "Pour chaque sous-niche, prévois sa propre page, avec ses mots et ses images."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S019] [I052] [R070] [I053] [R071] [I054] [R072] ; [S020] [I055] [R073] ; [S017] [I046] [R064] ; [S018] [I049] [R067]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1043
+},
+{
+"id": "copy-soph-023",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 3,
+"type": "piège",
+"q": "Ton associé dit : « ce client est en bas du funnel (il connaît notre produit), donc il est peu méfiant ». Selon Tiana, quelle erreur fait-il ?",
+"qcm": {
+"choix": [
+"Il mélange deux échelles : le funnel suit la conscience, pas la méfiance",
+"Il a raison : plus le client est bas dans le funnel, moins il se méfie",
+"Il se trompe de sens : le bas du funnel, c'est le client inconscient",
+"Il oublie que la méfiance se mesure sur le marché, pas sur le client"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il mélange deux échelles : le haut, le milieu et le bas du funnel suivent la conscience (ce que le client sait), pas la sophistication (sa méfiance).",
+"pourquoi": "Tiana : les stades de sophistication sont « totalement différents » des stades de conscience, et on les confond souvent. La conscience mesure ce que le client sait de son problème et de ton produit.",
+"action": "Pour chaque persona, note deux choses séparées : son niveau de conscience ET son stade de méfiance."
+},
+"explication": "Un client peut connaître ton produit et rester très méfiant (déduction, tirée de la séparation des deux échelles). La carte de synthèse du coffre le répète : ne jamais mélanger conscience et sophistication. La conscience choisit par quoi commencer, la sophistication choisit quels arguments empiler.",
+"variantes": [
+{
+"q": "Selon Tiana, laquelle des deux échelles suit le haut, le milieu et le bas du funnel (tunnel de vente) ?",
+"qcm": {
+"choix": [
+"La conscience : ce que le client sait",
+"La sophistication : sa méfiance",
+"Les deux, exactement de la même façon",
+"Aucune des deux : le funnel est à part"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La conscience (awareness) : elle mesure ce que le client sait de son problème et de ton produit.",
+"pourquoi": "La sophistication, elle, mesure à quel point il se méfie en ce moment.",
+"action": "Ne déduis jamais la méfiance d'un client de sa place dans le funnel."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de sophistication, stratégies et formats » ; carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S004] [I006] [R010] ; [S005] [I007] [R011] ; Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 2 ; partie 9, point 5)",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1044
+},
+{
+"id": "copy-soph-024",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Dr. Squatch (savon pour hommes) ouvre sa pub sur « Hey guy, is your skin feeling dry? » (« Hé mec, ta peau est sèche ? »). Quel niveau de conscience et quel stade de sophistication vise-t-elle ?",
+"qcm": {
+"choix": [
+"Conscient du problème, et stade 1 de sophistication",
+"Conscient du produit, et stade 4 de sophistication",
+"Conscient de la solution, et stade 3 de sophistication",
+"Inconscient, et stade 5 de sophistication"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Conscient du problème (le hook nomme la peau sèche) et stade 1 de sophistication (une promesse simple, pour un client peu méfiant).",
+"pourquoi": "Tiana range Dr. Squatch au stade 1 : ces pubs « tapent droit sur le problème ». Le niveau de conscience vient de sa règle « pour le conscient du problème, commence par le problème » (déduction : elle ne classe pas cette pub en conscience).",
+"action": "Classe toujours une pub sur les deux échelles, séparément : par quoi elle commence, et combien d'arguments elle empile."
+},
+"explication": "Selon Tiana, une accroche problème-solution simple marche pour des gens peu ou pas méfiants : ils cherchent juste quelqu'un qui règle leur problème, ils n'ont pas d'autres questions. Les deux échelles se lisent ensemble, mais ne se confondent pas.",
+"variantes": [
+{
+"q": "Dr. Squatch vend un baume à lèvres avec « No more winter lips » (« Fini les lèvres d'hiver »). Selon Tiana, quel stade de sophistication est-ce ?",
+"qcm": {
+"choix": [
+"Stade 1 : une promesse simple, sans plus",
+"Stade 2 : une promesse agrandie, « sans X »",
+"Stade 3 : un mécanisme qui explique le comment",
+"Stade 4 : des preuves pour un client déçu"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 1 : la pub tape droit sur le problème (les lèvres d'hiver) et dit « on règle ça ».",
+"pourquoi": "Tiana cite cette pub parmi ses exemples de stade 1, pour des clients peu ou pas méfiants.",
+"action": "Ne confonds pas « fini le problème » (stade 1) avec « sans le défaut redouté » (stade 2)."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de sophistication, stratégies et formats » ; Tiana – vidéo « les 5 stades de conscience »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S006] [Q002] [R002] [I014] [R018] [I015] [R019] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 03 Tiana 5 stades de conscience - INDEX.md [S007] [I020] [R026] ; [S011] [I031] [R037]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1045
+},
+{
+"id": "copy-soph-025",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, plus un marché est saturé (plein de concurrents), plus il est… ?",
+"choix": [
+"Sophistiqué, donc difficile à convaincre",
+"Conscient, donc plus facile à convaincre",
+"Pauvre, donc sensible au prix",
+"Jeune, donc ouvert aux nouveautés"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Plus il est sophistiqué (méfiant), et plus il est difficile à convaincre.",
+"pourquoi": "Tiana enchaîne : marché saturé, donc sophistication élevée, donc plus dur de convaincre. Il faut travailler plus pour faire acheter.",
+"action": "Avant d'écrire, regarde combien de marques font déjà ta promesse : plus il y en a, plus ta pub doit empiler d'arguments."
+},
+"explication": "Une autre vidéo de Tiana dit la même idée autrement : Schwartz a conçu les stades pour classer la résistance d'un marché à investir dans une solution. Plus les gens ont vu de promesses, plus ils résistent.",
+"variantes": [
+{
+"q": "Selon Tiana (vidéo sur les formats), Schwartz a conçu les stades de sophistication pour classer quoi ?",
+"choix": [
+"La résistance du marché à payer pour une solution",
+"Le nombre de clients qui connaissent ta marque",
+"La taille du budget pub de tes concurrents",
+"Le prix moyen des produits de ton marché"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La résistance du marché à investir dans une solution."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S002] [Q001] [R001] [I002] [R011] [I003] [R012] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S003] [I004] [R008]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1046
+},
+{
+"id": "copy-soph-026",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Tiana dessine la méfiance du client comme un mur qui grandit à chaque stade. Que fais-tu dans ta pub pour passer par-dessus ?",
+"choix": [
+"Tu empiles plus d'éléments de persuasion",
+"Tu écris une pub plus courte et plus directe",
+"Tu changes de couleur et de format",
+"Tu baisses ton prix à chaque stade"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Tu empiles plus d'éléments de copy (du texte qui persuade) à chaque stade.",
+"pourquoi": "Tiana : le mur de scepticisme crée une barrière de croyance plus haute à chaque stade. Chaque stade garde ce qui marchait avant et ajoute une couche.",
+"action": "Vérifie ta pub : a-t-elle les couches des stades d'en dessous, plus celle de son stade ?"
+},
+"explication": "D'un côté du mur, le persona ne se méfie pas du tout ; de l'autre, il se méfie énormément. Dans sa vidéo sur les formats, Tiana dit qu'au plus haut, ta copy doit percer la méfiance comme un mur de briques.",
+"variantes": [
+{
+"q": "Selon Tiana, comment évolue la méfiance du persona entre le stade 1 et le stade 5 ?",
+"choix": [
+"Elle monte : de pas du tout à énormément",
+"Elle baisse : d'énormément à pas du tout",
+"Elle reste la même, seul le budget change",
+"Elle monte, puis redescend au stade 5"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle monte : au stade 1, il ne se méfie pas du tout ; au stade 5, il se méfie énormément."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats » ; carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S004] [I008] [R018] [I009] [R019] [I010] [R020] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S005] [I008] [R012] ; Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 3)",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1047
+},
+{
+"id": "copy-soph-027",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, pour quelles raisons un client est-il encore au stade 1 (le débutant, très optimiste) ?",
+"choix": [
+"Son problème est tout neuf, ou personne ne promet de le régler",
+"Il a tout essayé et ne croit plus que c'est possible",
+"Il a lu les étiquettes et veut savoir comment ça marche",
+"Il a été déçu et veut des preuves avant d'acheter"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Son problème vient d'apparaître dans sa vie, ou personne ne promet encore de le régler (pas de concurrence).",
+"pourquoi": "Dans les deux cas, il a à peine cherché une solution. Il est facile à convaincre.",
+"action": "Pour lui, lève juste la main : « je peux t'aider avec ce problème ». Une grande promesse simple et directe suffit."
+},
+"explication": "Accroches de stade 1 citées par Tiana : « comment aller aux toilettes en vacances », « a le goût d'un bonbon », « te donne des abdos », « brûle la graisse tenace ». Elles font juste une grande promesse, pour des gens qui ne se méfient pas.",
+"variantes": [
+{
+"q": "« Brûle la graisse tenace. » « A le goût d'un bonbon. » Selon Tiana, à quel client parlent ces accroches ?",
+"choix": [
+"Au débutant : optimiste, sans méfiance",
+"Au chercheur : il veut le comment",
+"Au sceptique : il veut des preuves",
+"Au désespéré : il se croit le problème"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Au débutant (stade 1) : il ne se méfie pas, une grande promesse suffit."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S005] [Q002] [R002] [I011] [R021] [I012] [R022] [R023] [I013] [R024] [I014] [R025] [I015] [R026] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S006] [I009] [R013] [I010] [R014]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1048
+},
+{
+"id": "copy-soph-028",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, qu'est-ce qui fait passer un client du stade 2 (l'explorateur) au stade 3 (le chercheur) ?",
+"choix": [
+"Voir les mêmes différenciateurs chez plein de marques",
+"Acheter un produit qui ne marche pas sur lui",
+"Découvrir son problème pour la première fois",
+"Recevoir une réduction d'une marque concurrente"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 À force de voir les mêmes différenciateurs (les « sans X », les « plus vite ») chez plein de marques, il devient plus malin.",
+"pourquoi": "Il ne prend plus les grandes promesses pour argent comptant. Il lit les étiquettes, il cherche sur Google.",
+"action": "Si tes concurrents ont tous les mêmes « sans X », ajoute le comment : ton mécanisme."
+},
+"explication": "Tiana : le chercheur ne veut plus seulement savoir que tu peux régler son problème, il veut savoir comment. Promesses, amplificateurs et différenciateurs ne suffisent plus. Il te faut un récit convaincant sur la façon dont tu règles son problème mieux que les autres.",
+"variantes": [
+{
+"q": "Selon Tiana, comment se comporte un client au stade 3 (le chercheur) ?",
+"choix": [
+"Il lit les étiquettes et cherche sur Google",
+"Il achète la première promesse qu'il voit",
+"Il ne croit plus que c'est possible pour lui",
+"Il attend juste une promo pour commander"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il lit les étiquettes, il cherche sur Google : il devient critique envers tes pubs."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S010] [I027] [R038] [I028] [R039] [I029] [R040] [I030] [R041] [I031] [R042] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S010] [I021] [R025] [I022] [R026] [R027] [I024] [R029]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1049
+},
+{
+"id": "copy-soph-029",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "« J'ai testé l'astuce anti-ballonnement de Hailey Bieber. » Selon Tiana, quel type de preuve cette accroche utilise-t-elle ?",
+"choix": [
+"L'autorité empruntée à une célébrité",
+"La démonstration du produit en direct",
+"Le nombre de clients qui l'utilisent",
+"Une étude scientifique montrée à l'écran"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'autorité empruntée à une célébrité.",
+"pourquoi": "Tiana : tu peux montrer à l'écran des études ou des rapports crédibles, ou emprunter l'autorité d'une célébrité. Autre exemple : « la styliste de Hailey Bieber a trouvé ça dans son sac ».",
+"action": "Pour un sceptique, cherche qui ton client croit déjà : une étude, un expert, une personne connue."
+},
+"explication": "Ces éléments servent au stade 4, le sceptique. Selon Tiana, ils ont tous le même but : monter la confiance et baisser le scepticisme.",
+"variantes": [
+{
+"q": "Selon Tiana, pourquoi dire à un sceptique combien de clients utilisent déjà ton produit ?",
+"choix": [
+"Pour déclencher l'effet de troupeau",
+"Pour justifier un prix plus élevé",
+"Pour expliquer comment le produit marche",
+"Pour créer de l'urgence avant la fin du stock"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Pour déclencher l'effet de troupeau (on suit ce que font beaucoup de gens)."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre)",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S014] [I043] [R056] [I046] [R059] [I047] [R060]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1050
+},
+{
+"id": "copy-soph-030",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Nick Tero, avec quels deux autres outils combine-t-il la sophistication pour faire grandir les comptes publicitaires ?",
+"choix": [
+"Le désir et la conscience (awareness)",
+"Le prix et la garantie de l'offre",
+"Le format et la durée de la vidéo",
+"Le budget et le ciblage par âge"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le désir et la conscience (awareness).",
+"pourquoi": "Nick : c'est la stratégie qu'il utilise sur tous ses comptes, avec le désir et la conscience, pour faire grandir des pubs Facebook jusqu'à 30 000 $ par jour.",
+"action": "Pour chaque pub, note trois choses : le désir visé, le niveau de conscience, le stade de sophistication."
+},
+"explication": "Pour Nick, la sophistication sert d'abord à garder un temps d'avance sur les concurrents. Elle ne remplace ni le désir ni la conscience : il l'utilise avec eux.",
+"variantes": [
+{
+"q": "Nick Tero n'utilise pas la sophistication seule. Avec quoi la combine-t-il sur tous ses comptes ?",
+"choix": [
+"Le budget et le ciblage par âge",
+"Le format et la durée de la vidéo",
+"Le désir et la conscience (awareness)",
+"Le prix et la garantie de l'offre"
+],
+"bonne": 2,
+"r": {
+"verdict": "💡 Le désir et la conscience (awareness)."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S001] [I001] [R009] [I002] [R010]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1051
+},
+{
+"id": "copy-soph-031",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Nick Tero, que veut dire « affirmer la promesse » au stade 1 ?",
+"choix": [
+"Dire ce que fait le produit : bénéfice, problème, désir",
+"Dire comment le produit marche, étape par étape",
+"Montrer des preuves que le produit a marché",
+"Dire pour quel groupe précis de clients le produit est fait"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Dire juste ce que fait le produit : le bénéfice, le problème ou le désir.",
+"pourquoi": "Exemples de Nick : « perdre du poids », « en finir avec l'anxiété », « dégonfler », « comment faire grandir tes pubs Facebook ». Rien de plus.",
+"action": "Écris ta promesse de base en 3 à 5 mots, sans chiffre ni mécanisme."
+},
+"explication": "Nick : au stade 1, la pub ne parle ni de vitesse, ni de taille, ni de nouveau mécanisme. Elle affirme la promesse, c'est tout. C'est aussi cette promesse de base que tu tapes dans la bibliothèque publicitaire.",
+"variantes": [
+{
+"q": "« Le jour où j'ai dit au revoir à l'anxiété. » Selon Nick Tero, que fait cette pub ?",
+"choix": [
+"Elle affirme juste la promesse (stade 1)",
+"Elle exagère la promesse par la vitesse",
+"Elle présente un nouveau mécanisme",
+"Elle vise une sous-niche précise"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle affirme juste la promesse : c'est du stade 1."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S004] [I006] [R015] ; [S008] [Q004] [R004] [I015] [R028]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1052
+},
+{
+"id": "copy-soph-032",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comprendre les stades de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Nick Tero, où s'applique la sophistication, en plus des pubs Facebook ?",
+"choix": [
+"Au contenu organique (les posts non payés)",
+"Seulement aux pubs Google et TikTok",
+"Seulement aux pages produit du site",
+"Aux emails envoyés juste après un achat"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 À tout, y compris au contenu organique (les posts non payés).",
+"pourquoi": "Nick : « ça peut s'appliquer à n'importe quoi ». Il le dit en parlant du stade 1.",
+"action": "Passe aussi tes posts gratuits à la même question : à quel stade est mon message ? (déduction, tirée de la phrase de Nick)"
+},
+"explication": "La sophistication parle du message, pas du support payant ou gratuit. Nick le dit en une phrase : ce n'est pas que pour les pubs Facebook, c'est aussi pour le contenu organique.",
+"variantes": [
+{
+"q": "Nick Tero dit que la sophistication ne s'arrête pas aux pubs Facebook. À quoi d'autre l'applique-t-il ?",
+"choix": [
+"Seulement aux pages produit de ton site web",
+"Au contenu organique (les posts non payés)",
+"Seulement aux pubs Google et aux pubs TikTok",
+"Aux emails envoyés juste après un achat"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Au contenu organique (les posts non payés), et à tout le reste."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S009] [I018] [R031]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1053
+},
+{
+"id": "copy-soph-033",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Nick Tero, quel ton prend une pub de stade 1 ?",
+"choix": [
+"Plus éducatif : on explique",
+"Plus comparatif : on bat les autres",
+"Plus intime : on parle d'identité",
+"Plus pressant : on crée l'urgence"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Un ton bien plus éducatif.",
+"pourquoi": "Nick : le stade 1 sera bien plus éducatif, alors que le stade 4 se concentre sur ce qui rend ton produit meilleur que tous les autres.",
+"action": "Relis ta pub : son ton colle-t-il à son stade ?"
+},
+"explication": "Pour Nick, le stade change aussi le ton de toute la pub, pas seulement le titre. Son exemple des leggings : au stade 4, on montre ce qui les rend meilleurs que les autres leggings du marché.",
+"variantes": [
+{
+"q": "Selon Nick Tero, sur quoi se concentre le ton d'une pub de stade 4 ?",
+"choix": [
+"Ce qui rend ton produit meilleur que les autres",
+"L'explication simple du problème du client",
+"Le groupe précis à qui le produit s'adresse",
+"La promesse de base, dite sans rien ajouter"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Ce qui rend ton produit meilleur que tous les autres du marché."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S020] [I056] [R074]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1054
+},
+{
+"id": "copy-soph-034",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Trouver le stade de sophistication de son marché",
+"niveau": 1,
+"type": "qcm",
+"q": "Tu ne sais pas à quel stade de sophistication est ton marché. Selon Nick Tero, que fais-tu ?",
+"choix": [
+"Tu testes quelques stades et tu gardes ce qui marche",
+"Tu écris au stade 1 par défaut, c'est le plus simple",
+"Tu écris au stade 5, le plus loin, pour être sûr",
+"Tu attends d'avoir plus de clients pour décider"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Tu testes quelques stades différents et tu gardes celui qui marche le mieux.",
+"pourquoi": "Nick termine sa vidéo par ce conseil : teste, et regarde ce qui marche.",
+"action": "Lance 2 ou 3 pubs de stades différents sur la même promesse, et compare."
+},
+"explication": "Avant de tester, Nick conseille de chercher : écrire ta promesse de base, la taper dans la bibliothèque publicitaire et regarder les pubs qui tournent depuis longtemps. Le test sert quand tu ne sais toujours pas.",
+"variantes": [
+{
+"q": "Selon Nick Tero, que faire quand tu ignores encore le stade de ton marché ?",
+"choix": [
+"Tu écris au stade 5, le plus loin, pour être sûr",
+"Tu testes quelques stades et tu gardes ce qui marche",
+"Tu écris au stade 1 par défaut, c'est le plus simple",
+"Tu attends d'avoir plus de clients pour décider"
+],
+"bonne": 1,
+"r": {
+"verdict": "💡 Tu testes quelques stades et tu gardes ce qui marche le mieux."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S020] [I057] [R075] ; [S015] [I041] [R057]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1055
+},
+{
+"id": "copy-soph-035",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 2,
+"type": "si-alors",
+"q": "Titre : « 10 g de protéines en 30 secondes ». Sous-titre : « Pas de mixeur, pas de préparation, pas de vaisselle. » Selon Tiana, que fait ce sous-titre ?",
+"qcm": {
+"choix": [
+"Il lève plusieurs objections en quelques mots",
+"Il explique le mécanisme scientifique du produit",
+"Il donne une preuve sociale avec des chiffres",
+"Il vise une sous-niche de sportifs précise"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il lève plusieurs objections et crée beaucoup de différence, en deux lignes.",
+"pourquoi": "Tiana : la pub promet le même bénéfice qu'un shake protéiné, mais plus vite et avec moins de corvées. Elle aide l'explorateur à séparer cette solution de toutes celles qu'il connaît.",
+"action": "Liste les corvées des solutions que ton client connaît, puis écris un sous-titre « pas de X, pas de Y, pas de Z »."
+},
+"explication": "Le titre fait la promesse (10 g de protéines) avec un amplificateur (en 30 secondes). Le sous-titre ajoute les différenciateurs. C'est la recette du stade 2 : la même promesse, plus vite, et sans les défauts redoutés.",
+"variantes": [
+{
+"q": "Une pub de boisson protéinée ajoute : « Pas de mixeur, pas de préparation, pas de vaisselle. » Selon Tiana, à quel client parle surtout cette phrase ?",
+"qcm": {
+"choix": [
+"À l'explorateur, qui compare déjà les solutions",
+"Au débutant, qui n'a encore rien cherché du tout",
+"Au désespéré, qui ne croit plus à aucune solution",
+"Au client qui veut juste une réduction"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À l'explorateur (stade 2) : il connaît d'autres façons d'avoir ses protéines, la pub l'aide à les départager.",
+"pourquoi": "Tiana : cette pub rejoint l'explorateur là où il en est, en train de choisir la meilleure façon d'avoir ses 10 g de protéines.",
+"action": "Pour un explorateur, nomme ce qu'il reproche aux autres solutions."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre)",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S009] [I025] [R036] [I026] [R037]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1056
+},
+{
+"id": "copy-soph-036",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "Pub de créatine Tone : « Quand tu prends de la créatine, elle ne va pas que dans tes muscles. Elle va aussi dans ton cerveau, stockée comme carburant de secours. » Selon Tiana, que représente cette phrase ?",
+"qcm": {
+"choix": [
+"Le mécanisme qui soutient la promesse",
+"La promesse de base, sans explication",
+"Une preuve sociale tirée d'un avis client",
+"Un différenciateur : plus facile à prendre"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le mécanisme : il explique comment la créatine aide ton cerveau.",
+"pourquoi": "Tiana : la promesse est « la créatine est bonne pour ton cerveau ». Cette phrase est le mécanisme simple qui soutient la promesse.",
+"action": "Sous ta promesse, ajoute une phrase qui dit où va le produit et ce qu'il y fait."
+},
+"explication": "La pub commence par : « Pour tous ceux qui pensent que la créatine, c'est juste pour les fous de muscu, je suis là pour vous dire que non. » Elle se distingue aussi par la forme : plus facile, meilleure au goût et plus pratique que la créatine classique.",
+"variantes": [
+{
+"q": "Statique : « La masse musculaire baisse de 3 à 8 % après 30 ans. Il est prouvé que la créatine la maintient. » Selon Tiana, quel élément cette pub met-elle en avant ?",
+"qcm": {
+"choix": [
+"Un mécanisme simple, en deux phrases",
+"Une promesse exagérée par la vitesse",
+"Une preuve par un avis de client",
+"Une identité : les plus de 30 ans"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un mécanisme simple : ce qui se passe (le muscle baisse après 30 ans), puis ce que fait la créatine.",
+"pourquoi": "Tiana : ces exemples exposent le comment et aident le chercheur à faire ce qu'il veut, chercher.",
+"action": "Un mécanisme peut tenir sur un statique : deux phrases, un problème puis une réponse."
+}
+}
+],
+"source": "Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre)",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S011] [Q004] [R004] [R005] [I032] [R043] [I033] [R044] [I034] [R045] ; [S012] [I037] [R049] [I038] [R051]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1057
+},
+{
+"id": "copy-soph-037",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "« Tu as la peau sensible, mais tu ne peux pas éviter les ingrédients synthétiques ? » Selon Tiana, quel stade de sophistication vise cette accroche ?",
+"qcm": {
+"choix": [
+"Stade 2 : promesse et différence avec les autres",
+"Stade 1 : la promesse simple, sans plus",
+"Stade 3 : un mécanisme qui explique le comment",
+"Stade 5 : la croyance du client à casser"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 2 (l'explorateur) : la pub promet, et se distingue en réglant le problème mieux que les concurrents.",
+"pourquoi": "Tiana : ces pubs se différencient par leur façon de régler le problème, ici 100 % naturel, sans ingrédients synthétiques.",
+"action": "Trouve ce que ton client reproche aux solutions qu'il connaît, et fais-en ton « sans X »."
+},
+"explication": "Autre exemple de Tiana au même stade : « Enfin, un pain hydratant vraiment naturel. » L'explorateur sait que plusieurs solutions existent ; il n'a pas encore été déçu. La pub lui donne une raison de choisir celle-ci.",
+"variantes": [
+{
+"q": "« Enfin, un pain de savon hydratant vraiment naturel. » Selon Tiana, comment cette pub se distingue-t-elle des concurrents ?",
+"qcm": {
+"choix": [
+"Par sa façon de régler le problème : 100 % naturel",
+"Par un prix plus bas que les autres savons",
+"Par une démonstration du savon en direct",
+"Par un expert dermatologue qui le conseille à tous"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Par sa façon de régler le problème : 100 % naturel, sans ingrédients synthétiques.",
+"pourquoi": "C'est un différenciateur de stade 2 : même promesse, mais mieux que les autres.",
+"action": "Dis en quoi ta façon de régler le problème est meilleure, en une phrase."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S009] [Q003] [R003] [I016] [R020] [I019] [R023] [I020] [R024]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1058
+},
+{
+"id": "copy-soph-038",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "Une pub explique comment son savon nettoie la peau sensible : la saponification et 98 % d'ingrédients naturels, au lieu des sulfates et des parabènes. Selon Tiana, quel stade vise-t-elle ?",
+"qcm": {
+"choix": [
+"Stade 3 : le chercheur, qui lit les étiquettes",
+"Stade 1 : le débutant, sans méfiance",
+"Stade 2 : l'explorateur, qui compare les promesses",
+"Stade 5 : le désespéré, qui se croit le problème"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 3 (le chercheur) : la pub détaille comment le produit règle le problème.",
+"pourquoi": "Tiana : ces pubs exposent le comment et aident le chercheur à faire ce qu'il veut, chercher et comparer. Elles le rapprochent de l'achat.",
+"action": "Pour un chercheur, montre tes ingrédients exacts et ce que chacun fait pour régler le problème."
+},
+"explication": "La même pub ajoute des tests par des dermatologues pour s'assurer que le savon est assez doux. Autre exemple de Tiana : une pub qui montre les ingrédients exacts de chaque pain de savon, et comment ils règlent le problème.",
+"variantes": [
+{
+"q": "Une pub montre les ingrédients exacts de chaque pain de savon, et comment chacun règle le problème. Selon Tiana, à qui parle-t-elle ?",
+"qcm": {
+"choix": [
+"Au chercheur, qui veut comparer",
+"Au débutant, qui découvre son problème",
+"Au désespéré, qui a tout essayé",
+"Au client qui attend une promo"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Au chercheur (stade 3) : la pub lui donne le comment, pour qu'il compare.",
+"pourquoi": "Tiana : ces pubs aident le chercheur à comparer les options.",
+"action": "Pour un chercheur, rends tes ingrédients visibles et explique leur rôle."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S011] [I025] [R030] [I027] [R032] [I028] [R033]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1059
+},
+{
+"id": "copy-soph-039",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 2,
+"type": "scénario",
+"q": "Une pub de déodorant naturel montre un utilisateur de Reddit qui demande un conseil, et un dermatologue qui lui répond. Selon Tiana, quel type de preuve est-ce ?",
+"qcm": {
+"choix": [
+"L'avis d'un expert, dans une conversation",
+"Une démonstration du produit qui marche",
+"Une preuve par le nombre d'avis 5 étoiles",
+"Un avant/après en photos du résultat"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La crédibilité d'un expert : le dermatologue explique pourquoi ce déodorant est le meilleur choix.",
+"pourquoi": "Tiana range cette pub parmi les preuves du stade 4, pour baisser la méfiance du sceptique.",
+"action": "Mets en scène une vraie question de client, et fais répondre un expert que ton public croit."
+},
+"explication": "Les autres preuves de la même liste chez Tiana : une démonstration suivie de « la marque de savon qui grandit le plus vite aux États-Unis », 10 000 avis cinq étoiles, trois vrais avis, les infos qui parlent du savon, et des UGC (vidéos de vrais clients).",
+"variantes": [
+{
+"q": "Une pub de savon montre un reportage des infos : « les hommes deviennent fous de ce savon ». Selon Tiana, à quoi sert ce passage ?",
+"qcm": {
+"choix": [
+"À montrer une source crédible : les médias",
+"À expliquer le mécanisme du savon",
+"À créer l'urgence avant une rupture",
+"À viser une sous-niche d'hommes précise"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À montrer une source crédible (les infos) : c'est une preuve pour le sceptique.",
+"pourquoi": "Tiana : tous ces éléments cherchent à monter la confiance et à baisser le scepticisme.",
+"action": "Si un média a parlé de ton produit, montre-le dans ta pub."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S013] [I034] [R039] [I035] [R040] [I036] [R041] [I037] [R042] [I038] [R043]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1060
+},
+{
+"id": "copy-soph-040",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 2,
+"type": "scénario",
+"q": "Ton client au stade 5 croit que se débarrasser de la peau sèche, c'est forcément dur. Selon Tiana, quel angle utilise une de ses pubs d'exemple ?",
+"qcm": {
+"choix": [
+"L'angle à contre-courant : il conteste cette croyance",
+"L'angle preuve : des avis et un expert dermatologue",
+"L'angle mécanisme : comment le savon hydrate",
+"L'angle promo : une réduction pour essayer"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 L'angle à contre-courant (contrarian) : la pub conteste la croyance « c'est dur de se débarrasser de la peau sèche ».",
+"pourquoi": "Au stade 5, Tiana dit d'oublier les promesses, le mécanisme et les preuves : il faut aller plus profond et défier les croyances du client.",
+"action": "Écris la croyance de ton client en une phrase, puis une accroche qui dit le contraire."
+},
+"explication": "Autres exemples de Tiana au stade 5 : « ce n'est pas ta faute, tu as la peau sensible, c'est pour ça que tu es toujours rouge et sec », et une pub qui dit qu'on n'a pas besoin de changer de tee-shirt après la salle, car il existe une réponse à l'odeur. Attention : la matrice de Tiana (image) garde au stade 5 la promesse, le mécanisme et les preuves, et ajoute l'espoir. Le coffre ne tranche pas : cite ta source.",
+"variantes": [
+{
+"q": "« Pas besoin de changer de tee-shirt après la salle : il existe une réponse à ton odeur. » Selon Tiana, à quel stade de sophistication est cette pub ?",
+"qcm": {
+"choix": [
+"Stade 5 : défier une croyance du client",
+"Stade 1 : une promesse simple et directe",
+"Stade 3 : le mécanisme expliqué en détail",
+"Stade 4 : des preuves et un expert"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 5 : elle défie une croyance du client (il faudrait forcément se changer).",
+"pourquoi": "Tiana la cite parmi ses exemples de stade 5, où l'on parle d'identité et de croyances.",
+"action": "Pour un client désespéré, attaque sa croyance, pas son problème."
+}
+}
+],
+"source": "Tiana – vidéo « les 5 stades de sophistication, stratégies et formats »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S014] [I043] [R048] [I044] [R049] [I045] [R050] [I046] [R051]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1061
+},
+{
+"id": "copy-soph-041",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "« Tu as des cicatrices d'acné, des taches et de la pigmentation ? » La pub nomme ces gens, présente une solution, puis le produit. Selon Nick Tero, quel stade est-ce ?",
+"qcm": {
+"choix": [
+"Stade 1 : on affirme juste la promesse",
+"Stade 2 : on exagère la promesse",
+"Stade 3 : on présente un nouveau mécanisme",
+"Stade 5 : on vise une sous-niche"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 1 : même en nommant les gens et la solution, la pub affirme juste la promesse.",
+"pourquoi": "Nick se pose trois questions : parle-t-elle de vitesse ? De taille ? D'un nouveau mécanisme ? Non. Elle affirme la promesse, c'est tout.",
+"action": "Pour classer une pub, pose les 3 questions de Nick : vitesse, taille, nouveau mécanisme ?"
+},
+"explication": "Autres pubs de stade 1 chez Nick : « Hé, tu te sens anxieux ? », « Débordé avant d'embarquer dans un avion ? ». Nommer le problème sous forme de question ne fait pas monter de stade.",
+"variantes": [
+{
+"q": "« Débordé avant d'embarquer dans un avion ? » Selon Nick Tero, quel stade de sophistication est cette accroche ?",
+"qcm": {
+"choix": [
+"Stade 1 : on affirme juste la promesse",
+"Stade 2 : on exagère par la vitesse",
+"Stade 4 : on améliore un mécanisme",
+"Stade 5 : on vise les voyageurs"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 1 : elle nomme le problème, sans vitesse, sans taille, sans nouveau mécanisme.",
+"pourquoi": "Nick la cite parmi ses exemples de stade 1, sur l'anxiété.",
+"action": "Une question sur le problème ne suffit pas à changer de stade."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S008] [Q004] [R004] [Q005] [R005] [Q006] [R006] [I016] [R029]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1062
+},
+{
+"id": "copy-soph-042",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "Nick Tero écrit d'abord « stratégie IA pour faire grandir tes pubs Facebook jusqu'à 10 000 $ par jour », puis « stratégie IA à bas coût pour… ». Quel stade est la 2e version ?",
+"qcm": {
+"choix": [
+"Stade 4 : le même mécanisme, en mieux",
+"Stade 3 : un tout nouveau mécanisme",
+"Stade 2 : la promesse, en plus gros",
+"Stade 5 : une sous-niche précise"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 4 : le même mécanisme (la stratégie IA), rendu meilleur (moins cher).",
+"pourquoi": "Nick : au stade 4, on fait pareil qu'au stade 3, avec le même mécanisme, mais en mieux que l'original.",
+"action": "Si ton concurrent a déjà ton mécanisme, garde-le et ajoute ce qui le rend meilleur."
+},
+"explication": "Toute l'échelle de Nick sur une seule promesse : stade 1 « comment faire grandir tes pubs Facebook » ; stade 2 « … jusqu'à 10 000 $ par jour » ; stade 3 « stratégie IA pour… » ; stade 4 « stratégie IA à bas coût pour… » ; stade 5 « … pour les marques e-commerce ».",
+"variantes": [
+{
+"q": "Promesse de base : « comment faire grandir tes pubs Facebook ». Nick Tero écrit « … pour les marques e-commerce ». Quel stade est-ce ?",
+"qcm": {
+"choix": [
+"Stade 5 : une identité, une sous-niche",
+"Stade 2 : la promesse, en plus gros",
+"Stade 3 : un tout nouveau mécanisme",
+"Stade 1 : la promesse de base"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 5 : il ne vend plus à tout le monde, mais à un groupe précis.",
+"pourquoi": "Nick : on se démarque parce qu'on ne vend plus à n'importe qui, mais à une personne précise.",
+"action": "Choisis un groupe précis de ton marché et écris pour lui seul."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S004] [I014] [R023] [R024] ; [S005] [I012] [R021] [R025] [R026] ; [S006] [I013] [R022] [R027]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1063
+},
+{
+"id": "copy-soph-043",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 3,
+"type": "piège",
+"q": "« Maigris à ta façon… avec le programme complet. » Le produit n'a rien de vraiment neuf. Selon Nick Tero, comment cette pub joue-t-elle quand même le stade 3 ?",
+"qcm": {
+"choix": [
+"Elle suggère l'idée d'un nouveau mécanisme, par ses mots",
+"Elle exagère la promesse par la taille du résultat",
+"Elle montre des preuves pour compenser le manque",
+"Elle vise une sous-niche pour éviter la comparaison"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle suggère l'idée d'un nouveau mécanisme : « à ta façon » laisse entendre qu'après les autres, celle-ci est faite pour toi.",
+"pourquoi": "Nick : ce n'est pas forcément qu'on présente un nouveau mécanisme, on amène à l'idée d'un nouveau mécanisme.",
+"action": "Si ton produit n'est pas nouveau, cherche des mots qui disent « une autre façon, faite pour toi »."
+},
+"explication": "Nick rapproche « à ta façon » du slogan de Burger King, sans en être sûr. Les gens ont essayé d'autres solutions minceur, et celle-ci semble taillée pour leurs besoins.",
+"variantes": [
+{
+"q": "Ton produit minceur n'a rien de vraiment neuf, mais ton marché est au stade 3 (il a déjà essayé d'autres façons). Selon Nick Tero, que peux-tu faire avec tes mots ?",
+"qcm": {
+"choix": [
+"Suggérer une nouvelle façon de maigrir, faite pour lui",
+"Promettre deux fois plus de kilos perdus que les autres",
+"Afficher plus d'avis clients que tes concurrents",
+"Viser une seule sous-niche, comme les seniors"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Suggérer l'idée d'une nouvelle façon : « la perte de poids à ta façon… avec le programme complet ».",
+"pourquoi": "Nick : on n'introduit pas vraiment un nouveau mécanisme, on amène juste l'idée d'un nouveau mécanisme, par la formulation.",
+"action": "Cherche des mots qui disent « une autre façon, faite pour toi »."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S011] [I025] [R040]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1064
+},
+{
+"id": "copy-soph-044",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 2,
+"type": "scénario",
+"q": "« Lifting du cou sans chirurgie. » Selon Nick Tero, pourquoi les mots « sans chirurgie » comptent-ils autant ?",
+"qcm": {
+"choix": [
+"Ces gens veulent déjà un lifting du cou, sans opération",
+"Ils rassurent les médecins qui partagent cette pub en ligne",
+"Ils évitent que Meta refuse la pub pour raison médicale",
+"Ils font baisser le prix perçu du traitement"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ces gens cherchent déjà à améliorer leur cou ; ils ne veulent juste pas d'opération.",
+"pourquoi": "Nick range cette pub dans ses exemples de stade 3 : une nouvelle façon d'obtenir ce qu'ils veulent, sans ce qu'ils refusent.",
+"action": "Trouve ce que ton client refuse dans la solution connue, et propose le même résultat sans ça."
+},
+"explication": "Le client connaît déjà la solution (le lifting). Ce qui le bloque, c'est l'opération. « Sans chirurgie » lui ouvre une nouvelle porte vers le même résultat. Même idée chez Nick avec « une alternative sans médicament contre le stress ». Attention : chez Tiana, un « sans X » est un différenciateur du stade 2 ; Nick range ces exemples au stade 3. Cite ta source.",
+"variantes": [
+{
+"q": "Ton client veut déjà un résultat, mais refuse le moyen connu pour l'obtenir. D'après l'exemple du lifting du cou de Nick Tero, que propose ta pub ?",
+"qcm": {
+"choix": [
+"Le même résultat, sans le moyen qu'il refuse",
+"Le moyen connu, mais avec plus de preuves",
+"Un résultat plus gros, avec le même moyen",
+"Une réduction sur le moyen qu'il refuse"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le même résultat, sans le moyen qu'il refuse (ici : sans opération).",
+"pourquoi": "C'est une nouvelle façon d'arriver au même désir : un mécanisme de stade 3 chez Nick.",
+"action": "Écris : « [le résultat voulu], sans [ce qu'il refuse] »."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S012] [Q007] [R007] ; [S011] [I026] [R041] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S009] [I022] [R033]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1065
+},
+{
+"id": "copy-soph-045",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Relier awareness, hook et page",
+"niveau": 2,
+"type": "si-alors",
+"q": "Une pub s'appuie sur une figure d'autorité, dit « Tes poignées d'amour te rendent fou ? », puis présente un nouveau mécanisme qui fait perdre 14 livres. Selon Nick Tero, vers quelle page l'envoies-tu ?",
+"qcm": {
+"choix": [
+"Vers un advertorial (un article qui vend)",
+"Vers ta page d'accueil générale",
+"Vers une page de paiement directe",
+"Vers la page de ton compte Instagram ou TikTok"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Vers un advertorial (une page qui ressemble à un article et qui vend).",
+"pourquoi": "Nick : cette pub combine un angle d'autorité, le désir (les poignées d'amour) et un nouveau mécanisme ; elle irait très bien vers un advertorial.",
+"action": "Quand ta pub annonce un nouveau mécanisme, prévois une page qui a la place de l'expliquer (déduction)."
+},
+"explication": "Ordre de la pub selon Nick : l'autorité, puis le désir, puis le nouveau mécanisme. Un nouveau mécanisme demande une explication, et l'advertorial a la place de la donner (déduction).",
+"variantes": [
+{
+"q": "Dans l'exemple de stade 3 de Nick Tero sur les poignées d'amour, dans quel ordre la pub place-t-elle ses éléments ?",
+"qcm": {
+"choix": [
+"Autorité, puis désir, puis nouveau mécanisme",
+"Nouveau mécanisme, puis preuve, puis prix",
+"Désir, puis prix, puis témoignage client",
+"Preuve, puis autorité, puis promesse simple"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Autorité, puis désir (« tes poignées d'amour te rendent fou ? »), puis le nouveau mécanisme.",
+"pourquoi": "Nick la cite parmi ses exemples de stade 3.",
+"action": "Teste cet ordre quand tu as un expert et un mécanisme nouveau."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S012] [I028] [R043] [I029] [R044]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1066
+},
+{
+"id": "copy-soph-046",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 2,
+"type": "scénario",
+"q": "« La femme la plus impatiente a testé ça. » Selon Nick Tero, comment cette pub de stade 5 choisit-elle son groupe ?",
+"qcm": {
+"choix": [
+"Par un trait de caractère, pas par le physique",
+"Par l'âge, comme les seniors ou les jeunes",
+"Par un état du corps, comme la grossesse",
+"Par le métier, comme les infirmières"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Par un trait de caractère : la façon dont ces femmes se voient elles-mêmes.",
+"pourquoi": "Nick aime cette pub car elle ne cite pas une caractéristique physique, comme les femmes enceintes. Elle vise une identité.",
+"action": "Liste les traits que ton client revendique, et teste une pub par trait."
+},
+"explication": "Autre exemple de Nick : « Les femmes très ambitieuses prennent ça. » Il le dit lui-même : ces pubs visent des sous-groupes de femmes selon la façon dont elles s'identifient.",
+"variantes": [
+{
+"q": "« Les femmes très ambitieuses prennent ça. » Selon Nick Tero, quel stade de sophistication joue cette pub ?",
+"qcm": {
+"choix": [
+"Stade 5 : une identité précise",
+"Stade 2 : une promesse plus grosse",
+"Stade 3 : un nouveau mécanisme",
+"Stade 4 : un mécanisme meilleur"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 5 : elle vise une identité, des femmes qui se voient comme ambitieuses.",
+"pourquoi": "Nick : elles appellent des sous-groupes de femmes par la façon dont elles s'identifient.",
+"action": "Une identité peut être un trait de caractère, pas seulement un âge ou un état du corps."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S014] [I040] [R055] [R056]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1067
+},
+{
+"id": "copy-soph-047",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Écrire pour chaque stade de sophistication",
+"niveau": 2,
+"type": "scénario",
+"q": "Une marque prend des leggings et les fabrique pour les femmes enceintes. Selon Nick Tero, que fait-elle ?",
+"qcm": {
+"choix": [
+"Elle montre le stade 5 par le produit, pas par les mots",
+"Elle exagère la promesse par la taille du produit",
+"Elle invente un mécanisme pour le stade 3",
+"Elle coupe la pub pour viser les magasins"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle joue le stade 5 avec le produit : au lieu de le dire, elle le montre par le vêtement.",
+"pourquoi": "Nick : on peut utiliser les stades de sophistication pour fabriquer des vêtements propres à chaque stade.",
+"action": "Si ton produit peut être adapté à un groupe précis, adapte le produit, pas seulement la pub."
+},
+"explication": "Nick insiste auprès des marques de vêtements : elles croient que leurs habits ne peuvent pas faire de réponse directe (une pub qui fait acheter tout de suite). Pour lui, c'est complètement faux.",
+"variantes": [
+{
+"q": "Selon Nick Tero, quelle croyance des marques de vêtements est complètement fausse ?",
+"qcm": {
+"choix": [
+"Leurs habits ne peuvent pas faire de réponse directe",
+"Leurs habits doivent toujours être soldés pour vendre",
+"Leurs pubs doivent montrer des mannequins connus",
+"Leurs pubs marchent mieux sans aucun texte"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Croire que leurs vêtements ne peuvent pas faire de réponse directe (une pub qui fait acheter tout de suite).",
+"pourquoi": "Son exemple : des leggings faits pour les femmes enceintes, un produit construit pour un stade.",
+"action": "Même pour un produit « image », cherche le stade, puis adapte la pub ou le produit."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S014] [I037] [R052] [I038] [R053] [I039] [R054]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1068
+},
+{
+"id": "copy-soph-048",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Trouver le stade de sophistication de son marché",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Ton marché a plein de mécanismes (stade 3), et tout le monde pousse le même que toi. Selon Nick Tero, que dois-tu faire pour rivaliser ?",
+"qcm": {
+"choix": [
+"Créer une toute nouvelle façon d'y arriver",
+"Pousser le même mécanisme, mais plus fort",
+"Revenir à la promesse simple du stade 1",
+"Copier la pub du concurrent qui tourne"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Développer une stratégie toute nouvelle : un nouveau mécanisme.",
+"pourquoi": "Nick : si tout le monde vend des pubs Facebook, il doit développer une stratégie de pub Facebook toute nouvelle pour rivaliser.",
+"action": "Liste les mécanismes de tes concurrents. Si le tien est le même, cherche une nouvelle façon d'obtenir le résultat."
+},
+"explication": "Autre cas chez Nick : si ton produit est un mécanisme que personne ne pousse sur cette promesse, alors que d'autres mécanismes existent, présente-le comme nouveau. Exemple : vendre des pubs Facebook quand tous les autres vendent Google ou TikTok.",
+"variantes": [
+{
+"q": "Selon Nick Tero, pourquoi sa chaîne YouTube a-t-elle décollé ?",
+"qcm": {
+"choix": [
+"Il a apporté un nouveau mécanisme, une nouvelle croyance",
+"Il a publié plus de vidéos que les autres chaînes",
+"Il a fait des promesses plus grosses que les autres",
+"Il a visé une sous-niche de très gros annonceurs"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tout le monde faisait pareil ; lui a apporté un nouveau mécanisme (une seule campagne CBO, budget géré au niveau de la campagne, et les bases du marketing).",
+"pourquoi": "Nick : c'est une nouvelle croyance, celle qu'on peut réussir avec Facebook en maîtrisant ce qu'on n'avait pas encore maîtrisé.",
+"action": "Un nouveau mécanisme, c'est aussi une nouvelle raison de croire que c'est possible."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S018] [I049] [R067] [I050] [R068] [I051] [R069]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1069
+},
+{
+"id": "copy-soph-049",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comparer Tiana et Nick Tero sur la sophistication",
+"niveau": 3,
+"type": "piège",
+"q": "Une pub nomme le « cou de dinde » (la peau qui pend), montre un avant/après, puis la solution. Quel stade lui donne Nick Tero, et où Tiana range-t-elle l'avant/après ?",
+"qcm": {
+"choix": [
+"Nick : stade 1. Tiana : l'avant/après est un format du stade 4",
+"Nick : stade 4. Tiana : l'avant/après est un format du stade 4",
+"Nick : stade 1. Tiana : l'avant/après est un format du stade 1",
+"Nick : stade 3. Tiana : l'avant/après est un format du stade 3"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Nick la range au stade 1 (elle affirme la promesse). Chez Tiana, l'avant/après fait partie des formats de preuve du stade 4.",
+"pourquoi": "Nick classe par le message : ni vitesse, ni taille, ni nouveau mécanisme. Tiana classe les formats selon la méfiance du persona.",
+"action": "Ne classe jamais une pub sur son seul format : regarde d'abord ce qu'elle promet et comment (déduction, tirée de l'écart entre les deux sources)."
+},
+"explication": "Les deux sources ne se contredisent pas forcément : un format de preuve peut servir une simple promesse (déduction). La grille de la carte de synthèse sépare d'ailleurs le stade de la pièce (promesse, mécanisme, preuves) et le format (question 15).",
+"variantes": [
+{
+"q": "Pour Nick Tero, qu'est-ce qui décide du stade de sophistication d'une pub ?",
+"qcm": {
+"choix": [
+"Son message : promesse, taille, vitesse, mécanisme",
+"Son format : vidéo, statique, avant/après",
+"Sa durée : plus elle est longue, plus le stade monte",
+"Son budget : plus il est gros, plus le stade monte"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Son message. Nick : changer de format sans changer de message, c'est toujours dire la même chose.",
+"pourquoi": "Il classe la pub du cou de dinde au stade 1, malgré son avant/après.",
+"action": "Pour classer une pub, lis ce qu'elle dit avant de regarder sa forme."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook » ; Tiana – vidéo « les 5 stades de sophistication, stratégies et formats » ; Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S009] [I017] [R030] ; [S003] [I004] [R013] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 02 Tiana 5 stades formats par stade - INDEX.md [S013] [I039] [R044] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S014] [I044] [R057] ; Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 7, questions 7, 8 et 15)",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1070
+},
+{
+"id": "copy-soph-050",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 3,
+"type": "piège",
+"q": "Nick Tero présente l'exemple « 61 livres de moins, jamais faim une minute » et dit ne pas être d'accord avec lui. Que lui reproche-t-il ?",
+"qcm": {
+"choix": [
+"Il ne redit plus « maigrir », il donne juste un chiffre",
+"Il promet un résultat beaucoup trop gros pour être cru",
+"Il n'a aucun mécanisme pour soutenir sa promesse",
+"Il vise une sous-niche, pas le marché entier"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le titre ne redit plus la promesse (« maigrir ») : il donne juste un chiffre. Pour Nick, ça reste la même promesse, exagérée (stade 2).",
+"pourquoi": "Nick précise qu'il ne dit pas que l'auteur a tort et que ce n'est « pas forcément faux ». Sa version du stade 2 : « perdre 30 livres en 30 jours », la promesse de base en plus gros.",
+"action": "Au stade 2, garde les mots de la promesse de base dans ton titre, puis grossis-la (déduction, tirée de la préférence de Nick)."
+},
+"explication": "Pour Nick, stade 1 = « maigrir », stade 2 = « perdre 61 livres » : c'est à peu près la même chose, exagérée. Son désaccord porte sur la façon d'écrire l'exemple, pas sur la règle du stade 2 (déduction).",
+"variantes": [
+{
+"q": "Selon Nick Tero, à quel stade appartient au fond « 61 livres de moins, jamais faim une minute » ?",
+"qcm": {
+"choix": [
+"Stade 2 : la même promesse, exagérée",
+"Stade 1 : la promesse de base, sans plus",
+"Stade 3 : un nouveau mécanisme minceur",
+"Stade 5 : une identité, un groupe précis"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 2 : on dit toujours « maigrir », on l'exagère juste avec un chiffre.",
+"pourquoi": "Nick : « tu dis toujours la même promesse, tu exagères juste ».",
+"action": "Un chiffre plus gros ne fait pas un nouveau stade 3 : il reste au stade 2."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S010] [I019] [R032] [R033] ; [S007]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1071
+},
+{
+"id": "copy-soph-051",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Reconnaître le stade de sophistication d'un texte",
+"niveau": 3,
+"type": "piège",
+"q": "« De papa bedonnant à torse nu en 14 jours. » Selon Nick Tero, à quel(s) stade(s) peut appartenir ce titre ?",
+"qcm": {
+"choix": [
+"Stade 2, et presque stade 5",
+"Stade 1, et presque stade 3",
+"Stade 3, et presque stade 4",
+"Stade 4, et presque stade 2"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Stade 2 (une promesse exagérée), et presque stade 5 aussi, selon Nick.",
+"pourquoi": "Nick le range dans ses exemples de stade 2, puis ajoute : ça pourrait presque être aussi un titre de stade 5.",
+"action": "Quand tu classes un titre, accepte qu'il touche deux stades, et note les deux."
+},
+"explication": "Nick ne dit pas pourquoi il pense au stade 5. Une piste : « papa bedonnant » nomme un groupe précis, et le stade 5 vise une identité (déduction). Un même titre peut donc jouer sur deux leviers à la fois.",
+"variantes": [
+{
+"q": "« Dis au revoir à tes imperfections en 15 minutes par jour. » Selon Nick Tero, que fait ce titre ?",
+"qcm": {
+"choix": [
+"Il exagère la promesse : 15 minutes par jour",
+"Il présente un nouveau mécanisme de soin",
+"Il vise une sous-niche de femmes pressées",
+"Il montre une preuve par un expert"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il exagère la promesse : ça ne prend que 15 minutes par jour (stade 2).",
+"pourquoi": "Nick : on dit juste que ça ne prend que 15 minutes par jour, on exagère la promesse.",
+"action": "Un délai court ajouté à ta promesse, c'est du stade 2."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S010] [I020] [R034] [R035] [I021] [R036]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1072
+},
+{
+"id": "copy-soph-052",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Analyser une pub avec la grille de sophistication",
+"niveau": 3,
+"type": "piège",
+"q": "Ta pub garde sa promesse et son principe, mais change de forme : un hook et un format que ton marché n'a jamais vus. Selon la carte de synthèse du coffre, qu'as-tu changé ?",
+"qcm": {
+"choix": [
+"La forme, pas le stade : le mécanisme est le même",
+"Le stade : une forme neuve vaut un nouveau mécanisme",
+"Le niveau de conscience : tu vises d'autres clients",
+"La promesse : elle devient plus grosse qu'avant"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Seulement la forme. Le stade ne bouge pas : le nouveau mécanisme change ce qu'on promet, la nouvelle forme change le hook ou le format.",
+"pourquoi": "La carte le dit : deux sortes de « nouveau », à ne jamais confondre. Une pub peut avoir un mécanisme nouveau dans un hook déjà vu, ou l'inverse.",
+"action": "Pour chaque pub, réponds à deux questions séparées : le mécanisme est-il nouveau ? La forme est-elle déjà vue ?"
+},
+"explication": "L'idée de forme vient du fichier Badis du coffre : le cerveau ignore ce qu'il a déjà vu, d'où la fatigue publicitaire. La carte précise que Badis ne sert jamais à fixer un stade. Quand la forme est déjà vue, le verdict est « Rafraîchir » : même principe, forme neuve.",
+"variantes": [
+{
+"q": "Selon la carte de synthèse du coffre, quel verdict donner à une pub dont le hook revient déjà chez plusieurs concurrents ?",
+"qcm": {
+"choix": [
+"Rafraîchir : même principe, forme neuve",
+"Monter : passer au stade du dessus",
+"Corriger : la pub casse le stade visé",
+"Renforcer : ajouter une preuve plus forte"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Rafraîchir : garder le principe et la promesse, dans une forme que le marché n'a pas encore vue.",
+"pourquoi": "Un hook déjà vu chez plusieurs concurrents, c'est du déjà-vu : le cerveau passe sans s'arrêter.",
+"action": "Propose 2 formes neuves, chacune avec le principe qu'elle garde."
+}
+}
+],
+"source": "carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 5, point 5 ; partie 7, question 13 ; partie 8 ; partie 9, point 6)",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1073
+},
+{
+"id": "copy-soph-053",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Analyser une pub avec la grille de sophistication",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Ton marché est au stade 3, mais ta pub fait une promesse sans aucun mécanisme. Selon la grille de la carte de synthèse du coffre, à quel niveau classes-tu cette amélioration ?",
+"qcm": {
+"choix": [
+"Corriger : la pub casse le stade visé",
+"Renforcer : même stade, couche plus forte",
+"Monter : passer un stade au-dessus",
+"Rafraîchir : même message, forme neuve"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Corriger : c'est ce qui casse le stade visé. C'est même l'exemple de la carte.",
+"pourquoi": "La carte classe les améliorations par impact : 1. Corriger, 2. Renforcer, 3. Monter, puis Rafraîchir si la forme est déjà vue.",
+"action": "Avant de peaufiner une pub, vérifie qu'elle a toutes les couches de son stade. Sinon, corrige d'abord."
+},
+"explication": "Renforcer = même stade, couche plus forte (exemple : une démonstration au lieu d'un simple avis). Monter = une version un stade au-dessus, si le marché y est déjà. La carte précise : ce sont des propositions, aucune réécriture sans accord.",
+"variantes": [
+{
+"q": "Ta pub de stade 4 s'appuie sur un simple avis client. Tu le remplaces par une démonstration. Selon la grille de la carte de synthèse, quel niveau d'amélioration est-ce ?",
+"qcm": {
+"choix": [
+"Renforcer : même stade, couche plus forte",
+"Corriger : la pub casse le stade visé",
+"Monter : passer un stade au-dessus",
+"Rafraîchir : même message, forme neuve"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Renforcer : même stade, avec une couche plus forte.",
+"pourquoi": "C'est l'exemple de la carte : une démonstration au lieu d'un simple avis.",
+"action": "Quand ta pub a déjà les bonnes couches, renforce la plus faible."
+}
+}
+],
+"source": "carte de synthèse du coffre « 00 Sophistication » ; Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre)",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 8) ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S014] [I044] [R057]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1074
+},
+{
+"id": "copy-soph-054",
+"theme": "copy",
+"chapitre": "Awareness et sophistication",
+"competence": "Comparer Tiana et Nick Tero sur la sophistication",
+"niveau": 3,
+"type": "piège",
+"q": "Pour fixer un stade de sophistication, que regardent Nick Tero et Tiana ?",
+"qcm": {
+"choix": [
+"Nick : les pubs des concurrents. Tiana : la méfiance du persona",
+"Nick : la méfiance du persona. Tiana : les pubs des concurrents",
+"Les deux : les pubs des concurrents qui tournent depuis 30 jours",
+"Les deux : la méfiance de chaque persona, une par une"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Nick regarde le marché (les pubs des concurrents). Tiana regarde le client (la méfiance de chaque persona).",
+"pourquoi": "La carte de synthèse du coffre le note : le fichier de Nick a le point de vue MARCHÉ, ceux de Tiana le point de vue CLIENT. Tiana dit aussi que le stade du marché, façon Schwartz, reste utile pour lancer un produit.",
+"action": "Fais les deux : regarde les pubs concurrentes qui tournent, puis note la méfiance de chaque persona."
+},
+"explication": "Ce n'est pas une contradiction à trancher : ce sont deux angles. La grille du coffre utilise les deux : le stade de la pièce, puis le stade du marché quand des pubs concurrentes sont fournies.",
+"variantes": [
+{
+"q": "Selon la carte de synthèse du coffre, quel point de vue apporte la vidéo de Nick Tero sur la sophistication ?",
+"qcm": {
+"choix": [
+"Le point de vue du marché : les concurrents",
+"Le point de vue du client : sa méfiance",
+"Le point de vue de la forme : le hook",
+"Le point de vue du livre : Schwartz"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le point de vue du marché : les concurrents et leurs pubs.",
+"pourquoi": "Tiana apporte le point de vue du client, Badis celui de la forme, le livre de Schwartz l'autorité.",
+"action": "Pour analyser une pub, croise toujours le point de vue marché et le point de vue client."
+}
+}
+],
+"source": "Nick Tero – vidéo « les 5 stades de sophistication du marché pour les pubs Facebook » ; Tiana (Copy First) – vidéo « les 5 stades de sophistication par persona » (auteur non nommé dans la vidéo, attribution du coffre) ; carte de synthèse du coffre « 00 Sophistication »",
+"ref": "Savoir/Copywriting et persuasion/Sophistication/00 Sophistication - CARTE.md (partie 1 ; partie 7, blocs 2 et 3) ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 04 Nick Tero 5 stades du marche Facebook ads - INDEX.md [S015] [I042] [R058] ; [S016] [I044] [R062] ; Savoir/Copywriting et persuasion/Sophistication/Sophistication 01 Tiana Copy First 5 stades par persona - INDEX.md [S003] [I006] [R016]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1075
+},
+{
+"id": "crea-it-001",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Démonter le message d'une pub",
+"niveau": 1,
+"type": "qcm",
+"q": "Tiana démonte une pub en 3 pièces : format, message, style. Que range-t-elle dans le message ?",
+"choix": [
+"Promesse, cliente visée, angle et hook",
+"Durée, type de pub, nombre de plans",
+"Couleurs, police, décor et lumière",
+"Prix, offre, garantie et livraison"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La promesse principale, la cliente visée (persona), l'angle (la raison d'acheter mise en avant) et le hook (l'accroche).",
+"pourquoi": "Le message répond à 3 questions : à qui on parle, ce qu'on dit, et comment on le dit.",
+"action": "Pour ta pub gagnante, écris ces 4 pièces en une ligne chacune avant d'imaginer une nouvelle version."
+},
+"explication": "Tiana sépare le type de pub (le format), l'habillage (le style, « le papier cadeau de la pub ») et ce qu'on dit (le message). Le message est pour elle « la plus grosse partie » : c'est celui qu'elle démonte le plus en détail.",
+"variantes": [
+{
+"q": "Dans la pub statique d'Arrae (bonbons à la créatine), la phrase « Ça a le goût de bonbon acidulé et ça donne des abdos » est quelle pièce, selon Tiana ?",
+"choix": [
+"Le hook (l'accroche)",
+"Le format de la pub",
+"Le style de la pub",
+"La cliente visée"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le hook (l'accroche), une des 4 pièces du message."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S003] [R002] [R016] [R019] ; [S005] [R023] [R028]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1081
+},
+{
+"id": "crea-it-002",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Choisir la pièce à garder",
+"niveau": 1,
+"type": "qcm",
+"q": "Avant d'itérer (décliner) une pub gagnante, Tiana regarde 3 choses pour savoir quelle pièce garder. Lesquelles ?",
+"choix": [
+"Les données, les tendances du compte, la capacité à produire",
+"Les commentaires, les likes et les partages sous la pub",
+"Le prix, la marge et le nombre de ventes du mois passé",
+"L'avis du fondateur, du monteur et de trois clientes"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Les données (les chiffres de la pub), les tendances du compte et la capacité de production.",
+"pourquoi": "Ces 3 regards répondent à une seule question : quelle pièce fait vraiment gagner cette pub ?",
+"action": "Avant ta prochaine itération, note ce que disent les chiffres, ce qui rend la pub unique dans ton compte, et ce que tu peux produire cette semaine."
+},
+"explication": "Une fois la pub démontée comme des pièces de Lego, on peut tout reconstruire. Mais Tiana commence par choisir les pièces prioritaires : de toutes les variables de la pub, laquelle fait le plus la performance ?",
+"variantes": [
+{
+"q": "Tiana étale une pub démontée comme des pièces de Lego sur une table. Quelle question se pose-t-elle juste après ?",
+"choix": [
+"Quelles pièces je garde en priorité ?",
+"Combien de pièces je jette d'abord ?",
+"Quelle couleur je change en premier ?",
+"Qui va filmer la prochaine version ?"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Quelles pièces je garde en priorité ?"
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S006] [R004] [R029] [R030] ; [S015] [R011]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1082
+},
+{
+"id": "crea-it-003",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Comparer la gagnante au reste du compte",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, qu'est-ce qui vaut encore plus que les chiffres d'une pub pour trouver ce qui la fait gagner ?",
+"choix": [
+"Les tendances de ton compte",
+"Le nombre de likes reçus",
+"L'avis d'un ami du métier",
+"La durée totale de la vidéo"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Les tendances de ton compte : ce que la gagnante fait de différent de tes autres pubs.",
+"pourquoi": "Tiana : cette différence est peut-être le facteur qui la fait gagner.",
+"action": "Demande-toi : est-ce la première fois que je teste cet angle, cette cliente ou cette promesse ?"
+},
+"explication": "Les chiffres disent où regarder (par exemple un hook rate, taux d'accroche, de 45 %). Les tendances du compte disent pourquoi : on compare la gagnante à toutes les autres pubs. On regarde aussi ce qu'elle a en commun avec les autres gagnantes : Tiana parle de « mines d'or » à refaire.",
+"variantes": [
+{
+"q": "Selon Tiana, que cherches-tu en comparant ta pub gagnante à tes autres pubs gagnantes ?",
+"choix": [
+"Ce qu'elles ont en commun",
+"Laquelle a coûté le moins",
+"Laquelle dure le plus longtemps",
+"Laquelle a le plus beau décor"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Ce qu'elles ont en commun : ces pièces sont des mines d'or à refaire."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S008] [R033] [R034] [R035]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1083
+},
+{
+"id": "crea-it-004",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Repérer ce que la gagnante est seule à avoir",
+"niveau": 2,
+"type": "scénario",
+"q": "Tu lances 5 pubs avec le même visuel. Une seule gagne, et c'est la seule qui commence par une question. Quelle pièce gardes-tu pour tes prochaines versions ?",
+"qcm": {
+"choix": [
+"Le hook qui ouvre sur une question",
+"Le visuel commun aux 5 pubs lancées",
+"Le format vidéo partagé par les 5 pubs",
+"La durée identique des 5 pubs"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le hook qui ouvre sur une question : c'est la seule différence avec les 4 perdantes.",
+"pourquoi": "Le visuel était partout, perdantes comprises : il n'explique pas la victoire. La différence, si.",
+"action": "Garde ce hook et change une autre pièce : nouveau visuel, nouveau format ou nouvelle cliente visée."
+},
+"explication": "Tiana demande : qu'as-tu fait de différent ici ? Première fois cet angle, cette cliente, cette promesse ? « Cette différence est peut-être le facteur gagnant. » Le « peut-être » compte : c'est une piste à tester, pas une certitude.",
+"variantes": [
+{
+"q": "Ta pub gagnante est la première de ton compte à viser les mamans. Selon Tiana, que peut être ce choix ?",
+"qcm": {
+"choix": [
+"Le facteur qui la fait gagner",
+"Un frein pour tes prochaines pubs",
+"Une erreur à corriger vite",
+"Un choix sans lien avec la vente"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le facteur qui la fait gagner : c'est ce qui la distingue de tes autres pubs."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S008] [R006] [R007] [R034] ; exemple des 5 pubs : 00 Itération - CARTE, étape A, question 2",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1084
+},
+{
+"id": "crea-it-005",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Itérer avec peu de moyens",
+"niveau": 2,
+"type": "si-alors",
+"q": "Cette semaine, tu as peu de temps et peu d'argent. Selon Tiana, quel genre d'itérations fais-tu en priorité ?",
+"qcm": {
+"choix": [
+"Des versions qui changent le message",
+"Un nouveau style très travaillé",
+"Cinq nouveaux créateurs à payer",
+"Un tournage dans un nouveau décor"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Des itérations de message (de nouveaux mots), plutôt que de grands changements de style.",
+"pourquoi": "Changer les mots coûte peu. Changer de style ou payer cinq créateurs de plus coûte du temps et de l'argent.",
+"action": "Fais la liste de ce que tu peux produire cette semaine, puis choisis l'itération qui rentre dedans."
+},
+"explication": "Tiana : on travaille toujours dans une sorte de « bac à sable » (des limites de temps, d'énergie et d'argent). La capacité de production est son 3e regard : elle décide du type d'itération autant que les chiffres.",
+"variantes": [
+{
+"q": "Selon Tiana, que remplaces-tu par des itérations de message quand le budget de la semaine est serré ?",
+"qcm": {
+"choix": [
+"Les grands changements de style",
+"Les petits changements de mots",
+"La lecture des chiffres de la pub",
+"Le choix de la pièce gagnante"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Les grands changements de style (et l'embauche de nouveaux créateurs)."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S009] [R008] [R036]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1085
+},
+{
+"id": "crea-it-006",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Trouver la pièce gagnante sans chiffres",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Tiana n'a pas les chiffres d'Arrae. Elle regarde ce que la marque a refait le plus dans sa bibliothèque publicitaire. Quelle pièce gagnante trouve-t-elle ?",
+"qcm": {
+"choix": [
+"Le message : l'angle et le hook",
+"Le style : l'habillage visuel",
+"Le format : la pub statique",
+"Le prix : l'offre de lancement"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le message (l'angle et le hook) : Arrae l'a repris dans plusieurs nouvelles pubs, avec d'autres formats et d'autres styles.",
+"pourquoi": "Le style ressemblait à presque toutes leurs pubs qui durent. Ce qui sortait du lot, c'était le message.",
+"action": "Sur une pub concurrente, regarde dans la bibliothèque publicitaire ce que la marque refait le plus."
+},
+"explication": "Sans chiffres, Tiana lit les tendances de la bibliothèque : le style est commun à beaucoup de pubs, le message est l'exception. Une marque refait rarement ce qui ne marche pas (déduction).",
+"variantes": [
+{
+"q": "Dans la bibliothèque d'Arrae, la plupart des pubs qui durent ont le même style. Pourquoi Tiana en conclut-elle que le style n'est pas la pièce gagnante de cette pub ?",
+"qcm": {
+"choix": [
+"Il n'a rien d'unique dans leur compte",
+"Il coûte bien trop cher à refaire",
+"Il plaît surtout aux clients hommes",
+"Il est bien trop récent pour juger"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Il n'a rien d'unique dans leur compte : la pièce qui sort du lot, c'est le message."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S010] [R037] [R038] [R039]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1086
+},
+{
+"id": "crea-it-007",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Itérer un hook gagnant",
+"niveau": 2,
+"type": "scénario",
+"q": "Le hook d'une pub statique d'Arrae marche. Selon Tiana, qu'a fait la marque avec ce hook ensuite ?",
+"qcm": {
+"choix": [
+"Une vidéo de 13 s avec texte à l'écran",
+"Un carrousel de 10 photos de clientes",
+"Une longue vidéo de 3 min en interview",
+"Une pub statique avec un nouveau prix"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le même hook (moins un petit mot), dans une vidéo de 13 secondes : plans d'illustration (B-roll) et texte à l'écran.",
+"pourquoi": "La pièce gagnante reste, le format change. Et la marque a donné ce même brief à plusieurs créateurs.",
+"action": "Prends ton hook gagnant et donne-le tel quel à plusieurs créateurs, dans un nouveau format."
+},
+"explication": "Itérer sur le hook : on garde le texte du hook et on change le style ou le format. Tiana cite d'autres pistes : le même texte avec un autre visuel, ou le même hook avec une interpellation (un appel à une cliente précise) pour viser une cliente un peu différente.",
+"variantes": [
+{
+"q": "Selon Tiana, à qui Arrae a-t-elle confié le brief de son hook gagnant ?",
+"qcm": {
+"choix": [
+"À plusieurs créateurs différents",
+"À un seul créateur, le meilleur",
+"À son équipe interne seulement",
+"À une agence de pub connue"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À plusieurs créateurs différents, tous avec exactement le même hook."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S011] [R041] [R042] [R043] [R044] ; [S007] [R032]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1087
+},
+{
+"id": "crea-it-008",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Garder l'angle, changer le niveau de conscience",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Tiana garde l'angle d'Arrae, « ce bonbon donne des abdos », avec ce nouveau hook (traduit de l'anglais) : « Cette nouvelle saveur a le goût de bonbon et donne des abdos. » À qui parle ce hook ?",
+"qcm": {
+"choix": [
+"Aux gens qui connaissent déjà la marque",
+"Aux gens qui ignorent encore leur problème",
+"Aux gens qui n'aiment pas les bonbons",
+"Aux gens qui cherchent un sport facile"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Aux gens qui connaissent déjà la marque (conscients du produit, ou les plus conscients).",
+"pourquoi": "Il parle d'une « nouvelle saveur » : il suppose qu'on connaît déjà le produit. Même angle, autre niveau de conscience.",
+"action": "Pour un angle gagnant, écris un hook par niveau de conscience : même raison d'acheter, autre porte d'entrée."
+},
+"explication": "Selon Tiana, la pub d'origine visait des gens conscients du problème. L'itération garde l'angle intact, change de format, et vise un autre niveau de conscience. L'angle est une pièce de Lego qu'on pose sur n'importe quel format, style, hook ou script.",
+"variantes": [
+{
+"q": "Quelle itération d'un angle gagnant Tiana propose-t-elle avec l'exemple d'Arrae ?",
+"qcm": {
+"choix": [
+"Même angle, vidéo POV et promesse plus large",
+"Nouvel angle, même vidéo et même promesse",
+"Même angle, même format et nouveau prix",
+"Nouvel angle, nouveau produit, même hook"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Même angle, en vidéo POV (filmée du point de vue de la cliente), avec une promesse plus large que les abdos."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S005] [R025] ; [S012] [R045] [R047] [R048]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1088
+},
+{
+"id": "crea-it-009",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Itérer un style gagnant",
+"niveau": 3,
+"type": "si-alors",
+"q": "Si tu penses que c'est le style (l'habillage visuel) qui fait gagner ta pub, que fais-tu selon Tiana ?",
+"qcm": {
+"choix": [
+"Même style, avec un message nouveau",
+"Même message, avec un style nouveau",
+"Même style, même message, autre budget",
+"Nouveau style et nouveau message"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Tu gardes exactement le même style et tu le poses sur un message nouveau.",
+"pourquoi": "On garde la pièce qui fait gagner, on change le reste. Arrae a gardé son style, changé un peu le message, dans une vidéo courte.",
+"action": "Avant d'itérer, nomme la pièce gagnante. Elle reste ; tout le reste peut bouger."
+},
+"explication": "Hook, angle ou style : la règle de Tiana est la même. La pièce gagnante reste, les autres pièces bougent. On mélange formats, styles et messages pour créer des pubs vraiment nouvelles.",
+"variantes": [
+{
+"q": "Ta pub gagne grâce à son style. Quelle itération va contre la règle de Tiana ?",
+"qcm": {
+"choix": [
+"Changer de style, garder le message",
+"Garder le style, changer le message",
+"Garder le style, passer en vidéo courte",
+"Garder le style, changer de format"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Changer de style et garder le message : tu jettes la pièce qui fait gagner."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S013] [R009] [R050] [R051] ; [S015] [R054]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1089
+},
+{
+"id": "crea-hk-001",
+"theme": "crea",
+"chapitre": "Hooks",
+"competence": "Le hook « arnaque » : la peur de se faire avoir (idée à tester)",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Dara Denney, quel premier levier le mot « arnaque » déclenche-t-il chez la personne qui fait défiler son fil ?",
+"choix": [
+"L'aversion à la perte (peur de perdre)",
+"La preuve sociale (faire comme les autres)",
+"La rareté (peur qu'il n'en reste plus)",
+"L'autorité (un expert l'a dit)"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 L'aversion à la perte (la peur de perdre) : la peur de se faire avoir.",
+"pourquoi": "Le cerveau veut vérifier tout de suite s'il est en danger. Alors il s'arrête.",
+"action": "Une idée à tester, selon Dara Denney, pas une règle : essaie un hook avec « arnaque » sur une pub qui marche déjà."
+},
+"explication": "Dara Denney dit que ce hook est récemment devenu la pub qui performe et dépense le plus dans plusieurs comptes. C'est une proposition à tester, jamais une obligation : elle dit elle-même que le mot arrête net « pour le meilleur ou pour le pire ».",
+"variantes": [
+{
+"q": "Selon Dara Denney, pourquoi le cerveau s'arrête-t-il net quand il lit le mot « arnaque » dans une pub ?",
+"choix": [
+"Il veut savoir s'il risque d'être trompé",
+"Il croit voir une promo à saisir vite",
+"Il pense reconnaître une marque connue",
+"Il s'attend à une vidéo drôle à suivre"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il veut vérifier tout de suite s'il risque d'être trompé."
+}
+}
+],
+"source": "Dara Denney – extrait de vidéo sur le hook « arnaque » (simple proposition à tester)",
+"ref": "Hook 01 Dara Denney hook arnaque - INDEX.md [S001] [R001] [R002] ; [S002] [R003] ; [S003] [R004]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1076
+},
+{
+"id": "crea-hk-002",
+"theme": "crea",
+"chapitre": "Hooks",
+"competence": "Le hook « arnaque » : la curiosité (idée à tester)",
+"niveau": 1,
+"type": "qcm",
+"q": "Une pub commence par « Je pensais que c'était une arnaque ». Selon Dara Denney, quelle question se pose alors la personne qui regarde ?",
+"choix": [
+"Pourquoi ce n'en était pas une ?",
+"Combien coûte vraiment ce produit ?",
+"Qui a filmé cette vidéo et pourquoi ?",
+"Où peut-on acheter ce produit ?"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Pourquoi ce n'en était pas une ? » : une tension non résolue qu'elle veut fermer.",
+"pourquoi": "Le hook ouvre une question sans y répondre. Elle reste pour avoir la fin.",
+"action": "Une idée à tester, selon Dara Denney : écris une version « Je pensais que c'était une arnaque » de ta meilleure pub et compare les chiffres."
+},
+"explication": "C'est le 2e levier de ce hook selon Dara Denney : la curiosité. Le premier est la peur de se faire avoir. Ce hook reste une simple proposition à tester, pas une règle de méthode.",
+"variantes": [
+{
+"q": "En plus de la peur de se faire avoir, quel 2e levier Dara Denney voit-elle dans le hook « Je pensais que c'était une arnaque » ?",
+"choix": [
+"La curiosité",
+"La rareté",
+"L'urgence",
+"L'autorité"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La curiosité."
+}
+}
+],
+"source": "Dara Denney – extrait de vidéo sur le hook « arnaque » (simple proposition à tester)",
+"ref": "Hook 01 Dara Denney hook arnaque - INDEX.md [S003] [R005] [R006] [R007]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1077
+},
+{
+"id": "crea-hk-003",
+"theme": "crea",
+"chapitre": "Hooks",
+"competence": "Tester le hook « arnaque » (idée à tester)",
+"niveau": 2,
+"type": "si-alors",
+"q": "Si tu veux tester le hook « arnaque » de Dara Denney, sur quelle pub le fais-tu, selon elle ?",
+"qcm": {
+"choix": [
+"Une pub qui marche déjà bien",
+"Une pub neuve jamais lancée",
+"Une pub coupée car perdante",
+"Une pub de ton concurrent"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Sur une pub qui marche déjà : tu en fais une itération (une nouvelle version).",
+"pourquoi": "Dara Denney : ce hook est si facile à tester que ton équipe pourrait le faire dès demain.",
+"action": "Prends une pub gagnante, change seulement le hook (déduction : la source s'arrête sur « une itération d'une pub qui performe »), puis compare. Idée à tester, pas une règle."
+},
+"explication": "La source est un court extrait coupé net : on sait seulement qu'il faut itérer sur une pub qui performe. Ce hook reste une proposition de Dara Denney, à tester, jamais une obligation de méthode.",
+"variantes": [
+{
+"q": "Selon Dara Denney, en combien de temps une équipe peut-elle mettre le hook « arnaque » en test ?",
+"qcm": {
+"choix": [
+"Dès demain, c'est très facile",
+"En un mois de travail au moins",
+"Après un tournage tout neuf",
+"À la fin de la campagne"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Dès demain : c'est un hook très facile à tester."
+}
+}
+],
+"source": "Dara Denney – extrait de vidéo sur le hook « arnaque » (simple proposition à tester)",
+"ref": "Hook 01 Dara Denney hook arnaque - INDEX.md [S004] [R008] [R009]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1078
+},
+{
+"id": "copy-deco-m-001",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · L'angle croisé (Mateo)",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Mateo, qu'est-ce qu'un « angle croisé » dans une pub ?",
+"choix": [
+"Un hook choc sur la douleur, puis un produit rassurant",
+"Deux produits différents vendus dans la même vidéo",
+"Deux créateurs qui parlent l'un après l'autre",
+"Un angle copié chez un concurrent, puis traduit"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Un argument choc sur la douleur dans le hook, puis un produit confortable, rassurant et prouvé dans le corps.",
+"pourquoi": "La spectatrice passe de « je souffre » (l'émotion) à « voici pourquoi ça marchera pour moi » (la raison).",
+"action": "Écris ton hook sur la douleur, puis vérifie que le corps change de ton : il rassure et il prouve."
+},
+"explication": "Dans la pub Luxe (fond de teint pour femmes de plus de 40 ans), le choc est un chiffre : « 87 % des fonds de teint… ». Le corps classe les concurrents et montre le mécanisme. Le cerveau est à la fois excité par le hook et rassuré par le corps.",
+"variantes": [
+{
+"q": "Dans un angle croisé (Mateo), que doit ressentir la spectatrice pendant le corps de la pub, après un hook sur la douleur ?",
+"choix": [
+"Être rassurée par des preuves",
+"Avoir encore plus peur",
+"Rire d'une blague bien placée",
+"Se sentir pressée d'acheter"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Être rassurée par des preuves."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S013] [R010] [R011] [R047] ; [C002]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 877
+},
+{
+"id": "copy-deco-m-002",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · L'appel à l'action qui prend le risque",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans cet extrait, Mateo décrit la fin de la pub Luxe (fond de teint). Que fait la maquilleuse avec cette phrase ?",
+"extrait": "« Et nous n'avons pas encore utilisé cette technique dans un appel à l'action ; en substance, elle dit : « Si vous n'êtes pas satisfait(e), ce sera de ma faute. » »",
+"choix": [
+"Elle prend sur elle le risque de l'achat",
+"Elle annonce une remise de dernière minute",
+"Elle compare son prix à celui des autres",
+"Elle demande un avis en commentaire"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle prend sur elle le risque de l'achat : si ça ne va pas, c'est sa faute, pas celle de la cliente.",
+"pourquoi": "La cliente n'a plus peur de se tromper (déduction). Mateo note qu'il n'avait pas encore utilisé cette technique.",
+"action": "Dans ton appel à l'action, ajoute une phrase où la marque porte le risque à la place de la cliente."
+},
+"explication": "La fin de la pub Luxe empile : l'objection du prix, l'offre (un acheté, deux offerts), la garantie, la preuve sociale (plus d'un million de femmes). Puis cette phrase : la maquilleuse assume la responsabilité de l'achat.",
+"variantes": [
+{
+"q": "Une marque écrit dans son appel à l'action : « Si vous n'êtes pas satisfaite, ce sera de ma faute. » Selon Mateo, que fait cette phrase ?",
+"choix": [
+"Elle porte la responsabilité de l'achat",
+"Elle crée une urgence avant la fin",
+"Elle donne le prix du produit",
+"Elle présente la fondatrice"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle porte la responsabilité de l'achat à la place de la cliente."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S012] [R043] [R044] [R045] [R046]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 878
+},
+{
+"id": "copy-deco-m-003",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Mars Men · Le concept de soi",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans cet extrait, Mateo décrit l'homme visé par la pub Mars Men. À quelle version de lui-même la pub parle-t-elle ?",
+"extrait": "« La personne à qui nous parlons se perçoit ainsi : « Je suis un homme qui gère ses performances biologiques. » « Je refuse d'être affaibli par un médicament. » »",
+"qcm": {
+"choix": [
+"Celle qu'il devrait être",
+"Celle qu'il est aujourd'hui",
+"Celle qu'il était à 25 ans",
+"Celle que voit sa famille"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La version qu'il devrait être : un homme qui refuse d'être affaibli par un médicament.",
+"pourquoi": "Mateo : la version d'eux-mêmes qu'ils devraient être, pas celle qu'ils sont actuellement.",
+"action": "Avant d'écrire, choisis à quelle version de ta cliente tu parles : actuelle, rêvée, ou celle qu'elle pense devoir être."
+},
+"explication": "Mateo pose 3 choix (le concept de soi, l'image qu'on a de soi) : la version future rêvée, celle qu'on pense devoir être, ou la version actuelle. La pub Luxe parle à la version actuelle ; Mars Men, à celle qu'il devrait être.",
+"variantes": [
+{
+"q": "Dans cet extrait, Mateo décrit la cliente de la pub Luxe (fond de teint). À quelle version d'elle-même la pub parle-t-elle ?",
+"extrait": "« En gros, nous allons parler à la version d'elle qui refuse d'être traitée comme une jeune femme de 25 ans. »",
+"qcm": {
+"choix": [
+"Celle qu'elle est aujourd'hui",
+"Celle qu'elle rêve de devenir",
+"Celle qu'elle était à 25 ans",
+"Celle que voient ses amies"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Celle qu'elle est aujourd'hui : sa version actuelle."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S018] [R054] [R055] ; [S005] [R002] [R003]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 879
+},
+{
+"id": "copy-deco-m-004",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · Écarter les concurrents avec un problème précis",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans la pub Luxe (fond de teint), la maquilleuse écarte les produits que la cliente utilise. Selon Mateo, à quoi sert le problème précis de cet extrait ?",
+"extrait": "« Le problème évoqué ici, c'est qu'il y a trop de teintes disponibles, ce qui complique le choix pour la peau. »",
+"qcm": {
+"choix": [
+"Expliquer pourquoi les autres ne marchent pas pour elle",
+"Montrer que la marque a plus de teintes que les autres",
+"Faire rire la cliente avant la démonstration",
+"Annoncer le prix avant la fin de la vidéo"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Expliquer pourquoi les solutions qu'elle utilise ne marchent pas pour elle, puis s'en servir pour vendre le produit.",
+"pourquoi": "Le problème « trop de teintes » prépare le terrain : le fond de teint Luxe s'adapte à la carnation.",
+"action": "Écris le problème précis qui rend les autres solutions mauvaises pour ta cliente, et que ton produit règle."
+},
+"explication": "Mateo : elle discrédite les concurrents de façon factuelle, sans être trop agressive, parce que ces solutions ne sont pas adaptées à une femme de plus de 40 ans. Le problème précis fait le pont entre « les autres ne marchent pas » et « le mien, oui ».",
+"variantes": [
+{
+"q": "Selon Mateo, comment la maquilleuse de la pub Luxe écarte-t-elle les fonds de teint concurrents ?",
+"qcm": {
+"choix": [
+"Avec des faits, sans être agressive",
+"Avec des blagues sur les marques",
+"En citant leurs prix un par un",
+"En les insultant pour faire réagir"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Avec des faits, sans être trop agressive."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S008] [R006] [R007] [R008] [R034] [R035] [R036]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 880
+},
+{
+"id": "copy-deco-m-005",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Lire une pub · Le ton juste après le hook (Mateo)",
+"niveau": 3,
+"type": "piège",
+"q": "Ton hook crie « attention, danger ». Juste après, tu gardes la même urgence pour parler des solutions que la cliente connaît. Selon Mateo, quel risque prends-tu ?",
+"qcm": {
+"choix": [
+"Elle se met sur la défensive",
+"Elle trouve la pub trop douce",
+"Elle achète plus vite que prévu",
+"Elle oublie le nom du produit"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle se met sur la défensive : après le choc, il faut parler plus calmement.",
+"pourquoi": "L'image de la moto de Mateo : on appâte avec la douleur, puis on parle plus doucement et on apporte la preuve.",
+"action": "Relis la phrase qui suit ton hook : si elle crie encore, baisse le ton et ajoute une preuve."
+},
+"explication": "L'analogie de Mateo : « attention, sans casque tu risques ta vie » (le hook), puis, calmement, pourquoi rouler sans casque n'est pas la bonne solution, avec des chiffres. C'est ce que fait la pub Luxe : un hook choc, puis le ton d'une conversation entre deux personnes.",
+"variantes": [
+{
+"q": "Selon Mateo, sur quel ton une pub doit-elle parler juste après un hook choc ?",
+"qcm": {
+"choix": [
+"Plus calme, comme entre deux personnes",
+"Encore plus fort pour garder l'élan",
+"Neutre, comme un communiqué officiel",
+"Pressé, pour arriver vite à l'offre"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Plus calme, comme une conversation entre deux personnes."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S014] [R048] ; [S015] [R049] ; [S009] [R037]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 881
+},
+{
+"id": "copy-deco-m-006",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Mars Men · Créer un problème sur ce qu'ils savent déjà",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Dans cet extrait, Mateo présente la pub Mars Men. Elle dit à ces hommes sous GLP-1 (un médicament pour perdre du poids) que leur testostérone chute. Selon lui, pourquoi cette pub rapporte-t-elle autant ?",
+"extrait": "« Nous ciblons les hommes de 35 à 55 ans qui prennent du GLP-1 depuis 2 à 6 mois. Ils rencontrent des problèmes, et nous allons capitaliser sur ces problèmes. »",
+"qcm": {
+"choix": [
+"Elle crée un problème qu'ils ignoraient",
+"Elle baisse le prix plus que les autres",
+"Elle montre un médecin très connu",
+"Elle explique le médicament en détail"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Elle crée un problème qu'ils ignoraient, autour de ce qu'ils connaissent déjà : leur médicament.",
+"pourquoi": "L'homme ne faisait pas le lien. Il passe de « je veux perdre du poids » à « attention, je perds plus que du gras ».",
+"action": "Liste ce que ta cliente fait déjà, puis cherche un vrai problème lié, prouvé par des faits, qu'elle ne voit pas encore."
+},
+"explication": "Mateo dit : « ça n'informe pas, ça crée un problème concernant quelque chose qu'ils savent déjà. » Puis il dit que la pub rapporte « parce qu'elle informe ». Les deux phrases sont dans la source ; la carte ne tranche pas. Son garde-fou : se baser sur des faits concrets, « je ne vous dis pas d'inventer ».",
+"variantes": [
+{
+"q": "Mateo imagine une pub d'humidificateur qui alerte les gens vivant dans une maison en pierre sur un risque pour leurs poumons. Sur quoi ce problème doit-il reposer, selon lui ?",
+"qcm": {
+"choix": [
+"Sur des faits vérifiés",
+"Sur une peur inventée",
+"Sur l'avis du vendeur",
+"Sur une rumeur connue"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Sur des faits concrets : il dit bien qu'il ne faut pas inventer."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S017] [R052] [R053] ; [S020] [R014] [R060] [R061] [R062] [R063] ; [C005]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 882
+},
+{
+"id": "copy-deco-m-007",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · L'ennemi commun et la marque guide",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Dans la pub Luxe (fond de teint), l'industrie cosmétique est l'ennemie commune. Selon Mateo, quel rôle joue alors la marque ?",
+"qcm": {
+"choix": [
+"Un guide, pas le héros",
+"Le héros qui sauve tout",
+"Un juge qui reste neutre",
+"Une victime de l'industrie"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un guide, pas le héros : la faute retombe sur l'industrie, qui « ne veut pas votre bien ».",
+"pourquoi": "La marque ne se vante pas : elle montre le chemin. Le classement des concurrents dit en 15 secondes « les autres sont mauvais, voici pourquoi je suis le meilleur », sans sonner arrogant.",
+"action": "Nomme l'ennemi de ta cliente (une industrie, une habitude), puis place ta marque à côté d'elle, comme un guide."
+},
+"explication": "Mateo appelle le classement une « compression narrative » : une histoire entière en 15 secondes. Sur qui note : la voix de Mateo dit que c'est la marque, sa capture dit que c'est la maquilleuse, pas la marque. Les deux versions existent dans la source ; la carte ne tranche pas.",
+"variantes": [
+{
+"q": "Selon Mateo, dans la pub Luxe, sur qui retombe la faute du problème de peau ?",
+"qcm": {
+"choix": [
+"Sur l'industrie cosmétique",
+"Sur la cliente elle-même",
+"Sur la maquilleuse",
+"Sur le climat et la pollution"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Sur l'industrie cosmétique, l'ennemie commune."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S016] [R050] [R051] ; [C002] ; écart voix / capture : partie 10 quater, point 5",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 883
+},
+{
+"id": "crea-it-010",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Lire la cliente visée par une pub",
+"niveau": 1,
+"type": "qcm",
+"q": "Tiana devine la cliente visée par la pub statique d'Arrae (bonbons à la créatine). Comment la décrit-elle ?",
+"choix": [
+"27 ans, très occupée, sport sans résultats",
+"45 ans, maman, cherche à mieux dormir",
+"19 ans, étudiante, veut prendre du muscle",
+"60 ans, retraitée, veut garder la forme"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Dana corps de rêve » : 27 ans, active et très occupée. Elle va aux cours de fitness, mais n'a jamais eu les résultats rêvés, faute de temps.",
+"pourquoi": "La pub promet des abdos de façon fun et facile : elle parle à quelqu'un qui manque de temps.",
+"action": "Donne un prénom, un âge et un obstacle précis à ta cliente avant d'écrire."
+},
+"explication": "Tiana le dit elle-même : c'est une supposition. Elle lit la cliente dans la pub : quelqu'un qui veut des abdos et se sentir forte, mais de façon fun et facile.",
+"variantes": [
+{
+"q": "Selon Tiana, qu'est-ce qui a empêché la cliente visée par Arrae d'avoir les abdos qu'elle voulait ?",
+"choix": [
+"Le manque de temps",
+"Le manque d'argent",
+"Une blessure au dos",
+"Un mauvais coach"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le manque de temps."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S005] [R026]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1090
+},
+{
+"id": "crea-it-011",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Lire le rôle d'un visuel",
+"niveau": 2,
+"type": "diagnostic",
+"q": "La pub statique d'Arrae montre les bonbons, mais jamais l'étiquette du produit. Selon Tiana, quel effet cherche ce choix ?",
+"qcm": {
+"choix": [
+"Créer de la curiosité pour le clic",
+"Cacher le prix du produit vendu",
+"Éviter un refus de la part de Meta",
+"Montrer une marque très discrète"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Créer beaucoup de curiosité pour obtenir le clic.",
+"pourquoi": "On voit des bonbons appétissants sans savoir ce que c'est : pour le savoir, il faut cliquer (déduction).",
+"action": "Sur une pub statique pour des gens qui ne te connaissent pas, teste un visuel qui ne dévoile pas tout."
+},
+"explication": "Pour Tiana, ce choix fait de la pub une bonne statique de haut d'entonnoir (le premier contact avec la marque), surtout pour des gens conscients du problème.",
+"variantes": [
+{
+"q": "Selon Tiana, pour quel public la pub statique d'Arrae, sans étiquette visible, marche-t-elle le mieux ?",
+"qcm": {
+"choix": [
+"Des gens conscients du problème",
+"Des clientes fidèles de la marque",
+"Des gens qui comparent les prix",
+"Des sportifs de haut niveau"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Des gens conscients du problème, en haut d'entonnoir."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S004] [R022] ; [S005] [R024] [R025]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1091
+},
+{
+"id": "crea-it-012",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Lire le stade de sophistication d'une pub",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Selon Tiana, pourquoi la pub d'Arrae vise-t-elle un marché au stade 1 ou 2 de sophistication (un marché qui n'a pas encore tout entendu) ?",
+"qcm": {
+"choix": [
+"Son angle est une grosse promesse directe",
+"Elle explique un mécanisme très détaillé",
+"Elle compare la marque à trois concurrents",
+"Elle s'adresse aux sceptiques du marché"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Son angle est une grosse promesse directe : des abdos en mangeant ces bonbons acidulés.",
+"pourquoi": "Une promesse aussi directe parle à des gens encore ouverts et optimistes sur ce que les compléments peuvent faire.",
+"action": "Avant d'écrire une promesse directe, vérifie que ton marché est encore ouvert et optimiste."
+},
+"explication": "Tiana relie l'angle au stade : un marché encore neuf croit une grosse promesse dite simplement. Un marché qui a tout entendu ne la croit plus (déduction, voir les cartes sur Schwartz).",
+"variantes": [
+{
+"q": "Selon Tiana, comment est le marché visé par une pub qui promet simplement « des abdos en mangeant ces bonbons » ?",
+"qcm": {
+"choix": [
+"Ouvert et optimiste",
+"Méfiant et fatigué",
+"Pressé et exigeant",
+"Fidèle à une marque"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ouvert et optimiste sur ce que les compléments peuvent faire."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S005] [R027] [R028]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1092
+},
+{
+"id": "crea-it-013",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Itérer un hook à partir des chiffres",
+"niveau": 2,
+"type": "scénario",
+"q": "Ta pub vidéo a un taux d'accroche (hook rate) de 45 %. Selon Tiana, laquelle de ces itérations part de ce hook ?",
+"qcm": {
+"choix": [
+"En faire des statiques avec le même texte",
+"Changer tout le script et garder la fin",
+"Garder l'offre et changer de produit",
+"Couper la pub et lancer un autre angle"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Reprendre le texte du hook dans des pubs statiques.",
+"pourquoi": "45 % de taux d'accroche montre que le hook est fort : Tiana part de cette pièce.",
+"action": "Avec un hook fort, teste : des statiques avec son texte, le même texte sur un autre visuel, ou le même visuel avec un texte un peu différent."
+},
+"explication": "Les chiffres désignent la pièce qui porte le plus de poids. Tiana liste 4 pistes : des statiques avec le texte du hook ; le même texte, un autre visuel ; le même visuel, un texte un peu différent ; le même hook sur une promesse un peu différente, ou avec un appel à une autre cliente.",
+"variantes": [
+{
+"q": "Selon Tiana, comment le même hook gagnant peut-il viser une cliente un peu différente ?",
+"qcm": {
+"choix": [
+"En l'interpellant dans le hook",
+"En changeant le prix du produit",
+"En doublant le budget de la pub",
+"En coupant les 3 premières secondes"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 En l'interpellant dans le hook (un appel direct à cette cliente)."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S007] [R005] [R031] [R032]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1093
+},
+{
+"id": "crea-it-014",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Itérer un angle en gardant le format",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Tiana garde l'angle « ce bonbon donne des abdos » et le format statique. Le nouveau texte dit (traduit de l'anglais) : « Je viens de commencer ces petits bonbons acidulés à la créatine et je vois enfin mes abdos. » Qu'est-ce qui a changé ?",
+"qcm": {
+"choix": [
+"Le style et le hook",
+"L'angle et le format",
+"Le produit et le prix",
+"La cible et l'offre"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le style (une statique façon publication de cliente, UGC) et le hook.",
+"pourquoi": "L'angle reste intact, le format aussi. Seuls l'habillage et l'accroche bougent.",
+"action": "Pour un angle gagnant, garde le format et teste un style « cliente » (UGC) avec un hook à la première personne."
+},
+"explication": "Tiana : l'angle est une pièce de Lego qu'on combine avec n'importe quel format, style, hook ou script. Ici, une statique « sociale » façon UGC (un contenu qui semble fait par une cliente).",
+"variantes": [
+{
+"q": "Tiana montre une statique façon cliente (UGC) qui dit « je vois enfin mes abdos ». Quelle pièce de Lego reste intacte dans cette itération ?",
+"qcm": {
+"choix": [
+"L'angle",
+"Le style",
+"Le hook",
+"Le visuel"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 L'angle (« ce bonbon donne des abdos ») : le style, le hook et le visuel changent."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S012] [R045] [R046]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1094
+},
+{
+"id": "crea-it-015",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "La part créative de la stratégie",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Tiana, quel est ton rôle face à la créativité quand tu bâtis tes nouvelles pubs ?",
+"choix": [
+"Guider la créativité par des choix stratégiques",
+"Laisser chaque créateur faire ce qu'il veut",
+"Copier les pubs concurrentes à l'identique",
+"Tester des idées au hasard chaque semaine"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Canaliser la créativité avec des choix stratégiques.",
+"pourquoi": "Les itérations possibles sont innombrables : la stratégie dit lesquelles faire d'abord.",
+"action": "Avant chaque nouvelle idée, nomme la pièce gagnante qu'elle garde."
+},
+"explication": "Tiana : avec tous ces exemples, on ne fait qu'effleurer les itérations possibles. Son protocole sert à transformer une gagnante en dizaines de gagnantes « pas en devinant ».",
+"variantes": [
+{
+"q": "Tiana promet de transformer une pub gagnante en dizaines de pubs gagnantes. Comment, d'après elle ?",
+"choix": [
+"Avec un protocole, pas au hasard",
+"Avec plus de budget chaque jour",
+"Avec un nouveau produit par mois",
+"Avec des créateurs plus connus"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Avec un protocole en 3 étapes, pas en devinant."
+}
+}
+],
+"source": "Tiana – vidéo « itérer une pub gagnante en 3 étapes » (exemple Arrae ; autrice attribuée par Trésor)",
+"ref": "Itération 01 Tiana format message style 3 étapes - INDEX.md [S001] [R012] ; [S013] ; [S014] [R052]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1095
+},
+{
+"id": "crea-it-016",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Vérifier qu'une pub est vraiment gagnante",
+"niveau": 3,
+"type": "piège",
+"q": "Ta pub vend bien, mais son ROAS (ventes divisées par dépense pub) reste sous ton ROAS point zéro (le niveau où tu ne gagnes ni ne perds). Que dit ta méthode d'itération ?",
+"qcm": {
+"choix": [
+"Ce n'est pas encore une gagnante",
+"Itère-la tout de suite en 10 versions",
+"Double son budget dès demain matin",
+"Garde-la et change seulement le hook"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Ce n'est pas encore une gagnante : on ne l'itère pas.",
+"pourquoi": "Une pub n'est gagnante qu'au-dessus de ton ROAS point zéro. En dessous, chaque vente te coûte de l'argent.",
+"action": "Avant d'itérer, compare le ROAS de la pub à ton ROAS point zéro."
+},
+"explication": "Ta méthode d'itération ajoute 4 vérifications avant d'itérer. C'est une pratique pro notée dans le coffre, pas tirée d'une formation : vraie gagnante, assez de dépense, les commentaires, la page d'arrivée.",
+"variantes": [
+{
+"q": "Selon ta méthode d'itération, quand peux-tu itérer une pub qui semble gagner ?",
+"qcm": {
+"choix": [
+"Après assez de dépense pour juger",
+"Dès le premier jour de vente",
+"Dès le premier bon commentaire",
+"Dès que le hook plaît à l'équipe"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Après assez de dépense pour que le chiffre veuille dire quelque chose (seuil : tes règles KPI)."
+}
+}
+],
+"source": "Carte Itération du coffre – pratique pro (pas tirée d'une formation)",
+"ref": "Savoir/Créatives et itérations/00 Itération - CARTE, section 3, points 1 et 2",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1096
+},
+{
+"id": "crea-it-017",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Lire les commentaires avant d'itérer",
+"niveau": 1,
+"type": "qcm",
+"q": "Avant d'itérer, ta méthode te fait lire les commentaires sous la pub gagnante. Qu'y trouves-tu ?",
+"choix": [
+"Des verbatims gratuits pour tes hooks",
+"Le budget dépensé chaque jour par Meta",
+"Le nombre exact de ventes du jour",
+"Le prix payé pour chaque clic reçu"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Des verbatims (les mots exacts des clientes), gratuits, pour tes prochains hooks.",
+"pourquoi": "Les gens écrivent sous la pub ce qu'ils pensent, avec leurs mots à eux.",
+"action": "Copie les phrases fortes des commentaires dans un fichier et teste-les comme hooks."
+},
+"explication": "C'est une des 4 vérifications de ta méthode d'itération (pratique pro notée dans le coffre, pas tirée d'une formation). Les commentaires font aussi partie de ce que l'IA te demande avant d'itérer, avec les chiffres et la page d'arrivée.",
+"variantes": [
+{
+"q": "Selon ta méthode d'itération, pourquoi les commentaires sous une pub gagnante valent-ils de l'or ?",
+"choix": [
+"Ils donnent les mots des clientes",
+"Ils font baisser le coût par clic",
+"Ils remplacent les chiffres Meta",
+"Ils prouvent que la pub est légale"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Ils donnent les mots exacts des clientes, gratuits, pour les prochains hooks."
+}
+}
+],
+"source": "Carte Itération du coffre – pratique pro (pas tirée d'une formation)",
+"ref": "Savoir/Créatives et itérations/00 Itération - CARTE, section 2, question 1 ; section 3, point 3",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1097
+},
+{
+"id": "crea-it-018",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Regarder la page d'arrivée",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Selon ta méthode d'itération, pourquoi ouvrir la page d'arrivée avant de conclure qu'une pub est gagnante ?",
+"qcm": {
+"choix": [
+"La pub peut gagner grâce à la page",
+"La page fixe le budget de la pub",
+"La page choisit qui voit la pub",
+"La page compte les vues de la pub"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Une pub peut gagner grâce à la page, pas grâce à elle-même.",
+"pourquoi": "Si la page convertit très bien, la pub peut sembler gagnante alors que c'est la page qui fait le travail.",
+"action": "Avant de conclure, ouvre la page d'arrivée : note ce qui pourrait faire la vente."
+},
+"explication": "C'est la 4e vérification de ta méthode d'itération (pratique pro notée dans le coffre, pas tirée d'une formation). Sans ce regard, tu risques d'itérer la mauvaise pièce.",
+"variantes": [
+{
+"q": "Ta pub gagne et tu cherches la pièce à garder. Selon ta méthode, que regardes-tu en dehors de la pub elle-même ?",
+"qcm": {
+"choix": [
+"La page d'arrivée de chaque pub",
+"La couleur du bouton de la pub",
+"L'heure de lancement de la pub",
+"Le nombre de mots dans la pub"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La page d'arrivée : la victoire vient peut-être d'elle."
+}
+}
+],
+"source": "Carte Itération du coffre – pratique pro (pas tirée d'une formation)",
+"ref": "Savoir/Créatives et itérations/00 Itération - CARTE, section 3, point 4",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1098
+},
+{
+"id": "crea-it-019",
+"theme": "crea",
+"chapitre": "Itérer une pub gagnante",
+"competence": "Classer ses itérations",
+"niveau": 3,
+"type": "piège",
+"q": "Tu as 8 idées de nouvelles versions pour ta pub gagnante. Selon ta méthode d'itération, dans quel ordre les ranges-tu ?",
+"qcm": {
+"choix": [
+"D'abord par impact, puis par coût",
+"D'abord par coût, puis par impact",
+"D'abord les vidéos, puis les images",
+"D'abord les idées les plus récentes"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 D'abord par impact (ce qui peut le plus faire gagner), puis par coût de production.",
+"pourquoi": "Ta méthode d'itération classe ses propositions par impact, puis par coût : la moins chère passe devant seulement à impact égal.",
+"action": "Note pour chaque idée son impact attendu et son coût, puis trie dans cet ordre avant de produire."
+},
+"explication": "C'est le verdict de ta méthode d'itération : 5 à 10 itérations, chacune avec la pièce gardée, la seule chose changée, le format et le coût de production, classées par impact puis par coût. Ce sont des propositions : rien ne se produit sans ton « go ».",
+"variantes": [
+{
+"q": "Deux nouvelles versions de ta pub gagnante ont le même impact attendu. Selon ta méthode d'itération, laquelle produis-tu en premier ?",
+"qcm": {
+"choix": [
+"La moins chère à produire",
+"La plus longue à tourner",
+"Celle avec le plus de texte",
+"Celle qui change le plus de pièces"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 La moins chère à produire : à impact égal, le coût départage."
+}
+}
+],
+"source": "Carte Itération du coffre",
+"ref": "Savoir/Créatives et itérations/00 Itération - CARTE, section 7, points 2, 3 et 5",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1099
+},
+{
+"id": "crea-hk-004",
+"theme": "crea",
+"chapitre": "Hooks",
+"competence": "Le hook « arnaque » : ce qu'a vu Dara Denney (idée à tester)",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Dara Denney, qu'est-il arrivé récemment au hook « arnaque » dans plusieurs comptes publicitaires ?",
+"choix": [
+"Il est devenu la pub qui dépense le plus",
+"Il a été interdit par Meta partout",
+"Il a fait chuter toutes les ventes",
+"Il a été copié par tous les concurrents"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il est devenu la pub qui performe et dépense le plus dans plusieurs comptes.",
+"pourquoi": "C'est son observation sur des comptes qu'elle a vus, pas une garantie pour le tien.",
+"action": "Une idée à tester, selon Dara Denney : essaie-la sur une seule de tes gagnantes avant d'en faire plus."
+},
+"explication": "Dara Denney dit même qu'elle a presque hésité à partager ce hook. Il reste une proposition à tester, jamais une règle de ta méthode.",
+"variantes": [
+{
+"q": "Selon Dara Denney, quel hook est récemment devenu le plus performant dans plusieurs comptes ?",
+"choix": [
+"Le hook « arnaque »",
+"Le hook « secret »",
+"Le hook « avant-après »",
+"Le hook « question »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le hook « arnaque » (une idée à tester)."
+}
+}
+],
+"source": "Dara Denney – extrait de vidéo sur le hook « arnaque » (simple proposition à tester)",
+"ref": "Hook 01 Dara Denney hook arnaque - INDEX.md [S001] [R001] [R002]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1079
+},
+{
+"id": "crea-hk-005",
+"theme": "crea",
+"chapitre": "Hooks",
+"competence": "Le hook « arnaque » : la réserve de Dara Denney (idée à tester)",
+"niveau": 3,
+"type": "piège",
+"q": "Dara Denney dit que le mot « arnaque » arrête net. Quelle réserve ajoute-t-elle elle-même ?",
+"qcm": {
+"choix": [
+"Il marche pour le meilleur ou pour le pire",
+"Il marche seulement sur les pubs de beauté",
+"Il marche seulement si la marque est connue",
+"Il marche seulement sur un public de jeunes"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 « Pour le meilleur ou pour le pire » : le mot arrête, mais pas forcément dans le bon sens.",
+"pourquoi": "Un mot qui arrête peut aussi faire douter de ta marque (déduction).",
+"action": "Teste-le comme une proposition, sur une seule pub gagnante, et lis les chiffres avant de l'étendre."
+},
+"explication": "Pour Dara Denney, « arnaque » est l'un des meilleurs mots déclencheurs viscéraux (qui touchent le ventre avant la tête). Sa propre réserve rappelle que c'est une idée à tester, pas une règle.",
+"variantes": [
+{
+"q": "Dans ta méthode, quelle place a le hook « arnaque » de Dara Denney ?",
+"qcm": {
+"choix": [
+"Une idée à tester sur une gagnante",
+"Une règle pour toutes tes pubs",
+"Une obligation pour chaque hook",
+"Un test fait une fois, puis oublié"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Une idée à tester sur une gagnante, jamais une règle."
+}
+}
+],
+"source": "Dara Denney – extrait de vidéo sur le hook « arnaque » (simple proposition à tester)",
+"ref": "Hook 01 Dara Denney hook arnaque - INDEX.md [S002] [R003] ; [S004] [R008]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1080
+},
+{
+"id": "copy-deco-m-008",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Méthode · Décortiquer image par image (Mateo)",
+"niveau": 1,
+"type": "qcm",
+"q": "Comment Mateo analyse-t-il une pub gagnante de 3 minutes ?",
+"choix": [
+"Image par image",
+"D'un seul visionnage",
+"Par ses commentaires",
+"Par son nombre de likes"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Image par image, au lieu de la regarder d'un bout à l'autre.",
+"pourquoi": "Chaque image a un rôle : l'accroche, l'autorité, la preuve, l'offre. On ne les voit qu'en s'arrêtant.",
+"action": "Prends une pub gagnante, mets pause toutes les 3 secondes et note ce que fait chaque image."
+},
+"explication": "Mateo remplit ensuite une fiche par pub : format, concept, produit, angle de l'accroche, angle du corps, cliente, étape du tunnel, niveau de conscience, concept de soi, humeur et intensité, et pourquoi elle gagne.",
+"variantes": [
+{
+"q": "Mateo remplit une fiche pour chaque pub décortiquée. Laquelle de ces cases y trouve-t-on ?",
+"choix": [
+"Le concept de soi",
+"Le salaire de l'actrice",
+"La météo du tournage",
+"Le nom du monteur"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le concept de soi (à quelle version d'elle-même la pub parle)."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S002] [R016] ; partie 10 bis (fiche d'analyse) ; [C001]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 884
+},
+{
+"id": "copy-deco-m-009",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · L'accroche avec un objet du quotidien",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans cet extrait, Mateo décrit l'accroche de la pub Luxe (fond de teint). Selon lui, à quoi sert ce fruit ?",
+"extrait": "« Là, vous voyez, on a un élément atypique. On a un objet atypique avec une couleur qui va attirer l'attention. Là, par exemple, un fruit. »",
+"choix": [
+"Démontrer un effet avec un objet connu",
+"Montrer que le produit est naturel",
+"Donner le parfum du produit vendu",
+"Remplacer la présence de l'actrice"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Démontrer un effet du produit avec un objet du quotidien (ici une orange).",
+"pourquoi": "Mateo : utiliser des fruits ou des objets du quotidien pour démontrer des effets « fonctionne très bien ».",
+"action": "Cherche un objet de la cuisine qui montre l'effet de ton produit en une image."
+},
+"explication": "Sur la capture de Mateo, une femme tient un tube et une orange. L'objet est atypique et coloré : il attire l'œil. Puis il montre un résultat, tout de suite.",
+"variantes": [
+{
+"q": "Une pub de fond de teint s'ouvre sur une orange. Selon Mateo, pourquoi un objet du quotidien marche-t-il si bien dans une accroche ?",
+"choix": [
+"Il attire l'œil et montre l'effet",
+"Il rend la pub moins chère",
+"Il plaît à l'algorithme de Meta",
+"Il évite de montrer le produit"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Il attire l'œil (couleur, objet inattendu) et montre l'effet tout de suite."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S006] [R031] ; [C001]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 885
+},
+{
+"id": "copy-deco-m-010",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Lire une pub · Les 3 rôles d'une accroche (Mateo)",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Mateo, quels sont les 3 rôles d'une accroche ?",
+"choix": [
+"Capter, cibler, faire regarder jusqu'au bout",
+"Vendre, rassurer, donner le prix tout de suite",
+"Amuser, informer, montrer le logo de la marque",
+"Choquer, culpabiliser, pousser à acheter vite"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Capter l'attention, cibler les bonnes personnes, et les inciter à regarder la vidéo jusqu'au bout.",
+"pourquoi": "Une accroche qui capte sans cibler attire les mauvaises personnes. Une accroche qui cible sans retenir les perd (déduction).",
+"action": "Relis ton hook et coche les 3 cases : il arrête, il dit à qui il parle, il donne envie de rester."
+},
+"explication": "Dans la pub Luxe, l'accroche fait les trois : un objet coloré attire l'œil, « les femmes de plus de 40 ans » cible, et le problème des fonds de teint actuels donne envie de rester.",
+"variantes": [
+{
+"q": "Dans la pub Luxe, l'accroche parle des fonds de teint « pour les femmes de plus de 40 ans ». Quel rôle de l'accroche cette précision remplit-elle, selon Mateo ?",
+"choix": [
+"Cibler les bonnes personnes",
+"Donner le prix du produit",
+"Présenter la maquilleuse",
+"Prouver le mécanisme"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Cibler les bonnes personnes : elle se dit « c'est pour moi, je vais regarder »."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S006] [R030] [R032]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 886
+},
+{
+"id": "copy-deco-m-011",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · La figure d'autorité",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Mateo, qu'arrive-t-il juste après l'accroche de la pub Luxe (fond de teint) ?",
+"choix": [
+"Une figure d'autorité : une maquilleuse",
+"L'offre : un acheté, deux offerts",
+"Les avis d'un million de femmes",
+"Le prix comparé aux concurrents"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une figure d'autorité : une maquilleuse professionnelle, une vraie référence en beauté.",
+"pourquoi": "Mateo : sans elle, les résultats n'auraient pas été aussi convaincants.",
+"action": "Juste après ton hook, montre qui parle et pourquoi on doit l'écouter."
+},
+"explication": "Elle est « atypique » et colle parfaitement au produit : elle porte elle-même un fond de teint censé unifier le teint. On se demande alors : « qu'est-ce qu'elle va nous expliquer ? »",
+"variantes": [
+{
+"q": "Pourquoi une maquilleuse est-elle une bonne figure d'autorité pour vendre un fond de teint, selon Mateo ?",
+"choix": [
+"C'est une référence du métier",
+"Elle coûte moins cher qu'une star",
+"Elle a le plus d'abonnés",
+"Elle est l'amie de la fondatrice"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 C'est une référence du métier : en beauté, les maquilleurs sont des professionnels."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S003] [R018] [R021] ; [S007] [R005] [R033]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 887
+},
+{
+"id": "copy-deco-m-012",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · Parler comme la cliente",
+"niveau": 1,
+"type": "qcm",
+"q": "Dans cet extrait, Mateo décrit la façon de parler de la maquilleuse. Comment veut-il que tu conçoives tes pubs ?",
+"extrait": "« Et vous voyez, sa façon de parler, ce n'est pas un discours récité comme dans une publicité ; elle dit « bébé », elle parle, elle parle de façon très directe. »",
+"choix": [
+"Comme une conversation entre deux personnes",
+"Comme un discours récité devant une salle",
+"Comme une notice écrite par un laboratoire",
+"Comme une annonce lue à la radio le matin"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Comme une conversation entre deux personnes.",
+"pourquoi": "Elle parle directement, dans les mots de la femme de 45 ans qui regarde, pas comme une pub récitée.",
+"action": "Lis ton script à voix haute : s'il sonne comme une pub, réécris-le comme un message à une amie."
+},
+"explication": "Mateo : « C'est très important à comprendre. » La maquilleuse dit « bébé », elle ne tourne pas autour du pot, elle explique les choses dans le langage de la cliente.",
+"variantes": [
+{
+"q": "Selon Mateo, avec les mots de qui la maquilleuse de la pub Luxe explique-t-elle les choses ?",
+"choix": [
+"Ceux de la femme de 45 ans qui regarde",
+"Ceux d'un dermatologue en congrès",
+"Ceux de la notice du fond de teint",
+"Ceux d'une publicité classique"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Ceux de la femme de 45 ans qui regarde la vidéo."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S009] [R037] [R038]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 888
+},
+{
+"id": "copy-deco-m-013",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · Tout prouver",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Selon Mateo, pourquoi tout ce que dit la maquilleuse de la pub Luxe doit-il être prouvé ?",
+"qcm": {
+"choix": [
+"Des mots agréables ne suffisent pas",
+"Meta refuse les pubs sans preuve",
+"La vidéo serait trop courte sinon",
+"Les concurrents porteraient plainte"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Parce que des mots agréables ne suffisent pas : il faut des preuves.",
+"pourquoi": "Avec la preuve, le cerveau se dit : « d'accord, ce qu'elle dit est cohérent ».",
+"action": "Pour chaque phrase forte de ton script, note la preuve qui la montre à l'écran."
+},
+"explication": "Mateo montre « l'exemple du toast » : une preuve visuelle. Elle renforce le mécanisme unique du produit, juste avant que la maquilleuse le présente.",
+"variantes": [
+{
+"q": "Dans la pub Luxe, Mateo pointe « l'exemple du toast ». Qu'est-ce que c'est, pour lui ?",
+"qcm": {
+"choix": [
+"Une preuve",
+"Une blague",
+"Une offre",
+"Une accroche"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Une preuve."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S010] [R009] [R039]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 889
+},
+{
+"id": "copy-deco-m-014",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · Un mécanisme qui répond aux problèmes",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Selon Mateo, à quoi doit répondre le mécanisme unique de la solution (le « comment » du produit) dans la pub Luxe ?",
+"qcm": {
+"choix": [
+"Aux problèmes cités plus tôt dans la pub",
+"Aux questions posées en commentaires",
+"Aux prix affichés par les concurrents",
+"Aux goûts de la maquilleuse elle-même"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Aux problèmes cités plus tôt : les autres fonds de teint n'hydratent pas et ne s'adaptent pas à la peau.",
+"pourquoi": "Le produit comble exactement le manque nommé avant. La boucle se ferme.",
+"action": "Liste les problèmes que ta pub nomme, puis vérifie que ton mécanisme répond à chacun."
+},
+"explication": "Mateo : elle dit que les autres solutions conviennent aux jeunes filles, mais que pour une femme de 45 ans, ce produit est la solution. Le mécanisme n'arrive pas seul : il répond aux problèmes posés avant.",
+"variantes": [
+{
+"q": "Dans la pub Luxe, la maquilleuse a dit que les autres fonds de teint n'hydratent pas et ne s'adaptent pas à la peau. Que doit faire son produit, selon Mateo ?",
+"qcm": {
+"choix": [
+"Combler ces deux manques",
+"Coûter moins cher qu'eux",
+"Proposer plus de teintes",
+"Sentir meilleur qu'eux"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Combler ces deux manques."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S010] [R040]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 890
+},
+{
+"id": "copy-deco-m-015",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · De l'émotion au rationnel",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Dans la pub Luxe, après les résultats qui font envie, la pub ajoute que le fond de teint hydrate aussi la peau. Selon Mateo, à quoi sert ce passage ?",
+"qcm": {
+"choix": [
+"Rassurer l'esprit rationnel",
+"Créer une nouvelle peur",
+"Annoncer l'offre du jour",
+"Présenter la maquilleuse"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Rassurer l'esprit rationnel, après les arguments émotionnels.",
+"pourquoi": "D'abord l'émotion (une plus belle peau), puis la raison (il hydrate aussi). Ensuite viennent les objections.",
+"action": "Après tes preuves émotionnelles, ajoute un ou deux avantages concrets qui rassurent la tête."
+},
+"explication": "Mateo : la démonstration doit utiliser des images probantes (des avatars souriants). Puis la pub ajoute des avantages secondaires pour le côté rationnel.",
+"variantes": [
+{
+"q": "Dans quel ordre Mateo voit-il les arguments de la pub Luxe ?",
+"qcm": {
+"choix": [
+"D'abord l'émotion, puis la raison",
+"D'abord la raison, puis l'émotion",
+"Seulement l'émotion, jamais la raison",
+"Seulement la raison, jamais l'émotion"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 D'abord l'émotion, puis la raison."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S011] [R041] [R042]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 891
+},
+{
+"id": "copy-deco-m-016",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · L'ordre de la fin de pub",
+"niveau": 3,
+"type": "rappel",
+"q": "Selon Mateo, dans quel ordre la fin de la pub Luxe enchaîne-t-elle ces 4 blocs ?",
+"qcm": {
+"choix": [
+"Prix justifié, offre, preuve sociale, prise de risque",
+"Offre, prix justifié, prise de risque, preuve sociale",
+"Preuve sociale, offre, prise de risque, prix justifié",
+"Prise de risque, preuve sociale, prix justifié, offre"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Prix justifié, offre (un acheté, deux offerts, avec garantie), preuve sociale, puis la maquilleuse qui prend le risque sur elle.",
+"pourquoi": "On lève d'abord l'objection du prix, puis on donne une raison d'acheter maintenant, puis on rassure par la foule, puis on enlève le dernier risque.",
+"action": "Relis la fin de ton script : chaque bloc doit lever un frein avant le bouton."
+},
+"explication": "Mateo appelle le prix une « objection secondaire » : la pub explique que le produit vaut son prix. La preuve sociale : plus d'un million de femmes qui ont changé d'avis.",
+"variantes": [
+{
+"q": "Selon Mateo, quelle objection la pub Luxe traite-t-elle juste avant son offre ?",
+"qcm": {
+"choix": [
+"Le prix du produit",
+"La durée de livraison",
+"La tenue dans la journée",
+"La taille du flacon"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le prix : elle explique que le produit vaut son prix."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S012] [R043] [R044] [R045] [R046]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 892
+},
+{
+"id": "copy-deco-m-017",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Luxe · L'acheteuse visée",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Mateo, qui est l'acheteuse visée par la pub Luxe (fond de teint) ?",
+"choix": [
+"Une femme de plus de 45 ans qui a déjà ses produits",
+"Une jeune femme qui achète son premier fond de teint",
+"Une maquilleuse qui cherche un produit pour ses clientes",
+"Une femme de 30 ans qui veut un teint plus bronzé"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Une femme de plus de 45 ans qui a essayé ces solutions, pense qu'elles sont bonnes, ou les utilise en ce moment.",
+"pourquoi": "Elle a déjà des habitudes : c'est pour ça que la pub classe et écarte ses produits actuels.",
+"action": "Décris ta cliente par ce qu'elle utilise déjà, pas seulement par son âge."
+},
+"explication": "La voix de Mateo dit « plus de 45 ans » ; sa capture dit « femme 45-65 ». Les deux sont dans la source. La capture ajoute qu'elle se sent « trahie par l'industrie beauté ».",
+"variantes": [
+{
+"q": "La pub Luxe vise une femme de plus de 45 ans. Que sait-on d'elle sur les fonds de teint, selon Mateo ?",
+"choix": [
+"Elle en a essayé ou en utilise déjà",
+"Elle n'en a jamais porté de sa vie",
+"Elle les fabrique elle-même chez elle",
+"Elle les achète seulement en pharmacie"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Elle en a essayé, ou en utilise déjà."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S004] [R025] ; [C001] ; écart voix / capture : partie 10 quater, point 3",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 893
+},
+{
+"id": "copy-deco-m-018",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Lire une pub · L'étape du tunnel",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Mateo, à quelle étape du tunnel de vente (le chemin de la première vue jusqu'à l'achat) se placent les pubs Luxe et Mars Men ?",
+"choix": [
+"En haut : trouver beaucoup de nouveaux clients",
+"En bas : relancer ceux qui ont un panier",
+"Au milieu : rappeler la marque aux abonnés",
+"Après l'achat : vendre un deuxième produit"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 En haut du tunnel : l'acquisition massive de nouveaux clients.",
+"pourquoi": "Ces pubs parlent à des gens qui ne connaissent pas encore la marque.",
+"action": "Avant d'écrire, note l'étape du tunnel : elle change ce que ta pub doit expliquer."
+},
+"explication": "Pour Mars Men, Mateo ajoute que c'est en haut du tunnel qu'on peut vraiment augmenter les dépenses. Sa capture note que la pub Luxe tourne sur 5 marchés en même temps.",
+"variantes": [
+{
+"q": "Selon Mateo, pourquoi placer la pub Mars Men en haut du tunnel ?",
+"choix": [
+"Pour pouvoir augmenter les dépenses",
+"Pour relancer les paniers oubliés",
+"Pour vendre aux anciens clients",
+"Pour tester un nouveau prix"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 C'est là qu'on peut vraiment augmenter les dépenses."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S004] [R026] ; [S017] ; [C001] ; [C005]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 894
+},
+{
+"id": "copy-deco-m-019",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Lire une pub · Le trajet de conscience",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Selon Mateo, de quel niveau de conscience part la pub Luxe (fond de teint), et jusqu'où emmène-t-elle la cliente ?",
+"qcm": {
+"choix": [
+"Du problème jusqu'au produit",
+"De l'inconscience jusqu'au problème",
+"Du produit jusqu'à la solution",
+"De la solution jusqu'au problème"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Consciente du problème, puis de la solution, puis du produit.",
+"pourquoi": "Elle sait déjà que son fond de teint pose souci. La pub la fait monter vite jusqu'au produit.",
+"action": "Note le niveau de départ de ta cliente et celui où ta pub doit la laisser."
+},
+"explication": "Mateo pense que c'est pour ça que cette pub est l'une des meilleures de la marque pour acquérir autant. Sa capture note un départ « conscient du problème » poussé jusqu'à « conscient du produit ».",
+"variantes": [
+{
+"q": "Selon Mateo, à quel niveau de conscience sont les hommes visés par la pub Mars Men au départ ?",
+"qcm": {
+"choix": [
+"Inconscients : ils ignorent le problème",
+"Conscients du produit Mars Men",
+"Conscients de la solution naturelle",
+"Les plus conscients : prêts à acheter"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Inconscients : ils ignorent que leur médicament leur cause un problème."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S003] [R027] ; [S004] [R028] ; [S017] [R053] ; [C001] ; [C005]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 895
+},
+{
+"id": "copy-deco-m-020",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Lire une pub · Humeur et intensité",
+"niveau": 2,
+"type": "diagnostic",
+"q": "Selon Mateo, par quelle émotion la pub Luxe (fond de teint) commence-t-elle, et vers laquelle va-t-elle ?",
+"qcm": {
+"choix": [
+"De la fatigue vers la joie",
+"De la joie vers la fatigue",
+"De la colère vers la peur",
+"De la peur vers la colère"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 De la fatigue vers la joie.",
+"pourquoi": "Elle part du ras-le-bol de la cliente, puis l'emmène vers le soulagement.",
+"action": "Note l'émotion de départ et l'émotion d'arrivée de ta pub avant d'écrire."
+},
+"explication": "Mateo appelle cette case « humeur et intensité ». Sa capture précise : un ras-le-bol de force moyenne au départ, puis « enfin quelqu'un m'écoute ».",
+"variantes": [
+{
+"q": "Selon Mateo, quelle humeur la pub Mars Men doit-elle faire passer ?",
+"qcm": {
+"choix": [
+"De la panique à une joie maîtrisée",
+"De la joie à une panique soudaine",
+"De la colère à une tristesse calme",
+"De l'ennui à une colère très forte"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 De la panique (une alerte) à une joie maîtrisée, une force douce."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S005] [R029] ; [S018] [R056] ; [C001] ; [C005]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 896
+},
+{
+"id": "copy-deco-m-021",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Mars Men · Le format tableau blanc",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Mateo, pourquoi le format tableau blanc de la pub Mars Men donne-t-il de l'autorité ?",
+"choix": [
+"Profs et experts écrivent sur des tableaux",
+"Il coûte cher à filmer, donc il fait sérieux",
+"Il montre le visage d'un médecin connu",
+"Il cache le produit jusqu'à la fin"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Parce que ce sont les enseignants et les experts qui écrivent d'habitude sur des tableaux blancs.",
+"pourquoi": "On croit voir des notes de cours : l'autorité arrive tout de suite, sans personne à l'écran.",
+"action": "Teste ton message sous forme de tableau blanc : quelques mots, un schéma simple."
+},
+"explication": "Mateo : ce format « fonctionne exceptionnellement bien ». Il est très lisible et très visuel. Il le conseille quand les gens sont déjà très conscients de quelque chose.",
+"variantes": [
+{
+"q": "Qui écrit d'habitude sur un tableau blanc, selon Mateo ?",
+"choix": [
+"Les enseignants et les experts",
+"Les vendeurs et les livreurs",
+"Les clients et les fans",
+"Les acteurs et les mannequins"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Les enseignants et les experts."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S019] [R013] [R057]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 897
+},
+{
+"id": "copy-deco-m-022",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Mars Men · Refaire un tableau blanc",
+"niveau": 2,
+"type": "si-alors",
+"q": "Si tu refais le tableau blanc de Mars Men pour ton produit, quelles règles Mateo te donne-t-il ?",
+"qcm": {
+"choix": [
+"Très lisible, peu d'espace, un visuel simple",
+"Beaucoup de texte, petite police, sans image",
+"Couleurs vives, logo géant, musique forte",
+"Photo de stock, slogan, code à scanner"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Très lisible, sans trop d'espace, avec un visuel qui illustre simplement ce que tu présentes.",
+"pourquoi": "Le tableau doit se lire d'un coup d'œil, sinon il perd son effet « cours de prof ».",
+"action": "Montre l'image de la pub à ton IA et demande-lui de la refaire pour ton produit, avec ces 3 règles."
+},
+"explication": "La transcription dit « le code doit être très lisible » : probablement « le texte » (déduction). Le tableau de Mars Men compare « médicament seul » et « médicament + produit », puis donne la proposition de valeur, prouvée.",
+"variantes": [
+{
+"q": "Que compare le tableau blanc de la pub Mars Men ?",
+"qcm": {
+"choix": [
+"Le médicament seul, puis avec le produit",
+"Le produit contre trois concurrents",
+"Le prix avant et après la remise",
+"Le corps à 20 ans, puis à 50 ans"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le médicament seul, puis le médicament avec le produit."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [S019] [R058] [R059] ; [C004] ; [C006]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 898
+},
+{
+"id": "copy-deco-m-023",
+"theme": "copy",
+"chapitre": "Décortiquer une pub gagnante",
+"competence": "Pub Mars Men · La page d'arrivée",
+"niveau": 3,
+"type": "diagnostic",
+"q": "Sur ses captures, Mateo note que la pub Mars Men envoie vers une page « 10 raisons », pas vers la fiche produit. Qu'apporte ce choix ?",
+"qcm": {
+"choix": [
+"Plus de crédibilité et un panier plus gros",
+"Moins de clics et un coût par clic plus bas",
+"Un passage plus rapide vers le paiement",
+"Une page plus facile et rapide à fabriquer"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Plus de crédibilité et un panier moyen plus élevé.",
+"pourquoi": "Une page qui explique, comme un article (advertorial), rassure avant de vendre.",
+"action": "Pour une pub qui révèle un problème inconnu, teste une page qui explique avant la fiche produit."
+},
+"explication": "Cette information n'est que sur la capture de Mateo, pas dans sa voix. Elle va avec une pub qui parle à des hommes qui ignoraient leur problème : ils ont besoin d'explications avant d'acheter (déduction).",
+"variantes": [
+{
+"q": "Quel type de page d'arrivée la pub Mars Men utilise-t-elle, d'après les captures de Mateo ?",
+"qcm": {
+"choix": [
+"Un article « 10 raisons »",
+"La fiche produit directe",
+"Une page avec un quiz",
+"Une page d'inscription"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Un article « 10 raisons » (advertorial), pas une fiche produit directe."
+}
+}
+],
+"source": "Mateo – vidéo de décorticage de deux pubs gagnantes (Luxe et Mars Men)",
+"ref": "MATEO DECORTIQUER MARS.md [C005] ; partie 10 quater, point 6",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 899
 },
 {
 "id": "crea-001",
@@ -12365,7 +22758,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 236
 },
 {
 "id": "crea-002",
@@ -12408,7 +22802,8 @@ window.QR_CARTES = [
 "q": "Selon le formateur Pellegrini, entre quels deux pourcentages de hook rate (taux d'accroche) une accroche est-elle « moyenne » ?",
 "type": "rappel"
 }
-]
+],
+"num": 237
 },
 {
 "id": "crea-003",
@@ -12442,7 +22837,8 @@ window.QR_CARTES = [
 "q": "Ta vidéo attend 6 secondes avant de devenir intéressante. Dans quelle fenêtre de temps aurait-elle dû accrocher ?",
 "type": "scénario"
 }
-]
+],
+"num": 238
 },
 {
 "id": "crea-004",
@@ -12476,7 +22872,8 @@ window.QR_CARTES = [
 "q": "Pour améliorer le taux d'accroche, le formateur Pellegrini conseille entre autres de « mettre du rouge ». Quelle partie de la vidéo dit-il de changer d'abord ?",
 "type": "rappel"
 }
-]
+],
+"num": 239
 },
 {
 "id": "crea-005",
@@ -12510,7 +22907,8 @@ window.QR_CARTES = [
 "q": "Quand on fait défiler son fil, on réagit sans réfléchir. Quels 4 leviers le formateur Pellegrini utilise-t-il pour toucher cette partie de nous ?",
 "type": "rappel"
 }
-]
+],
+"num": 240
 },
 {
 "id": "crea-006",
@@ -12567,7 +22965,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 241
 },
 {
 "id": "crea-007",
@@ -12603,7 +23002,8 @@ window.QR_CARTES = [
 "q": "Les séries finissent sur un suspense pour qu'on regarde la suite. Quel principe d'accroche le formateur Pellegrini en tire-t-il ?",
 "type": "rappel"
 }
-]
+],
+"num": 242
 },
 {
 "id": "crea-008",
@@ -12637,7 +23037,8 @@ window.QR_CARTES = [
 "q": "Une émotion forte rend une pub plus partagée. Quel élément le formateur Pellegrini veut-il voir à l'écran dès l'accroche ?",
 "type": "rappel"
 }
-]
+],
+"num": 243
 },
 {
 "id": "crea-009",
@@ -12678,7 +23079,8 @@ window.QR_CARTES = [
 "bonne": 1,
 "explication": "L'orateur de la vidéo sur les statiques le décrit lui-même : « that's a persona call out to a particular problem ». Même idée : on appelle la personne par ce qui la définit."
 }
-]
+],
+"num": 244
 },
 {
 "id": "crea-010",
@@ -12712,7 +23114,8 @@ window.QR_CARTES = [
 "q": "Une repousse de cheveux irréaliste, faite à l'IA, ouvre la pub. Quel type d'accroche K (agence Luma) décrit-il là ?",
 "type": "rappel"
 }
-]
+],
+"num": 245
 },
 {
 "id": "crea-012",
@@ -12778,7 +23181,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 247
 },
 {
 "id": "crea-013",
@@ -12828,7 +23232,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 248
 },
 {
 "id": "crea-016",
@@ -12863,7 +23268,8 @@ window.QR_CARTES = [
 "q": "Une pub concurrente parle à tous ceux qui ont mal au tendon d'Achille. Quel sous-groupe Matteo (vidéos copy mining) vise-t-il pour être plus précis ?",
 "type": "scénario"
 }
-]
+],
+"num": 251
 },
 {
 "id": "crea-017",
@@ -12911,7 +23317,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 252
 },
 {
 "id": "crea-018",
@@ -12959,7 +23366,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 253
 },
 {
 "id": "crea-019",
@@ -12998,7 +23406,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 254
 },
 {
 "id": "crea-020",
@@ -13042,7 +23451,8 @@ window.QR_CARTES = [
 "action": "Ne confonds pas style et format quand tu itères."
 }
 }
-]
+],
+"num": 255
 },
 {
 "id": "crea-021",
@@ -13090,7 +23500,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 256
 },
 {
 "id": "crea-022",
@@ -13124,7 +23535,8 @@ window.QR_CARTES = [
 "q": "Pour qu'une pub gagnante paraisse neuve aux yeux de Meta, comment Mathéo (vidéo « 10 itérations ») répartit-il ce qui reste et ce qui change ?",
 "type": "rappel"
 }
-]
+],
+"num": 257
 },
 {
 "id": "crea-023",
@@ -13172,7 +23584,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 258
 },
 {
 "id": "crea-024",
@@ -13206,7 +23619,8 @@ window.QR_CARTES = [
 "q": "L'accroche de ta pub gagnante arrête très bien le défilement. Quelle partie gardes-tu telle quelle ?",
 "type": "scénario"
 }
-]
+],
+"num": 259
 },
 {
 "id": "crea-025",
@@ -13241,7 +23655,8 @@ window.QR_CARTES = [
 "q": "Pour vérifier qu'une maman réagirait plus fort que la cible actuelle, que fait la stratège du cas Nutra Naturals ?",
 "type": "scénario"
 }
-]
+],
+"num": 260
 },
 {
 "id": "crea-026",
@@ -13276,7 +23691,8 @@ window.QR_CARTES = [
 "q": "Matteo (vidéos copy mining) trouve le début de la pub de la marque Cure « un peu lent ». Quels éléments ferait-il arriver plus tôt ?",
 "type": "rappel"
 }
-]
+],
+"num": 261
 },
 {
 "id": "crea-027",
@@ -13324,7 +23740,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 262
 },
 {
 "id": "crea-028",
@@ -13372,7 +23789,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 263
 },
 {
 "id": "crea-029",
@@ -13406,7 +23824,8 @@ window.QR_CARTES = [
 "q": "Formule de la formation Evolve : 100 $ par jour et 20 $ de coût par achat visé. Combien d'adsets (ensembles de pubs) à la fois ?",
 "type": "rappel"
 }
-]
+],
+"num": 264
 },
 {
 "id": "crea-030",
@@ -13454,7 +23873,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 265
 },
 {
 "id": "crea-031",
@@ -13502,7 +23922,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 266
 },
 {
 "id": "crea-032",
@@ -13550,7 +23971,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 267
 },
 {
 "id": "crea-033",
@@ -13596,7 +24018,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 268
 },
 {
 "id": "crea-034",
@@ -13644,7 +24067,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 269
 },
 {
 "id": "crea-035",
@@ -13692,7 +24116,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 270
 },
 {
 "id": "crea-036",
@@ -13738,7 +24163,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 271
 },
 {
 "id": "crea-037",
@@ -13784,7 +24210,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 272
 },
 {
 "id": "crea-038",
@@ -13832,7 +24259,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 273
 },
 {
 "id": "crea-039",
@@ -13871,7 +24299,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 274
 },
 {
 "id": "crea-040",
@@ -13905,7 +24334,8 @@ window.QR_CARTES = [
 "q": "Avant d'ouvrir un outil de design, quelles cases la masterclass Static Ads (pubs image) te fait-elle remplir dans ton brief (cahier des charges) ?",
 "type": "rappel"
 }
-]
+],
+"num": 275
 },
 {
 "id": "crea-041",
@@ -13939,7 +24369,8 @@ window.QR_CARTES = [
 "q": "« Don't open up Canva » (« n'ouvre pas Canva ») : par quoi l'auteur veut-il que tu commences une pub image ?",
 "type": "rappel"
 }
-]
+],
+"num": 276
 },
 {
 "id": "crea-042",
@@ -13987,7 +24418,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 277
 },
 {
 "id": "crea-043",
@@ -14021,7 +24453,8 @@ window.QR_CARTES = [
 "q": "Tu coupes une pub image faite pour des inconnus, car elle vend peu au dernier clic. Quel effet risques-tu de perdre ?",
 "type": "si-alors"
 }
-]
+],
+"num": 278
 },
 {
 "id": "crea-044",
@@ -14055,7 +24488,8 @@ window.QR_CARTES = [
 "q": "Pourquoi la vidéo sur les pubs statiques juge-t-elle mauvaise la pub de créatine analysée, au-delà de son design ?",
 "type": "diagnostic"
 }
-]
+],
+"num": 279
 },
 {
 "id": "crea-045",
@@ -14103,7 +24537,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 280
 },
 {
 "id": "crea-046",
@@ -14151,7 +24586,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 281
 },
 {
 "id": "crea-047",
@@ -14190,7 +24626,8 @@ window.QR_CARTES = [
 ],
 "bonne": 1
 }
-]
+],
+"num": 282
 },
 {
 "id": "crea-048",
@@ -14224,7 +24661,8 @@ window.QR_CARTES = [
 "q": "Matteo (SOP native ads) classe deux éléments d'une native ad en « numéro un » et « numéro deux ». Lequel est le numéro un ?",
 "type": "rappel"
 }
-]
+],
+"num": 283
 },
 {
 "id": "crea-050",
@@ -14272,7 +24710,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 285
 },
 {
 "id": "crea-051",
@@ -14304,7 +24743,8 @@ window.QR_CARTES = [
 "q": "Chaque semaine, l'équipe de Matteo (vidéos copy mining) fait du « copy mining ». En quoi ça consiste ?",
 "type": "rappel"
 }
-]
+],
+"num": 286
 },
 {
 "id": "crea-052",
@@ -14352,7 +24792,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 287
 },
 {
 "id": "crea-053",
@@ -14386,7 +24827,8 @@ window.QR_CARTES = [
 "q": "Pour améliorer la pub gagnante d'un concurrent, jusqu'à quel pourcentage de la pub Matteo (vidéos copy mining) accepte-t-il de changer ?",
 "type": "rappel"
 }
-]
+],
+"num": 288
 },
 {
 "id": "crea-054",
@@ -14420,7 +24862,8 @@ window.QR_CARTES = [
 "q": "Tu adaptes un script pour des gens qui connaissent les solutions, et tu veux ajouter le problème. Que dit Matteo (vidéos copy mining) ?",
 "type": "piège"
 }
-]
+],
+"num": 289
 },
 {
 "id": "crea-055",
@@ -14468,7 +24911,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 290
 },
 {
 "id": "crea-056",
@@ -14503,7 +24947,8 @@ window.QR_CARTES = [
 "q": "Matteo (vidéos copy mining) veut tester sur d'autres pubs l'ouverture de Cure, qui commence par la garantie. Qu'est-ce que ce type d'ouverture fait au client ?",
 "type": "rappel"
 }
-]
+],
+"num": 291
 },
 {
 "id": "crea-057",
@@ -14549,7 +24994,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 292
 },
 {
 "id": "crea-058",
@@ -14585,7 +25031,8 @@ window.QR_CARTES = [
 "type": "diagnostic",
 "extrait": "Just another scam. Like, people were getting paid to post all that shit, but I was desperate. I was losing my hair at 26."
 }
-]
+],
+"num": 293
 },
 {
 "id": "crea-059",
@@ -14619,7 +25066,8 @@ window.QR_CARTES = [
 "q": "K (agence Luma) distingue « le fond » (à qui on parle, pourquoi acheter) et « la forme » (le format). Lequel varies-tu en premier ?",
 "type": "rappel"
 }
-]
+],
+"num": 294
 },
 {
 "id": "crea-060",
@@ -14667,7 +25115,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 295
 },
 {
 "id": "crea-061",
@@ -14711,7 +25160,8 @@ window.QR_CARTES = [
 "action": "Teste d'autres hooks, titres, formats et images, tous sur le même angle."
 }
 }
-]
+],
+"num": 296
 },
 {
 "id": "crea-062",
@@ -14760,7 +25210,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 297
 },
 {
 "id": "crea-063",
@@ -14795,7 +25246,8 @@ window.QR_CARTES = [
 "q": "Un test de la formation Evolve montre que « celui qui se réveille à 3 h du matin » réagit le mieux. Quelle méthode lances-tu ensuite ?",
 "type": "si-alors"
 }
-]
+],
+"num": 298
 },
 {
 "id": "crea-064",
@@ -14829,7 +25281,8 @@ window.QR_CARTES = [
 "q": "Elle évite la piscine, la plage, les photos de famille. Que font K (agence Luma) et l'animateur du podcast avec ces scènes de vie ?",
 "type": "scénario"
 }
-]
+],
+"num": 299
 },
 {
 "id": "crea-065",
@@ -14877,7 +25330,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 300
 },
 {
 "id": "crea-066",
@@ -14925,7 +25379,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 301
 },
 {
 "id": "crea-067",
@@ -14973,7 +25428,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 302
 },
 {
 "id": "crea-068",
@@ -15023,7 +25479,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 303
 },
 {
 "id": "crea-069",
@@ -15073,7 +25530,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 304
 },
 {
 "id": "crea-070",
@@ -15140,7 +25598,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 305
 },
 {
 "id": "crea-071",
@@ -15188,7 +25647,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 306
 },
 {
 "id": "crea-072",
@@ -15234,7 +25694,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 307
 },
 {
 "id": "crea-073",
@@ -15282,7 +25743,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 308
 },
 {
 "id": "crea-074",
@@ -15330,7 +25792,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 309
 },
 {
 "id": "crea-075",
@@ -15364,7 +25827,8 @@ window.QR_CARTES = [
 "q": "Lucas, créateur de l'outil Tribe, demande 3 vidéos par jour à ses créateurs. Quelle est la toute première ?",
 "type": "rappel"
 }
-]
+],
+"num": 310
 },
 {
 "id": "crea-076",
@@ -15412,7 +25876,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 311
 },
 {
 "id": "crea-077",
@@ -15446,7 +25911,8 @@ window.QR_CARTES = [
 "q": "« Je suis la salle de sport, tu as essayé, mais je ne vais pas résoudre ton problème. » De quel concept de pub vient cette réplique ?",
 "type": "diagnostic"
 }
-]
+],
+"num": 312
 },
 {
 "id": "crea-078",
@@ -15494,7 +25960,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 313
 },
 {
 "id": "crea-079",
@@ -15528,7 +25995,8 @@ window.QR_CARTES = [
 "q": "Au live de Lucas et Thomas, un débutant demande comment répartir 1 000 $ entre outils IA et pub. Que lui répond-on ?",
 "type": "si-alors"
 }
-]
+],
+"num": 314
 },
 {
 "id": "crea-080",
@@ -15576,7 +26044,453 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 315
+},
+{
+"id": "cro-pan-001",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Barre de livraison gratuite",
+"niveau": 1,
+"type": "qcm",
+"q": "Spencer remplit le panier d'une boutique jusqu'à 43 $. La livraison gratuite n'est pas encore débloquée. Que lui affiche le panier ?",
+"choix": [
+"« Ajoute 4 $ de plus pour la livraison gratuite »",
+"« Livraison offerte dès ta deuxième commande »",
+"« Prends 10 % de remise sur tout ce panier »",
+"« Livraison gratuite pour les abonnés seulement »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La somme qui manque : « ajoute 4 $ de plus et la livraison est gratuite ».",
+"pourquoi": "Le panier ne montre pas juste un seuil : il dit combien il reste. (déduction) Le client voit qu'il est à un petit pas du but.",
+"action": "Dans ton panier, affiche la somme qui manque pour la livraison gratuite, pas seulement le seuil."
+},
+"explication": "Spencer ajoute des produits. À 43 $, le panier dit « add $4 more and get free shipping » (ajoute 4 $ et la livraison est gratuite). Le seuil est donc à 47 $ (43 + 4, déduction). Une fois le seuil passé, le panier affiche « Congrats, you now have free shipping » (bravo, ta livraison est gratuite).",
+"variantes": [
+{
+"q": "Dans un panier que montre Spencer, le client a 43 $ et il lui manque 4 $ pour la livraison gratuite. À combien est le seuil ?",
+"choix": [
+"47 $",
+"43 $",
+"39 $",
+"51 $"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 47 $ : 43 $ déjà dans le panier + 4 $ qui manquent (déduction)."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S001] [R001] ; [S003]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1100
+},
+{
+"id": "cro-pan-002",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Produits complémentaires dans le panier",
+"niveau": 1,
+"type": "qcm",
+"q": "Chez la marque Uproot, Spencer a déjà mis le kit « daily essential » (kit de base du quotidien) dans son panier. Que devrait lui proposer le panier, selon lui ?",
+"choix": [
+"La lessive ou les lingettes",
+"Le même kit, en double",
+"Un code promo sur ce kit",
+"Ce kit, en abonnement"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Des produits qui vont avec : la lessive ou les lingettes de la marque.",
+"pourquoi": "Il a déjà le kit, il n'en veut pas un deuxième. Spencer : on crée une logique selon ce que les gens achètent, pour leur montrer autre chose.",
+"action": "Pour chaque produit, choisis le complément que ton panier montre quand il est ajouté."
+},
+"explication": "Spencer aime le panier qui montre des produits complémentaires (qui vont avec l'achat). Il cite UpCart, et Kaching « je crois », comme outils d'upsell (vente en plus) dans le panier. Chez Uproot, le panier ne le fait pas : « I don't know why their cart isn't optimized like that » (je ne sais pas pourquoi leur panier n'est pas optimisé comme ça).",
+"variantes": [
+{
+"q": "Selon Spencer, sur quoi un panier doit-il se baser pour choisir les produits à proposer en plus ?",
+"choix": [
+"Ce que le client vient d'ajouter",
+"Les produits les plus chers",
+"Les produits en fin de stock",
+"Les nouveautés de la semaine"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Sur ce que le client a déjà mis dans son panier : « create logic based off of what people are buying » (créer une logique selon ce que les gens achètent)."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S002] [R002] [R003]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1101
+},
+{
+"id": "cro-pan-003",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Cadeau ou crédit plutôt que remise",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Spencer, pourquoi offrir un produit de ta boutique en cadeau plutôt que des dollars de remise ?",
+"choix": [
+"Il te coûte bien moins que sa valeur affichée",
+"Il fait venir plus de clients sur la pub",
+"Il évite les retours après la commande",
+"Il passe mieux auprès des règles de Meta"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 Le cadeau « tourne à ta marge » : il te coûte bien moins que sa valeur affichée.",
+"pourquoi": "Spencer : « this is running at your margin. This is not running at actual cost to you » (ça tourne à ta marge, pas au coût réel pour toi). Le client voit le prix plein ; toi, tu paies le coût du produit.",
+"action": "Avant de faire une remise, demande-toi quel produit de ta boutique tu peux offrir à la place."
+},
+"explication": "Au lieu de « 10 % de plus » ou « dépense X $ pour la livraison gratuite », Spencer propose « dépense X $, reçois 30 $ de crédit magasin » ou « reçois un cadeau mystère de 50 $ ». Le crédit magasin, c'est de l'argent à dépenser seulement dans ta boutique. Lui aussi te coûte ton prix de revient, pas sa valeur.",
+"variantes": [
+{
+"q": "Spencer veut remplacer l'offre « 10 % de remise en plus ». Par quelle offre ?",
+"choix": [
+"« Dépense X $, reçois 30 $ de crédit »",
+"« Dépense X $, reçois 15 % de remise »",
+"« Dépense X $, paie en trois fois »",
+"« Dépense X $, gagne des points fidélité »"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 « Dépense X $, reçois 30 $ de crédit magasin », ou bien un cadeau mystère de 50 $."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S005] [R006] [R007a] [R007b]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1102
+},
+{
+"id": "cro-pan-004",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Calculer le vrai coût d'un crédit magasin",
+"niveau": 2,
+"type": "scénario",
+"q": "Ta marge sur toute la boutique est de 70 %. Tu offres 30 $ de crédit magasin (à dépenser chez toi). Combien ça te coûte vraiment, selon le calcul de Spencer ?",
+"qcm": {
+"choix": [
+"9 $",
+"21 $",
+"30 $",
+"3 $"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 9 $ : 30 $ × 30 % = 9 $.",
+"pourquoi": "Avec 70 % de marge, le produit te coûte 30 % de son prix. Le client reçoit 30 $ de valeur ; toi, tu paies 9 $.",
+"action": "Calcule le vrai coût de chaque cadeau : prix affiché × (1 − ta marge)."
+},
+"explication": "Spencer : « This $30 product actually only cost us $9. That is a 70% profit margin. » (ce produit à 30 $ ne nous coûte que 9 $ : 70 % de marge) Donner 30 $ de crédit coûte autant que donner 9 $ de remise. Mais 30 $ de crédit a bien plus de valeur pour le client : même coût, offre plus de trois fois plus grosse.",
+"variantes": [
+{
+"q": "Selon Spencer, avec 70 % de marge, quelle remise coûte autant à la marque que 30 $ de crédit magasin ?",
+"qcm": {
+"choix": [
+"9 $ de remise",
+"21 $ de remise",
+"30 $ de remise",
+"3 $ de remise"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 9 $ de remise. Même coût pour la marque, mais 30 $ de crédit paraît bien plus gros."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S006] [R008] [R009]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1103
+},
+{
+"id": "cro-pan-005",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Calculer le vrai coût d'un cadeau mystère",
+"niveau": 2,
+"type": "scénario",
+"q": "Un cadeau mystère est affiché à 50 $ dans le panier. Ta marge sur ce produit est de 80 %. Combien te coûte-t-il, selon Spencer ?",
+"qcm": {
+"choix": [
+"10 $",
+"40 $",
+"50 $",
+"8 $"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 10 $ : 50 $ × 20 % = 10 $.",
+"pourquoi": "Le client reçoit 50 $ de valeur. La marque paie seulement le coût du produit, sans livraison en plus.",
+"action": "Choisis comme cadeau un produit à forte marge, qui tient dans le même colis que la commande."
+},
+"explication": "Spencer dit que ce cadeau a une très bonne marge : pas de livraison à payer en plus, seulement le coût du produit. Le client reçoit déjà ses autres produits, donc le cadeau part dans le même colis. À 80 % de marge, 50 $ de valeur coûtent 10 $.",
+"variantes": [
+{
+"q": "Selon Spencer, pourquoi un cadeau ajouté à une commande garde-t-il une très bonne marge ?",
+"qcm": {
+"choix": [
+"Il part dans le même colis que la commande",
+"Il est fabriqué dans une usine moins chère",
+"Il est payé par le fournisseur du produit",
+"Il est pris dans le stock des invendus"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Pas de livraison en plus : il part dans le même colis, tu paies seulement le produit."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S007] [R010a] [R010b] [R010c]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1104
+},
+{
+"id": "cro-pan-006",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Paliers de récompense dans le panier",
+"niveau": 2,
+"type": "si-alors",
+"q": "Dans le panier qu'analyse Spencer, le client vient de débloquer la livraison gratuite. Que lui montre ensuite le panier ?",
+"qcm": {
+"choix": [
+"Ce qu'il reste à dépenser pour le cadeau mystère",
+"Un bouton pour payer tout de suite sa commande",
+"Un code de 10 % pour sa prochaine commande",
+"Les avis des autres clients sur ses produits"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le palier suivant : encore 55 $ à dépenser pour le dernier cadeau mystère.",
+"pourquoi": "Il économise déjà 17 $ de livraison, mais une autre récompense l'attend plus haut. Chaque palier atteint en montre un autre.",
+"action": "Construis ton panier en marches : livraison gratuite, puis un ou deux cadeaux mystère."
+},
+"explication": "Spencer : « now I've just unlocked free shipping » (je viens de débloquer la livraison gratuite) puis « I still need to spend $55 more to get the final mystery gift » (je dois encore dépenser 55 $ pour le dernier cadeau mystère). Les paliers s'enchaînent comme des marches : livraison gratuite, puis deux cadeaux mystère (50 $ et 10 $). (déduction) Le client a toujours une raison d'ajouter un produit.",
+"variantes": [
+{
+"q": "Spencer vient de débloquer la livraison gratuite dans un panier. Combien économise-t-il, et combien lui manque-t-il pour le cadeau mystère final ?",
+"qcm": {
+"choix": [
+"17 $ économisés, 55 $ à ajouter",
+"55 $ économisés, 17 $ à ajouter",
+"4 $ économisés, 43 $ à ajouter",
+"17 $ économisés, 4 $ à ajouter"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 17 $ économisés sur la livraison, et encore 55 $ à dépenser pour le dernier cadeau mystère."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S003] [R004] ; [S004] [R005]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1105
+},
+{
+"id": "cro-pan-007",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Arbitrage de marge : ce que rapporte un cadeau",
+"niveau": 3,
+"type": "scénario",
+"q": "Une marque offre un cadeau mystère affiché à 50 $, qui ne lui coûte qu'environ 10 $. Selon Spencer, combien arrive-t-elle ainsi à faire dépenser au client ?",
+"qcm": {
+"choix": [
+"100 $",
+"150 $",
+"200 $",
+"60 $"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 150 $, en donnant l'équivalent d'environ 10 $ de remise.",
+"pourquoi": "Spencer appelle ça un arbitrage de marge (profiter de l'écart entre valeur et coût) : « I'm able to get someone to spend $150 just by giving them essentially $10 off » (je fais dépenser 150 $ en donnant en gros 10 $ de remise).",
+"action": "Remplace tes remises en % par un cadeau ou un crédit, et calcule son vrai coût avec ta marge."
+},
+"explication": "« That is the game » (c'est ça, le jeu), dit Spencer : c'est comme ça que les grandes marques font des offres folles. Le client reçoit plus de valeur, la marge reste protégée, et le panier moyen (montant moyen d'une commande) monte. Une remise, elle, coûte son montant plein (déduction).",
+"variantes": [
+{
+"q": "Selon Spencer, comment les grandes marques arrivent-elles à faire des offres « folles » sans perdre leur marge ?",
+"qcm": {
+"choix": [
+"Elles achètent leurs stocks en énorme quantité",
+"Elles offrent leurs produits, payés à leur coût",
+"Elles se rattrapent sur les clients qui reviennent",
+"Elles acceptent de perdre de l'argent au début"
+],
+"bonne": 1
+},
+"r": {
+"verdict": "💡 Elles offrent leurs propres produits : le client voit leur valeur, la marque paie seulement leur coût.",
+"pourquoi": "Spencer : « That is how these big brands are able to do all these crazy offers » (c'est comme ça que ces grandes marques font toutes ces offres folles), grâce à cet arbitrage de marge."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S007] [S008] [R011] ; [S010] [R014]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1106
+},
+{
+"id": "cro-pan-008",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Afficher la valeur gagnée dans le panier",
+"niveau": 3,
+"type": "scénario",
+"q": "Sous-total de 158 $. Le client reçoit deux cadeaux mystère (50 $ et 10 $) et économise 64 $. Quelle valeur se dit-il avoir gagnée, selon Spencer ?",
+"qcm": {
+"choix": [
+"Environ 125 $",
+"Environ 64 $",
+"Environ 60 $",
+"Environ 34 $"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Environ 125 $ : 60 $ de cadeaux + 64 $ d'économies = 124 $.",
+"pourquoi": "Spencer : « I've saved about $125 technically on this order » (j'ai économisé environ 125 $ sur cette commande). Comme sa mère : « j'ai dépensé tant, mais j'ai économisé tant ». C'est ainsi que les clients justifient un achat.",
+"action": "Affiche dans le panier le total des économies et des cadeaux, en euros ou en dollars."
+},
+"explication": "Spencer raconte que sa mère est « la reine » de ça : « You wouldn't believe what I saved. » (tu ne croirais pas ce que j'ai économisé) Le chiffre « économisé » aide le client à se justifier. Pour la marque : plus de valeur pour le client, une marge protégée et un panier moyen (montant moyen d'une commande) plus haut.",
+"variantes": [
+{
+"q": "Selon Spencer, à quoi sert le montant « économisé » qu'un client voit dans son panier ?",
+"qcm": {
+"choix": [
+"À justifier son achat à ses propres yeux",
+"À comparer le prix avec les concurrents",
+"À calculer la TVA de toute sa commande",
+"À choisir son mode de livraison préféré"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 À se justifier : « j'ai dépensé tant, mais j'ai économisé tant »."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S009] [R012] ; [S010] [R013] [R014]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1107
+},
+{
+"id": "cro-pan-009",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Copier une offre qui marche",
+"niveau": 1,
+"type": "qcm",
+"q": "Selon Spencer, d'où peut venir ton offre « dépense X $, reçois un cadeau mystère de 50 $ » ?",
+"choix": [
+"Copiée telle quelle sur l'offre d'Uproot",
+"Tirée d'un sondage fait sur tes clients",
+"Calculée par un outil comme UpCart",
+"Proposée par Meta dans tes réglages pub"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 D'une marque qui la fait déjà : on peut la copier exactement sur le panier d'Uproot.",
+"pourquoi": "Spencer : « even if we just copy this exactly from Uproot » (même si on copie exactement Uproot). Il donne deux exemples : 30 $ de crédit magasin, ou ce cadeau mystère de 50 $.",
+"action": "(déduction) Regarde le panier des marques de ta niche : note leurs paliers et leurs cadeaux avant d'inventer les tiens."
+},
+"explication": "Spencer analyse le vrai panier d'Uproot pendant la vidéo. Il en tire l'offre « spend X amount get $50 mystery gift » (dépense X $, reçois un cadeau mystère de 50 $) et dit qu'on peut la reprendre telle quelle. (déduction) Une offre qui tourne déjà chez une marque est un bon point de départ.",
+"variantes": [
+{
+"q": "Spencer étudie le panier d'une autre marque, Uproot. Que dit-il qu'on peut faire de son offre de cadeau mystère ?",
+"choix": [
+"La copier exactement dans ta boutique",
+"La proposer seulement aux abonnés",
+"La garder pour les soldes de fin d'année",
+"La remplacer par une remise de 10 %"
+],
+"bonne": 0,
+"r": {
+"verdict": "💡 La copier exactement : « dépense X $, reçois un cadeau mystère de 50 $ »."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S005] [R007b] ; [S004] [R005]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1108
+},
+{
+"id": "cro-pan-010",
+"theme": "cro",
+"chapitre": "Offre et panier",
+"competence": "Le but de l'offre panier",
+"niveau": 2,
+"type": "rappel",
+"q": "Selon Spencer, qu'apporte au final son système de paliers, de cadeaux et de crédit dans le panier ?",
+"qcm": {
+"choix": [
+"Plus de valeur, marge protégée, panier plus gros",
+"Moins de retours, plus d'avis, livraison plus rapide",
+"Plus de clics, pubs moins chères, plus d'abonnés",
+"Prix plus bas, stock vidé, clients plus fidèles"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Plus de valeur pour le client, une marge protégée, et un panier moyen (montant moyen d'une commande) qui monte.",
+"pourquoi": "Spencer conclut : « a phenomenal way to provide more value to customers while still protecting your margin » (une façon géniale de donner plus de valeur aux clients tout en protégeant ta marge), et « getting people to increase average order value » (faire monter le panier moyen).",
+"action": "Juge chaque offre de panier sur ces 3 points : valeur pour le client, marge, panier moyen."
+},
+"explication": "Le cadeau payé à la marge donne beaucoup de valeur pour peu de coût. (déduction) Une remise donne aussi de la valeur, mais elle mange la marge ; les paliers, eux, poussent à ajouter des produits. Les trois gains arrivent ensemble.",
+"variantes": [
+{
+"q": "Selon Spencer, quel chiffre de la boutique monte quand le client ajoute des produits pour atteindre un palier ?",
+"qcm": {
+"choix": [
+"Le panier moyen",
+"Le taux de clic",
+"Le coût par clic",
+"Le taux de retour"
+],
+"bonne": 0
+},
+"r": {
+"verdict": "💡 Le panier moyen (average order value) : le montant moyen d'une commande."
+}
+}
+],
+"source": "Spencer – vidéo « offre panier » (transcription, anglais)",
+"ref": "Offre panier 01 Spencer paliers et cadeaux mystère - INDEX.md [S010] [R014]",
+"date_source": "inconnue",
+"ajout": "2026-10-11",
+"num": 1109
 },
 {
 "id": "cro-001",
@@ -15624,7 +26538,8 @@ window.QR_CARTES = [
 {
 "q": "Pourquoi la formation ROAS compare-t-elle le ROAS break-even (point zéro perte) à une ligne de flottaison ?"
 }
-]
+],
+"num": 316
 },
 {
 "id": "cro-002",
@@ -15688,7 +26603,8 @@ window.QR_CARTES = [
 "1 ÷ coût du produit en %"
 ],
 "bonne": 0
-}
+},
+"num": 317
 },
 {
 "id": "cro-003",
@@ -15744,7 +26660,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 318
 },
 {
 "id": "cro-004",
@@ -15808,7 +26725,8 @@ window.QR_CARTES = [
 "Environ 14 € par vente"
 ],
 "bonne": 0
-}
+},
+"num": 319
 },
 {
 "id": "cro-005",
@@ -15858,7 +26776,8 @@ window.QR_CARTES = [
 "Un AOV différent par pack"
 ],
 "bonne": 1
-}
+},
+"num": 320
 },
 {
 "id": "cro-006",
@@ -15905,7 +26824,8 @@ window.QR_CARTES = [
 "Disputes, paiement, remboursements, shipping, fulfillment"
 ],
 "bonne": 3
-}
+},
+"num": 321
 },
 {
 "id": "cro-007",
@@ -15944,7 +26864,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 322
 },
 {
 "id": "cro-008",
@@ -15991,7 +26912,8 @@ window.QR_CARTES = [
 "Meta le recalcule chaque mois selon ton historique"
 ],
 "bonne": 1
-}
+},
+"num": 323
 },
 {
 "id": "cro-009",
@@ -16055,7 +26977,8 @@ window.QR_CARTES = [
 "1 M − 300 K produits − 500 K pub = 200 K, avant charges fixes"
 ],
 "bonne": 3
-}
+},
+"num": 324
 },
 {
 "id": "cro-010",
@@ -16102,7 +27025,8 @@ window.QR_CARTES = [
 "Que les ventes attribuées dépassent la dépense"
 ],
 "bonne": 1
-}
+},
+"num": 325
 },
 {
 "id": "cro-011",
@@ -16149,7 +27073,8 @@ window.QR_CARTES = [
 "Les clients Meta ont racheté deux fois sur Meta"
 ],
 "bonne": 2
-}
+},
+"num": 326
 },
 {
 "id": "cro-012",
@@ -16196,7 +27121,8 @@ window.QR_CARTES = [
 "« Si j'ajoute du budget ici, vais-je atteindre 1 K par jour ? »"
 ],
 "bonne": 0
-}
+},
+"num": 327
 },
 {
 "id": "cro-014",
@@ -16257,7 +27183,8 @@ window.QR_CARTES = [
 "action": "Retiens : 20 % → ÷ 5."
 }
 }
-]
+],
+"num": 329
 },
 {
 "id": "cro-015",
@@ -16304,7 +27231,8 @@ window.QR_CARTES = [
 "10-15 % conseillés ; sous 7 %, c'est risqué"
 ],
 "bonne": 3
-}
+},
+"num": 330
 },
 {
 "id": "cro-016",
@@ -16351,7 +27279,8 @@ window.QR_CARTES = [
 "30 % sur 10 K/j : 30 000 contre 15 000"
 ],
 "bonne": 1
-}
+},
+"num": 331
 },
 {
 "id": "cro-017",
@@ -16395,7 +27324,8 @@ window.QR_CARTES = [
 "action": "Fais du copy mining sur les ads gagnantes."
 }
 }
-]
+],
+"num": 332
 },
 {
 "id": "cro-018",
@@ -16442,7 +27372,8 @@ window.QR_CARTES = [
 "100 à 300 €/jour ; 100 peut être trop peu aux US"
 ],
 "bonne": 3
-}
+},
+"num": 333
 },
 {
 "id": "cro-019",
@@ -16489,7 +27420,8 @@ window.QR_CARTES = [
 "Rentable → nouvelle offre ; pas rentable → nouvelle marque"
 ],
 "bonne": 1
-}
+},
+"num": 334
 },
 {
 "id": "cro-020",
@@ -16534,7 +27466,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 335
 },
 {
 "id": "cro-021",
@@ -16581,7 +27514,8 @@ window.QR_CARTES = [
 "Le produit : en changer, puis relancer les créas"
 ],
 "bonne": 2
-}
+},
+"num": 336
 },
 {
 "id": "cro-022",
@@ -16628,7 +27562,8 @@ window.QR_CARTES = [
 "Le budget : le doubler pour sortir de l'apprentissage"
 ],
 "bonne": 0
-}
+},
+"num": 337
 },
 {
 "id": "cro-023",
@@ -16675,7 +27610,8 @@ window.QR_CARTES = [
 "Dès que 2 000 € ont été dépensés au total"
 ],
 "bonne": 2
-}
+},
+"num": 338
 },
 {
 "id": "cro-025",
@@ -16722,7 +27658,8 @@ window.QR_CARTES = [
 "Cinq campagnes au minimum"
 ],
 "bonne": 2
-}
+},
+"num": 340
 },
 {
 "id": "cro-026",
@@ -16769,7 +27706,8 @@ window.QR_CARTES = [
 "Rien : Meta ne voit pas la différence"
 ],
 "bonne": 0
-}
+},
+"num": 341
 },
 {
 "id": "cro-027",
@@ -16833,7 +27771,8 @@ window.QR_CARTES = [
 "Même footage, même hook : seulement un nouveau produit"
 ],
 "bonne": 2
-}
+},
+"num": 342
 },
 {
 "id": "cro-028",
@@ -16880,7 +27819,8 @@ window.QR_CARTES = [
 "Fixer les bottlenecks, ajouter du volume, protéger ce qui marche"
 ],
 "bonne": 3
-}
+},
+"num": 343
 },
 {
 "id": "cro-029",
@@ -16919,7 +27859,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 344
 },
 {
 "id": "cro-030",
@@ -16983,7 +27924,8 @@ window.QR_CARTES = [
 "Rien : un funnel validé l'est une fois pour toutes"
 ],
 "bonne": 1
-}
+},
+"num": 345
 },
 {
 "id": "cro-031",
@@ -17045,7 +27987,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 346
 },
 {
 "id": "cro-032",
@@ -17109,7 +28052,8 @@ window.QR_CARTES = [
 "CPM bas, CTR haut, CPC bas, CPA bas, ROAS haut sur la pub"
 ],
 "bonne": 0
-}
+},
+"num": 347
 },
 {
 "id": "cro-033",
@@ -17165,7 +28109,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 348
 },
 {
 "id": "cro-034",
@@ -17213,7 +28158,8 @@ window.QR_CARTES = [
 "Vers un lander dédié à un message, dès le début"
 ],
 "bonne": 0
-}
+},
+"num": 349
 },
 {
 "id": "cro-035",
@@ -17260,7 +28206,8 @@ window.QR_CARTES = [
 "Page produit seule : le moins de friction possible"
 ],
 "bonne": 2
-}
+},
+"num": 350
 },
 {
 "id": "cro-036",
@@ -17307,7 +28254,8 @@ window.QR_CARTES = [
 "Advertorial seul : aucun bouton sur la page"
 ],
 "bonne": 0
-}
+},
+"num": 351
 },
 {
 "id": "cro-037",
@@ -17354,7 +28302,8 @@ window.QR_CARTES = [
 "Page produit seule : sans landing ni advertorial"
 ],
 "bonne": 2
-}
+},
+"num": 352
 },
 {
 "id": "cro-038",
@@ -17401,7 +28350,8 @@ window.QR_CARTES = [
 "Tester plusieurs messages différents à la fois"
 ],
 "bonne": 0
-}
+},
+"num": 353
 },
 {
 "id": "cro-039",
@@ -17448,7 +28398,8 @@ window.QR_CARTES = [
 "PDP et landing : seulement le CTR de la pub qui y mène"
 ],
 "bonne": 2
-}
+},
+"num": 354
 },
 {
 "id": "cro-041",
@@ -17512,7 +28463,8 @@ window.QR_CARTES = [
 "Phase 3 : verrouiller un lander sans advertorial"
 ],
 "bonne": 2
-}
+},
+"num": 356
 },
 {
 "id": "cro-042",
@@ -17559,7 +28511,8 @@ window.QR_CARTES = [
 "Directement vers la page produit (PDP)"
 ],
 "bonne": 3
-}
+},
+"num": 357
 },
 {
 "id": "cro-043",
@@ -17623,7 +28576,8 @@ window.QR_CARTES = [
 "Une landing page fourre-tout, tous messages"
 ],
 "bonne": 1
-}
+},
+"num": 358
 },
 {
 "id": "cro-044",
@@ -17670,7 +28624,8 @@ window.QR_CARTES = [
 "Trop tard : il fallait les écrire avant de lancer les pubs"
 ],
 "bonne": 2
-}
+},
+"num": 359
 },
 {
 "id": "cro-045",
@@ -17717,7 +28672,8 @@ window.QR_CARTES = [
 "« A-t-elle déjà 10 000 visites ? »"
 ],
 "bonne": 0
-}
+},
+"num": 360
 },
 {
 "id": "kpi-001",
@@ -17759,7 +28715,8 @@ window.QR_CARTES = [
 {
 "q": "Un ami voit « CPC » dans Ads Manager (le gestionnaire de pubs Meta). Que lui expliques-tu, en une phrase ?"
 }
-]
+],
+"num": 392
 },
 {
 "id": "kpi-002",
@@ -17807,7 +28764,8 @@ window.QR_CARTES = [
 {
 "q": "Quel indicateur te dit si ta page transforme les visiteurs en acheteurs ?"
 }
-]
+],
+"num": 393
 },
 {
 "id": "kpi-003",
@@ -17843,7 +28801,8 @@ window.QR_CARTES = [
 "Ils mesurent l'attention et la notoriété de la marque"
 ],
 "bonne": 0
-}
+},
+"num": 394
 },
 {
 "id": "kpi-004",
@@ -17904,7 +28863,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 395
 },
 {
 "id": "kpi-005",
@@ -17940,7 +28900,8 @@ window.QR_CARTES = [
 "Les rares cliqueurs sont de moins bonne qualité et achètent moins"
 ],
 "bonne": 2
-}
+},
+"num": 396
 },
 {
 "id": "kpi-006",
@@ -17990,7 +28951,8 @@ window.QR_CARTES = [
 "0,05 € pour 100 visiteurs"
 ],
 "bonne": 1
-}
+},
+"num": 397
 },
 {
 "id": "kpi-007",
@@ -18037,7 +28999,8 @@ window.QR_CARTES = [
 {
 "q": "Comment Karima relie-t-elle le CTR (taux de clic) et le CPC (coût par clic) ?"
 }
-]
+],
+"num": 398
 },
 {
 "id": "kpi-008",
@@ -18087,7 +29050,8 @@ window.QR_CARTES = [
 "Du pays, du type d'audience et de l'intérêt visé"
 ],
 "bonne": 3
-}
+},
+"num": 399
 },
 {
 "id": "kpi-009",
@@ -18134,7 +29098,8 @@ window.QR_CARTES = [
 {
 "q": "On confond souvent CPA (coût par achat) et CPC (coût par clic). Quelle est la formule du CPA ?"
 }
-]
+],
+"num": 400
 },
 {
 "id": "kpi-010",
@@ -18184,7 +29149,8 @@ window.QR_CARTES = [
 "Ajouts au panier ÷ vues de page de destination × 100"
 ],
 "bonne": 1
-}
+},
+"num": 401
 },
 {
 "id": "kpi-011",
@@ -18234,7 +29200,8 @@ window.QR_CARTES = [
 "Chiffre d'affaires attribué ÷ dépenses pub"
 ],
 "bonne": 3
-}
+},
+"num": 402
 },
 {
 "id": "kpi-012",
@@ -18295,7 +29262,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 403
 },
 {
 "id": "kpi-013",
@@ -18359,7 +29327,8 @@ window.QR_CARTES = [
 "Visites Shopify ; sinon vues de page ; sinon clics (exact)"
 ],
 "bonne": 0
-}
+},
+"num": 404
 },
 {
 "id": "kpi-014",
@@ -18406,7 +29375,8 @@ window.QR_CARTES = [
 {
 "q": "Meta est la vérité pour la pub. Pour quoi Shopify est-il la vérité ?"
 }
-]
+],
+"num": 405
 },
 {
 "id": "kpi-015",
@@ -18442,7 +29412,8 @@ window.QR_CARTES = [
 "Garder le chiffre de Meta, plus précis pour compter les ventes"
 ],
 "bonne": 1
-}
+},
+"num": 406
 },
 {
 "id": "kpi-016",
@@ -18492,7 +29463,8 @@ window.QR_CARTES = [
 "0,31 € : 100 € ÷ 320 clics"
 ],
 "bonne": 0
-}
+},
+"num": 407
 },
 {
 "id": "kpi-017",
@@ -18528,7 +29500,8 @@ window.QR_CARTES = [
 "L'ignorer : un seuil US ne sert à rien pour la France"
 ],
 "bonne": 2
-}
+},
+"num": 408
 },
 {
 "id": "kpi-018",
@@ -18561,7 +29534,8 @@ window.QR_CARTES = [
 "Le déduire en multipliant les achats par 4"
 ],
 "bonne": 1
-}
+},
+"num": 409
 },
 {
 "id": "kpi-019",
@@ -18594,7 +29568,8 @@ window.QR_CARTES = [
 "CTR, CVR et CPA"
 ],
 "bonne": 0
-}
+},
+"num": 410
 },
 {
 "id": "kpi-020",
@@ -18627,7 +29602,8 @@ window.QR_CARTES = [
 "Dès le clic, quand le client quitte Facebook"
 ],
 "bonne": 3
-}
+},
+"num": 411
 },
 {
 "id": "kpi-021",
@@ -18663,7 +29639,8 @@ window.QR_CARTES = [
 "Fréquence, CPM et ROAS, jour par jour"
 ],
 "bonne": 2
-}
+},
+"num": 412
 },
 {
 "id": "kpi-022",
@@ -18702,7 +29679,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 413
 },
 {
 "id": "kpi-023",
@@ -18735,7 +29713,8 @@ window.QR_CARTES = [
 "Un caddie rempli : certains vont jusqu'à la caisse"
 ],
 "bonne": 1
-}
+},
+"num": 414
 },
 {
 "id": "kpi-024",
@@ -18799,7 +29778,8 @@ window.QR_CARTES = [
 "URGENT, IMPORTANT, SECONDAIRE, TEST, INCONNU"
 ],
 "bonne": 0
-}
+},
+"num": 415
 },
 {
 "id": "kpi-025",
@@ -18843,7 +29823,8 @@ window.QR_CARTES = [
 "action": "Garde ce seuil noté « seuil US »."
 }
 }
-]
+],
+"num": 416
 },
 {
 "id": "kpi-026",
@@ -18893,7 +29874,8 @@ window.QR_CARTES = [
 "OK < 10 $ ; alerte 10-25 $ ; critique > 25 $"
 ],
 "bonne": 1
-}
+},
+"num": 417
 },
 {
 "id": "kpi-027",
@@ -18937,7 +29919,8 @@ window.QR_CARTES = [
 "action": "Seuil US en $, à comparer à ton historique."
 }
 }
-]
+],
+"num": 418
 },
 {
 "id": "kpi-028",
@@ -19001,7 +29984,8 @@ window.QR_CARTES = [
 "OK > 2,5 % ; alerte 1-2,5 % ; critique < 1 %"
 ],
 "bonne": 3
-}
+},
+"num": 419
 },
 {
 "id": "kpi-029",
@@ -19048,7 +30032,8 @@ window.QR_CARTES = [
 "OK > 2 ; alerte 1,2-2 ; critique < 1,2"
 ],
 "bonne": 0
-}
+},
+"num": 420
 },
 {
 "id": "kpi-030",
@@ -19081,7 +30066,8 @@ window.QR_CARTES = [
 "Divisés par 2, car la France coûte deux fois moins cher"
 ],
 "bonne": 2
-}
+},
+"num": 421
 },
 {
 "id": "kpi-031",
@@ -19128,7 +30114,8 @@ window.QR_CARTES = [
 {
 "q": "Dans quel quadrant de Nico peut-on augmenter le budget « en toute confiance » ?"
 }
-]
+],
+"num": 422
 },
 {
 "id": "kpi-032",
@@ -19161,7 +30148,8 @@ window.QR_CARTES = [
 "+10 % max par semaine, pas plus"
 ],
 "bonne": 1
-}
+},
+"num": 423
 },
 {
 "id": "kpi-033",
@@ -19225,7 +30213,8 @@ window.QR_CARTES = [
 "55 €/jour, puis attendre 24-48 h"
 ],
 "bonne": 0
-}
+},
+"num": 424
 },
 {
 "id": "kpi-034",
@@ -19258,7 +30247,8 @@ window.QR_CARTES = [
 "Garder la même structure sans rien changer"
 ],
 "bonne": 1
-}
+},
+"num": 425
 },
 {
 "id": "kpi-035",
@@ -19291,7 +30281,8 @@ window.QR_CARTES = [
 "Une seule vente rentable, puis le ROAS et le CPA du jour"
 ],
 "bonne": 0
-}
+},
+"num": 426
 },
 {
 "id": "kpi-036",
@@ -19327,7 +30318,8 @@ window.QR_CARTES = [
 "Ne jamais changer plus d'une variable à la fois"
 ],
 "bonne": 3
-}
+},
+"num": 427
 },
 {
 "id": "kpi-037",
@@ -19360,7 +30352,8 @@ window.QR_CARTES = [
 "10 à 14 jours"
 ],
 "bonne": 2
-}
+},
+"num": 428
 },
 {
 "id": "kpi-043",
@@ -19410,7 +30403,8 @@ window.QR_CARTES = [
 "Calculables : les estimer à partir du prix de vente"
 ],
 "bonne": 0
-}
+},
+"num": 434
 },
 {
 "id": "kpi-044",
@@ -19446,7 +30440,8 @@ window.QR_CARTES = [
 "Aucun : c'est normal au début"
 ],
 "bonne": 2
-}
+},
+"num": 435
 },
 {
 "id": "kpi-045",
@@ -19493,7 +30488,8 @@ window.QR_CARTES = [
 "Urgent : avant même le ROAS sous break-even"
 ],
 "bonne": 1
-}
+},
+"num": 436
 },
 {
 "id": "kpi-046",
@@ -19526,7 +30522,8 @@ window.QR_CARTES = [
 "Pour Nico, 1,50 $ est la limite haute d'« alerte » ; Nico prime"
 ],
 "bonne": 3
-}
+},
+"num": 437
 },
 {
 "id": "kpi-047",
@@ -19590,7 +30587,8 @@ window.QR_CARTES = [
 "Karima 5-7 % ; Marc 20 %"
 ],
 "bonne": 2
-}
+},
+"num": 438
 },
 {
 "id": "kpi-048",
@@ -19623,7 +30621,8 @@ window.QR_CARTES = [
 "Augmenter l'AOV : upsells, ventes croisées, packs, cadeau"
 ],
 "bonne": 3
-}
+},
+"num": 439
 },
 {
 "id": "kpi-049",
@@ -19656,7 +30655,8 @@ window.QR_CARTES = [
 "Scaler tel quel : aucun problème, budget en confiance"
 ],
 "bonne": 2
-}
+},
+"num": 440
 },
 {
 "id": "kpi-050",
@@ -19689,7 +30689,8 @@ window.QR_CARTES = [
 "Scaler tel quel : aucun problème, budget en confiance"
 ],
 "bonne": 1
-}
+},
+"num": 441
 },
 {
 "id": "kpi-051",
@@ -19725,7 +30726,8 @@ window.QR_CARTES = [
 "Fatigue confirmée : la baisse du CTR prouve que l'audience sature"
 ],
 "bonne": 0
-}
+},
+"num": 442
 },
 {
 "id": "kpi-052",
@@ -19758,7 +30760,8 @@ window.QR_CARTES = [
 "Des méthodes de diagnostic, pas des règles Meta"
 ],
 "bonne": 3
-}
+},
+"num": 443
 },
 {
 "id": "kpi-053",
@@ -19794,7 +30797,8 @@ window.QR_CARTES = [
 "TOUT CORRIGER : pub et page"
 ],
 "bonne": 2
-}
+},
+"num": 444
 },
 {
 "id": "kpi-054",
@@ -19858,7 +30862,8 @@ window.QR_CARTES = [
 "TOUT CORRIGER : pub et page"
 ],
 "bonne": 1
-}
+},
+"num": 445
 },
 {
 "id": "kpi-055",
@@ -19908,7 +30913,8 @@ window.QR_CARTES = [
 "TOUT CORRIGER : la pub comme la page sont en rouge"
 ],
 "bonne": 2
-}
+},
+"num": 446
 },
 {
 "id": "kpi-056",
@@ -19958,7 +30964,8 @@ window.QR_CARTES = [
 "CORRIGER LA CONVERSION, en commençant par l'offre"
 ],
 "bonne": 0
-}
+},
+"num": 447
 },
 {
 "id": "kpi-057",
@@ -19994,7 +31001,8 @@ window.QR_CARTES = [
 "Le budget et les enchères (montant, rythme)"
 ],
 "bonne": 2
-}
+},
+"num": 448
 },
 {
 "id": "kpi-058",
@@ -20027,7 +31035,8 @@ window.QR_CARTES = [
 "Rien : un CTR de 1,8 % prouve que tout va bien"
 ],
 "bonne": 1
-}
+},
+"num": 449
 },
 {
 "id": "kpi-059",
@@ -20077,7 +31086,8 @@ window.QR_CARTES = [
 "Couper la pub : le hook rate est sous le seuil de Nico"
 ],
 "bonne": 0
-}
+},
+"num": 450
 },
 {
 "id": "kpi-060",
@@ -20110,7 +31120,8 @@ window.QR_CARTES = [
 "Une fatigue créative due à la fréquence"
 ],
 "bonne": 2
-}
+},
+"num": 451
 },
 {
 "id": "kpi-061",
@@ -20143,7 +31154,8 @@ window.QR_CARTES = [
 "Le CPM, la fréquence ou les placements"
 ],
 "bonne": 1
-}
+},
+"num": 452
 },
 {
 "id": "kpi-062",
@@ -20179,7 +31191,8 @@ window.QR_CARTES = [
 "Du CPM : les États-Unis coûtent trop cher"
 ],
 "bonne": 0
-}
+},
+"num": 453
 },
 {
 "id": "kpi-063",
@@ -20212,7 +31225,8 @@ window.QR_CARTES = [
 "L'offre, le texte et les images, puis la vitesse"
 ],
 "bonne": 3
-}
+},
+"num": 454
 },
 {
 "id": "kpi-064",
@@ -20245,7 +31259,8 @@ window.QR_CARTES = [
 "Une page est toujours bonne quand le CPC est trop élevé"
 ],
 "bonne": 2
-}
+},
+"num": 455
 },
 {
 "id": "kpi-065",
@@ -20278,7 +31293,8 @@ window.QR_CARTES = [
 "La tester 5 jours en A/B : quelle version convertit le mieux ?"
 ],
 "bonne": 1
-}
+},
+"num": 456
 },
 {
 "id": "kpi-066",
@@ -20314,7 +31330,8 @@ window.QR_CARTES = [
 "Environ 0,5 %"
 ],
 "bonne": 0
-}
+},
+"num": 457
 },
 {
 "id": "kpi-067",
@@ -20361,7 +31378,8 @@ window.QR_CARTES = [
 "Le CTR, le CPM, puis le créatif et le message"
 ],
 "bonne": 3
-}
+},
+"num": 458
 },
 {
 "id": "kpi-069",
@@ -20411,7 +31429,8 @@ window.QR_CARTES = [
 "CVR d'hier, AOV, upsells, design, une seule action"
 ],
 "bonne": 0
-}
+},
+"num": 460
 },
 {
 "id": "kpi-070",
@@ -20444,7 +31463,8 @@ window.QR_CARTES = [
 "Aucune tant que 30 jours ne sont pas passés"
 ],
 "bonne": 2
-}
+},
+"num": 461
 },
 {
 "id": "lex-001",
@@ -20490,7 +31510,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 462
 },
 {
 "id": "lex-002",
@@ -20537,7 +31558,8 @@ window.QR_CARTES = [
 "Le chiffre d'affaires total du mois"
 ],
 "bonne": 0
-}
+},
+"num": 463
 },
 {
 "id": "lex-003",
@@ -20581,7 +31603,8 @@ window.QR_CARTES = [
 "action": "Demande-toi : je monte en gamme, ou j'ajoute à côté ?"
 }
 }
-]
+],
+"num": 464
 },
 {
 "id": "lex-004",
@@ -20628,7 +31651,8 @@ window.QR_CARTES = [
 "Achats ÷ visiteurs"
 ],
 "bonne": 0
-}
+},
+"num": 465
 },
 {
 "id": "lex-006",
@@ -20674,7 +31698,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 467
 },
 {
 "id": "lex-007",
@@ -20721,7 +31746,8 @@ window.QR_CARTES = [
 "Le coût de 1 000 affichages d'une pub"
 ],
 "bonne": 2
-}
+},
+"num": 468
 },
 {
 "id": "lex-008",
@@ -20765,7 +31791,8 @@ window.QR_CARTES = [
 "action": "Ne le confonds pas avec le CTR, qui est un taux."
 }
 }
-]
+],
+"num": 469
 },
 {
 "id": "lex-009",
@@ -20811,7 +31838,8 @@ window.QR_CARTES = [
 "Le nombre de clics pour 1 000 vues"
 ],
 "bonne": 2
-}
+},
+"num": 470
 },
 {
 "id": "lex-010",
@@ -20858,7 +31886,8 @@ window.QR_CARTES = [
 "Le coût d'un clic sur la pub"
 ],
 "bonne": 0
-}
+},
+"num": 471
 },
 {
 "id": "lex-011",
@@ -20904,7 +31933,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 472
 },
 {
 "id": "lex-012",
@@ -20951,7 +31981,8 @@ window.QR_CARTES = [
 "Un CTR de 50 %"
 ],
 "bonne": 0
-}
+},
+"num": 473
 },
 {
 "id": "lex-013",
@@ -20997,7 +32028,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 474
 },
 {
 "id": "lex-014",
@@ -21044,7 +32076,8 @@ window.QR_CARTES = [
 "Le % de clients perdus"
 ],
 "bonne": 0
-}
+},
+"num": 475
 },
 {
 "id": "lex-015",
@@ -21091,7 +32124,8 @@ window.QR_CARTES = [
 "Le profil type du client idéal"
 ],
 "bonne": 2
-}
+},
+"num": 476
 },
 {
 "id": "lex-016",
@@ -21137,7 +32171,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 477
 },
 {
 "id": "lex-017",
@@ -21184,7 +32219,8 @@ window.QR_CARTES = [
 "Ceux qui cliquent sur la pub sans venir"
 ],
 "bonne": 2
-}
+},
+"num": 478
 },
 {
 "id": "lex-018",
@@ -21228,7 +32264,8 @@ window.QR_CARTES = [
 "action": "Son contraire : la rétention."
 }
 }
-]
+],
+"num": 479
 },
 {
 "id": "lex-019",
@@ -21275,7 +32312,8 @@ window.QR_CARTES = [
 "Le % de paniers abandonnés"
 ],
 "bonne": 2
-}
+},
+"num": 480
 },
 {
 "id": "lex-020",
@@ -21321,7 +32359,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 481
 },
 {
 "id": "lex-022",
@@ -21367,7 +32406,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 483
 },
 {
 "id": "lex-024",
@@ -21413,7 +32453,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 485
 },
 {
 "id": "lex-025",
@@ -21459,7 +32500,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 486
 },
 {
 "id": "lex-026",
@@ -21506,7 +32548,8 @@ window.QR_CARTES = [
 "Suivre la livraison des colis"
 ],
 "bonne": 0
-}
+},
+"num": 487
 },
 {
 "id": "lex-027",
@@ -21552,7 +32595,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 488
 },
 {
 "id": "lex-028",
@@ -21599,7 +32643,8 @@ window.QR_CARTES = [
 "Le chemin du budget, du jour à la campagne"
 ],
 "bonne": 0
-}
+},
+"num": 489
 },
 {
 "id": "lex-029",
@@ -21645,7 +32690,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 490
 },
 {
 "id": "lex-030",
@@ -21691,7 +32737,8 @@ window.QR_CARTES = [
 "La page qui liste tous les produits"
 ],
 "bonne": 0
-}
+},
+"num": 491
 },
 {
 "id": "lex-031",
@@ -21738,7 +32785,8 @@ window.QR_CARTES = [
 "Un fournisseur qui expédie tes colis"
 ],
 "bonne": 2
-}
+},
+"num": 492
 },
 {
 "id": "lex-032",
@@ -21785,7 +32833,8 @@ window.QR_CARTES = [
 "Avril, mai et juin"
 ],
 "bonne": 0
-}
+},
+"num": 493
 },
 {
 "id": "lex-033",
@@ -21831,7 +32880,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 494
 },
 {
 "id": "lex-034",
@@ -21877,7 +32927,8 @@ window.QR_CARTES = [
 "Augmenter le budget des pubs qui marchent"
 ],
 "bonne": 0
-}
+},
+"num": 495
 },
 {
 "id": "lex-035",
@@ -21923,7 +32974,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 496
 },
 {
 "id": "lex-036",
@@ -21970,7 +33022,8 @@ window.QR_CARTES = [
 "Un code de suivi des visiteurs"
 ],
 "bonne": 0
-}
+},
+"num": 497
 },
 {
 "id": "lex-037",
@@ -22014,7 +33067,8 @@ window.QR_CARTES = [
 "action": "Garde ton menu simple."
 }
 }
-]
+],
+"num": 498
 },
 {
 "id": "lex-039",
@@ -22060,7 +33114,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 500
 },
 {
 "id": "lex-040",
@@ -22106,7 +33161,8 @@ window.QR_CARTES = [
 "Comparer deux versions d'une même pub"
 ],
 "bonne": 0
-}
+},
+"num": 501
 },
 {
 "id": "lex-041",
@@ -22152,7 +33208,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 502
 },
 {
 "id": "lex-042",
@@ -22199,7 +33256,8 @@ window.QR_CARTES = [
 "Le retargeting"
 ],
 "bonne": 0
-}
+},
+"num": 503
 },
 {
 "id": "lex-043",
@@ -22246,7 +33304,8 @@ window.QR_CARTES = [
 "Quitter le site sans acheter"
 ],
 "bonne": 2
-}
+},
+"num": 504
 },
 {
 "id": "lex-044",
@@ -22294,7 +33353,8 @@ window.QR_CARTES = [
 "Aucun des deux ne le définit vraiment"
 ],
 "bonne": 0
-}
+},
+"num": 505
 },
 {
 "id": "lex-045",
@@ -22341,7 +33401,8 @@ window.QR_CARTES = [
 "Le Q4 : le CPM ne dépend pas de la saison"
 ],
 "bonne": 2
-}
+},
+"num": 506
 },
 {
 "id": "lex-046",
@@ -22388,7 +33449,8 @@ window.QR_CARTES = [
 "Churn = paniers ; rétention = commandes"
 ],
 "bonne": 0
-}
+},
+"num": 507
 },
 {
 "id": "lex-047",
@@ -22435,7 +33497,8 @@ window.QR_CARTES = [
 "Un CPA de 10 €"
 ],
 "bonne": 2
-}
+},
+"num": 508
 },
 {
 "id": "lex-048",
@@ -22483,7 +33546,8 @@ window.QR_CARTES = [
 "Selon la source : vue ou partage"
 ],
 "bonne": 0
-}
+},
+"num": 509
 },
 {
 "id": "livres-001",
@@ -22533,7 +33597,8 @@ window.QR_CARTES = [
 "q": "Complète l'idée de Schwartz : le travail du rédacteur n'est pas de créer le désir de masse, mais de…",
 "type": "rappel"
 }
-]
+],
+"num": 510
 },
 {
 "id": "livres-002",
@@ -22571,7 +33636,8 @@ window.QR_CARTES = [
 "La gradualisation (Gradualization)"
 ],
 "bonne": 1
-}
+},
+"num": 511
 },
 {
 "id": "livres-003",
@@ -22635,7 +33701,8 @@ window.QR_CARTES = [
 "bonne": 3
 }
 }
-]
+],
+"num": 512
 },
 {
 "id": "livres-004",
@@ -22687,7 +33754,8 @@ window.QR_CARTES = [
 "Deux, une par désir"
 ],
 "bonne": 1
-}
+},
+"num": 513
 },
 {
 "id": "livres-005",
@@ -22739,7 +33807,8 @@ window.QR_CARTES = [
 "Rester vague pour laisser le lecteur rêver"
 ],
 "bonne": 2
-}
+},
+"num": 514
 },
 {
 "id": "livres-006",
@@ -22791,7 +33860,8 @@ window.QR_CARTES = [
 "Un besoin physique et un rôle social"
 ],
 "bonne": 3
-}
+},
+"num": 515
 },
 {
 "id": "livres-007",
@@ -22844,7 +33914,8 @@ window.QR_CARTES = [
 "Ne heurte jamais ses croyances établies"
 ],
 "bonne": 3
-}
+},
+"num": 516
 },
 {
 "id": "livres-008",
@@ -22882,7 +33953,8 @@ window.QR_CARTES = [
 "L'Identification"
 ],
 "bonne": 0
-}
+},
+"num": 517
 },
 {
 "id": "livres-009",
@@ -22949,7 +34021,8 @@ window.QR_CARTES = [
 "Il compare à un repère plus cher"
 ],
 "bonne": 3
-}
+},
+"num": 518
 },
 {
 "id": "livres-010",
@@ -22987,7 +34060,8 @@ window.QR_CARTES = [
 "Ils s'accordent : ne jamais attaquer un rival"
 ],
 "bonne": 1
-}
+},
+"num": 519
 },
 {
 "id": "livres-011",
@@ -23035,7 +34109,8 @@ window.QR_CARTES = [
 "action": "Cherche d'abord la foule affamée, ensuite la recette."
 }
 }
-]
+],
+"num": 520
 },
 {
 "id": "livres-012",
@@ -23087,7 +34162,8 @@ window.QR_CARTES = [
 "Le prix d'abord, puis le produit et le marché"
 ],
 "bonne": 1
-}
+},
+"num": 521
 },
 {
 "id": "livres-013",
@@ -23135,7 +34211,8 @@ window.QR_CARTES = [
 "q": "Donne dans l'ordre les 4 étapes de la formule AIDA de Halbert.",
 "type": "rappel"
 }
-]
+],
+"num": 522
 },
 {
 "id": "livres-014",
@@ -23173,7 +34250,8 @@ window.QR_CARTES = [
 "La lire à voix haute et réécrire"
 ],
 "bonne": 3
-}
+},
+"num": 523
 },
 {
 "id": "livres-015",
@@ -23225,7 +34303,8 @@ window.QR_CARTES = [
 "Aux chiffres d'achat, pas aux paroles"
 ],
 "bonne": 3
-}
+},
+"num": 524
 },
 {
 "id": "livres-016",
@@ -23277,7 +34356,8 @@ window.QR_CARTES = [
 "Qu'il vaut mieux éviter ce sujet"
 ],
 "bonne": 2
-}
+},
+"num": 525
 },
 {
 "id": "livres-017",
@@ -23329,7 +34409,8 @@ window.QR_CARTES = [
 "D'une raison : pourquoi ce prix"
 ],
 "bonne": 3
-}
+},
+"num": 526
 },
 {
 "id": "livres-018",
@@ -23367,7 +34448,8 @@ window.QR_CARTES = [
 "Ils divergent : Halbert pertinente, Sugarman pas forcément"
 ],
 "bonne": 3
-}
+},
+"num": 527
 },
 {
 "id": "livres-019",
@@ -23405,7 +34487,8 @@ window.QR_CARTES = [
 "« On doit vider notre stock »"
 ],
 "bonne": 2
-}
+},
+"num": 528
 },
 {
 "id": "livres-020",
@@ -23458,7 +34541,8 @@ window.QR_CARTES = [
 "Le nom du produit, puis sa taille"
 ],
 "bonne": 0
-}
+},
+"num": 529
 },
 {
 "id": "livres-021",
@@ -23506,7 +34590,8 @@ window.QR_CARTES = [
 "action": "Juge ton titre sur une seule chose : donne-t-il envie de lire la ligne d'après ?"
 }
 }
-]
+],
+"num": 530
 },
 {
 "id": "livres-022",
@@ -23558,7 +34643,8 @@ window.QR_CARTES = [
 "Donner le prix et l'offre"
 ],
 "bonne": 0
-}
+},
+"num": 531
 },
 {
 "id": "livres-023",
@@ -23606,7 +34692,8 @@ window.QR_CARTES = [
 "action": "Soigne le début : c'est là que tout se joue."
 }
 }
-]
+],
+"num": 532
 },
 {
 "id": "livres-024",
@@ -23644,7 +34731,8 @@ window.QR_CARTES = [
 "Une phrase courte qui pousse à lire la suite"
 ],
 "bonne": 3
-}
+},
+"num": 533
 },
 {
 "id": "livres-025",
@@ -23696,7 +34784,8 @@ window.QR_CARTES = [
 "On vend par l'émotion seule, sans aucun fait"
 ],
 "bonne": 2
-}
+},
+"num": 534
 },
 {
 "id": "livres-026",
@@ -23749,7 +34838,8 @@ window.QR_CARTES = [
 "Vends la marque avant le produit"
 ],
 "bonne": 2
-}
+},
+"num": 535
 },
 {
 "id": "livres-027",
@@ -23787,7 +34877,8 @@ window.QR_CARTES = [
 "La garder pour la page de questions"
 ],
 "bonne": 1
-}
+},
+"num": 536
 },
 {
 "id": "livres-028",
@@ -23839,7 +34930,8 @@ window.QR_CARTES = [
 "Ajouter une garantie"
 ],
 "bonne": 0
-}
+},
+"num": 537
 },
 {
 "id": "livres-029",
@@ -23877,7 +34969,8 @@ window.QR_CARTES = [
 "Une garantie trop généreuse"
 ],
 "bonne": 0
-}
+},
+"num": 538
 },
 {
 "id": "livres-030",
@@ -23915,7 +35008,8 @@ window.QR_CARTES = [
 "Se poser plein de questions"
 ],
 "bonne": 0
-}
+},
+"num": 539
 },
 {
 "id": "livres-031",
@@ -23963,7 +35057,8 @@ window.QR_CARTES = [
 "q": "Pourquoi Ogilvy dit-il que le titre doit vendre le produit à lui seul ?",
 "type": "rappel"
 }
-]
+],
+"num": 540
 },
 {
 "id": "livres-032",
@@ -24013,7 +35108,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 541
 },
 {
 "id": "livres-033",
@@ -24051,7 +35147,8 @@ window.QR_CARTES = [
 "19,5 fois plus, grâce au bon appel"
 ],
 "bonne": 3
-}
+},
+"num": 542
 },
 {
 "id": "livres-034",
@@ -24103,7 +35200,8 @@ window.QR_CARTES = [
 "Sur ce qu'en pensent tes amis"
 ],
 "bonne": 1
-}
+},
+"num": 543
 },
 {
 "id": "livres-035",
@@ -24155,7 +35253,8 @@ window.QR_CARTES = [
 "Ceux qui cachent la marque"
 ],
 "bonne": 1
-}
+},
+"num": 544
 },
 {
 "id": "livres-036",
@@ -24193,7 +35292,8 @@ window.QR_CARTES = [
 "À éviter : il faut être clair"
 ],
 "bonne": 3
-}
+},
+"num": 545
 },
 {
 "id": "livres-037",
@@ -24245,7 +35345,8 @@ window.QR_CARTES = [
 "Un client est plus cru qu'un rédacteur"
 ],
 "bonne": 3
-}
+},
+"num": 546
 },
 {
 "id": "livres-038",
@@ -24283,7 +35384,8 @@ window.QR_CARTES = [
 "Le prix en gros sur l'image"
 ],
 "bonne": 1
-}
+},
+"num": 547
 },
 {
 "id": "livres-039",
@@ -24335,7 +35437,8 @@ window.QR_CARTES = [
 "Les deux non, même si on est très drôle"
 ],
 "bonne": 1
-}
+},
+"num": 548
 },
 {
 "id": "livres-040",
@@ -24373,7 +35476,8 @@ window.QR_CARTES = [
 "Sans effet, ni bon ni mauvais, sur la marque"
 ],
 "bonne": 1
-}
+},
+"num": 549
 },
 {
 "id": "livres-041",
@@ -24411,7 +35515,8 @@ window.QR_CARTES = [
 "Tous les trois : le texte long gagne sans exception"
 ],
 "bonne": 0
-}
+},
+"num": 550
 },
 {
 "id": "livres-042",
@@ -24459,7 +35564,8 @@ window.QR_CARTES = [
 "action": "Suis les ventes de chaque pub, pas ses vues."
 }
 }
-]
+],
+"num": 551
 },
 {
 "id": "livres-043",
@@ -24507,7 +35613,8 @@ window.QR_CARTES = [
 "action": "Nomme ton client précis dans le titre."
 }
 }
-]
+],
+"num": 552
 },
 {
 "id": "livres-044",
@@ -24560,7 +35667,8 @@ window.QR_CARTES = [
 "Tester d'abord (Test Campaigns)"
 ],
 "bonne": 1
-}
+},
+"num": 553
 },
 {
 "id": "livres-045",
@@ -24598,7 +35706,8 @@ window.QR_CARTES = [
 "« C'est plus court que les pubs des autres ? »"
 ],
 "bonne": 0
-}
+},
+"num": 554
 },
 {
 "id": "livres-046",
@@ -24636,7 +35745,8 @@ window.QR_CARTES = [
 "Aucun : il faut un superlatif"
 ],
 "bonne": 1
-}
+},
+"num": 555
 },
 {
 "id": "livres-047",
@@ -24688,7 +35798,8 @@ window.QR_CARTES = [
 "À la beauté de l'annonce publiée"
 ],
 "bonne": 0
-}
+},
+"num": 556
 },
 {
 "id": "livres-048",
@@ -24726,7 +35837,8 @@ window.QR_CARTES = [
 "D'à peine 1 %"
 ],
 "bonne": 0
-}
+},
+"num": 557
 },
 {
 "id": "livres-049",
@@ -24764,7 +35876,8 @@ window.QR_CARTES = [
 "Fort : surtout auprès des clients aisés"
 ],
 "bonne": 2
-}
+},
+"num": 558
 },
 {
 "id": "livres-050",
@@ -24816,7 +35929,8 @@ window.QR_CARTES = [
 "Par une petite campagne test"
 ],
 "bonne": 3
-}
+},
+"num": 559
 },
 {
 "id": "livres-051",
@@ -24854,7 +35968,8 @@ window.QR_CARTES = [
 "Obtenir le plus de réponses possible"
 ],
 "bonne": 1
-}
+},
+"num": 560
 },
 {
 "id": "livres-052",
@@ -24906,7 +36021,8 @@ window.QR_CARTES = [
 "Ils s'accordent : l'avant/après à éviter"
 ],
 "bonne": 0
-}
+},
+"num": 561
 },
 {
 "id": "livres-053",
@@ -24954,7 +36070,8 @@ window.QR_CARTES = [
 "action": "Retiens le réflexe : on rend ce qu'on reçoit."
 }
 }
-]
+],
+"num": 562
 },
 {
 "id": "livres-054",
@@ -25016,7 +36133,8 @@ window.QR_CARTES = [
 "action": "Montre de vrais clients qui utilisent ton produit."
 }
 }
-]
+],
+"num": 563
 },
 {
 "id": "livres-055",
@@ -25068,7 +36186,8 @@ window.QR_CARTES = [
 "Ce qui vient d'un vrai expert vaut plus"
 ],
 "bonne": 1
-}
+},
+"num": 564
 },
 {
 "id": "livres-056",
@@ -25121,7 +36240,8 @@ window.QR_CARTES = [
 "« Five pages » (cinq pages)"
 ],
 "bonne": 2
-}
+},
+"num": 565
 },
 {
 "id": "livres-057",
@@ -25173,7 +36293,8 @@ window.QR_CARTES = [
 "On rend ce qu'on a reçu en premier, d'abord"
 ],
 "bonne": 2
-}
+},
+"num": 566
 },
 {
 "id": "livres-058",
@@ -25211,7 +36332,8 @@ window.QR_CARTES = [
 "Une date limite sur l'enveloppe"
 ],
 "bonne": 2
-}
+},
+"num": 567
 },
 {
 "id": "livres-059",
@@ -25263,7 +36385,8 @@ window.QR_CARTES = [
 "Incertitude et ressemblance"
 ],
 "bonne": 3
-}
+},
+"num": 568
 },
 {
 "id": "livres-060",
@@ -25301,7 +36424,8 @@ window.QR_CARTES = [
 "L'avis de ses voisins"
 ],
 "bonne": 0
-}
+},
+"num": 569
 },
 {
 "id": "livres-061",
@@ -25339,7 +36463,8 @@ window.QR_CARTES = [
 "On rend ce qu'on a reçu"
 ],
 "bonne": 1
-}
+},
+"num": 570
 },
 {
 "id": "livres-062",
@@ -25377,7 +36502,8 @@ window.QR_CARTES = [
 "Qu'elle est interdite en pub"
 ],
 "bonne": 0
-}
+},
+"num": 571
 },
 {
 "id": "livres-063",
@@ -25425,7 +36551,8 @@ window.QR_CARTES = [
 "action": "Vérifie toujours ton marché avant de retoucher ton offre."
 }
 }
-]
+],
+"num": 572
 },
 {
 "id": "livres-064",
@@ -25473,7 +36600,8 @@ window.QR_CARTES = [
 "action": "Dans ta pub, montre comment ton produit réduit le temps et l'effort."
 }
 }
-]
+],
+"num": 573
 },
 {
 "id": "livres-065",
@@ -25525,7 +36653,8 @@ window.QR_CARTES = [
 "Un produit vendu en abonnement"
 ],
 "bonne": 1
-}
+},
+"num": 574
 },
 {
 "id": "livres-066",
@@ -25575,7 +36704,8 @@ window.QR_CARTES = [
 "Rareté = quantité ; urgence = temps"
 ],
 "bonne": 3
-}
+},
+"num": 575
 },
 {
 "id": "livres-067",
@@ -25613,7 +36743,8 @@ window.QR_CARTES = [
 "Ajouter des bonus, sans remise"
 ],
 "bonne": 3
-}
+},
+"num": 576
 },
 {
 "id": "livres-068",
@@ -25665,7 +36796,8 @@ window.QR_CARTES = [
 "« Résultats garantis, c'est sûr »"
 ],
 "bonne": 2
-}
+},
+"num": 577
 },
 {
 "id": "livres-069",
@@ -25703,7 +36835,8 @@ window.QR_CARTES = [
 "Fermer les ventes sans prévenir"
 ],
 "bonne": 2
-}
+},
+"num": 578
 },
 {
 "id": "livres-070",
@@ -25741,7 +36874,8 @@ window.QR_CARTES = [
 "Le prix : le baisser au plus bas"
 ],
 "bonne": 0
-}
+},
+"num": 579
 },
 {
 "id": "livres-071",
@@ -25779,7 +36913,8 @@ window.QR_CARTES = [
 "Ils s'accordent tous : montrer le bonheur"
 ],
 "bonne": 1
-}
+},
+"num": 580
 },
 {
 "id": "livres-072",
@@ -25827,7 +36962,8 @@ window.QR_CARTES = [
 "q": "Selon Hormozi, quelles sont les deux questions qui forment les « core four » (4 façons de se faire connaître) ?",
 "type": "rappel"
 }
-]
+],
+"num": 581
 },
 {
 "id": "livres-073",
@@ -25875,7 +37011,8 @@ window.QR_CARTES = [
 "q": "Donne dans l'ordre les 3 blocs d'une pub selon Hormozi.",
 "type": "rappel"
 }
-]
+],
+"num": 582
 },
 {
 "id": "livres-074",
@@ -25913,7 +37050,8 @@ window.QR_CARTES = [
 "Un catalogue de tous tes produits"
 ],
 "bonne": 1
-}
+},
+"num": 583
 },
 {
 "id": "livres-075",
@@ -25963,7 +37101,8 @@ window.QR_CARTES = [
 "À la durée totale de la vidéo"
 ],
 "bonne": 2
-}
+},
+"num": 584
 },
 {
 "id": "livres-076",
@@ -26001,7 +37140,8 @@ window.QR_CARTES = [
 "20 fois plus"
 ],
 "bonne": 3
-}
+},
+"num": 585
 },
 {
 "id": "livres-077",
@@ -26053,7 +37193,8 @@ window.QR_CARTES = [
 "Sans appel : l'image fait tout le travail"
 ],
 "bonne": 1
-}
+},
+"num": 586
 },
 {
 "id": "livres-078",
@@ -26091,7 +37232,8 @@ window.QR_CARTES = [
 "Ça raccourcit la durée de la pub"
 ],
 "bonne": 1
-}
+},
+"num": 587
 },
 {
 "id": "livres-079",
@@ -26129,7 +37271,8 @@ window.QR_CARTES = [
 "Raconter l'histoire de l'entreprise"
 ],
 "bonne": 1
-}
+},
+"num": 588
 },
 {
 "id": "livres-080",
@@ -26181,7 +37324,8 @@ window.QR_CARTES = [
 "Il coupe aussi la gagnante, par prudence"
 ],
 "bonne": 0
-}
+},
+"num": 589
 },
 {
 "id": "livres-081",
@@ -26233,7 +37377,8 @@ window.QR_CARTES = [
 "Sans limite, tant que la pub tourne"
 ],
 "bonne": 2
-}
+},
+"num": 590
 },
 {
 "id": "livres-082",
@@ -26271,7 +37416,8 @@ window.QR_CARTES = [
 "Une suite d'offres"
 ],
 "bonne": 3
-}
+},
+"num": 591
 },
 {
 "id": "livres-083",
@@ -26333,7 +37479,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 592
 },
 {
 "id": "livres-084",
@@ -26385,7 +37532,8 @@ window.QR_CARTES = [
 "Un abonnement payé chaque mois"
 ],
 "bonne": 0
-}
+},
+"num": 593
 },
 {
 "id": "livres-085",
@@ -26437,7 +37585,8 @@ window.QR_CARTES = [
 "Avec un abonnement au burger"
 ],
 "bonne": 0
-}
+},
+"num": 594
 },
 {
 "id": "livres-086",
@@ -26475,7 +37624,8 @@ window.QR_CARTES = [
 "« Moins cher si non »"
 ],
 "bonne": 1
-}
+},
+"num": 595
 },
 {
 "id": "livres-087",
@@ -26513,7 +37663,8 @@ window.QR_CARTES = [
 "Une valeur continue, payée en continu"
 ],
 "bonne": 3
-}
+},
+"num": 596
 },
 {
 "id": "livres-088",
@@ -26551,7 +37702,8 @@ window.QR_CARTES = [
 "Le profit final est trop faible"
 ],
 "bonne": 0
-}
+},
+"num": 597
 },
 {
 "id": "livres-089",
@@ -26589,7 +37741,8 @@ window.QR_CARTES = [
 "Ne pas forcer : offrir au bon moment"
 ],
 "bonne": 3
-}
+},
+"num": 598
 },
 {
 "id": "livres-090",
@@ -26627,7 +37780,8 @@ window.QR_CARTES = [
 "Le prix plein fait fuir les experts"
 ],
 "bonne": 2
-}
+},
+"num": 599
 },
 {
 "id": "meta-scale-001",
@@ -26692,7 +37846,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S003] [R082] [R083] [R085]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 600
 },
 {
 "id": "meta-scale-002",
@@ -26745,7 +37900,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S006] [R089] [R090] [R091] ; [S008] [R100] [R101] ; [S014] [R133]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 601
 },
 {
 "id": "meta-scale-003",
@@ -26788,7 +37944,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S006] [R092]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 602
 },
 {
 "id": "meta-scale-004",
@@ -26848,7 +38005,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S007] [R093] [R094] [R095] [R096]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 603
 },
 {
 "id": "meta-scale-005",
@@ -26894,7 +38052,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S008] [R102] ; [S026] [R189]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 604
 },
 {
 "id": "meta-scale-006",
@@ -26953,7 +38112,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S019] [R150] [R151] [R153] ; [S031] [R203]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 605
 },
 {
 "id": "meta-scale-007",
@@ -26989,7 +38149,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S020] [R154] [R155] [R156] [R160]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 606
 },
 {
 "id": "meta-scale-008",
@@ -27048,7 +38209,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S021] [R161] [R162] [R163] [R167]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 607
 },
 {
 "id": "meta-scale-009",
@@ -27107,7 +38269,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S018] [R148] [R149]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 608
 },
 {
 "id": "meta-scale-010",
@@ -27172,7 +38335,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S033] [R211] [R212] [R213] [R214]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 609
 },
 {
 "id": "meta-scale-011",
@@ -27238,7 +38402,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S036] [R225] [R226] ; [S035] [R223]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 610
 },
 {
 "id": "meta-scale-012",
@@ -27302,7 +38467,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S025] [R181] [R182] [R184] [R185]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 611
 },
 {
 "id": "meta-scale-013",
@@ -27343,7 +38509,8 @@ window.QR_CARTES = [
 "source": "Matteo – Palier 0 à 10K par jour",
 "ref": "0 A 10K DAY MATEO - INDEX.md [S001] [R019] ; [S007] [R041]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 612
 },
 {
 "id": "meta-scale-014",
@@ -27407,7 +38574,8 @@ window.QR_CARTES = [
 "source": "Matteo – Palier 0 à 10K par jour",
 "ref": "0 A 10K DAY MATEO - INDEX.md [S001] [R022] ; [S002] [R023] [R024] [R025]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 613
 },
 {
 "id": "meta-scale-015",
@@ -27473,7 +38641,8 @@ window.QR_CARTES = [
 "source": "Matteo – Palier 0 à 10K par jour",
 "ref": "0 A 10K DAY MATEO - INDEX.md [S004] [R031] ; [S005] [R032] [R033] [R034]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 614
 },
 {
 "id": "meta-scale-016",
@@ -27532,7 +38701,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S024] [R176] [R177] [R178] [R179]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 615
 },
 {
 "id": "meta-scale-017",
@@ -27564,7 +38734,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S013] [R087] [R088] [R089]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 616
 },
 {
 "id": "meta-scale-018",
@@ -27630,7 +38801,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S014] [R092] ; [S015] [R093] [R094] [R095]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 617
 },
 {
 "id": "meta-scale-019",
@@ -27676,7 +38848,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S016] [R096] [R097] [R098]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 618
 },
 {
 "id": "meta-scale-020",
@@ -27714,7 +38887,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S021] [R113] [R114] ; [S022] [R115] [R116]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 619
 },
 {
 "id": "meta-scale-021",
@@ -27778,7 +38952,8 @@ window.QR_CARTES = [
 "source": "Evolve – Comprendre son produit et sa position sur le marché",
 "ref": "Evolve position marcher 1 - INDEX.md [S005] [R201]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 620
 },
 {
 "id": "meta-scale-022",
@@ -27837,7 +39012,8 @@ window.QR_CARTES = [
 "source": "Evolve – Comprendre son produit et sa position sur le marché",
 "ref": "Evolve position marcher 1 - INDEX.md [S004] [R197]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 621
 },
 {
 "id": "meta-scale-023",
@@ -27883,7 +39059,8 @@ window.QR_CARTES = [
 "source": "Evolve – Utiliser les pubs des concurrents",
 "ref": "Evolve comment utiliser les pub concurent(1) 3 - INDEX.md [S007] [R040] [R041] ; [S008] [R042]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 622
 },
 {
 "id": "meta-scale-024",
@@ -27942,141 +39119,8 @@ window.QR_CARTES = [
 "source": "Evolve – Utiliser les pubs des concurrents",
 "ref": "Evolve comment utiliser les pub concurent(1) 3 - INDEX.md [S012] [R057] [R058]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
-},
-{
-"id": "meta-scale-025",
-"theme": "meta",
-"chapitre": "TikTok Ads",
-"competence": "Savoir quand ajouter TikTok Ads",
-"niveau": 1,
-"type": "qcm",
-"q": "Selon le formateur TikTok, combien une marque doit-elle déjà vendre par mois sur Meta avant d'ajouter des pubs TikTok ?",
-"choix": [
-"50 000 à 100 000 € par mois",
-"5 000 à 10 000 € par mois",
-"1 à 2 millions € par mois",
-"500 à 1 000 € par mois"
-],
-"bonne": 0,
-"r": {
-"verdict": "💡 Pas avant 50 000 à 100 000 € par mois sur Meta.",
-"pourquoi": "Si Meta ne fait pas encore 100 000 € par mois, ce n'est pas TikTok qui va sauver la boutique.",
-"action": "Concentre-toi d'abord sur Meta. Ensuite, envoie sur TikTok tes créas gagnantes de Meta, avec du budget."
-},
-"explication": "Pour une marque, le but de TikTok Ads est simple : reprendre les créas qui marchent sur Meta. Venir avec 39 € de budget ne marche pas. L'exception : un débutant en dropshipping peut choisir TikTok seul, mais pas Meta et TikTok en même temps.",
-"variantes": [
-{
-"q": "Selon le formateur TikTok, à quoi servent les pubs TikTok pour une marque e-commerce ?",
-"type": "rappel",
-"qcm": {
-"choix": [
-"Reprendre les créas gagnantes de Meta",
-"Tester TikTok avec un tout petit budget",
-"Remplacer Meta quand il marche mal",
-"Faire de l'organique sans payer de pub"
-],
-"bonne": 0
-},
-"r": {
-"verdict": "💡 Reprendre les créas qui marchent sur Meta et les lancer sur TikTok.",
-"pourquoi": "TikTok ne remplace pas Meta : il recycle ses gagnantes.",
-"action": "Prépare la liste de tes créas gagnantes Meta avant d'ouvrir TikTok."
-}
-},
-{
-"q": "Ta marque fait 20 000 € par mois sur Meta. À partir de quel chiffre mensuel le formateur TikTok conseille-t-il d'ajouter TikTok ?",
-"type": "rappel"
-}
-],
-"source": "TikTok Ads Strategy 1 (NIKO MASTER)",
-"ref": "TikTok Ads Strategy 1 NIKO MASTER - INDEX.md [S002] [R019] [R020] [R021] [R022] ; [S004] [R028]",
-"date_source": "inconnue",
-"ajout": "2026-10-05"
-},
-{
-"id": "meta-scale-026",
-"theme": "meta",
-"chapitre": "TikTok Ads",
-"competence": "Tester vite sur TikTok",
-"niveau": 1,
-"type": "rappel",
-"q": "Selon le formateur TikTok, combien de jours au maximum doit durer un test de pub sur TikTok ?",
-"qcm": {
-"choix": [
-"7 jours grand maximum",
-"3 jours grand maximum",
-"14 jours au minimum",
-"1 mois au minimum"
-],
-"bonne": 1
-},
-"r": {
-"verdict": "💡 3 jours grand maximum.",
-"pourquoi": "Sur TikTok, les créas « se consomment » plus vite que sur Meta.",
-"action": "Lance, lis tes chiffres, décide en 3 jours. Rentable après 24 à 48 h ? Scale."
-},
-"explication": "Sur TikTok, une créa s'use comme un tube trop écouté à la radio. Les tests vont donc plus vite. Sur Meta, Spencer laisse 4 à 7 jours : chaque plateforme a son rythme.",
-"variantes": [
-{
-"q": "Les pubs s'usent plus vite sur TikTok que sur Meta. Combien de jours au maximum le formateur TikTok laisse-t-il un test ?",
-"type": "rappel"
-}
-],
-"source": "TikTok Ads Testing 2 (NIKO MASTER)",
-"ref": "TikTok Ads Testing 2 NIKO MASTER - INDEX.md [S001] [R005] [R006] ; [S003] [R018] ; Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S036] [R225]",
-"date_source": "inconnue (parle des mises à jour Smart+ de « cet été »)",
-"ajout": "2026-10-05"
-},
-{
-"id": "meta-scale-027",
-"theme": "meta",
-"chapitre": "TikTok Ads",
-"competence": "Choisir un produit pour TikTok",
-"niveau": 1,
-"type": "qcm",
-"q": "Selon le formateur TikTok, quel panier moyen (montant moyen d'une commande) marche le mieux en pub TikTok ?",
-"choix": [
-"Entre 100 et 200 €",
-"Plus de 300 €",
-"Moins de 60 €",
-"Plus de 200 €"
-],
-"bonne": 2,
-"r": {
-"verdict": "💡 Moins de 60 €.",
-"pourquoi": "L'auteur a eu énormément de succès sous 60 €, et moins au-dessus.",
-"action": "Sur TikTok, privilégie des produits ou des offres sous 60 € de panier moyen."
-},
-"explication": "AOV = valeur moyenne d'une commande. Parmi les catégories qui marchent bien chez lui : fashion, cosmétique et skincare, perte de poids, bijoux, compléments.",
-"variantes": [
-{
-"q": "Tu hésites entre un produit à 45 € et un à 120 € pour TikTok. Lequel colle le mieux à l'expérience du formateur TikTok ?",
-"type": "rappel"
-},
-{
-"q": "Selon le formateur TikTok, quelles catégories de produits marchent bien en pub TikTok ?",
-"type": "rappel",
-"qcm": {
-"choix": [
-"Meubles, électroménager, voitures",
-"Fashion, skincare, perte de poids",
-"Logiciels, formations, assurances",
-"Pièces auto, jardinage, bricolage"
-],
-"bonne": 1
-},
-"r": {
-"verdict": "💡 Par exemple : fashion, cosmétique et skincare, perte de poids. Aussi bijoux, cadeaux, compléments.",
-"pourquoi": "En skincare, les créas où l'on voit le client faire son rituel de soin marchent très bien.",
-"action": "Vérifie si ton produit entre dans une de ces catégories."
-}
-}
-],
-"source": "TikTok Ads Strategy 1 (NIKO MASTER)",
-"ref": "TikTok Ads Strategy 1 NIKO MASTER - INDEX.md [S004] [R029] [R030] [R031]",
-"date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 623
 },
 {
 "id": "meta-scale-028",
@@ -28142,7 +39186,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S033] [R212] ; [S034] [R217] [R218] [R219]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 627
 },
 {
 "id": "meta-scale-029",
@@ -28208,7 +39253,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S016] [R143] ; [S017] [R146] [R147] ; [S018] [R148]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 628
 },
 {
 "id": "meta-scale-030",
@@ -28256,7 +39302,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S020] [R157] [R158] [R160]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 629
 },
 {
 "id": "meta-scale-031",
@@ -28304,7 +39351,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S021] [R163] [R164] [R165] [R167]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 630
 },
 {
 "id": "meta-scale-032",
@@ -28352,7 +39400,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S007] [R097] [R098] [R099]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 631
 },
 {
 "id": "meta-scale-033",
@@ -28418,7 +39467,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S009] [R104] [R105] [R106] [R108] [R109] ; [S015] [R135]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 632
 },
 {
 "id": "meta-scale-034",
@@ -28470,7 +39520,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S010] [R110] [R111] [R113] [R115] [R116]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 633
 },
 {
 "id": "meta-scale-035",
@@ -28504,7 +39555,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S025] [R183] [R185] [R186]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 634
 },
 {
 "id": "meta-scale-036",
@@ -28556,7 +39608,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S026] [R188] [R190] [R191] ; [S027] [R192] [R193]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 635
 },
 {
 "id": "meta-scale-037",
@@ -28590,7 +39643,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S028] [R195] [R196] [R197]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 636
 },
 {
 "id": "meta-scale-038",
@@ -28624,7 +39678,8 @@ window.QR_CARTES = [
 "source": "Matteo – Palier 0 à 10K par jour",
 "ref": "0 A 10K DAY MATEO - INDEX.md [S001] [R020] [R021]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 637
 },
 {
 "id": "meta-scale-039",
@@ -28672,7 +39727,8 @@ window.QR_CARTES = [
 "source": "Matteo – Palier 0 à 10K par jour",
 "ref": "0 A 10K DAY MATEO - INDEX.md [S004] [R030] ; [S006] [R035] [R036] [R037] ; [S007] [R039]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 638
 },
 {
 "id": "meta-scale-040",
@@ -28720,7 +39776,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S017] [R099] ; [S018] [R101] [R102]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 639
 },
 {
 "id": "meta-scale-041",
@@ -28754,7 +39811,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S021] [R113] ; [S022] [R116]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 640
 },
 {
 "id": "meta-scale-042",
@@ -28820,7 +39878,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S023] [R117] [R118] ; [S024] [R121] [R122]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 641
 },
 {
 "id": "meta-scale-043",
@@ -28854,7 +39913,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S020] [R104] [R105] [R106] [R107] [R108]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 642
 },
 {
 "id": "meta-scale-044",
@@ -28902,7 +39962,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S042] [R191] [R192] [R193]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 643
 },
 {
 "id": "meta-scale-045",
@@ -28950,7 +40011,8 @@ window.QR_CARTES = [
 "source": "Evolve – Comprendre son produit et sa position sur le marché",
 "ref": "Evolve position marcher 1 - INDEX.md [S003] [R193] ; [S004] [R197]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 644
 },
 {
 "id": "meta-scale-046",
@@ -28998,7 +40060,8 @@ window.QR_CARTES = [
 "source": "Evolve – Comprendre son produit et sa position sur le marché",
 "ref": "Evolve position marcher 1 - INDEX.md [S008] [R210] ; [S009] [R213]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 645
 },
 {
 "id": "meta-scale-047",
@@ -29046,7 +40109,8 @@ window.QR_CARTES = [
 "source": "Evolve – Comprendre son produit et sa position sur le marché",
 "ref": "Evolve position marcher 1 - INDEX.md [S007] [R207]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 646
 },
 {
 "id": "meta-scale-048",
@@ -29080,137 +40144,8 @@ window.QR_CARTES = [
 "source": "Evolve – Utiliser les pubs des concurrents",
 "ref": "Evolve comment utiliser les pub concurent(1) 3 - INDEX.md [S008] [R043] ; [S009] [R044] [R045] [R046] [R047] [R048]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
-},
-{
-"id": "meta-scale-049",
-"theme": "meta",
-"chapitre": "TikTok Ads",
-"competence": "Monter un test TikTok sans Meta",
-"niveau": 2,
-"type": "scénario",
-"q": "Tu ne fais pas de pub Meta et tu lances un produit sur TikTok. Quel test le formateur TikTok conseille-t-il ?",
-"qcm": {
-"choix": [
-"CBO, 3 vidéos, ciblage par intérêts, 30 à 40 €/jour",
-"Smart+, 1 vidéo, ciblage par âge, 500 à 600 €/jour",
-"ABO, 10 vidéos ou plus, full broad, 150 à 200 €/jour",
-"ABO, 2 vidéos, ciblage lookalike, 50 à 80 €/jour"
-],
-"bonne": 2
-},
-"r": {
-"verdict": "💡 Une campagne ABO par produit, un ad set, au moins 10 vidéos gagnantes, full broad, 150 à 200 € par jour minimum.",
-"pourquoi": "Plus de budget = test plus rapide. L'auteur dit avoir de meilleurs résultats ainsi.",
-"action": "Prépare 10 à 15 créas solides (tirées des meilleures des concurrents), puis lance."
-},
-"explication": "ABO = tu fixes le budget par ad set. Full broad = aucun ciblage, l'algorithme cherche. L'auteur ne teste plus rien sous 200 € par jour, ni sans 15 créas. KPI à suivre : ROAS et coût par achat.",
-"variantes": [
-{
-"q": "Selon le formateur TikTok, combien de vidéos et quel budget par jour faut-il au minimum pour un test ?",
-"type": "rappel",
-"qcm": {
-"choix": [
-"10 vidéos et 150 à 200 € par jour",
-"3 vidéos et 30 à 40 € par jour",
-"1 vidéo et 400 à 500 € par jour",
-"5 vidéos et 50 à 80 € par jour"
-],
-"bonne": 0
-},
-"r": {
-"verdict": "💡 10 vidéos au grand minimum (lui : 15), et 150 à 200 € par jour au minimum.",
-"pourquoi": "Plus de créas et plus de budget = un test qui avance vite.",
-"action": "N'ouvre pas de test TikTok avant d'avoir tes 10 vidéos."
-}
-}
-],
-"source": "TikTok Ads Testing 2 (NIKO MASTER)",
-"ref": "TikTok Ads Testing 2 NIKO MASTER - INDEX.md [S002] [R009] [R010] [R011] [R013] ; [S003] [R014] [R015]",
-"date_source": "inconnue (parle des mises à jour Smart+ de « cet été »)",
-"ajout": "2026-10-05"
-},
-{
-"id": "meta-scale-050",
-"theme": "meta",
-"chapitre": "TikTok Ads",
-"competence": "Scaler après un test TikTok rentable",
-"niveau": 2,
-"type": "si-alors",
-"q": "Ton test TikTok est rentable après 24 à 48 heures. Que fais-tu ensuite, selon le formateur TikTok ?",
-"qcm": {
-"choix": [
-"Attendre : 7 jours sans toucher à la campagne",
-"Scaler fort : gagnantes en CBO, avec itérations",
-"Basculer : tout en Smart+, jugée plus stable",
-"Recommencer : couper et relancer un test neuf"
-],
-"bonne": 1
-},
-"r": {
-"verdict": "💡 Tu scales assez agressivement : tes créas gagnantes dans une CBO, avec des itérations.",
-"pourquoi": "Rentable = ton coût par achat est sous ton point mort (break-even).",
-"action": "3 gagnantes sur 10 ? Mets-les dans une CBO classique avec de nouvelles versions : autre musique, autre outro, autre format qui marche chez les concurrents."
-},
-"explication": "L'auteur préfère commencer en CBO normale plutôt qu'en Smart+ : Smart+ est plus récente, et soit elle performe parfaitement, soit pas du tout. Si la CBO tourne bien, il monte vite : 200, 300, 400 par jour.",
-"variantes": [
-{
-"q": "Sur TikTok, tu hésites entre une CBO classique (budget réparti par la plateforme) et Smart+ (campagne automatique). Que conseille le formateur ?",
-"type": "si-alors",
-"qcm": {
-"choix": [
-"Smart+ d'abord, plus stable et récente",
-"ABO seulement, plus simple à gérer",
-"Bid cap quotidien, plus rentable",
-"CBO classique d'abord, plus stable"
-],
-"bonne": 3
-},
-"r": {
-"verdict": "💡 Commencer par la CBO classique, plus stable pour l'instant.",
-"pourquoi": "Smart+ est plus récente : soit elle performe parfaitement, soit pas du tout.",
-"action": "Lance en CBO classique, puis ajoute une Smart+ à côté."
-}
-}
-],
-"source": "TikTok Ads Testing 2 (NIKO MASTER)",
-"ref": "TikTok Ads Testing 2 NIKO MASTER - INDEX.md [S003] [R018] ; [S004] [R019] [R020] [R021]",
-"date_source": "inconnue (parle des mises à jour Smart+ de « cet été »)",
-"ajout": "2026-10-05"
-},
-{
-"id": "meta-scale-051",
-"theme": "meta",
-"chapitre": "TikTok Ads",
-"competence": "Itérer une créa TikTok",
-"niveau": 2,
-"type": "scénario",
-"q": "Une pub marche sur TikTok et tu vises l'Allemagne. Quelle nouvelle version rapide le formateur TikTok recommande-t-il ?",
-"qcm": {
-"choix": [
-"Même créa, avec un son du top 15 du pays",
-"Même créa, avec un son choisi au hasard",
-"Même créa, avec la voix off traduite",
-"Même créa, avec un refresh de metadata"
-],
-"bonne": 0
-},
-"r": {
-"verdict": "💡 La même créa avec une musique du top 15 tendance en Allemagne.",
-"pourquoi": "TikTok vient de Musical.ly : la musique pèse très lourd. CPM plus bas, meilleures stats.",
-"action": "Ouvre un classement des musiques par pays, filtre sur 7 jours, prends dans le top 15, et duplique ta créa avec ce son (et de nouveaux sous-titres si besoin)."
-},
-"explication": "CPM = coût pour 1 000 affichages. L'auteur dit qu'on peut doubler le chiffre venant de TikTok juste avec ces itérations musicales. Si c'est le hook (les premières secondes) qui ne marche pas, refais la créa en changeant le hook.",
-"variantes": [
-{
-"q": "Sur TikTok, comment faire une nouvelle version d'une pub qui marche sans refaire le tournage ?",
-"type": "scénario"
-}
-],
-"source": "TikTok Ads Testing 2 (NIKO MASTER)",
-"ref": "TikTok Ads Testing 2 NIKO MASTER - INDEX.md [S006] [R030] [R031] [R032] [R033] ; [S007] [R034]",
-"date_source": "inconnue (parle des mises à jour Smart+ de « cet été »)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 647
 },
 {
 "id": "meta-scale-052",
@@ -29244,7 +40179,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S016] [R138] [R139] [R140] [R141] [R142]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 651
 },
 {
 "id": "meta-scale-053",
@@ -29292,7 +40228,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S023] [R172] [R173] [R174] [R175] ; [S037] [R228]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 652
 },
 {
 "id": "meta-scale-054",
@@ -29340,7 +40277,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S034] [R218] [R219] [R220] ; [S035] [R221] [R222]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 653
 },
 {
 "id": "meta-scale-055",
@@ -29374,7 +40312,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S036] [R224] ; [S033] [R216] ; [S021] [R167]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 654
 },
 {
 "id": "meta-scale-056",
@@ -29408,7 +40347,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S022] [R168] [R169] [R170] [R171]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 655
 },
 {
 "id": "meta-scale-057",
@@ -29442,7 +40382,8 @@ window.QR_CARTES = [
 "source": "Matteo ; Evolve (pubs concurrentes) ; Podcast Master Native",
 "ref": "0 A 10K DAY MATEO - INDEX.md [S002] [R025] [R026] ; Evolve comment utiliser les pub concurent(1) 3 - INDEX.md [S003] [R026] [R027] ; [S008] [R043] ; MARC NATIVE 50kday - INDEX.md [S021] [R114] ; [S022] [R115]",
 "date_source": "inconnue (les trois sources)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 656
 },
 {
 "id": "meta-scale-058",
@@ -29476,7 +40417,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) ; Matteo",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S006] [R089] [R092] ; [S033] [R212] ; 0 A 10K DAY MATEO - INDEX.md [S006] [R035] [R036] [R037]",
 "date_source": "Spencer : 2026 ; Matteo : inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 657
 },
 {
 "id": "meta-scale-059",
@@ -29524,7 +40466,8 @@ window.QR_CARTES = [
 "source": "Matteo ; Podcast Master Native ; TikTok Ads Strategy 1",
 "ref": "0 A 10K DAY MATEO - INDEX.md [S007] [R040] [R041] ; MARC NATIVE 50kday - INDEX.md [S020] [R105] ; TikTok Ads Strategy 1 NIKO MASTER - INDEX.md [S008] [R045] [R046]",
 "date_source": "inconnue (les trois sources)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 658
 },
 {
 "id": "meta-scale-060",
@@ -29572,7 +40515,8 @@ window.QR_CARTES = [
 "source": "Evolve – Utiliser les pubs des concurrents",
 "ref": "Evolve comment utiliser les pub concurent(1) 3 - INDEX.md [S003] [R026] [R027] ; [S004] [R029] [R030] [R031]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 659
 },
 {
 "id": "meta-scale-061",
@@ -29620,7 +40564,8 @@ window.QR_CARTES = [
 "source": "Evolve – Utiliser les pubs des concurrents",
 "ref": "Evolve comment utiliser les pub concurent(1) 3 - INDEX.md [S006] [R036] [R037] ; [S007] [R039] [R040] ; [S011] [R054] ; [S013] [R059] [R060] ; [S014] [R061]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 660
 },
 {
 "id": "meta-scale-062",
@@ -29669,7 +40614,8 @@ window.QR_CARTES = [
 "source": "Evolve – Comprendre son produit et sa position sur le marché",
 "ref": "Evolve position marcher 1 - INDEX.md [S010] [R214] [R216] ; [S011] [R217]",
 "date_source": "inconnue",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 661
 },
 {
 "id": "meta-scale-063",
@@ -29703,7 +40649,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S038] [R178] [R179]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 662
 },
 {
 "id": "meta-scale-064",
@@ -29751,7 +40698,8 @@ window.QR_CARTES = [
 "source": "Podcast Master (Matthéo et Nico, invité Ryan) – Native 50k par jour",
 "ref": "MARC NATIVE 50kday - INDEX.md [S034] [R153] [R154] [R155] [R157] [R158] ; [S035] [R163]",
 "date_source": "inconnue (après Andromeda : la vidéo cite 2024 et 2025)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 663
 },
 {
 "id": "meta-scale-065",
@@ -29799,7 +40747,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S031] [R205] [R206] [R207]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 664
 },
 {
 "id": "meta-scale-066",
@@ -29833,89 +40782,8 @@ window.QR_CARTES = [
 "source": "Spencer (Evolve) – Scaler de 1k à 100k $ par jour",
 "ref": "Spencer Evolve 1kday-100kday(1) 6 - INDEX.md [S025] [R186] [R187] ; [S017] [R146]",
 "date_source": "2026 (la vidéo montre le mois de mars 2026)",
-"ajout": "2026-10-05"
-},
-{
-"id": "meta-scale-067",
-"theme": "meta",
-"chapitre": "TikTok Ads",
-"competence": "Garder une campagne TikTok fraîche",
-"niveau": 3,
-"type": "diagnostic",
-"q": "Sur TikTok, ta campagne qui grandit baisse au 4e jour malgré de nouvelles pubs. Que fait le formateur TikTok ?",
-"qcm": {
-"choix": [
-"Recréer la CBO de zéro toutes les 48 h",
-"Dupliquer la CBO telle quelle toutes les 48 h",
-"Laisser la CBO tourner et y ajouter des créas",
-"Passer la CBO en bid cap toutes les 48 h"
-],
-"bonne": 0
-},
-"r": {
-"verdict": "💡 Il recrée la CBO de zéro toutes les 48 h environ, sans la dupliquer, avec les mêmes réglages.",
-"pourquoi": "Il a vu qu'une campagne laissée 3 ou 4 jours chute, alors que la même recréée « from scratch » performe très bien.",
-"action": "Toutes les 48 h : nouvelle CBO créée à la main, mêmes réglages, tes gagnantes + le maximum de nouvelles créas."
-},
-"explication": "Sur TikTok, une campagne vieillit vite, comme les créas. C'est sa stratégie « du moment » : l'auteur prévient que TikTok change beaucoup. Quand tu atteins la limite de créas par campagne, crée une campagne de plus.",
-"variantes": [
-{
-"q": "Sur TikTok, tes campagnes s'essoufflent après 3 ou 4 jours. Que fait le formateur TikTok toutes les 48 heures ?",
-"type": "diagnostic"
-}
-],
-"source": "TikTok Ads Testing 2 (NIKO MASTER)",
-"ref": "TikTok Ads Testing 2 NIKO MASTER - INDEX.md [S004] [R022] ; [S005] [R024] [R028] ; [S010] [R043] [R044]",
-"date_source": "inconnue (parle des mises à jour Smart+ de « cet été »)",
-"ajout": "2026-10-05"
-},
-{
-"id": "meta-scale-068",
-"theme": "meta",
-"chapitre": "TikTok Ads",
-"competence": "Passer de Meta à TikTok",
-"niveau": 3,
-"type": "scénario",
-"q": "Tu as déjà des pubs gagnantes sur Meta. Comment le formateur TikTok les lance-t-il, puis les fait-il grandir sur TikTok ?",
-"qcm": {
-"choix": [
-"Créas TikTok neuves en ABO, 7 jours à 39 €, puis 1 campagne",
-"Gagnantes Meta en Smart+, 2 semaines à 50 €, sans relance",
-"Gagnantes Meta en ABO par pays, 3 jours à 100 €, puis 2 campagnes",
-"Gagnantes Meta en CBO, 24–48 h à 200 €, puis 3 campagnes"
-],
-"bonne": 3
-},
-"r": {
-"verdict": "💡 Toutes les gagnantes Meta dans une CBO (un produit = une campagne), test de 24 à 48 h à 200 €, puis 3 campagnes en parallèle.",
-"pourquoi": "Les créas sont déjà prouvées : il peut tester directement à 200 € par jour, même en France.",
-"action": "1) CBO de test avec au moins 10 vidéos différentes, full broad. 2) Rentable ? Recrée cette CBO toutes les 48 h. 3) À côté, scale avec une Smart+ et une autre CBO, recréées tous les 2 à 3 jours."
-},
-"explication": "Il conseille l'ad set « Creative Plus », qui accepte toutes les créas dans un ad set. Mêmes KPI que sans Meta : ROAS et coût par achat. Le carburant reste le même : toujours ajouter de nouvelles créas.",
-"variantes": [
-{
-"q": "Tu vends déjà sur Meta en France. Quel budget de test par jour le formateur TikTok conseille-t-il pour TikTok ?",
-"type": "rappel",
-"qcm": {
-"choix": [
-"40 € par jour, 3 vidéos ou plus",
-"200 € par jour, 10 vidéos ou plus",
-"50 € par jour, 1 vidéo seulement",
-"500 € par jour, 3 vidéos ou plus"
-],
-"bonne": 1
-},
-"r": {
-"verdict": "💡 Directement 200 € par jour, avec au moins 10 vidéos vraiment différentes.",
-"pourquoi": "Tes créas sont déjà prouvées sur Meta : pas besoin de commencer petit.",
-"action": "Prends 10 gagnantes Meta différentes et lance-les dans une CBO, full broad."
-}
-}
-],
-"source": "TikTok Ads Testing 2 (NIKO MASTER)",
-"ref": "TikTok Ads Testing 2 NIKO MASTER - INDEX.md [S005] [R025] [R026] [R027] [R028] ; [S010] [R043]",
-"date_source": "inconnue (parle des mises à jour Smart+ de « cet été »)",
-"ajout": "2026-10-05"
+"ajout": "2026-10-05",
+"num": 665
 },
 {
 "id": "meta-structure-001",
@@ -29964,7 +40832,8 @@ window.QR_CARTES = [
 {
 "q": "Selon l'agence Blue Sense, quel principe manque aux agences qui découpent un compte en dizaines d'ad sets (groupes de pubs) ?"
 }
-]
+],
+"num": 668
 },
 {
 "id": "meta-structure-002",
@@ -30028,7 +40897,8 @@ window.QR_CARTES = [
 "Le budget auto ne marche que dans une campagne."
 ],
 "bonne": 1
-}
+},
+"num": 669
 },
 {
 "id": "meta-structure-003",
@@ -30076,7 +40946,8 @@ window.QR_CARTES = [
 "Il existe mille types de business différents."
 ],
 "bonne": 3
-}
+},
+"num": 670
 },
 {
 "id": "meta-structure-004",
@@ -30113,7 +40984,8 @@ window.QR_CARTES = [
 "Une campagne par pays et une page par produit."
 ],
 "bonne": 2
-}
+},
+"num": 671
 },
 {
 "id": "meta-structure-005",
@@ -30163,7 +41035,8 @@ window.QR_CARTES = [
 "Accroche, format, miniature, texte, page."
 ],
 "bonne": 0
-}
+},
+"num": 672
 },
 {
 "id": "meta-structure-006",
@@ -30202,7 +41075,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 673
 },
 {
 "id": "meta-structure-007",
@@ -30253,7 +41127,8 @@ window.QR_CARTES = [
 "Un lot de créas lancé la même semaine."
 ],
 "bonne": 1
-}
+},
+"num": 674
 },
 {
 "id": "meta-structure-008",
@@ -30303,7 +41178,8 @@ window.QR_CARTES = [
 "Dans une seule pub qui regroupe plusieurs créas."
 ],
 "bonne": 0
-}
+},
+"num": 675
 },
 {
 "id": "meta-structure-009",
@@ -30353,7 +41229,8 @@ window.QR_CARTES = [
 "La dupliquer dans 5 groupes de pubs."
 ],
 "bonne": 2
-}
+},
+"num": 676
 },
 {
 "id": "meta-structure-010",
@@ -30392,7 +41269,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 677
 },
 {
 "id": "meta-structure-011",
@@ -30425,7 +41303,8 @@ window.QR_CARTES = [
 "Tester au mauvais endroit, sans exclusions, couper vite, caler sur 50 ventes."
 ],
 "bonne": 3
-}
+},
+"num": 678
 },
 {
 "id": "meta-structure-012",
@@ -30475,7 +41354,8 @@ window.QR_CARTES = [
 "Forcer 50/50 avec des limites de dépense."
 ],
 "bonne": 0
-}
+},
+"num": 679
 },
 {
 "id": "meta-structure-013",
@@ -30509,7 +41389,8 @@ window.QR_CARTES = [
 "La pub qui rapporte 4 fois est en apprentissage."
 ],
 "bonne": 1
-}
+},
+"num": 680
 },
 {
 "id": "meta-structure-014",
@@ -30559,7 +41440,8 @@ window.QR_CARTES = [
 "Meta protège les pubs qu'il vient de lancer."
 ],
 "bonne": 0
-}
+},
+"num": 681
 },
 {
 "id": "meta-structure-015",
@@ -30592,7 +41474,8 @@ window.QR_CARTES = [
 "Tout mettre dans une seule pub à plusieurs créas."
 ],
 "bonne": 2
-}
+},
+"num": 682
 },
 {
 "id": "meta-structure-016",
@@ -30625,7 +41508,8 @@ window.QR_CARTES = [
 "Campagne de test : inutile au-delà de 5 ventes."
 ],
 "bonne": 1
-}
+},
+"num": 683
 },
 {
 "id": "meta-structure-017",
@@ -30658,7 +41542,8 @@ window.QR_CARTES = [
 "Bien mesuré, ce retour tombe à 1,9 seulement."
 ],
 "bonne": 3
-}
+},
+"num": 684
 },
 {
 "id": "meta-structure-018",
@@ -30705,7 +41590,8 @@ window.QR_CARTES = [
 "Six campagnes : une par catégorie et par pays."
 ],
 "bonne": 0
-}
+},
+"num": 685
 },
 {
 "id": "meta-structure-019",
@@ -30755,7 +41641,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 686
 },
 {
 "id": "meta-structure-020",
@@ -30788,7 +41675,8 @@ window.QR_CARTES = [
 "Un budget réparti par Meta, avec mini et maxi."
 ],
 "bonne": 3
-}
+},
+"num": 687
 },
 {
 "id": "meta-structure-021",
@@ -30824,7 +41712,8 @@ window.QR_CARTES = [
 "50 : sinon pas de sortie d'apprentissage."
 ],
 "bonne": 1
-}
+},
+"num": 688
 },
 {
 "id": "meta-structure-022",
@@ -30871,7 +41760,8 @@ window.QR_CARTES = [
 "L'image seule : la vidéo longue est de trop."
 ],
 "bonne": 0
-}
+},
+"num": 689
 },
 {
 "id": "meta-structure-023",
@@ -30904,7 +41794,8 @@ window.QR_CARTES = [
 "Persona, angle, offre, contenu, date."
 ],
 "bonne": 3
-}
+},
+"num": 690
 },
 {
 "id": "meta-structure-024",
@@ -30954,7 +41845,8 @@ window.QR_CARTES = [
 "Une campagne à découper par étape du panier."
 ],
 "bonne": 0
-}
+},
+"num": 691
 },
 {
 "id": "meta-structure-025",
@@ -31001,7 +41893,8 @@ window.QR_CARTES = [
 "Le DPA fait grimper la fréquence des nouveaux."
 ],
 "bonne": 2
-}
+},
+"num": 692
 },
 {
 "id": "meta-structure-026",
@@ -31051,7 +41944,8 @@ window.QR_CARTES = [
 "Coupe tout budget clients existants."
 ],
 "bonne": 1
-}
+},
+"num": 693
 },
 {
 "id": "meta-structure-027",
@@ -31096,7 +41990,8 @@ window.QR_CARTES = [
 "bonne": 2
 }
 }
-]
+],
+"num": 694
 },
 {
 "id": "meta-structure-028",
@@ -31129,7 +42024,8 @@ window.QR_CARTES = [
 "De les couper dans les paramètres annonceur."
 ],
 "bonne": 3
-}
+},
+"num": 695
 },
 {
 "id": "meta-structure-029",
@@ -31175,7 +42071,8 @@ window.QR_CARTES = [
 "bonne": 0
 }
 }
-]
+],
+"num": 696
 },
 {
 "id": "meta-structure-030",
@@ -31209,7 +42106,8 @@ window.QR_CARTES = [
 "Demander à Meta de relever la limite par page."
 ],
 "bonne": 1
-}
+},
+"num": 697
 },
 {
 "id": "meta-structure-031",
@@ -31256,7 +42154,8 @@ window.QR_CARTES = [
 "Non : une seule campagne, quel que soit le budget."
 ],
 "bonne": 2
-}
+},
+"num": 698
 },
 {
 "id": "meta-structure-032",
@@ -31290,7 +42189,8 @@ window.QR_CARTES = [
 "Aucun : 50 % en relance, c'est sain."
 ],
 "bonne": 0
-}
+},
+"num": 699
 },
 {
 "id": "meta-structure-033",
@@ -31336,7 +42236,8 @@ window.QR_CARTES = [
 "bonne": 1
 }
 }
-]
+],
+"num": 700
 },
 {
 "id": "meta-structure-034",
@@ -31368,7 +42269,8 @@ window.QR_CARTES = [
 "q": "Des millions de pubs veulent la même place dans ton fil. Par quelles 4 étapes Meta en choisit-il une ?",
 "type": "rappel"
 }
-]
+],
+"num": 701
 },
 {
 "id": "meta-structure-035",
@@ -31415,7 +42317,8 @@ window.QR_CARTES = [
 "Surtout le nombre d'abonnés de ta page."
 ],
 "bonne": 2
-}
+},
+"num": 702
 },
 {
 "id": "meta-structure-036",
@@ -31454,7 +42357,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 703
 },
 {
 "id": "meta-structure-037",
@@ -31501,7 +42405,8 @@ window.QR_CARTES = [
 "Tester 10 intérêts dans 10 groupes de pubs."
 ],
 "bonne": 0
-}
+},
+"num": 704
 },
 {
 "id": "meta-structure-038",
@@ -31552,7 +42457,8 @@ window.QR_CARTES = [
 "Le coût d'affichage baisse et attire de mauvais clics."
 ],
 "bonne": 2
-}
+},
+"num": 705
 },
 {
 "id": "meta-structure-039",
@@ -31585,7 +42491,8 @@ window.QR_CARTES = [
 "Meta voit la conversion baisser et pénalise."
 ],
 "bonne": 3
-}
+},
+"num": 706
 },
 {
 "id": "meta-structure-040",
@@ -31624,7 +42531,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 707
 },
 {
 "id": "meta-structure-041",
@@ -31671,7 +42579,8 @@ window.QR_CARTES = [
 "Relancer pour refaire l'apprentissage."
 ],
 "bonne": 1
-}
+},
+"num": 708
 },
 {
 "id": "meta-structure-042",
@@ -31721,7 +42630,8 @@ window.QR_CARTES = [
 "Des variations : accroche, format, cible."
 ],
 "bonne": 3
-}
+},
+"num": 709
 },
 {
 "id": "meta-structure-043",
@@ -31754,7 +42664,8 @@ window.QR_CARTES = [
 "Elles coupent ta phase d'apprentissage."
 ],
 "bonne": 2
-}
+},
+"num": 710
 },
 {
 "id": "meta-structure-044",
@@ -31802,7 +42713,8 @@ window.QR_CARTES = [
 "Couper la campagne pour repartir propre."
 ],
 "bonne": 1
-}
+},
+"num": 711
 },
 {
 "id": "meta-structure-045",
@@ -31852,7 +42764,8 @@ window.QR_CARTES = [
 "10 fois le coût par achat visé."
 ],
 "bonne": 0
-}
+},
+"num": 712
 },
 {
 "id": "meta-structure-046",
@@ -31885,7 +42798,8 @@ window.QR_CARTES = [
 "Lui laisser 50 $ de plus, puis trancher."
 ],
 "bonne": 3
-}
+},
+"num": 713
 },
 {
 "id": "meta-structure-047",
@@ -31935,7 +42849,8 @@ window.QR_CARTES = [
 "Les prix baissent en fin de semaine."
 ],
 "bonne": 1
-}
+},
+"num": 714
 },
 {
 "id": "meta-structure-048",
@@ -31968,7 +42883,8 @@ window.QR_CARTES = [
 "2 000 $ par jour."
 ],
 "bonne": 2
-}
+},
+"num": 715
 },
 {
 "id": "meta-structure-049",
@@ -32001,7 +42917,8 @@ window.QR_CARTES = [
 "La règle ne vaut qu'avec un gros budget."
 ],
 "bonne": 1
-}
+},
+"num": 716
 },
 {
 "id": "meta-structure-050",
@@ -32034,7 +42951,8 @@ window.QR_CARTES = [
 "Elles s'accordent : juger après 24 heures."
 ],
 "bonne": 0
-}
+},
+"num": 717
 },
 {
 "id": "meta-structure-051",
@@ -32067,7 +42985,8 @@ window.QR_CARTES = [
 "Elles divergent : de +20 % à +100 % selon la source."
 ],
 "bonne": 3
-}
+},
+"num": 718
 },
 {
 "id": "meta-structure-052",
@@ -32100,7 +43019,8 @@ window.QR_CARTES = [
 "Elles s'accordent : l'attribution ne compte pas."
 ],
 "bonne": 2
-}
+},
+"num": 719
 },
 {
 "id": "meta-structure-053",
@@ -32150,7 +43070,8 @@ window.QR_CARTES = [
 "Moins de 7 affichages par personne par mois."
 ],
 "bonne": 1
-}
+},
+"num": 720
 },
 {
 "id": "meta-structure-054",
@@ -32200,7 +43121,8 @@ window.QR_CARTES = [
 "3 jours, 2 fois le coût, 2 groupes, 2 pays."
 ],
 "bonne": 0
-}
+},
+"num": 721
 },
 {
 "id": "meta-structure-055",
@@ -32233,7 +43155,8 @@ window.QR_CARTES = [
 "Dans la relance, où elles coûtent moins."
 ],
 "bonne": 1
-}
+},
+"num": 722
 },
 {
 "id": "meta-structure-056",
@@ -32266,7 +43189,8 @@ window.QR_CARTES = [
 "Moitié marque, moitié page tierce."
 ],
 "bonne": 3
-}
+},
+"num": 723
 },
 {
 "id": "meta-structure-057",
@@ -32299,7 +43223,8 @@ window.QR_CARTES = [
 "Dans l'enchère : fixer une enchère max."
 ],
 "bonne": 2
-}
+},
+"num": 724
 },
 {
 "id": "meta-structure-058",
@@ -32332,7 +43257,8 @@ window.QR_CARTES = [
 "Ajouter une vente en plus et des emails."
 ],
 "bonne": 0
-}
+},
+"num": 725
 },
 {
 "id": "meta-structure-059",
@@ -32365,7 +43291,8 @@ window.QR_CARTES = [
 "Couper la campagne."
 ],
 "bonne": 1
-}
+},
+"num": 726
 },
 {
 "id": "meta-structure-060",
@@ -32398,7 +43325,8 @@ window.QR_CARTES = [
 "Ils divergent : non pour l'un, oui pour l'autre."
 ],
 "bonne": 3
-}
+},
+"num": 727
 },
 {
 "id": "meta-structure-061",
@@ -32431,7 +43359,8 @@ window.QR_CARTES = [
 "Elles s'accordent : ni l'un ni l'autre, flexible ads."
 ],
 "bonne": 0
-}
+},
+"num": 728
 },
 {
 "id": "meta-structure-062",
@@ -32470,7 +43399,8 @@ window.QR_CARTES = [
 ],
 "bonne": 0
 }
-]
+],
+"num": 729
 },
 {
 "id": "meta-structure-063",
@@ -32503,7 +43433,8 @@ window.QR_CARTES = [
 "Tout passer en cost cap."
 ],
 "bonne": 2
-}
+},
+"num": 730
 },
 {
 "id": "meta-structure-064",
@@ -32536,7 +43467,8 @@ window.QR_CARTES = [
 "De ton nombre de campagnes."
 ],
 "bonne": 1
-}
+},
+"num": 731
 },
 {
 "id": "meta-structure-065",
@@ -32569,7 +43501,8 @@ window.QR_CARTES = [
 "Une limite de dépense ou une règle."
 ],
 "bonne": 3
-}
+},
+"num": 732
 },
 {
 "id": "meta-structure-066",
@@ -32603,7 +43536,8 @@ window.QR_CARTES = [
 "L'argent des clients après les fêtes."
 ],
 "bonne": 0
-}
+},
+"num": 733
 },
 {
 "id": "meta-structure-067",
@@ -32636,7 +43570,8 @@ window.QR_CARTES = [
 "Doubler le budget pour remonter."
 ],
 "bonne": 2
-}
+},
+"num": 734
 },
 {
 "id": "meta-structure-068",
@@ -32668,7 +43603,8 @@ window.QR_CARTES = [
 "q": "Un gourou te vend sa méthode d'enchère max (bid cap) alors que tu n'as pas encore d'angle gagnant. Que répond Evolve ?",
 "type": "rappel"
 }
-]
+],
+"num": 735
 },
 {
 "id": "meta-structure-069",
@@ -32701,7 +43637,8 @@ window.QR_CARTES = [
 "Mettre plus de budget par produit."
 ],
 "bonne": 1
-}
+},
+"num": 736
 },
 {
 "id": "meta-structure-070",
@@ -32734,6 +43671,7 @@ window.QR_CARTES = [
 "Elles divergent : volume ou qualité selon la source."
 ],
 "bonne": 3
-}
+},
+"num": 737
 }
 ];
