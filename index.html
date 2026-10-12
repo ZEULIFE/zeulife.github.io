@@ -348,9 +348,9 @@ body.panique .chaos{animation:chaos-bouge 1s steps(1) infinite}   /* plus vite �
 <div class="prog" id="prog" hidden><i></i></div>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>window.OneSignalDeferred = window.OneSignalDeferred || []; OneSignalDeferred.push(async function(OneSignal){ await OneSignal.init({ appId: "601d4571-b213-41a3-80cc-f159841528f0" }); });</script>
-<script src="logo.js?v=202610120156"></script>
-<script src="questions.js?v=202610120156"></script>
-<script src="cartes.js?v=202610120156"></script>
+<script src="logo.js?v=202610120217"></script>
+<script src="questions.js?v=202610120217"></script>
+<script src="cartes.js?v=202610120217"></script>
 <script>
 (function(){
   var CFG = window.QR_CONFIG || {niveaux:{}, themes:[]};
@@ -438,7 +438,7 @@ body.panique .chaos{animation:chaos-bouge 1s steps(1) infinite}   /* plus vite �
     clearInterval(chronoMinuteur); chronoCle = null; document.body.classList.remove("stress", "panique", "mode-flash");
     prog.hidden = true; rafraichir = accueil;
     var l = de(), du = l.filter(aRevoir).length, acq = l.filter(maitrise).length;
-    var h = LOGO.replace('class="logo"', 'class="logo grand"') + '<div class="kicker">Second cerveau · OBSIDIAN-KB</div><h1>Mes cartes</h1><p class="lead">Comme au code : une question, 3 réponses, tu valides. Séries de 40, réussi à 35.</p>';
+    var h = LOGO.replace('class="logo"', 'class="logo grand"') + '<div class="kicker">Second cerveau · OBSIDIAN-KB</div><h1>Tout réussir ou rien</h1>';
     // Bouton des notifications : toujours au même endroit, juste sous le titre, il ne disparaît jamais (Trésor, 07/10/2026).
     // Site public seulement : là où le SDK OneSignal est chargé.
     var aSdk = !!window.OneSignalDeferred, horsIcone = !(navigator.standalone || (window.matchMedia && matchMedia("(display-mode: standalone)").matches));
@@ -1042,7 +1042,7 @@ body.panique .chaos{animation:chaos-bouge 1s steps(1) infinite}   /* plus vite �
     if (recordBattu){ G.recordFlash = scoreJoue; sauverJeu(); }
     document.body.classList.remove("stress", "panique", "mode-flash");
     var reussi = J.length && n[3] / J.length >= REUSSI;
-    var mot = reussi ? "Réussi." : "Pas encore. Il faut 35 sur 40 (88 %), comme au code.";
+    var mot = reussi ? "Réussi." : "Pas encore. Il faut 35 sur 40 (88 %).";
     var h = '<div class="top"><button class="x" data-x>‹ Retour</button>'+LOGO+'<span class="count">résultats</span></div>';
     h += '<div class="kicker">'+esc(s.titre)+'</div><h1>'+n[3]+' / '+J.length+'</h1><p class="lead">'+mot+' '+score+' % de bonnes réponses du premier coup.</p>';
     h += '<div class="stats"><div class="stat ok"><b>'+n[3]+'</b><span>du 1er coup</span></div><div class="stat"><b>'+n[2]+'</b><span>j\'ai hésité</span></div><div class="stat hot"><b>'+n[1]+'</b><span>ratées</span></div></div>';
